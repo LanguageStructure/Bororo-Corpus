@@ -1,14 +1,14 @@
 # bororo
 
-This repository contains tools and resources for the computational processing of Bororo. 
+This repository
 
 
 BibTex reference format:
 
 ```
 @inproceedings{stil,
- author = {Ferraz Gerardi, Fabrício},
- title = {???: A Tool for Morphosyntactic Analysis of Bororo within the Universal Dependencies Framework},
+ author = {Ferraz Gerardi, Fabrício and Sollberger, Dolores and Toribio, Lucas},
+ title = {Bororo Corpus},
  booktitle = {???},
  location = {},
  year = {2024},
