@@ -5,6 +5,7 @@ This repository contains tools and resources for the computational processing of
 
 BibTex reference format:
 
+```
 @inproceedings{stil,
  author = {Ferraz Gerardi, Fabrício},
  title = {???: A Tool for Morphosyntactic Analysis of Bororo within the Universal Dependencies Framework},
@@ -18,3 +19,4 @@ BibTex reference format:
  doi = {},
  url = {}
 }
+```
