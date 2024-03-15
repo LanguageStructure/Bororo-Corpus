@@ -2,6 +2,8 @@
 
 This repository
 
+Sentences of the Bororo corpus are being annotated in the [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu)
+
 
 BibTex reference format:
 
