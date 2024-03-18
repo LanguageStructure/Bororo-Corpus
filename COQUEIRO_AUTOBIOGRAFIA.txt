@@ -1,4 +1,4 @@
-# METADATA
+# [METADATA]
 
 # título - Frederico Coqueiro autobiografia
 # língua - bilíngue
@@ -6,7 +6,7 @@
 # ano - 1982
 # autor - Frederico Coqueiro & Gonçalo Ochoa
 
-# METADATA
+# [METADATA]
 
 I. NOMES 
 
