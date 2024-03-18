@@ -1,6 +1,12 @@
-FREDERICO COQUEIRO    AUTOBIOGRAFIA   Texto Bilíngue
-MERURI, 1.982.
+# METADATA
 
+# título - Frederico Coqueiro autobiografia
+# língua - bilíngue
+# local - Meruri
+# ano - 1982
+# autor - Frederico Coqueiro & Gonçalo Ochoa
+
+# METADATA
 
 I. NOMES 
 
