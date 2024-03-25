@@ -4,6 +4,8 @@ This repository contains the Bororo Corpus
 
 The Bororo Corpus is edited by Fabrício Ferraz Gerardi, Dolores Sollberger, and Lucas Toribio
 
+Check [this file](https://github.com/LanguageStructure/Bororo-Corpus/blob/main/Instructions.md) before using the Bororo Corpus.
+
 Sentences of the Bororo corpus are being annotated in the [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu)
 
 
