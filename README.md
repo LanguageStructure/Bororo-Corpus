@@ -1,4 +1,4 @@
-# Bororo Corpus _BoeTex_
+# Bororo Corpus _TeLiBoe_
 
 Bem-vindo ao corpus Bororo **_BoeTex_** da língua [Bororo]()! Esta coleção curada serve como um recurso fundamental para a pesquisa sobre a língua e cultura Bororo. Compreendendo uma variedade diversificada de textos (histórias, mitos, material de trabalho de campo, traduções da bíblia, canções tradicionais, etc.), que encapsulam a riqueza e nuances da língua. Seja você um linguista, pesquisador ou entusiasta de línguas, este corpus fornece insights inestimáveis sobre a gramática, vocabulário e contexto cultural do Bororo. Com sua natureza de acesso aberto, este corpus convida à colaboração e exploração, fomentando uma comunidade dedicada ao avanço de nossa compreensão dessas fascinantes língua e cultura. Sentenças do corpus Bororo estão sendo anotadas no [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu).
 
