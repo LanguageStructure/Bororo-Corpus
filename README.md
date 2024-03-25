@@ -1,6 +1,6 @@
 # bororo
 
-This repository contains the Bororo Corpus
+The Bororo-Corpus
 
 The Bororo Corpus is edited by Fabrício Ferraz Gerardi, Dolores Sollberger, and Lucas Toribio
 
