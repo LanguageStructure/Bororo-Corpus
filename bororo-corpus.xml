@@ -1,10 +1,34 @@
-# Título: Oieigo Jiwy Bakaru
-# Fonte: Padre Gonçalo Ochoa SDB
-# Autor:
-# Ano:
-# Edição:
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   
+  <header>
+        Bororo Corpus BOLIOCOR
+    </header>
+   
+  <data>
+        <!-- Insert data elements here -->
+    </data>
+   
+
+<título> 
+ Oieigo Jiwy Bakaru
+</título>
+  
+<fonte> 
+Padre Gonçalo Ochoa SDB
+</fonte> 
 
 
+<autor> 
+</autor>
+
+<ano> 
+</ano>
+
+<edição> 
+</edição>
+
+<OieigoJiwyBakaru>
 Ia imedy uwogure.
 nowy imedy iere Meriri Baru (Paiwedu).
 Icare karore togwa to ji.
@@ -39,67 +63,73 @@ Akedu kejere icare Tadugore tugera bu Ki Bakororo ao keje, akore:
 Oieigo jetuiaga, Bokodoriware iga oieigo wararere, tagaruia Bokuojeba Bakororo tuiagajejewu onawuio okwabijire. Oieigo jetuiaga”.
 Dykeje icare ere roia ta ji. Dykeje icare emagore nowy cimo nonogoji, emagore nowy cimo kidoguru ji, emagore nowy cimo kiogoagiri ji, emagore nowy cimo kuje boji, emagore nowy cimo nabure buji, emagore nowy cimo nabure oiagaji, kuido oiagaji, emagore nowy cimo nabure aroji, kuido aroji, emagore nowy tuie kejewu ciwaboe etoiaga ji, emagore tuguie bokodoriji, emagore tuguie akigu ji, emagore tuguie meriri ji, emagore uworo aroecebaji, emagore tuworo kurugugaji, emagore tui aroedu puje dyji, emagore tuwiadawu cugui biri ji, emagore tadugo Bakororo atugoji, emagore turijo oinono pureore dyji, emagore tuwaiga ao keje duji, emagore Aije ji. 
 
-
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+</OieigoJiwyBakaru>
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+  
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
-# Título: 
-# Fonte:
-# Autor:
-# Ano:
-# Edição:
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
 
 
+<título> </título> 
+<fonte> </título>
+<autor> </autor >
+<ano> </ano >
+< edição > </edição >
+
+ <footer>
+        <!-- Insert footer information here -->
+    </footer>
+</root>
