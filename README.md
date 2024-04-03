@@ -15,7 +15,7 @@ Check [this file](https://github.com/LanguageStructure/Bororo-Corpus/blob/main/I
 
 
 
-## Citar o BoeTex / Cite BoeTex
+## Citar o BOLACOR / Cite BOLACOR
 
 The Bororo Corpus is edited by [Fabrício Ferraz Gerardi](https://languagestructure.github.io), Dolores Sollberger, and Lucas Toribio
 
