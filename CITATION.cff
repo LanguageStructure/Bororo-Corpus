@@ -1,0 +1,10 @@
+@misc{corbo2024.01
+  author       = {Ferraz Gerardi, Fabrício and Sollberger, Dolores and Toribio, Lucas},
+  title        = {{Corpus Bororo (CorBo)}},
+  month        = {06},
+  year         = {2024},
+  doi          = {10.5281/zenodo.xxxxxxx},
+  url          = {https://zenodo.org/record/xxxxxxx},
+  note         = {Version 0.1},
+  howpublished = {\url{https://github.com/LanguageStructure/Bororo-Corpus}}
+}
