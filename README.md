@@ -37,8 +37,8 @@ Bororo| bor | boro1282
 Name | Affiliation | Github
 ------|------|----------
 Fabrício Ferraz Gerardi| University of Tübingen | @languagestructure
-Dolores Sollberger| University of Tübingen | @
-Lucas Toribio| University of Tübingen | @
+Dolores Sollberger| University of Tübingen | @doloresollberger
+Lucas Toribio| University of Tübingen | @lucasdetroit
 
 
 
