@@ -1,10 +1,17 @@
-@misc{corbo2024.01
-  author       = {Ferraz Gerardi, Fabrício and Sollberger, Dolores and Toribio, Lucas},
-  title        = {{Corpus Bororo (CorBo)}},
-  month        = {06},
-  year         = {2024},
-  doi          = {10.5281/zenodo.xxxxxxx},
-  url          = {https://zenodo.org/record/xxxxxxx},
-  note         = {Version 0.1},
-  howpublished = {\url{https://github.com/LanguageStructure/Bororo-Corpus}}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ferraz Gerardi"
+  given-names: "Fabrício"
+  orcid: "https://orcid.org/0000-0002-1438-7336"
+- family-names: "Sollberger"
+  given-names: "Dolores"
+  orcid: "https://orcid.org/0009-0000-9584-5767"
+- family-names: "Toribio"
+  given-names: "Lucas"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Corpus Bororo (CorBo)"
+version: 0.1
+doi: 
+date-released: 2024-06-18
+url: "https://github.com/LanguageStructure/Bororo-Corpus"
