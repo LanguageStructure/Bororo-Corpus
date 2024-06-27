@@ -1,12 +1,16 @@
 # Corpus Bororo _CorBo_
 
-Bem-vindo ao Corpus Bororo **_CorBo_**! Esta coleção curada serve como um recurso fundamental para a pesquisa sobre a língua e cultura Bororo. Compreendendo uma variedade diversificada de textos (histórias, mitos, material de trabalho de campo, traduções da bíblia, canções tradicionais, etc.). Seja você um linguista, pesquisador ou entusiasta de línguas, este corpus fornece insights inestimáveis sobre a gramática, vocabulário e contexto cultural do Bororo. O corpus Bororo estão sendo anotadas no [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu).
+Bem-vindo ao Corpus Bororo **_CorBo_**! Esta coleção curada serve como um recurso para a pesquisa sobre a língua e cultura Bororo. Compreendendo uma variedade diversificada de textos (histórias, mitos, material de trabalho de campo, traduções da bíblia, canções tradicionais, etc.). Seja você um linguista, pesquisador ou entusiasta de línguas, este corpus fornece insights inestimáveis sobre a gramática, vocabulário e contexto cultural do Bororo. O corpus Bororo estão sendo anotadas no [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu).
+
+Acesse o corpus (versão preliminar) [aqui](https://boeenomoto.pythonanywhere.com/corpus/index.html)
 
 
 
 ---
 
 Welcome to the Corpus Bororo **_CorBo_**! This curated collection serves as a foundational resource for the research on Bororo language and culture. It comprises a diverse array of texts (stories, myths, fieldwork material, bible translations, traditional songs etc.). Whether you're a linguist, researcher, or language enthusiast, this corpus provides invaluable insights into the grammar, vocabulary, and cultural context of Bororo. The Bororo corpus are being annotated in the [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu)
+
+Access the corpus (preliminary version) [aqui](https://boeenomoto.pythonanywhere.com/corpus/index.html)
 
 ---
 
