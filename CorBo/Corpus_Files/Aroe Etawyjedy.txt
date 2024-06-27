@@ -7,9 +7,9 @@ Icare boecodure , icare barogwa kododyre .
 
 Dykeje icare eture tuwobe emuga kae , egore : Nogware kugure , cegodo toro . Boe baado . Ceregodymode pagagu aroe etae .
 
-Icare egore : Irogody kowu .
+Icare egore : Irogody kowy .
 
-Icare ere irogody kowu .
+Icare ere irogody kowy .
 
 Icare eregodyre Meriribaru ae , eregodyre Kuruguga ae . Icare ere ekujagudo . Icare ere eporaido , ere okwa akirido; ere ekera ra paru codo , ere okwa akirido; ere ewure ra paru codo , ere okwa akirido . Icare ere pariko tugu etaoto , ere tôro kogudo ekajeje . Icare eture ebo bororo kae .
 
@@ -19,7 +19,7 @@ Ere tuie to woe , tuie to woe . Ere tamudo ty aroe ao keje .
 
 Akore : Imedumage , tarego bapo kae , tawo maku Tugarege etai , eragodywo tuiadu paru ji .
 
-Icare Tugarege eiamedu eragodyre (KIDOGURU PARA , ROIA GIGUDU de Bakoro Ecerae) .
+Icare Tugarege eiamedy eragodyre (KIDOGURU PARA , ROIA GIGUDU de Bakoro Ecerae) .
 
 Akedure icare , ere tura kado . Icare cewu aroe etuo aregodyre , ure tumugudo ty ewure paru . Ere cimo pariko , ere tuwabo , ere makai ty .
 
@@ -37,7 +37,7 @@ Jerigi Otojiwu rekodure Butoregadu ae , ure tugeragu ji , kodo apo jii tuwobe et
 
 Akaruio Bokododri (Bak .) rekodure Kaigu ae , kodo apo jii ... Tuwobe etae .
 
-Dykejere icare ere tugeragu Iwagududoge eiameduji , ime , areme eiameduji , ere erego baito .
+Dykejere icare ere tugeragu Iwagududoge eiamedyji , ime , areme eiamedyji , ere erego baito .
 
 Akaruio Bokodori rekodure Meriribaru (Paiwedu) ae , rekodure Kuruguga (Ap .) ae (Adugodoge eimejeragere emage) .
 
@@ -57,7 +57,7 @@ Dykeje icare Meriri Baru (Adugo Meri) akogodyre : Buri buri buri ...
 
 Dykeje icare metuia Kuruguga (Adugo Meri) akogodyre : Buri buri buri ...
 
-Dykeje icare Iwagududoge eiamedu (ime , areme) akogodyre .
+Dykeje icare Iwagududoge eiamedy (ime , areme) akogodyre .
 
 Boeco paruji egogodyre . Boeco paruji adugodoge egogodyre .
 
@@ -65,13 +65,13 @@ Ba aregody keje , ere pu jetadudo . Nonore adugodoge ere pu jetadudo , tagogodyw
 
 Nonore icare Tadugo akogodyre mito ty je , akore : Bu ... bu ... bu ...
 
-Nonore icare eiamedu akogodyre .
+Nonore icare eiamedy akogodyre .
 
 Barogwa rore já tuku , egoino dykeje .
 
-Icare erore ta ... Toro boeto tuiamedu tabo , tuiorubo kae , kado kae , bai kae jamedy .
+Icare erore ta ... Toro boeto tuiamedy tabo , tuiorubo kae , kado kae , bai kae jamedy .
 
-Nowu Akaruio Boroge , nowy Mamuiawugeceba , nowy Jerigi Otojiwu , etuwage ipare eiamedu eture kado kae , eture bai kae , nowy adugodoge eigace .
+Nowu Akaruio Boroge , nowy Mamuiawugeceba , nowy Jerigi Otojiwu , etuwage ipare eiamedy eture kado kae , eture bai kae , nowy adugodoge eigace .
 
 Dykejere icare etaregodyre nowy kado tabo , bai tabo , Meri jetui woe pagudu jitu tabo .
 
@@ -143,7 +143,7 @@ Akore : Boe puredumodykare orei , utugaregei , uwagei .
 
 Akore : Imedu Kuri Marugody emare etaidugodymode ji , egigigodymode ji . Du jire ire tawie oino ty je .
 
-Dykejere Akaruio Bokodori akore : Imedumage , itore , iwage , tarego bapo kae . Bapo maku Tugarege eiamedu ai , eragodywo tuiedaga paruji .
+Dykejere Akaruio Bokodori akore : Imedumage , itore , iwage , tarego bapo kae . Bapo maku Tugarege eiamedy ai , eragodywo tuiedaga paruji .
 
 Icare eragodyre Bakoro Ecerae ekeroiaji (KIDOGURU PARA , ROIA GIGUDU) .
 
@@ -244,7 +244,7 @@ Dykejere Iwagududoge ime , areme . Dykejere Arore Cebegiwuge ime , areme .
 
 Dykejere barogwa kododyre etagedu keje . Ere tugera ra nowy Ke piji , ere buredo tuku , nowy bororo keje rugadu .
 
-Nowu Bakororodoge etui nowy Ke tabo dykeje ere todomo nowy iparei tuiamedu tabo .
+Nowu Bakororodoge etui nowy Ke tabo dykeje ere todomo nowy iparei tuiamedy tabo .
 
 Nowu Bakororodoge etumode nowy Ke tabo dykeje , ere todomo ty , todomo ty nowy iparei , erijowo nono nowy maridore .
 
@@ -323,7 +323,7 @@ Egore : Bokodori .
 
 Egore : U ! Kirabodu .
 
-Egore : Irogody kowu .
+Egore : Irogody kowy .
 
 Egore : Ia nonogorogu kugududo .
 
@@ -374,7 +374,7 @@ Nonore icare ere twuredo ca ! Egore : M… ! Tui tuwuredo dykeje .
 
 Ca ! Icare Kaigu , Ki bakororo , ere etôro kiwuje epiji , ere kuruguga ta etao piji , ere pariko kiwuje etao piji , icare ere jeto ty aroe ao keje .
 
-Icare Kaigu , Ki Bakororo emagogodyre tuwiemagei , egore : Tarego bapo kae . Bapo maku Tugarege eiamedu ai , eragodywo tuiadumage eparuji .
+Icare Kaigu , Ki Bakororo emagogodyre tuwiemagei , egore : Tarego bapo kae . Bapo maku Tugarege eiamedy ai , eragodywo tuiadumage eparuji .
 
 Ere pariko tugu etaoto .
 
@@ -415,7 +415,7 @@ Dykejere icare ere etaimo nowy aroe keje .
 
 Icare ere turagojedo ...
 
-Dykejere icare Kaigu makore tuwiemagei , agore :Imedumage , tarego bapodoge etae , tawo bapo maku Tugarege etai , eiamedu eragodywo tuiaduji . Tuiadu KIDOGURU PARA , tuiadu ROIA GIGUDU 
+Dykejere icare Kaigu makore tuwiemagei , agore :Imedumage , tarego bapodoge etae , tawo bapo maku Tugarege etai , eiamedy eragodywo tuiaduji . Tuiadu KIDOGURU PARA , tuiadu ROIA GIGUDU 
 
 Dykejere nowy aroe uo aregodyre , ure tumugudo ewure paru . Icare ere nowy cimo pariko , nowy tuwabo , ere makai ty ... Ca ! Imadure tabo ty ... icare uture tabo toro bato , toro tuieda kae . Ure jeto ty tuieda keje .
 
@@ -426,7 +426,7 @@ Boeco paruji , Kaigu uwadodyre Meriri Baru ae , Akaruio Boroge (Ap .) ae , Birim
 
 Nowu aredu jire boe egore Okoge Etoreduje .
 
-Nonore icare Kaigu makore Iwagududoge eiamedu ae : Ime , ipare , etae .
+Nonore icare Kaigu makore Iwagududoge eiamedy ae : Ime , ipare , etae .
 
 Uwadodyre aredu ae mito ty je , duwudore iere Okoge Etoreduje .
 
@@ -440,7 +440,7 @@ Akore : Kodire inagoino , iorubodare Okoge Enogwa Tabowu akae .
 
 Tabado nono . Taedo nono . Tamugu nono . Tagonagodyre tai tagado taerubo bogai duji .
 
-Nonore icare makore nowy Iwagududoge eiamedu boe ae , ipare , ime , eiamedu boe ae : Ia eegigudu , ia eetawudu padukare .
+Nonore icare makore nowy Iwagududoge eiamedy boe ae , ipare , ime , eiamedy boe ae : Ia eegigudu , ia eetawudu padukare .
 
 Kaigu akore : Kodire inagoino tagae : tarodo taci toro taerubo kae , tagiogowo tai , tawo tado tarugadu inagu aroe etogi , taduruwo tarerugodyi inagu aroe ebo duji .
 
@@ -448,8 +448,8 @@ Icare enudure .
 
 Icare barogwa kododyre .
 
-Icare ipare eture Kaigu uwai kae , egore : Nogware kugure , tare irogody kowu ? .
-Egore : Cere kowu . Akedure marigudu .
+Icare ipare eture Kaigu uwai kae , egore : Nogware kugure , tare irogody kowy ? .
+Egore : Cere kowy . Akedure marigudu .
 
 Egore : Noware turugadu jamedy .
 
@@ -493,11 +493,11 @@ Dykejere ere tugera kogudo oino tugo kajeje ty .
 
 Icare ere turagojedo taci . Icare eture ebo toro Kaigu uwai kae .
 
-Icare ere nonogo tugu eto . Ere eiamedu kujagudo taci .
+Icare ere nonogo tugu eto . Ere eiamedy kujagudo taci .
 
 Icare ere bukigu upodo kado tabo , ere koborido ty tu tureore .
 
-Nono Bokodori Ecerae eiamedure ere Iwagududoge edugodo okoge ebo (Ere okoge edugo tugu Iwagududogei) .
+Nono Bokodori Ecerae eiamedyre ere Iwagududoge edugodo okoge ebo (Ere okoge edugo tugu Iwagududogei) .
 
 Cewu Paiwedu nonogo awadure tugudure to . Nowy jamedy kujagure : je kujagure , ao kujagure , biri kujagure , jamedy kujagure .
 
@@ -509,9 +509,9 @@ Nowu noware nowy Apiboregedu uporai rema . Okwa noware taci , iera noware , bure
 
 Nowu Birimodo rugadure , atugore irogody tabo .
 
-Eiamedure ino jamedy . Iwagududoge eiamedu iera ra paru core , bure ra paru core , eporai core , enogwa core . Etadugore irogody tabo , tuiamedu tabo .
+Eiamedyre ino jamedy . Iwagududoge eiamedy iera ra paru core , bure ra paru core , eporai core , enogwa core . Etadugore irogody tabo , tuiamedy tabo .
 
-Icare ere kiogoaro kogudo eiamedu iera ra paru kajeje , eiamedu kana kajeje . Ere ciwaboe etoiaga bu cewu Okoge Cibaiari kudu keje; nabure etoiaga padure ciwaboe etoiaga oiagi; meriri padure kudu keje , pariko cibaiari kogure aogajeje .
+Icare ere kiogoaro kogudo eiamedy iera ra paru kajeje , eiamedy kana kajeje . Ere ciwaboe etoiaga bu cewu Okoge Cibaiari kudu keje; nabure etoiaga padure ciwaboe etoiaga oiagi; meriri padure kudu keje , pariko cibaiari kogure aogajeje .
 
 Cewu Okoge Kigadurewy , ciwaboe etoiaga padure je keje , bokodori inegi padure kudu keje .
 
@@ -519,7 +519,7 @@ Cewu Birimodo , ciwaboe etoiaga padure je keje , bokodori inegi padure kudu keje
 
 Ceu Okoge Etoreduje keje , oinore akigu padure , batagaje juko bu padure keje . Bokodori inegi padure keje . Ciwaboe etoiaga padure je keje . Kuido oiagare padure nowy ciwaboe etoiaga oia keje . Bokodori inegi padure kudu keje jamedy . Iedure aroe etugoji .
 
-Ere pariko tugu eiamedu aoto . Ere tôro kogudo eiamedu kajeje .
+Ere pariko tugu eiamedy aoto . Ere tôro kogudo eiamedy kajeje .
 
 Ere butore kogudo nowy Okoge Kujagurewy bure ra paru kajeje , ere butore kogudo nowy Okoge Kigadurewy bure ra paru kajeje
 
@@ -559,7 +559,7 @@ Icare nowy Bokodori Ecerae ere etoro kiwuje , ere nowy kiogoaro kiwuje , ere par
 
 Ere etagedudo , icare ere nowy enoroe jeto nowy aroe ao keje .
 
-Icare Kaigu , Aromerere , emagore tuwiemagei , egore : Imadumage , tarego bapo kae . Bapo maku Tugarege eiamedu ai , nowy Okogere emawuge eiamedu ai , eragodywo tuiaduji , tuiadu JURE KIAJI . (Jure Kia jire Tugarege eragodyre) .
+Icare Kaigu , Aromerere , emagore tuwiemagei , egore : Imadumage , tarego bapo kae . Bapo maku Tugarege eiamedy ai , nowy Okogere emawuge eiamedy ai , eragodywo tuiaduji , tuiadu JURE KIAJI . (Jure Kia jire Tugarege eragodyre) .
 
 Icare eragodyre jii ... Boeco oia kae .
 
@@ -639,7 +639,7 @@ Icare , aregodyre paru kae dykeje , Baramere ure tôro kiwuje piji , ure pariko 
 
 Akore : Ca ! Nege kugure , tarego bapo kae .
 
-Akore : Bapo maku Tugarege eiamedu ai eragodywo tuiadu paruiaji .
+Akore : Bapo maku Tugarege eiamedy ai eragodywo tuiadu paruiaji .
 
 Ca ! Icare eragodyre .
 
@@ -778,7 +778,7 @@ Boe pemegarewy reo , mare awu boe ekare tawyje pugeje .
 
 Boe edugore tuginoi tuginoi , dure pare akedudo .
 
-Mare enogwa akirire tuiamedu tabo , ekera akirire tuiamedu tabo , turubare akiri .
+Mare enogwa akirire tuiamedy tabo , ekera akirire tuiamedy tabo , turubare akiri .
 
 Boere motudo . Maridoji boere awu tadugo tugu pudui . Kado Rairewy ji boere awu tadugo tugu pudui .
 
@@ -1121,7 +1121,7 @@ Dykeje icare ere togwa ra piji .
 
 Dykejere Ino Kuri akogodyre , akore : m m m ... Tui togwa ra piji dykeje .
 
-Icare nowy umanamage egore : Pugeje ! Pgeje ! Pawo pagogwa tugu to paiamedu tabo .
+Icare nowy umanamage egore : Pugeje ! Pgeje ! Pawo pagogwa tugu to paiamedy tabo .
 
 Icare ere togwa tugu to :	Ji ji ji ji ji ...
    Ci ci ci ...
@@ -1138,7 +1138,7 @@ Meri rekodu tabo , Ki Bakororo uwadodyre Tadugo ae .
 Akore : Kodire inagoino , iorubodare Tadugo akae , akado aerubo bogai .
 
 Kodire inagoino , iorubodare Butoregadu ake , akado aerubo bogai .
-Akore : Kodire inagoino , nogware kugure tagae . Irogody kowu boecoto ca kuri je . Tagado nowy bogai , tawo udo turugadu . Akore .
+Akore : Kodire inagoino , nogware kugure tagae . Irogody kowy boecoto ca kuri je . Tagado nowy bogai , tawo udo turugadu . Akore .
 
 Icare boecodure . Icare barogwa kododyre .
 
@@ -1176,7 +1176,7 @@ Ere tuwuredo ty je , dykeje icare egore : M ... Tui tuwuredo dykeje…
 
 Icare ere tôro kiwuje epiji , ere aroeceba ta etao piji , ere pariko kiwuje etao piji , ere kiogoaro kiwuje ekana piji . Ere jeto ty , nowy aroe ao keje .
 
-Icare nowy Ki Bakororo makogodyre tuwiemagei , akore : Tarego bapo kae . Icare etaregodyre bapo tabo , ere maku etai . Tugarege eiamedu ai .
+Icare nowy Ki Bakororo makogodyre tuwiemagei , akore : Tarego bapo kae . Icare etaregodyre bapo tabo , ere maku etai . Tugarege eiamedy ai .
 
 Icare eragodyre
 
@@ -1195,21 +1195,21 @@ Akore : Kodire inagoino , iorubodare Butoregadu akae .
 
 Tagonagodyre tai tagado taerubo bogai duji . 
 
-Dykeje icare ure togwa maedo eiamedu joki : Areme , ipare , ime eiamedu , akore : Tadudo taerubo kae .
+Dykeje icare ure togwa maedo eiamedy joki : Areme , ipare , ime eiamedy , akore : Tadudo taerubo kae .
 
 Icare boecodure .
 
-Icare barogwa kododyre , icare Iwagududoge eiamedu ure taodo toro iturato , kurugato , tuiorubo bogai . Ewogware toro jiii je .
+Icare barogwa kododyre , icare Iwagududoge eiamedy ure taodo toro iturato , kurugato , tuiorubo bogai . Ewogware toro jiii je .
 
 Dykejere icare etaregodyre . Ee padure duru ru ru ru ru . Ere tudo nono jure ruture .
 
 Etaregodyre bato . Meri jeture pagudu jitu tabo etaregodyre .
 
-Eiamedu boe ere turugadu , emearydy awadure pudui taregody tabo .
+Eiamedy boe ere turugadu , emearydy awadure pudui taregody tabo .
 
-Etaregodyre tuie ro tabo . Eegarere , emearydy awadure pudui , aroe emedure eiamedu uwabo tada kodi .
+Etaregodyre tuie ro tabo . Eegarere , emearydy awadure pudui , aroe emedure eiamedy uwabo tada kodi .
 
-Ca ! Meri kodo jii ... Meri rore kroci pagaia joki (1 h) , dykejere icare ere cewu tuiorubo kowu .
+Ca ! Meri kodo jii ... Meri rore kroci pagaia joki (1 h) , dykejere icare ere cewu tuiorubo kowy .
 
 Icare ere iado .
 
@@ -1245,7 +1245,7 @@ Ure baporogu kiado ei pugeje : Cugu cugu ...
 
 Du tonajire ekudugodyre : Ka ! Ka ! Ka ... !
 
-Tuiamedu tabore ekudugodyre .
+Tuiamedy tabore ekudugodyre .
 
 Nowu tugudugody akedu keje , egogodyre , egore : M m m m m ...
 
@@ -1267,9 +1267,9 @@ Dykeje icare Ki Bakororore tôro kiwuje epiji , ure kaidaga kiwuje epiji , ure p
 
 Ure etaimo . Ure ewirido nono aroe keje , ure etaimo .
 
-Dykeje icare ere turagojedo . Icare ere togwamu boei , boe eiameduji : Pf… !
+Dykeje icare ere turagojedo . Icare ere togwamu boei , boe eiamedyji : Pf… !
 
-Icare Ki Bakororo akore : Ca ! imedumage , iwage , tarego bapo kae , tawo maku Tugarege eiamedu ai . Pariko tugu eiamedu aoto , eragodywo tuiaduji .
+Icare Ki Bakororo akore : Ca ! imedumage , iwage , tarego bapo kae , tawo maku Tugarege eiamedy ai . Pariko tugu eiamedy aoto , eragodywo tuiaduji .
 
 Icare eragodyre .
 
@@ -1343,7 +1343,7 @@ Nonore icare Ki Bakororo ure tôro kiwuje epiji , ure kiogoaro kiwuje epiji , ur
 
 Ca ! Nonore icare etaimodyre . Ere taimo ty aroe keje .
 
-Meri rekodu tabo icare KI Bakororo makogodyre tuwiemagei , akore : Imedumage , tagado pariko bogai , tarego bapo kae , tawo pariko , bapo , maku Tugarege eiamedu ai , eragodywo turegodaji . Icare eregodyre bapo kae , ere maku Tugarege etai , ere pariko tugu etaoto .
+Meri rekodu tabo icare KI Bakororo makogodyre tuwiemagei , akore : Imedumage , tagado pariko bogai , tarego bapo kae , tawo pariko , bapo , maku Tugarege eiamedy ai , eragodywo turegodaji . Icare eregodyre bapo kae , ere maku Tugarege etai , ere pariko tugu etaoto .
 
 Icare eragodyre .
 
@@ -1502,7 +1502,7 @@ Akore : Bakororo pijina mato kurio cedoworo aicoio akaru kae .
 
 Ipare egore : A… ! A… !
 
-Meri rutu tabore icare eture kae . Ecerae eiamedu rore taci toro iturato , nowy noidoguruto oro bogai .Icare ere tugeragu ji . Oinore erore ji . Ere oro kado , ere nowy oro rawyje cira piji . Icare ere kogudo . Ere tado kodudu bogai nowy tôro kogace . Ere tado pagaji ikuredu bogai , nowy toro okwa jowo to , koguwo tabo .
+Meri rutu tabore icare eture kae . Ecerae eiamedy rore taci toro iturato , nowy noidoguruto oro bogai .Icare ere tugeragu ji . Oinore erore ji . Ere oro kado , ere nowy oro rawyje cira piji . Icare ere kogudo . Ere tado kodudu bogai nowy tôro kogace . Ere tado pagaji ikuredu bogai , nowy toro okwa jowo to , koguwo tabo .
 
 Icare akedure , dykejere icare eture tabo .
 
@@ -1800,7 +1800,7 @@ Akore :	Kaga kaga gae ga ga ga gae
 
 Dykeje icare cewu Jeware ekudugodyre tuwai keje pugeje (Apiborege ewai keje) .
 
-Mare eiamedu kudugodykare . Kurugugare kudugodyre mito ty je .
+Mare eiamedy kudugodykare . Kurugugare kudugodyre mito ty je .
 Nowu metuia Meriri Baru kudugodykare .
 
 Parikore jamedy imo rema ty je .
@@ -1811,7 +1811,7 @@ Akore :	Kaga ga ... E . Kaga gae ... Ka gagagagagae !
    Kagae kagae ga ! 
    M m m ...
    
-Eiamedukare eregodykare : Emeru nure goro goro awaraji , toro bororo kae .
+Eiamedykare eregodykare : Emeru nure goro goro awaraji , toro bororo kae .
 
 Etu nure ei pobedu , mare Kurugugare kudure ty je . Meriribaru kudukare : Meru nure goro goro ... Nowy Kuruguga rekodaji .
 
@@ -1829,9 +1829,9 @@ Turerugody akedu keje , kudugody kudugodyre .
 
 Nowu iere “Aroe Paiku” .
 
-Iage eedure bai tada , baimanagejewy tada . Nowuge emagare . Nowuge ewabore mito ty tu ereore . Ecarae eiamedu : Kie eiamedu , Bokodori Ecerae eiamedu , Bakoro Ecerae eiamedu . Tugaregedu mito ty je (Mano Kurireu) , ure mito ty eto . Dure iere Bakarae Eimejera . Iere Bakarae Etuo . Nowy orere ewabore tuiamedu boe etai ... Nowy ore ekudugodyre , ere nowy tuwabo kiado jamedy .
+Iage eedure bai tada , baimanagejewy tada . Nowuge emagare . Nowuge ewabore mito ty tu ereore . Ecarae eiamedy : Kie eiamedy , Bokodori Ecerae eiamedy , Bakoro Ecerae eiamedy . Tugaregedu mito ty je (Mano Kurireu) , ure mito ty eto . Dure iere Bakarae Eimejera . Iere Bakarae Etuo . Nowy orere ewabore tuiamedy boe etai ... Nowy ore ekudugodyre , ere nowy tuwabo kiado jamedy .
 
-Ere nowy tuwabo kiado cuku cuku cuku , nowy tugudu reore tuiamedu tabo .
+Ere nowy tuwabo kiado cuku cuku cuku , nowy tugudu reore tuiamedy tabo .
 
 Nowu etuo rugadure iedure arago aturuarewy ji . Ure bu paci tumogajejewy , dytabore rerugodyre nowy tore etododai . 
 
@@ -1898,7 +1898,7 @@ Dykeje icare ere nowy to arago , nowy cimo pariko , nowy tuwabo , nowy tuwaiga ,
 
 Icare ere jeto ty nono aroe ao keje .
 
-Eimadure tabodu akedu keje emagore tuwiemagei , egore : Imedumage , iwage , bapo maku Tugarege etai , eiamedu ai , eragodywo tuiaduji .
+Eimadure tabodu akedu keje emagore tuwiemagei , egore : Imedumage , iwage , bapo maku Tugarege etai , eiamedy ai , eragodywo tuiaduji .
 
 Icare eragody akedure , dykejere nowy aroe etuo aregodyre , ure tumugudo ty ewure paru . Icare ere nowy toroe mak’ai .
 
@@ -1931,7 +1931,7 @@ Akore : Kodire inagoino , ituie Arogiareudo (Bok .Ec . Cob .) akae . Atudo ca ae
 
 Icare enudure .
 
-Icare barogwa kododyre . Dykeje icare Oca Kudurewy (Bad . Cob .) , Arua (Bad . Ceb .) Bakorokudu (Bad . Boiad .) , ecerae eiamedu ure tudo pui Oca Kudurewy uwai kae .
+Icare barogwa kododyre . Dykeje icare Oca Kudurewy (Bad . Cob .) , Arua (Bad . Ceb .) Bakorokudu (Bad . Boiad .) , ecerae eiamedy ure tudo pui Oca Kudurewy uwai kae .
 
 Nowu aroere icare Boe eedure ebo baawadu keje tuiogora keje .
 
@@ -1939,9 +1939,9 @@ Icare eregodyre nowy eimejerage ewogai boetoji . Ere cewu aredu arego boetoji . 
 
 Dykeje icare eregodyre eiadu bogai . Icare ere to pui Oca Kudurewy jokorai . Icare ere etagedudo mato .
 
-Dykeje icare ere etaipo pemegado tuiamedu tabo , badojebage tuiamedu tabo ere etaipo pemegado .
+Dykeje icare ere etaipo pemegado tuiamedy tabo , badojebage tuiamedy tabo ere etaipo pemegado .
 
-Icare ere nowy etaipo pemegadody akedudo . Ere Kie , Bokodori Ecerae eiamedu aipo pemegado , Bakoro Ecerae eiamedu aipo kogudody pemegado .
+Icare ere nowy etaipo pemegadody akedudo . Ere Kie , Bokodori Ecerae eiamedy aipo pemegado , Bakoro Ecerae eiamedy aipo kogudody pemegado .
 
 Icare ere nowy etaipo pemegadody akedudo .
 
@@ -1967,7 +1967,7 @@ Icare eregodyre Tadugo ae , ere tugera kogudo iera kajeje , ekodo apo kuri boror
 
 Eregodyre Ki Bakororo ae . Ere pariko tugu aoto tuku . Eragojere ty pumegi ty oino , aroe ao keje .
 
-Dykeje icare ere tôro kogudo nowy makareuge ekajeje . Ere etaipo kogudo kogudo ataora tabo . Ere pariko tugu etaoto . Ere kiogoaro kogudo eidogajeje , ekera ra parugajeje . Ere ciwaboe etoiaga udo nono eiamedu reore . Icare ere toro upodo ebo . Kogudo ekajeje . Icare ere eiado , ere etagedudo .
+Dykeje icare ere tôro kogudo nowy makareuge ekajeje . Ere etaipo kogudo kogudo ataora tabo . Ere pariko tugu etaoto . Ere kiogoaro kogudo eidogajeje , ekera ra parugajeje . Ere ciwaboe etoiaga udo nono eiamedy reore . Icare ere toro upodo ebo . Kogudo ekajeje . Icare ere eiado , ere etagedudo .
 
 Dykeje icare eregodyre nowy Ki Bakororo ae , eregodyre nowy Tadugo ae , egore : Ca ! Ino ei .
 
@@ -2022,7 +2022,7 @@ Nowu etuiorubodare (Tadugo) akore ino jamedy nowy tuguie panaji , akore : Kugú 
 
 Nowugere icare eedu rakare bororo keje , nowugere eedu raire bororo keje .
 
-Etagedure Oca Kudurewy jokora piji , dykejere icare eiamedu ure ciemagu bororo ji pobe .
+Etagedure Oca Kudurewy jokora piji , dykejere icare eiamedy ure ciemagu bororo ji pobe .
 
 Dykeje icare tôro kiwujedure epiji , dykejere icare kiogoaro kiwujedure epiji , dykeje icare pariko tadure etao piji , dykejere icare cewu taipo kiwujedure etao piji .
 
@@ -2113,7 +2113,7 @@ Dykeje icare ere tôro kiwuje epiji , ere pariko kiwuje etaora piji , kiogoaro e
 
 Icare akedure , dykeje icare Bakorokudu , Arua , emagogodyre tuwiemagei , egore : Tarego bapo kae !
 
-Egore : Bapo maku Tugarege eiamedu ai , eragodywo tuiaduji .
+Egore : Bapo maku Tugarege eiamedy ai , eragodywo tuiaduji .
 
 Icare eragodyre .
 
@@ -2257,7 +2257,7 @@ Icare mearydy re joko akoji . Juko akore : Kwá kwá kwa !
 
 Icare uture bogai , jordo ji , itugodo ji , ure bito . Itugodyre iaji pugeje , ure bito .
 
-Icare uture . Kodo jii ... Icare ure jorugo . Ure cewu to jukoe ewu kowu . Icare ure ewiri kigadudo . Ure peguru rogu bowuje , ure kabi , ure nowy peguru rogu ko .
+Icare uture . Kodo jii ... Icare ure jorugo . Ure cewu to jukoe ewu kowy . Icare ure ewiri kigadudo . Ure peguru rogu bowuje , ure kabi , ure nowy peguru rogu ko .
 
 Dykejere icare uture tabo cewu tumuga rogu kae . Ure tugeragu kaidagaji . Ure tugeragu oroji . Icare uture tabo cewu tumuga rogu kae .
 
@@ -2310,7 +2310,7 @@ Tagoie : U ! Aroe etaregody ! Itaidure iorydywo , macare itaregody marigukare . 
 
 Oreduje akore : U ! Aerdukae .
 
-Inure awu jukoe kugure ewu kowu , kocare boecodure ii ...
+Inure awu jukoe kugure ewu kowy , kocare boecodure ii ...
 
 Dykeje icare uture baito . Ure nowy boe ewie . Akore : U ! Kocare tare aroe etudo ikoda piji .
 
@@ -2389,7 +2389,7 @@ Meri jeture woe paeriraji (3hs) . Du tabore Aroia Kurirewy , Butoregadu , ere tu
 
 Boetoji Kaigu , Aromerere .
 
-Icare ere tugera bu Ecarae eiamedu boe keje , egore :	Atudo bakujebiji .
+Icare ere tugera bu Ecarae eiamedy boe keje , egore :	Atudo bakujebiji .
    Atudo bakujebiji .
 
 Egore : m m m ...
@@ -2501,7 +2501,7 @@ Boe ere bai mi du pemegado . Nowy mea uru areme eerdumode ji toro baitoduji . Ee
 
 Ca ! Dykeje icare iparere tudugu ba okwaji uwororeugei , enure tugera bu etao keje , dytabore egore : Psiu ! Ioga , parawo ! Psiu ! Imuga , parawo !
 
-Boe eiamedu : imedu , aredu , jamedy kejere iparere tugera bu .
+Boe eiamedy : imedu , aredu , jamedy kejere iparere tugera bu .
 
 Ere tugeragu bapoji , parikoji , ca ca ca .
 
@@ -2856,17 +2856,17 @@ Kuruiedu aregodyre kuruga kae dykeje icare ere iogwarido ji , egore : Wa ... !
 
 Icare ure taredo poboto , kurugato , ure tuiodo nowy manoto , kodure oia kae . Oia keje kurireure ure tawyje , ure to poboto po’ , icare ere iogwarido ji pugeje , egore : Wa ... !
 
-Icá ! Nonore icare eiamedure tawyje .
+Icá ! Nonore icare eiamedyre tawyje .
 
 Egore Kae , kae , kae , kae ! Tui tawyje dytabo .
 
-Icare ere to poboto tuiamedu tabo . Ere iogwarido pugeje : Wa ... !
+Icare ere to poboto tuiamedy tabo . Ere iogwarido pugeje : Wa ... !
 
 Dykejere ere kogudo .
 
 ‘Nowu iku tabowuge ere nowy iku kogudo kajeje . Duwugere eno kurire .
 
-Icare ere iogwarido pugeje tuiamedu tabo , egore : Wa ... !tui tudugu jitudu tabo .
+Icare ere iogwarido pugeje tuiamedy tabo , egore : Wa ... !tui tudugu jitudu tabo .
 
 Icare eture tabo , ere tudo nono jure ruture tudui tabo dytabo . Ere iogwarido : Wa !
 
@@ -3275,11 +3275,11 @@ Dykejere Aromerere , Kaigu , ere tugeragu Mano Kurirewy ji , ere tugeragu Birimo
 
 Icare Mano Kurirewy , Birimodo egore : M ... ! No ... Nono hu ... Hu hu ... !
 
-Dykeje icare Mano Kurirewy , Birimodo , ere bapo maku cerae etai , cerae eiamedu ai .
+Dykeje icare Mano Kurirewy , Birimodo , ere bapo maku cerae etai , cerae eiamedy ai .
 
 Egore : Arago aiadu paruji , tui bapo maku ecerae etai dytabo .
 
-Icare eregodyre tuiamedu tabo . Icare ere tura kado .
+Icare eregodyre tuiamedy tabo . Icare ere tura kado .
 
 Dykejere nowy Aroe Maiwu uo uture toro etae , nowy uragodyreuge etae . Ure tumugudo ewure paru . Icare ere nowy tuwabo , re nowy cimo pariko ere ma’ai .
 
@@ -3297,7 +3297,7 @@ Ere iogwarido ji : Wa ... !
 
 Dykeje Aroia Kurirewy , Kuruguga , eregodyre tabo borororji .
 
-Dykejere ecerae eiamedu . Dykejere tugarege eiamedu . Akedu kejere , ere mano kiwuje nono bokwarewy ao keje . Akedure . Boe ere tamudo .
+Dykejere ecerae eiamedy . Dykejere tugarege eiamedy . Akedu kejere , ere mano kiwuje nono bokwarewy ao keje . Akedure . Boe ere tamudo .
 
 D – MANO AKURARAREU
 
@@ -3371,7 +3371,7 @@ Akore : Tamagodo pawiemagei , paduwo pawobe emuga kae , eregodywo aroe etae .
 
 Egore : U ! U ! Boe jokodu ! Boe jokodu !
 
-Icare erore taci toro tuwobe emuga kae . Egore : Cegodo toro , cegodo toro boe bato , tawo irogody kowu , tawo nowa kugududo .
+Icare erore taci toro tuwobe emuga kae . Egore : Cegodo toro , cegodo toro boe bato , tawo irogody kowy , tawo nowa kugududo .
 
 Egore : Tarego etae ! Tarego etae !
 
@@ -3379,7 +3379,7 @@ Icare nowy Birimodo uwie , Manobaru uwie eregodyre etae .
 
 Ekodo etae , ere tugera kogudo ekera kajeje . Eture ebo . Ekodo ebo jii ... Tumuga kae . Nowy etuwobere boedo turugadu etogi du kae .
 
-Icare ere enogwa codo , ere ico irogody bu enogwa keje taci , ty rugadu . Enogwa rogure core ty je (nabure reore) . Eiamedu boe kujagure .
+Icare ere enogwa codo , ere ico irogody bu enogwa keje taci , ty rugadu . Enogwa rogure core ty je (nabure reore) . Eiamedy boe kujagure .
 
 Icare ere toro kogudo ekajeje , ere pariko kogudo etao kajeje , ere kiogoaro kogudo ekera paru kajeje , eidogajeje (ekana kajeje) .
 
@@ -3426,9 +3426,9 @@ Ere tuwuredo nowy ao keje pugeje ta ! Ca ! Ure turugadu .
 
 Nonore icare Birimodo , Mano Kurirewy ere tôro kiwuje epiji .
 
-Dykeje icare Birimodo akore : Itore , iwage , tarego bapo kae . Bapo maku Ecerae eiamedu ai , eragodywo .
+Dykeje icare Birimodo akore : Itore , iwage , tarego bapo kae . Bapo maku Ecerae eiamedy ai , eragodywo .
 
-Ca ! Ere maku etai , eiamedu ai .
+Ca ! Ere maku etai , eiamedy ai .
 
 Icare eragodyre , nowy togwa kodaji : KIDOGURU PARA . ROIA GIGUDU .
 
@@ -3449,7 +3449,7 @@ Tadudu ca ! taerubo kae .
 
 Icare ere tugeragu ei , boecoji rugadu , ere Jeriji Otojiwu mugudo tuwobe ebo . Ere tugeragu Oca Kudurewy ji , ere mugudo tuwobe ebo .
 
-Ere tugeragu ipare eiameduji , Tubore ebo , aroe Tubore .
+Ere tugeragu ipare eiamedyji , Tubore ebo , aroe Tubore .
 
 Ere eto pui baito (baimanagejewyto) .
 
@@ -3616,7 +3616,7 @@ Icare nowy Odoge etagedure . Nowy Odoge ere tamudo .
 
 Icare meri rekodure . Icare Birimodo , Akaruio Boroge , emagogodyre tuwiemagei , egore : Imedumage , tarego bapo kae , tawo bapo maku Ecerae etai , eragodywo Odoge , Tubore , eparuji .
 
-Icare eregodyre bapo kae . Icare ere maku Ecerae etai . Icare Ecerae eragodyre . Ere KIDOGURU PARA ko , ere ROIA GIGUDU ere kowuje jamedy , jii ... kedu kae .
+Icare eregodyre bapo kae . Icare ere maku Ecerae etai . Icare Ecerae eragodyre . Ere KIDOGURU PARA ko , ere ROIA GIGUDU ere kowyje jamedy , jii ... kedu kae .
 
 Akedu kejere icare , ere tura kado . Ere tura akedudo dykeje uo aregodyre , ure tumugudo ty ewure paru . Icare ere cimo pariko mak’ai . Icare imadure tabo , akore : No ... nNo no hu ... Hu hu ... !
 
@@ -3947,9 +3947,9 @@ C a ! akedure !
  AROE KUIADE
 (Iwagududoge eno)
 
-Iwagududoge eiamedu , ere tugeragu Bakorokuduji , ere tugeragu Akaruio Bokodoriji , ere tugeragu Jerigi Otojiwuji .
+Iwagududoge eiamedy , ere tugeragu Bakorokuduji , ere tugeragu Akaruio Bokodoriji , ere tugeragu Jerigi Otojiwuji .
 
-Dykejere icare ere tugeragu Ecerae eiameduji .
+Dykejere icare ere tugeragu Ecerae eiamedyji .
 
 Icare ere edugodo . Ere ee awubowu codo , ere ee awubowu kujagudo .
 
@@ -3991,7 +3991,7 @@ Dykejere icare ere togwamu Pf ! Joruboji .
 
 Dykeje icare Tadugo makore , akore : Imedumage , itore , tarego bapo kae , tawo bapo maku Ecerae etai , Ecerae eragodywo tuiaduji .
 
-Icare nowy ipare eregodyre bapo kae . Ere maku nowy Ecerae eiamedu ai . Icare eragodyre , nowy togwa kodaji .
+Icare nowy ipare eregodyre bapo kae . Ere maku nowy Ecerae eiamedy ai . Icare eragodyre , nowy togwa kodaji .
 
 Ere nowy KIDOGURU PARA ere bu nono .
 
@@ -4008,9 +4008,9 @@ Icare ure turagojedo tabo toro tuwai kae . Ure jeto ty tuwai tada tuieda keje .
 
 Icare Tadugo , Butoregadu , Aroia Kurirewy , Kogebowu , emagogodyre pui , egore : Pawo Arigaodoge etawyje .
 
-Icare ewadodyre Ecerae etae . Ecarae eiamedu pugeje .
+Icare ewadodyre Ecerae etae . Ecarae eiamedy pugeje .
 
-Aroia Kurirewy uwadodyre Ecerae etae , Ecerae eiamedu ae .
+Aroia Kurirewy uwadodyre Ecerae etae , Ecerae eiamedy ae .
 
 Akore :
 Kodire inagoino , iorubodare akae ! Iorubodare Arua akae ! (Bad , Ceb .)
@@ -4059,7 +4059,7 @@ Ca ! Ure turugadu . Ere taimo ty .
  AROE ARAROE
 (Iwagududoge eno)
 
-Icare eture toro bato (Aroe Arigaodoge) . Ere tamudo . Meri kodo jiii ... Jeture woe pagudu otoji , dytabore icare Tugarege eregodyre Ecerae etae pugeje . Ecerae eiamedu pugeje .
+Icare eture toro bato (Aroe Arigaodoge) . Ere tamudo . Meri kodo jiii ... Jeture woe pagudu otoji , dytabore icare Tugarege eregodyre Ecerae etae pugeje . Ecerae eiamedy pugeje .
 
 Ere areme etugu eto , ere tugeragu etumeduia aremei ebo .
 
@@ -4209,7 +4209,7 @@ Rekodaji : Aeredoge ekeroia .
 
 Eragodyre jii barogwa kodody kae .
 
-Barogwa kodody kejere icare Akaruio Boroge ure nowa tugu nowy ipare eiameduto .
+Barogwa kodody kejere icare Akaruio Boroge ure nowa tugu nowy ipare eiamedyto .
 Rekodure Oca Kudurewy (Bad Cob .) ae .
 Oca Kudurewy nowy Parabaradoge etuo rema . Nowure umode togwa tugu ikato .
 
@@ -4421,9 +4421,9 @@ Awuge erore nono nowy tumedage erore rugadu (Bokuojeba , coreu; Burekiaboeio , k
 
 Icare boe egore : Aroe pugeje !
 
-Nowu atugododyreuge aroe etagedure dykeje icare aroe eiamedure Buturori to motoji . Icare areme , ime , kuridoge , boe etore kugure ere Buturori to motoji .
+Nowu atugododyreuge aroe etagedure dykeje icare aroe eiamedyre Buturori to motoji . Icare areme , ime , kuridoge , boe etore kugure ere Buturori to motoji .
 
-Icare boe eiamedu akedure ji dykejere icare ereru akedure .
+Icare boe eiamedy akedure ji dykejere icare ereru akedure .
 
 Aroe ererure jii boei nowy Buturori to motoji du tonaji .
 
@@ -4449,7 +4449,7 @@ Ere nowy ika akodo woje Ituboreto . Ere akodo : To to to to ... To ... Totototo 
 
 Egore : M ... ! Wa ... ! Wa ...o !
 
-Dykejere Birimodo , Akaruio Boroge , Tadugo , Ki Bakororo , Meriri Baru , ere tugeragu bapoji . Ere bapo maku ecerae etai , ecerae eiamedu ai .
+Dykejere Birimodo , Akaruio Boroge , Tadugo , Ki Bakororo , Meriri Baru , ere tugeragu bapoji . Ere bapo maku ecerae etai , ecerae eiamedy ai .
 
 Icare Aromerere ure tugeragu akaruio Borogeji , kodo apo ... cewu kado kae , ure iera bu keje , akore : Mareo , mareo , mareo ! Aedaga reo , acarugo reo , akeroia reo , aparuia reo ! Oinore akagore ji , oinore akagore ji .
 
@@ -4509,7 +4509,7 @@ U ! Bakuru rakare ! Kiogoagiri meture tada . Mare nowy kiogoagiri kugurigodyre .
 
 Aiwore ji ty je . Icare ure tugirimi . Kodo jii bato . Aregodyre bato , akore : Iordure aroeji ! Itogeadure aroeji . Kiogoagire meture nowy bakuru tada , du kodire iroino tawogai .
 
-Akore : Barogwato padumode bogai paiamedu tabo .
+Akore : Barogwato padumode bogai paiamedy tabo .
 
 Barogwatore icare eture bogai .
 
@@ -4594,11 +4594,11 @@ Icare eture .
 
 Egore : Nogware kugure , cegodo toro , boe baado cedogi .
 
-Egore : Irogody kowu , rotu kugududo .
+Egore : Irogody kowy , rotu kugududo .
 
 Egore nowy tuwobei .
 
-Icare ere nowy irogody kowu , ere nowy roto pobo tugu to .
+Icare ere nowy irogody kowy , ere nowy roto pobo tugu to .
 
 Dykejere icare nowy Akaruio Boroge , nowy Kuruguga , eregodyre nowy Ecerae etae .
 Kuruguga (Ap . Cob .) rekodure Jerigi Otojiwu (O Ec .) ae .
@@ -4615,7 +4615,7 @@ Icare ere toro kogudo ekajeje , ere pariko tugo etaoto . Mare nowy pariko kedo k
 
 Macare aroeceba bokware , kuruguga bokware , kocare pariko mito ty je , dure icare kogure ty , kogure ty , kogure ty , aroe etaora kajeje .
 
-Aroeceba koiare , kuruguga koiare ure aroe emodydo , ure boe eiamedu motudo . Macare boe bokware .
+Aroeceba koiare , kuruguga koiare ure aroe emodydo , ure boe eiamedy motudo . Macare boe bokware .
 
 Icare Akaruio Boroge akore : Icare pare eiado . Tageragu etoroji , toro ebo bororo kae .
 Icare ere tugeragu etoroji , ekodure ebo bororo kae , ere ewuredo bororo keje .
@@ -4642,7 +4642,7 @@ Nowu Ikuie Ekurewydo , nowy Tubore Ekurewydo eregodyre to pobo kae , tubori po k
 
 Icare ere etaimo tu… Nowy aroe keje .
 
-Etaimody akedure dykeje ere turagojedo , ere togwamu pf ! Pf ! Eiameduji .
+Etaimody akedure dykeje ere turagojedo , ere togwamu pf ! Pf ! Eiamedyji .
 
 Dykejere icare eture bato tuwai kae . Ere tamudo , mare jii je karega .
 
@@ -4667,7 +4667,7 @@ Boetoji :	Kaigu , Poruiepa .
    Ki Bakororo , Oca Kudurewy .
    Arua , Bakorokudu .
 
-Tudoe eiamedu ere pobetu , pobetu jamedy , ereore .
+Tudoe eiamedy ere pobetu , pobetu jamedy , ereore .
 
 Icare etagedure bororo kae , icare ere tuwirido ... Ta ! Oino bororo kajeje .
 
@@ -4689,7 +4689,7 @@ Nowu Tudoere nowy to iporogu , jepararogu , torigarogu , ere maku nowy Akaruio B
 
 Egore : M ! No ... No no hu ... Hu hu ... !
 
-Icare nowy apiborege areme ere etaimo tuboripo tabo . Eiamedu boe ere eteimo : Kurugugoe , Tudoe eiamedu .
+Icare nowy apiborege areme ere etaimo tuboripo tabo . Eiamedy boe ere eteimo : Kurugugoe , Tudoe eiamedy .
 
 Akedure icare ere togwamu pf pf ! Enure jorubo barigu boe epiji .
 
@@ -4941,7 +4941,7 @@ Nowu WARUTO akedure dykejere icare Aroe Etawarare ure ipare aroe ererudo pugeje 
 
 Areme ererure ekujiagi pf pf pf pf .
 
-Icare eiamedu akedure icare ere tureru akedudo .
+Icare eiamedy akedure icare ere tureru akedudo .
 
 Aroe Etawarare akore :	Kujibo Kujibo Kujibo ...
    Iobo Iobo Iobo ...
@@ -4952,7 +4952,7 @@ Ecare ere turagojedo dykeje egore oino pf pf pf ! Ere togwamu boei .
 
 Icare eke buture .
 
-Eke moiawe , eke iworo . Beture . Ere kowuje . Ere kodu akedudo , dykeje icare eture .
+Eke moiawe , eke iworo . Beture . Ere kowyje . Ere kodu akedudo , dykeje icare eture .
 
 Ere ika maku Bakorokudu ai . Ure togwa tugu to .
 
@@ -4972,7 +4972,7 @@ Akore : No ... No no hu ... Hu hu !
 
 Awu oto pa reno .
 
-Dykejere icare Meriri Baru makogodyre tuwiemagei , akore : Bapo reko , bapo rejko ! Bapo maku cerae eiamedu ai , eragodywo !
+Dykejere icare Meriri Baru makogodyre tuwiemagei , akore : Bapo reko , bapo rejko ! Bapo maku cerae eiamedy ai , eragodywo !
 
 Icare ere tugeragu bapoji , icare ere maku cerae etai , egore : Arago aiaduji ! Arago aiaduji !
 Icare ere turagojedo , icare eragodyre .
@@ -5019,7 +5019,7 @@ Icare ere tuwuredo pugeje ty ...
 
 Nono Meriribarure tôro kiwuje epiji , ure pariko ta etao piji .
 
-Icare makore tuwiemagei , akore : Nege kugure , tarego bapo kae , tawo bapo maku Ecerae eiamedu ai , eragodywo .
+Icare makore tuwiemagei , akore : Nege kugure , tarego bapo kae , tawo bapo maku Ecerae eiamedy ai , eragodywo .
 
 Icare eragodyre jii ... Nowy togwa kodaji rugadu .
 
@@ -5141,9 +5141,9 @@ Egore : “Meriribarure okwa akirido tagu Bakagoei , tagu Utoboga ei” . Oinore
 
 Ere nowa tugu eto , ere nowy etao biri tugu etaoto .
 
-Icare emagore areme eiamedu boe ae , ere eto pui baimanagejewy paruto , eerydywo aroei , eerydywo aroe ekudugodyji .
+Icare emagore areme eiamedy boe ae , ere eto pui baimanagejewy paruto , eerydywo aroei , eerydywo aroe ekudugodyji .
 
-Icare eiamedure tudo pui , dykejere nowy aroe , tui tuibu Aije muga pji nowy baia kajeje , ekudugodyre .
+Icare eiamedyre tudo pui , dykejere nowy aroe , tui tuibu Aije muga pji nowy baia kajeje , ekudugodyre .
 
 Nowu Utoboga ure tuiebu , kudugodyre , ure turemo pugeje . Dykeje icare nowy metuiare tuiebu , kudugodyre , ure turemo pugeje .
 
@@ -5299,7 +5299,7 @@ Butoregadu makore Tugarege eieji oino .
 
 Egore : Mato , paduwo Marido kae .
 
-Akedure dykejere eiamedure iogwarido : Wa ... ! Tudu tabo Marido kae ca kuri je (6 hs keje) .
+Akedure dykejere eiamedyre iogwarido : Wa ... ! Tudu tabo Marido kae ca kuri je (6 hs keje) .
 
 Icare etaregodyre tabo , ere iogwarido pugeje : Wa ... !
 
@@ -5325,7 +5325,7 @@ Enure tudugu eto , turerugodywo Marido tabo .
 
 Dykeje icare ere cewu ika akodo : To to to to to to 
 
-Pana akore : Gu gu gu gu gu . Dykeje icare aroere ecewu poware eiamedu boe akodo , egore : Erere erere erere ...
+Pana akore : Gu gu gu gu gu . Dykeje icare aroere ecewu poware eiamedy boe akodo , egore : Erere erere erere ...
 
 Iage egore :	Cibae cibae cibae cibae ...
 Iage egore :	Koge ewororo 
@@ -5415,7 +5415,7 @@ Badojeba Bakorokudu ure bapo kiado ai , ure nowy bapo akodo : cuku cuku cuku ...
 
 Aroe ekudugodyre , egore : ka ga ga gae Wao ... !
 
-Icá ! Dykejere icare aroe ere tudugu ji tuiamedu tabo .
+Icá ! Dykejere icare aroe ere tudugu ji tuiamedy tabo .
 
 Icare ere tugera ra piji .
 
@@ -5441,11 +5441,11 @@ Butoregadu akore : M ... !
 
 Ure todomo keje , akore : No ... No no hu ... Hu hu ... !
 
-Icare Aroia Kurirewy , Butoregadu , egore : Imedumage , tageragu Ecerae eiameduji , paerubodarege eiameduji , toro pawobe emuga kae .
+Icare Aroia Kurirewy , Butoregadu , egore : Imedumage , tageragu Ecerae eiamedyji , paerubodarege eiamedyji , toro pawobe emuga kae .
 
-Etore etododai toro Iwagududoge ewai kae . Egore : Nogware kugure , apidorogody kowu .
+Etore etododai toro Iwagududoge ewai kae . Egore : Nogware kugure , apidorogody kowy .
 
-Icare ere kowu , icare ure turugadu .
+Icare ere kowy , icare ure turugadu .
 
 Egore : Ca ! Marigu !
 
@@ -5590,7 +5590,7 @@ Ere tuwagu (baku) maku tuomage etai .
 
 Icare akedure . Ere to pui toro aroe ao kae pugeje . 
 
-Icare Aroia Kurirewy , Butoregadu , emagogodyre tuwiemagei , egore : Tarego bapo kae , maku Ecerae eiamedu ai , eragodywo tuiadu paruji . Oinore egore .
+Icare Aroia Kurirewy , Butoregadu , emagogodyre tuwiemagei , egore : Tarego bapo kae , maku Ecerae eiamedy ai , eragodywo tuiadu paruji . Oinore egore .
 
 Icare eragodyre ARIGAO KOdodyJI , eragodyre UTUGAREGEJI (Utugarege eigoia maidody : KIDOGURU PARA , ROIA GIGUDU)
 
