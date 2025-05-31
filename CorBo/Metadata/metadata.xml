@@ -1,128 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
 <olac xmlns="http://www.language-archives.org/OLAC/1.1/">
   <record>
     <title>Oieigo jiwu bakaru</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare)</creator>
     <type>Ritual</type>
+    <identifier>oieigo-mito_explicaçao.txt</identifier>
     <date>1998</date>
   </record>
   <record>
     <title>Artigo Oieigo</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare)</creator>
     <type>Ritual</type>
+    <identifier>oieigo-ritual.txt</identifier>
     <date>1986</date>
   </record>
   <record>
     <title>Bokodori ecerae eke roia</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare)</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>bokodori_ecerae.txt</identifier>
     <date>1990</date>
   </record>
   <record>
     <title>Aroe etawaujedu - Rituais Bororo</title>
     <creator>Coqueiro, Frederico &amp; Ochoa Camargo, Gonçalo (Cibaikare)</creator>
     <type>Ritual</type>
+    <identifier>aroe_etawujedu.txt</identifier>
     <date>1986</date>
   </record>
   <record>
     <title>Biografia Coqueiro</title>
     <creator>Coqueiro, Frederico &amp; Ochoa Camargo, Gonçalo (Cibaikare)</creator>
     <type>Biografia</type>
+    <identifier>coqueiro-biografia.txt</identifier>
     <date>1985</date>
   </record>
   <record>
     <title>Bakaru maiwu - Novo testamento em língua Bororo</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare) &amp; SBD</creator>
-    <type>Bible</type>
+    <type>Bíblia</type>
+    <identifier>nt-ochoa.txt</identifier>
     <date>1992</date>
   </record>
   <record>
     <title>Êxodo</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare) &amp; SBD</creator>
-    <type>Bible</type>
+    <type>Bíblia</type>
+    <identifier>exodo.txt</identifier>
     <date>1990</date>
   </record>
   <record>
     <title>História Mítica Bororo</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare) &amp; Bordignon, Mario</creator>
     <type>Mitologia</type>
+    <identifier>historia_mitica_bor-format</identifier>
     <date>1989</date>
   </record>
   <record>
     <title>Oieigo com O meremere Completo</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare)</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_de_dança_2-format.txt</identifier>
     <date>2000</date>
   </record>
   <record>
     <title>Iwagududoge corewuge eno oieigo</title>
     <creator>Kanajó, Antônio &amp; Anciãos do Garças</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_kanajó_antônio_caio-format.txt</identifier>
     <date>1996</date>
   </record>
   <record>
     <title>Oieigo de aroe eimejera okoge ekurewu</title>
     <creator>Kanajó, Antônio &amp; Anciãos do Garças</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oiego_para_deus_garças-format.txt</identifier>
     <date>1996</date>
   </record>
   <record>
     <title>Oieigo do P. Rodolfo</title>
     <creator>Kanajó, Antônio &amp; Anciãos do Garças</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_do_p_rodolofo_meruri-format.txt</identifier>
     <date>1985</date>
   </record>
   <record>
     <title>Oieigo do Finado Bentinho</title>
     <creator>Kanajó, Antônio &amp; Anciãos do Garças</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_para_o_finado_bentinho-format.txt</identifier>
     <date>1995</date>
   </record>
   <record>
     <title>Oieigo para o finado Coqueiro | Garças</title>
     <creator>Bororo dos Tugarege</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_para_o_finado_coqueiro-format.txt</identifier>
     <date>1978</date>
   </record>
   <record>
     <title>Oieigo</title>
     <creator>Kanajó, Antônio &amp; Anciãos do Garças</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>oieigo_garcas_1988-format.txt</identifier>
     <date>1988</date>
   </record>
   <record>
     <title>Adugo Biri</title>
     <creator>Bordignon, Mario</creator>
     <type>Ritual</type>
+    <identifier>adugo_biri.txt</identifier>
     <date>2010</date>
   </record>
   <record>
     <title>Antigo testamento</title>
     <creator>Ochoa Camargo, Gonçalo (Cibaikare)</creator>
-    <type>Biblia</type>
+    <type>Bíblia</type>
+    <identifier>varios</identifier>
     <date>1998</date>
   </record>
   <record>
     <title>Boe readodae</title>
     <creator>dos Anjos, Maria José &amp; Rondon Adugo Enao, Félix</creator>
-    <type>Chant</type>
+    <type>Canto</type>
+    <identifier>boe_readodae.txt</identifier>
     <date>1997</date>
   </record>
   <record>
     <title>Ipare ereru</title>
     <creator>Kanajô Brame, Antônio &amp; Caio Aijepa, Antônio</creator>
     <type>Ritual</type>
+    <identifier>ipare_ereru.txt</identifier>
     <date>1999</date>
   </record>
   <record>
     <title>Juko ro</title>
     <creator>Rondon Adugo Enao, Félix</creator>
     <type>Mitologia</type>
+    <identifier>juko_ro.txt</identifier>
     <date>2000</date>
   </record>
   <record>
     <title>Tucum kejewuge eno bapera reo</title>
     <creator>__pending__</creator>
-    <type>Narrative</type>
+    <type>Narrativa</type>
+    <identifier>tucum_kejewyge_eno_bapera_reo.txt</identifier>
     <date>1999</date>
   </record>
 </olac>
