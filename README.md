@@ -4,7 +4,7 @@ Welcome to **Corpus Bororo (CorBo)** — a curated and linguistically annotated 
 
 Whether you are a linguist, anthropologist, or simply passionate about Indigenous languages, CorBo offers valuable insights into the grammar, lexicon, and sociocultural context of the Bororo people. The corpus is being annotated according to the Universal Dependencies framework and is part of the ongoing development of the [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu).
 
-🔗 **Access the preliminary version of the corpus [here](https://boeenomoto.pythonanywhere.com/corpus/index.html)**
+🔗 **Access the preliminary version of the corpus [here](https://boeenomoto.onrender.com)**
 
 ---
 
@@ -36,7 +36,7 @@ Bem-vindo ao **Corpus Bororo (CorBo)** — uma coleção curada e anotada lingui
 
 Seja você linguista, antropólogo ou entusiasta de línguas indígenas, o CorBo oferece perspectivas valiosas sobre a gramática, o léxico e o contexto sociocultural do povo Bororo. O corpus está sendo anotado conforme os princípios do Universal Dependencies e integra o desenvolvimento contínuo do [Bororo UD-Treebank](https://github.com/UniversalDependencies/UD_Bororo-BDT/blob/dev/bor_bdt-ud-test.conllu).
 
-🔗 **Acesse a versão preliminar do corpus [aqui](https://boeenomoto.pythonanywhere.com/corpus/index.html)**
+🔗 **Acesse a versão preliminar do corpus [aqui](https://boeenomoto.onrender.com)**
 
 ---
 
