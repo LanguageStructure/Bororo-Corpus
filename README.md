@@ -22,7 +22,9 @@ Despite a reduced number of active speakers, Bororo remains a vital component of
 
 ## Como citar
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110452.svg)](https://doi.org/10.5281/zenodo.12110452)
+Ferraz Gerardi, F., Toribio Serrano, L., & Sollberger, D. (2025). Corpus Bororo (CorBo) (v0.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15567900
+
+[![DOI](https://zenodo.org/badge/772146862.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 ---
 
