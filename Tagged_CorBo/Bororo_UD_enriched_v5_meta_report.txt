@@ -1,0 +1,4 @@
+v5 metadata injection complete.
+Sentences: 788
+Match tiers: {'exact': 635, 'basic': 1, 'strong': 17, 'noacc': 0, 'punctless': 0, 'none': 135}
+Genre counts: {'unknown': 788}
