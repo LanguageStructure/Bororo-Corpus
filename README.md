@@ -1,4 +1,4 @@
-# Corpus UD Bororo (Pré-lançamento v0.5)
+# Bororo-Corpus (CorBo) (Pré-lançamento v0.5)
 
 Este corpus contém dados da **língua Boe-Bororo**, anotados segundo o padrão
 [Universal Dependencies](https://universaldependencies.org/).
