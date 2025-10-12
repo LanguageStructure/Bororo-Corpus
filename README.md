@@ -110,9 +110,8 @@ O corpus é disponibilizado para uso **acadêmico e educacional**, sob a licenç
 
 **Citação recomendada:**
 
-> **Gerardi, Fabrício Marcel Ferraz** (2025).  
-> *Corpus UD Bororo, pré-lançamento v5.*  
-> Projeto Boe eno moto / Universidade de Tübingen.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17334055.svg)](https://doi.org/10.5281/zenodo.17334055)
+
 
 ---
 
