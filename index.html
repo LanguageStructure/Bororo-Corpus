@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Corpus UD Bororo – Pré-lançamento v5</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #0b1220;
+    --text: #e5e7eb;
+    --muted: #a3a3a3;
+    --accent: #22c55e;
+    --accent-2: #38bdf8;
+  }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif; }
+  .wrap { max-width: 1024px; margin: 0 auto; padding: 2.5rem 1rem; }
+  header { text-align:center; padding: 2rem 0 1rem; }
+  h1 { font-size: clamp(1.8rem, 2.4vw, 2.6rem); margin: 0 0 0.5rem; letter-spacing: .2px; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .75rem; border-left: 3px solid var(--accent); padding-left: .6rem; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  .panel { background: linear-gradient(180deg, rgba(34,197,94,.08), rgba(56,189,248,.08)); border: 1px solid rgba(148,163,184,.2); border-radius: 14px; padding: 1rem .9rem; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  a.btn { display:inline-block; padding:.8rem 1rem; border-radius: 12px; background: var(--accent); color:#04130a; font-weight: 700; text-decoration:none; }
+  a.btn.alt { background: var(--accent-2); color:#05151c; }
+  code, pre { background: #0b1220; color: #d1d5db; border: 1px solid rgba(148,163,184,.2); border-radius: 10px; padding: .4rem .6rem; display: inline-block; }
+  pre { display:block; padding: .9rem 1rem; overflow:auto; }
+  ul { padding-left: 1.1rem; }
+  .footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px dashed rgba(148,163,184,.35); font-size:.95rem; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Corpus UD Bororo — Pré-lançamento v5</h1>
+      <p class="muted">Projeto <strong>Boe eno moto</strong> • Linguagem Boe‑Bororo (ISO 639‑3: <code>bor</code>)</p>
+      <p style="margin-top:1.1rem">
+        <a class="btn" href="./bororo_corpus_pre-release_v5.zip" download>⬇️ Baixar pacote completo (ZIP)</a>
+        <a class="btn alt" href="./README.md" download>📄 Ler README</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Descrição</h2>
+      <p>Este pacote reúne o <em>Corpus UD Bororo</em> com anotações segundo o padrão Universal Dependencies, glossas lexicais, traduções alinhadas (PT/EN provisório) e metadados por sentença. Inclui ainda sumários lexicais e arquivos‑fonte utilizados no pré‑lançamento.</p>
+    </section>
+
+    <section>
+      <h2>Arquivos principais</h2>
+      <div class="panel">
+        <ul>
+          <li><code>Bororo_UD_enriched_v5.conllu</code> — Corpus principal (UD + traduções + metadados)</li>
+          <li><code>Bororo_UD_enriched_v5_meta_report.txt</code> — Estatísticas de alinhamento</li>
+          <li><code>bororo_lexical_summary.tsv</code> — Sumário de lemas com frequência e glossas</li>
+          <li><code>bororo_lexical_missing_fields.tsv</code> — Lemas com lacunas a completar</li>
+          <li><code>bororo_corpus_parallel.csv</code> — Alinhamentos Bororo ↔ Português</li>
+          <li><code>Aroe Etawujedu.txt</code> — Texto ritual</li>
+          <li><code>LICENSE.txt</code> — CC BY‑NC‑SA 4.0</li>
+          <li><code>README.md</code> — Documentação</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Citação</h2>
+      <p>Use a entrada BibTeX abaixo para citar este pré‑lançamento:</p>
+      <pre>@misc{Gerardi_BororoUD_v5_2025,
+  author       = {Gerardi, Fabrício Marcel Ferraz},
+  title        = {Corpus UD Bororo, pré-lançamento v5},
+  year         = {2025},
+  howpublished = {Boe eno moto / Universidade de Tübingen},
+  note         = {Pré-release, CC BY-NC-SA 4.0},
+  url          = {https://example.org/bororo_ud_v5}
+}</pre>
+      <p class="muted">Altere o campo <code>url</code> após publicar em Zenodo/Website.</p>
+    </section>
+
+    <section>
+      <h2>Licença</h2>
+      <p>Disponibilizado sob <strong>CC BY‑NC‑SA 4.0</strong>. Consulte o arquivo <code>LICENSE.txt</code>.</p>
+    </section>
+
+    <p class="footer">Preparado por <strong>Fabrício Marcel Ferraz Gerardi</strong> • <em>Boe eno moto — Projeto de Língua Bororo</em></p>
+  </div>
+</body>
+</html>
