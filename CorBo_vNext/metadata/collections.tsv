@@ -1,0 +1,8 @@
+collection_id	collection_name	primary_genre	current_editorial_status	notes
+BOR-CORBO-RK	Roia Kurireu	ritual_song	first_pass	192 numbered source entries in prepared witness; missing/irregular entries require review
+BOR-CORBO-EKE	Ekeroia	ritual_song	first_pass	Multiple song sets; preserve verse/strophe structure
+BOR-CORBO-OIE	Oieigo	ritual_song_and_narrative	first_pass	Multiple textual/performance witnesses; model as tradition/work plus witnesses
+BOR-CORBO-HM	História Mítica	narrative	comparison_pass	Parallel and Bororo-only working witnesses retained separately
+BOR-CORBO-BAK	Bakarudoge	narrative_collection	structured_parallel_pass	Frederico Coqueiro; Meruri; source indicates ca. 1982–1984
+BOR-CORBO-KT	Kleber–Tiago materials	discourse_and_ritual	first_pass	Small self-contained documentary texts
+BOR-CORBO-COQ	Coqueiro Bororo–Portuguese compilation	autobiographical_historical_documentation	structural_verification_pass	34 major source sections; section-aware Bororo–Portuguese alignment
