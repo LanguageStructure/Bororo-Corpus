@@ -1,0 +1,18 @@
+id: BOR-CORBO-RK001
+title: Roia Kurireu
+language: Bororo
+iso639_3: bor
+genre: ritual_song
+source_reference: "Enciclopédia Bororo, vol. III, parte I (as identified in the working document)"
+working_source_file: "Roia Kurireu EB III,I Roia Kurireu tradução e vocabulário.docx"
+editorial_status: first_pass_extraction
+orthography:
+  source_preserved: true
+  normalized_version: false
+translation:
+  portuguese: true
+annotation:
+  ud: false
+notes:
+  - "The two DOCX files with and without '2' have identical extracted table content."
+  - "Sentence numbering and source text require manual verification against the published source."
