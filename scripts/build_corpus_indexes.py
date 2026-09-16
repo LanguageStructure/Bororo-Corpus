@@ -13,12 +13,10 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUTS = [
-    ROOT / "CorBo_vNext" / "texts" / "coqueiro" / "coqueiro_parallel.tsv",
-]
+INPUTS = [ROOT / "CorBo_vNext" / "texts" / "coqueiro" / "coqueiro_parallel.tsv"]
 OUT = ROOT / "docs" / "data"
 TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?", re.UNICODE)
-REQUIRED_COLUMNS = {"id", "bororo", "portuguese"}
+CANONICAL_HEADER = ["id", "bororo", "portuguese"]
 
 
 def tokens(text: str) -> list[str]:
@@ -29,24 +27,29 @@ def read_units() -> list[dict[str, str]]:
     units: list[dict[str, str]] = []
     for path in INPUTS:
         if not path.exists():
-            continue
+            raise SystemExit(f"Canonical TSV not found: {path}")
         with path.open(encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f, delimiter="\t")
-            fields = set(reader.fieldnames or [])
-            missing = REQUIRED_COLUMNS - fields
-            if missing:
+            if reader.fieldnames != CANONICAL_HEADER:
                 raise SystemExit(
-                    f"Canonical TSV {path} is missing columns: {', '.join(sorted(missing))}"
+                    f"Canonical TSV {path} must have exactly this header: "
+                    + "\t".join(CANONICAL_HEADER)
                 )
-            for row in reader:
-                uid = (row.get("id") or "").strip()
-                bor = (row.get("bororo") or "").strip()
-                por = (row.get("portuguese") or "").strip()
-                if uid and bor:
-                    units.append({"id": uid, "b": bor, "p": por})
+            for line_no, row in enumerate(reader, start=2):
+                if None in row:
+                    raise SystemExit(f"Malformed TSV row at {path}:{line_no}")
+                uid = (row["id"] or "").strip()
+                bor = (row["bororo"] or "").strip()
+                por = (row["portuguese"] or "").strip()
+                if not uid:
+                    raise SystemExit(f"Blank corpus ID at {path}:{line_no}")
+                if not bor:
+                    raise SystemExit(f"Blank Bororo text at {path}:{line_no} ({uid})")
+                units.append({"id": uid, "b": bor, "p": por})
     ids = [u["id"] for u in units]
     if len(ids) != len(set(ids)):
-        raise SystemExit("Duplicate corpus IDs detected; indexes not written.")
+        duplicates = sorted({x for x in ids if ids.count(x) > 1})
+        raise SystemExit("Duplicate corpus IDs detected: " + ", ".join(duplicates[:20]))
     return units
 
 
