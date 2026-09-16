@@ -1,5 +1,7 @@
 # Bororo-Corpus (CorBo) (Pré-lançamento v0.5)
 
+> **Site do CorBo:** https://languagestructure.github.io/Bororo-Corpus/
+
 Este corpus contém dados da **língua Boe-Bororo**, anotados segundo o padrão
 [Universal Dependencies](https://universaldependencies.org/).
 Integra traduções alinhadas, glossas lexicais e metadados provenientes
