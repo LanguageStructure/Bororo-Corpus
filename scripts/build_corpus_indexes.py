@@ -18,6 +18,7 @@ INPUTS = [
 ]
 OUT = ROOT / "docs" / "data"
 TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?", re.UNICODE)
+REQUIRED_COLUMNS = {"id", "bororo", "portuguese"}
 
 
 def tokens(text: str) -> list[str]:
@@ -30,10 +31,17 @@ def read_units() -> list[dict[str, str]]:
         if not path.exists():
             continue
         with path.open(encoding="utf-8", newline="") as f:
-            for row in csv.DictReader(f, delimiter="\t"):
+            reader = csv.DictReader(f, delimiter="\t")
+            fields = set(reader.fieldnames or [])
+            missing = REQUIRED_COLUMNS - fields
+            if missing:
+                raise SystemExit(
+                    f"Canonical TSV {path} is missing columns: {', '.join(sorted(missing))}"
+                )
+            for row in reader:
                 uid = (row.get("id") or "").strip()
-                bor = (row.get("bororo") or row.get("reviewed_bororo") or "").strip()
-                por = (row.get("portuguese") or row.get("portugues") or "").strip()
+                bor = (row.get("bororo") or "").strip()
+                por = (row.get("portuguese") or "").strip()
                 if uid and bor:
                     units.append({"id": uid, "b": bor, "p": por})
     ids = [u["id"] for u in units]
