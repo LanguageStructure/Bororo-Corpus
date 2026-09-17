@@ -1,11 +1,13 @@
-name: Build CorBo indexes
+name: Gerar índices do CorBo
 
 on:
   push:
     branches:
-      - corbo-restructure-2026-09
+      - main
     paths:
       - 'CorBo_vNext/texts/**/*.tsv'
+      - 'CorBo_vNext/annotations/**/*.tsv'
+      - 'CorBo/Corpus_Files/*.conllu'
       - 'scripts/build_corpus_indexes.py'
   workflow_dispatch:
 
@@ -16,27 +18,27 @@ jobs:
   build-indexes:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Obter repositório
         uses: actions/checkout@v4
         with:
-          ref: corbo-restructure-2026-09
+          ref: main
 
-      - name: Set up Python
+      - name: Preparar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Build derived web data
+      - name: Gerar dados derivados
         run: python scripts/build_corpus_indexes.py
 
-      - name: Commit generated indexes
+      - name: Registrar índices gerados
         run: |
-          if git diff --quiet -- docs/data/coqueiro-units.json docs/data/coqueiro-stats.json; then
-            echo "Indexes already current."
+          if git diff --quiet -- docs/data; then
+            echo "Índices já estão atualizados."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/coqueiro-units.json docs/data/coqueiro-stats.json
-          git commit -m "Build CorBo derived web indexes"
-          git push origin HEAD:corbo-restructure-2026-09
+          git add docs/data
+          git commit -m "Atualizar índices derivados do CorBo"
+          git push origin HEAD:main
