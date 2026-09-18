@@ -6,7 +6,7 @@ import csv,json,subprocess,sys,threading,webbrowser
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs
-from build_corpus_indexes import conllu_relations,CONLLU
+from build_corpus_indexes import conllu_relations,CONLLU,main as build_indexes
 ROOT=Path(__file__).resolve().parents[1]
 FILES={'coqueiro':ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv','hm':ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv','morph':ROOT/'CorBo_vNext/annotations/morphology.tsv'}
 BUILD=ROOT/'scripts/build_corpus_indexes.py'; HOST='127.0.0.1'; PORT=8765
@@ -63,7 +63,7 @@ class Handler(BaseHTTPRequestHandler):
      bor=str(body.get('bororo','')).strip()
      if not bor:raise ValueError('Texto Bororo não pode ficar vazio')
      m[0]['bororo']=bor;m[0]['portuguese']=str(body.get('portuguese','')).strip()
-    write_rows(c,rows);self.js({'ok':True,'id':uid})
+    write_rows(c,rows);build_indexes();self.js({'ok':True,'id':uid,'rebuilt':True})
    except Exception as e:self.js({'error':str(e)},400)
    return
   if p=='/api/build':
