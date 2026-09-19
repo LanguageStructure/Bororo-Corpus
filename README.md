@@ -112,8 +112,7 @@ O corpus é disponibilizado para uso **acadêmico e educacional**, sob a licenç
 
 **Citação recomendada:**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17334055.svg)](https://doi.org/10.5281/zenodo.17334055)
-
+[![DOI](https://zenodo.org/badge/772146862.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 ---
 
