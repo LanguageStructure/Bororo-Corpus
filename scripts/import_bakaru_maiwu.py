@@ -25,6 +25,7 @@ BOOKS=[
 ("II. PEDRO","2PE","2-pedro"),("I. JOÃO","1JN","1-joao"),("II. JOÃO","2JN","2-joao"),
 ("III. JOÃO","3JN","3-joao"),("JUDAS","JUD","judas"),("APOCALIPSE","REV","apocalipse")]
 HEAD={x[0]:x for x in BOOKS}
+ONE_CHAPTER={"PHM","2JN","3JN","JUD"}
 FIELDS=["id","book","book_code","chapter","verse","source","reviewed","editorial_note"]
 
 def split_books(text):
@@ -46,6 +47,14 @@ def units(meta,lines):
  # Capítulos: marcador documental no início de linha, com ou sem ponto.
  chap_re=re.compile(r"(?m)^\s*(\d{1,2})(?:\.\s*|\s+)(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ])")
  ms=list(chap_re.finditer(body))
+ if not ms and code in ONE_CHAPTER:
+  # Livros de capítulo único podem omitir o marcador "1.".
+  # Criamos apenas a fronteira estrutural; source permanece intocado.
+  class Start:
+   def start(self): return 0
+   def end(self): return 0
+   def group(self,n): return "1"
+  ms=[Start()]
  if not ms: raise SystemExit(f"Sem capítulos reconhecidos: {name}")
  out=[]
  for ci,m in enumerate(ms):
