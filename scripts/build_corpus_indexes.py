@@ -18,7 +18,7 @@ def require(rows,fields,path):
 def validate(units):
  ids=[u['id'] for u in units]
  if any(not x for x in ids):raise SystemExit('ID de corpus vazio')
- if any(not u['b'] for u in units):raise SystemExit('Texto Bororo vazio')
+ if any(not u['b'] and not u.get('allow_empty_b') for u in units):raise SystemExit('Texto Bororo vazio')
  if len(ids)!=len(set(ids)):raise SystemExit('IDs duplicados no corpus')
 def forms(units):
  c=Counter();uc=Counter()
@@ -76,7 +76,7 @@ def main():
  boe=[]
  if BOE.exists():
   for r in tsv(BOE):
-   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  bib=bible_units();allu=coq+hm+adu+boe+bib;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
