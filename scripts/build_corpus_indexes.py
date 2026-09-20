@@ -76,7 +76,7 @@ def main():
  boe=[]
  if BOE.exists():
   for r in tsv(BOE):
-   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  bib=bible_units();allu=coq+hm+adu+boe+bib;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
