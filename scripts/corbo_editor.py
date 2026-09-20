@@ -14,9 +14,10 @@ MF=['form','segmentation','morphemes','gloss','status','note']
 def read_rows(c):
  with FILES[c].open(encoding='utf-8',newline='') as f:return list(csv.DictReader(f,delimiter='\t'))
 def write_rows(c,rows,fields=None):
- p=FILES[c];tmp=p.with_suffix('.tsv.tmp');fields=fields or list(rows[0].keys())
+ p=FILES[c];tmp=p.with_suffix('.tsv.tmp');fields=fields or [k for k in rows[0].keys() if k is not None]
+ clean=[{k:r.get(k,'') for k in fields} for r in rows]
  with tmp.open('w',encoding='utf-8',newline='') as f:
-  w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(clean)
  tmp.replace(p)
 def vals(a):return ', '.join(x['value'] for x in (a or []))
 def morph_rows():
