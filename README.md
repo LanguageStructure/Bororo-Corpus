@@ -1,11 +1,14 @@
 # Bororo-Corpus (CorBo) (Pré-lançamento v0.7)
 
-> **Site do CorBo:** https://languagestructure.github.io/Bororo-Corpus/
+> **Interface digital do corpus:** https://languagestructure.github.io/Bororo-Corpus/
 
-Este corpus contém dados da **língua Boe-Bororo**, anotados segundo o padrão
-[Universal Dependencies](https://universaldependencies.org/).
-Integra traduções alinhadas, glossas lexicais e metadados provenientes
-de diversas fontes do projeto **Boe eno moto**.
+O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), língua do tronco Macro-Jê falada no estado de Mato Grosso, Brasil. O corpus foi concebido como uma infraestrutura aberta de pesquisa voltada à documentação linguística, linguística de corpus, descrição e análise gramatical, processamento de linguagem natural e desenvolvimento de recursos educacionais e de revitalização linguística.
+
+A versão **0.7** amplia o componente textual do CorBo e consolida uma arquitetura que distingue os **dados documentais de origem**, a **revisão editorial**, a **anotação linguística** e os **recursos derivados automaticamente**. A grafia e o conteúdo dos documentos-fonte são preservados, enquanto formas revisadas podem ser mantidas em uma camada editorial separada.
+
+O corpus reúne diferentes coleções textuais, entre elas **Coqueiro**, **História Mítica**, **Adugo Biri**, **Boe Ero**, textos bíblicos e o **Bakaru Maiwu**, o Novo Testamento em Bororo. Quando disponíveis, os textos em Bororo são alinhados a traduções em português e, em partes do corpus, em inglês.
+
+O componente linguisticamente anotado segue o modelo **Universal Dependencies (UD)** e é disponibilizado em formato CoNLL-U. O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
 
 ---
 
@@ -77,7 +80,7 @@ elicitation=no; align_tier=<exact|basic|strong|noacc|punctless|none>
 
 ---
 
-## 📊 Estatísticas (pré-lançamento v5)
+## 📊 Estatísticas
 
 Ver `Bororo_UD_enriched_v5_meta_report.txt` para detalhes.
 
@@ -116,7 +119,7 @@ O corpus é disponibilizado para uso **acadêmico e educacional**, sob a licenç
 
 ---
 
-## 🔜 Próximos passos (para a versão completa)
+## 🔜 Próximos passos
 
 - ✅ Completar os campos faltantes (`GLOSS`, `CLS`, `PRCLITIC`)  
 - ✅ Revisar e traduzir as sentenças para o inglês  
