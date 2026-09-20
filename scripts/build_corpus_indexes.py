@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def tokens(t):return [m.group(0).lower() for m in TOKEN_RE.finditer(t or '')]
@@ -63,6 +63,16 @@ def bible_units():
   for i,source in enumerate(paras,1):
    uid=f'BOR-CORBO-BIB-{prefix}-{i:04d}';e=edits.get(uid,{});rev=(e.get('reviewed') or '').strip();out.append({'id':uid,'b':rev or source,'source':source,'p':(e.get('portuguese') or '').strip(),'collection':title,'group':'Textos bíblicos','reviewed':bool(rev),'status':'reviewed' if rev else 'provisional','editor_key':key})
  return out
+def bakaru_units():
+ out=[]
+ if not BM.exists():return out
+ for path in sorted(BM.glob('*/*.tsv')):
+  for r in tsv(path):
+   uid=(r.get('id') or '').strip();src=(r.get('source') or '').strip();rev=(r.get('reviewed') or '').strip()
+   # DOC rows are documentary/editorial notes, not linguistic corpus units.
+   if not uid or '-DOC-' in uid:continue
+   out.append({'id':uid,'b':rev or src,'source':src,'p':'','collection':'Bakaru Maiwu','group':'Novo Testamento','book':(r.get('book') or '').strip(),'book_code':(r.get('book_code') or '').strip(),'chapter':(r.get('chapter') or '').strip(),'verse':(r.get('verse') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+ return out
 def main():
  cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','reviewed':True} for r in cr]
  hm=[]
@@ -77,12 +87,12 @@ def main():
  if BOE.exists():
   for r in tsv(BOE):
    rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
- bib=bible_units();allu=coq+hm+adu+boe+bib;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
- outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'corbo-units.json':allu}
+ bib=bible_units();bm=bakaru_units();allu=coq+hm+adu+boe+bib+bm;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'bakaru-maiwu-units.json':bm,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu);stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(set(u['collection'] for u in allu)),'reviewed_units':sum(u['reviewed'] for u in allu),'provisional_units':sum(not u['reviewed'] for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
- print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
+ print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(bm)} do Bakaru Maiwu, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
