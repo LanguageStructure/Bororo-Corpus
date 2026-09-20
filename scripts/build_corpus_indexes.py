@@ -69,8 +69,13 @@ def bakaru_units():
  out=[]
  if not BM.exists():return out
  for path in sorted(BM.glob('*/*.tsv')):
+  seen=set()
   for r in tsv(path):
    uid=(r.get('id') or '').strip();src=(r.get('source') or '').strip();rev=(r.get('reviewed') or '').strip()
+   # The source importer currently emits some repeated verse IDs when a physical-line number is mistaken for a chapter marker.
+   # Do not publish ambiguous later occurrences; retain the first documentary occurrence until the importer is regenerated from source.
+   if uid in seen:continue
+   seen.add(uid)
    # DOC rows are documentary/editorial notes, not linguistic corpus units.
    if not uid or '-DOC-' in uid:continue
    # Bakaru IDs can collide with legacy biblical IDs only if imported twice; keep BM namespace isolated.
