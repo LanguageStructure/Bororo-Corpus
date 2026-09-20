@@ -1,133 +1,106 @@
-# Bororo-Corpus (CorBo) (Pré-lançamento v0.7)
+# CorBo — Corpus da Língua Bororo (v0.7)
 
-> **Interface digital do corpus:** https://languagestructure.github.io/Bororo-Corpus/
+> **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
+> **DOI:** https://doi.org/10.5281/zenodo.12110451
 
-O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), língua do tronco Macro-Jê falada no estado de Mato Grosso, Brasil. O corpus foi concebido como uma infraestrutura aberta de pesquisa voltada à documentação linguística, linguística de corpus, descrição e análise gramatical, processamento de linguagem natural e desenvolvimento de recursos educacionais e de revitalização linguística.
+O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), língua do tronco Macro-Jê falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais em uma infraestrutura destinada à pesquisa, à documentação linguística, ao processamento de linguagem natural e ao desenvolvimento de materiais para ensino e revitalização da língua.
 
-A versão **0.7** amplia o componente textual do CorBo e consolida uma arquitetura que distingue os **dados documentais de origem**, a **revisão editorial**, a **anotação linguística** e os **recursos derivados automaticamente**. A grafia e o conteúdo dos documentos-fonte são preservados, enquanto formas revisadas podem ser mantidas em uma camada editorial separada.
+A versão **0.7** amplia substancialmente o componente textual e consolida uma arquitetura que distingue **fonte documental**, **revisão editorial**, **anotação linguística** e **dados derivados**. O texto das fontes é preservado; correções e formas revistas são registradas em camada separada, evitando que decisões editoriais substituam silenciosamente a evidência documental.
 
-O corpus reúne diferentes coleções textuais, entre elas **Coqueiro**, **História Mítica**, **Adugo Biri**, **Boe Ero**, textos bíblicos e o **Bakaru Maiwu**, o Novo Testamento em Bororo. Quando disponíveis, os textos em Bororo são alinhados a traduções em português e, em partes do corpus, em inglês.
+## Coleções textuais
 
-O componente linguisticamente anotado segue o modelo **Universal Dependencies (UD)** e é disponibilizado em formato CoNLL-U. O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
+O corpus inclui atualmente:
 
----
+- **Coqueiro** — texto com alinhamento Bororo–Português;
+- **História Mítica** — coleção documental e paralela;
+- **Adugo Biri** — texto organizado em unidades estáveis, com fonte, revisão e tradução;
+- **Boe Ero** — coleção documental com seções, numeração original, tradução e metadados editoriais;
+- **Textos bíblicos** — materiais bíblicos incorporados ao corpus;
+- **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, atualmente em processo de revisão.
 
-## 📦 Conteúdo do pacote
+As coleções não apresentam necessariamente o mesmo grau de tradução ou anotação. Quando disponíveis, traduções em português e inglês são mantidas junto às unidades correspondentes.
 
-| Arquivo | Descrição |
-|----------|------------|
-| **Bororo_UD_enriched_v5.conllu** | Corpus principal com anotações UD, traduções (PT/EN), enriquecimento lexical e metadados por sentença. |
-| **Bororo_UD_enriched_v5_meta_report.txt** | Relatório com estatísticas de alinhamento e metadados. |
-| **bororo_lexical_summary.tsv** | Sumário lexical com frequência dos lemas, glossas, classificadores (CLS) e proclíticos. |
-| **bororo_lexical_missing_fields.tsv** | Lista dos lemas que ainda não possuem glossas, CLS ou proclíticos preenchidos. |
-| **bororo_corpus_parallel.csv** | Corpus paralelo (Bororo ↔ Português) usado para o alinhamento das traduções. |
-| **bororo_lexicon_template_for_enrichment.csv** | Léxico utilizado para enriquecer os campos MISC (GLOSS, CLS, PRCLITIC). |
-| **README.md** | Este documento. |
+## Organização dos dados
 
----
+A estrutura atual separa os dados primários dos recursos gerados automaticamente. Os textos em desenvolvimento encontram-se principalmente em `CorBo_vNext/texts/`, com identificadores estáveis para as unidades documentais. Dados de anotação adicionais são mantidos separadamente.
 
-## 🧩 Estrutura do arquivo CoNLL-U
+A interface pública é **somente para consulta**. A edição e a revisão dos dados são realizadas sobre os arquivos-fonte do corpus; índices, estatísticas e arquivos JSON utilizados pelo site são derivados desses dados.
 
-Cada linha de token segue o formato padrão UD (10 colunas):
+## Universal Dependencies e CoNLL-U
 
-**Comentários por sentença:**
+O componente sintaticamente anotado segue o padrão **Universal Dependencies (UD)** e utiliza o formato **CoNLL-U**. O arquivo CoNLL-U canônico atualmente utilizado pelo projeto encontra-se em:
 
-text = <sentença em Bororo>
+`CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu`
 
-translation_pt = <tradução em português>
+Além das dez colunas do padrão CoNLL-U, os comentários e o campo `MISC` podem conter informações adicionais disponíveis para determinadas unidades ou tokens, incluindo traduções, forma ortográfica, glossa lexical e informação gramatical.
 
-translation_en = <tradução em inglês (provisória)>
-
-meta: sourcefile=; genre=<ritual|narrative|unknown>;
-
-elicitation=no; align_tier=<exact|basic|strong|noacc|punctless|none>
-
-**Campos do MISC:**
+Entre os campos de enriquecimento encontrados no corpus estão:
 
 | Campo | Descrição |
-|--------|------------|
-| `LEMMA_SRC` | Origem do lema (`conllu` ou dicionário) |
-| `POS_FINE` | Classe gramatical detalhada (derivada de XPOS ou UPOS) |
-| `ORTHO` | Forma ortográfica |
-| `GLOSS` | Glossa lexical (manual ou do dicionário) |
-| `CLS` | Classe de posse / classificador (`o`, `ke`, `aku`, `imo`, `kuie`, `kudawu` etc.) |
-| `PRCLITIC` | Proclítico (ex.: `i=`, `a=`, `bo=`, `ka=`) |
-| `GLOSS_SEG` | Glossa segmentada (a ser adicionada nas próximas versões) |
-| `AUDIO` | Caminho para o áudio do token (previsto para a versão futura) |
+|---|---|
+| `ORTHO` | forma ortográfica |
+| `POS_FINE` | categoria gramatical mais detalhada |
+| `GLOSS` | glossa lexical |
+| `CLS` | informação de classe de posse, quando anotada |
+| `PRCLITIC` | informação sobre proclíticos, quando anotada |
 
----
+A análise morfológica é mantida separada da transcrição documental. A segmentação morfológica não deve ser inferida automaticamente a partir da grafia.
 
-## 🌍 Fontes de dados
+## Princípios editoriais
 
-| Fonte | Tipo | Observações |
-|--------|------|-------------|
-| `Aroe Etawujedu.txt` | Texto ritual (canto tradicional) | Classificado como gênero `ritual` |
-| `pedrosa_monolingue.csv` | Texto monolíngue de Pedrosa | Classificado como gênero `narrative` |
-| `bororo_corpus_parallel.csv` | Corpus paralelo (Bororo ↔ Português) | Fornece as traduções e metadados de origem |
-| `bororo_nt_clean.csv`, `monolingual.csv` | Material monolíngue complementar | Usado para validação lexical |
+Um princípio central do CorBo é distinguir **evidência documental** de **intervenção editorial**. Por isso:
 
----
+- a forma presente na fonte é preservada;
+- uma forma revista pode ser registrada separadamente;
+- irregularidades documentais, lacunas e numeração original não são corrigidas silenciosamente;
+- unidades sem tradução podem permanecer no corpus;
+- análises linguísticas e segmentações não são projetadas automaticamente sobre a fonte;
+- índices e estatísticas são tratados como dados derivados e podem ser reconstruídos a partir das fontes do corpus.
 
-## 🧠 Convenções de anotação
+Esse modelo permite utilizar o CorBo tanto para investigação linguística quanto para o estudo da história editorial e documental dos materiais em Bororo.
 
-- **Língua:** Boe-Bororo (ISO 639-3: `bor`)
-- **Sistema de escrita:** Alfabeto latino (ortografia modernizada)
-- **Segmentação de sentenças:** baseada nos textos-fonte e no corpus paralelo.
-- **Morfologia:** atualmente limitada ao nível de palavra (lemas e glossas);
-  a segmentação morfológica (`GLOSS_SEG`) será incluída em próxima versão.
-- **Traduções:** `translation_pt` revisada; `translation_en` é cópia provisória do português.
-- **Metadados:** inferidos a partir do campo `sourcefile` e de heurísticas de gênero.
+## Interface digital
 
----
+A interface de consulta permite navegar pelas coleções e acessar formas do Bororo no contexto dos textos:
 
-## 📊 Estatísticas
+**https://languagestructure.github.io/Bororo-Corpus/**
 
-Ver `Bororo_UD_enriched_v5_meta_report.txt` para detalhes.
+A interface inclui páginas para textos, formas, morfemas, relações e estatísticas. Os recursos apresentados no site são gerados a partir dos dados mantidos neste repositório.
 
-| Métrica | Valor aproximado |
-|----------|------------------|
-| Sentenças totais | ≈ [ver relatório] |
-| Tokens | ≈ [ver relatório] |
-| Com tradução alinhada (PT) | ~90–95% |
-| Com glossa lexical (`GLOSS`) | ~[valor]% |
-| Com classificador (`CLS`) | ~[valor]% |
-| Com proclítico (`PRCLITIC`) | ~[valor]% |
+## Estado da versão 0.7
 
----
+A versão 0.7 é uma **versão de pesquisa em desenvolvimento**. Diferentes coleções encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas unidades ainda são provisórias e algumas coleções permanecem monolíngues ou parcialmente traduzidas.
 
-## 🧮 Níveis de alinhamento
+Essa condição é representada nos dados sempre que possível, em vez de se produzir artificialmente uma versão inteiramente normalizada.
 
-| Nível | Descrição |
-|--------|------------|
-| `exact` | Correspondência exata com o corpus paralelo. |
-| `basic` | Após remoção de espaços extras. |
-| `strong` | Normalização de maiúsculas/minúsculas e pontuação. |
-| `noacc` | Após remoção de acentos. |
-| `punctless` | Após remoção total de pontuação. |
-| `none` | Nenhum alinhamento encontrado (sem tradução). |
+## Formatos
 
----
+Os principais formatos utilizados no projeto são:
 
-## 🏷️ Licença e citação
+- **CoNLL-U** — anotação linguística e dependências;
+- **TSV/CSV** — textos paralelos, camadas editoriais e dados tabulares;
+- **JSON** — índices e recursos derivados utilizados pela interface;
+- **TXT** — fontes e materiais documentais em texto simples.
 
-O corpus é disponibilizado para uso **acadêmico e educacional**, sob a licença  
-**CC-BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
+## Língua e região
 
-**Citação recomendada:**
+- **Língua:** Boe-Bororo
+- **ISO 639-3:** `bor`
+- **Tronco:** Macro-Jê
+- **Região:** Mato Grosso, Brasil
+
+## Licença e citação
+
+O corpus é disponibilizado sob a licença **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
 [![DOI](https://zenodo.org/badge/772146862.svg)](https://doi.org/10.5281/zenodo.12110451)
 
----
+Ao utilizar o corpus em publicações, cite a versão específica consultada no Zenodo. Versões arquivadas no Zenodo fornecem um registro estável dos dados, enquanto o repositório e a interface pública podem continuar a receber atualizações.
 
-## 🔜 Próximos passos
+## Autores
 
-- ✅ Completar os campos faltantes (`GLOSS`, `CLS`, `PRCLITIC`)  
-- ✅ Revisar e traduzir as sentenças para o inglês  
-- ✅ Adicionar segmentação morfológica (`GLOSS_SEG`)  
-- ✅ Incluir metadados de falantes e gravações de áudio  
-- ✅ Publicar versão estável com DOI no [Zenodo](https://zenodo.org/)
+- **Fabrício Ferraz Gerardi**
+- **Dolores Sollberger**
+- **Lucas Toribio Serrano**
 
----
-
-*Preparado por **Fabrício Marcel Ferraz Gerardi**  
-(Boe eno moto — Projeto de Língua Bororo, Universidade de Tübingen)*
+O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
