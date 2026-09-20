@@ -100,7 +100,5 @@ Ao utilizar o corpus em publicações, cite a versão específica consultada no 
 ## Autores
 
 - **Fabrício Ferraz Gerardi**
-- **Dolores Sollberger**
-- **Lucas Toribio Serrano**
 
 O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
