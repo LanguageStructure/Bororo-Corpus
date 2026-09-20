@@ -1,4 +1,4 @@
-# Bororo-Corpus (CorBo) (Pré-lançamento v0.6)
+# Bororo-Corpus (CorBo) (Pré-lançamento v0.7)
 
 > **Site do CorBo:** https://languagestructure.github.io/Bororo-Corpus/
 
