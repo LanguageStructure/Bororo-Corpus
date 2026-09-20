@@ -71,6 +71,9 @@ def bakaru_units():
    uid=(r.get('id') or '').strip();src=(r.get('source') or '').strip();rev=(r.get('reviewed') or '').strip()
    # DOC rows are documentary/editorial notes, not linguistic corpus units.
    if not uid or '-DOC-' in uid:continue
+   # Bakaru IDs can collide with legacy biblical IDs only if imported twice; keep BM namespace isolated.
+   if not uid.startswith('BOR-CORBO-BM-'):
+    uid='BOR-CORBO-BM-'+uid.removeprefix('BOR-CORBO-')
    out.append({'id':uid,'b':rev or src,'source':src,'p':'','collection':'Bakaru Maiwu','group':'Novo Testamento','book':(r.get('book') or '').strip(),'book_code':(r.get('book_code') or '').strip(),'chapter':(r.get('chapter') or '').strip(),'verse':(r.get('verse') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  return out
 def main():
