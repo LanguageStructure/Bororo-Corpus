@@ -93,7 +93,7 @@ Os principais formatos utilizados no projeto são:
 
 O corpus é disponibilizado sob a licença **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
-[![DOI](https://zenodo.org/badge/772146862.svg)](https://doi.org/10.5281/zenodo.12110451)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 Ao utilizar o corpus em publicações, cite a versão específica consultada no Zenodo. Versões arquivadas no Zenodo fornecem um registro estável dos dados, enquanto o repositório e a interface pública podem continuar a receber atualizações.
 
