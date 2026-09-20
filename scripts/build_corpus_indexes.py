@@ -19,7 +19,9 @@ def validate(units):
  ids=[u['id'] for u in units]
  if any(not x for x in ids):raise SystemExit('ID de corpus vazio')
  if any(not u['b'] and not u.get('allow_empty_b') for u in units):raise SystemExit('Texto Bororo vazio')
- if len(ids)!=len(set(ids)):raise SystemExit('IDs duplicados no corpus')
+ if len(ids)!=len(set(ids)):
+  dup=[x for x,n in Counter(ids).items() if n>1]
+  raise SystemExit('IDs duplicados no corpus: '+', '.join(dup[:50]))
 def forms(units):
  c=Counter();uc=Counter()
  for u in units:
