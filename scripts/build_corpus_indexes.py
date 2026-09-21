@@ -67,7 +67,15 @@ def conllu_sentences(path):
    line=line.rstrip('\n')
    if not line.strip():flush();continue
    if line.startswith('#'):
-    m=re.match(r'#\\s*([^=]+?)\\s*=\\s*(.*)
+    m=re.match(r'#\s*([^=]+?)\s*=\s*(.*)$',line)
+    if m:meta[m.group(1).strip()]=m.group(2).strip()
+    continue
+   cols=line.split('\t')
+   if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():continue
+   md=misc_dict(cols[9]);rows.append({'id':int(cols[0]),'form':cols[1],'lemma':cols[2],'upos':cols[3],'xpos':cols[4],'feats':cols[5],'head':int(cols[6]) if cols[6].isdigit() else 0,'deprel':cols[7],'deps':cols[8],'misc':md})
+  flush()
+ return out
+def morphology_data():
  editorial=[]
  if MORPH.exists():
   editorial=[{k:(r.get(k) or '').strip() for k in ['form','segmentation','morphemes','gloss','status','note']} for r in tsv(MORPH)]
