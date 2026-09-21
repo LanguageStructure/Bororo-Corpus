@@ -26,8 +26,8 @@ def bakarudoge_units():
  if BAK_EDITS.exists():
   with BAK_EDITS.open(encoding='utf-8',newline='') as f:ed={r['id']:r for r in csv.DictReader(f,delimiter='\t')}
  out=[]
- stop_heads=('vocabulário','vocabulario','dados culturais','notas culturais','explicação','explicacao')
  trans_heads=('interpretação','interpretacao','versão portuguesa desta lenda','versao portuguesa desta lenda','versão portuguesa','versao portuguesa')
+ stop_heads=('dados culturais','notas culturais','explicação','explicacao')
  num_re=re.compile(r'^\\s*(\\d{1,3})[.)]?\\s*(.*)$')
  for d in docs:
   source=[];translation=[];mode='source'
@@ -35,35 +35,43 @@ def bakarudoge_units():
    line=raw.strip()
    if not line:continue
    low=line.casefold().rstrip(':')
+   if low in ('vocabulário','vocabulario'):
+    # Vocabulary separates source from a later Portuguese version; ignore vocabulary itself.
+    mode='between';continue
+   if any(low.startswith(x) for x in trans_heads):
+    mode='translation';continue
    if any(low.startswith(x) for x in stop_heads):
     if mode=='translation':break
-    if low.startswith(('vocabulário','vocabulario')):mode='skip'
-    continue
-   if any(low.startswith(x) for x in trans_heads):mode='translation';continue
-   if mode=='skip':continue
-   (translation if mode=='translation' else source).append(line)
-  def numbered(lines):
-   rows=[];cur=None
+    mode='between';continue
+   if mode=='source':source.append(line)
+   elif mode=='translation':translation.append(line)
+  def source_units(lines):
+   rows=[]
    for line in lines:
     m=num_re.match(line)
-    if m:
-     if cur:rows.append(cur)
-     cur={'number':m.group(1),'text':m.group(2).strip()}
-    elif cur:cur['text']+=' '+line
+    if m:rows.append({'number':m.group(1),'text':m.group(2).strip()})
+    elif rows:
+     # Unnumbered source lines are independent interlinear units, never appended to the previous numbered paragraph.
+     rows.append({'number':'','text':line})
     else:rows.append({'number':'','text':line})
-   if cur:rows.append(cur)
    return rows
-  src=numbered(source);tr=numbered(translation)
-  # If the Portuguese block has explicit numbering, align by printed number.
-  # Otherwise use its documentary order only as an initial editable linear draft.
+  def translation_units(lines):
+   rows=[]
+   for line in lines:
+    m=num_re.match(line)
+    if m:rows.append({'number':m.group(1),'text':m.group(2).strip()})
+    else:rows.append({'number':'','text':line})
+   return rows
+  src=source_units(source);tr=translation_units(translation)
+  numbered_pt=any(x['number'] for x in tr)
   bynum={}
-  for x in tr:
-   if x['number'] and x['number'] not in bynum:bynum[x['number']]=x['text']
+  if numbered_pt:
+   for x in tr:
+    if x['number'] and x['number'] not in bynum:bynum[x['number']]=x['text']
   ordered=[x['text'] for x in tr if x['text']]
   for n,x in enumerate(src,1):
    uid=f"{d['id'].replace('-BAK-','-BKD-')}-{n:03d}";m=ed.get(uid,{})
-   docpt=bynum.get(x['number'],'')
-   if not docpt and not bynum and n<=len(ordered):docpt=ordered[n-1]
+   docpt=bynum.get(x['number'],'') if numbered_pt else (ordered[n-1] if n<=len(ordered) else '')
    out.append({'id':uid,'myth_number':d.get('text_number',''),'title':d.get('title',''),'source_number':x['number'],'source':x['text'],'reviewed':m.get('reviewed',''),'linear_portuguese':m.get('linear_portuguese','') or docpt,'documentary_translation':docpt,'editorial_note':m.get('editorial_note','')})
  return out
 def save_bakarudoge_edit(body):
