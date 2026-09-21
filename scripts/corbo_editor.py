@@ -59,7 +59,7 @@ class Handler(BaseHTTPRequestHandler):
      write_rows('morph',rows,MF);self.js({'ok':True,'key':form});return
     rows=read_rows(c);uid=str(body.get('id','')).strip();m=[r for r in rows if r['id']==uid]
     if len(m)!=1:raise ValueError('ID estável não encontrado ou duplicado')
-    if c=='hm':m[0]['reviewed']=str(body.get('reviewed','')).strip()
+    if c in ('hm','bakarudoge'):m[0]['reviewed']=str(body.get('reviewed','')).strip()
     elif c in ('adugo','boeero'):
      rev=str(body.get('reviewed','')).strip()
      if not rev:raise ValueError('Texto Bororo revisado não pode ficar vazio')
