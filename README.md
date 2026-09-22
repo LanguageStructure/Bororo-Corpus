@@ -15,6 +15,8 @@ O corpus inclui atualmente:
 - **História Mítica** — coleção documental e paralela;
 - **Adugo Biri** — texto organizado em unidades estáveis, com fonte, revisão e tradução;
 - **Boe Ero** — coleção documental com seções, numeração original, tradução e metadados editoriais;
+- **Oiegos** — coleção de cantos Oieigo e documentos relacionados, preservados como textos independentes; inclui materiais de O Meremere, Antônio Caio (G96), Aroe Eimejera Okoge Ekureu, P. Rodolfo (M85), Finado Bentinho (G86) e o documento narrativo de mito e explicação; traduções/interpretações são mantidas em paralelo quando disponíveis;
+- **História da Corujinha — Tagogorogu** — narrativa de tradição oral incorporada como texto independente;
 - **Textos bíblicos** — materiais bíblicos incorporados ao corpus;
 - **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, atualmente em processo de revisão.
 
@@ -61,7 +63,7 @@ Esse modelo permite utilizar o CorBo tanto para investigação linguística quan
 
 ## Interface digital
 
-A interface de consulta permite navegar pelas coleções e acessar formas do Bororo no contexto dos textos:
+A interface de consulta permite navegar pelas coleções e acessar formas do Bororo no contexto dos textos. **As palavras Bororo exibidas nos leitores textuais são clicáveis** e levam à ficha da forma correspondente, permitindo passar diretamente do texto para a exploração lexical e corpus:
 
 **https://languagestructure.github.io/Bororo-Corpus/**
 
