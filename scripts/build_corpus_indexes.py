@@ -83,7 +83,8 @@ def conllu_morphemes(path):
     else:a['positions']['stem_or_affix']+=1
  out=[]
  for a in acc.values():
-  out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in a['upos'].most_common()],'xpos':[{'value':v,'frequency':n} for v,n in a['xpos'].most_common()],'positions':[{'value':v,'frequency':n} for v,n in a['positions'].most_common()]})
+  xpos=a['xpos'].most_common();upos=a['upos'].most_common()
+  out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in upos],'xpos':[{'value':v,'frequency':n} for v,n in xpos],'positions':[{'value':v,'frequency':n} for v,n in a['positions'].most_common()],'classe_principal':xpos[0][0] if xpos else (upos[0][0] if upos else ''),'classe_ambigua':len(xpos)>1 or (not xpos and len(upos)>1)})
  return sorted(out,key=lambda x:(-x['frequency'],x['morpheme'].casefold()))
 def conllu_sentences(path):
  out=[];meta={};rows=[]
