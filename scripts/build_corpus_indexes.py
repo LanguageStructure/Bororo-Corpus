@@ -86,6 +86,25 @@ def conllu_morphemes(path):
   xpos=a['xpos'].most_common();upos=a['upos'].most_common()
   out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in upos],'xpos':[{'value':v,'frequency':n} for v,n in xpos],'positions':[{'value':v,'frequency':n} for v,n in a['positions'].most_common()],'classe_principal':xpos[0][0] if xpos else (upos[0][0] if upos else ''),'classe_ambigua':len(xpos)>1 or (not xpos and len(upos)>1)})
  return sorted(out,key=lambda x:(-x['frequency'],x['morpheme'].casefold()))
+MORPHEME_KNOWLEDGE={
+ 're':{'gloss':'IND','class':'mood','label':'indicativo','status':'confirmed'},
+ 'wu':{'gloss':'NOMZR/REL','class':'derivation','label':'nominalizador/relativizador','status':'confirmed'},
+ 'ge':{'gloss':'PL','class':'number','label':'plural','status':'confirmed'},
+ 'modu':{'gloss':'IRR','class':'mood','label':'irrealis','status':'confirmed'},
+ 'godu':{'gloss':'INC','class':'aspect','label':'incoativo','status':'confirmed'},
+ 'i':{'gloss':'1.SG','class':'person_index','label':'índice pessoal de 1ª pessoa singular','status':'confirmed'},
+ 'u':{'gloss':'3.SG','class':'person_index','label':'índice pessoal de 3ª pessoa singular','status':'confirmed'},
+ 'pa':{'gloss':'1.PL.IN','class':'person_index','label':'índice pessoal de 1ª pessoa plural inclusiva','status':'confirmed'},
+ 'ce':{'gloss':'1.PL.EX','class':'person_index','label':'índice pessoal de 1ª pessoa plural exclusiva','status':'confirmed'},
+ 'e':{'gloss':'3.PL','class':'person_index','label':'índice pessoal de 3ª pessoa plural','status':'confirmed'},
+ 'ji':{'gloss':'POSP','class':'posp','label':'posposição','status':'confirmed','note':'Função/semântica específica varia conforme a construção.'},
+ 'doge':{'gloss':'PL','class':'number','label':'plural','status':'confirmed'}
+}
+def enrich_morphemes(rows):
+ for r in rows:
+  k=r['morpheme'].casefold()
+  if k in MORPHEME_KNOWLEDGE:r['analysis']=MORPHEME_KNOWLEDGE[k]
+ return rows
 def conllu_sentences(path):
  out=[];meta={};rows=[]
  def flush():
@@ -113,7 +132,7 @@ def morphology_data():
  editorial=[]
  if MORPH.exists():
   editorial=[{k:(r.get(k) or '').strip() for k in ['form','segmentation','morphemes','gloss','status','note']} for r in tsv(MORPH)]
- return {'fonte_conllu':str(CONLLU.relative_to(ROOT)),'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(CONLLU),'morfemas_conllu':conllu_morphemes(CONLLU),'analises_editoriais':editorial}
+ return {'fonte_conllu':str(CONLLU.relative_to(ROOT)),'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(CONLLU),'morfemas_conllu':enrich_morphemes(conllu_morphemes(CONLLU)),'analises_editoriais':editorial}
 def bible_units():
  out=[]
  for key,(title,src,review,prefix) in BIBLES.items():
