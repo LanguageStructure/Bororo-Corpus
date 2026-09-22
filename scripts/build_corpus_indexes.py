@@ -65,12 +65,25 @@ def conllu_morphemes(path):
    parts=[p for p in re.split(r'[-=]',seg) if p]
    if len(parts)<2:continue
    for i,m in enumerate(parts):
-    key=m.casefold();a=acc.setdefault(key,{'morpheme':m,'frequency':0,'examples':Counter(),'lemmas':Counter(),'upos':Counter()});a['frequency']+=1;a['examples'][form]+=1
+    key=m.casefold();a=acc.setdefault(key,{'morpheme':m,'frequency':0,'examples':Counter(),'lemmas':Counter(),'upos':Counter(),'xpos':Counter(),'positions':Counter()});a['frequency']+=1;a['examples'][form]+=1
     if cols[2] and cols[2]!='_':a['lemmas'][cols[2]]+=1
     if cols[3] and cols[3]!='_':a['upos'][cols[3]]+=1
+    fine=md.get('POS_FINE') or cols[4]
+    if fine and fine!='_':a['xpos'][fine]+=1
+    if '=' in seg:
+     raw=re.split(r'([- =])',seg.replace(' ',''));seen=0
+     for j,x in enumerate(raw):
+      if x==m:
+       left=raw[j-1] if j else '';right=raw[j+1] if j+1<len(raw) else ''
+       if left=='=':a['positions']['enclitic']+=1
+       elif right=='=':a['positions']['proclitic']+=1
+       else:a['positions']['stem_or_affix']+=1
+       seen=1;break
+     if not seen:a['positions']['stem_or_affix']+=1
+    else:a['positions']['stem_or_affix']+=1
  out=[]
  for a in acc.values():
-  out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in a['upos'].most_common()]})
+  out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in a['upos'].most_common()],'xpos':[{'value':v,'frequency':n} for v,n in a['xpos'].most_common()],'positions':[{'value':v,'frequency':n} for v,n in a['positions'].most_common()]})
  return sorted(out,key=lambda x:(-x['frequency'],x['morpheme'].casefold()))
 def conllu_sentences(path):
  out=[];meta={};rows=[]
