@@ -98,7 +98,16 @@ MORPHEME_KNOWLEDGE={
  'ce':{'gloss':'1.PL.EX','class':'person_index','label':'índice pessoal de 1ª pessoa plural exclusiva','status':'confirmed'},
  'e':{'gloss':'3.PL','class':'person_index','label':'índice pessoal de 3ª pessoa plural','status':'confirmed'},
  'ji':{'gloss':'POSP','class':'posp','label':'posposição','status':'confirmed','note':'Função/semântica específica varia conforme a construção.'},
- 'doge':{'gloss':'PL','class':'number','label':'plural','status':'confirmed'}
+ 'doge':{'gloss':'PL','class':'number','label':'plural','status':'confirmed'},
+ 'nu':{'gloss':'PROG','class':'aspect','label':'progressivo','status':'confirmed'},
+ 'ka':{'gloss':'NEG','class':'polarity','label':'negação','status':'provisional','note':'Registrado em segmentações como pega-ka-re, kuri-ka-re, mori-ka-re e nudu-ka-re; manter para revisão editorial.'},
+ 'do':{'gloss':'?','class':'suffix','label':'sufixo -do','status':'provisional','note':'Segmentado em formas como aiwo-do, pemega-do e barare-do; função não consolidada automaticamente.'},
+ 'wa':{'gloss':'?','class':'suffix','label':'sufixo -wa','status':'provisional','note':'Segmentado em jorudu-wa e jorudui-wa; função requer revisão.'},
+ 'wo':{'gloss':'?','class':'suffix','label':'sufixo -wo','status':'provisional','note':'Segmentado em botu-wo, mugu-wo e outras formas; função requer revisão.'},
+ 'du':{'gloss':'?','class':'suffix','label':'morfema -du','status':'provisional','note':'Recorrente em segmentações; há também usos independentes/proclíticos, portanto não unificados automaticamente.'},
+ 'ie':{'gloss':'?','class':'suffix','label':'sufixo -ie','status':'provisional','note':'Segmentado em formas verbais como meru-ie e motu-ie; análise funcional deve ser revista.'},
+ 'tu':{'gloss':'?','class':'person_index','label':'proclítico tu=','status':'provisional','note':'PRCLITIC=tu= ocorre no léxico enriquecido; valor gramatical deve ser confirmado editorialmente.'},
+ 'ta':{'gloss':'?','class':'person_index','label':'proclítico ta=','status':'provisional','note':'PRCLITIC=ta= ocorre no léxico enriquecido; valor gramatical deve ser confirmado editorialmente.'}
 }
 def enrich_morphemes(rows):
  for r in rows:
