@@ -52,6 +52,26 @@ def conllu_relations(path):
   for field in ['lemmas','upos','pos_detalhada','glossas','classes_posse','procliticos']:row[field]=[{'value':v,'frequency':n} for v,n in a[field].most_common()]
   out.append(row)
  return sorted(out,key=lambda x:(-x['frequency'],x['form'].casefold()))
+def conllu_morphemes(path):
+ acc={}
+ if not path.exists():return []
+ with path.open(encoding='utf-8') as f:
+  for line in f:
+   if not line or line[0]=='#' or line.isspace():continue
+   cols=line.rstrip('\n').split('\t')
+   if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():continue
+   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('GLOSS')
+   if not seg or seg=='_' or not re.search(r'[-=]',seg):continue
+   parts=[p for p in re.split(r'[-=]',seg) if p]
+   if len(parts)<2:continue
+   for i,m in enumerate(parts):
+    key=m.casefold();a=acc.setdefault(key,{'morpheme':m,'frequency':0,'examples':Counter(),'lemmas':Counter(),'upos':Counter()});a['frequency']+=1;a['examples'][form]+=1
+    if cols[2] and cols[2]!='_':a['lemmas'][cols[2]]+=1
+    if cols[3] and cols[3]!='_':a['upos'][cols[3]]+=1
+ out=[]
+ for a in acc.values():
+  out.append({'morpheme':a['morpheme'],'frequency':a['frequency'],'examples':[{'value':v,'frequency':n} for v,n in a['examples'].most_common(8)],'lemmas':[{'value':v,'frequency':n} for v,n in a['lemmas'].most_common(8)],'upos':[{'value':v,'frequency':n} for v,n in a['upos'].most_common()]})
+ return sorted(out,key=lambda x:(-x['frequency'],x['morpheme'].casefold()))
 def conllu_sentences(path):
  out=[];meta={};rows=[]
  def flush():
@@ -79,7 +99,7 @@ def morphology_data():
  editorial=[]
  if MORPH.exists():
   editorial=[{k:(r.get(k) or '').strip() for k in ['form','segmentation','morphemes','gloss','status','note']} for r in tsv(MORPH)]
- return {'fonte_conllu':str(CONLLU.relative_to(ROOT)),'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(CONLLU),'analises_editoriais':editorial}
+ return {'fonte_conllu':str(CONLLU.relative_to(ROOT)),'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(CONLLU),'morfemas_conllu':conllu_morphemes(CONLLU),'analises_editoriais':editorial}
 def bible_units():
  out=[]
  for key,(title,src,review,prefix) in BIBLES.items():
