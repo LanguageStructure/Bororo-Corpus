@@ -8,6 +8,9 @@ ROOT=Path(__file__).resolve().parents[1]
 COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
+def normalize_bororo_y(s):
+ return str(s or '').replace('Y','U').replace('y','u')
+
 def tokens(t):return [m.group(0).lower() for m in TOKEN_RE.finditer(t or '')]
 def tsv(path):
  with path.open(encoding='utf-8',newline='') as f:return list(csv.DictReader(f,delimiter='\t'))
@@ -25,7 +28,7 @@ def validate(units):
 def forms(units):
  c=Counter();uc=Counter()
  for u in units:
-  ts=tokens(u['b']);c.update(ts);uc.update(set(ts))
+  ts=tokens(normalize_bororo_y(u['b']));c.update(ts);uc.update(set(ts))
  return [{'form':f,'frequency':n,'units':uc[f]} for f,n in sorted(c.items(),key=lambda x:(-x[1],x[0]))]
 def misc_dict(s):
  d={}
