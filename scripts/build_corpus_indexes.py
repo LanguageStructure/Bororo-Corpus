@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; DICT_CONLLU=ROOT/'CorBo/Corpus_Files/exemplosDicBor_preanotado.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
@@ -146,16 +146,35 @@ def annotation_completeness(row):
  syntax=bool(row.get('head') and row.get('deprel'))
  return {'lexical':lexical,'morphology':morphology,'syntax':syntax}
 def dictionary_annotation_data():
- if not DICT_ANN.exists():return []
- rows=tsv(DICT_ANN);out=[]
- for r in rows:
-  row={k:(r.get(k) or '').strip() for k in ['sent_id','token_id','form','lemma','upos','xpos','feats','head','deprel','source']}
-  # Layer-wise evidence: missing fields remain missing; punctuation or an unfinished sentence
-  # never invalidates annotations that are explicitly present on another token.
-  row['layers']=[k for k in ['lemma','upos','xpos','feats'] if row[k]]
-  if row['head'] and row['deprel']:row['layers'].append('syntax')
-  row['complete']=annotation_completeness(row)
-  out.append(row)
+ # Prefer the source CoNLL-U. The TSV remains a small editorial override/fallback layer.
+ out=[];seen=set()
+ if DICT_CONLLU.exists():
+  sent_id='';rows=[]
+  def emit(cols,sid):
+   if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():return
+   form,lemma,upos,xpos,feats,head,deprel=cols[1],cols[2],cols[3],cols[4],cols[5],cols[6],cols[7]
+   vals={'sent_id':sid,'token_id':cols[0],'form':form,'lemma':'' if lemma=='_' else lemma,'upos':'' if upos=='_' else upos,'xpos':'' if xpos=='_' else xpos,'feats':'' if feats=='_' else feats,'head':'' if head=='_' else head,'deprel':'' if deprel=='_' else deprel,'source':'exemplosDicBor_preanotado.conllu'}
+   # Keep a token when at least one explicit linguistic layer is present.
+   if not any(vals[k] for k in ['lemma','upos','xpos','feats','head','deprel']):return
+   vals['layers']=[k for k in ['lemma','upos','xpos','feats'] if vals[k]]
+   if vals['head'] and vals['deprel']:vals['layers'].append('syntax')
+   vals['complete']=annotation_completeness(vals);out.append(vals);seen.add((sid,cols[0]))
+  with DICT_CONLLU.open(encoding='utf-8') as f:
+   for line in f:
+    line=line.rstrip('\n')
+    if line.startswith('#'):
+     m=re.match(r'#\\s*sent_id\\s*=\\s*(.*)$',line)
+     if m:sent_id=m.group(1).strip()
+    elif line.strip():
+     emit(line.split('\t'),sent_id)
+ if DICT_ANN.exists():
+  for r in tsv(DICT_ANN):
+   key=((r.get('sent_id') or '').strip(),(r.get('token_id') or '').strip())
+   if key in seen:continue
+   row={k:(r.get(k) or '').strip() for k in ['sent_id','token_id','form','lemma','upos','xpos','feats','head','deprel','source']}
+   row['layers']=[k for k in ['lemma','upos','xpos','feats'] if row[k]]
+   if row['head'] and row['deprel']:row['layers'].append('syntax')
+   row['complete']=annotation_completeness(row);out.append(row)
  return out
 def morphology_data():
  editorial=[]
