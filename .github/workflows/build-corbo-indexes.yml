@@ -8,6 +8,7 @@ on:
       - 'CorBo_vNext/texts/**/*.tsv'
       - 'CorBo_vNext/annotations/**/*.tsv'
       - 'CorBo/Corpus_Files/*.conllu'
+      - 'CorBo/Corpus_Files/**/*.conllu'
       - 'scripts/build_corpus_indexes.py'
   workflow_dispatch:
 
