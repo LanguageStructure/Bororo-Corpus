@@ -1,0 +1,5 @@
+sent_id	token_id	form	lemma	upos	xpos	feats	head	deprel	source
+dic_0001	1	Itaidure	aidu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	exemplosDicBor_preanotado
+dic_0001	2	boe	boe	NOUN	n		3	nmod	exemplosDicBor_preanotado
+dic_0001	3	ewadaru	bataru	NOUN		Number=Plur|Person=3	1	obl	exemplosDicBor_preanotado
+dic_0001	4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	exemplosDicBor_preanotado
