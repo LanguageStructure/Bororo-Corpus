@@ -140,6 +140,11 @@ def conllu_sentences(path):
    md=misc_dict(cols[9]);rows.append({'id':int(cols[0]),'form':cols[1],'lemma':cols[2],'upos':cols[3],'xpos':cols[4],'feats':cols[5],'head':int(cols[6]) if cols[6].isdigit() else 0,'deprel':cols[7],'deps':cols[8],'misc':md})
   flush()
  return out
+def annotation_completeness(row):
+ lexical=bool(row.get('lemma') and row.get('upos'))
+ morphology=bool(row.get('feats'))
+ syntax=bool(row.get('head') and row.get('deprel'))
+ return {'lexical':lexical,'morphology':morphology,'syntax':syntax}
 def dictionary_annotation_data():
  if not DICT_ANN.exists():return []
  rows=tsv(DICT_ANN);out=[]
@@ -149,6 +154,7 @@ def dictionary_annotation_data():
   # never invalidates annotations that are explicitly present on another token.
   row['layers']=[k for k in ['lemma','upos','xpos','feats'] if row[k]]
   if row['head'] and row['deprel']:row['layers'].append('syntax')
+  row['complete']=annotation_completeness(row)
   out.append(row)
  return out
 def morphology_data():
