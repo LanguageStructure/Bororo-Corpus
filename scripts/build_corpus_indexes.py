@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
@@ -140,6 +140,17 @@ def conllu_sentences(path):
    md=misc_dict(cols[9]);rows.append({'id':int(cols[0]),'form':cols[1],'lemma':cols[2],'upos':cols[3],'xpos':cols[4],'feats':cols[5],'head':int(cols[6]) if cols[6].isdigit() else 0,'deprel':cols[7],'deps':cols[8],'misc':md})
   flush()
  return out
+def dictionary_annotation_data():
+ if not DICT_ANN.exists():return []
+ rows=tsv(DICT_ANN);out=[]
+ for r in rows:
+  row={k:(r.get(k) or '').strip() for k in ['sent_id','token_id','form','lemma','upos','xpos','feats','head','deprel','source']}
+  # Layer-wise evidence: missing fields remain missing; punctuation or an unfinished sentence
+  # never invalidates annotations that are explicitly present on another token.
+  row['layers']=[k for k in ['lemma','upos','xpos','feats'] if row[k]]
+  if row['head'] and row['deprel']:row['layers'].append('syntax')
+  out.append(row)
+ return out
 def morphology_data():
  editorial=[]
  if MORPH.exists():
@@ -194,7 +205,7 @@ def main():
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu);stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(set(u['collection'] for u in allu)),'reviewed_units':sum(u['reviewed'] for u in allu),'provisional_units':sum(not u['reviewed'] for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(bm)} do Bakaru Maiwu, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
