@@ -88,7 +88,7 @@ Os principais formatos utilizados no projeto são:
 
 - **Língua:** Boe-Bororo
 - **ISO 639-3:** `bor`
-- **Tronco:** Macro-Jê
+- **Tronco:** Bororo
 - **Região:** Mato Grosso, Brasil
 
 ## Licença e citação
