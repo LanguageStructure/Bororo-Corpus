@@ -1,11 +1,11 @@
-# CorBo — Corpus da Língua Bororo (v0.7)
+# CorBo — Corpus da Língua Bororo (v0.7.1)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
-> **DOI:** https://doi.org/10.5281/zenodo.12110451
+> **DOI:** https://doi.org/10.5281/zenodo.22976962
 
 O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), língua do tronco Macro-Jê falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais em uma infraestrutura destinada à pesquisa, à documentação linguística, ao processamento de linguagem natural e ao desenvolvimento de materiais para ensino e revitalização da língua.
 
-A versão **0.7** amplia substancialmente o componente textual e consolida uma arquitetura que distingue **fonte documental**, **revisão editorial**, **anotação linguística** e **dados derivados**. O texto das fontes é preservado; correções e formas revistas são registradas em camada separada, evitando que decisões editoriais substituam silenciosamente a evidência documental.
+A versão **0.7.1** amplia substancialmente o componente textual e consolida uma arquitetura que distingue **fonte documental**, **revisão editorial**, **anotação linguística** e **dados derivados**. O texto das fontes é preservado; correções e formas revistas são registradas em camada separada, evitando que decisões editoriais substituam silenciosamente a evidência documental.
 
 ## Coleções textuais
 
@@ -71,7 +71,7 @@ A interface inclui páginas para textos, formas, morfemas, relações e estatís
 
 ## Estado da versão 0.7
 
-A versão 0.7 é uma **versão de pesquisa em desenvolvimento**. Diferentes coleções encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas unidades ainda são provisórias e algumas coleções permanecem monolíngues ou parcialmente traduzidas.
+A versão 0.7.1 é uma **versão de pesquisa em desenvolvimento**. Diferentes coleções encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas unidades ainda são provisórias e algumas coleções permanecem monolíngues ou parcialmente traduzidas.
 
 Essa condição é representada nos dados sempre que possível, em vez de se produzir artificialmente uma versão inteiramente normalizada.
 
@@ -95,7 +95,7 @@ Os principais formatos utilizados no projeto são:
 
 O corpus é disponibilizado sob a licença **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22976962.svg)](https://doi.org/10.5281/zenodo.22976962)
 
 Ao utilizar o corpus em publicações, cite a versão específica consultada no Zenodo. Versões arquivadas no Zenodo fornecem um registro estável dos dados, enquanto o repositório e a interface pública podem continuar a receber atualizações.
 
