@@ -26,7 +26,7 @@ Corpus text identifiers use the prefix `BOR-CORBO-`. Source units receive IDs de
 
 ## Collections already under editorial preparation
 
-- Roia Kurireu
+- Roia Kurirewu
 - Ekeroia
 - Oieigo
 - História Mítica
