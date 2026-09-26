@@ -14,7 +14,7 @@ This directory contains documentary text collections prepared for the next CorBo
 ## Collections being integrated
 
 - `coqueiro/` — Frederico Coqueiro material; Bororo-only and Bororo–Portuguese parallel views.
-- `roia-kurireu/` — numbered Roia Kurireu text and Portuguese translation where present.
+- `roia-kurirewu/` — numbered Roia Kurirewu text and Portuguese translation where present.
 - `oieigo/` — multiple witnesses/instances of the Oieigo tradition.
 - `ekeroia/` — Ekeroia sets with source text and interpretive material kept distinct.
 - `bakarudoge/` — Bakarudoge texts; parallel units only where same-number alignment is structurally supported.
