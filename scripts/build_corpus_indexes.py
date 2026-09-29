@@ -135,7 +135,9 @@ def conllu_sentences(path):
  def flush():
   nonlocal meta,rows
   if not rows:return
-  sid=meta.get('sent_id') or f'conllu-{len(out)+1:05d}'
+  sid=meta.get('sent_id')
+  if not sid:
+   meta={};rows=[];return
   text=meta.get('text') or ' '.join(x['form'] for x in rows)
   out.append({'sent_id':sid,'text':text,'text_por':meta.get('text_por',''),'text_eng':meta.get('text_eng',''),'source_conllu':path.name,'tokens':rows})
   meta={};rows=[]
