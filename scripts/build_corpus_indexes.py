@@ -193,7 +193,7 @@ def morphology_data():
  editorial=[]
  if MORPH.exists():
   editorial=[{k:(r.get(k) or '').strip() for k in ['form','segmentation','morphemes','gloss','status','note']} for r in tsv(MORPH)]
- morphs=enrich_morphemes(conllu_morphemes(CONLLU))
+ morphs=enrich_morphemes(conllu_morphemes(DICT_CONLLU))
  qi=Counter()
  if DICT_CONLLU.exists():
   with DICT_CONLLU.open(encoding='utf-8') as f:
@@ -206,7 +206,7 @@ def morphology_data():
      qi[c[1]]+=1
  if qi:
   morphs.append({'morpheme':'iagu','frequency':sum(qi.values()),'examples':[{'value':v,'frequency':n} for v,n in qi.most_common(20)],'lemmas':[],'upos':[{'value':'PRON','frequency':sum(qi.values())}],'xpos':[],'positions':[{'value':'suffix','frequency':sum(qi.values())}],'classe_principal':'Speech=Quo','classe_ambigua':False,'analysis':{'gloss':'QUO','class':'speech','label':'marcador de fala/citação -iagu','status':'attested','note':'Relação derivada apenas de tokens do pass17 explicitamente anotados com Speech=Quo e forma terminada em iagu.'}})
- return {'fonte_conllu':str(CONLLU.relative_to(ROOT)),'fontes_lexicais':[str(CONLLU.relative_to(ROOT)),str(DICT_CONLLU.relative_to(ROOT))],'segmentacao_inferida':False,'relacoes_lexicais':merge_relations(conllu_relations(CONLLU),conllu_relations(DICT_CONLLU)),'morfemas_conllu':morphs,'analises_editoriais':editorial}
+ return {'fonte_conllu':str(DICT_CONLLU.relative_to(ROOT)),'fontes_lexicais':[str(DICT_CONLLU.relative_to(ROOT))],'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(DICT_CONLLU),'morfemas_conllu':morphs,'analises_editoriais':editorial}
 def etnobotanica_units():
  if not ETN.exists():return []
  out=[]
@@ -264,7 +264,7 @@ def main():
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu);stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(set(u['collection'] for u in allu)),'reviewed_units':sum(u['reviewed'] for u in allu),'provisional_units':sum(not u['reviewed'] for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CONLLU)+conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu e {len(etn)} de Etnobotânica, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
