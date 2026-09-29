@@ -63,7 +63,7 @@
 # text = bokure .
 # text_por = está inchado.
 # text_eng = 
-1	bokure	boku	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_|_
+1	bokure	boku	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0278
@@ -72,7 +72,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_LINGUISTIC_BATCH1
-11	okwaborado	okwabora	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_|_
+11	okwaborado	okwabora	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0293
@@ -109,15 +109,15 @@
 # text = ema rece .
 # text_por = ele está lá.
 # text_eng = 
-1	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	0	root	_	_|_
-2	rece	rece	AUX	aux	_	1	aux	_	_|_
+1	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	rece	rece	AUX	aux	_	1	aux	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0300
 # text = cedaregodure .
 # text_por = nós chegamos.
 # text_eng = 
-1	cedaregodure	aregodu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_|_
+1	cedaregodure	aregodu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0301
@@ -725,7 +725,6 @@
 # text = cewo amaragodudo .
 # text_por = para nós fazermos você trabalhar.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	cewo	ce	PRON	bi	Clusivity=Ex|Mood=Sub|Number=Plur|Person=1	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
@@ -896,7 +895,7 @@
 # text = jetadure .
 # text_por = ele acordou.
 # text_eng = 
-1	jetadure	jetadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_|_
+1	jetadure	jetadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0429
@@ -997,7 +996,8 @@
 # text_por = me alegro em você, por você.
 # text_eng = 
 1	iegarere	egare	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	ai	ji	ADP	posp	Number=Sing|Person=2	1	obl	_	_3	.	.	PUNCT	punct	_	1	punct	_	_
+2	ai	ji	ADP	posp	Number=Sing|Person=2	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0441
 # text = taegaredo pao ji .
@@ -1227,7 +1227,7 @@
 2	kodu	kodu	VERB	v	_	6	nsubj	_	_
 3	kamo	kamo	NOUN	n	_	4	nmod	_	_
 4	je	je	NOUN	n	Number=Sing|Person=3	6	obl	_	_
-5	kejewu	keje	ADP	adp	Nomzr=Rel	_	_	_	_
+5	kejewu	keje	ADP	adp	Nomzr=Rel	4	case	_	_
 6	kogodunure	kogodu	VERB	v	Aspect=Prog|Mood=Ind	0	root	_	_
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
@@ -1235,10 +1235,10 @@
 # text = ere tuiekudure jiwu kare erego .
 # text_por = levaram os peixes que acharam melhores.
 # text_eng = 
-1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-2	tuiekudure	_	_	_	_	_	_	_	_
-3	jiwu	ji	ADP	posp	Nomzr=Rel	_	_	_	_
-4	kare	karo	NOUN	n	Number=Plur	_	_	_	_
+1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	1	nsubj	_	_
+2	tuiekudure	iekudu	VERB	v	Mood=Ind|Person=3|Reflex=Yes	4	obl	_	_
+3	jiwu	ji	ADP	posp	Nomzr=Rel	2	case	_	_
+4	kare	karo	NOUN	n	Number=Plur	3	obj	_	_
 5	erego	reko	VERB	v	Number=Plur|Person=3	0	root	_	_
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -1246,99 +1246,92 @@
 # text = boe eimejera ure paekududo baiga ce .
 # text_por = o chefe nos fez admirar o arco.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-2	eimejera	_	_	_	_	_	_	_	_
-3	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-4	paekududo	_	_	_	_	_	_	_	_
-5	baiga	baiga	NOUN	n	_	_	_	_	_
-6	ce	ce	ADP	posp	_	_	_	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:UPOS,XPOS
-7	.	.	PUNCT	punct	_	_	punct	_	_
+1	boe	boe	NOUN	n	Number=Sing	4	nsubj	_	_
+2	eimejera	imejera	NOUN	n	Number=Plur|Person=3	1	flat	_	_
+3	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	_
+4	paekududo	ekudu	VERB	vt	Clusivity=In|Number=Plur|Person=1|Voice=Cau	0	root	_	_
+5	baiga	baiga	NOUN	n	_	4	obl	_	_
+6	ce	ce	ADP	posp	_	5	case	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_0494
 # text = aekugigire .
 # text_por = você sorriu.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	aekugigire	_	VERB	v	_	0	root	_	_
+1	aekugigire	ekugigi	VERB	v	Mood=Ind|Number=Sing|Person=2	0	root	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0502
 # text = egore emaie utumode .
 # text_por = falaram que seria ele que iria.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	egore	_	VERB	v	_	0	root	_	_
-2	emaie	_	_	_	_	3	nsubj	_	_
+1	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+2	emaie	ema	NOUN	n	Number=Plur|Person=3|Speech=Quo	3	nsubj	_	_
 3	utumode	tu	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0503
-# text = iwiagodure ito:riga piji bukejemaguda keje .
+# text = iwiagodure itoriga piji buke jemaguda keje .
 # text_por = esqueci minha faca no lugar onde foi aberto o tamanduá-bandeira.
 # text_eng = 
-1	iwiagodure	_	_	_	_	_	_	_	_
-2	ito:riga	_	_	_	_	_	_	_	_
-3	piji	piji	ADP	posp	Number=Sing|Person=3	_	_	_	_
-4	bukejemaguda	_	_	_	_	_	_	_	_
-5	keje	keje	ADP	posp	Number=Sing|Person=	_	_	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+1	iwiagodure	bia	VERB	v	Aspect=Inc|Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	itoriga	origa	NOUN	n	Number=Sing|Person=1	1	obl	_	_
+3	piji	piji	ADP	posp	Number=Sing|Person=3	2	case	_	_
+4	buke	buke	NOUN	n	_	4	nmod	_	_
+4	jemaguda	jemaguda	NOUN	n	_	1	obl	_	_
+5	keje	keje	ADP	posp	Number=Sing|Person=	4	case	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0505
 # text = iemarumode awogai .
 # text_por = eu vou te procurar.
 # text_eng = 
-1	iemarumode	_	_	_	_	_	_	_	_
-2	awogai	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iemarumode	emaru	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	_
+2	awogai	bogai	ADP	n	Number=Sing|Person=2	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0507
 # text = emode imaragodudo .
 # text_por = eles vão me fazer trabalhar.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-1	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	_	_	_	_
+1	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0508
-# text = refl.) emode tumagu .
+# text = emode tumagu .
 # text_por = eles vão se entregar.
 # text_eng = 
-1	refl.)	_	_	_	_	_	_	_	_
-2	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	_	_	_	_
-3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	2	nsubj	_	_
+2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0509
-# text = emode tugerngu boe ji .
+# text = emode tugeragu boe ji .
 # text_por = eles pegarão algo.
 # text_eng = 
-1	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	_	_	_	_
-2	tugerngu	_	_	_	_	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	emode	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	2	nsubj	_	_
+2	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0510
-# text = inagore emoduie boe rnaku .
+# text = inagore emoduie boe maku .
 # text_por = falei que eles iríam dar algo.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
 1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	emoduie	_	_	_	_	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-4	rnaku	_	_	_	_	_	_	_	_
+2	emoduie	e	PRON	p	Mood=Ind|Number=Plur|Person=3|Status=Irr	4	nsubj	_	_
+3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
+4	maku	maku	VERB	v	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0511
 # text = akore emodukae boe maku .
 # text_por = ele falou que eles não dariam algo.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH1
-# annotation_review = AI_VALENCY_MAKU
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	emodukae	_	VERB	v	_	_	_	_	_
+2	emodukae	e	VERB	v	Mood=Ind|Number=Plur|Person=3|Speech=Quo|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
@@ -1347,11 +1340,8 @@
 # text = ioruduware emodukae boe maku .
 # text_por = sei que eles não darão algo.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_REVIEW
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	ioruduware	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	AI_LINGUISTIC_REVIEW=LEMMA,UPOS,XPOS,FEATS
-2	emodukae	_	VERB	v	_	4	nsubj	_	_
+2	emodukae	e	VERB	v	Mood=Ind|Number=Plur|Person=3|Speech=Quo|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1360,8 +1350,7 @@
 # text = ernodukare imaragodudo .
 # text_por = eles não me farão trabalhar.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-1	ernodukare	_	_	_	_	_	_	_	_
+1	ernodukare	e	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1369,123 +1358,59 @@
 # text = emodukare tugeragu boe ji .
 # text_por = eles não pegarão algo.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-# annotation_review = AI_PERSON_PARADIGM
-# annotation_review = AI_DEP_PARADIGM
-1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id = dic_0517
-# text = ikenawu, akenawu, enawu, cegenawu, pagenawu, tagenawu, ekenawu, cenawu .
-# text_por = meu enfeite, etc.
-# text_eng = 
-1	ikenawu,	_	_	_	_	_	_	_	_
-2	akenawu,	_	_	_	_	_	_	_	_
-3	enawu,	_	_	_	_	_	_	_	_
-4	cegenawu,	_	_	_	_	_	_	_	_
-5	pagenawu,	_	_	_	_	_	_	_	_
-6	tagenawu,	_	_	_	_	_	_	_	_
-7	ekenawu,	_	_	_	_	_	_	_	_
-8	cenawu	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0518
 # text = eno moto .
 # text_por = a terra deles.
 # text_eng = 
-1	eno	_	_	_	_	_	_	_	_
-2	moto	moto	NOUN	n	_	_	_	_	_
+1	eno	o	PRON	bi	Number=Plur|Person=3	0	root	_	_
+2	moto	moto	NOUN	n	_	1	appos	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = dic_0519
-# text = ikeno, akeno, eno, cegeno, pageno, tageno, ekeno, ceno .
-# text_por = meu nariz, etc.
-# text_eng = 
-1	ikeno,	_	_	_	_	_	_	_	_
-2	akeno,	_	_	_	_	_	_	_	_
-3	eno,	_	_	_	_	_	_	_	_
-4	cegeno,	_	_	_	_	_	_	_	_
-5	pageno,	_	_	_	_	_	_	_	_
-6	tageno,	_	_	_	_	_	_	_	_
-7	ekeno,	_	_	_	_	_	_	_	_
-8	ceno	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0520
 # text = ikeno akore .
 # text_por = eu ronquei.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-1	ikeno	_	_	_	_	_	_	_	_
+1	ikeno	eno	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id = dic_0521
-# text = cotempo .
-# text_por = indica uma ação contemporânea com um presente ou um passado.
-# text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-1	cotempo	_	_	_	_	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0523
 # text = enure imaragodudo .
 # text_por = eles me estão, ou me estavam, fazendo trabalhar.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-# annotation_review = AI_PERSON_PARADIGM
-1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0524
-# text = refl.) enure tumagu .
+# text = enure tumagu .
 # text_por = eles estão, ou estavam, se entregando.
 # text_eng = 
-# annotation_review = AI_PERSON_PARADIGM
-1	refl.)	_	_	_	_	_	_	_	_
-2	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
-3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
+2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0525
 # text = enure tugeragu boe ji .
 # text_por = eles estão, ou estavam, pegando algo.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-# annotation_review = AI_PERSON_PARADIGM
-# annotation_review = AI_DEP_PARADIGM
-1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id = dic_0526
-# text = ikera, akera, iera, cegera, pagera, tagera, ekera, tugera .
-# text_por = minha mão, etc.
-# text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ikera,	_	_	_	_	_	_	_	_
-2	akera,	_	_	_	_	_	_	_	_
-3	iera,	_	_	_	_	_	_	_	_
-4	cegera,	_	_	_	_	_	_	_	_
-5	pagera,	_	_	_	_	_	_	_	_
-6	tagera,	_	_	_	_	_	_	_	_
-7	ekera,	_	_	_	_	_	_	_	_
-8	tugera	kera	NOUN	n	Person=3|Reflex=Yes	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0528
 # text = erade maragodudo .
 # text_por = eis que eles o fizeram trabalhar.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-# annotation_review = AI_PERSON_PARADIGM
-1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	2	nsubj	_	_
 2	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1493,22 +1418,17 @@
 # text = refl.) erade tumagu .
 # text_por = eis que eles se entregaram.
 # text_eng = 
-# annotation_review = AI_PERSON_PARADIGM
-1	refl.)	_	_	_	_	_	_	_	_
-2	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
-3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	2	nsubj	_	_
+2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0530
 # text = erade tugeragu boe ji .
 # text_por = eis que eles pegaram algo.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-# annotation_review = AI_PERSON_PARADIGM
-# annotation_review = AI_DEP_PARADIGM
-1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1516,8 +1436,7 @@
 # text = ere maragodudo .
 # text_por = eles o fizeram trabalhar.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	_
+1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
 2	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1525,7 +1444,6 @@
 # text = ere tumagu .
 # text_por = eles se entregaram.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
 1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
@@ -1534,222 +1452,200 @@
 # text = ere tugeragu boe ji .
 # text_por = eles pegaram algo.
 # text_eng = 
-# annotation_review = AI_LINGUISTIC_BATCH3
-1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	_
+1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0538
-# text = paererure iturato .
+# text = paererure itura to .
 # text_por = nos perdemos na mata.
 # text_eng = 
-1	paererure	_	_	_	_	_	_	_	_
-2	iturato	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	paererure	ereru	NOUN	n	_	0	root	_	_
+2	itura	itura	NOUN	n	_	1	obl	_	_
+2	to	to	ADP	posp	_	2	case	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0539
 # text = iwodo ure taererudo .
 # text_por = o vinho de acuri vos embriagou.
 # text_eng = 
-1	iwodo	_	_	_	_	_	_	_	_
-2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-3	taererudo	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	iwodo	iwodo	NOUN	n	_	2	dep	_	_
+2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_
+3	taererudo	ereru	VERB	vt	Number=Plur|Person=2|Voice=Cau	0	root	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0540
-# text = jerigi reko bato paerigice (leva a lenha para a aldeia para nós .
-# text_por = para ser nossa lenha.
+# text = jerigi reko ba to paerigice .
+# text_por = leva a lenha para a aldeia para nós para ser nossa lenha.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_REVIEW
-1	jerigi	_	_	_	_	_	_	_	_
-2	reko	reko	VERB	v	Mood=Imp|Number=Sing|Person=2	_	_	_	_
-3	bato	bato	VERB	vt	Number=Sing|Person=3	_	_	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:LEMMA,FEATS|AI_LINGUISTIC_REVIEW=UPOS,XPOS
-4	paerigice	_	_	_	_	_	_	_	_
-5	(leva	_	_	_	_	_	_	_	_
-6	a	_	_	_	_	_	_	_	_
-7	lenha	_	_	_	_	_	_	_	_
-8	para	_	_	_	_	_	_	_	_
-9	a	_	_	_	_	_	_	_	_
-10	aldeia	_	_	_	_	_	_	_	_
-11	para	_	_	_	_	_	_	_	_
-12	nós	_	_	_	_	_	_	_	_
-13	.	.	PUNCT	punct	_	_	punct	_	_
+1	jerigi	jerigi	NOUN	n	_	2	obl	_	_
+2	reko	reko	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	ba	ba	VERB	vt	Number=Sing|Person=3	2	obl	_	_
+4	to	to	VERB	vt	Number=Sing|Person=3	3	case	_	_
+5	paerigi	erigi	NOUN	v	Clusivity=In|Number=Plur|Person=1	2	obl	_	_
+6	ce	ce	ADP	posp	_	4	case	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0541
 # text = inure ikera jerimagado .
 # text_por = eu perfumo minha mão.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	inure	i	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	ikera	era	NOUN	n	Number=Sing|Person=1	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS,FEATS
-3	jerimagado	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	inure	i	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_
+2	ikera	era	NOUN	n	Number=Sing|Person=1	3	obj	_	_
+3	jerimagado	jerimaga	VERB	vt	_	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0548
 # text = iorudure ji .
 # text_por = eu o vi, eu o encontrei.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	iorudure	jorudu	VERB	v	_	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS
-2	ji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iorudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0549
 # text = aerudure ji .
 # text_por = você o viu, você o encontrou.
 # text_eng = 
-1	aerudure	_	_	_	_	_	_	_	_
-2	ji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	aerudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=2	0	root	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0550
-# text = iordudo akeraji .
+# text = iorududo akera ji .
 # text_por = mostra-me tua mão.
 # text_eng = 
-1	iordudo	_	_	_	_	_	_	_	_
-2	akeraji	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iorududo	jorudu	VERB	v	Number=Sing|Person=1|Voice=Cau	0	root	_	_
+2	akera	era	NOUN	n	Number=Sing|Person=2	1	obl	_	_
+3	ji	ji	ADP	posp	_	2	case	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0551
-# text = iorduwareji .
+# text = iorduware ji .
 # text_por = eu o conheço.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	iorduwareji	_	VERB	v	_	0	root	_	_|_
+1	iorduware	joruduwa	VERB	v	Mood=Ind|Number=Sing|Person=2	0	root	_	_
+1	ji	ji	VERB	v	Number=Sing|Person=3	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0552
-# text = aerduwakare ii .
+# text = aeruduwakare ii .
 # text_por = você não me conhece.
 # text_eng = 
-1	aerduwakare	_	_	_	_	_	_	_	_
-2	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	aeruduwakare	joruduwa	VERB	v	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+2	ii	ji	ADP	posp	Number=Sing|Person=1	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0553
-# text = ure ceerduwado .
+# text = ure ceeruduwado .
 # text_por = ele nos ensinou.
 # text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	ceerduwado	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = dic_0554
-# text = ure jorduwadowu .
-# text_por = aquele a quem ele ensina: discípulo dele.
-# text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	jorduwadowu	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
+2	ceeruduwado	joruduwa	VERB	v	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0555
-# text = iorduwa pemegakare, mare iorduwagodunure boe ji .
+# text = ioruduwa pemegakare mare ioruduwagodunure boe ji .
 # text_por = não sei bem, mas estou começando a aprender algo.
 # text_eng = 
-1	iorduwa	_	_	_	_	_	_	_	_
-2	pemegakare,	_	_	_	_	_	_	_	_
-3	mare	mare	CCONJ	cconj	_	_	_	_	_
-4	iorduwagodu	_	_	_	_	_	_	_	_
-5	nure	_	_	_	_	_	_	_	_
-6	boeji	_	_	_	_	_	_	_	_
-7	.	.	PUNCT	punct	_	_	punct	_	_
+1	ioruduwa	joruduwa	VERB	v	Number=Sing|Person=1	0	root	_	_
+2	pemegakare	pemega	ADV	adv	Mood=Ind|Polarity=Neg	1	advmod	_	_
+3	mare	mare	CCONJ	cconj	_	3	cc	_	_
+4	ioruduwagodunure	joruduwa	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	1	conj	_	_
+5	boe	boe	NOUN	n	Number=Sing	4	obl	_	_
+6	ji	ji	ADP	posp	Number=Sing|Person=3	5	case	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_0556
-# text = ituwo paerugukae iwagu bogai .
+# text = ituwo paerugu kae iwagu bogai .
 # text_por = vou ao lugar onde fizemos fogo procurar meu abano.
 # text_eng = 
-1	ituwo	_	_	_	_	_	_	_	_
-2	paerugukae	_	_	_	_	_	_	_	_
-3	iwagu	_	_	_	_	_	_	_	_
-4	bogai	bogai	ADP	posp	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+1	ituwo	tu	VERB	v	Mood=Sub|Number=Sing|Person=1	0	root	_	_
+2	paerugu	jorugu	NOUN	n	Clusivity=In|Number=Plur|Person=1	1	obl	_	_
+3	kae	kae	ADP	posp	Number=Sing|Person=3	2	case	_	_
+4	iwagu	iwagu	NOUN	n	_	1	obl	_	_
+5	bogai	bogai	ADP	posp	Number=Sing|Person=3	4	case	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0557
 # text = ure ceru kabi ra boe ji .
 # text_por = lambeu os ossos.
 # text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	ceru	_	_	_	_	_	obj	_	_
-3	kabi	_	_	_	_	0	_	_	_
-4	ra	_	_	_	_	_	obl	_	_
-5	boe	_	_	_	_	_	flat	_	_
-5	ji	_	_	_	_	_	case	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
+2	ceru	ceru	VERB	_	_	0	root	_	_
+3	kabi	kabi	VERB	_	_	3	flat	_	_
+4	ra	ra	NOUN	n	_	2	obl	_	_
+5	boe	boe	NOUN	n	Number=Sing	4	flat	_	_
+5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	_
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0560
 # text = ae to negedurogu ji .
 # text_por = cuida do menino.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ae	ae	ADP	posp	Number=Sing|Person=3	2	nsubj	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:FEATS
-2	to	to	VERB	v	Number=Sing|Person=3	0	root	_	PosMorphAnnot=AI_EXPANDED_HIGH:FEATS
-3	negedurogu	_	_	_	_	2	obl	_	_
-4	ji	_	_	_	_	3	case	_	_
+1	ae	ae	ADP	posp	Number=Sing|Person=3	2	nsubj	_	_
+2	to	to	VERB	v	Number=Sing|Person=3	0	root	_	_
+3	negedurogu	negedu	NOUN	n	Degree=Dim	2	obl	_	_
+4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0561
 # text = ioga korigodure mare ure tuie to pugeje .
-# text_por = meu pai estava zangado mais está alegre de novo.
+# text_por = meu pai estava zangado mas está alegre de novo.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_ARGMOD_STABLE
-1	ioga	oga	NOUN	n	Number=Sing|Person=1	_	_	_	_
-2	korigodure	_	_	_	_	_	_	_	_
-3	mare	mare	CCONJ	cconj	_	_	cc	_	_
+1	ioga	oga	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
+2	korigodure	korigodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	mare	mare	CCONJ	cconj	_	5	cc	_	_
 4	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-5	tuie	_	_	_	_	_	_	_	_
-6	to	to	ADP	posp	Number=Sing|Person=3	4	case	_	PosMorphAnnot=AI_EXPANDED_HIGH:FEATS|AI_ARGMOD_STABLE=CASE
-7	pugeje	_	ADV	_	_	_	_	_	_
+5	tuie	_	_	_	Reflex=Yes	_	_	_	_
+6	to	to	_	_	Number=Sing|Person=3	4	case	_	_
+7	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0562
 # text = boe emodukare juko jeto pui .
 # text_por = ninguém vai enganar o macaco.
 # text_eng = 
-# annotation_review = AI_PERSON_PARADIGM
-1	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-2	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
-3	juko	_	_	_	_	_	_	_	_
-4	jeto	_	_	_	_	_	_	_	_
-5	pui	_	_	_	_	_	_	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+1	boe	boe	NOUN	n	Number=Sing	2	dep	_	_
+2	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	4	nsubj	_	_
+3	juko	juko	NOUN	n	Number=Plur|Person=3|Voice=Cau	4	obj	_	_
+4	jeto	jeto	VERB	v	_	0	root	_	_
+5	pui	pui	ADP	posp	_	4	obl	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_0575
 # text = poburewu kodure garai iwai kori .
 # text_por = o umbu voou por perto de minha casa.
 # text_eng = 
-1	poburewu	_	_	_	_	_	_	_	_
-2	kodure	_	_	_	_	_	_	_	_
-3	garai	_	_	_	_	_	_	_	_
-4	iwai	iwai	NOUN	n	Number=Sing|Person=1	_	_	_	_
-5	kori	kori	ADP	posp	_	_	_	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+1	poburewu	poburewu	NOUN	n	_	2	nsubj	_	_
+2	kodure	kodu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+3	garai	karai	ADV	adv	_	2	advmod	_	_
+4	iwai	bai	NOUN	n	Number=Sing|Person=1	2	obl	_	_
+5	kori	kori	ADP	posp	_	4	case	_	_
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0577
-# text = pemegareuge .
-# text_por = os bons.
+# text = pemegarewuge .
+# text_por = os (que são) bons.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-1	pemegareuge	_	_	_	_	0	root	_	_
+1	pemegarewuge	pemega	NOUN	n	Mood=Ind|Nomzr=Rel|Number=Plur	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0578
-# text = cege :rore .
+# text = cege rore .
 # text_por = nosso alimento é saboroso, está gostoso.
 # text_eng = 
-1	cege	_	_	_	_	_	_	_	_
-2	:rore	_	_	_	_	_	_	_	_
+1	cege	ke	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	1	nsubj	_	_
+2	rore	ro	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0579
-# text = iwudumode aiagi micege erudunure iboragi (kakodoge erudunure iboragi .
+# text = iwudumode aiagi micege erudunure iboragi kakodoge erudunure ibora gi .
 # text_por = as formigas correição estão subindo pela minha perna.
 # text_eng = 
-1	iwudumode	_	_	_	_	_	_	_	_
+1	iwudumode	butu	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
 2	aiagi	_	_	_	_	_	_	_	_
 3	micege	_	_	_	_	_	_	_	_
 4	erudu	_	_	_	_	_	_	_	_
@@ -1758,99 +1654,87 @@
 7	(kakodoge	_	_	_	_	_	_	_	_
 8	erudu	_	_	_	_	_	_	_	_
 9	nure	_	_	_	_	_	_	_	_
-10	iboragi	_	_	_	_	_	_	_	_
+10	ibora	_	_	_	_	_	_	_	_
+10	gi	_	_	_	_	_	_	_	_
 11	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0580
 # text = ure epemegago .
 # text_por = ele os curou.
 # text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	epemegago	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
+2	epemegago	pemega	VERB	v	Number=Plur|Person=3|Voice=CauI	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0581
 # text = pago boepa godugodure .
 # text_por = a nossa roça ficou apenas chamuscada.
 # text_eng = 
-# pos_morph_review = AI_EXACT_FORM
-1	pago	_	_	_	_	_	_	_	_
-2	boepa	boepa	NOUN	n	_	_	_	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
-3	godugodure	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	pago	o	NOUN	n	Clusivity=In|Number=Plur|Person=1	2	nsubj	_	_
+2	boepa	boepa	NOUN	n	_	1	appos	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
+3	godugodure	godugodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0582
 # text = carugogore .
 # text_por = está muito frágil.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	carugogore	_	VERB	v	_	0	root	_	_|_
+1	carugogore	caru	VERB	v	Emph=Yes|Mood=Ind	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0583
 # text = kicarugogore .
 # text_por = está muito seco.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	kicarugogore	_	VERB	v	_	0	root	_	_|_
+1	kicarugogore	kicaru	VERB	v	Emph=Yes|Mood=Ind	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0584
 # text = igunarare ao aregodumode duji .
-# text_por = eu duvido que teu pai chegue.
+# text_por = eu duvido que teu pai chegue (da chegada do teu pai).
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	igunarare	_	_	_	_	_	_	_	_
-2	ao	_	NOUN	n	_	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:UPOS,XPOS
-3	aregodumode	_	_	_	_	_	_	_	_
-4	duji	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+1	igunarare	gunara	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	ao	ao	NOUN	n	Number=Sing|Person=2	3	nsubj	_	_
+3	aregodumode	aregodu	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	1	ccomp	_	_
+4	duji	duji	X	X	_	3	dep	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0585
 # text = ikana guririre .
 # text_por = meu braço foi contundido.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ikana	kana	NOUN	n	_	_	_	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:LEMMA,UPOS,XPOS
-2	guririre	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ikana	kana	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
+2	guririre	guriri	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	s	punct	_	_
 
 # sent_id = dic_0586
 # text = iture .
 # text_por = eu fui.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	iture	_	VERB	v	_	0	root	_	_|_
+ 1	iture	tu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0587
 # text = ure irego .
 # text_por = ele me levou.
 # text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	irego	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
+2	irego	reko	VERB	vt	Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0588
 # text = uture itabo .
 # text_por = ele foi comigo.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	uture	tu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	itabo	_	ADP	posp	Number=Sing|Person=1	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:UPOS,XPOS,FEATS
+2	itabo	apo	ADP	posp	Number=Sing|Person=1	1	obl	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0589
 # text = itaora korire .
 # text_por = minha cabeça doe.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	itaora	_	_	_	_	_	_	_	_
+1	itaora	aora	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
 2	korire	kori	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1858,12 +1742,10 @@
 # text = igwarinure bai butumode duji .
 # text_por = tenho receio que a casa vai cair.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	igwarinure	_	_	_	_	_	_	_	_
-3	bai	bai	NOUN	n	_	_	_	_	_
-4	butumode	_	VERB	v	_	0	root	_	_
-5	duji	_	_	_	_	_	_	_	_
+1	igwarinure	gwari	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	bai	bai	NOUN	n	_	3	nsubj	_	_
+4	butumode	butu	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	1	ccomp	_	_
+5	duji	duji	X	X	Number=Sing|Person=3	4	dep	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_0591
@@ -1899,279 +1781,213 @@
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0594
-# text = jordure karoji .
+# text = jorudure karo ji .
 # text_por = ele viu o peixe.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	jordure	_	VERB	v	_	0	root	_	_
-2	karoji	_	_	_	_	_	_	_	_
+1	jorudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	karo	karo	NOUN	n	Number=Sing	1	obl	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	2	case	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0595
-# text = jordure karei .
+# text = jorudure kare ji .
 # text_por = ele viu os peixes.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	jordure	_	VERB	v	_	0	root	_	_
-2	karei	_	_	_	_	_	_	_	_
+1	jorudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	kare	karo	NOUN	n	Number=Plur	1	obl	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	2	case	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0596
 # text = awiajetu inagoi ai duji .
 # text_por = lembre-se do que lhe falei.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	awiajetu	biajetu	VERB	v	Number=Sing|Person=2	0	root	_	_
-2	inagoi	_	_	_	_	_	_	_	_
-3	ai	ji	ADP	posp	Number=Sing|Person=2	_	_	_	_
-4	duji	_	_	_	_	_	_	_	_
+2	inagoi	ako	VERB	v	Number=Sing|Person=1|VerbForm=Ger	1	xcomp	_	_
+3	ai	ji	ADP	posp	Number=Sing|Person=2	2	obl	_	_
+4	duji	duji	X	x	_	2	dep	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0597
 # text = aiwoia .
 # text_por = lugar de observação.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	aiwoia	_	NOUN	n	_	0	root	_	AI_LINGUISTIC_BATCH1=UPOS=NOUN,XPOS=n
+1	aiwoia	aiwo	NOUN	n	Nomzr=Loc	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0598
 # text = koguia .
 # text_por = objeto para amarrar.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	koguia	_	NOUN	n	_	0	root	_	AI_LINGUISTIC_BATCH1=UPOS=NOUN,XPOS=n
+1	koguia	kogu	NOUN	n	Nomzr=Loc	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0599
 # text = enawuia .
 # text_por = lugar de enfeite.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	enawuia	_	NOUN	n	_	0	root	_	AI_LINGUISTIC_BATCH1=UPOS=NOUN,XPOS=n
+1	enawuia	enawu	NOUN	n	Nomzr=Loc	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0600
 # text = aia barido .
 # text_por = abra bem sua boca.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	aia	a	PRON	bi	Mood=Opt|Number=Sing|Person=2	2	nsubj	_	_
-2	barido	_	VERB	v	_	0	root	_	_
+2	barido	bari	VERB	vt	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0601
 # text = ure tuia mugudo .
 # text_por = ele fez sua curva.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_BATCH3
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	AI_LINGUISTIC_BATCH3=HEAD
-2	tuia	tuia	NOUN	n	_	_	_	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:LEMMA,UPOS,XPOS
-3	mugudo	mugu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_
+2	tuia	tuia	NOUN	n	Person=3|Reflex=Yes	3	obj	_	_
+3	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0603
 # text = ekoduia .
-# text_por = se eles fossem.
+# text_por = (quem dera) eles fossem.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	ekoduia	_	VERB	v	_	0	root	_	_
+1	ekoduia	kodu	VERB	v	Mood=Opt|Number=Plur|Person=3	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0604
 # text = ia imedu .
 # text_por = um homem, algum homem, outro homem.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ia	ia	DET	dem	Definite=Ind|PronType=Art	_	det	_	_
+1	ia	ia	DET	dem	Definite=Ind|PronType=Art	2	det	_	_
 2	imedu	imedu	NOUN	n	Number=Sgtv	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = dic_0605
 # text = tamode ipo iabado .
 # text_por = façam uma forquilha no esteio.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	tamode	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Status=Irr	3	nsubj	_	_
-2	ipo	ipo	NOUN	n	_	_	_	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
-3	iabado	_	VERB	v	_	0	root	_	_
+2	ipo	ipo	NOUN	n	_	3	obj	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
+3	iabado	iaba	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0606
 # text = ire imaragodae iado .
 # text_por = eu terminei o meu trabalho.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	ire	i	PRON	bi	Number=Sing|Person=1	3	nsubj	_	_
-2	imaragodae	_	_	_	_	_	_	_	_
-3	iado	_	VERB	v	_	0	root	_	_
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	3	nsubj	_	_
+2	imaragodae	maragodae	NOUN	n	Number=Sing|Person=1	3	obj	_	_
+3	iado	ia	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0607
 # text = ire baiporo jado .
 # text_por = eu abri a porta.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	ire	i	PRON	bi	Number=Sing|Person=1	3	nsubj	_	_
-2	baiporo	_	_	_	_	_	_	_	_
-3	jado	_	VERB	v	_	0	root	_	_
+2	baiporo	baiporo	NOUN	n	Number=Sing|Person=1	3	obj	_	_
+3	jado	jado	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0611
 # text = ire pobo jagajagado .
 # text_por = fiz a água ondular.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	ire	i	PRON	bi	Number=Sing|Person=1	3	nsubj	_	_
-2	pobo	pobo	NOUN	n	_	_	_	_	_
-3	jagajagado	_	VERB	v	_	0	root	_	_
+2	pobo	pobo	NOUN	n	Number=Sing|Person=1	3	obj	_	_
+3	jagajagado	jagajaga	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0614
 # text = adugo jagi .
 # text_por = pela boca da onça adentro.
 # text_eng = 
-1	adugo	adugo	NOUN	n	_	_	_	_	_
-2	jagi	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	adugo	adugo	NOUN	n	Number=Sing	0	root	_	_
+2	jagi	jagi	ADP	posp	Number=Sing|Person=3	1	case	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0615
 # text = iiagodure ji .
 # text_por = eu duvidei dele.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	iiagodure	_	VERB	v	_	0	root	_	_
-2	ji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
+1	iiagodure	iagodu	VERB	v	mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	1	obl	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0616
 # text = akore ituiagu .
 # text_por = falou que era para eu ir embora.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
 1	akore	ako	VERB	v	Mood=Ind	0	root	_	_
-2	ituiagu	_	_	_	_	_	_	_	_
+2	ituiagu	uiagu	VERB	v	Number=Sing|Person=1|Speech=Quo	1	ccomp	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id = dic_0617
-# text = esticar .
-# text_por = uma pele.
-# text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-1	esticar	_	_	_	_	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0618
 # text = marugodu umode tuiaiwodo .
 # text_por = a larva vai fazer seu casulo.
 # text_eng = 
-1	marugodu	_	_	_	_	_	_	_	_
-2	umode	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Status=Irr	_	_	_	_
-3	tuiaiwodo	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	marugodu	marugodu	NOUN	n	_	2	dep	_	_
+2	umode	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Status=Irr	3	nsubj	_	_
+3	tuiaiwodo	iaiwo	VERB	vt	Person=Sing|Reflex=Yes|Voice=Cau	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0619
 # text = ipo kado jaka keje .
 # text_por = corta o pau na curva.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	ipo	ipo	NOUN	n	_	_	_	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
-2	kado	_	VERB	v	_	0	root	_	_
-3	jaka	_	_	_	_	_	_	_	_
-4	keje	keje	ADP	posp	Number=Sing|Person=3	_	_	_	_
+1	ipo	ipo	NOUN	n	_	2	obj	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
+2	kado	kado	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+3	jaka	jaka	NOUN	n	_	2	obl	_	_
+4	keje	keje	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0620
 # text = are akogodudo aiaki .
 # text_por = você se fez doente por brincadeira.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-# annotation_review = AI_ARGMOD_STABLE
 1	are	a	PRON	bi	Mood=Ind|Number=Sing|Person=2	2	nsubj	_	AI_ARGMOD_STABLE=HEAD,nsubj
-2	akogodudo	_	VERB	v	_	0	root	_	_
-3	aiaki	_	_	_	_	_	_	_	_
+2	akogodudo	kogodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	aiaki	aiaki	ADV	adv	_	2	advmod	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0622
 # text = iwure jamega korire .
 # text_por = a rachadura do meu pé doe.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	iwure	_	_	_	_	_	_	_	_
-2	jamega	_	_	_	_	_	_	_	_
-3	korire	kori	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = dic_0623
-# text = iiao, aiao, jao, ceiao, paiao, taiao, eiao, tuiao .
-# text_por = meu lugar, etc.
-# text_eng = 
-1	iiao,	_	_	_	_	_	_	_	_
-2	aiao,	_	_	_	_	_	_	_	_
-3	jao,	_	_	_	_	_	_	_	_
-4	ceiao,	_	_	_	_	_	_	_	_
-5	paiao,	_	_	_	_	_	_	_	_
-6	taiao,	_	_	_	_	_	_	_	_
-7	eiao,	_	_	_	_	_	_	_	_
-8	tuiao	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+1	iwure	bure	NOUN	n	Number=Sing|Person=1	2	nmod	_	_
+2	jamega	jamega	NOUN	n	_	3	nsubj	_	_
+3	korire	kori	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0624
 # text = okwadoge eiarire .
 # text_por = as raposas têm tocas.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	okwadoge	_	_	_	_	_	_	_	_
-2	eiarire	_	VERB	v	_	0	root	_	_
+1	okwadoge	okwa	NOUN	n	Number=Plur	2	nsubj	_	_
+2	eiarire	iari	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0626
 # text = amode pori cibi .
 # text_por = você vai encher o pote.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
-# annotation_review = AI_ARGMOD_STABLE
-1	amode	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Status=Irr	3	nsubj	_	AI_ARGMOD_STABLE=HEAD,nsubj
-2	pori	_	_	_	_	_	_	_	_
-3	cibi	_	VERB	v	_	0	root	_	_
+1	amode	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Status=Irr	3	nsubj	_	_
+2	pori	pori	NOUN	n	_	3	obj	_	_
+3	cibi	cibi	VERB	v	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0628
-# text = ikijoru panure Paoce .
+# text = ikijoru panure Pao ce .
 # text_por = Deus é minha segurança.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	ikijoru	_	_	_	_	_	_	_	_
-2	pa	pa	NOUN	n	_	_	_	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:LEMMA,UPOS,XPOS
-3	nure	_	_	_	_	_	_	_	_
-4	Paoce	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+2	panure	pa	NOUN	n	_	_	_	_	_
+3	Paoce	_	_	_	_	_	_	_	_
+4	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0629
 # text = ure ido boe maku .
 # text_por = ele me fez dar algo.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	_
 2	ido	_	_	_	_	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
@@ -2182,8 +1998,6 @@
 # text = ere ido amaragodudo .
 # text_por = eles me fizeram fazer você trabalhar.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	_
 2	ido	_	_	_	_	_	_	_	_
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
@@ -2193,8 +2007,6 @@
 # text = ure ido imago .
 # text_por = ele fez eu me entregar.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# annotation_review = AI_LINGUISTIC_BATCH1
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_
 2	ido	_	_	_	_	_	_	_	_
 3	imago	_	VERB	v	_	0	root	_	_
@@ -2204,40 +2016,34 @@
 # text = ure ido ikeragu iaboeji .
 # text_por = ele me fez pegar algo.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
 2	ido	_	_	_	_	_	_	_	_
 3	ikeragu	eragu	VERB	v	Number=Sing|Person=1	_	_	_	_
-4	iaboeji	_	_	_	_	_	_	_	_
+4	iaboeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0633
 # text = akore taregodumoduie .
 # text_por = falou que iria chegar.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
 1	akore	ako	VERB	v	Mood=Ind	0	root	_	_
-2	taregodumoduie	_	_	_	_	_	_	_	_
+2	taregodumoduie	aregodu	VERB	v	Mood=Ind|Number=Plur|Person=2|Speech=Quo|Status=Irr	1	ccomp	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0637
 # text = Ere ciemagu .
 # text_por = eles dançaram arrastando os pés.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_BATCH1
-1	Ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	_	_	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
-2	ciemagu	_	VERB	v	_	0	root	_	_
+1	Ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
+2	ciemagu	iemagu	VERB	v	Person=Plur|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0639
 # text = ikera amonure akabo .
 # text_por = estou tratando de você.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ikera	era	NOUN	n	Number=Sing|Person=1	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS,FEATS
-2	amonure	_	_	_	_	_	_	_	_
+1	ikera	era	NOUN	n	Number=Sing|Person=1	_	_	_	_
+2	amonure	_	_	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2	_	_	_	_
 3	akabo	_	_	_	_	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -2249,16 +2055,13 @@
 2	akemore	_	_	_	_	_	_	_	_
 3	tuwo	_	_	_	_	_	_	_	_
 4	tugeragu	_	_	_	_	_	_	_	_
-5	ji	_	_	_	_	_	_	_	_
+5	ji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0641
 # text = ire ikera jodo ji .
 # text_por = eu o empurrei.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_LINGUISTIC_BATCH1
-# annotation_review = AI_ARGMOD_STABLE
 1	ire	i	PRON	bi	Number=Sing|Person=1	_	nsubj	_	_
 2	ikera	era	NOUN	n	Number=Sing|Person=1	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS,FEATS
 3	jodo	_	VERB	v	_	0	root	_	_
@@ -2303,27 +2106,24 @@
 # text = ii amaragodudo .
 # text_por = eu fazendo você trabalhar.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_CAUSATIVE_REVIEW
-1	ii	_	_	_	_	_	_	_	_
+1	ii		i	PRON	bi	Number=Sing|Person=1|VerbForm=Ger	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_	_
-3	.	.	PUNCT	punct	_	2	punct	_	AI_CAUSATIVE_REVIEW=PUNCT_HEAD
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0649
 # text = ii ikeragu .
 # text_por = eu pegando.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	ii	_	_	_	_	_	_	_	_
+# pos_morph_review = 
+1	ii		i	PRON	bi	Number=Sing|Person=1|VerbForm=Ger	2	nsubj	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0650
-# text = lia boe maku .
+# text = iia boe maku .
 # text_por = pudera eu dar algo, se eu desse algo.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-1	iia	_	_	_	_	_	_	_	_
+1	iia	i	PRON	bi	Mood=Opt|Number=Sing|Person=1	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -2332,46 +2132,40 @@
 # text = iia amaragodudo .
 # text_por = pudera eu fazer você trabalhar, se eu pudesse fazer você trabalhar.
 # text_eng = 
-# dependency_review = AI_HIGH_CONFIDENCE
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	iia	_	_	_	_	_	_	_	_
+1	iia	i	PRON	bi	Mood=Opt|Number=Sing|Person=1	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0652
-# text = refl.) iia imagu .
+# text = iia imagu .
 # text_por = pudera eu me entregar, se eu me entregasse.
 # text_eng = 
-1	iia	_	_	_	_	_	_	_	_
+1	iia	i	PRON	bi	Mood=Opt|Number=Sing|Person=1	2	nsubj	_	_
 2	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0653
 # text = iia ikeragu .
 # text_por = pudera eu pegar, se eu pudesse pegar.
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	iia	_	_	_	_	_	_	_	_
+1	iia	i	PRON	bi	Mood=Opt|Number=Sing|Person=1	2	nsubj	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0655
 # text = iiagu amaragodudo .
 # text_por = que é para eu fazer você trabalhar.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_PERSON_PARADIGM
-1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
-2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	2	nsubj	_	_
+2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0657
 # text = iiagu ikeragu .
 # text_por = que é para eu pegar.
 # text_eng = 
-# pos_morph_review = AI_EXPANDED_EXACT_FORM
-# annotation_review = AI_PERSON_PARADIGM
-1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	_	_	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -2695,7 +2489,7 @@
 4	iwai	iwai	NOUN	n	Number=Sing|Person=1	_	_	_	_
 5	kae	kae	ADP	posp	Number=Sing|Person=3	4	case	_	_
 6	akiogowo	_	_	_	_	_	_	_	_
-7	iogaji	_	_	_	_	_	_	_	_
+7	iogaji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 8	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0722
@@ -2772,7 +2566,7 @@
 # text_por = eu vou socar arroz.
 # text_eng = 
 1	ikidadumode	_	_	_	_	_	_	_	_
-2	aroeji	_	_	_	_	_	_	_	_
+2	aroeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0748
@@ -2995,13 +2789,14 @@
 4	woe	woe	ADV	adv	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = dic_0814# text = ure tuiwodo pagai .
+# sent_id = dic_0814
+# text = ure tuiwodo pagai .
 # text_por = ele se entregou por nós.
 # text_eng = 
 # annotation_review = AI_PERSON_PARADIGM
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
 2	tuiwodo	_	_	_	_	_	_	_	_
-3	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+3	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0817
@@ -3011,7 +2806,7 @@
 1	iokudu	_	_	_	_	_	_	_	_
 2	nure	_	_	_	_	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-4	eimoji	_	_	_	_	_	_	_	_
+4	eimoji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0818
@@ -3022,8 +2817,8 @@
 1	iogugudure	_	_	_	_	_	_	_	_
 2	imerui	_	_	_	_	_	_	_	_
 3	ipo	ipo	NOUN	n	_	_	_	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
-4	aoji	_	_	_	_	_	_	_	_
-5	duji	_	_	_	_	_	_	_	_
+4	aoji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
+5	duji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0819
@@ -3402,7 +3197,7 @@
 # text_por = ele está de cócoras, está fazendo suas necessidades.
 # text_eng = 
 # annotation_review = AI_PERSON_PARADIGM
-1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	_	_	_	_
 2	tumugudo	_	_	_	_	_	_	_	_
 3	tubegeje	_	_	_	_	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
@@ -3953,7 +3748,7 @@
 # text_eng = 
 # annotation_review = AI_LINGUISTIC_BATCH3
 1	eture	tu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-2	pudouaji	_	_	_	_	_	_	_	_
+2	pudouaji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1000
@@ -3994,7 +3789,8 @@
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_1015
-# text = pao akore pai .# text_por = nosso pai nos falou.
+# text = pao akore pai .
+# text_por = nosso pai nos falou.
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # pos_morph_review = AI_EXACT_FORM
@@ -4084,7 +3880,7 @@
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
 2	pado	_	_	_	_	_	_	_	_
 3	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-4	iaboeji	_	_	_	_	_	_	_	_
+4	iaboeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_1024
@@ -4166,7 +3962,7 @@
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	pagae	_	_	_	_	_	_	_	_
 4	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-5	boeji	_	_	_	_	_	_	_	_
+5	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1033
@@ -4175,7 +3971,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4185,7 +3981,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
 2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4195,7 +3991,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4207,7 +4003,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4218,7 +4014,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4228,7 +4024,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4239,7 +4035,7 @@
 # text_por = para nós não darmos algo.
 # text_eng = 
 # annotation_review = AI_PERSON_PARADIGM
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 2	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 3	rnaku	_	_	_	_	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
@@ -4249,7 +4045,7 @@
 # text_por = para nós não fazermos você trabalhar.
 # text_eng = 
 # annotation_review = AI_PERSON_PARADIGM
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 2	arnaragodudo	_	_	_	_	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4260,7 +4056,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4270,7 +4066,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4365,7 +4161,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_CAUSATIVE_REVIEW
-1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	AI_CAUSATIVE_REVIEW=PUNCT_HEAD
 
@@ -4376,7 +4172,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4386,7 +4182,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4452,7 +4248,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4462,7 +4258,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	_
 2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4472,7 +4268,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4484,7 +4280,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4494,7 +4290,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	_
 2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4504,7 +4300,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4530,7 +4326,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4541,7 +4337,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4551,7 +4347,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	_	_	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -4993,7 +4789,8 @@
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_1192
-# text = taia tageragu boe ji .# text_por = pudera que vocês pegassem, se vocês pegassem algo.
+# text = taia tageragu boe ji .
+# text_por = pudera que vocês pegassem, se vocês pegassem algo.
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # pos_morph_review = AI_EXACT_FORM
@@ -5011,9 +4808,9 @@
 # annotation_review = AI_PERSON_PARADIGM
 1	ref)	_	_	_	_	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+3	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	_	_	_	_
 4	tageragu	eragu	VERB	v	Number=Sing|Person=2	_	_	_	_
-5	boeji	_	_	_	_	_	_	_	_
+5	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1197
@@ -5081,7 +4878,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tamodukare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Status=Irr	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tamodukare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Status=Irr	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tageragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -5094,7 +4891,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tanure	ta	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=2	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tanure	ta	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=2	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tageragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -5106,7 +4903,7 @@
 # text_eng = 
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
-1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	_	_	_	_
 2	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5116,7 +4913,7 @@
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	_	_	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	_	_	_	_
 2	tamagu	maku	VERB	v	_	_	_	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -5127,7 +4924,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tageragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -5492,7 +5289,7 @@
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	tuie	_	_	_	_	_	_	_	_
 4	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	_	_	_	_
-5	boeji	_	_	_	_	_	_	_	_
+5	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	(falou	_	_	_	_	_	_	_	_
 7	que	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	2	punct	_	_
@@ -5550,7 +5347,7 @@
 2	tum	_	_	_	_	_	_	_	_
 3	ode	_	_	_	_	_	_	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
-5	boeji	_	_	_	_	_	_	_	_
+5	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_1287
@@ -5563,7 +5360,7 @@
 2	tumode	_	_	_	_	_	_	_	_
 3	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 4	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-5	jituji	_	_	_	_	_	_	_	_
+5	jituji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1288
@@ -5620,7 +5417,7 @@
 # text_por = ele viu o que ele mesmo tinha pego.
 # text_eng = 
 # annotation_review = AI_LINGUISTIC_BATCH1
-1	boeji	_	_	_	_	_	_	_	_
+1	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 2	(ele	_	_	_	_	_	_	_	_
 3	viu	_	_	_	_	_	_	_	_
 4	o	_	_	_	_	_	_	_	_
@@ -5633,7 +5430,7 @@
 11	ture	_	_	_	_	_	_	_	_
 12	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	_	_	_	_
 13	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-14	jituji	_	_	_	_	_	_	_	_
+14	jituji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 15	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_1294
@@ -5992,7 +5789,8 @@
 5	bito	bito	VERB	vt	Number=Sing|Person=3	0	root	_	PosMorphAnnot=AI_EXPANDED_MEDIUM:FEATS
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = dic_0004# text = ia adugore ioga ure bito .
+# sent_id = dic_0004
+# text = ia adugore ioga ure bito .
 # text_por = foi uma onça que meu pai matou.
 # text_eng = 
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
@@ -6991,7 +6789,8 @@
 # text_eng = 
 # pos_morph_review = AI_EXACT_FORM
 1	imaragodure	maragodu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	kuiada	kuiada	NOUN	n	_	1	obl	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS3	apagao	apagao	ADP	posp	Number=Sing|Person=3	2	case	_	_
+2	kuiada	kuiada	NOUN	n	_	1	obl	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS
+3	apagao	apagao	ADP	posp	Number=Sing|Person=3	2	case	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0167
@@ -7791,7 +7590,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	eiagu	e	PRON	bi	Number=Plur|Person=3|Speech=Quo	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	eiagu	e	PRON	bi	Number=Plur|Person=3|Speech=Quo	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -7803,7 +7602,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	eiagu	e	PRON	bi	Number=Plur|Person=3|Speech=Quo	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	eiagu	e	PRON	bi	Number=Plur|Person=3|Speech=Quo	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -7815,7 +7614,7 @@
 # annotation_review = AI_COMPLEMENTATION_PASS2
 # annotation_review = AI_VALENCY_MAKU
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	4	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
+2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	4	nsubj	_	_|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	AI_COMPLEMENTATION2=CCOMP
 5	.	.	PUNCT	punct	_	1	punct	_	AI_COMPLEMENTATION2=PUNCT_HEAD
@@ -7828,7 +7627,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	1	ccomp	_	AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -7840,7 +7639,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	1	ccomp	_	AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -7852,7 +7651,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	eie	e	PRON	bi	Number=Plur|Person=3|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	1	ccomp	_	AI_COMPLEMENTATION=CCOMP
 4	boe	boe	NOUN	n	Number=Sing	1	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -7990,7 +7789,8 @@
 3	jemagu	jemagu	VERB	v	_	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = dic_0504# text = emare ro oino .
+# sent_id = dic_0504
+# text = emare ro oino .
 # text_por = foi ele que fez assim.
 # text_eng = 
 1	emare	ema	PRON	pron	Mood=Ind|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -8016,7 +7816,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8028,7 +7828,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	emodukare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -8039,7 +7839,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	enure	e	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8051,7 +7851,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8196,7 +7996,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	pemegarewu	pemega	NOUN	n	Mood=Ind|Nomzr=Rel	0	root	_	_|_
+1	pemegarewu	pemega	NOUN	n	Mood=Ind|Nomzr=Rel	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0602
@@ -8224,7 +8024,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8236,7 +8036,7 @@
 # annotation_review = AI_LINGUISTIC_BATCH3
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	iiagu	i	PRON	bi	Number=Sing|Person=1|Speech=Quo	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -8248,7 +8048,7 @@
 # annotation_review = AI_COMPLEMENTATION_PASS2
 # annotation_review = AI_VALENCY_MAKU
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	4	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
+2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	4	nsubj	_	_|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	AI_COMPLEMENTATION2=CCOMP
 5	.	.	PUNCT	punct	_	1	punct	_	AI_COMPLEMENTATION2=PUNCT_HEAD
@@ -8262,7 +8062,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	1	ccomp	_	_|AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -8274,7 +8074,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	imagu	maku	VERB	vt	Number=Sing|Person=1	1	ccomp	_	AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -8286,7 +8086,7 @@
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	_
 3	ikeragu	eragu	VERB	v	Number=Sing|Person=1	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -8402,7 +8202,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
-1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8414,7 +8214,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
-1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -8424,7 +8224,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
-2	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+2	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	_
 3	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -8434,7 +8234,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
-1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS
+1	irade	i	PRON	bi	Emph=Yes|Number=Sing|Person=1	2	nsubj	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -8705,7 +8505,7 @@
 # text_eng = 
 # dependency_review = AI_HIGH_CONFIDENCE
 # pos_morph_review = AI_EXPANDED_EXACT_FORM
-1	anu	nu	NOUN	n	Number=Sing|Person=2	0	root	_	_|_
+1	anu	nu	NOUN	n	Number=Sing|Person=2	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0989
@@ -8742,7 +8542,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8754,7 +8554,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8786,7 +8586,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8799,7 +8599,7 @@
 # annotation_review = AI_COMPLEMENTATION_PASS2
 # annotation_review = AI_VALENCY_MAKU
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	4	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
+2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	4	nsubj	_	_|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	AI_COMPLEMENTATION2=CCOMP
 5	.	.	PUNCT	punct	_	1	punct	_	AI_COMPLEMENTATION2=PUNCT_HEAD
@@ -8813,7 +8613,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	1	ccomp	_	_|AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -8826,7 +8626,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	1	ccomp	_	_|AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -8839,7 +8639,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	paie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	1	ccomp	_	_|AI_COMPLEMENTATION=CCOMP
 4	boe	boe	NOUN	n	Number=Sing	1	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -8894,7 +8694,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	pamodukare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8906,7 +8706,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8918,7 +8718,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	parade	pa	PRON	bi	Clusivity=In|Emph=Yes|Number=Plur|Person=1	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8989,7 +8789,8 @@
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1116
-# text = ire irawuje .# text_por = eu desci.
+# text = ire irawuje .
+# text_por = eu desci.
 # text_eng = 
 1	ire	i	PRON	bi	Number=Sing|Person=1	2	nsubj	_	_
 2	irawuje	rawuje	VERB	vt	Number=Sing|Person=3	0	root	_	_
@@ -9271,7 +9072,7 @@
 # annotation_review = AI_COMPLEMENTATION_PASS2
 # annotation_review = AI_VALENCY_MAKU
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	4	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
+2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	4	nsubj	_	_|AI_COMPLEMENTATION2=EMBEDDED_NSUBJ
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	AI_COMPLEMENTATION2=CCOMP
 5	.	.	PUNCT	punct	_	1	punct	_	AI_COMPLEMENTATION2=PUNCT_HEAD
@@ -9284,7 +9085,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	1	ccomp	_	AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -9297,7 +9098,7 @@
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_COMPLEMENTATION_PASS1
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
+2	taie	ta	PRON	bi	Number=Plur|Person=2|Speech=Ind	3	nsubj	_	_|AI_COMPLEMENTATION=EMBEDDED_NSUBJ
 3	tamagu	maku	VERB	v	_	1	ccomp	_	PosMorphAnnot=AI_EXPANDED_HIGH:LEMMA,UPOS,XPOS|AI_COMPLEMENTATION=CCOMP
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -9319,7 +9120,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tamodukare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Status=Irr	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tamodukare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Status=Irr	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9331,7 +9132,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tanure	ta	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=2	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tanure	ta	PRON	bi	Aspect=Prog|Mood=Ind|Number=Plur|Person=2	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9343,7 +9144,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	tarade	ta	PRON	bi	Emph=Yes|Number=Plur|Person=2	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9793,7 +9594,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9805,7 +9606,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_ARGMOD_STABLE
-1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_ARGMOD_STABLE=HEAD,nsubj
+1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_|AI_ARGMOD_STABLE=HEAD,nsubj
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -9817,7 +9618,7 @@
 # pos_morph_review = AI_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -9828,7 +9629,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-2	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+2	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 3	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 4	boe	boe	NOUN	n	Number=Sing	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -9841,7 +9642,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9853,7 +9654,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_ARGMOD_STABLE
-1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_ARGMOD_STABLE=HEAD,nsubj
+1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_|AI_ARGMOD_STABLE=HEAD,nsubj
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -9865,7 +9666,7 @@
 # pos_morph_review = AI_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-2	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+2	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -9876,7 +9677,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-2	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+2	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 3	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 4	boe	boe	NOUN	n	Number=Sing	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -9889,7 +9690,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	3	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	3	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -9902,7 +9703,7 @@
 # pos_morph_review = AI_EXACT_FORM
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -9913,7 +9714,7 @@
 # dependency_review = AI_HIGH_CONFIDENCE
 # annotation_review = AI_PERSON_PARADIGM
 # annotation_review = AI_DEP_PARADIGM
-1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	2	nsubj	_	AI_PERSON_PARADIGM=LEMMA,UPOS,XPOS,FEATS|AI_DEP_PARADIGM=HEAD,nsubj
+1	urade	u	PRON	bi	Emph=Yes|Number=Sing|Person=3	2	nsubj	_	_|AI_DEP_PARADIGM=HEAD,nsubj
 2	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -9988,6 +9789,7 @@
 1	uwo	u	PRON	bi	Mood=Sub|Number=Sing|Person=3	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 3	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = dic_1364
 # text = uwo tugeragu boe ji .
 # text_por = para ele pegar algo.
