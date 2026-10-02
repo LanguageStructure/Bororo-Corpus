@@ -225,6 +225,48 @@
           ],
           "evidence": "dic_1075",
           "status": "licensed"
+        },
+        "anure": {
+          "segmentation": [
+            "a",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "2SG",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_0148",
+          "status": "licensed"
+        },
+        "enure": {
+          "segmentation": [
+            "e",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "3PL",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_0522",
+          "status": "licensed"
+        },
+        "tanure": {
+          "segmentation": [
+            "ta",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "2PL",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_1205",
+          "status": "licensed"
         }
       }
     },
@@ -403,6 +445,62 @@
           ],
           "evidence": "dic_1036",
           "status": "licensed"
+        },
+        "ikare": {
+          "segmentation": [
+            "i",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "1SG",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0676",
+          "status": "licensed"
+        },
+        "akare": {
+          "segmentation": [
+            "a",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "2SG",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0081",
+          "status": "licensed"
+        },
+        "ekare": {
+          "segmentation": [
+            "e",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "3PL",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0475",
+          "status": "licensed"
+        },
+        "tagare": {
+          "segmentation": [
+            "ta",
+            "ga",
+            "re"
+          ],
+          "gloss": [
+            "2PL",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1179",
+          "status": "licensed"
         }
       }
     },
@@ -466,6 +564,70 @@
             "IND"
           ],
           "evidence": "dic_1071",
+          "status": "licensed"
+        },
+        "imodukare": {
+          "segmentation": [
+            "i",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "1SG",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0694",
+          "status": "licensed"
+        },
+        "amodukare": {
+          "segmentation": [
+            "a",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "2SG",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0131",
+          "status": "licensed"
+        },
+        "emodukare": {
+          "segmentation": [
+            "e",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "3PL",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_0513",
+          "status": "licensed"
+        },
+        "tamodukare": {
+          "segmentation": [
+            "ta",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "2PL",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1203",
           "status": "licensed"
         }
       }
