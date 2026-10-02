@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "status": "experimental",
   "principle": "Rules summarize attested personal forms. A rule does not license an unattested feature combination; generation must still match a licensed realization.",
   "person_bases": [
@@ -1236,7 +1236,10 @@
       "examples": [
         "ikawo",
         "tagawo",
-        "ukawo"
+        "ukawo",
+        "cegawo",
+        "pagawo",
+        "ekawo"
       ],
       "analyses": {
         "ikawo": {
@@ -1280,6 +1283,48 @@
           ],
           "evidence": "dic_1335",
           "status": "licensed"
+        },
+        "cegawo": {
+          "segmentation": [
+            "ce",
+            "ga",
+            "wo"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_0330",
+          "status": "licensed"
+        },
+        "pagawo": {
+          "segmentation": [
+            "pa",
+            "ga",
+            "wo"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_1043",
+          "status": "licensed"
+        },
+        "ekawo": {
+          "segmentation": [
+            "e",
+            "ka",
+            "wo"
+          ],
+          "gloss": [
+            "3PL",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_0479",
+          "status": "licensed"
         }
       },
       "note": "Only directly attested cells are licensed; ka/ga selection is not generalized."
@@ -1302,7 +1347,8 @@
         "uie",
         "paie",
         "taie",
-        "eie"
+        "eie",
+        "ceie"
       ],
       "analyses": {
         "iie": {
@@ -1380,6 +1426,19 @@
             "SPEECH.IND"
           ],
           "evidence": "dic_0456",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "ceie": {
+          "segmentation": [
+            "ce",
+            "ie"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0354",
           "status": "licensed",
           "segmentation_status": "provisional-boundary"
         }
