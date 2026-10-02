@@ -1,5 +1,5 @@
 {
-  "version": "0.26",
+  "version": "0.27",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -5579,7 +5579,7 @@
       },
       {
         "form": "cegire",
-        "lemma": "ce",
+        "lemma": "cegi",
         "features": {
           "Person": "1",
           "Number": "Plur",
@@ -5590,7 +5590,18 @@
           "dic_0339"
         ],
         "translation": "somos nós que sabemos",
-        "annotation_status": "annotated"
+        "annotation_status": "annotated",
+        "analysis": {
+          "segmentation": [
+            "cegi",
+            "re"
+          ],
+          "gloss": [
+            "PRON.1PL.EX",
+            "IND"
+          ],
+          "status": "user-confirmed"
+        }
       },
       {
         "form": "pagire",
@@ -5606,7 +5617,18 @@
           "dic_1046"
         ],
         "translation": "fomos nós que vimos",
-        "annotation_status": "annotated"
+        "annotation_status": "annotated",
+        "analysis": {
+          "segmentation": [
+            "pagi",
+            "re"
+          ],
+          "gloss": [
+            "PRON.1PL.IN",
+            "IND"
+          ],
+          "status": "user-confirmed"
+        }
       },
       {
         "form": "tagire",
@@ -5641,6 +5663,28 @@
         "reason": "VERB lemma kigi"
       }
     ],
-    "note": "No productive segmentation or missing paradigm cells are inferred from these forms."
+    "note": "cegi and pagi are independent pronouns. cegire = cegi + re; pagire = pagi + re. No internal segmentation of cegi/pagi is permitted. Other forms remain under review.",
+    "independent_pronoun_bases": [
+      {
+        "form": "cegi",
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "Ex"
+        },
+        "gloss": "PRON.1PL.EX",
+        "status": "user-confirmed"
+      },
+      {
+        "form": "pagi",
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "In"
+        },
+        "gloss": "PRON.1PL.IN",
+        "status": "user-confirmed"
+      }
+    ]
   }
 }
