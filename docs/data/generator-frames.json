@@ -1,5 +1,5 @@
 {
-  "version": "0.12",
+  "version": "0.13",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1398,6 +1398,74 @@
       "evidence": "dic_0456",
       "status": "licensed",
       "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "ikae",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0668",
+      "status": "licensed",
+      "note": "Directly attested as negative Speech=Ind with maku; internal segmentation of kae/gae is not generalized."
+    },
+    {
+      "form": "ukae",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1323",
+      "status": "licensed",
+      "note": "Directly attested as negative Speech=Ind with maku; internal segmentation of kae/gae is not generalized."
+    },
+    {
+      "form": "cegae",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0318",
+      "status": "licensed",
+      "note": "Directly attested as negative Speech=Ind with maku; internal segmentation of kae/gae is not generalized."
+    },
+    {
+      "form": "ekae",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0467",
+      "status": "licensed",
+      "note": "Directly attested as negative Speech=Ind with maku; internal segmentation of kae/gae is not generalized."
     }
   ],
   "feature_schema": {
