@@ -1,5 +1,5 @@
 {
-  "version": "0.10",
+  "version": "0.11",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1245,6 +1245,57 @@
       "evidence": "dic_1327",
       "status": "licensed",
       "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ikawo",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_"
+      },
+      "evidence": "dic_0681",
+      "status": "licensed",
+      "note": "Directly attested as negative subjunctive with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "tagawo",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_"
+      },
+      "evidence": "dic_1181",
+      "status": "licensed",
+      "note": "Directly attested as negative subjunctive with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ukawo",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_"
+      },
+      "evidence": "dic_1335",
+      "status": "licensed",
+      "note": "Directly attested as negative subjunctive with maku in reviewed CoNLL-U."
     }
   ],
   "feature_schema": {
