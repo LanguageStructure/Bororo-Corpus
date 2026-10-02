@@ -152,28 +152,63 @@
         "Status": "Irr",
         "Mood": "Ind"
       },
-      "pattern": "BASE + mode",
+      "pattern": "BASE + modu + re",
       "examples": [
         "umode",
         "pamode"
       ],
-      "note": "Other persons may be attested in the corpus but require explicit licensing.",
+      "note": "modu = IRR; re = IND. Only explicitly licensed cells may be generated.",
       "morphemes": [
         {
-          "form": "mode",
-          "function": "Status=Irr; Mood=Ind",
-          "label": "irrealis/futuro indicativo"
+          "form": "modu",
+          "function": "Status=Irr",
+          "label": "irrealis"
+        },
+        {
+          "form": "re",
+          "function": "Mood=Ind",
+          "label": "indicativo"
         }
       ],
       "analyses": {
+        "imode": {
+          "segmentation": [
+            "i",
+            "modu",
+            "re"
+          ],
+          "gloss": [
+            "1SG",
+            "IRR",
+            "IND"
+          ],
+          "evidence": "dic_0685",
+          "status": "attested"
+        },
+        "amode": {
+          "segmentation": [
+            "a",
+            "modu",
+            "re"
+          ],
+          "gloss": [
+            "2SG",
+            "IRR",
+            "IND"
+          ],
+          "evidence": "dic_0125",
+          "status": "attested"
+        },
         "umode": {
           "segmentation": [
             "u",
-            "mode"
+            "modu",
+            "re"
           ],
           "gloss": [
             "3SG",
-            "IRR.IND"
+            "IRR",
+            "IND"
           ],
           "evidence": "dic_1339",
           "status": "licensed"
@@ -181,14 +216,58 @@
         "pamode": {
           "segmentation": [
             "pa",
-            "mode"
+            "modu",
+            "re"
           ],
           "gloss": [
             "1PL.IN",
-            "IRR.IND"
+            "IRR",
+            "IND"
           ],
           "evidence": "dic_1065",
           "status": "licensed"
+        },
+        "cemode": {
+          "segmentation": [
+            "ce",
+            "modu",
+            "re"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "IRR",
+            "IND"
+          ],
+          "evidence": "dic_0360",
+          "status": "attested"
+        },
+        "tamode": {
+          "segmentation": [
+            "ta",
+            "modu",
+            "re"
+          ],
+          "gloss": [
+            "2PL",
+            "IRR",
+            "IND"
+          ],
+          "evidence": "dic_1199",
+          "status": "attested"
+        },
+        "emode": {
+          "segmentation": [
+            "e",
+            "modu",
+            "re"
+          ],
+          "gloss": [
+            "3PL",
+            "IRR",
+            "IND"
+          ],
+          "evidence": "dic_0506",
+          "status": "attested"
         }
       }
     },
@@ -210,12 +289,12 @@
         "Polarity": "Neg",
         "Mood": "Ind"
       },
-      "pattern": "BASE + modukare",
+      "pattern": "BASE + modu + ka + re",
       "examples": [
         "umodukare",
         "pamodukare"
       ],
-      "note": "Only licensed cells may be generated."
+      "note": "Segmentation updated from the confirmed modu (IRR) + re (IND); function of ka is treated as negative marker in this pattern, pending fuller allomorphy analysis."
     },
     {
       "function": {
