@@ -3,7 +3,7 @@
 <title>Gerador experimental · CorBo</title>
 <style>:root{--ink:#202624;--muted:#6d7672;--paper:#fbfcfb;--card:#fff;--line:#e3e7e4;--accent:#527066;--soft:#eef3f1;--serif:Georgia,serif;--sans:system-ui,-apple-system,sans-serif}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 var(--sans)}header{background:#fff;border-bottom:1px solid var(--line)}.bar{max-width:1050px;margin:auto;padding:18px 24px;display:flex;align-items:center;gap:28px}.brand{font:700 23px var(--serif)}.brand small{font:400 11px var(--sans);display:block;color:var(--muted);text-transform:uppercase}.nav{margin-left:auto}.nav a,a{color:var(--accent)}main{max-width:900px;margin:auto;padding:45px 24px 80px}h1{font:600 clamp(38px,6vw,64px)/1.05 var(--serif);margin:5px 0 14px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:11px;color:var(--accent);font-weight:700}.notice{border-left:3px solid var(--accent);padding:12px 16px;background:var(--soft);margin:25px 0}.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-top:25px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-weight:700;font-size:13px}select,input{width:100%;margin-top:5px;padding:11px;border:1px solid var(--line);border-radius:7px;background:#fff}button{margin-top:18px;border:0;border-radius:7px;padding:11px 18px;background:var(--accent);color:white;font-weight:700}.result{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}.generated{font:600 28px var(--serif)}.meta{font-size:12px;color:var(--muted)}@media(max-width:650px){.grid{grid-template-columns:1fr}}button:disabled{opacity:.45;cursor:not-allowed}</style></head>
 <body><header><div class="bar"><div class="brand">CorBo<small>Corpus da Língua Bororo</small></div><nav class="nav"><a href="generator-maku-paradigm.html">Paradigma maku</a> · <a href="generator-matrix.html">Matriz morfológica</a> · <a href="index.html">Corpus</a></nav></div></header>
-<main><div class="eyebrow">Ferramenta experimental · v0.20</div><h1>Gerador de frases</h1>
+<main><div class="eyebrow">Ferramenta experimental · v0.21</div><h1>Gerador de frases</h1>
 <p>Protótipo de geração gramatical controlada. O gerador trabalha apenas com estruturas explicitamente cadastradas e não trata frases geradas como dados do corpus.</p>
 <div class="notice"><strong>Importante.</strong> Uma saída gerada é uma hipótese licenciada pelas regras implementadas; não significa que a frase esteja atestada no corpus nem que tenha sido validada por um falante.</div>
 <section class="panel"><div class="grid"><label>Predicado<select id="pred"><option>Carregando…</option></select></label><label>Frame<input id="frame" readonly></label><label>Status<input id="status" readonly></label><label>Pessoa<select id="person"></select></label>
@@ -12,16 +12,16 @@
 <label>Aspecto<select id="aspect"></select></label>
 <label>Status<select id="gramstatus"></select></label>
 <label>Polaridade<select id="polarity"></select></label>
-<label>Fala / citação<select id="speech"></select></label><label>Ênfase<select id="emph"></select></label><label>Forma verbal<select id="verbform"></select></label><label>Objeto / complemento<input id="obj" placeholder="quando exigido pelo frame"></label></div><button id="go">Gerar estrutura</button><div id="out" class="result" hidden></div></section>
+<label>Fala / citação<select id="speech"></select></label><label>Ênfase<select id="emph"></select></label><label>Forma verbal<select id="verbform"></select></label><label>Construção<select id="construction"><option value="basic">básica</option><option value="causative">causativa</option></select></label><label id="causeeWrap" hidden>Causee<select id="causee"></select></label><label>Objeto / complemento<input id="obj" placeholder="quando exigido pelo frame"></label></div><button id="go">Gerar estrutura</button><div id="out" class="result" hidden></div></section>
 </main><script>
-let predicates=[],subjects=[],schema={},attested=[],morphRules=null,udSentences=[];
+let predicates=[],subjects=[],causees=[],schema={},attested=[],morphRules=null,udSentences=[];
 const p=document.querySelector('#pred'),f=document.querySelector('#frame'),st=document.querySelector('#status'),out=document.querySelector('#out');
 const controls={Person:document.querySelector('#person'),Number:document.querySelector('#number'),Clusivity:document.querySelector('#clusivity'),Mood:document.querySelector('#mood'),Aspect:document.querySelector('#aspect'),Status:document.querySelector('#gramstatus'),Polarity:document.querySelector('#polarity'),Speech:document.querySelector('#speech'),Emph:document.querySelector('#emph'),VerbForm:document.querySelector('#verbform')};
 Promise.all([fetch('data/generator-frames.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/generator-attested-forms.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/generator-morphology-rules.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/ud-sentences.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([d,a,m,u])=>{attested=a?.forms||[];morphRules=m;udSentences=u||[];
- predicates=d.predicates;subjects=d.subject_realizations||[];schema=d.feature_schema||{};if(!schema.VerbForm)schema.VerbForm=[{value:'_',label:'não marcado'},{value:'Ger',label:'gerúndio'}];
+ predicates=d.predicates;subjects=d.subject_realizations||[];causees=d.causee_realizations||[];schema=d.feature_schema||{};if(!schema.VerbForm)schema.VerbForm=[{value:'_',label:'não marcado'},{value:'Ger',label:'gerúndio'}];
  p.innerHTML=predicates.map((x,i)=>`<option value="${i}">${x.lemma} — ${x.label}</option>`).join('');
  Object.entries(controls).forEach(([k,el])=>{el.innerHTML=(schema[k]||[]).map(x=>`<option value="${x.value}">${x.label}</option>`).join('')});
- setDefaults();sync();
+ document.querySelector('#causee').innerHTML=causees.map((x,i)=>`<option value="${i}">${x.form} — ${x.selection.Person}${x.selection.Number==='Plur'?'PL':'SG'}${x.selection.Clusivity!=='_'?'.'+x.selection.Clusivity:''}</option>`).join('');setDefaults();sync();
 });
 function setDefaults(){
  controls.Person.value='3';controls.Number.value='Sing';controls.Clusivity.value='_';controls.Mood.value='Ind';controls.Aspect.value='_';controls.Status.value='_';controls.Polarity.value='Pos';controls.Speech.value='_';controls.Emph.value='_';controls.VerbForm.value='_';
@@ -36,7 +36,7 @@ function sync(){
  f.value=x.frame;st.value=x.status==='corpus-supported'?'apoiado pelo corpus':'em revisão';
  document.querySelector('#go').disabled=x.status!=='corpus-supported';
 }
-p.onchange=sync;
+p.onchange=sync;document.querySelector('#construction').onchange=()=>{document.querySelector('#causeeWrap').hidden=document.querySelector('#construction').value!=='causative'};
 document.querySelector('#go').onclick=()=>{
  const x=predicates[p.value||0],sr=realization(),o=document.querySelector('#obj').value.trim();out.hidden=false;
  if(!x||x.status!=='corpus-supported')return;
@@ -49,7 +49,7 @@ document.querySelector('#go').onclick=()=>{
   out.innerHTML='<div class="meta">COMBINAÇÃO AINDA NÃO LICENCIADA</div><p>O gerador não inventou uma forma. '+(cand.length?'Há, porém, candidato(s) explicitamente anotado(s) no CoNLL-U para esta seleção:':'Ainda não foi encontrada uma análise CoNLL-U exatamente correspondente a esta seleção.')+'</p>'+(evidence?'<ul>'+evidence+'</ul><p><strong>Status:</strong> evidência candidata; requer revisão antes de ser liberada para geração.</p>':'');return}
  const missing=[];if(x.required.includes('object')&&!o)missing.push('objeto');
  if(missing.length){out.innerHTML='<div class="meta">ESTRUTURA NÃO LICENCIADA</div><p>Falta argumento obrigatório: <strong>'+missing.join(', ')+'</strong>.</p>';return}
- const vals={subject:sr.form,object:o,predicate:x.lemma},surface=x.order.map(k=>vals[k]).filter(Boolean).join(' ')+' .';
+ const caus=document.querySelector('#construction').value==='causative',cr=caus?causees[Number(document.querySelector('#causee').value||0)]:null; if(caus&&!cr){out.innerHTML='<div class="meta">CONSTRUÇÃO AINDA NÃO LICENCIADA</div><p>Não há realização de causee licenciada.</p>';return} const vals={subject:sr.form,causee:cr?.form,object:o,predicate:x.lemma},ord=caus?['subject','causee','object','predicate']:x.order,surface=ord.map(k=>vals[k]).filter(Boolean).join(' ')+' .';
  const feats=Object.entries(sr.selection).filter(([,v])=>v!=='_'&&v!=='Pos').map(([k,v])=>k+'='+v).join(' | ');
  const ev=(x.evidence||[]).map(e=>'<li><a href="ud.html?q='+encodeURIComponent(e.sent_id)+'">'+e.sent_id+'</a> — <em>'+e.text+'</em> — '+e.translation+'</li>').join(''); const auto=attested.find(a=>a.form.toLocaleLowerCase()===sr.form.toLocaleLowerCase()&&a.lemma.toLocaleLowerCase()===sr.lemma.toLocaleLowerCase());
  const evSentence=udSentences.find(s=>s.sent_id===sr.evidence), evToken=evSentence?.tokens?.find(t=>t.form===sr.form&&t.upos==='PRON'&&t.xpos==='bi');
