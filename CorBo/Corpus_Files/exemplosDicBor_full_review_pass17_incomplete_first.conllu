@@ -1012,7 +1012,7 @@
 # text = eia tugeragu boe ji .
 # text_por = pudera que eles pegassem, se eles pudessem pegar algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -6780,7 +6780,7 @@
 # text = eia boe maku .
 # text_por = pudera que eles dessem algo, se eles dessem algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	3	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6789,7 +6789,7 @@
 # text = eia imaragodudo .
 # text_por = pudera que eles me fizessem trabalhar, se eles pudessem me fazer trabalhar.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6797,7 +6797,7 @@
 # text = eia tumagu .
 # text_por = pudera que eles se entregassem, se eles se entregassem.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
