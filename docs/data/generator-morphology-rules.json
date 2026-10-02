@@ -1113,6 +1113,81 @@
         }
       },
       "note": "The sequence ie is kept unanalyzed internally pending linguistic confirmation."
+    },
+    {
+      "function": {
+        "Speech": "Ind",
+        "Polarity": "Neg"
+      },
+      "pattern": "BASE + kae/gae",
+      "morphemes": [
+        {
+          "form": "kae/gae",
+          "function": "Polarity=Neg|Speech=Ind",
+          "label": "complexo ainda não decomposto"
+        }
+      ],
+      "examples": [
+        "ikae",
+        "ukae",
+        "cegae",
+        "ekae"
+      ],
+      "analyses": {
+        "ikae": {
+          "segmentation": [
+            "i",
+            "kae"
+          ],
+          "gloss": [
+            "1SG",
+            "NEG+SPEECH.IND"
+          ],
+          "evidence": "dic_0668",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "ukae": {
+          "segmentation": [
+            "u",
+            "kae"
+          ],
+          "gloss": [
+            "3SG",
+            "NEG+SPEECH.IND"
+          ],
+          "evidence": "dic_1323",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "cegae": {
+          "segmentation": [
+            "ce",
+            "gae"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "NEG+SPEECH.IND"
+          ],
+          "evidence": "dic_0318",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "ekae": {
+          "segmentation": [
+            "e",
+            "kae"
+          ],
+          "gloss": [
+            "3PL",
+            "NEG+SPEECH.IND"
+          ],
+          "evidence": "dic_0467",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        }
+      },
+      "note": "Recorded only for directly attested cells; internal segmentation and allomorphy remain under review."
     }
   ],
   "morpheme_inventory": [
