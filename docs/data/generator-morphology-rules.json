@@ -357,12 +357,54 @@
         "Polarity": "Neg",
         "Mood": "Ind"
       },
-      "pattern": "BASE + gare/kare (allomorphy under review)",
+      "pattern": "BASE + ka/ga + re",
       "examples": [
         "ukare",
         "pagare"
       ],
-      "note": "Allomorph selection is not yet encoded productively."
+      "note": "NEG is realized as ka/ga in the attested forms represented here; distribution of the allomorphs is not yet encoded productively.",
+      "morphemes": [
+        {
+          "form": "ka/ga",
+          "function": "Polarity=Neg",
+          "label": "negativo; alomorfia em revisão"
+        },
+        {
+          "form": "re",
+          "function": "Mood=Ind",
+          "label": "indicativo"
+        }
+      ],
+      "analyses": {
+        "ukare": {
+          "segmentation": [
+            "u",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "3SG",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1331",
+          "status": "licensed"
+        },
+        "pagare": {
+          "segmentation": [
+            "pa",
+            "ga",
+            "re"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1036",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -375,7 +417,58 @@
         "umodukare",
         "pamodukare"
       ],
-      "note": "Segmentation updated from the confirmed modu (IRR) + re (IND); function of ka is treated as negative marker in this pattern, pending fuller allomorphy analysis."
+      "note": "The licensed forms represented here contain modu + ka + re. This does not by itself define the full distribution of negative allomorphy.",
+      "morphemes": [
+        {
+          "form": "modu",
+          "function": "Status=Irr",
+          "label": "irrealis"
+        },
+        {
+          "form": "ka",
+          "function": "Polarity=Neg",
+          "label": "negativo"
+        },
+        {
+          "form": "re",
+          "function": "Mood=Ind",
+          "label": "indicativo"
+        }
+      ],
+      "analyses": {
+        "umodukare": {
+          "segmentation": [
+            "u",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "3SG",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1345",
+          "status": "licensed"
+        },
+        "pamodukare": {
+          "segmentation": [
+            "pa",
+            "modu",
+            "ka",
+            "re"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "IRR",
+            "NEG",
+            "IND"
+          ],
+          "evidence": "dic_1071",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -512,6 +605,12 @@
       "function": "Status=Irr",
       "gloss": "IRR",
       "status": "confirmed"
+    },
+    {
+      "form": "ka/ga",
+      "function": "Polarity=Neg",
+      "gloss": "NEG",
+      "status": "confirmed-function; allomorphy-under-review"
     }
   ]
 }
