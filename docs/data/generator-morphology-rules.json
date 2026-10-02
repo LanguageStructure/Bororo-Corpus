@@ -840,7 +840,8 @@
         "iiagu",
         "aiagu",
         "ceiagu",
-        "eiagu"
+        "eiagu",
+        "paiagu"
       ],
       "morphemes": [
         {
@@ -913,6 +914,19 @@
           "evidence": "dic_0452",
           "status": "licensed",
           "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "paiagu": {
+          "segmentation": [
+            "pa",
+            "iagu"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "QUO"
+          ],
+          "evidence": "dic_1054",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
         }
       }
     },
@@ -934,7 +948,8 @@
         "ei",
         "pai",
         "tai",
-        "ui"
+        "ui",
+        "ikai"
       ],
       "analyses": {
         "ai": {
@@ -1008,6 +1023,19 @@
           ],
           "evidence": "dic_1303",
           "status": "licensed"
+        },
+        "ikai": {
+          "segmentation": [
+            "i",
+            "kai"
+          ],
+          "gloss": [
+            "1SG",
+            "GER"
+          ],
+          "evidence": "dic_0672",
+          "status": "licensed",
+          "segmentation_status": "form-attested-internal-boundary-unresolved"
         }
       },
       "note": "Only directly attested gerund cells are licensed."
