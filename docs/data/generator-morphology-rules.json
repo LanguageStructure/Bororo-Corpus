@@ -639,7 +639,11 @@
       "pattern": "BASE + ia",
       "examples": [
         "uia",
-        "paia"
+        "paia",
+        "iia",
+        "aia",
+        "ceia",
+        "eia"
       ],
       "morphemes": [
         {
@@ -672,6 +676,58 @@
           ],
           "evidence": "dic_1050",
           "status": "licensed"
+        },
+        "iia": {
+          "segmentation": [
+            "i",
+            "ia"
+          ],
+          "gloss": [
+            "1SG",
+            "OPT"
+          ],
+          "evidence": "dic_0650",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "aia": {
+          "segmentation": [
+            "a",
+            "ia"
+          ],
+          "gloss": [
+            "2SG",
+            "OPT"
+          ],
+          "evidence": "dic_0043",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "ceia": {
+          "segmentation": [
+            "ce",
+            "ia"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "OPT"
+          ],
+          "evidence": "dic_0347",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "eia": {
+          "segmentation": [
+            "e",
+            "ia"
+          ],
+          "gloss": [
+            "3PL",
+            "OPT"
+          ],
+          "evidence": "dic_0448",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
         }
       }
     },
@@ -682,7 +738,11 @@
       "pattern": "BASE + wo",
       "examples": [
         "uwo",
-        "pawo"
+        "pawo",
+        "iwo",
+        "awo",
+        "tawo",
+        "ewo"
       ],
       "morphemes": [
         {
@@ -715,6 +775,58 @@
           ],
           "evidence": "dic_1090",
           "status": "licensed"
+        },
+        "iwo": {
+          "segmentation": [
+            "i",
+            "wo"
+          ],
+          "gloss": [
+            "1SG",
+            "SUB"
+          ],
+          "evidence": "dic_0761",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "awo": {
+          "segmentation": [
+            "a",
+            "wo"
+          ],
+          "gloss": [
+            "2SG",
+            "SUB"
+          ],
+          "evidence": "dic_0197",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "tawo": {
+          "segmentation": [
+            "ta",
+            "wo"
+          ],
+          "gloss": [
+            "2PL",
+            "SUB"
+          ],
+          "evidence": "dic_1218",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "ewo": {
+          "segmentation": [
+            "e",
+            "wo"
+          ],
+          "gloss": [
+            "3PL",
+            "SUB"
+          ],
+          "evidence": "dic_0566",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
         }
       }
     },
@@ -724,7 +836,11 @@
       },
       "pattern": "BASE + iagu",
       "examples": [
-        "uiagu"
+        "uiagu",
+        "iiagu",
+        "aiagu",
+        "ceiagu",
+        "eiagu"
       ],
       "morphemes": [
         {
@@ -745,6 +861,58 @@
           ],
           "evidence": "dic_1313",
           "status": "licensed"
+        },
+        "iiagu": {
+          "segmentation": [
+            "i",
+            "iagu"
+          ],
+          "gloss": [
+            "1SG",
+            "QUO"
+          ],
+          "evidence": "dic_0654",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "aiagu": {
+          "segmentation": [
+            "a",
+            "iagu"
+          ],
+          "gloss": [
+            "2SG",
+            "QUO"
+          ],
+          "evidence": "dic_0047",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "ceiagu": {
+          "segmentation": [
+            "ce",
+            "iagu"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "QUO"
+          ],
+          "evidence": "dic_0350",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "eiagu": {
+          "segmentation": [
+            "e",
+            "iagu"
+          ],
+          "gloss": [
+            "3PL",
+            "QUO"
+          ],
+          "evidence": "dic_0452",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
         }
       }
     },
