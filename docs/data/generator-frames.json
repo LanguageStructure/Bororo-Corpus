@@ -1,5 +1,5 @@
 {
-  "version": "0.16",
+  "version": "0.17",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1698,6 +1698,10 @@
       {
         "value": "_",
         "label": "não marcado"
+      },
+      {
+        "value": "Ind",
+        "label": "discurso indireto"
       },
       {
         "value": "Quo",
