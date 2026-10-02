@@ -157,7 +157,40 @@
         "umode",
         "pamode"
       ],
-      "note": "Other persons may be attested in the corpus but require explicit licensing."
+      "note": "Other persons may be attested in the corpus but require explicit licensing.",
+      "morphemes": [
+        {
+          "form": "mode",
+          "function": "Status=Irr; Mood=Ind",
+          "label": "irrealis/futuro indicativo"
+        }
+      ],
+      "analyses": {
+        "umode": {
+          "segmentation": [
+            "u",
+            "mode"
+          ],
+          "gloss": [
+            "3SG",
+            "IRR.IND"
+          ],
+          "evidence": "dic_1339",
+          "status": "licensed"
+        },
+        "pamode": {
+          "segmentation": [
+            "pa",
+            "mode"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "IRR.IND"
+          ],
+          "evidence": "dic_1065",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -192,7 +225,40 @@
       "examples": [
         "uia",
         "paia"
-      ]
+      ],
+      "morphemes": [
+        {
+          "form": "ia",
+          "function": "Mood=Opt",
+          "label": "optativo"
+        }
+      ],
+      "analyses": {
+        "uia": {
+          "segmentation": [
+            "u",
+            "ia"
+          ],
+          "gloss": [
+            "3SG",
+            "OPT"
+          ],
+          "evidence": "dic_1309",
+          "status": "licensed"
+        },
+        "paia": {
+          "segmentation": [
+            "pa",
+            "ia"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "OPT"
+          ],
+          "evidence": "dic_1050",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -202,7 +268,40 @@
       "examples": [
         "uwo",
         "pawo"
-      ]
+      ],
+      "morphemes": [
+        {
+          "form": "wo",
+          "function": "Mood=Sub",
+          "label": "subjuntivo"
+        }
+      ],
+      "analyses": {
+        "uwo": {
+          "segmentation": [
+            "u",
+            "wo"
+          ],
+          "gloss": [
+            "3SG",
+            "SUB"
+          ],
+          "evidence": "dic_1361",
+          "status": "licensed"
+        },
+        "pawo": {
+          "segmentation": [
+            "pa",
+            "wo"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "SUB"
+          ],
+          "evidence": "dic_1090",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -211,7 +310,28 @@
       "pattern": "BASE + iagu",
       "examples": [
         "uiagu"
-      ]
+      ],
+      "morphemes": [
+        {
+          "form": "iagu",
+          "function": "Speech=Quo",
+          "label": "quotativo"
+        }
+      ],
+      "analyses": {
+        "uiagu": {
+          "segmentation": [
+            "u",
+            "iagu"
+          ],
+          "gloss": [
+            "3SG",
+            "QUO"
+          ],
+          "evidence": "dic_1313",
+          "status": "licensed"
+        }
+      }
     }
   ]
 }
