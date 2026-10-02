@@ -1208,6 +1208,197 @@
         }
       },
       "note": "Recorded only for directly attested cells; internal segmentation and allomorphy remain under review."
+    },
+    {
+      "function": {
+        "Status": "Irr",
+        "Speech": "Ind",
+        "Polarity": "Pos"
+      },
+      "pattern": "BASE + modu + ie",
+      "morphemes": [
+        {
+          "form": "modu",
+          "function": "Status=Irr",
+          "label": "IRR"
+        },
+        {
+          "form": "ie",
+          "function": "Speech=Ind",
+          "label": "fronteira interna não confirmada"
+        }
+      ],
+      "examples": [
+        "imoduie",
+        "amoduie",
+        "umoduie",
+        "cemoduie"
+      ],
+      "analyses": {
+        "imoduie": {
+          "segmentation": [
+            "i",
+            "modu",
+            "ie"
+          ],
+          "gloss": [
+            "1SG",
+            "IRR",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0692",
+          "status": "licensed",
+          "segmentation_status": "provisional-ie-boundary"
+        },
+        "amoduie": {
+          "segmentation": [
+            "a",
+            "modu",
+            "ie"
+          ],
+          "gloss": [
+            "2SG",
+            "IRR",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0129",
+          "status": "licensed",
+          "segmentation_status": "provisional-ie-boundary"
+        },
+        "umoduie": {
+          "segmentation": [
+            "u",
+            "modu",
+            "ie"
+          ],
+          "gloss": [
+            "3SG",
+            "IRR",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_1343",
+          "status": "licensed",
+          "segmentation_status": "provisional-ie-boundary"
+        },
+        "cemoduie": {
+          "segmentation": [
+            "ce",
+            "modu",
+            "ie"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "IRR",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0364",
+          "status": "licensed",
+          "segmentation_status": "provisional-ie-boundary"
+        }
+      },
+      "note": "Only directly attested cells are licensed."
+    },
+    {
+      "function": {
+        "Status": "Irr",
+        "Speech": "Ind",
+        "Polarity": "Neg"
+      },
+      "pattern": "BASE + modu + ka + ae",
+      "morphemes": [
+        {
+          "form": "modu",
+          "function": "Status=Irr",
+          "label": "IRR"
+        },
+        {
+          "form": "ka",
+          "function": "Polarity=Neg",
+          "label": "NEG"
+        },
+        {
+          "form": "ae",
+          "function": "Speech=Ind",
+          "label": "SPEECH.IND"
+        }
+      ],
+      "examples": [
+        "imodukae",
+        "amodukae",
+        "umodukae",
+        "cemodukae"
+      ],
+      "analyses": {
+        "imodukae": {
+          "segmentation": [
+            "i",
+            "modu",
+            "ka",
+            "ae"
+          ],
+          "gloss": [
+            "1SG",
+            "IRR",
+            "NEG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0693",
+          "status": "licensed",
+          "segmentation_status": "confirmed-components"
+        },
+        "amodukae": {
+          "segmentation": [
+            "a",
+            "modu",
+            "ka",
+            "ae"
+          ],
+          "gloss": [
+            "2SG",
+            "IRR",
+            "NEG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0130",
+          "status": "licensed",
+          "segmentation_status": "confirmed-components"
+        },
+        "umodukae": {
+          "segmentation": [
+            "u",
+            "modu",
+            "ka",
+            "ae"
+          ],
+          "gloss": [
+            "3SG",
+            "IRR",
+            "NEG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_1344",
+          "status": "licensed",
+          "segmentation_status": "confirmed-components"
+        },
+        "cemodukae": {
+          "segmentation": [
+            "ce",
+            "modu",
+            "ka",
+            "ae"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "IRR",
+            "NEG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0365",
+          "status": "licensed",
+          "segmentation_status": "confirmed-components"
+        }
+      },
+      "note": "Only directly attested cells are licensed."
     }
   ],
   "morpheme_inventory": [
