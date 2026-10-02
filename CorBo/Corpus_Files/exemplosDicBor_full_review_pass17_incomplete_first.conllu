@@ -5575,7 +5575,7 @@
 # text = akare boe maku .
 # text_por = você não deu algo.
 # text_eng = 
-1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	3	nsubj	_	_
+1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -5584,7 +5584,7 @@
 # text = akare imaragodudo .
 # text_por = você não me fez trabalhar.
 # text_eng = 
-1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	nsubj	_	_
+1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5592,7 +5592,7 @@
 # text = akare amagu .
 # text_por = você não se entregou.
 # text_eng = 
-1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	nsubj	_	_
+1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	2	nsubj	_	_
 2	amagu	maku	VERB	vt	Number=Sing|Person=2	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5600,7 +5600,7 @@
 # text = akare akeragu boe ji .
 # text_por = você não pegou algo.
 # text_eng = 
-1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	nsubj	_	_
+1	akare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	2	nsubj	_	_
 2	akeragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -5841,7 +5841,7 @@
 # text_por = falei que você iria dar algo.
 # text_eng = 
 1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	amoduie	a	PRON	bi	Number=Sing|Person=1|Speech=Ind|Status=Irr	4	nsubj	_	_
+2	amoduie	a	PRON	bi	Number=Sing|Person=2|Speech=Ind|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -5851,7 +5851,7 @@
 # text_por = eu disse que você não ia dar algo.
 # text_eng = 
 1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	amodukae	a	PRON	bi	Number=Sing|Person=1|Polarity=Neg|Speech=Ind|Status=Irr	4	nsubj	_	_
+2	amodukae	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -5860,7 +5860,7 @@
 # text = amodukare boe maku .
 # text_por = você não dará algo.
 # text_eng = 
-1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_
+1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Status=Irr	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -5869,7 +5869,7 @@
 # text = amodukare imaragodudo .
 # text_por = você não me fará trabalhar.
 # text_eng = 
-1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5877,7 +5877,7 @@
 # text = amodukare amagu .
 # text_por = você não se entregará.
 # text_eng = 
-1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	amagu	maku	VERB	vt	Number=Sing|Person=2	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5885,7 +5885,7 @@
 # text = amodukare akeragu boe ji .
 # text_por = você não pegará algo.
 # text_eng = 
-1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	akeragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
