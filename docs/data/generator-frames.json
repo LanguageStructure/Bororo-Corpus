@@ -1,5 +1,5 @@
 {
-  "version": "0.5",
+  "version": "0.6",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -287,6 +287,282 @@
         "Speech": "_",
         "Clusivity": "_"
       }
+    },
+    {
+      "id": "1-sing-_-ind",
+      "form": "ire",
+      "lemma": "i",
+      "features": {
+        "Person": "1",
+        "Number": "Sing",
+        "Mood": "Ind"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1130",
+      "label": "1SG · indicativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "2-sing-_-ind",
+      "form": "are",
+      "lemma": "a",
+      "features": {
+        "Person": "2",
+        "Number": "Sing",
+        "Mood": "Ind"
+      },
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0178",
+      "label": "2SG · indicativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-ex-ind",
+      "form": "cere",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Mood": "Ind",
+        "Clusivity": "Ex"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0382",
+      "label": "1PL.EX · indicativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "2-plur-_-ind",
+      "form": "tare",
+      "lemma": "ta",
+      "features": {
+        "Person": "2",
+        "Number": "Plur",
+        "Mood": "Ind"
+      },
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1212",
+      "label": "2PL · indicativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "3-plur-_-ind",
+      "form": "ere",
+      "lemma": "e",
+      "features": {
+        "Person": "3",
+        "Number": "Plur",
+        "Mood": "Ind"
+      },
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0534",
+      "label": "3PL · indicativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-paia",
+      "form": "paia",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Opt"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1050",
+      "label": "1PL.IN · optativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-pamode",
+      "form": "pamode",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Status": "Irr"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1065",
+      "label": "1PL.IN · irrealis/futuro",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-panure",
+      "form": "panure",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Aspect": "Prog"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Aspect": "Prog",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1075",
+      "label": "1PL.IN · progressivo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-pawo",
+      "form": "pawo",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Sub"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1090",
+      "label": "1PL.IN · subjuntivo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-pagare",
+      "form": "pagare",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Polarity": "Neg"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_"
+      },
+      "evidence": "dic_1036",
+      "label": "1PL.IN · indicativo negativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
+    },
+    {
+      "id": "1-plur-in-pamodukare",
+      "form": "pamodukare",
+      "lemma": "pa",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Status": "Irr",
+        "Polarity": "Neg"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "_"
+      },
+      "evidence": "dic_1071",
+      "label": "1PL.IN · irrealis/futuro negativo",
+      "status": "licensed",
+      "frame_evidence": "maku"
     }
   ],
   "feature_schema": {
