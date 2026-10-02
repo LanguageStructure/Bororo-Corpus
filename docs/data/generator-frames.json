@@ -1,5 +1,5 @@
 {
-  "version": "0.9",
+  "version": "0.10",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1155,6 +1155,96 @@
       "evidence": "dic_1303",
       "status": "licensed",
       "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "akai",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0077",
+      "status": "licensed",
+      "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ekai",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0471",
+      "status": "licensed",
+      "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "pagai",
+      "lemma": "pa",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1032",
+      "status": "licensed",
+      "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "tagai",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1177",
+      "status": "licensed",
+      "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ukai",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1327",
+      "status": "licensed",
+      "note": "Directly attested as negative gerund with maku in reviewed CoNLL-U."
     }
   ],
   "feature_schema": {
