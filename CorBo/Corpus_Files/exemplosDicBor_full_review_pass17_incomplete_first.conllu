@@ -478,7 +478,7 @@
 # text = ceiagu amaragodudo .
 # text_por = que é para nós te fazermos trabalhar.
 # text_eng = 
-1	ceiagu	ce	PRON	bi	Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
+1	ceiagu	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -486,7 +486,7 @@
 # text = ceiagu cemagu .
 # text_por = que é para nós nos entregarmos.
 # text_eng = 
-2	ceiagu	ce	PRON	bi	Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
+2	ceiagu	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
 3	cemagu	maku	VERB	vt	Clusivity=Ex|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -494,7 +494,7 @@
 # text = ceiagu cegeragu boe ji .
 # text_por = que é para nós pegarmos algo.
 # text_eng = 
-1	ceiagu	ce	PRON	bi	Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
+1	ceiagu	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
 2	cegeragu	eragu	VERB	vt	Clusivity=Ex|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -514,7 +514,7 @@
 # text_por = falou que nós pegamos algo.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	ceie	ce	PRON	bi	Number=Plur|Person=1|Speech=Ind	1	nsubj	_	_|_
+2	ceie	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Speech=Ind	1	nsubj	_	_|_
 3	cegeragu	eragu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	1	ccomp	_	_
 4	boe	boe	NOUN	n	Number=Sing	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	_
@@ -745,7 +745,7 @@
 # text = cewo cedaimo .
 # text_por = nós vamos tomar banho.
 # text_eng = 
-1	cewo	ce	PRON	bi	Mood=Sub|Number=Plur|Person=1	2	nsubj	_	_
+1	cewo	ce	PRON	bi	Clusivity=Ex|Mood=Sub|Number=Plur|Person=1	2	nsubj	_	_
 2	cedaimo	taimo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3281,7 +3281,7 @@
 # text_por = trançamos a palha.
 # text_eng = 
 
-1	cere	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1	_	_	_	_
+1	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
 2	bai	bai	NOUN	n	_	_	_	_	_
 3	otoborado	_	_	_	_	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
@@ -4022,7 +4022,7 @@
 
 1	cerokudu	_	_	_	_	_	_	_	_
 2	tabore	_	_	_	_	_	_	_	_
-3	cere	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1	_	_	_	_
+3	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
 4	arego	arego	VERB	v	Mood=Imp|Number=Sing|Person=2	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -4636,7 +4636,7 @@
 # text = cere ceekurido ji .
 # text_por = ficamos contentes com ele.
 # text_eng = 
-1	cere	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+1	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
 2	ceekurido	ekuri	VERB	v	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	0	root	_	_
 3	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
@@ -6619,7 +6619,7 @@
 # text_por = nós não dando algo.
 # text_eng = 
 
-1	cegai	ce	PRON	bi	Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	3	nsubj	_	_|_
+1	cegai	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6629,7 +6629,7 @@
 # text_por = nós não demos algo.
 # text_eng = 
 
-1	cegare	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_|_
+1	cegare	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6639,7 +6639,7 @@
 # text_por = para nós não darmos algo.
 # text_eng = 
 
-1	cegawo	ce	PRON	bi	Mood=Sub|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_|_
+1	cegawo	ce	PRON	bi	Clusivity=Ex|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6649,7 +6649,7 @@
 # text_por = que é para nós darrno s algo.
 # text_eng = 
 
-1	ceiagu	ce	PRON	bi	Number=Plur|Person=1|Speech=Quo	3	nsubj	_	_|_
+1	ceiagu	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Speech=Quo	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6689,7 +6689,7 @@
 # text_por = nós não vamos dar, ou nós não daremos, algo.
 # text_eng = 
 
-1	cemodukare	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_|_
+1	cemodukare	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6728,7 +6728,7 @@
 # text_por = nós demos algo.
 # text_eng = 
 
-1	cere	ce	PRON	bi	Mood=Ind|Number=Plur|Person=1	3	nsubj	_	_|_
+1	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
