@@ -1,5 +1,5 @@
 {
-  "version": "0.8",
+  "version": "0.9",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1047,6 +1047,114 @@
       "evidence": "dic_1203",
       "status": "licensed",
       "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ai",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0038",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "cei",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0343",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ei",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0444",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "pai",
+      "lemma": "pa",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1047",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "tai",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1187",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ui",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_1303",
+      "status": "licensed",
+      "note": "Directly attested as VerbForm=Ger with maku in reviewed CoNLL-U."
     }
   ],
   "feature_schema": {
