@@ -1,0 +1,190 @@
+{
+  "version": "0.1",
+  "status": "experimental",
+  "purpose": "Contract between an optional natural-language interpreter and the deterministic CorBo generator. AI may propose an intent object; only licensed CorBo data may realize Bororo.",
+  "principles": [
+    "AI output never licenses a Bororo form.",
+    "Unknown or unsupported feature values must be rejected or returned for clarification.",
+    "Surface realization must use generator-frames.json and generator-morphology-rules.json.",
+    "Generated output must retain provenance distinct from corpus attestations."
+  ],
+  "intent_schema": {
+    "predicate": {
+      "type": "string",
+      "required": true
+    },
+    "construction": {
+      "type": "enum",
+      "values": [
+        "basic",
+        "causative"
+      ],
+      "default": "basic"
+    },
+    "subject": {
+      "required": true,
+      "fields": {
+        "Person": {
+          "type": "enum",
+          "values": [
+            "1",
+            "2",
+            "3"
+          ],
+          "required": true
+        },
+        "Number": {
+          "type": "enum",
+          "values": [
+            "Sing",
+            "Plur"
+          ],
+          "required": true
+        },
+        "Clusivity": {
+          "type": "enum",
+          "values": [
+            "_",
+            "In",
+            "Ex"
+          ],
+          "default": "_"
+        }
+      }
+    },
+    "grammar": {
+      "Mood": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Ind",
+          "Opt",
+          "Sub",
+          "Imp"
+        ],
+        "default": "_"
+      },
+      "Aspect": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Prog"
+        ],
+        "default": "_"
+      },
+      "Status": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Irr"
+        ],
+        "default": "_"
+      },
+      "Polarity": {
+        "type": "enum",
+        "values": [
+          "Pos",
+          "Neg"
+        ],
+        "default": "Pos"
+      },
+      "Speech": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Ind",
+          "Quo"
+        ],
+        "default": "_"
+      },
+      "VerbForm": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Ger"
+        ],
+        "default": "_"
+      },
+      "Emph": {
+        "type": "enum",
+        "values": [
+          "_",
+          "Yes"
+        ],
+        "default": "_"
+      }
+    },
+    "arguments": {
+      "object": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "default": null
+      },
+      "complement": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "default": null
+      },
+      "causee": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "default": null
+      }
+    }
+  },
+  "decision_states": [
+    {
+      "code": "LICENSED",
+      "meaning": "Exact grammatical selection and predicate frame are licensed."
+    },
+    {
+      "code": "NEEDS_CLARIFICATION",
+      "meaning": "Intent is ambiguous."
+    },
+    {
+      "code": "UNLICENSED_COMBINATION",
+      "meaning": "No exact licensed personal realization exists."
+    },
+    {
+      "code": "UNLICENSED_FRAME",
+      "meaning": "Personal morphology is licensed but requested predicate/argument structure is not."
+    },
+    {
+      "code": "UNKNOWN_PREDICATE",
+      "meaning": "Predicate is outside the controlled inventory."
+    }
+  ],
+  "example": {
+    "input_pt": "Nós (exclusivo) não daremos algo.",
+    "ai_proposal": {
+      "predicate": "maku",
+      "construction": "basic",
+      "subject": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex"
+      },
+      "grammar": {
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "arguments": {
+        "object": "boe",
+        "complement": null,
+        "causee": null
+      }
+    },
+    "expected_process": "Validate exact selection, then frame, then realize from licensed data; do not synthesize morphology by analogy."
+  }
+}
