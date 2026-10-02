@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.4",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -117,7 +117,16 @@
         "Mood": "Ind"
       },
       "evidence": "dic_1356",
-      "label": "3SG · indicativo"
+      "label": "3SG · indicativo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-irr",
@@ -130,7 +139,16 @@
         "Status": "Irr"
       },
       "evidence": "dic_1339",
-      "label": "3SG · irrealis/futuro"
+      "label": "3SG · irrealis/futuro",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-neg-ind",
@@ -143,7 +161,16 @@
         "Polarity": "Neg"
       },
       "evidence": "dic_1331",
-      "label": "3SG · indicativo negativo"
+      "label": "3SG · indicativo negativo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-opt",
@@ -155,7 +182,16 @@
         "Mood": "Opt"
       },
       "evidence": "dic_1309",
-      "label": "3SG · optativo"
+      "label": "3SG · optativo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-sub",
@@ -167,7 +203,16 @@
         "Mood": "Sub"
       },
       "evidence": "dic_1361",
-      "label": "3SG · subjuntivo"
+      "label": "3SG · subjuntivo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-quo",
@@ -179,7 +224,16 @@
         "Speech": "Quo"
       },
       "evidence": "dic_1313",
-      "label": "3SG · quotativo"
+      "label": "3SG · quotativo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo"
+      }
     },
     {
       "id": "3sg-prog",
@@ -192,7 +246,16 @@
         "Aspect": "Prog"
       },
       "evidence": "dic_1349",
-      "label": "3SG · progressivo"
+      "label": "3SG · progressivo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "Prog",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      }
     },
     {
       "id": "3sg-neg-irr",
@@ -206,7 +269,88 @@
         "Polarity": "Neg"
       },
       "evidence": "dic_1345",
-      "label": "3SG · irrealis/futuro negativo"
+      "label": "3SG · irrealis/futuro negativo",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "_"
+      }
     }
-  ]
+  ],
+  "feature_schema": {
+    "Person": [
+      {
+        "value": "3",
+        "label": "3ª pessoa"
+      }
+    ],
+    "Number": [
+      {
+        "value": "Sing",
+        "label": "singular"
+      }
+    ],
+    "Mood": [
+      {
+        "value": "Ind",
+        "label": "indicativo"
+      },
+      {
+        "value": "Opt",
+        "label": "optativo"
+      },
+      {
+        "value": "Sub",
+        "label": "subjuntivo"
+      },
+      {
+        "value": "_",
+        "label": "não especificado"
+      }
+    ],
+    "Aspect": [
+      {
+        "value": "_",
+        "label": "não marcado"
+      },
+      {
+        "value": "Prog",
+        "label": "progressivo"
+      }
+    ],
+    "Status": [
+      {
+        "value": "_",
+        "label": "realis / não marcado"
+      },
+      {
+        "value": "Irr",
+        "label": "irrealis / futuro"
+      }
+    ],
+    "Polarity": [
+      {
+        "value": "Pos",
+        "label": "afirmativa"
+      },
+      {
+        "value": "Neg",
+        "label": "negativa"
+      }
+    ],
+    "Speech": [
+      {
+        "value": "_",
+        "label": "não marcado"
+      },
+      {
+        "value": "Quo",
+        "label": "quotativo"
+      }
+    ]
+  }
 }
