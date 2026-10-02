@@ -4987,7 +4987,7 @@
 # text_por = eu disse que ele não ia dar nada.
 # text_eng = 
 1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	umodukae	u	PRON	bi	Number=Sing|Person=3|Speech=Ind|Status=Irr	4	nsubj	_	_
+2	umodukae	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg|Speech=Ind|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
