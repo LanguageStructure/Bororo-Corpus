@@ -1,5 +1,5 @@
 {
-  "version": "0.13",
+  "version": "0.14",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1466,6 +1466,23 @@
       "evidence": "dic_0467",
       "status": "licensed",
       "note": "Directly attested as negative Speech=Ind with maku; internal segmentation of kae/gae is not generalized."
+    },
+    {
+      "form": "akae",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0073",
+      "status": "licensed",
+      "note": "Confirmed analysis: a + ka + ae = 2SG + NEG + SPEECH.IND; directly attested with maku."
     }
   ],
   "feature_schema": {
