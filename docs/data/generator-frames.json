@@ -1,5 +1,5 @@
 {
-  "version": "0.4",
+  "version": "0.5",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -125,7 +125,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -147,7 +148,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -169,7 +171,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -190,7 +193,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -211,7 +215,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -232,7 +237,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Quo"
+        "Speech": "Quo",
+        "Clusivity": "_"
       }
     },
     {
@@ -254,7 +260,8 @@
         "Aspect": "Prog",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     },
     {
@@ -277,12 +284,21 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Clusivity": "_"
       }
     }
   ],
   "feature_schema": {
     "Person": [
+      {
+        "value": "1",
+        "label": "1ª pessoa"
+      },
+      {
+        "value": "2",
+        "label": "2ª pessoa"
+      },
       {
         "value": "3",
         "label": "3ª pessoa"
@@ -292,6 +308,10 @@
       {
         "value": "Sing",
         "label": "singular"
+      },
+      {
+        "value": "Plur",
+        "label": "plural"
       }
     ],
     "Mood": [
@@ -350,6 +370,20 @@
       {
         "value": "Quo",
         "label": "quotativo"
+      }
+    ],
+    "Clusivity": [
+      {
+        "value": "_",
+        "label": "não aplicável"
+      },
+      {
+        "value": "In",
+        "label": "inclusiva"
+      },
+      {
+        "value": "Ex",
+        "label": "exclusiva"
       }
     ]
   }
