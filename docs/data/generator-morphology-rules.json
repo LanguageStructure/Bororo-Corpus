@@ -1595,6 +1595,155 @@
         }
       },
       "note": "Only directly attested cells are licensed."
+    },
+    {
+      "function": {
+        "Emph": "Yes"
+      },
+      "pattern": "BASE + rade",
+      "morphemes": [
+        {
+          "form": "rade",
+          "function": "Emph=Yes",
+          "label": "EMPH; unidade não decomposta internamente"
+        }
+      ],
+      "examples": [
+        "irade",
+        "arade",
+        "urade",
+        "parade",
+        "tarade",
+        "erade"
+      ],
+      "analyses": {
+        "irade": {
+          "segmentation": [
+            "i",
+            "rade"
+          ],
+          "gloss": [
+            "1SG",
+            "EMPH"
+          ],
+          "evidence": "dic_0727",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "arade": {
+          "segmentation": [
+            "a",
+            "rade"
+          ],
+          "gloss": [
+            "2SG",
+            "EMPH"
+          ],
+          "evidence": "dic_0170",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "urade": {
+          "segmentation": [
+            "u",
+            "rade"
+          ],
+          "gloss": [
+            "3SG",
+            "EMPH"
+          ],
+          "evidence": "dic_1353",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "parade": {
+          "segmentation": [
+            "pa",
+            "rade"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "EMPH"
+          ],
+          "evidence": "dic_1080",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "tarade": {
+          "segmentation": [
+            "ta",
+            "rade"
+          ],
+          "gloss": [
+            "2PL",
+            "EMPH"
+          ],
+          "evidence": "dic_1208",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "erade": {
+          "segmentation": [
+            "e",
+            "rade"
+          ],
+          "gloss": [
+            "3PL",
+            "EMPH"
+          ],
+          "evidence": "dic_0527",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        }
+      },
+      "note": "Directly attested; no internal decomposition of rade asserted."
+    },
+    {
+      "function": {
+        "Mood": "Imp",
+        "Polarity": "Neg"
+      },
+      "pattern": "BASE + kaba/gaba",
+      "morphemes": [
+        {
+          "form": "kaba/gaba",
+          "function": "Mood=Imp|Polarity=Neg",
+          "label": "IMP.NEG; unidade não decomposta internamente"
+        }
+      ],
+      "examples": [
+        "akaba",
+        "tagaba"
+      ],
+      "analyses": {
+        "akaba": {
+          "segmentation": [
+            "a",
+            "kaba"
+          ],
+          "gloss": [
+            "2SG",
+            "IMP.NEG"
+          ],
+          "evidence": "dic_0071",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        },
+        "tagaba": {
+          "segmentation": [
+            "ta",
+            "gaba"
+          ],
+          "gloss": [
+            "2PL",
+            "IMP.NEG"
+          ],
+          "evidence": "dic_1172",
+          "status": "licensed",
+          "segmentation_status": "functional-unit-no-internal-decomposition"
+        }
+      },
+      "note": "Allomorphy kaba/gaba not generalized beyond attested forms."
     }
   ],
   "morpheme_inventory": [
