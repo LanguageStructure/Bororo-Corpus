@@ -1,36 +1,109 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "status": "experimental",
+  "principles": {
+    "generated_is_attested": false,
+    "require_licensed_frame": true,
+    "evidence_source": "CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu"
+  },
   "predicates": [
     {
       "lemma": "maku",
-      "label": "dar",
+      "label": "dar / entregar",
       "frame": "transitive",
-      "note": "protótipo: requer revisão linguística antes de ampliar"
+      "status": "corpus-supported",
+      "required": [
+        "subject",
+        "object"
+      ],
+      "order": [
+        "subject",
+        "object",
+        "predicate"
+      ],
+      "upos": "VERB",
+      "xpos": "vt",
+      "evidence": [
+        {
+          "sent_id": "dic_1356",
+          "text": "ure boe maku .",
+          "translation": "ele deu algo."
+        },
+        {
+          "sent_id": "dic_1339",
+          "text": "umode boe maku .",
+          "translation": "ele dará, ele vai dar, algo."
+        },
+        {
+          "sent_id": "dic_1331",
+          "text": "ukare boe maku .",
+          "translation": "ele não dá, ou deu, algo."
+        },
+        {
+          "sent_id": "dic_1309",
+          "text": "uia boe maku .",
+          "translation": "pudera ele dar algo, se ele desse algo."
+        }
+      ],
+      "note": "Frame transitivo apoiado diretamente por exemplos anotados no CoNLL-U."
     },
     {
       "lemma": "rakoje",
       "label": "estar em pé",
       "frame": "intransitive",
-      "note": "frame controlado"
+      "status": "review",
+      "required": [
+        "subject"
+      ],
+      "order": [
+        "subject",
+        "predicate"
+      ],
+      "note": "Entrada lexical disponível; realização produtiva ainda não liberada."
     },
     {
       "lemma": "akedu",
-      "label": "—",
+      "label": "predicado intransitivo",
       "frame": "intransitive",
-      "note": "frame controlado"
+      "status": "review",
+      "required": [
+        "subject"
+      ],
+      "order": [
+        "subject",
+        "predicate"
+      ],
+      "note": "Frame mantido para revisão; não usado para geração automática nesta versão."
     },
     {
       "lemma": "akedudo",
-      "label": "causativo de akedu",
+      "label": "causativo",
       "frame": "transitive",
-      "note": "frame controlado"
+      "status": "review",
+      "required": [
+        "subject",
+        "object"
+      ],
+      "order": [
+        "subject",
+        "object",
+        "predicate"
+      ],
+      "note": "Causativo mantido para revisão; não usado para geração automática nesta versão."
     },
     {
       "lemma": "aimo",
       "label": "reflexivo",
       "frame": "reflexive",
-      "note": "objeto correferente ao sujeito"
+      "status": "review",
+      "required": [
+        "subject"
+      ],
+      "order": [
+        "subject",
+        "predicate"
+      ],
+      "note": "Construções reflexivas estão atestadas, mas a realização morfológica será modelada antes de liberar geração."
     }
   ]
 }
