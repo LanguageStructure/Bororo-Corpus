@@ -1,5 +1,5 @@
 {
-  "version": "0.6",
+  "version": "0.7",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -588,6 +588,312 @@
         "Speech": "_",
         "Clusivity": "_"
       }
+    },
+    {
+      "form": "imode",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0685",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "amode",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0125",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "cemode",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0360",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "tamode",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1199",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "emode",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0506",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "iia",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0650",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "aia",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0043",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ceia",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0347",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "eia",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Opt",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0448",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "iiagu",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo"
+      },
+      "evidence": "dic_0654",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "aiagu",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo"
+      },
+      "evidence": "dic_0047",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ceiagu",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo"
+      },
+      "evidence": "dic_0350",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "eiagu",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo"
+      },
+      "evidence": "dic_0452",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "iwo",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0761",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "awo",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0197",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "cewo",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0386",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "tawo",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_1218",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "ewo",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": "dic_0566",
+      "status": "licensed",
+      "note": "Directly attested with maku in reviewed CoNLL-U."
     }
   ],
   "feature_schema": {
