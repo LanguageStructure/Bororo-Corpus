@@ -747,6 +747,102 @@
           "status": "licensed"
         }
       }
+    },
+    {
+      "function": {
+        "VerbForm": "Ger"
+      },
+      "pattern": "BASE + i",
+      "morphemes": [
+        {
+          "form": "i",
+          "function": "VerbForm=Ger",
+          "label": "gerúndio"
+        }
+      ],
+      "examples": [
+        "ai",
+        "cei",
+        "ei",
+        "pai",
+        "tai",
+        "ui"
+      ],
+      "analyses": {
+        "ai": {
+          "segmentation": [
+            "a",
+            "i"
+          ],
+          "gloss": [
+            "2SG",
+            "GER"
+          ],
+          "evidence": "dic_0038",
+          "status": "licensed"
+        },
+        "cei": {
+          "segmentation": [
+            "ce",
+            "i"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "GER"
+          ],
+          "evidence": "dic_0343",
+          "status": "licensed"
+        },
+        "ei": {
+          "segmentation": [
+            "e",
+            "i"
+          ],
+          "gloss": [
+            "3PL",
+            "GER"
+          ],
+          "evidence": "dic_0444",
+          "status": "licensed"
+        },
+        "pai": {
+          "segmentation": [
+            "pa",
+            "i"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "GER"
+          ],
+          "evidence": "dic_1047",
+          "status": "licensed"
+        },
+        "tai": {
+          "segmentation": [
+            "ta",
+            "i"
+          ],
+          "gloss": [
+            "2PL",
+            "GER"
+          ],
+          "evidence": "dic_1187",
+          "status": "licensed"
+        },
+        "ui": {
+          "segmentation": [
+            "u",
+            "i"
+          ],
+          "gloss": [
+            "3SG",
+            "GER"
+          ],
+          "evidence": "dic_1303",
+          "status": "licensed"
+        }
+      },
+      "note": "Only directly attested gerund cells are licensed."
     }
   ],
   "morpheme_inventory": [
@@ -773,6 +869,12 @@
       "function": "Polarity=Neg",
       "gloss": "NEG",
       "status": "confirmed-function; allomorphy-under-review"
+    },
+    {
+      "form": "i",
+      "function": "VerbForm=Ger",
+      "gloss": "GER",
+      "status": "confirmed"
     }
   ]
 }
