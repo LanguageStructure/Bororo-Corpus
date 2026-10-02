@@ -1,5 +1,5 @@
 {
-  "version": "0.20",
+  "version": "0.21",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -2113,5 +2113,68 @@
       "frame_evidence": "maku",
       "status": "candidate"
     }
-  ]
+  ],
+  "causee_realizations": [
+    {
+      "form": "ado",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_"
+      },
+      "evidence": "dic_0021",
+      "status": "licensed",
+      "features": {
+        "Voice": "Cau"
+      },
+      "role": "causee"
+    },
+    {
+      "form": "tado",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_"
+      },
+      "evidence": "dic_1166",
+      "status": "licensed",
+      "features": {
+        "Voice": "Cau"
+      },
+      "role": "causee"
+    },
+    {
+      "form": "edo",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_"
+      },
+      "evidence": "dic_0429",
+      "status": "licensed",
+      "features": {
+        "Voice": "Cau"
+      },
+      "role": "causee"
+    }
+  ],
+  "causative_construction": {
+    "status": "attested-under-modeling",
+    "description": "Causative maku examples contain an ordinary causer subject plus a distinct Voice=Cau personal form representing the causee.",
+    "order": [
+      "causer",
+      "causee",
+      "object",
+      "predicate"
+    ],
+    "evidence": [
+      "dic_0021",
+      "dic_0429",
+      "dic_1166"
+    ],
+    "note": "Causee forms are intentionally separate from subject_realizations; no unattested causative person cells are generated."
+  }
 }
