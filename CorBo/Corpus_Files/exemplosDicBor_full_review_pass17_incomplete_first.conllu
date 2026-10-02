@@ -544,7 +544,7 @@
 # text = cemode boe maku .
 # text_por = nós daremos, nós vamos dar, algo.
 # text_eng = 
-1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1Status=Irr	3	nsubj	_	_
+1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Status=Irr	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -1012,7 +1012,7 @@
 # text = eia tugeragu boe ji .
 # text_por = pudera que eles pegassem, se eles pudessem pegar algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -1075,7 +1075,7 @@
 # text = akaba ikodo jejodo .
 # text_por = não vires minha cesta.
 # text_eng = 
-1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Persoon=2	3	nsubj	_	_
+1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Person=2	3	nsubj	_	_
 2	ikodo	kodo	NOUN	n	Number=Sing|Person=1	3	obj	_	_
 3	jejodo	jejodo	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -5484,7 +5484,7 @@
 # text = akaba boe maku .
 # text_por = você não dê algo.
 # text_eng = 
-1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Persoon=2|Polarity=Neg	3	nsubj	_	_
+1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -5493,7 +5493,7 @@
 # text = akaba amagu .
 # text_por = você não se entregue.
 # text_eng = 
-1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Persoon=2	2	nsubj	_	_
+1	akaba	a	PRON	bi	Mood=Imp|Number=Sing|Person=2	2	nsubj	_	_
 2	amagu	maku	VERB	vt	Number=Sing|Person=2	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6680,7 +6680,7 @@
 # text = cemode amaragodudo .
 # text_por = nós vamos fazer você trabalhar.
 # text_eng = 
-1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1Status=Irr	2	nsubj	_	_
+1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Status=Irr	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6745,7 +6745,7 @@
 # text = ei boe maku .
 # text_por = eles dando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	3	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6754,7 +6754,7 @@
 # text = ei imaragodudo .
 # text_por = eles me fazendo trabalhar.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6762,7 +6762,7 @@
 # text = ei tumagu .
 # text_por = eles se entregando.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6770,7 +6770,7 @@
 # text = ei tugeragu boe ji .
 # text_por = eles pegando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -6780,7 +6780,7 @@
 # text = eia boe maku .
 # text_por = pudera que eles dessem algo, se eles dessem algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	3	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6789,7 +6789,7 @@
 # text = eia imaragodudo .
 # text_por = pudera que eles me fizessem trabalhar, se eles pudessem me fazer trabalhar.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6797,7 +6797,7 @@
 # text = eia tumagu .
 # text_por = pudera que eles se entregassem, se eles se entregassem.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -7173,7 +7173,7 @@
 # text = aregoduia .
 # text_por = se ele chegasse.
 # text_eng = 
-1	aregoduia	aregodu	VERB	v	MoodOpt|Number=Sing|Person=3	0	root	_	_
+1	aregoduia	aregodu	VERB	v	Mood=Opt|Number=Sing|Person=3	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0648
