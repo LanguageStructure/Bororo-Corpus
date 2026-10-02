@@ -1,5 +1,5 @@
 {
-  "version": "0.17",
+  "version": "0.18",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1619,6 +1619,42 @@
       "evidence": "dic_0365",
       "status": "licensed",
       "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "ikai",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "Ger"
+      },
+      "evidence": "dic_0672",
+      "status": "licensed",
+      "note": "Directly attested with maku; no negative polarity asserted by current CoNLL-U."
+    },
+    {
+      "form": "paiagu",
+      "lemma": "pa",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Quo",
+        "VerbForm": "_"
+      },
+      "evidence": "dic_1054",
+      "status": "licensed",
+      "note": "Directly attested with maku."
     }
   ],
   "feature_schema": {
