@@ -14,10 +14,10 @@
 <label>Polaridade<select id="polarity"></select></label>
 <label>Fala / citação<select id="speech"></select></label><label>Objeto / complemento<input id="obj" placeholder="quando exigido pelo frame"></label></div><button id="go">Gerar estrutura</button><div id="out" class="result" hidden></div></section>
 </main><script>
-let predicates=[],subjects=[],schema={},attested=[];
+let predicates=[],subjects=[],schema={},attested=[],morphRules=null;
 const p=document.querySelector('#pred'),f=document.querySelector('#frame'),st=document.querySelector('#status'),out=document.querySelector('#out');
 const controls={Person:document.querySelector('#person'),Number:document.querySelector('#number'),Clusivity:document.querySelector('#clusivity'),Mood:document.querySelector('#mood'),Aspect:document.querySelector('#aspect'),Status:document.querySelector('#gramstatus'),Polarity:document.querySelector('#polarity'),Speech:document.querySelector('#speech')};
-Promise.all([fetch('data/generator-frames.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/generator-attested-forms.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,a])=>{attested=a?.forms||[];
+Promise.all([fetch('data/generator-frames.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/generator-attested-forms.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/generator-morphology-rules.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,a,m])=>{attested=a?.forms||[];morphRules=m;
  predicates=d.predicates;subjects=d.subject_realizations||[];schema=d.feature_schema||{};
  p.innerHTML=predicates.map((x,i)=>`<option value="${i}">${x.lemma} — ${x.label}</option>`).join('');
  Object.entries(controls).forEach(([k,el])=>{el.innerHTML=(schema[k]||[]).map(x=>`<option value="${x.value}">${x.label}</option>`).join('')});
@@ -52,5 +52,7 @@ document.querySelector('#go').onclick=()=>{
  const vals={subject:sr.form,object:o,predicate:x.lemma},surface=x.order.map(k=>vals[k]).filter(Boolean).join(' ')+' .';
  const feats=Object.entries(sr.selection).filter(([,v])=>v!=='_'&&v!=='Pos').map(([k,v])=>k+'='+v).join(' | ');
  const ev=(x.evidence||[]).map(e=>'<li><a href="ud.html?q='+encodeURIComponent(e.sent_id)+'">'+e.sent_id+'</a> — <em>'+e.text+'</em> — '+e.translation+'</li>').join(''); const auto=attested.find(a=>a.form.toLocaleLowerCase()===sr.form.toLocaleLowerCase()&&a.lemma.toLocaleLowerCase()===sr.lemma.toLocaleLowerCase());
- out.innerHTML='<div class="meta">SAÍDA EXPERIMENTAL · COMBINAÇÃO LICENCIADA POR EVIDÊNCIA CoNLL-U</div><div class="generated">'+surface+'</div><p><strong>Realização do sujeito:</strong> '+sr.form+' · '+(feats||'não marcado')+' · evidência: <a href="ud.html?q='+encodeURIComponent(sr.evidence)+'">'+sr.evidence+'</a></p><p><strong>Frame:</strong> '+x.frame+' · <strong>UPOS:</strong> '+(x.upos||'—')+' · <strong>XPOS:</strong> '+(x.xpos||'—')+'</p><p>'+x.note+'</p><p><strong>Evidência do frame no CoNLL-U</strong></p><ul>'+ev+'</ul>';
+ const analyses=(morphRules?.observed_markers||[]).flatMap(r=>Object.entries(r.analyses||{}).map(([form,a])=>({form,...a}))), ma=analyses.find(a=>a.form===sr.form);
+ const morph=ma?'<p><strong>Forma:</strong> '+sr.form+'<br><strong>Análise:</strong> '+ma.segmentation.join(' + ')+'<br><strong>Morfologia:</strong> '+ma.gloss.join(' + ')+'<br><strong>Status:</strong> licenciada<br><strong>Evidência:</strong> <a href="ud.html?q='+encodeURIComponent(ma.evidence)+'">'+ma.evidence+'</a></p>':'';
+ out.innerHTML='<div class="meta">SAÍDA EXPERIMENTAL · COMBINAÇÃO LICENCIADA POR EVIDÊNCIA CoNLL-U</div><div class="generated">'+surface+'</div>'+morph+'<p><strong>Realização do sujeito:</strong> '+sr.form+' · '+(feats||'não marcado')+' · evidência: <a href="ud.html?q='+encodeURIComponent(sr.evidence)+'">'+sr.evidence+'</a></p><p><strong>Frame:</strong> '+x.frame+' · <strong>UPOS:</strong> '+(x.upos||'—')+' · <strong>XPOS:</strong> '+(x.xpos||'—')+'</p><p>'+x.note+'</p><p><strong>Evidência do frame no CoNLL-U</strong></p><ul>'+ev+'</ul>';
 };</script></body></html>
