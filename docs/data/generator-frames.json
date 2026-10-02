@@ -1,0 +1,36 @@
+{
+  "version": "0.1",
+  "status": "experimental",
+  "predicates": [
+    {
+      "lemma": "maku",
+      "label": "dar",
+      "frame": "transitive",
+      "note": "protótipo: requer revisão linguística antes de ampliar"
+    },
+    {
+      "lemma": "rakoje",
+      "label": "estar em pé",
+      "frame": "intransitive",
+      "note": "frame controlado"
+    },
+    {
+      "lemma": "akedu",
+      "label": "—",
+      "frame": "intransitive",
+      "note": "frame controlado"
+    },
+    {
+      "lemma": "akedudo",
+      "label": "causativo de akedu",
+      "frame": "transitive",
+      "note": "frame controlado"
+    },
+    {
+      "lemma": "aimo",
+      "label": "reflexivo",
+      "frame": "reflexive",
+      "note": "objeto correferente ao sujeito"
+    }
+  ]
+}
