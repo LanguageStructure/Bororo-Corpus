@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -104,6 +104,109 @@
         "predicate"
       ],
       "note": "Construções reflexivas estão atestadas, mas a realização morfológica será modelada antes de liberar geração."
+    }
+  ],
+  "subject_realizations": [
+    {
+      "id": "3sg-ind",
+      "form": "ure",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind"
+      },
+      "evidence": "dic_1356",
+      "label": "3SG · indicativo"
+    },
+    {
+      "id": "3sg-irr",
+      "form": "umode",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Status": "Irr"
+      },
+      "evidence": "dic_1339",
+      "label": "3SG · irrealis/futuro"
+    },
+    {
+      "id": "3sg-neg-ind",
+      "form": "ukare",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Polarity": "Neg"
+      },
+      "evidence": "dic_1331",
+      "label": "3SG · indicativo negativo"
+    },
+    {
+      "id": "3sg-opt",
+      "form": "uia",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Opt"
+      },
+      "evidence": "dic_1309",
+      "label": "3SG · optativo"
+    },
+    {
+      "id": "3sg-sub",
+      "form": "uwo",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Sub"
+      },
+      "evidence": "dic_1361",
+      "label": "3SG · subjuntivo"
+    },
+    {
+      "id": "3sg-quo",
+      "form": "uiagu",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Speech": "Quo"
+      },
+      "evidence": "dic_1313",
+      "label": "3SG · quotativo"
+    },
+    {
+      "id": "3sg-prog",
+      "form": "unure",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "Prog"
+      },
+      "evidence": "dic_1349",
+      "label": "3SG · progressivo"
+    },
+    {
+      "id": "3sg-neg-irr",
+      "form": "umodukare",
+      "lemma": "u",
+      "features": {
+        "Person": "3",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Status": "Irr",
+        "Polarity": "Neg"
+      },
+      "evidence": "dic_1345",
+      "label": "3SG · irrealis/futuro negativo"
     }
   ]
 }
