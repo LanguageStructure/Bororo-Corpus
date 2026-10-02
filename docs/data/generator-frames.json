@@ -1,5 +1,5 @@
 {
-  "version": "0.25",
+  "version": "0.26",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -5511,5 +5511,136 @@
         }
       ]
     }
+  },
+  "focus_copular_construction": {
+    "status": "attested-under-review",
+    "generation_enabled": false,
+    "description": "Personal forms occurring in focus/cleft-like or copular translations (e.g. 'somos nós que...', 'é você que...'). Kept separate from ordinary subject realizations pending analysis.",
+    "attested_forms": [
+      {
+        "form": "akie",
+        "lemma": "a",
+        "features": {
+          "Person": "2",
+          "Number": "Sing",
+          "Speech": "Ind"
+        },
+        "evidence": [
+          "dic_0100"
+        ],
+        "translation": "falou que é você que irá embora",
+        "annotation_status": "annotated"
+      },
+      {
+        "form": "cegie",
+        "lemma": "ce",
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "Ex",
+          "Speech": "Ind"
+        },
+        "evidence": [
+          "dic_0338"
+        ],
+        "translation": "disse que seremos nós que iremos",
+        "annotation_status": "annotated",
+        "homography_note": "cegie is also attested as NOUN lemma ie 'nosso nome' in dic_0317"
+      },
+      {
+        "form": "pagie",
+        "lemma": null,
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "In",
+          "Speech": "Ind"
+        },
+        "evidence": [
+          "dic_1044",
+          "dic_1045"
+        ],
+        "translation": "disse que somos nós / somos nós que iremos",
+        "annotation_status": "token-unannotated"
+      },
+      {
+        "form": "tagie",
+        "lemma": null,
+        "features": {
+          "Person": "2",
+          "Number": "Plur",
+          "Speech": "Ind"
+        },
+        "evidence": [
+          "dic_1184"
+        ],
+        "translation": "disse que são vocês que irão",
+        "annotation_status": "token-unannotated"
+      },
+      {
+        "form": "cegire",
+        "lemma": "ce",
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "Ex",
+          "Mood": "Ind"
+        },
+        "evidence": [
+          "dic_0339"
+        ],
+        "translation": "somos nós que sabemos",
+        "annotation_status": "annotated"
+      },
+      {
+        "form": "pagire",
+        "lemma": "pagi",
+        "features": {
+          "Person": "1",
+          "Number": "Plur",
+          "Clusivity": "In",
+          "Mood": "Ind",
+          "PronType": "Prs"
+        },
+        "evidence": [
+          "dic_1046"
+        ],
+        "translation": "fomos nós que vimos",
+        "annotation_status": "annotated"
+      },
+      {
+        "form": "tagire",
+        "lemma": "tagi",
+        "features": {
+          "Person": "2",
+          "Number": "Plur",
+          "Mood": "Ind",
+          "PronType": "Prs"
+        },
+        "evidence": [
+          "dic_1185"
+        ],
+        "translation": "foram vocês que falaram",
+        "annotation_status": "annotated"
+      }
+    ],
+    "excluded_homographs": [
+      {
+        "form": "cegie",
+        "evidence": "dic_0317",
+        "reason": "NOUN lemma ie, translation 'nosso nome'"
+      },
+      {
+        "form": "aekugigire",
+        "evidence": "dic_0494",
+        "reason": "VERB lemma ekugigi"
+      },
+      {
+        "form": "kigire",
+        "evidence": "dic_0859",
+        "reason": "VERB lemma kigi"
+      }
+    ],
+    "note": "No productive segmentation or missing paradigm cells are inferred from these forms."
   }
 }
