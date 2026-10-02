@@ -1,5 +1,5 @@
 {
-  "version": "0.19",
+  "version": "0.20",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1851,6 +1851,44 @@
       "evidence": "dic_0527",
       "status": "licensed",
       "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "akaba",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Imp",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_0071",
+      "status": "licensed",
+      "note": "Directly attested with maku; kaba/gaba kept undecomposed."
+    },
+    {
+      "form": "tagaba",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Imp",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_1172",
+      "status": "licensed",
+      "note": "Directly attested with maku; kaba/gaba kept undecomposed."
     }
   ],
   "feature_schema": {
@@ -1894,6 +1932,10 @@
       {
         "value": "_",
         "label": "não especificado"
+      },
+      {
+        "value": "Imp",
+        "label": "imperativo"
       }
     ],
     "Aspect": [
