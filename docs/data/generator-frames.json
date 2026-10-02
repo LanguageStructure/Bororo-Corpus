@@ -1,5 +1,5 @@
 {
-  "version": "0.15",
+  "version": "0.16",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1716,6 +1716,16 @@
       {
         "value": "Ex",
         "label": "exclusiva"
+      }
+    ],
+    "VerbForm": [
+      {
+        "value": "_",
+        "label": "não marcado"
+      },
+      {
+        "value": "Ger",
+        "label": "gerúndio"
       }
     ]
   },
