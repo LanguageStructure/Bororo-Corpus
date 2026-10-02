@@ -544,7 +544,7 @@
 # text = cemode boe maku .
 # text_por = nós daremos, nós vamos dar, algo.
 # text_eng = 
-1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1Status=Irr	3	nsubj	_	_
+1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Status=Irr	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -2373,7 +2373,7 @@
 # text_por = quantos são eles?
 # text_eng = 
 1	inoba	inoba	DET	_	PronType=Int	2	det	_	_
-2	are	a	PRON	bi	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+2	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 3	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0702
@@ -5540,7 +5540,7 @@
 # text = akai boe maku .
 # text_por = você não dando algo.
 # text_eng = 
-1	akai	a	PRON	bi	Number=Sing|Person=3|Polarity=Neg|VerbForm=Ger	3	nsubj	_	_
+1	akai	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|VerbForm=Ger	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -5549,7 +5549,7 @@
 # text = akai imaragodudo .
 # text_por = você não me fazendo trabalhar.
 # text_eng = 
-1	akai	a	PRON	bi	Number=Sing|Person=3|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+1	akai	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5557,7 +5557,7 @@
 # text = akai amagu .
 # text_por = você não se entregando.
 # text_eng = 
-1	akai	a	PRON	bi	Number=Sing|Person=3|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+1	akai	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
 2	amagu	maku	VERB	vt	Number=Sing|Person=2	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -5565,7 +5565,7 @@
 # text = akai akeragu boe ji .
 # text_por = você não pegando algo.
 # text_eng = 
-1	akai	a	PRON	bi	Number=Sing|Person=3|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+1	akai	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
 2	akeragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -6680,7 +6680,7 @@
 # text = cemode amaragodudo .
 # text_por = nós vamos fazer você trabalhar.
 # text_eng = 
-1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1Status=Irr	2	nsubj	_	_
+1	cemode	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Status=Irr	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -8038,7 +8038,7 @@
 # text = tagare boe maku .
 # text_por = vocês não deram algo.
 # text_eng = 
-1	tagawo	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2	3	nsubj	_	_
+1	tagare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	PosMorphAnnot=AI:FEATS
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -8047,7 +8047,7 @@
 # text = tagare tageragu boe ji .
 # text_por = vocês não pegaram algo.
 # text_eng = 
-1	tagawo	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2	2	nsubj	_	_
+1	tagare	ta	PRON	bi	Mood=Ind|Number=Plur|Person=2|Polarity=Neg	2	nsubj	_	_
 2	tageragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
