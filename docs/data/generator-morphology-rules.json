@@ -942,6 +942,75 @@
         }
       },
       "note": "Allomorph selection is recorded only in directly attested cells; it is not applied productively."
+    },
+    {
+      "function": {
+        "Mood": "Sub",
+        "Polarity": "Neg"
+      },
+      "pattern": "BASE + ka/ga + wo",
+      "morphemes": [
+        {
+          "form": "ka/ga",
+          "function": "Polarity=Neg",
+          "label": "negação; alomorfia não generalizada"
+        },
+        {
+          "form": "wo",
+          "function": "Mood=Sub",
+          "label": "subjuntivo"
+        }
+      ],
+      "examples": [
+        "ikawo",
+        "tagawo",
+        "ukawo"
+      ],
+      "analyses": {
+        "ikawo": {
+          "segmentation": [
+            "i",
+            "ka",
+            "wo"
+          ],
+          "gloss": [
+            "1SG",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_0681",
+          "status": "licensed"
+        },
+        "tagawo": {
+          "segmentation": [
+            "ta",
+            "ga",
+            "wo"
+          ],
+          "gloss": [
+            "2PL",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_1181",
+          "status": "licensed"
+        },
+        "ukawo": {
+          "segmentation": [
+            "u",
+            "ka",
+            "wo"
+          ],
+          "gloss": [
+            "3SG",
+            "NEG",
+            "SUB"
+          ],
+          "evidence": "dic_1335",
+          "status": "licensed"
+        }
+      },
+      "note": "Only directly attested cells are licensed; ka/ga selection is not generalized."
     }
   ],
   "morpheme_inventory": [
