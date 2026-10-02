@@ -18,10 +18,10 @@
 <label>Português / inglês<input id="nlIntent" placeholder="Ex.: Nós (exclusivo) não daremos algo."></label>
 <button id="interpret">Interpretar e validar</button>
 <div id="intentOut" class="result" hidden></div></section></main><script>
-let predicates=[],subjects=[],causees=[],schema={},attested=[],morphRules=null,udSentences=[],intentSchema=null;
+let predicates=[],subjects=[],causees=[],schema={},attested=[],morphRules=null,udSentences=[],intentSchema=null,aiConfig={mode:'demo',endpoint:null};
 const p=document.querySelector('#pred'),f=document.querySelector('#frame'),st=document.querySelector('#status'),out=document.querySelector('#out');
 const controls={Person:document.querySelector('#person'),Number:document.querySelector('#number'),Clusivity:document.querySelector('#clusivity'),Mood:document.querySelector('#mood'),Aspect:document.querySelector('#aspect'),Status:document.querySelector('#gramstatus'),Polarity:document.querySelector('#polarity'),Speech:document.querySelector('#speech'),Emph:document.querySelector('#emph'),VerbForm:document.querySelector('#verbform')};
-Promise.all([fetch('data/generator-frames.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/generator-attested-forms.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/generator-morphology-rules.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/ud-sentences.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),fetch('data/generator-intent-schema.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,a,m,u,i])=>{attested=a?.forms||[];morphRules=m;udSentences=u||[];intentSchema=i;
+Promise.all([fetch('data/generator-frames.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/generator-attested-forms.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/generator-morphology-rules.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/ud-sentences.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),fetch('data/generator-intent-schema.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('data/generator-ai-config.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,a,m,u,i,cfg])=>{attested=a?.forms||[];morphRules=m;udSentences=u||[];intentSchema=i;aiConfig=cfg||aiConfig;
  predicates=d.predicates;subjects=d.subject_realizations||[];causees=d.causee_realizations||[];schema=d.feature_schema||{};if(!schema.VerbForm)schema.VerbForm=[{value:'_',label:'não marcado'},{value:'Ger',label:'gerúndio'}];
  p.innerHTML=predicates.map((x,i)=>`<option value="${i}">${x.lemma} — ${x.label}</option>`).join('');
  Object.entries(controls).forEach(([k,el])=>{el.innerHTML=(schema[k]||[]).map(x=>`<option value="${x.value}">${x.label}</option>`).join('')});
@@ -88,12 +88,16 @@ const demoIntents=[
  {patterns:[/n[oó]s.*exclusiv.*n[aã]o daremos algo/i],intent:{predicate:'maku',construction:'basic',subject:{Person:'1',Number:'Plur',Clusivity:'Ex'},grammar:{Mood:'Ind',Aspect:'_',Status:'Irr',Polarity:'Neg',Speech:'_',VerbForm:'_',Emph:'_'},arguments:{object:'boe',complement:null,causee:null}}},
  {patterns:[/ele dar[aá] algo/i],intent:{predicate:'maku',construction:'basic',subject:{Person:'3',Number:'Sing',Clusivity:'_'},grammar:{Mood:'Ind',Aspect:'_',Status:'Irr',Polarity:'Pos',Speech:'_',VerbForm:'_',Emph:'_'},arguments:{object:'boe',complement:null,causee:null}}}
 ];
+async function interpretIntent(text){
+ if(aiConfig?.mode==='endpoint'&&aiConfig.endpoint){const res=await fetch(aiConfig.endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,language:'pt',schema_version:intentSchema?.version||'0.1'})});if(!res.ok)throw new Error('endpoint '+res.status);const data=await res.json();return {intent:data.intent||null,source:'ai-endpoint'};}
+ return {intent:interpretDemo(text),source:'local-demo'};
+}
 function interpretDemo(text){
  const hit=demoIntents.find(x=>x.patterns.some(re=>re.test(text.trim())));
  return hit?JSON.parse(JSON.stringify(hit.intent)):null;
 }
-document.querySelector('#interpret').onclick=()=>{
- const box=document.querySelector('#intentOut'),txt=document.querySelector('#nlIntent').value, intent=interpretDemo(txt);box.hidden=false;
+document.querySelector('#interpret').onclick=async()=>{
+ const box=document.querySelector('#intentOut'),txt=document.querySelector('#nlIntent').value;box.hidden=false;box.innerHTML='<div class="meta">INTERPRETANDO…</div>';let packet;try{packet=await interpretIntent(txt)}catch(e){box.innerHTML='<div class="meta">ERRO NA CAMADA DE INTERPRETAÇÃO</div><p>O endpoint não respondeu corretamente. Nenhuma forma Bororo foi gerada.</p>';return} const intent=packet.intent;
  if(!intent){box.innerHTML='<div class="meta">INTERPRETAÇÃO NÃO DISPONÍVEL</div><p>O interpretador local não reconhece esta entrada. Isto não é uma rejeição gramatical do Bororo: a camada de interpretação ainda é apenas demonstrativa.</p>';return}
  const v=validateIntent(intent);
  const safe=JSON.stringify(intent,null,2).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -102,6 +106,6 @@ document.querySelector('#interpret').onclick=()=>{
    const vals={subject:v.subject_realization.form,object:intent.arguments.object,predicate:v.predicate.lemma};
    realized=(v.predicate.order||['subject','object','predicate']).map(k=>vals[k]).filter(Boolean).join(' ')+' .';
  }
- box.innerHTML='<div class="meta">'+v.state+'</div>'+(realized?'<div class="generated">'+realized+'</div>':'')+'<p><strong>Interpretação estruturada</strong></p><pre style="white-space:pre-wrap;overflow:auto;background:var(--soft);padding:12px;border-radius:7px">'+safe+'</pre><p class="meta">Proveniência: interpretação local demonstrativa → validação determinística CorBo. A interpretação não licencia formas.</p>';
+ box.innerHTML='<div class="meta">'+v.state+'</div>'+(realized?'<div class="generated">'+realized+'</div>':'')+'<p><strong>Interpretação estruturada</strong></p><pre style="white-space:pre-wrap;overflow:auto;background:var(--soft);padding:12px;border-radius:7px">'+safe+'</pre><p class="meta">Proveniência: '+(packet.source==='ai-endpoint'?'interpretação por endpoint de IA':'interpretação local demonstrativa')+' → validação determinística CorBo. A interpretação não licencia formas.</p>';
 };
 </script></body></html>
