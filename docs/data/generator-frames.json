@@ -386,5 +386,102 @@
         "label": "exclusiva"
       }
     ]
-  }
+  },
+  "review_candidates": [
+    {
+      "form": "ire",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": [
+        "dic_1130"
+      ],
+      "frame_evidence": "maku",
+      "status": "candidate"
+    },
+    {
+      "form": "are",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": [
+        "dic_0178"
+      ],
+      "frame_evidence": "maku",
+      "status": "candidate"
+    },
+    {
+      "form": "cere",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": [
+        "dic_0382"
+      ],
+      "frame_evidence": "maku",
+      "status": "candidate"
+    },
+    {
+      "form": "ere",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": [
+        "dic_0534"
+      ],
+      "frame_evidence": "maku",
+      "status": "candidate"
+    },
+    {
+      "form": "tare",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_"
+      },
+      "evidence": [
+        "dic_1212"
+      ],
+      "frame_evidence": "maku",
+      "status": "candidate"
+    }
+  ]
 }
