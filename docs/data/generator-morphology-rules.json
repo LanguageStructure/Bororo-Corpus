@@ -1011,6 +1011,108 @@
         }
       },
       "note": "Only directly attested cells are licensed; ka/ga selection is not generalized."
+    },
+    {
+      "function": {
+        "Speech": "Ind"
+      },
+      "pattern": "BASE + ie",
+      "morphemes": [
+        {
+          "form": "ie",
+          "function": "Speech=Ind",
+          "label": "marcador registrado como unidade não decomposta"
+        }
+      ],
+      "examples": [
+        "iie",
+        "aie",
+        "uie",
+        "paie",
+        "taie",
+        "eie"
+      ],
+      "analyses": {
+        "iie": {
+          "segmentation": [
+            "i",
+            "ie"
+          ],
+          "gloss": [
+            "1SG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0658",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "aie": {
+          "segmentation": [
+            "a",
+            "ie"
+          ],
+          "gloss": [
+            "2SG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0056",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "uie": {
+          "segmentation": [
+            "u",
+            "ie"
+          ],
+          "gloss": [
+            "3SG",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_1317",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "paie": {
+          "segmentation": [
+            "pa",
+            "ie"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_1058",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "taie": {
+          "segmentation": [
+            "ta",
+            "ie"
+          ],
+          "gloss": [
+            "2PL",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_1193",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        },
+        "eie": {
+          "segmentation": [
+            "e",
+            "ie"
+          ],
+          "gloss": [
+            "3PL",
+            "SPEECH.IND"
+          ],
+          "evidence": "dic_0456",
+          "status": "licensed",
+          "segmentation_status": "provisional-boundary"
+        }
+      },
+      "note": "The sequence ie is kept unanalyzed internally pending linguistic confirmation."
     }
   ],
   "morpheme_inventory": [
