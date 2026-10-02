@@ -1,5 +1,5 @@
 {
-  "version": "0.18",
+  "version": "0.19",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -126,7 +126,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -149,7 +150,8 @@
         "Status": "Irr",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -172,7 +174,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -194,7 +197,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -216,7 +220,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -238,7 +243,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "Quo",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -261,7 +267,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -285,7 +292,8 @@
         "Status": "Irr",
         "Polarity": "Neg",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -305,7 +313,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0732",
       "label": "1SG · indicativo",
@@ -329,7 +338,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0178",
       "label": "2SG · indicativo",
@@ -354,7 +364,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0382",
       "label": "1PL.EX · indicativo",
@@ -378,7 +389,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1212",
       "label": "2PL · indicativo",
@@ -402,7 +414,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0534",
       "label": "3PL · indicativo",
@@ -427,7 +440,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1050",
       "label": "1PL.IN · optativo",
@@ -453,7 +467,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1065",
       "label": "1PL.IN · irrealis/futuro",
@@ -479,7 +494,8 @@
         "Aspect": "Prog",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1075",
       "label": "1PL.IN · progressivo",
@@ -504,7 +520,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1090",
       "label": "1PL.IN · subjuntivo",
@@ -530,7 +547,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1036",
       "label": "1PL.IN · indicativo negativo",
@@ -557,7 +575,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1071",
       "label": "1PL.IN · irrealis/futuro negativo",
@@ -586,7 +605,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "Clusivity": "_"
+        "Clusivity": "_",
+        "Emph": "_"
       }
     },
     {
@@ -600,7 +620,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0125",
       "status": "licensed",
@@ -617,7 +638,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0360",
       "status": "licensed",
@@ -634,7 +656,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1199",
       "status": "licensed",
@@ -651,7 +674,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0506",
       "status": "licensed",
@@ -668,7 +692,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0650",
       "status": "licensed",
@@ -685,7 +710,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0043",
       "status": "licensed",
@@ -702,7 +728,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0347",
       "status": "licensed",
@@ -719,7 +746,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0448",
       "status": "licensed",
@@ -736,7 +764,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Quo"
+        "Speech": "Quo",
+        "Emph": "_"
       },
       "evidence": "dic_0654",
       "status": "licensed",
@@ -753,7 +782,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Quo"
+        "Speech": "Quo",
+        "Emph": "_"
       },
       "evidence": "dic_0047",
       "status": "licensed",
@@ -770,7 +800,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Quo"
+        "Speech": "Quo",
+        "Emph": "_"
       },
       "evidence": "dic_0350",
       "status": "licensed",
@@ -787,7 +818,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Quo"
+        "Speech": "Quo",
+        "Emph": "_"
       },
       "evidence": "dic_0452",
       "status": "licensed",
@@ -804,7 +836,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0761",
       "status": "licensed",
@@ -821,7 +854,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0197",
       "status": "licensed",
@@ -838,7 +872,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1218",
       "status": "licensed",
@@ -855,7 +890,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0566",
       "status": "licensed",
@@ -872,7 +908,8 @@
         "Aspect": "Prog",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0148",
       "status": "licensed",
@@ -889,7 +926,8 @@
         "Aspect": "Prog",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0522",
       "status": "licensed",
@@ -906,7 +944,8 @@
         "Aspect": "Prog",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1205",
       "status": "licensed",
@@ -923,7 +962,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0676",
       "status": "licensed",
@@ -940,7 +980,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0081",
       "status": "licensed",
@@ -957,7 +998,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0475",
       "status": "licensed",
@@ -974,7 +1016,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1179",
       "status": "licensed",
@@ -991,7 +1034,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0694",
       "status": "licensed",
@@ -1008,7 +1052,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0131",
       "status": "licensed",
@@ -1025,7 +1070,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0513",
       "status": "licensed",
@@ -1042,7 +1088,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1203",
       "status": "licensed",
@@ -1060,7 +1107,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0038",
       "status": "licensed",
@@ -1078,7 +1126,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0343",
       "status": "licensed",
@@ -1096,7 +1145,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0444",
       "status": "licensed",
@@ -1114,7 +1164,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1047",
       "status": "licensed",
@@ -1132,7 +1183,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1187",
       "status": "licensed",
@@ -1150,7 +1202,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1303",
       "status": "licensed",
@@ -1168,7 +1221,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0077",
       "status": "licensed",
@@ -1186,7 +1240,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0471",
       "status": "licensed",
@@ -1204,7 +1259,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1032",
       "status": "licensed",
@@ -1222,7 +1278,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1177",
       "status": "licensed",
@@ -1240,7 +1297,8 @@
         "Status": "_",
         "Polarity": "Neg",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_1327",
       "status": "licensed",
@@ -1257,7 +1315,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_0681",
       "status": "licensed",
@@ -1274,7 +1333,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1181",
       "status": "licensed",
@@ -1291,7 +1351,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "_"
+        "Speech": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1335",
       "status": "licensed",
@@ -1308,7 +1369,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0658",
       "status": "licensed",
@@ -1325,7 +1387,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0056",
       "status": "licensed",
@@ -1342,7 +1405,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1317",
       "status": "licensed",
@@ -1359,7 +1423,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1058",
       "status": "licensed",
@@ -1376,7 +1441,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1193",
       "status": "licensed",
@@ -1393,7 +1459,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0456",
       "status": "licensed",
@@ -1410,7 +1477,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0668",
       "status": "licensed",
@@ -1427,7 +1495,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1323",
       "status": "licensed",
@@ -1444,7 +1513,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0318",
       "status": "licensed",
@@ -1461,7 +1531,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0467",
       "status": "licensed",
@@ -1478,7 +1549,8 @@
         "Aspect": "_",
         "Status": "_",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0073",
       "status": "licensed",
@@ -1495,7 +1567,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0692",
       "status": "licensed",
@@ -1512,7 +1585,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0129",
       "status": "licensed",
@@ -1529,7 +1603,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1343",
       "status": "licensed",
@@ -1546,7 +1621,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Pos",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0364",
       "status": "licensed",
@@ -1563,7 +1639,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0693",
       "status": "licensed",
@@ -1580,7 +1657,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0130",
       "status": "licensed",
@@ -1597,7 +1675,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_1344",
       "status": "licensed",
@@ -1614,7 +1693,8 @@
         "Aspect": "_",
         "Status": "Irr",
         "Polarity": "Neg",
-        "Speech": "Ind"
+        "Speech": "Ind",
+        "Emph": "_"
       },
       "evidence": "dic_0365",
       "status": "licensed",
@@ -1632,7 +1712,8 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "_",
-        "VerbForm": "Ger"
+        "VerbForm": "Ger",
+        "Emph": "_"
       },
       "evidence": "dic_0672",
       "status": "licensed",
@@ -1650,11 +1731,126 @@
         "Status": "_",
         "Polarity": "Pos",
         "Speech": "Quo",
-        "VerbForm": "_"
+        "VerbForm": "_",
+        "Emph": "_"
       },
       "evidence": "dic_1054",
       "status": "licensed",
       "note": "Directly attested with maku."
+    },
+    {
+      "form": "irade",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_0727",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "arade",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_0170",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "urade",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_1353",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "parade",
+      "lemma": "pa",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_1080",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "tarade",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_1208",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
+    },
+    {
+      "form": "erade",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_0527",
+      "status": "licensed",
+      "note": "Directly attested with maku; rade kept as an undecomposed emphatic unit."
     }
   ],
   "feature_schema": {
@@ -1766,6 +1962,16 @@
       {
         "value": "Ger",
         "label": "gerúndio"
+      }
+    ],
+    "Emph": [
+      {
+        "value": "_",
+        "label": "não marcado"
+      },
+      {
+        "value": "Yes",
+        "label": "enfático"
       }
     ]
   },
