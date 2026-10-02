@@ -1,5 +1,5 @@
 {
-  "version": "0.24",
+  "version": "0.25",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -2136,6 +2136,26 @@
       "evidence": "dic_1043",
       "evidence_scope": "cross-predicate",
       "note": "Four consistent 1PL.IN negative subjunctive attestations; one direct eragu example plus parallel predicate contexts."
+    },
+    {
+      "form": "ekawo",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "Emph": "_",
+        "VerbForm": "_"
+      },
+      "status": "licensed",
+      "evidence": "dic_0479",
+      "evidence_scope": "cross-predicate",
+      "note": "Four consistent negative subjunctive attestations; source Polarity=Neg omission corrected."
     }
   ],
   "feature_schema": {
