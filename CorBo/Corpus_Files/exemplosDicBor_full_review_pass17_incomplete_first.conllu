@@ -402,7 +402,7 @@
 # text = cegire ceeruduware .
 # text_por = somos nós que sabemos.
 # text_eng = 
-1	cegire	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+1	cegire	cegi	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
 2	ceeruduware	joruduwa	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
