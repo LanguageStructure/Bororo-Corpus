@@ -2356,7 +2356,7 @@
 # text_por = eu não pegarei.
 # text_eng = 
 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6745,7 +6745,7 @@
 # text = ei boe maku .
 # text_por = eles dando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	3	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6754,7 +6754,7 @@
 # text = ei imaragodudo .
 # text_por = eles me fazendo trabalhar.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6762,7 +6762,7 @@
 # text = ei tumagu .
 # text_por = eles se entregando.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6770,7 +6770,7 @@
 # text = ei tugeragu boe ji .
 # text_por = eles pegando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -7253,7 +7253,7 @@
 # text = imodukare boe maku .
 # text_por = eu não vou dar, ou eu não darei, algo.
 # text_eng = 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	3	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -7263,7 +7263,7 @@
 # text_por = eu não farei você trabalhar.
 # text_eng = 
 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -7271,7 +7271,7 @@
 # text = imodukare imagu .
 # text_por = eu não me entregarei.
 # text_eng = 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
