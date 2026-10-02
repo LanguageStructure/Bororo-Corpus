@@ -843,6 +843,105 @@
         }
       },
       "note": "Only directly attested gerund cells are licensed."
+    },
+    {
+      "function": {
+        "Polarity": "Neg",
+        "VerbForm": "Ger"
+      },
+      "pattern": "BASE + ka/ga + i",
+      "morphemes": [
+        {
+          "form": "ka/ga",
+          "function": "Polarity=Neg",
+          "label": "negação; alomorfia não generalizada"
+        },
+        {
+          "form": "i",
+          "function": "VerbForm=Ger",
+          "label": "gerúndio"
+        }
+      ],
+      "examples": [
+        "akai",
+        "ekai",
+        "pagai",
+        "tagai",
+        "ukai"
+      ],
+      "analyses": {
+        "akai": {
+          "segmentation": [
+            "a",
+            "ka",
+            "i"
+          ],
+          "gloss": [
+            "2SG",
+            "NEG",
+            "GER"
+          ],
+          "evidence": "dic_0077",
+          "status": "licensed"
+        },
+        "ekai": {
+          "segmentation": [
+            "e",
+            "ka",
+            "i"
+          ],
+          "gloss": [
+            "3PL",
+            "NEG",
+            "GER"
+          ],
+          "evidence": "dic_0471",
+          "status": "licensed"
+        },
+        "pagai": {
+          "segmentation": [
+            "pa",
+            "ga",
+            "i"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "NEG",
+            "GER"
+          ],
+          "evidence": "dic_1032",
+          "status": "licensed"
+        },
+        "tagai": {
+          "segmentation": [
+            "ta",
+            "ga",
+            "i"
+          ],
+          "gloss": [
+            "2PL",
+            "NEG",
+            "GER"
+          ],
+          "evidence": "dic_1177",
+          "status": "licensed"
+        },
+        "ukai": {
+          "segmentation": [
+            "u",
+            "ka",
+            "i"
+          ],
+          "gloss": [
+            "3SG",
+            "NEG",
+            "GER"
+          ],
+          "evidence": "dic_1327",
+          "status": "licensed"
+        }
+      },
+      "note": "Allomorph selection is recorded only in directly attested cells; it is not applied productively."
     }
   ],
   "morpheme_inventory": [
