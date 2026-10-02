@@ -83,13 +83,69 @@
         "Aspect": "Prog",
         "Mood": "Ind"
       },
-      "pattern": "BASE + nure",
+      "pattern": "BASE + nu + re",
       "examples": [
         "inure",
         "unure",
         "panure"
       ],
-      "note": "Only listed licensed cells may be generated."
+      "note": "Only listed licensed cells may be generated.",
+      "morphemes": [
+        {
+          "form": "nu",
+          "function": "Aspect=Prog",
+          "label": "progressivo"
+        },
+        {
+          "form": "re",
+          "function": "Mood=Ind",
+          "label": "indicativo"
+        }
+      ],
+      "analyses": {
+        "inure": {
+          "segmentation": [
+            "i",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "1SG",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_0709",
+          "status": "licensed"
+        },
+        "unure": {
+          "segmentation": [
+            "u",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "3SG",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_1349",
+          "status": "licensed"
+        },
+        "panure": {
+          "segmentation": [
+            "pa",
+            "nu",
+            "re"
+          ],
+          "gloss": [
+            "1PL.IN",
+            "PROG",
+            "IND"
+          ],
+          "evidence": "dic_1075",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
