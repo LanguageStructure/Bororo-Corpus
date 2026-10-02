@@ -76,7 +76,88 @@
         "tare",
         "ere"
       ],
-      "note": "Descriptive pattern only; no simple positive 1PL.IN form is licensed because pare is not attested in the reviewed set."
+      "note": "re = IND. No 1PL.IN simple positive form is licensed because pare is not attested in the reviewed set.",
+      "morphemes": [
+        {
+          "form": "re",
+          "function": "Mood=Ind",
+          "label": "indicativo"
+        }
+      ],
+      "analyses": {
+        "ire": {
+          "segmentation": [
+            "i",
+            "re"
+          ],
+          "gloss": [
+            "1SG",
+            "IND"
+          ],
+          "evidence": "dic_0732",
+          "status": "licensed"
+        },
+        "are": {
+          "segmentation": [
+            "a",
+            "re"
+          ],
+          "gloss": [
+            "2SG",
+            "IND"
+          ],
+          "evidence": "dic_0178",
+          "status": "licensed"
+        },
+        "ure": {
+          "segmentation": [
+            "u",
+            "re"
+          ],
+          "gloss": [
+            "3SG",
+            "IND"
+          ],
+          "evidence": "dic_1356",
+          "status": "licensed"
+        },
+        "cere": {
+          "segmentation": [
+            "ce",
+            "re"
+          ],
+          "gloss": [
+            "1PL.EX",
+            "IND"
+          ],
+          "evidence": "dic_0382",
+          "status": "licensed"
+        },
+        "tare": {
+          "segmentation": [
+            "ta",
+            "re"
+          ],
+          "gloss": [
+            "2PL",
+            "IND"
+          ],
+          "evidence": "dic_1212",
+          "status": "licensed"
+        },
+        "ere": {
+          "segmentation": [
+            "e",
+            "re"
+          ],
+          "gloss": [
+            "3PL",
+            "IND"
+          ],
+          "evidence": "dic_0534",
+          "status": "licensed"
+        }
+      }
     },
     {
       "function": {
@@ -411,6 +492,26 @@
           "status": "licensed"
         }
       }
+    }
+  ],
+  "morpheme_inventory": [
+    {
+      "form": "re",
+      "function": "Mood=Ind",
+      "gloss": "IND",
+      "status": "confirmed"
+    },
+    {
+      "form": "nu",
+      "function": "Aspect=Prog",
+      "gloss": "PROG",
+      "status": "confirmed"
+    },
+    {
+      "form": "modu",
+      "function": "Status=Irr",
+      "gloss": "IRR",
+      "status": "confirmed"
     }
   ]
 }
