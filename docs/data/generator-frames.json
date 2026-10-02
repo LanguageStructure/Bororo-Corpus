@@ -1,5 +1,5 @@
 {
-  "version": "0.21",
+  "version": "0.22",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1889,6 +1889,172 @@
       "evidence": "dic_1172",
       "status": "licensed",
       "note": "Directly attested with maku; kaba/gaba kept undecomposed."
+    },
+    {
+      "id": "1-plur-ex-neg-ger",
+      "form": "cegai",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Polarity": "Neg",
+        "VerbForm": "Ger"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "Ger",
+        "Emph": "_"
+      },
+      "evidence": "dic_0325",
+      "label": "1PL.EX · gerúndio negativo",
+      "status": "licensed",
+      "frame_evidence": "eragu"
+    },
+    {
+      "id": "1-plur-ex-neg-ind",
+      "form": "cegare",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Polarity": "Neg"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_0329",
+      "label": "1PL.EX · indicativo negativo",
+      "status": "licensed",
+      "frame_evidence": "eragu"
+    },
+    {
+      "id": "1-plur-ex-neg-irr",
+      "form": "cemodukare",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Status": "Irr",
+        "Polarity": "Neg"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_0369",
+      "label": "1PL.EX · irrealis negativo",
+      "status": "licensed",
+      "frame_evidence": "eragu"
+    },
+    {
+      "id": "1-plur-ex-prog",
+      "form": "cenure",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "Prog"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Ind",
+        "Aspect": "Prog",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_0377",
+      "label": "1PL.EX · progressivo",
+      "status": "licensed",
+      "frame_evidence": "eragu"
+    },
+    {
+      "id": "1-plur-ex-emph",
+      "form": "cerade",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "Yes"
+      },
+      "evidence": "dic_0381",
+      "label": "1PL.EX · enfático",
+      "status": "licensed",
+      "frame_evidence": "eragu"
+    },
+    {
+      "id": "1-plur-ex-sub",
+      "form": "cewo",
+      "lemma": "ce",
+      "features": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Sub"
+      },
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "VerbForm": "_",
+        "Emph": "_"
+      },
+      "evidence": "dic_0389",
+      "label": "1PL.EX · subjuntivo",
+      "status": "licensed",
+      "frame_evidence": "eragu"
     }
   ],
   "feature_schema": {
@@ -2176,5 +2342,16 @@
       "dic_1166"
     ],
     "note": "Causee forms are intentionally separate from subject_realizations; no unattested causative person cells are generated."
+  },
+  "validation": {
+    "eragu": {
+      "status": "cross-predicate-validation",
+      "root_lemma": "eragu",
+      "attested_cells": 64,
+      "confirmed_existing_cells": 57,
+      "new_licensed_cells": 6,
+      "divergent_cells": 0,
+      "note": "Positive polarity is unmarked in CoNLL-U and normalized to Pos only for generator comparison; incomplete ire tokens without Mood=Ind were not promoted as a separate cell."
+    }
   }
 }
