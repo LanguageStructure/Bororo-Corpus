@@ -1,5 +1,5 @@
 {
-  "version": "0.23",
+  "version": "0.24",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -2076,6 +2076,66 @@
       "evidence": "dic_0685",
       "evidence_scope": "cross-predicate",
       "note": "Morphological analysis i + modu + re confirmed; corpus contains multiple independent 1SG.IRR.IND attestations."
+    },
+    {
+      "form": "cegawo",
+      "lemma": "ce",
+      "selection": {
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Speech": "_",
+        "Emph": "_",
+        "VerbForm": "_",
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Polarity": "Neg"
+      },
+      "status": "licensed",
+      "evidence": "dic_0330",
+      "evidence_scope": "cross-predicate",
+      "note": "Four consistent attestations across maku, maragodu, eragu and a person-marked maku predicate."
+    },
+    {
+      "form": "ceie",
+      "lemma": "ce",
+      "selection": {
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Speech": "Ind",
+        "Emph": "_",
+        "VerbForm": "_",
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Polarity": "Pos"
+      },
+      "status": "licensed",
+      "evidence": "dic_0354",
+      "evidence_scope": "cross-predicate",
+      "note": "Four consistent Speech=Ind attestations across maku, maragodu and eragu contexts."
+    },
+    {
+      "form": "pagawo",
+      "lemma": "pa",
+      "selection": {
+        "Mood": "Sub",
+        "Aspect": "_",
+        "Status": "_",
+        "Speech": "_",
+        "Emph": "_",
+        "VerbForm": "_",
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Polarity": "Neg"
+      },
+      "status": "licensed",
+      "evidence": "dic_1043",
+      "evidence_scope": "cross-predicate",
+      "note": "Four consistent 1PL.IN negative subjunctive attestations; one direct eragu example plus parallel predicate contexts."
     }
   ],
   "feature_schema": {
@@ -5405,6 +5465,31 @@
         "dic_1246"
       ],
       "note": "All indexed occurrences agree on Mood=Ind|Number=Sing|Person=1|Status=Irr."
+    },
+    "new_cross_predicate_cells_v024": {
+      "licensed": [
+        "cegawo",
+        "ceie",
+        "pagawo"
+      ],
+      "held_for_review": [
+        {
+          "form": "ekawo",
+          "reason": "form suggests negative morphology but current CoNLL-U lacks Polarity=Neg"
+        },
+        {
+          "form": "akie",
+          "reason": "single occurrence; morphology not yet modeled"
+        },
+        {
+          "form": "cegie",
+          "reason": "single occurrence; morphology not yet modeled"
+        },
+        {
+          "form": "cegire",
+          "reason": "single occurrence; morphology not yet modeled"
+        }
+      ]
     }
   }
 }
