@@ -1,5 +1,5 @@
 {
-  "version": "0.14",
+  "version": "0.15",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1483,6 +1483,142 @@
       "evidence": "dic_0073",
       "status": "licensed",
       "note": "Confirmed analysis: a + ka + ae = 2SG + NEG + SPEECH.IND; directly attested with maku."
+    },
+    {
+      "form": "imoduie",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0692",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "amoduie",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0129",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "umoduie",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1343",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "cemoduie",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0364",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "imodukae",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0693",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "amodukae",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0130",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "umodukae",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1344",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
+    },
+    {
+      "form": "cemodukae",
+      "lemma": "ce",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "Ex",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "Irr",
+        "Polarity": "Neg",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0365",
+      "status": "licensed",
+      "note": "Directly attested with maku; conservative segmentation."
     }
   ],
   "feature_schema": {
