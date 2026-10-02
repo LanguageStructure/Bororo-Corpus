@@ -2352,6 +2352,630 @@
       "new_licensed_cells": 6,
       "divergent_cells": 0,
       "note": "Positive polarity is unmarked in CoNLL-U and normalized to Pos only for generator comparison; incomplete ire tokens without Mood=Ind were not promoted as a separate cell."
+    },
+    "maragodu": {
+      "status": "cross-predicate-validation",
+      "root_lemma": "maragodu",
+      "attested_cells": 58,
+      "confirmed_existing_cells": 56,
+      "new_licensed_cells": 0,
+      "divergent_cells": 0,
+      "note": "Unmarked positive polarity normalized to Pos only for comparison. cei without VerbForm=Ger and ire without Mood=Ind were treated as incomplete annotation, not new cells."
+    },
+    "robustness": {
+      "predicates": [
+        "maku",
+        "eragu",
+        "maragodu"
+      ],
+      "method": "A licensed cell is supported when the same normalized feature selection and the same surface personal form are directly attested with the predicate. Unmarked CoNLL-U polarity is normalized to Pos only for comparison.",
+      "summary": {
+        "one": 9,
+        "two": 15,
+        "three": 52,
+        "zero": 20
+      },
+      "cells": {
+        "3sg-ind": {
+          "form": "ure",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0313",
+                "dic_0429",
+                "dic_0431",
+                "dic_0629",
+                "dic_1020"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0316",
+                "dic_0024",
+                "dic_1359"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0430",
+                "dic_1167",
+                "dic_0022",
+                "dic_1357"
+              ]
+            }
+          ]
+        },
+        "3sg-irr": {
+          "form": "umode",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1341",
+                "dic_1339"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1342"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1340"
+              ]
+            }
+          ]
+        },
+        "3sg-neg-ind": {
+          "form": "ukare",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1331",
+                "dic_1333"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1334"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1332"
+              ]
+            }
+          ]
+        },
+        "3sg-opt": {
+          "form": "uia",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1311",
+                "dic_1309"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1312"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1310"
+              ]
+            }
+          ]
+        },
+        "3sg-sub": {
+          "form": "uwo",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1361",
+                "dic_1363"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1364"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1362"
+              ]
+            }
+          ]
+        },
+        "3sg-quo": {
+          "form": "uiagu",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1313",
+                "dic_1315"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1316"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1314"
+              ]
+            }
+          ]
+        },
+        "3sg-prog": {
+          "form": "unure",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1349",
+                "dic_1351"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1352"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1350"
+              ]
+            }
+          ]
+        },
+        "3sg-neg-irr": {
+          "form": "umodukare",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1345",
+                "dic_1347"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1348"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1346"
+              ]
+            }
+          ]
+        },
+        "1-sing-_-ind": {
+          "form": "ire",
+          "support_count": 0,
+          "support": []
+        },
+        "2-sing-_-ind": {
+          "form": "are",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0064",
+                "dic_0178",
+                "dic_0180"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0181"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0179"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-ind": {
+          "form": "cere",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0384",
+                "dic_0382"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0385"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0383"
+              ]
+            }
+          ]
+        },
+        "2-plur-_-ind": {
+          "form": "tare",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1212"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1214"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1213"
+              ]
+            }
+          ]
+        },
+        "3-plur-_-ind": {
+          "form": "ere",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0536",
+                "dic_0534"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0537"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0535",
+                "dic_0630"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-paia": {
+          "form": "paia",
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1050",
+                "dic_1052"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1053"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-pamode": {
+          "form": "pamode",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1065",
+                "dic_1067"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1068"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1066"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-panure": {
+          "form": "panure",
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1075"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-pawo": {
+          "form": "pawo",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1090",
+                "dic_1092"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1093"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1091"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-pagare": {
+          "form": "pagare",
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1036"
+              ]
+            }
+          ]
+        },
+        "1-plur-in-pamodukare": {
+          "form": "pamodukare",
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1071"
+              ]
+            }
+          ]
+        },
+        "1sg-prog": {
+          "form": "inure",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0709",
+                "dic_0711"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0712"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0710"
+              ]
+            }
+          ]
+        },
+        "undefined": {
+          "form": "tagaba",
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1172"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-neg-ger": {
+          "form": "cegai",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0324",
+                "dic_0322"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0325"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0323"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-neg-ind": {
+          "form": "cegare",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0328",
+                "dic_0326"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0329"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0327"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-neg-irr": {
+          "form": "cemodukare",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0368",
+                "dic_0366"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0369"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0367"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-prog": {
+          "form": "cenure",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0374",
+                "dic_0376"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0377"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0375"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-emph": {
+          "form": "cerade",
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0380",
+                "dic_0378"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0381"
+              ]
+            }
+          ]
+        },
+        "1-plur-ex-sub": {
+          "form": "cewo",
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0388"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0389"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0387"
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 }
