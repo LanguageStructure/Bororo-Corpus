@@ -2368,16 +2368,30 @@
         "eragu",
         "maragodu"
       ],
+      "key": "normalized grammatical selection",
       "method": "A licensed cell is supported when the same normalized feature selection and the same surface personal form are directly attested with the predicate. Unmarked CoNLL-U polarity is normalized to Pos only for comparison.",
       "summary": {
+        "zero": 20,
         "one": 9,
         "two": 15,
-        "three": 52,
-        "zero": 20
+        "three": 52
       },
       "cells": {
-        "3sg-ind": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-ind",
           "form": "ure",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2409,8 +2423,21 @@
             }
           ]
         },
-        "3sg-irr": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-irr",
           "form": "umode",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2434,8 +2461,21 @@
             }
           ]
         },
-        "3sg-neg-ind": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-neg-ind",
           "form": "ukare",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2459,8 +2499,21 @@
             }
           ]
         },
-        "3sg-opt": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-opt",
           "form": "uia",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2484,8 +2537,21 @@
             }
           ]
         },
-        "3sg-sub": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-sub",
           "form": "uwo",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2509,8 +2575,21 @@
             }
           ]
         },
-        "3sg-quo": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "id": "3sg-quo",
           "form": "uiagu",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2534,8 +2613,21 @@
             }
           ]
         },
-        "3sg-prog": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-prog",
           "form": "unure",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2559,8 +2651,21 @@
             }
           ]
         },
-        "3sg-neg-irr": {
+        "Person=3|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3sg-neg-irr",
           "form": "umodukare",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2584,13 +2689,39 @@
             }
           ]
         },
-        "1-sing-_-ind": {
+        "Person=1|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-sing-_-ind",
           "form": "ire",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 0,
           "support": []
         },
-        "2-sing-_-ind": {
+        "Person=2|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "2-sing-_-ind",
           "form": "are",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2615,8 +2746,21 @@
             }
           ]
         },
-        "1-plur-ex-ind": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-ex-ind",
           "form": "cere",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2640,8 +2784,21 @@
             }
           ]
         },
-        "2-plur-_-ind": {
+        "Person=2|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "2-plur-_-ind",
           "form": "tare",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2664,8 +2821,21 @@
             }
           ]
         },
-        "3-plur-_-ind": {
+        "Person=3|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "3-plur-_-ind",
           "form": "ere",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2690,8 +2860,21 @@
             }
           ]
         },
-        "1-plur-in-paia": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-paia",
           "form": "paia",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 2,
           "support": [
             {
@@ -2709,8 +2892,21 @@
             }
           ]
         },
-        "1-plur-in-pamode": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-pamode",
           "form": "pamode",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2734,8 +2930,21 @@
             }
           ]
         },
-        "1-plur-in-panure": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-panure",
           "form": "panure",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 1,
           "support": [
             {
@@ -2746,8 +2955,21 @@
             }
           ]
         },
-        "1-plur-in-pawo": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-pawo",
           "form": "pawo",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2771,8 +2993,21 @@
             }
           ]
         },
-        "1-plur-in-pagare": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-pagare",
           "form": "pagare",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 1,
           "support": [
             {
@@ -2783,8 +3018,21 @@
             }
           ]
         },
-        "1-plur-in-pamodukare": {
+        "Person=1|Number=Plur|Clusivity=In|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-in-pamodukare",
           "form": "pamodukare",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 1,
           "support": [
             {
@@ -2795,8 +3043,21 @@
             }
           ]
         },
-        "1sg-prog": {
+        "Person=1|Number=Sing|Clusivity=_|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1sg-prog",
           "form": "inure",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Clusivity": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2820,8 +3081,2046 @@
             }
           ]
         },
-        "undefined": {
+        "Person=2|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "amode",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0127",
+                "dic_0125"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0128"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0126"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "cemode",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0360",
+                "dic_0362"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0363"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0361"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tamode",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1199"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "emode",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0508",
+                "dic_0506"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0509"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0507"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "iia",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0650",
+                "dic_0652"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0653"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0651"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "aia",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0043",
+                "dic_0045"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0046"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0044"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ceia",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0347",
+                "dic_0349"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0348"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Opt|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "eia",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Opt",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0448",
+                "dic_0450"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0451"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0449"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "form": "iiagu",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0654",
+                "dic_0656"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0657"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0655"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "form": "aiagu",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0047",
+                "dic_0049"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0048"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "form": "ceiagu",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0352",
+                "dic_0350"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0353"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0351"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "form": "eiagu",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0452",
+                "dic_0454"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0455"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0453"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "iwo",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0761",
+                "dic_0763"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0764"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0762"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "awo",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0197",
+                "dic_0199"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0200"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0198"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tawo",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1218",
+                "dic_1220"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1221"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1219"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ewo",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0481",
+                "dic_0479",
+                "dic_0566",
+                "dic_0568"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0482",
+                "dic_0569"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0480",
+                "dic_0567"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "anure",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0148",
+                "dic_0150"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0151"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0149"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "enure",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0524",
+                "dic_0522"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0525"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0523"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tanure",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1205"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1206"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ikare",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0676",
+                "dic_0678"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0679"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0677"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "akare",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0081",
+                "dic_0083"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0084"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0082"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ekare",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0475",
+                "dic_0477"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0478"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0476"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tagare",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1179"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1180"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "imodukare",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0694",
+                "dic_0696"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0697"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0695"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "amodukare",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0131",
+                "dic_0133"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0134"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0132"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "emodukare",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0513",
+                "dic_0515"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0516"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tamodukare",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1203"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1204"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ai",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0038",
+                "dic_0040"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0041"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0039"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "cei",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0343"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ei",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0444",
+                "dic_0446"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0447"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0445"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=In|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "pai",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1047"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1048"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "tai",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1187"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1188"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ui",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1303",
+                "dic_1305"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1306"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1304"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "akai",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0077",
+                "dic_0079"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0080"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0078"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ekai",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0471",
+                "dic_0473"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0474"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0472"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=In|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "pagai",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1032"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "tagai",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1177"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1178"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ukai",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1327",
+                "dic_1329"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1330"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1328"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ikawo",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0681",
+                "dic_0683"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0684"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "tagawo",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1181",
+                "dic_1182"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1183"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=Sub|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "ukawo",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1335",
+                "dic_1337"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1338"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1336"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "iie",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "aie",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "uie",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Plur|Clusivity=In|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "paie",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "taie",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "eie",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "ikae",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "ukae",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "cegae",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "ekae",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "akae",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "imoduie",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "amoduie",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "umoduie",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=Irr|Polarity=Pos|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "cemoduie",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Pos",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "imodukae",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "amodukae",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=Irr|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "umodukae",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=Irr|Polarity=Neg|Speech=Ind|VerbForm=_|Emph=_": {
+          "form": "cemodukae",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "Ind",
+            "Emph": "_",
+            "VerbForm": "_"
+          },
+          "support_count": 0,
+          "support": []
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=Ger|Emph=_": {
+          "form": "ikai",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0672",
+                "dic_0674"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0675"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0673"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=In|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=Quo|VerbForm=_|Emph=_": {
+          "form": "paiagu",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "Quo",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1054"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1055"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "irade",
+          "selection": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0727",
+                "dic_0729"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0730"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0728"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "arade",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0170",
+                "dic_0172"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0173"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0171"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Sing|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "urade",
+          "selection": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 2,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1353",
+                "dic_1354"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1355"
+              ]
+            }
+          ]
+        },
+        "Person=1|Number=Plur|Clusivity=In|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "parade",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1080"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "tarade",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_1208"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_1211"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_1209"
+              ]
+            }
+          ]
+        },
+        "Person=3|Number=Plur|Clusivity=_|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "form": "erade",
+          "selection": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
+          "support_count": 3,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0529",
+                "dic_0527"
+              ]
+            },
+            {
+              "predicate": "eragu",
+              "evidence": [
+                "dic_0530"
+              ]
+            },
+            {
+              "predicate": "maragodu",
+              "evidence": [
+                "dic_0528"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Sing|Clusivity=_|Mood=Imp|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "form": "akaba",
+          "selection": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_",
+            "Mood": "Imp",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
+          "support_count": 1,
+          "support": [
+            {
+              "predicate": "maku",
+              "evidence": [
+                "dic_0071"
+              ]
+            }
+          ]
+        },
+        "Person=2|Number=Plur|Clusivity=_|Mood=Imp|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
           "form": "tagaba",
+          "selection": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_",
+            "Mood": "Imp",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
           "support_count": 1,
           "support": [
             {
@@ -2832,8 +5131,21 @@
             }
           ]
         },
-        "1-plur-ex-neg-ger": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=Ger|Emph=_": {
+          "id": "1-plur-ex-neg-ger",
           "form": "cegai",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "Ger",
+            "Emph": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2857,8 +5169,21 @@
             }
           ]
         },
-        "1-plur-ex-neg-ind": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Ind|Aspect=_|Status=_|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-ex-neg-ind",
           "form": "cegare",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2882,8 +5207,21 @@
             }
           ]
         },
-        "1-plur-ex-neg-irr": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Ind|Aspect=_|Status=Irr|Polarity=Neg|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-ex-neg-irr",
           "form": "cemodukare",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Ind",
+            "Aspect": "_",
+            "Status": "Irr",
+            "Polarity": "Neg",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2907,8 +5245,21 @@
             }
           ]
         },
-        "1-plur-ex-prog": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Ind|Aspect=Prog|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-ex-prog",
           "form": "cenure",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
           "support_count": 3,
           "support": [
             {
@@ -2932,8 +5283,21 @@
             }
           ]
         },
-        "1-plur-ex-emph": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=_|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=Yes": {
+          "id": "1-plur-ex-emph",
           "form": "cerade",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "_",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "Yes"
+          },
           "support_count": 2,
           "support": [
             {
@@ -2951,8 +5315,21 @@
             }
           ]
         },
-        "1-plur-ex-sub": {
+        "Person=1|Number=Plur|Clusivity=Ex|Mood=Sub|Aspect=_|Status=_|Polarity=Pos|Speech=_|VerbForm=_|Emph=_": {
+          "id": "1-plur-ex-sub",
           "form": "cewo",
+          "selection": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex",
+            "Mood": "Sub",
+            "Aspect": "_",
+            "Status": "_",
+            "Polarity": "Pos",
+            "Speech": "_",
+            "VerbForm": "_",
+            "Emph": "_"
+          },
           "support_count": 3,
           "support": [
             {
