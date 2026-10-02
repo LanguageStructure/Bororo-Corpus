@@ -307,7 +307,7 @@
         "Polarity": "Pos",
         "Speech": "_"
       },
-      "evidence": "dic_1130",
+      "evidence": "dic_0732",
       "label": "1SG · indicativo",
       "status": "licensed",
       "frame_evidence": "maku"
@@ -563,6 +563,31 @@
       "label": "1PL.IN · irrealis/futuro negativo",
       "status": "licensed",
       "frame_evidence": "maku"
+    },
+    {
+      "id": "1sg-prog",
+      "form": "inure",
+      "lemma": "i",
+      "features": {
+        "Person": "1",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "Prog"
+      },
+      "evidence": "dic_0709",
+      "label": "1SG · progressivo",
+      "status": "licensed",
+      "frame_evidence": "maku",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Mood": "Ind",
+        "Aspect": "Prog",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "_",
+        "Clusivity": "_"
+      }
     }
   ],
   "feature_schema": {
@@ -678,7 +703,7 @@
         "Speech": "_"
       },
       "evidence": [
-        "dic_1130"
+        "dic_0732"
       ],
       "frame_evidence": "maku",
       "status": "candidate"
