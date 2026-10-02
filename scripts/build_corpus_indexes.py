@@ -155,6 +155,29 @@ def conllu_sentences(path):
    md=misc_dict(cols[9]);rows.append({'id':int(cols[0]),'form':cols[1],'lemma':cols[2],'upos':cols[3],'xpos':cols[4],'feats':cols[5],'head':int(cols[6]) if cols[6].isdigit() else 0,'deprel':cols[7],'deps':cols[8],'misc':md})
   flush()
  return out
+def generator_attested_forms(path):
+ """Inventory explicit CoNLL-U token analyses for the experimental generator.
+
+ This is evidence, not a productive grammar: no segmentation, feature or
+ paradigm cell is inferred here.
+ """
+ sentences=conllu_sentences(path);acc={}
+ for s in sentences:
+  sid=s.get('sent_id','')
+  for t in s.get('tokens',[]):
+   form=t.get('form','');lemma=t.get('lemma','');feats=t.get('feats','')
+   if not form or form=='_' or not lemma or lemma=='_':continue
+   if not re.search(r'[A-Za-zÀ-ÿ]',form):continue
+   key=(form.casefold(),lemma.casefold(),t.get('upos',''),t.get('xpos',''),feats or '_')
+   a=acc.setdefault(key,{'form':form,'lemma':lemma,'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':feats or '_','frequency':0,'evidence':[]})
+   a['frequency']+=1
+   if sid and sid not in a['evidence']:a['evidence'].append(sid)
+ out=list(acc.values())
+ for a in out:
+  a['status']='attested'
+  a['evidence']=a['evidence'][:20]
+ return sorted(out,key=lambda x:(x['lemma'].casefold(),x['form'].casefold(),x['feats']))
+
 def annotation_completeness(row):
  lexical=bool(row.get('lemma') and row.get('upos'))
  morphology=bool(row.get('feats'))
@@ -266,7 +289,7 @@ def main():
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu);stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(set(u['collection'] for u in allu)),'reviewed_units':sum(u['reviewed'] for u in allu),'provisional_units':sum(not u['reviewed'] for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu e {len(etn)} de Etnobotânica, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
