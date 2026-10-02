@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "mode": "demo",
+  "endpoint": null,
+  "method": "POST",
+  "request": {
+    "field": "text",
+    "language_field": "language"
+  },
+  "response": {
+    "intent_field": "intent"
+  },
+  "security_note": "Do not place provider API keys in GitHub Pages or client-side JavaScript. A real AI interpreter must be called through a server-side endpoint.",
+  "fallback": "local-demo"
+}
