@@ -1,5 +1,5 @@
 {
-  "version": "0.11",
+  "version": "0.12",
   "status": "experimental",
   "principles": {
     "generated_is_attested": false,
@@ -1296,6 +1296,108 @@
       "evidence": "dic_1335",
       "status": "licensed",
       "note": "Directly attested as negative subjunctive with maku in reviewed CoNLL-U."
+    },
+    {
+      "form": "iie",
+      "lemma": "i",
+      "selection": {
+        "Person": "1",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0658",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "aie",
+      "lemma": "a",
+      "selection": {
+        "Person": "2",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0056",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "uie",
+      "lemma": "u",
+      "selection": {
+        "Person": "3",
+        "Number": "Sing",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1317",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "paie",
+      "lemma": "pa",
+      "selection": {
+        "Person": "1",
+        "Number": "Plur",
+        "Clusivity": "In",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1058",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "taie",
+      "lemma": "ta",
+      "selection": {
+        "Person": "2",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_1193",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
+    },
+    {
+      "form": "eie",
+      "lemma": "e",
+      "selection": {
+        "Person": "3",
+        "Number": "Plur",
+        "Clusivity": "_",
+        "Mood": "_",
+        "Aspect": "_",
+        "Status": "_",
+        "Polarity": "Pos",
+        "Speech": "Ind"
+      },
+      "evidence": "dic_0456",
+      "status": "licensed",
+      "note": "Directly attested with Speech=Ind and maku; internal segmentation of ie is not asserted."
     }
   ],
   "feature_schema": {
