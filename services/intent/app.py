@@ -28,7 +28,7 @@ INTENT_SCHEMA = {
    "Emph":{"type":"string","enum":["_","Yes"]}},
    "required":["Mood","Aspect","Status","Polarity","Speech","VerbForm","Emph"]},
   "arguments":{"type":"object","additionalProperties":False,"properties":{
-   "object":{"type":["string","null"]},"complement":{"type":["string","null"]},"causee":{"anyOf":[{"type":"object","additionalProperties":false,"properties":{"Person":{"type":"string","enum":["1","2","3"]},"Number":{"type":"string","enum":["Sing","Plur"]}},"required":["Person","Number"]},{"type":"null"}]}},
+   "object":{"type":["string","null"]},"complement":{"type":["string","null"]},"causee":{"anyOf":[{"type":"object","additionalProperties":False,"properties":{"Person":{"type":"string","enum":["1","2","3"]},"Number":{"type":"string","enum":["Sing","Plur"]}},"required":["Person","Number"]},{"type":"null"}]}},
    "required":["object","complement","causee"]}
  },
  "required":["predicate","construction","subject","grammar","arguments"]
