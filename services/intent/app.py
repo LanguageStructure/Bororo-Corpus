@@ -1,8 +1,10 @@
 import os, json
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from openai import OpenAI
 
 app = Flask(__name__)
+CORS(app, resources={r"/interpret": {"origins": "https://languagestructure.github.io"}})
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 MODEL = os.environ.get("CORBO_INTENT_MODEL", "gpt-6-luna")
 
