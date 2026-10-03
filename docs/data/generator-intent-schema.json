@@ -1,16 +1,25 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "status": "experimental",
-  "purpose": "Contract between an optional natural-language interpreter and the deterministic CorBo generator. AI may propose an intent object; only licensed CorBo data may realize Bororo.",
+  "purpose": "Contract between an optional natural-language interpreter and the deterministic CorBo generator. AI proposes language-neutral semantic/grammatical intent; only licensed CorBo data may realize Bororo.",
   "principles": [
     "AI output never licenses a Bororo form.",
     "Unknown or unsupported feature values must be rejected or returned for clarification.",
     "Surface realization must use generator-frames.json and generator-morphology-rules.json.",
-    "Generated output must retain provenance distinct from corpus attestations."
+    "Generated output must retain provenance distinct from corpus attestations.",
+    "Semantic argument labels from AI must be language-neutral; Bororo lexical realization belongs to the deterministic layer."
   ],
   "intent_schema": {
     "predicate": {
       "type": "string",
+      "required": true
+    },
+    "predicate_status": {
+      "type": "enum",
+      "values": [
+        "known",
+        "unknown"
+      ],
       "required": true
     },
     "construction": {
@@ -180,11 +189,12 @@
         "Emph": "_"
       },
       "arguments": {
-        "object": "boe",
+        "object": "something",
         "complement": null,
         "causee": null
-      }
+      },
+      "predicate_status": "known"
     },
-    "expected_process": "Validate exact selection, then frame, then realize from licensed data; do not synthesize morphology by analogy."
+    "expected_process": "Interpret language-neutral intent; validate exact selection and frame; then realize Bororo from licensed data. Do not synthesize morphology or Bororo lexical items by analogy."
   }
 }
