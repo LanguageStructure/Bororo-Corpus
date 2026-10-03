@@ -80,7 +80,25 @@ summary={
  "subject_form_gold_cases":sum(r.get("subject_form_match") is not None for r in rows),
  "subject_form_matches":sum(r.get("subject_form_match") is True for r in rows)
 }
-report={"summary":summary,"results":rows}
+by_category={}
+for category in CASES["categories"]:
+    cr=[r for r in rows if r["category"]==category]
+    by_category[category]={
+      "cases":len(cr),
+      "intent_gold_cases":sum(r["intent_match"] is not None for r in cr),
+      "intent_matches":sum(r["intent_match"] is True for r in cr),
+      "validator_matches":sum(r["validator_match"] is True for r in cr),
+      "subject_form_gold_cases":sum(r.get("subject_form_match") is not None for r in cr),
+      "subject_form_matches":sum(r.get("subject_form_match") is True for r in cr)
+    }
+failures=[{
+  "id":r["id"],"category":r["category"],
+  "intent_match":r.get("intent_match"),
+  "validator_expected":r.get("validator_expected"),"validator_observed":r.get("validator_observed"),
+  "subject_form_expected":r.get("subject_form_expected"),"subject_form_observed":r.get("subject_form_observed"),
+  "error":r.get("error")
+} for r in rows if r.get("intent_match") is False or not r.get("validator_match") or r.get("subject_form_match") is False]
+report={"evaluation_set_version":CASES.get("version"),"frozen":CASES.get("challenge_set",{}).get("frozen",False),"summary":summary,"by_category":by_category,"failures":failures,"results":rows}
 out=HERE/"evaluation-results.json";out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-print(json.dumps(summary,ensure_ascii=False,indent=2))
+print(json.dumps({"evaluation_set_version":CASES.get("version"),"frozen":CASES.get("challenge_set",{}).get("frozen",False),"summary":summary,"by_category":by_category,"failures":failures},ensure_ascii=False,indent=2))
 print("wrote",out)
