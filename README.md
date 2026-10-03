@@ -3,103 +3,231 @@
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
 > **DOI:** https://doi.org/10.5281/zenodo.22976962
 
-O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), língua do tronco Macro-Jê falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais em uma infraestrutura destinada à pesquisa, à documentação linguística, ao processamento de linguagem natural e ao desenvolvimento de materiais para ensino e revitalização da língua.
+O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais para pesquisa, documentação, ensino e desenvolvimento de tecnologia linguística.
 
-A versão **0.7.1** amplia substancialmente o componente textual e consolida uma arquitetura que distingue **fonte documental**, **revisão editorial**, **anotação linguística** e **dados derivados**. O texto das fontes é preservado; correções e formas revistas são registradas em camada separada, evitando que decisões editoriais substituam silenciosamente a evidência documental.
+A arquitetura atual distingue explicitamente **fonte documental**, **revisão editorial**, **anotação linguística**, **dados derivados** e **recursos experimentais de geração**. O texto das fontes é preservado; correções, normalizações e análises são registradas em camadas separadas e não substituem silenciosamente a evidência documental.
+
+## Princípio documental
+
+O fluxo editorial básico é:
+
+```text
+source witness
+  → curated documentary unit
+  → reviewed / parallel layer
+  → linguistic annotation
+  → derived indexes and interfaces
+```
+
+A fonte documental permanece primária. Uma forma revista ou normalizada não apaga a forma testemunhada. Segmentação morfológica, análise sintática e tradução são camadas adicionais e podem ter graus diferentes de completude.
 
 ## Coleções textuais
 
-O corpus inclui atualmente:
+O corpus inclui, entre outros materiais:
 
 - **Coqueiro** — texto com alinhamento Bororo–Português;
 - **História Mítica** — coleção documental e paralela;
-- **Adugo Biri** — texto organizado em unidades estáveis, com fonte, revisão e tradução;
+- **Adugo Biri** — unidades com fonte, revisão e tradução;
 - **Boe Ero** — coleção documental com seções, numeração original, tradução e metadados editoriais;
-- **Oiegos** — coleção de cantos Oieigo e documentos relacionados, preservados como textos independentes; inclui materiais de O Meremere, Antônio Caio (G96), Aroe Eimejera Okoge Ekureu, P. Rodolfo (M85), Finado Bentinho (G86) e o documento narrativo de mito e explicação; traduções/interpretações são mantidas em paralelo quando disponíveis;
-- **História da Corujinha — Tagogorogu** — narrativa de tradição oral incorporada como texto independente;
-- **Textos bíblicos** — materiais bíblicos incorporados ao corpus;
-- **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, atualmente em processo de revisão.
+- **Oiegos** — cantos Oieigo e documentos relacionados, preservados como textos independentes;
+- **História da Corujinha — Tagogorogu** — narrativa de tradição oral;
+- **Etnobotânica** — unidades incorporadas a partir de material tabular;
+- **Textos bíblicos** — materiais bíblicos mantidos no corpus documental;
+- **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, em processo de revisão.
 
-As coleções não apresentam necessariamente o mesmo grau de tradução ou anotação. Quando disponíveis, traduções em português e inglês são mantidas junto às unidades correspondentes.
+As coleções não têm necessariamente o mesmo grau de tradução, revisão ou anotação. Ausência de uma camada não é preenchida automaticamente por inferência.
 
 ## Organização dos dados
 
-A estrutura atual separa os dados primários dos recursos gerados automaticamente. Os textos em desenvolvimento encontram-se principalmente em `CorBo_vNext/texts/`, com identificadores estáveis para as unidades documentais. Dados de anotação adicionais são mantidos separadamente.
+Os textos documentais em desenvolvimento encontram-se principalmente em `CorBo_vNext/` e `CorBo/Corpus_Files/`. Identificadores estáveis são usados sempre que a estrutura documental permite.
 
-A interface pública é **somente para consulta**. A edição e a revisão dos dados são realizadas sobre os arquivos-fonte do corpus; índices, estatísticas e arquivos JSON utilizados pelo site são derivados desses dados.
+A interface pública é **somente para consulta**. A edição e revisão são feitas sobre arquivos-fonte. JSONs, índices de busca, estatísticas e outros arquivos em `docs/data/` são artefatos derivados e devem ser reconstruídos a partir das fontes, não editados como dados canônicos.
 
-## Universal Dependencies e CoNLL-U
+## CoNLL-U e Universal Dependencies
 
-O componente sintaticamente anotado segue o padrão **Universal Dependencies (UD)** e utiliza o formato **CoNLL-U**. O arquivo CoNLL-U canônico atualmente utilizado pelo projeto encontra-se em:
+O componente atualmente usado para anotação morfossintática e visualização de dependências tem como arquivo autoritativo:
 
-`CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu`
+```text
+CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu
+```
 
-Além das dez colunas do padrão CoNLL-U, os comentários e o campo `MISC` podem conter informações adicionais disponíveis para determinadas unidades ou tokens, incluindo traduções, forma ortográfica, glossa lexical e informação gramatical.
+Este é o arquivo usado para construir o índice UD atual, a análise de formas e os recursos morfológicos derivados associados ao gerador.
 
-Entre os campos de enriquecimento encontrados no corpus estão:
+Arquivos CoNLL-U legados, incluindo versões enriquecidas com material bíblico como `Bororo_UD_enriched_v5_plus_scripture.conllu`, **não são a fonte do visualizador UD atual**. Textos bíblicos podem permanecer no corpus documental e em outros índices, mas não são projetados automaticamente no visualizador de dependências.
 
-| Campo | Descrição |
-|---|---|
-| `ORTHO` | forma ortográfica |
-| `POS_FINE` | categoria gramatical mais detalhada |
-| `GLOSS` | glossa lexical |
-| `CLS` | informação de classe de posse, quando anotada |
-| `PRCLITIC` | informação sobre proclíticos, quando anotada |
+O visualizador apresenta apenas sentenças efetivamente presentes no CoNLL-U autoritativo. As árvores representam **HEAD → DEPENDENTE** e não são completadas por sintaxe inferida ou gerada.
 
-A análise morfológica é mantida separada da transcrição documental. A segmentação morfológica não deve ser inferida automaticamente a partir da grafia.
+### Metadados e proveniência
 
-## Princípios editoriais
+Os comentários CoNLL-U podem registrar, quando disponíveis:
 
-Um princípio central do CorBo é distinguir **evidência documental** de **intervenção editorial**. Por isso:
+- `sent_id`;
+- `text`;
+- `text_por`;
+- `text_eng`.
 
-- a forma presente na fonte é preservada;
-- uma forma revista pode ser registrada separadamente;
-- irregularidades documentais, lacunas e numeração original não são corrigidas silenciosamente;
-- unidades sem tradução podem permanecer no corpus;
-- análises linguísticas e segmentações não são projetadas automaticamente sobre a fonte;
-- índices e estatísticas são tratados como dados derivados e podem ser reconstruídos a partir das fontes do corpus.
+O CoNLL-U atual ainda não preserva de maneira uniforme o grupo documental original de cada sentença. Essa limitação impede, em alguns experimentos históricos, a reconstrução exata de antigos splits por fonte apenas a partir do arquivo público atual.
 
-Esse modelo permite utilizar o CorBo tanto para investigação linguística quanto para o estudo da história editorial e documental dos materiais em Bororo.
+Para novas incorporações e revisões, o objetivo é preservar também, quando conhecido:
+
+- `source` / `document_id`;
+- `source_unit_id`;
+- coleção ou testemunho documental;
+- relação entre a unidade documental e a sentença anotada.
+
+Isso permitirá futuros splits por fonte plenamente reproduzíveis sem inferir proveniência a partir do conteúdo.
+
+## Anotação morfológica
+
+A análise morfológica é mantida separada da transcrição documental. Uma segmentação não deve ser inferida apenas pela grafia.
+
+Os recursos derivados distinguem:
+
+- forma;
+- lema;
+- UPOS/XPOS;
+- FEATS explicitamente anotados;
+- morfemas explicitamente analisados;
+- relações de dependência.
+
+A busca por morfema usa segmentação/anotação explícita, não correspondência arbitrária de substring. A página **Análise de formas** também se baseia em anotações explícitas.
 
 ## Interface digital
 
-A interface de consulta permite navegar pelas coleções e acessar formas do Bororo no contexto dos textos. **As palavras Bororo exibidas nos leitores textuais são clicáveis** e levam à ficha da forma correspondente, permitindo passar diretamente do texto para a exploração lexical e corpus:
+A interface pública está em:
 
 **https://languagestructure.github.io/Bororo-Corpus/**
 
-A interface inclui páginas para textos, formas, morfemas, relações e estatísticas. Os recursos apresentados no site são gerados a partir dos dados mantidos neste repositório.
+Ela inclui:
 
-## Estado da versão 0.7
+- catálogo e leitores de textos;
+- busca de palavras em contexto;
+- busca morfológica;
+- análise de formas;
+- visualizador CoNLL-U/UD;
+- estatísticas;
+- ferramentas experimentais de geração controlada.
 
-A versão 0.7.1 é uma **versão de pesquisa em desenvolvimento**. Diferentes coleções encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas unidades ainda são provisórias e algumas coleções permanecem monolíngues ou parcialmente traduzidas.
+Nos leitores em que essa integração está disponível, formas Bororo são clicáveis e levam à exploração lexical/corpus correspondente.
 
-Essa condição é representada nos dados sempre que possível, em vez de se produzir artificialmente uma versão inteiramente normalizada.
+## Gerador controlado
+
+O CorBo mantém uma camada experimental de geração baseada exclusivamente em análises licenciadas. O princípio é:
+
+```text
+corpus evidence
+  → human linguistic analysis
+  → explicit license
+  → deterministic realization
+```
+
+**Atestação não é licença.** Uma forma observada no corpus não se torna automaticamente uma regra produtiva. Da mesma forma, uma combinação não observada não é declarada agramatical apenas por ausência.
+
+Os inventários públicos incluem, entre outros:
+
+- `docs/data/generator-frames.json`;
+- `docs/data/generator-attested-forms.json`;
+- `docs/data/generator-morphology-rules.json`;
+- `docs/data/generator-intent-schema.json`.
+
+O gerador usa correspondência exata com combinações licenciadas e deve falhar de modo controlado quando uma combinação, frame ou predicado não está representado.
+
+## Interface de linguagem natural
+
+A camada experimental de intent segue a arquitetura:
+
+```text
+Portuguese / English
+  → AI semantic/grammatical interpretation
+  → language-neutral structured intent
+  → deterministic CorBo validator
+  → controlled Bororo realization
+```
+
+A IA **não gera livremente Bororo**, não cria morfologia, não inventa predicados Bororo e não concede licenças. A realização linguística pertence à camada determinística.
+
+O serviço está em `services/intent/`, e o contrato público da intenção estruturada está em `docs/data/generator-intent-schema.json`.
+
+### Challenge set congelado
+
+A interface foi testada em um challenge set congelado de **30 casos**:
+
+- 15 positivos;
+- 5 ambíguos;
+- 10 boundary cases.
+
+Na primeira execução completa registrada:
+
+- 30/30 decisões do validador corresponderam ao gold;
+- 20/20 intents com gold explícito corresponderam ao esperado;
+- 16/16 realizações de sujeito com gold explícito corresponderam ao esperado;
+- 5/5 casos ambíguos foram enviados para clarificação;
+- 10/10 boundary cases receberam a decisão esperada;
+- 0 falhas de transporte.
+
+Esse resultado é **agreement no challenge set controlado**, não uma estimativa de accuracy geral para linguagem natural ou geração irrestrita em Bororo.
+
+A metodologia e o snapshot do primeiro run completo estão documentados em:
+
+- `services/intent/EVALUATION.md`;
+- `services/intent/evaluation.json`;
+- `services/intent/evaluation-run-2026-10-03.json`.
+
+## Relação com o Bororo Sentence Generator
+
+A implementação experimental e a avaliação formal do gerador são também distribuídas separadamente no repositório:
+
+**LanguageStructure/Bororo-Sentence-Generator-**
+
+O CorBo é a fonte documental e anotada; o Sentence Generator é um artefato experimental que consome análises revisadas. Os dois projetos não devem ser confundidos: alterações na documentação do corpus não atualizam automaticamente a gramática do gerador.
+
+O repositório do gerador contém manifests de avaliação, challenge sets, testes e o protocolo formal de adjudicação humana.
+
+## Princípios editoriais e de governança
+
+O CorBo adota os seguintes princípios:
+
+- preservar a forma presente na fonte;
+- registrar revisão/normalização em camada separada;
+- não corrigir silenciosamente irregularidades documentais;
+- permitir unidades sem tradução ou análise completa;
+- não projetar automaticamente segmentação ou sintaxe sobre a fonte;
+- tratar índices e estatísticas como dados derivados;
+- distinguir atestação, análise e licença de geração;
+- registrar incerteza em vez de completá-la por analogia;
+- preservar proveniência documental sempre que disponível.
 
 ## Formatos
 
-Os principais formatos utilizados no projeto são:
+Os principais formatos são:
 
-- **CoNLL-U** — anotação linguística e dependências;
+- **CoNLL-U** — anotação morfossintática e dependências;
 - **TSV/CSV** — textos paralelos, camadas editoriais e dados tabulares;
-- **JSON** — índices e recursos derivados utilizados pela interface;
-- **TXT** — fontes e materiais documentais em texto simples.
+- **JSON** — índices e recursos derivados;
+- **TXT** — fontes documentais em texto simples.
+
+## Estado da versão
+
+A versão 0.7.1 é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
+
+A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de produzir artificialmente um corpus inteiramente normalizado.
 
 ## Língua e região
 
 - **Língua:** Boe-Bororo
 - **ISO 639-3:** `bor`
-- **Tronco:** Bororo
+- **Família:** Bororoan
 - **Região:** Mato Grosso, Brasil
 
 ## Licença e citação
 
-O corpus é disponibilizado sob a licença **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
+O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22976962.svg)](https://doi.org/10.5281/zenodo.22976962)
 
-Ao utilizar o corpus em publicações, cite a versão específica consultada no Zenodo. Versões arquivadas no Zenodo fornecem um registro estável dos dados, enquanto o repositório e a interface pública podem continuar a receber atualizações.
+Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
-## Autores
+## Autor
 
 - **Fabrício Ferraz Gerardi**
 
