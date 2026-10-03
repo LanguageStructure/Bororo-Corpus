@@ -1,6 +1,6 @@
 {
-  "version": "0.1",
-  "purpose": "Evaluation set for the AI intent layer and deterministic CorBo validator. Expected Bororo forms are supplied only where already licensed; this file must not be used to create new grammar rules.",
+  "version": "0.2",
+  "purpose": "Evaluation set for the AI intent layer and deterministic CorBo validator. Intent gold uses language-neutral semantic labels and never Bororo realization forms. Expected Bororo forms are supplied separately only where already licensed; this file must not be used to create new grammar rules.",
   "categories": {
     "positive": [
       {
@@ -8,6 +8,7 @@
         "input": "Nós (exclusivo) não daremos algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "1",
             "Number": "Plur",
@@ -19,7 +20,7 @@
             "Polarity": "Neg"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
@@ -30,6 +31,7 @@
         "input": "Ele dará algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "3",
             "Number": "Sing",
@@ -41,7 +43,7 @@
             "Polarity": "Pos"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
@@ -52,6 +54,7 @@
         "input": "Eu estou dando algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "1",
             "Number": "Sing",
@@ -63,7 +66,7 @@
             "Polarity": "Pos"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
@@ -74,6 +77,7 @@
         "input": "Vocês não dão algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "2",
             "Number": "Plur",
@@ -84,7 +88,7 @@
             "Polarity": "Neg"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
@@ -95,6 +99,7 @@
         "input": "Eles dão algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "3",
             "Number": "Plur",
@@ -105,7 +110,7 @@
             "Polarity": "Pos"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
@@ -130,8 +135,9 @@
       {
         "id": "ai_bnd_001",
         "input": "Ele dormirá.",
+        "expected_intent": {"predicate_status": "unknown"},
         "expected_validator": "UNKNOWN_PREDICATE",
-        "reason": "No controlled sleep predicate is currently licensed."
+        "reason": "Sleep is semantically recognized, but no controlled Bororo sleep predicate is currently licensed."
       },
       {
         "id": "ai_bnd_002",
@@ -144,6 +150,7 @@
         "input": "Nós (inclusivo) daremos algo.",
         "expected_intent": {
           "predicate": "maku",
+          "predicate_status": "known",
           "subject": {
             "Person": "1",
             "Number": "Plur",
@@ -155,7 +162,7 @@
             "Polarity": "Pos"
           },
           "arguments": {
-            "object": "boe"
+            "object": "something"
           }
         },
         "expected_validator": "LICENSED",
