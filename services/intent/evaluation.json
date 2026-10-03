@@ -1,0 +1,173 @@
+{
+  "version": "0.1",
+  "purpose": "Evaluation set for the AI intent layer and deterministic CorBo validator. Expected Bororo forms are supplied only where already licensed; this file must not be used to create new grammar rules.",
+  "categories": {
+    "positive": [
+      {
+        "id": "ai_pos_001",
+        "input": "Nós (exclusivo) não daremos algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Neg"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "cemodukare"
+      },
+      {
+        "id": "ai_pos_002",
+        "input": "Ele dará algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "umode"
+      },
+      {
+        "id": "ai_pos_003",
+        "input": "Eu estou dando algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "inure"
+      },
+      {
+        "id": "ai_pos_004",
+        "input": "Vocês não dão algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Polarity": "Neg"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "tagare"
+      },
+      {
+        "id": "ai_pos_005",
+        "input": "Eles dão algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "ere"
+      }
+    ],
+    "ambiguous": [
+      {
+        "id": "ai_amb_001",
+        "input": "Nós daremos algo.",
+        "expected_validator": "NEEDS_CLARIFICATION",
+        "reason": "Portuguese nós does not specify inclusive vs exclusive."
+      },
+      {
+        "id": "ai_amb_002",
+        "input": "We will give something.",
+        "expected_validator": "NEEDS_CLARIFICATION",
+        "reason": "English we does not specify inclusive vs exclusive."
+      }
+    ],
+    "boundary": [
+      {
+        "id": "ai_bnd_001",
+        "input": "Ele dormirá.",
+        "expected_validator": "UNKNOWN_PREDICATE",
+        "reason": "No controlled sleep predicate is currently licensed."
+      },
+      {
+        "id": "ai_bnd_002",
+        "input": "Ele dará.",
+        "expected_validator": "UNLICENSED_FRAME",
+        "reason": "maku frame currently requires an object."
+      },
+      {
+        "id": "ai_bnd_003",
+        "input": "Nós (inclusivo) daremos algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "subject": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "boe"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "pamode"
+      }
+    ]
+  },
+  "governance": {
+    "freeze_note": "Do not alter grammar or gold expectations merely to make model outputs pass. Review disagreements as AI parsing error, annotation issue, grammar gap, or genuinely ambiguous input.",
+    "excluded": [
+      "-iure forms",
+      "focus/copular construction until separately enabled"
+    ]
+  }
+}
