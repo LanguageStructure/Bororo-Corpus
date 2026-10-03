@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "1.0-challenge",
   "purpose": "Evaluation set for the AI intent layer and deterministic CorBo validator. Intent gold uses language-neutral semantic labels and never Bororo realization forms. Expected Bororo forms are supplied separately only where already licensed; this file must not be used to create new grammar rules.",
   "categories": {
     "positive": [
@@ -115,6 +115,233 @@
         },
         "expected_validator": "LICENSED",
         "expected_subject_form": "ere"
+      },
+      {
+        "id": "ai_pos_006",
+        "input": "Eu darei algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "1",
+            "Number": "Sing",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "imode"
+      },
+      {
+        "id": "ai_pos_007",
+        "input": "Você dará algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "2",
+            "Number": "Sing",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "amode"
+      },
+      {
+        "id": "ai_pos_008",
+        "input": "Vocês darão algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "tamode"
+      },
+      {
+        "id": "ai_pos_009",
+        "input": "Eles não darão algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Neg"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "emodukare"
+      },
+      {
+        "id": "ai_pos_010",
+        "input": "Nós (inclusivo) não damos algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "In"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Polarity": "Neg"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "pagare"
+      },
+      {
+        "id": "ai_pos_011",
+        "input": "Nós (exclusivo) damos algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "cere"
+      },
+      {
+        "id": "ai_pos_012",
+        "input": "Ela está dando algo.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "3",
+            "Number": "Sing",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Aspect": "Prog",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "unure"
+      },
+      {
+        "id": "ai_pos_013",
+        "input": "We (exclusive) will give something.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "1",
+            "Number": "Plur",
+            "Clusivity": "Ex"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "cemode"
+      },
+      {
+        "id": "ai_pos_014",
+        "input": "They will not give something.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "3",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Status": "Irr",
+            "Polarity": "Neg"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "emodukare"
+      },
+      {
+        "id": "ai_pos_015",
+        "input": "You all give something.",
+        "expected_intent": {
+          "predicate": "maku",
+          "predicate_status": "known",
+          "subject": {
+            "Person": "2",
+            "Number": "Plur",
+            "Clusivity": "_"
+          },
+          "grammar": {
+            "Mood": "Ind",
+            "Polarity": "Pos"
+          },
+          "arguments": {
+            "object": "something"
+          }
+        },
+        "expected_validator": "LICENSED",
+        "expected_subject_form": "tare"
       }
     ],
     "ambiguous": [
@@ -129,13 +356,33 @@
         "input": "We will give something.",
         "expected_validator": "NEEDS_CLARIFICATION",
         "reason": "English we does not specify inclusive vs exclusive."
+      },
+      {
+        "id": "ai_amb_003",
+        "input": "Nós damos algo.",
+        "expected_validator": "NEEDS_CLARIFICATION",
+        "reason": "Portuguese nós does not specify inclusive vs exclusive."
+      },
+      {
+        "id": "ai_amb_004",
+        "input": "We are giving something.",
+        "expected_validator": "NEEDS_CLARIFICATION",
+        "reason": "English we does not specify inclusive vs exclusive."
+      },
+      {
+        "id": "ai_amb_005",
+        "input": "Nós não daremos algo.",
+        "expected_validator": "NEEDS_CLARIFICATION",
+        "reason": "Negation and future do not resolve 1PL clusivity."
       }
     ],
     "boundary": [
       {
         "id": "ai_bnd_001",
         "input": "Ele dormirá.",
-        "expected_intent": {"predicate_status": "unknown"},
+        "expected_intent": {
+          "predicate_status": "unknown"
+        },
         "expected_validator": "UNKNOWN_PREDICATE",
         "reason": "Sleep is semantically recognized, but no controlled Bororo sleep predicate is currently licensed."
       },
@@ -167,14 +414,70 @@
         },
         "expected_validator": "LICENSED",
         "expected_subject_form": "pamode"
+      },
+      {
+        "id": "ai_bnd_004",
+        "input": "Eu dormirei.",
+        "expected_intent": {
+          "predicate_status": "unknown"
+        },
+        "expected_validator": "UNKNOWN_PREDICATE",
+        "reason": "Sleep predicate is outside the controlled lexicon."
+      },
+      {
+        "id": "ai_bnd_005",
+        "input": "They will sleep.",
+        "expected_intent": {
+          "predicate_status": "unknown"
+        },
+        "expected_validator": "UNKNOWN_PREDICATE",
+        "reason": "English sleep predicate is outside the controlled lexicon."
+      },
+      {
+        "id": "ai_bnd_006",
+        "input": "Ela comerá algo.",
+        "expected_intent": {
+          "predicate_status": "unknown"
+        },
+        "expected_validator": "UNKNOWN_PREDICATE",
+        "reason": "Eat predicate is outside the controlled lexicon."
+      },
+      {
+        "id": "ai_bnd_007",
+        "input": "Eu darei.",
+        "expected_validator": "UNLICENSED_FRAME",
+        "reason": "maku currently requires an object."
+      },
+      {
+        "id": "ai_bnd_008",
+        "input": "Vocês não darão.",
+        "expected_validator": "UNLICENSED_FRAME",
+        "reason": "maku currently requires an object."
+      },
+      {
+        "id": "ai_bnd_009",
+        "input": "They give.",
+        "expected_validator": "UNLICENSED_FRAME",
+        "reason": "maku currently requires an object."
+      },
+      {
+        "id": "ai_bnd_010",
+        "input": "We (exclusive) will give.",
+        "expected_validator": "UNLICENSED_FRAME",
+        "reason": "Clusivity is explicit, but the required object is absent."
       }
     ]
   },
   "governance": {
-    "freeze_note": "Do not alter grammar or gold expectations merely to make model outputs pass. Review disagreements as AI parsing error, annotation issue, grammar gap, or genuinely ambiguous input.",
+    "freeze_note": "Expanded challenge-set gold was frozen before its first run. Do not alter grammar, parser instructions, or gold expectations merely to make model outputs pass. Any post-run gold correction requires a new set version and documented reason.",
     "excluded": [
       "-iure forms",
       "focus/copular construction until separately enabled"
     ]
+  },
+  "challenge_set": {
+    "frozen": true,
+    "frozen_on": "2026-10-03",
+    "policy": "Gold labels are frozen before the first run of this expanded set. Post-run changes require a new evaluation-set version and a documented reason."
   }
 }
