@@ -12,6 +12,7 @@ INTENT_SCHEMA = {
  "type":"object","additionalProperties":False,
  "properties":{
   "predicate":{"type":"string"},
+  "predicate_status":{"type":"string","enum":["known","unknown"]},
   "construction":{"type":"string","enum":["basic","causative"]},
   "subject":{"type":"object","additionalProperties":False,"properties":{
    "Person":{"type":"string","enum":["1","2","3"]},
@@ -31,13 +32,16 @@ INTENT_SCHEMA = {
    "object":{"type":["string","null"]},"complement":{"type":["string","null"]},"causee":{"anyOf":[{"type":"object","additionalProperties":False,"properties":{"Person":{"type":"string","enum":["1","2","3"]},"Number":{"type":"string","enum":["Sing","Plur"]}},"required":["Person","Number"]},{"type":"null"}]}},
    "required":["object","complement","causee"]}
  },
- "required":["predicate","construction","subject","grammar","arguments"]
+ "required":["predicate","predicate_status","construction","subject","grammar","arguments"]
 }
 
 INSTRUCTIONS = """You are only an intent parser for a controlled Bororo grammar.
 Interpret Portuguese or English into the supplied grammatical JSON.
 Do not generate Bororo words or sentences. Do not invent predicates.
-Currently prefer predicate maku only when the input means 'dar/give'.
+Use predicate maku only when the input means 'dar/give', with predicate_status known.
+For any other lexical predicate, set predicate to the source-language lemma (for example dormir or sleep) and predicate_status unknown; never invent a Bororo lemma.
+Normalize the generic semantic object 'algo/something' to the language-neutral label 'something'.
+Use Mood=Ind for ordinary declarative finite clauses unless another licensed mood is explicitly indicated.
 Use Irr for future/irrealis, Neg only for explicit negation, and distinguish
 1PL inclusive/exclusive only when the input supplies enough information.
 If the input is ambiguous, preserve conservative unmarked values; the downstream
