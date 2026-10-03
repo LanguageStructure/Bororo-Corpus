@@ -8,8 +8,12 @@ ENDPOINT=os.environ.get("CORBO_INTENT_ENDPOINT","https://bororo-corpus.onrender.
 def post(text):
     data=json.dumps({"text":text,"language":"pt"}).encode()
     req=urllib.request.Request(ENDPOINT,data=data,headers={"Content-Type":"application/json"},method="POST")
-    with urllib.request.urlopen(req,timeout=60) as r:
-        return json.loads(r.read())["intent"]
+    try:
+        with urllib.request.urlopen(req,timeout=60) as r:
+            return json.loads(r.read())["intent"]
+    except urllib.error.HTTPError as e:
+        body=e.read().decode("utf-8","replace")
+        raise RuntimeError(f"HTTP {e.code} {e.reason}: {body}") from e
 
 def subset(expected,actual):
     if isinstance(expected,dict):
