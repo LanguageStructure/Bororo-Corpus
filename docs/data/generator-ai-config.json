@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "mode": "demo",
-  "endpoint": null,
+  "mode": "endpoint",
+  "endpoint": "https://bororo-corpus.onrender.com/interpret",
   "method": "POST",
   "request": {
     "field": "text",
@@ -11,5 +11,6 @@
     "intent_field": "intent"
   },
   "security_note": "Do not place provider API keys in GitHub Pages or client-side JavaScript. A real AI interpreter must be called through a server-side endpoint.",
-  "fallback": "local-demo"
+  "fallback": "local-demo",
+  "allowed_origin": "https://languagestructure.github.io"
 }
