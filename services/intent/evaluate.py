@@ -1,4 +1,4 @@
-import json, os, sys, urllib.request, urllib.error
+import json, os, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
@@ -9,15 +9,26 @@ SUBJECTS=FRAMES.get("subject_realizations",[])
 CAUSEES=FRAMES.get("causee_realizations",[])
 ENDPOINT=os.environ.get("CORBO_INTENT_ENDPOINT","https://bororo-corpus.onrender.com/interpret")
 
-def post(text):
+def post(text, max_attempts=3):
     data=json.dumps({"text":text,"language":"pt"}).encode()
-    req=urllib.request.Request(ENDPOINT,data=data,headers={"Content-Type":"application/json"},method="POST")
-    try:
-        with urllib.request.urlopen(req,timeout=60) as r:
-            return json.loads(r.read())["intent"]
-    except urllib.error.HTTPError as e:
-        body=e.read().decode("utf-8","replace")
-        raise RuntimeError(f"HTTP {e.code} {e.reason}: {body}") from e
+    last_error=None
+    for attempt in range(1,max_attempts+1):
+        req=urllib.request.Request(ENDPOINT,data=data,headers={"Content-Type":"application/json"},method="POST")
+        try:
+            with urllib.request.urlopen(req,timeout=60) as r:
+                return json.loads(r.read())["intent"], attempt
+        except urllib.error.HTTPError as e:
+            body=e.read().decode("utf-8","replace")
+            last_error=RuntimeError(f"HTTP {e.code} {e.reason}: {body[:500]}")
+            if e.code not in (502,503,504) or attempt==max_attempts:
+                raise last_error from e
+            time.sleep(2*attempt)
+        except (urllib.error.URLError, TimeoutError) as e:
+            last_error=RuntimeError(f"transport error: {e}")
+            if attempt==max_attempts:
+                raise last_error from e
+            time.sleep(2*attempt)
+    raise last_error
 
 def subset(expected,actual):
     if isinstance(expected,dict):
@@ -59,7 +70,7 @@ for category,cases in CASES["categories"].items():
     for case in cases:
         row={"id":case["id"],"category":category,"input":case["input"]}
         try:
-            intent=post(case["input"]); row["intent"]=intent
+            intent, attempts=post(case["input"]); row["intent"]=intent; row["transport_attempts"]=attempts
             row["intent_match"]=subset(case.get("expected_intent",{}),intent) if case.get("expected_intent") else None
             row["validator_observed"], row["subject_form_observed"]=infer_validator(intent)
             row["validator_expected"]=case["expected_validator"]
@@ -67,7 +78,7 @@ for category,cases in CASES["categories"].items():
             row["subject_form_expected"]=case.get("expected_subject_form")
             row["subject_form_match"]=(row["subject_form_observed"]==row["subject_form_expected"]) if row["subject_form_expected"] else None
         except Exception as e:
-            row["error"]=str(e);row["intent_match"]=False;row["validator_match"]=False;row["subject_form_match"]=False if case.get("expected_subject_form") else None
+            row["error"]=str(e);row["transport_failure"]=True;row["intent_match"]=None;row["validator_match"]=None;row["subject_form_match"]=None
         rows.append(row)
 
 summary={
@@ -76,6 +87,8 @@ summary={
  "intent_gold_cases":sum(r["intent_match"] is not None for r in rows),
  "intent_matches":sum(r["intent_match"] is True for r in rows),
  "intent_mismatches":sum(r["intent_match"] is False for r in rows),
+ "transport_failures":sum(r.get("transport_failure") is True for r in rows),
+ "evaluated_cases":sum(r.get("transport_failure") is not True for r in rows),
  "validator_matches":sum(r["validator_match"] is True for r in rows),
  "subject_form_gold_cases":sum(r.get("subject_form_match") is not None for r in rows),
  "subject_form_matches":sum(r.get("subject_form_match") is True for r in rows)
@@ -97,7 +110,7 @@ failures=[{
   "validator_expected":r.get("validator_expected"),"validator_observed":r.get("validator_observed"),
   "subject_form_expected":r.get("subject_form_expected"),"subject_form_observed":r.get("subject_form_observed"),
   "error":r.get("error")
-} for r in rows if r.get("intent_match") is False or not r.get("validator_match") or r.get("subject_form_match") is False]
+} for r in rows if r.get("intent_match") is False or r.get("validator_match") is False or r.get("subject_form_match") is False or r.get("transport_failure") is True]
 report={"evaluation_set_version":CASES.get("version"),"frozen":CASES.get("challenge_set",{}).get("frozen",False),"summary":summary,"by_category":by_category,"failures":failures,"results":rows}
 out=HERE/"evaluation-results.json";out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({"evaluation_set_version":CASES.get("version"),"frozen":CASES.get("challenge_set",{}).get("frozen",False),"summary":summary,"by_category":by_category,"failures":failures},ensure_ascii=False,indent=2))
