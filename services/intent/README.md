@@ -19,4 +19,4 @@ The public generator should point `docs/data/generator-ai-config.json` to the de
 
 ## Evaluation
 
-`evaluation.json` separates positive, ambiguous, and boundary cases. Score the AI interpretation separately from the deterministic validator. Never expand the grammar merely to make an AI prediction pass.
+`evaluation.json` contains the frozen `1.0-challenge` set: 30 cases (15 positive, 5 ambiguous, 10 boundary). Score AI interpretation, deterministic validation, and licensed subject realization separately. Transient transport failures are retried and reported separately. Never alter the frozen gold, parser instructions, or grammar merely to make a prediction pass; corrections require a new evaluation-set version and a documented reason.\n\nFirst complete frozen-set run (2026-10-03): 30/30 validator decisions, 20/20 explicit intent gold matches, and 16/16 subject-realization gold matches, with 0 transport failures. This is a controlled challenge-set result, not a general accuracy estimate.
