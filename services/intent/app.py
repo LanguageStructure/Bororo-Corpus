@@ -49,13 +49,17 @@ def interpret():
     text=(body.get("text") or "").strip()
     if not text:
         return jsonify(error="text must be non-empty"),400
-    response=client.responses.create(
-        model=MODEL,
-        instructions=INSTRUCTIONS,
-        input=text,
-        text={"format":{"type":"json_schema","name":"corbo_intent","strict":True,"schema":INTENT_SCHEMA}}
-    )
-    return jsonify(intent=json.loads(response.output_text), model=MODEL)
+    try:
+        response=client.responses.create(
+            model=MODEL,
+            instructions=INSTRUCTIONS,
+            input=text,
+            text={"format":{"type":"json_schema","name":"corbo_intent","strict":True,"schema":INTENT_SCHEMA}}
+        )
+        return jsonify(intent=json.loads(response.output_text), model=MODEL)
+    except Exception as exc:
+        app.logger.exception("intent parsing failed")
+        return jsonify(error="intent_parser_failed", detail=str(exc), model=MODEL), 502
 
 @app.get("/health")
 def health():
