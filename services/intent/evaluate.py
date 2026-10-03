@@ -24,7 +24,9 @@ def infer_validator(intent):
     # Evaluation-side checks only. The browser remains authoritative for exact
     # licensed morphology; this function tests states that are decidable from
     # the intent contract without reimplementing the grammar.
-    if not intent or not intent.get("predicate"): return "NEEDS_CLARIFICATION"
+    if not intent: return "NEEDS_CLARIFICATION"
+    if intent.get("predicate_status")=="unknown": return "UNKNOWN_PREDICATE"
+    if not intent.get("predicate"): return "NEEDS_CLARIFICATION"
     if intent["predicate"]!="maku": return "UNKNOWN_PREDICATE"
     s=intent.get("subject") or {}
     if s.get("Person")=="1" and s.get("Number")=="Plur" and s.get("Clusivity","_")=="_":
@@ -52,6 +54,7 @@ summary={
  "endpoint":ENDPOINT,
  "intent_gold_cases":sum(r["intent_match"] is not None for r in rows),
  "intent_matches":sum(r["intent_match"] is True for r in rows),
+ "intent_mismatches":sum(r["intent_match"] is False for r in rows),
  "validator_matches":sum(r["validator_match"] is True for r in rows)
 }
 report={"summary":summary,"results":rows}
