@@ -1,0 +1,48 @@
+{
+  "run_id": "challenge-1.0-2026-10-03-complete",
+  "evaluation_set_version": "1.0-challenge",
+  "frozen": true,
+  "date": "2026-10-03",
+  "endpoint": "https://bororo-corpus.onrender.com/interpret",
+  "protocol": {
+    "transport_retry": "up to 3 attempts for HTTP 502/503/504 and transient connection errors",
+    "validator_source": "docs/data/generator-frames.json",
+    "gold_policy": "Frozen before first expanded-set run; no post-hoc changes to make outputs pass."
+  },
+  "results": {
+    "cases": 30,
+    "evaluated_cases": 30,
+    "transport_failures": 0,
+    "intent_gold_cases": 20,
+    "intent_matches": 20,
+    "intent_mismatches": 0,
+    "validator_matches": 30,
+    "subject_form_gold_cases": 16,
+    "subject_form_matches": 16
+  },
+  "by_category": {
+    "positive": {
+      "cases": 15,
+      "intent_gold_cases": 15,
+      "intent_matches": 15,
+      "validator_matches": 15,
+      "subject_form_gold_cases": 15,
+      "subject_form_matches": 15
+    },
+    "ambiguous": {
+      "cases": 5,
+      "intent_gold_cases": 0,
+      "validator_matches": 5
+    },
+    "boundary": {
+      "cases": 10,
+      "intent_gold_cases": 5,
+      "intent_matches": 5,
+      "validator_matches": 10,
+      "subject_form_gold_cases": 1,
+      "subject_form_matches": 1
+    }
+  },
+  "interpretation": "Controlled frozen challenge-set result; not a general accuracy estimate.",
+  "sensitive_data_stored": false
+}
