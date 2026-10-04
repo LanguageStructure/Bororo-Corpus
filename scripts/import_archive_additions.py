@@ -7,10 +7,11 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv"
 SPECS=[
- ("aijedoge.txt","AIJ","Aijedoge"),
- ("barujauwo.txt","BARU","Barujauwo"),
- ("primeirasAndanca.txt","PAND","Primeiras Andanças"),
- ("gemeosBakororodoge.txt","GBAK","Gêmeos Bakororodoge"),
+ ("aijedoge.txt","AIJ","Aijedoge",None),
+ ("barujauwo.txt","BARU","Barujauwo",None),
+ ("primeirasAndanca.txt","PAND","Primeiras Andanças",None),
+ ("gemeosBakororodoge.txt","GBAK","Gêmeos Bakororodoge",None),
+ ("butoriku.txt","BUT","Parijura mata o monstro Butoriku",30),
 ]
 FIELDS=["id","document","source_file","source_number","section","source","reviewed","portuguese","editorial_note"]
 
@@ -22,7 +23,7 @@ def heading(s):
  return bool(s and not numbered(s) and len(s)<180 and re.search(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ]",s)
              and s.upper()==s and not re.search(r"[.!?]$",s))
 
-def parse(path,key,title):
+def parse(path,key,title,max_source_number=None):
  lines=path.read_text(encoding="utf-8-sig").replace("\r\n","\n").replace("\r","\n").splitlines()
  rows=[]; section=""; i=0
  while i<len(lines):
@@ -32,6 +33,10 @@ def parse(path,key,title):
   a=numbered(s)
   if not a: i+=1; continue
   n,bor=a; i+=1
+  # Optional documentary cutoff: useful when a source file continues with
+  # material that overlaps another witness and must not be duplicated.
+  if max_source_number is not None and int(n) > max_source_number:
+   break
   # Collect the Bororo block until the same source number reappears.
   # In these witnesses the Portuguese translation may follow after one or
   # more continuation lines rather than being immediately adjacent.
@@ -69,10 +74,10 @@ def main():
  base=Path(sys.argv[1]).expanduser().resolve()
  if not base.is_dir(): raise SystemExit(f"Diretório não encontrado: {base}")
  allrows=[]
- for fn,key,title in SPECS:
+ for fn,key,title,max_source_number in SPECS:
   p=base/fn
   if not p.exists(): raise SystemExit(f"Arquivo obrigatório não encontrado: {p}")
-  rows=parse(p,key,title)
+  rows=parse(p,key,title,max_source_number=max_source_number)
   if not rows: raise SystemExit(f"Nenhuma unidade numerada encontrada em {fn}")
   print(f"{fn}: {len(rows)} unidades")
   allrows.extend(rows)
