@@ -42,7 +42,10 @@ for r in wr:
    if ratio<0.65 or ratio>1.55: continue
    score=SequenceMatcher(None,n,t,autojunk=False).ratio()
    if score>best[0]: best=(score,i,field)
- if best[0]>=0.90:
+ # In highly formulaic passages, ~0.90 can match the wrong named participant.
+ # Require near-identity for automatic candidate surfacing; lower scores remain
+ # unmatched for later structure/name-aware collation.
+ if best[0]>=0.99:
   r["collation_status"]="candidate"
   r["corbo_match_id"]=best[1]
   r["editorial_note"]=(r["editorial_note"]+" " if r["editorial_note"] else "")+f"High-similarity candidate ({best[0]:.3f}); requires human confirmation."
@@ -53,4 +56,4 @@ for r in wr:
 with W.open("w",encoding="utf-8",newline="") as f:
  w=csv.DictWriter(f,fieldnames=wr[0].keys(),delimiter="\t",lineterminator="\n");w.writeheader();w.writerows(wr)
 print("Matching concluído:",counts)
-print("Somente exact é correspondência automática; candidate exige revisão humana.")
+print("Somente exact é correspondência automática; candidate (>=0.99) exige revisão humana.")
