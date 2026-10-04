@@ -51,7 +51,7 @@ def read_rows(c):
   return out
  return rows
 def write_rows(c,rows,fields=None):
- p=FILES[c];tmp=p.with_suffix('.tsv.tmp');fields=fields or [k for k in rows[0].keys() if k is not None and not (c=='archive-parallel' and k=='id')]
+ p=FILES[c];tmp=p.with_suffix('.tsv.tmp');fields=fields or [k for k in rows[0].keys() if k is not None and not (c=='archive-parallel' and k in {'id','match_corbo_text','match_corbo_portuguese','match_corbo_similarity'})]
  clean=[{k:r.get(k,'') for k in fields} for r in rows]
  with tmp.open('w',encoding='utf-8',newline='') as f:
   w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(clean)
