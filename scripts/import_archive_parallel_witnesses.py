@@ -94,7 +94,7 @@ def parse(path,key,title):
   rows=[r for r in rows if not r["source"].startswith("COMENTÁRIO De COQUEIRO")]
  if path.name=="ciriloDiscurso.txt":
   raw=path.read_text(encoding="utf-8-sig").replace("\\r\\n","\\n").replace("\\r","\\n")
-  m=re.search(r"(?s)Lenda colocada.*?\\n\\n(.+?)\\n\\n1\\.\\s*(.+?)\\n\\n2\\.",raw)
+  m=re.search(r"(?s)(Pao rakojere oino woje\\..+?)\\n\\s*1\\.\\s*(.+?)\\n\\s*2\\.",raw)
   if m and rows:
    rows[0]["source"]=m.group(1).strip(); rows[0]["portuguese"]=m.group(2).strip(); rows[0]["editorial_note"]="Initial unnumbered Bororo block aligned with the following Portuguese unit 1."
   for r in rows:
