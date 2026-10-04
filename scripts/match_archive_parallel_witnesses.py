@@ -201,3 +201,54 @@ for wid,doc,best in rare_diag:
  print("\n### ANCHOR",wid,"|",doc)
  for score,n,tid,shared in best:
   print("=>",tid,f"[peso={score:.3f}; âncoras={n}]","; ".join(f"{t}(df={df[t]})" for t in shared[:12]))
+
+
+# WINDOW DIAGNOSTIC: 2-5 consecutive unresolved witness units -> one CorBo unit.
+# Useful when archival segmentation is finer than the existing collation.
+# Diagnostic only: no TSV fields or statuses are changed.
+target_variants={}
+for rr in cr:
+ vv=[]
+ for field in ("witness_a","witness_b","reviewed"):
+  n=norm(rr.get(field,""))
+  if n:vv.append((field,n))
+ target_variants[rr["id"]]=vv
+
+window_diag=[]
+for doc,items in by_doc.items():
+ for start in range(len(items)):
+  if items[start][1].get("collation_status")!="unmatched":continue
+  parts=[]
+  for end in range(start,min(len(items),start+5)):
+   rr=items[end][1]
+   if rr.get("collation_status")!="unmatched":break
+   parts.append(rr.get("source",""))
+   if len(parts)<2:continue
+   joined=norm(" ".join(parts))
+   if not joined:continue
+   best=(0.0,None,None)
+   for tid,vv in target_variants.items():
+    for field,t in vv:
+     ratio=len(joined)/len(t)
+     if ratio<0.60 or ratio>1.65:continue
+     s=SequenceMatcher(None,joined,t,autojunk=False).ratio()
+     if s>best[0]:best=(s,tid,field)
+   # Compare against the strongest individual unit -> same target.
+   indiv=0.0
+   if best[1]:
+    vv=target_variants[best[1]]
+    for p in parts:
+     pn=norm(p)
+     for _,t in vv:
+      if pn and t:indiv=max(indiv,SequenceMatcher(None,pn,t,autojunk=False).ratio())
+   gain=best[0]-indiv
+   # High combined similarity plus meaningful gain indicates segmentation mismatch.
+   if best[0]>=0.82 and gain>=0.08:
+    ids=[items[p][1]["witness_id"] for p in range(start,end+1)]
+    window_diag.append((best[0],gain,doc,ids,best[1],best[2]))
+
+# Keep strongest non-identical proposals first; report only a manageable review set.
+window_diag.sort(reverse=True)
+print("\nJanelas testemunhais fortes (2-5 -> 1 CorBo):",len(window_diag))
+for score,gain,doc,ids,tid,field in window_diag[:80]:
+ print(f"{ids[0]}–{ids[-1]} => {tid} [sim={score:.3f}; ganho={gain:.3f}; {field}] | {doc}")
