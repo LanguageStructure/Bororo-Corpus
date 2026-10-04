@@ -23,13 +23,23 @@ def heading(s):
  return bool(s and not numbered(s) and len(s)<180 and re.search(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ]",s)
              and s.upper()==s and not re.search(r"[.!?]$",s))
 
+def numbered_heading(s):
+ # Section headings may themselves be numbered, e.g.
+ # "1.PARIJURA MATA O MONSTRO..." or "2.AROGIAREUDO E SEU FILHO JURE".
+ m=re.match(r"^\s*\d{1,3}\s*[.)]\s*(.+?)\s*$",s)
+ if not m: return False
+ body=m.group(1)
+ return bool(len(body)<180 and re.search(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ]",body)
+             and body.upper()==body and not re.search(r"[.!?]$",body))
+
 def parse(path,key,title,max_source_number=None):
  lines=path.read_text(encoding="utf-8-sig").replace("\r\n","\n").replace("\r","\n").splitlines()
  rows=[]; section=""; i=0
  while i<len(lines):
   s=lines[i].strip()
   if not s: i+=1; continue
-  if heading(s): section=s; i+=1; continue
+  if numbered_heading(s) or heading(s):
+   section=s; i+=1; continue
   a=numbered(s)
   if not a: i+=1; continue
   n,bor=a; i+=1
