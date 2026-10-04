@@ -94,9 +94,17 @@ def parse(path,key,title):
   rows=[r for r in rows if not r["source"].startswith("COMENTÁRIO De COQUEIRO")]
  if path.name=="ciriloDiscurso.txt":
   raw=path.read_text(encoding="utf-8-sig").replace("\\r\\n","\\n").replace("\\r","\\n")
-  m=re.search(r"(?s)(Pao rakojere oino woje\\..+?)\\n\\s*1\\.\\s*(.+?)\\n\\s*2\\.",raw)
-  if m and rows:
-   rows[0]["source"]=m.group(1).strip(); rows[0]["portuguese"]=m.group(2).strip(); rows[0]["editorial_note"]="Initial unnumbered Bororo block aligned with the following Portuguese unit 1."
+  # Recover unit 1 from line structure: Bororo is the block beginning
+  # with "Pao rakojere..." immediately before the numbered Portuguese 1.
+  ls=raw.splitlines()
+  b0=next((i for i,s in enumerate(ls) if s.strip().startswith("Pao rakojere oino woje.")),None)
+  n1=next((i for i,s in enumerate(ls) if b0 is not None and i>b0 and re.match(r"^\\s*1\\.\\s+",s)),None)
+  n2=next((i for i,s in enumerate(ls) if n1 is not None and i>n1 and re.match(r"^\\s*2\\.",s)),None)
+  if b0 is not None and n1 is not None and n2 is not None and rows:
+   rows[0]["source"]="\\n".join(s.strip() for s in ls[b0:n1] if s.strip()).strip()
+   first=re.sub(r"^\\s*1\\.\\s*","",ls[n1]).strip()
+   rows[0]["portuguese"]="\\n".join([first]+[s.strip() for s in ls[n1+1:n2] if s.strip()]).strip()
+   rows[0]["editorial_note"]="Initial unnumbered Bororo block aligned with the following Portuguese unit 1."
   for r in rows:
    marker="\\nEntão ele colocou uma madeira"
    if r["source_number"]=="2" and not r["portuguese"] and marker in r["source"]:
