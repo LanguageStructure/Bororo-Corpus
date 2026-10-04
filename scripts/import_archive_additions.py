@@ -32,16 +32,34 @@ def parse(path,key,title):
   a=numbered(s)
   if not a: i+=1; continue
   n,bor=a; i+=1
-  # Only identical adjacent numbering licenses an automatic translation pairing.
-  j=i
-  while j<len(lines) and not lines[j].strip(): j+=1
-  por=""
-  if j<len(lines):
-   b=numbered(lines[j].strip())
-   if b and b[0]==n:
-    por=b[1]; i=j+1
+  # Collect the Bororo block until the same source number reappears.
+  # In these witnesses the Portuguese translation may follow after one or
+  # more continuation lines rather than being immediately adjacent.
+  bor_lines=[bor] if bor else []
+  por_lines=[]; j=i; paired=False
+  while j<len(lines):
+   t=lines[j].strip()
+   if not t: j+=1; continue
+   b=numbered(t)
+   if b:
+    if b[0]==n:
+     por_lines=[b[1]] if b[1] else []
+     j+=1; paired=True
+     # Translation continuation ends at the next numbered unit/heading.
+     while j<len(lines):
+      u=lines[j].strip()
+      if not u: j+=1; continue
+      if numbered(u) or heading(u): break
+      por_lines.append(u); j+=1
+     i=j
+    break
+   if heading(t): break
+   bor_lines.append(t); j+=1
+  if not paired:
+   i=j
   rows.append({"id":f"{key}.{len(rows)+1:03d}","document":title,"source_file":path.name,
-               "source_number":n,"section":section,"source":bor,"reviewed":"","portuguese":por,
+               "source_number":n,"section":section,"source":"\\n".join(bor_lines).strip(),
+               "reviewed":"","portuguese":"\\n".join(por_lines).strip(),
                "editorial_note":""})
  return rows
 
@@ -62,6 +80,6 @@ def main():
  with OUT.open("w",encoding="utf-8",newline="") as f:
   w=csv.DictWriter(f,fieldnames=FIELDS,delimiter="\t",lineterminator="\n"); w.writeheader(); w.writerows(allrows)
  print(f"OK: {len(allrows)} unidades -> {OUT.relative_to(ROOT)}")
- print("As fontes permanecem inalteradas; alinhamentos só foram criados para numeração adjacente idêntica.")
+ print("As fontes permanecem inalteradas; alinhamentos foram criados somente quando o mesmo número reaparece como tradução; continuações são preservadas.")
 
 if __name__=="__main__": main()
