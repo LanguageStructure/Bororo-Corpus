@@ -78,3 +78,32 @@ for r in unresolved:
 print("Unmatched com candidato >=0.60:",len(diag))
 for wid,doc,best in diag:
  print(wid,"|",doc,"|",best)
+
+
+# Sequence-anchor diagnostic. Strong matches define ordered anchors; unresolved
+# units are proposed only when they fall between two anchors whose target IDs
+# preserve the same one-to-one offset. Nothing is written automatically.
+def uid_num(s):
+ m=re.search(r"-u(\\d+)$",s or "")
+ return int(m.group(1)) if m else None
+
+by_doc={}
+for idx,r in enumerate(wr):
+ by_doc.setdefault(r["document"],[]).append((idx,r))
+seq=[]
+for doc,items in by_doc.items():
+ anchors=[]
+ for pos,(global_i,r) in enumerate(items):
+  if r["collation_status"] in ("exact","candidate") and ";" not in r["corbo_match_id"]:
+   u=uid_num(r["corbo_match_id"])
+   if u is not None: anchors.append((pos,u,r["witness_id"]))
+ for (p1,u1,w1),(p2,u2,w2) in zip(anchors,anchors[1:]):
+  gap=p2-p1
+  if gap<=1 or u2-u1!=gap: continue
+  for p in range(p1+1,p2):
+   rr=items[p][1]
+   if rr["collation_status"]=="unmatched":
+    seq.append((rr["witness_id"],f"BOR-CORBO-HM001-u{u1+(p-p1):03d}",w1,w2))
+print("Propostas por sequência entre âncoras:",len(seq))
+for wid,target,left,right in seq:
+ print(wid,"=>",target,"| anchors",left,right)
