@@ -1,0 +1,19 @@
+source_file	status	corbo_destination	scope	note
+aijedoge.txt	imported_staging	CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv	all	Imported as AIJ editorial units; source text preserved.
+barujauwo.txt	imported_staging	CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv	all	Imported as BARU editorial units; source text preserved.
+primeirasAndanca.txt	imported_staging	CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv	all	Imported as PAND editorial units; documented source-number anomaly 10→0 preserved in editorial note.
+gemeosBakororodoge.txt	imported_staging	CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv	all	Imported as GBAK editorial units; documented source-number anomaly 10→9 preserved in editorial note.
+butoriku.txt	partial_import_staging	CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv	units 1-30	Parijura/Butoriku narrative imported as BUT; unit 18 translation is numbered 19 in source. Unit 31 onward overlaps Primeiras Andanças and is not re-imported.
+PemoBaraedugume.txt	imported_staging	CorBo_vNext/texts/pemo-baraedugume/pemo_baraedugume_editorial.tsv	all	Imported as PB documentary/editorial units.
+PemoCoqueiro.txt	imported_staging	CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv	all	Imported as documentary/editorial units; automatic alignment restricted to adjacent matching source numbers.
+facanhaBakororogode.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Substantial overlap with historia_mitica_bor.txt; retain for future collation, do not count as independent corpus units.
+bakororodoge.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Sections 1-5 overlap Historia Mitica; sections 6-9 also overlap mythological/ritual material including aroe_etawujedu.txt.
+aroeeceba.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Corresponds to Historia Mitica; distinctive Kamarari/Aroeceba sequence already represented.
+aruaBororo.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Arua Bororo/Pemo material already represented in Historia Mitica.
+aruaBororoII.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Overlaps Historia Mitica and ritual material, especially aroe_etawujedu.txt.
+AijeFuneral.txt	parallel_witness	CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv	all	Aije Funeral already represented in Bakarudoge documentary material; retain for collation.
+ipareEwororo.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Strong overlap with Historia Mitica and ritual materials; retain as witness.
+jakomeaJiwu.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Strong overlap with Historia Mitica/Adugo Biri/ritual materials; retain as witness.
+ciriloDiscurso.txt	parallel_witness	CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv	all	Cirilo witness already identified in Historia Mitica collation.
+bbbbbbbbbbbb.txt	duplicate	ciriloDiscurso.txt	all	Essentially duplicate of ciriloDiscurso.txt; do not import independently.
+Jaki_e_jure.txt	compilation	multiple existing witnesses	all	Large compilation overlapping component myths; preserve as documentary master/witness, do not import wholesale.
