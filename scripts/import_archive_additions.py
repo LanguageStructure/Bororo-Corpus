@@ -97,6 +97,18 @@ def parse(path,key,title,max_source_number=None):
     x["editorial_note"]="Portuguese translation is numbered 19 in the source; aligned here with Bororo source number 18 by documentary continuity."
     rows.pop(idx+1)
     break
+ if path.name=="primeirasAndanca.txt":
+  # In section 5 the Bororo block is numbered 10, while its Portuguese
+  # translation is printed as 0 in the documentary source.
+  for idx,x in enumerate(rows[:-1]):
+   y=rows[idx+1]
+   if ("BAKURE ENOGWARI" in x["section"]
+       and x["source_number"]=="10" and y["source_number"]=="0"
+       and not x["portuguese"] and not y["portuguese"]):
+    x["portuguese"]=y["source"]
+    x["editorial_note"]="Portuguese translation is numbered 0 in the source; aligned here with the preceding Bororo source number 10."
+    rows.pop(idx+1)
+    break
  if path.name=="gemeosBakororodoge.txt":
   # In section 4 the Bororo block is numbered 10, while its Portuguese
   # translation is misnumbered 9; a second genuine 10/10 pair follows.
