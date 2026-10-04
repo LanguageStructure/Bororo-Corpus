@@ -57,3 +57,24 @@ with W.open("w",encoding="utf-8",newline="") as f:
  w=csv.DictWriter(f,fieldnames=wr[0].keys(),delimiter="\t",lineterminator="\n");w.writeheader();w.writerows(wr)
 print("Matching concluído:",counts)
 print("Somente exact é correspondência automática; candidate (>=0.99) exige revisão humana.")
+
+
+# Diagnostic only: inspect unresolved witnesses using their nearest textual candidates.
+# This does not write or promote any additional match.
+unresolved=[r for r in wr if r["collation_status"]=="unmatched"]
+diag=[]
+for r in unresolved:
+ n=norm(r["source"])
+ best=[]
+ if n:
+  for t,i,field in targets:
+   ratio=len(n)/len(t)
+   if ratio<0.45 or ratio>2.20: continue
+   score=SequenceMatcher(None,n,t,autojunk=False).ratio()
+   if score>=0.60: best.append((score,i,field))
+ best=sorted(best,reverse=True)[:3]
+ if best:
+  diag.append((r["witness_id"],r["document"],[(round(s,3),i,f) for s,i,f in best]))
+print("Unmatched com candidato >=0.60:",len(diag))
+for wid,doc,best in diag:
+ print(wid,"|",doc,"|",best)
