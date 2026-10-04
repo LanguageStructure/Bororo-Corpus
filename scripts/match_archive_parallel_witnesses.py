@@ -287,3 +287,42 @@ for weight,nu,nr,r,tid,shared in strong_anchor[:60]:
  print("CORBO   :",besttext.replace("\n"," "))
  print("PT ARQ. :",r.get("portuguese","").replace("\n"," "))
  print("PT CORBO:",target.get("portuguese","").replace("\n"," "))
+
+
+# COMPONENT DIAGNOSTIC: finer archival unit potentially represented inside a broader CorBo unit.
+# Requires lexical containment plus distinctive anchors. Diagnostic only.
+component_diag=[]
+for r in wr:
+ if r.get("collation_status")!="unmatched":continue
+ src_tokens=toks(r.get("source",""))
+ src_set=set(src_tokens)
+ if len(src_set)<3:continue
+ for tid,target_set in target_docs.items():
+  shared=src_set & target_set
+  if not shared:continue
+  unique=[t for t in shared if df[t]==1]
+  rare=[t for t in shared if df[t]<=3]
+  coverage=len(shared)/len(src_set)
+  # A component should have substantial lexical containment and distinctive evidence.
+  if coverage<0.32:continue
+  if not (len(unique)>=1 or len(rare)>=2):continue
+  # Prefer targets materially broader than the archival unit.
+  variants=target_variants.get(tid,[])
+  if not variants:continue
+  bestfield,besttext=max(variants,key=lambda fv:len(set(toks(fv[1])) & src_set))
+  target_len=len(set(toks(besttext)))
+  if target_len < len(src_set)*0.85:continue
+  score=coverage + 0.18*len(unique) + 0.07*len(rare)
+  component_diag.append((score,coverage,len(unique),len(rare),r,tid,bestfield,besttext,shared))
+component_diag.sort(key=lambda x:(x[0],x[1],x[2],x[3]),reverse=True)
+print("\nPossíveis componentes de unidades CorBo:",len(component_diag))
+for score,cov,nu,nr,r,tid,field,besttext,shared in component_diag[:80]:
+ target=by_id.get(tid,{})
+ anchors=sorted(shared,key=lambda t:(df[t],-len(t),t))
+ print("\n### COMPONENT?",r["witness_id"],"=>",tid,f"[score={score:.3f}; cobertura={cov:.2%}; únicos={nu}; raros={nr}; {field}]")
+ print("DOCUMENTO:",r.get("document",""),"| SEÇÃO:",r.get("section",""))
+ print("ÂNCORAS :","; ".join(f"{t}(df={df[t]})" for t in anchors[:16]))
+ print("ARQUIVO :",r.get("source","").replace("\n"," "))
+ print("CORBO   :",besttext.replace("\n"," "))
+ print("PT ARQ. :",r.get("portuguese","").replace("\n"," "))
+ print("PT CORBO:",target.get("portuguese","").replace("\n"," "))
