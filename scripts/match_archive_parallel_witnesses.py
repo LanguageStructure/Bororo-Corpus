@@ -135,3 +135,24 @@ for r in candidates:
  print("ARQUIVO :",source.replace("\n"," "))
  print("CORBO   :",target_text.replace("\n"," "))
  print("PORTUGUÊS:",r.get("portuguese","").replace("\n"," "))
+
+
+# REVIEW REPORT: exact normalized matches, for optional human audit.
+# These are already automatic matches; this report lets the editor/reviewer
+# verify witness identity and named participants before promoting to confirmed.
+exacts=[r for r in wr if r.get("collation_status")=="exact"]
+print("\nExact para auditoria humana:",len(exacts))
+for r in exacts:
+ ids=[i.strip() for i in r.get("corbo_match_id","").split(";") if i.strip()]
+ for target_id in ids:
+  target=by_id.get(target_id,{})
+  source=r.get("source","")
+  variants=[("witness_a",target.get("witness_a","")),("witness_b",target.get("witness_b","")),("reviewed",target.get("reviewed",""))]
+  scored=[(SequenceMatcher(None,norm(source),norm(v),autojunk=False).ratio(),field,v) for field,v in variants if norm(v)]
+  scored.sort(reverse=True)
+  score,field,target_text=scored[0] if scored else (0.0,"","")
+  print("\n### EXACT",r["witness_id"],"=>",target_id,f"[{score:.3f}; {field}]")
+  print("DOCUMENTO:",r.get("document",""),"| SEÇÃO:",r.get("section",""))
+  print("ARQUIVO :",source.replace("\n"," "))
+  print("CORBO   :",target_text.replace("\n"," "))
+  print("PORTUGUÊS:",r.get("portuguese","").replace("\n"," "))
