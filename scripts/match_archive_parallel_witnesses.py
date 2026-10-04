@@ -116,3 +116,22 @@ for doc,items in by_doc.items():
 print("Propostas por sequência entre âncoras:",len(seq))
 for wid,target,left,right in seq:
  print(wid,"=>",target,"| anchors",left,right)
+
+
+# REVIEW REPORT: human-readable context for near-identical candidates.
+# Diagnostic only; it does not change collation status.
+by_id={r["id"]:r for r in cr}
+candidates=[r for r in wr if r.get("collation_status")=="candidate"]
+print("Candidatos para revisão humana:",len(candidates))
+for r in candidates:
+ target=by_id.get(r.get("corbo_match_id",""),{})
+ source=r.get("source","")
+ variants=[("witness_a",target.get("witness_a","")),("witness_b",target.get("witness_b","")),("reviewed",target.get("reviewed",""))]
+ scored=[(SequenceMatcher(None,norm(source),norm(v),autojunk=False).ratio(),field,v) for field,v in variants if norm(v)]
+ scored.sort(reverse=True)
+ score,field,target_text=scored[0] if scored else (0.0,"","")
+ print("\n###",r["witness_id"],"=>",r.get("corbo_match_id",""),f"[{score:.3f}; {field}]")
+ print("DOCUMENTO:",r.get("document",""),"| SEÇÃO:",r.get("section",""))
+ print("ARQUIVO :",source.replace("\n"," "))
+ print("CORBO   :",target_text.replace("\n"," "))
+ print("PORTUGUÊS:",r.get("portuguese","").replace("\n"," "))
