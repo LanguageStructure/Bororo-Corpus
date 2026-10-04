@@ -68,6 +68,40 @@ def parse(path,key,title):
    "portuguese":"\\n".join(por_lines).strip(),"collation_status":"unmatched",
    "corbo_match_id":"","editorial_note":""
   })
+ # Repairs for documentary layouts verified against the source files.
+ if path.name=="facanhaBakororogode.txt":
+  for r in rows:
+   marker="\\nEntão o pai deles fez."
+   if r["source_number"]=="3" and not r["portuguese"] and marker in r["source"]:
+    r["source"],tail=r["source"].split(marker,1)
+    r["portuguese"]="Então o pai deles fez."+tail
+    r["editorial_note"]="Portuguese translation follows Bororo without a repeated number."
+  rows=[r for r in rows if "O PAI FABRICA-LHES" not in r["source"]]
+ if path.name=="bakororodoge.txt":
+  for i in range(len(rows)-1):
+   if rows[i]["source_number"]=="44" and rows[i+1]["source_number"]=="44" and not rows[i]["portuguese"]:
+    rows[i]["portuguese"]=rows[i+1]["source"]; rows[i]["editorial_note"]="Portuguese translation is printed as a second unit 44."; rows.pop(i+1); break
+  idx=[i for i,r in enumerate(rows) if "CANTO SOBRE OS BAKORORODOGE" in r["section"]]
+  if len(idx)>=8:
+   block=[rows[i] for i in idx]
+   if [r["source_number"] for r in block[:8]]==["51","1","2","3","51","1","2","3"]:
+    for a,b in zip(block[:4],block[4:8]):
+     a["portuguese"]=b["source"]; a["editorial_note"]="Portuguese translation occurs in the second numbered sequence of the song."
+    drop_ids={id(r) for r in block[4:8]}; rows=[r for r in rows if id(r) not in drop_ids]
+ if path.name=="ipareEwororo.txt":
+  rows=[r for r in rows if r["source"].strip()!="REPRESENTAÇÕES DOS ECERAE (Ecerae eimamomo)"]
+ if path.name=="jakomeaJiwu.txt":
+  rows=[r for r in rows if not r["source"].startswith("COMENTÁRIO De COQUEIRO")]
+ if path.name=="ciriloDiscurso.txt":
+  raw=path.read_text(encoding="utf-8-sig").replace("\\r\\n","\\n").replace("\\r","\\n")
+  m=re.search(r"(?s)Lenda colocada.*?\\n\\n(.+?)\\n\\n1\\.\\s*(.+?)\\n\\n2\\.",raw)
+  if m and rows:
+   rows[0]["source"]=m.group(1).strip(); rows[0]["portuguese"]=m.group(2).strip(); rows[0]["editorial_note"]="Initial unnumbered Bororo block aligned with the following Portuguese unit 1."
+  for r in rows:
+   marker="\\nEntão ele colocou uma madeira"
+   if r["source_number"]=="2" and not r["portuguese"] and marker in r["source"]:
+    r["source"],tail=r["source"].split(marker,1); r["portuguese"]="Então ele colocou uma madeira"+tail; r["editorial_note"]="Portuguese translation follows Bororo without a repeated number."
+ for i,r in enumerate(rows,1): r["witness_id"]=f"{key}.{i:03d}"
  return rows
 
 def main():
