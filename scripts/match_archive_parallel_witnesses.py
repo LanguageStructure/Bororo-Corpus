@@ -252,3 +252,38 @@ window_diag.sort(reverse=True)
 print("\nJanelas testemunhais fortes (2-5 -> 1 CorBo):",len(window_diag))
 for score,gain,doc,ids,tid,field in window_diag[:80]:
  print(f"{ids[0]}–{ids[-1]} => {tid} [sim={score:.3f}; ganho={gain:.3f}; {field}] | {doc}")
+
+
+# STRONG-ANCHOR REVIEW: full side-by-side text for unusually distinctive anchors.
+# Conservative review surface only; never changes matches.
+strong_anchor=[]
+for r in wr:
+ if r.get("collation_status")!="unmatched":continue
+ st=set(toks(r.get("source","")))
+ cand=defaultdict(list)
+ for t in st:
+  if t in inv:
+   for tid in inv[t]:cand[tid].append(t)
+ for tid,shared in cand.items():
+  unique=[t for t in shared if df[t]==1]
+  rare=[t for t in shared if df[t]<=3]
+  # Strong means >=2 corpus-unique anchors, or >=3 rare anchors with one unique.
+  if len(unique)>=2 or (len(rare)>=3 and len(unique)>=1):
+   weight=sum(1.0/df[t] for t in shared)
+   strong_anchor.append((weight,len(unique),len(rare),r,tid,shared))
+strong_anchor.sort(key=lambda x:(x[0],x[1],x[2]),reverse=True)
+print("\nCandidatos fortes por âncora para revisão:",len(strong_anchor))
+for weight,nu,nr,r,tid,shared in strong_anchor[:60]:
+ target=by_id.get(tid,{})
+ variants=[("witness_a",target.get("witness_a","")),("witness_b",target.get("witness_b","")),("reviewed",target.get("reviewed",""))]
+ variants=[(field,v) for field,v in variants if norm(v)]
+ # Show the target variant with greatest lexical overlap, not necessarily edit similarity.
+ bestfield,besttext=max(variants,key=lambda fv:len(set(toks(fv[1])) & set(toks(r.get("source",""))))) if variants else ("","")
+ anchors=sorted(shared,key=lambda t:(df[t],-len(t),t))
+ print("\n### STRONG",r["witness_id"],"=>",tid,f"[peso={weight:.3f}; únicos={nu}; raros={nr}; {bestfield}]")
+ print("DOCUMENTO:",r.get("document",""),"| SEÇÃO:",r.get("section",""))
+ print("ÂNCORAS :","; ".join(f"{t}(df={df[t]})" for t in anchors))
+ print("ARQUIVO :",r.get("source","").replace("\n"," "))
+ print("CORBO   :",besttext.replace("\n"," "))
+ print("PT ARQ. :",r.get("portuguese","").replace("\n"," "))
+ print("PT CORBO:",target.get("portuguese","").replace("\n"," "))
