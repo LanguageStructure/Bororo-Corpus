@@ -156,3 +156,48 @@ for r in exacts:
   print("ARQUIVO :",source.replace("\n"," "))
   print("CORBO   :",target_text.replace("\n"," "))
   print("PORTUGUÊS:",r.get("portuguese","").replace("\n"," "))
+
+
+# RARE-ANCHOR DIAGNOSTIC: unresolved units sharing distinctive lexical material.
+# Candidate generation only. It never writes a match or changes a status.
+from collections import Counter,defaultdict
+def toks(s):
+ return [x for x in norm(s).split() if len(x)>=4]
+
+target_docs={}
+df=Counter()
+for rr in cr:
+ bag=set()
+ for field in ("witness_a","witness_b","reviewed"):
+  bag.update(toks(rr.get(field,"")))
+ target_docs[rr["id"]]=bag
+ for t in bag:df[t]+=1
+
+inv=defaultdict(set)
+for tid,bag in target_docs.items():
+ for t in bag:
+  if df[t]<=6:inv[t].add(tid)
+
+rare_diag=[]
+for r in wr:
+ if r.get("collation_status")!="unmatched":continue
+ st=set(toks(r.get("source","")))
+ rare=sorted((t for t in st if t in inv),key=lambda t:(df[t],-len(t),t))
+ cand=defaultdict(list)
+ for t in rare:
+  for tid in inv[t]:cand[tid].append(t)
+ scored=[]
+ for tid,shared in cand.items():
+  # Require at least two rare anchors, or one exceptionally rare long anchor.
+  strong=len(shared)>=2 or any(df[t]==1 and len(t)>=7 for t in shared)
+  if not strong:continue
+  overlap=sum(1.0/df[t] for t in shared)
+  scored.append((overlap,len(shared),tid,sorted(shared,key=lambda t:(df[t],-len(t),t))))
+ scored.sort(reverse=True)
+ if scored:
+  rare_diag.append((r["witness_id"],r.get("document",""),scored[:3]))
+print("\nUnmatched com âncoras lexicais raras:",len(rare_diag))
+for wid,doc,best in rare_diag:
+ print("\n### ANCHOR",wid,"|",doc)
+ for score,n,tid,shared in best:
+  print("=>",tid,f"[peso={score:.3f}; âncoras={n}]","; ".join(f"{t}(df={df[t]})" for t in shared[:12]))
