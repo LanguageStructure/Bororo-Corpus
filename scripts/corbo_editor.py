@@ -159,6 +159,7 @@ class Handler(BaseHTTPRequestHandler):
   if p=='/api/replace':
    try:
     c=self.corpus()
+    if c=='archive-parallel':raise ValueError('Substituição em massa desativada para testemunhos paralelos documentais; edite apenas o status da colação e o ID correspondente')
     if c not in FILES:raise ValueError('Substituição em massa ainda não está disponível para esta coleção')
     n=int(self.headers.get('Content-Length','0'));body=json.loads(self.rfile.read(n))
     find=str(body.get('find',''));replacement=str(body.get('replace',''));field=str(body.get('field','__all__'));apply=bool(body.get('apply',False));offset=max(0,int(body.get('offset',0)));limit=min(50,max(1,int(body.get('limit',50))))
