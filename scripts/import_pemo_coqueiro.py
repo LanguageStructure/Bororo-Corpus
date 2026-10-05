@@ -33,10 +33,13 @@ def main():
     # Documentary repair pass. Some translations in this witness carry the same
     # source number as the Bororo unit and were therefore parsed as a second unit.
     # Merge only rows whose second member is overtly Portuguese.
-    pt_starts=re.compile(
-        r"^(?:O nosso|Disse:|Eles diziam|As mulheres|Eles perguntaram|Depois \\(|Então ela|"
-        r"Eis que|O que |Aí |Ao |Logo |Foram |Ele |Ela |Os |As |Você |Eu |Nós )",
-        re.I)
+    pt_prefixes=(
+        "o nosso","disse:","eles diziam","as mulheres","eles perguntaram",
+        "depois (","então ela","eis que","o que ","aí ","ao ","logo ",
+        "foram ","ele ","ela ","os ","as ","você ","eu ","nós "
+    )
+    def overt_portuguese(s):
+        return s.strip().casefold().startswith(pt_prefixes)
     repaired=[]; k=0
     while k<len(rows):
         r=rows[k]
@@ -50,7 +53,7 @@ def main():
             q=rows[k+1]
             same=(q["source_number"]==r["source_number"])
             qsrc=q["source"].strip()
-            if same and not r["portuguese"] and pt_starts.match(qsrc):
+            if same and not r["portuguese"] and overt_portuguese(qsrc):
                 r["portuguese"]=qsrc
                 r["editorial_note"]="Portuguese translation carries the same source number and was merged during documentary import."
                 repaired.append(r); k+=2; continue
