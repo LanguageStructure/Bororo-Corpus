@@ -69,5 +69,9 @@ Resultados humanos já estabelecidos:
 - `PC.224–PC.231` constituem uma segunda versão do mesmo episódio `HM u146–u151`, com segmentação diferente. Em particular, `PC.229–PC.230` expandem material associado ao trecho da rede concentrado na sequência HM, e não devem ser forçados a uma correspondência 1:1 apenas pelo melhor score.
 - Scores globais isolados podem ser enganosos: `PC.185–PC.186` tinham melhores matches lexicais fora desse intervalo, mas o contexto narrativo, a tradução portuguesa e a sequência estabelecem `u147–u148`.
 - Consequentemente, correspondência sequencial, tradução e contexto narrativo prevalecem sobre similaridade textual isolada.
+- `PC.240–PC.242` são um paralelo estrutural de `HM u148–u151`, mas com referentes lexicais distintos (pacas/`apue` e `apueceba` em PC versus o episódio de `cegi/tubore` e `bukerogu` em HM). O trecho é tratado como variante narrativa/formular, não como equivalência unitária 1:1.
+- `PC.252–PC.253` correspondem a `HM u176–u177`.
+- `PC.255–PC.256` correspondem a `HM u140–u141`.
+- `PC.275–PC.276` correspondem a `HM u137–u138`; isso estende para trás a sequência paralela final já ancorada a partir de `PC.276`.
 
 O bloco final a partir de `PC.276` possui uma extensa sequência paralela à História Mítica; a colação dos blocos anteriores continua antes de qualquer promoção de material ao corpus público.
