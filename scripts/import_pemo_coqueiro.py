@@ -46,12 +46,13 @@ def main():
         # Explicit documentary inline translations in the source witness.
         # Source numbers 3–10 have "Bororo – Portuguese" on one numbered line.
         if not r["portuguese"] and r["source_number"] in {str(x) for x in range(3,11)}:
-            marker=" – Eis que "
-            if marker in r["source"]:
-                bor,pt=r["source"].split(marker,1)
-                r["source"]=bor.strip()
-                r["portuguese"]=("Eis que "+pt).strip()
-                r["editorial_note"]="Portuguese translation occurs inline after an en dash in the numbered source unit."
+            for marker,prefix in ((" – Eis que ","Eis que "),(" – Ei que ","Ei que ")):
+                if marker in r["source"]:
+                    bor,pt=r["source"].split(marker,1)
+                    r["source"]=bor.strip()
+                    r["portuguese"]=(prefix+pt).strip()
+                    r["editorial_note"]="Portuguese translation occurs inline after an en dash in the numbered source unit."
+                    break
         # Source number 143 contains the short Bororo prompt followed inline by Portuguese.
         if not r["portuguese"] and r["source_number"]=="143":
             marker=" Então ela disse:"
