@@ -73,5 +73,8 @@ Resultados humanos já estabelecidos:
 - `PC.252–PC.253` correspondem a `HM u176–u177`.
 - `PC.255–PC.256` correspondem a `HM u140–u141`.
 - `PC.275–PC.276` correspondem a `HM u137–u138`; isso estende para trás a sequência paralela final já ancorada a partir de `PC.276`.
+- A revisão retroativa de `PC.257–PC.274` não justifica estender essa equivalência para trás de `PC.275`. `PC.255–PC.262` desenvolvem um episódio de queixadas com arco/flecha, cerco e flechamento; há paralelos formulares com `HM u139–u142`, mas os referentes e a organização narrativa não permitem tratá-lo como duplicata simples.
+- `PC.264–PC.273` contêm distribuição das partes da caça entre Ecerae/Tugarege e matador, enumeração anatômica, preparo e carne que fala durante o cozimento. Os melhores scores HM são fragmentários ou semanticamente divergentes; essas unidades permanecem material documental próprio/unmatched até evidência de testemunho equivalente.
+- Assim, a fronteira segura do grande paralelo final é atualmente `PC.275`; similaridades anteriores são registradas como paralelos formulares, não como correspondências unitárias.
 
 O bloco final a partir de `PC.276` possui uma extensa sequência paralela à História Mítica; a colação dos blocos anteriores continua antes de qualquer promoção de material ao corpus público.
