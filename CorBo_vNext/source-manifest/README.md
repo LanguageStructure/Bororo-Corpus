@@ -57,3 +57,17 @@ Sequence-aware review against História Mítica established that this staging do
 - `PB.045` is the segmentation exception. Its Bororo text occurs within the final portion of `BOR-CORBO-HM001-u044`; it is therefore a human-reviewed component relation, not a correspondence with `HM001-u045`.
 - No Pemo–Baraedugume staging unit is promoted as a new public corpus unit on the basis of this collation.
 - The Portuguese fields around HM units 052–053 show an independent alignment problem: their Bororo corresponds to PB 052–053, while the current HM Portuguese text describes other passages. This must be audited separately and does not invalidate the Bororo witness correspondence.
+
+
+### Pemo — Coqueiro: colação estrutural em andamento
+
+A colação do testemunho `PemoCoqueiro.txt` mostra que ele não deve ser tratado como uma sequência simples de unidades novas. O documento contém material paralelo à História Mítica, repetições internas e segmentação diferente.
+
+Resultados humanos já estabelecidos:
+
+- `PC.184–PC.189` correspondem sequencialmente a `BOR-CORBO-HM001-u146–u151`.
+- `PC.224–PC.231` constituem uma segunda versão do mesmo episódio `HM u146–u151`, com segmentação diferente. Em particular, `PC.229–PC.230` expandem material associado ao trecho da rede concentrado na sequência HM, e não devem ser forçados a uma correspondência 1:1 apenas pelo melhor score.
+- Scores globais isolados podem ser enganosos: `PC.185–PC.186` tinham melhores matches lexicais fora desse intervalo, mas o contexto narrativo, a tradução portuguesa e a sequência estabelecem `u147–u148`.
+- Consequentemente, correspondência sequencial, tradução e contexto narrativo prevalecem sobre similaridade textual isolada.
+
+O bloco final a partir de `PC.276` possui uma extensa sequência paralela à História Mítica; a colação dos blocos anteriores continua antes de qualquer promoção de material ao corpus público.
