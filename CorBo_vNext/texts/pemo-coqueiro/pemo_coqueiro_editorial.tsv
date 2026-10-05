@@ -1,14 +1,14 @@
 id	source_number	section	source	reviewed	portuguese	editorial_note
 PC.001	1	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Barogwa kododure. Pemo koiare ure barogwa kododudo, tuwo pawadaru maku pagai.		Amanheceu. Pemo fez amanhecer para nos ensinar a falar.	
 PC.002	2	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Ure Braedugume akodo oino: - Wo! ... Itugare braedu bokwa ra!		Ele (Pemo) mandou Braedugume falar assim:	
-PC.003	3	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Karaiwa bokwa ra! – Eis que eu não tenho súdito de cabelo vermelho!.			
-PC.004	4	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Karaca bokwa ra! – Eis que eu não tenho súdito de pele morena!			
-PC.005	5	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Makigadu bokwa ra! – Ei que eu não tenho súdito de cabelo branco!			
-PC.006	6	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Ratedu bokwa ra! – Eis que eu não tenho súdito loiro!			
-PC.007	7	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Powaredu bokwa ra! – Eis que eu não tenho súdito branco avermelhado.			
-PC.008	8	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Akurumodu bokwa ra! – Eis que eu não tenho súdito de cabelo enrolado!			
-PC.009	9	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Aoporeguru bokwa ra! – Eis que eu não tenho súdito preto!			
-PC.010	10	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Okakigadu bokwa ra! – Eis que eu não tenho súdito branco!			
+PC.003	3	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Karaiwa bokwa ra!		Eis que eu não tenho súdito de cabelo vermelho!.	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.004	4	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Karaca bokwa ra!		Eis que eu não tenho súdito de pele morena!	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.005	5	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Makigadu bokwa ra!		Ei que eu não tenho súdito de cabelo branco!	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.006	6	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Ratedu bokwa ra!		Eis que eu não tenho súdito loiro!	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.007	7	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Powaredu bokwa ra!		Eis que eu não tenho súdito branco avermelhado.	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.008	8	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Akurumodu bokwa ra!		Eis que eu não tenho súdito de cabelo enrolado!	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.009	9	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Aoporeguru bokwa ra!		Eis que eu não tenho súdito preto!	Portuguese translation occurs inline after an en dash in the numbered source unit.
+PC.010	10	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	– Itugare Okakigadu bokwa ra!		Eis que eu não tenho súdito branco!	Portuguese translation occurs inline after an en dash in the numbered source unit.
 PC.011	11	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare ure Braedugumedo tudugu tuguda. Icare ure udo tudo moto ji pr!		Aí ele fez com que Bradedugume o levantasse e e o jogasse no chão pr!	
 PC.012	12	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukejere, nowu makore iejiwu brae epadure boe kajeje.		Logo apareceram por todo parte aqueles cujos nomes tinha falado.	
 PC.013	13	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Oinore ere tudo!		Eram muitos mesmo!	
@@ -21,8 +21,7 @@ PC.019	19	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukejere, nowu makore 
 PC.020	20	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukodire page ukare tuginoi: pagere mitoto tu pagai paiamedu.		Por tanto, o nosso alimento não era diferente, o nosso alimento era o mesmo para todos nós.	
 PC.021	21	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukejere icare Pemore pawadarudo tuginoi pubiji. Dukejere Pemore pagedo tuginoi pubiji.		Depois Pemo diferenciou as nossas línguas. Depois Pemo diferenciou a nossa comida.	
 PC.022	22	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Pamearudaedo purewure, mare pagogwa kodukare pu okwa kodaji. Mare ure purewure rugadu.		Ele fez o nosso pensamento igual. A nossa língua, porém, ficou diferente. Mas na realidade é igual.	
-PC.023	23	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Pamearudaere purewure rugadu. Paeruduwa jiboere purewure rugadu.			
-PC.024	23	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	O nosso pensamento é igual. O nosso saber é igual.			
+PC.023	23	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Pamearudaere purewure rugadu. Paeruduwa jiboere purewure rugadu.		O nosso pensamento é igual. O nosso saber é igual.	Portuguese translation carries the same source number and was merged during documentary import.
 PC.025	24	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Pagiarigodure jiboere purewure. Pawoadaere purewure. Pamearutorure jiboere purewure.		O que nos causa tristeza é semelhante. Os nossos divertimentos são parecidos. O que acreditamos é semelhante.	
 PC.026	25	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukodire pamearutorure ji paiamedu tabo boere bakuru rema. Dukodire pamearutorure ji paiamedu taboboere bokwaro rema. Kodire pamearutorure ji paiamedu tabo boere baru kujagu rema.		Por isso o que acreditamos é como vento. Por isso o que acreditamos é como nevoeiro. Por isso o que acreditamos é como céu vermelho.	
 PC.027	26	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Mare ure pamearudae pemegarewu maku pagaiwu Pemo rema. Ure paeruduwa maku pagaiboere Pemo rema.		Mas quem nos deu o pensamento bom foi Deus. Quem nos deu a sabedoria foi Deus.	
@@ -175,8 +174,7 @@ PC.173	37	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Barogwa kododo jamedu 
 PC.174	38	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukeje icare boecodure pugeje. Boekare! Barogwa kododure. A! Ocagodure... tagorewoji. Ure tuiebu joru tabo ba oiado, Bororo kae.		Depois anoiteceu e quando amanheceu...Ah Ele assobiou... como de costume. Saiu com o fogo para o meio da aldeia, para o pátio.	
 PC.175	39	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Ure urugo tu je, dukejere icare ia boe aregodure.		Depois que acendeu o fogo, alguém apareceu.	
 PC.176	40	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Nowu aregodure boetojiwure ure iedo Turugudu Pijiwu, akore tuiorugudu pijie aregodure, tugoiwo pigie aregodure, tuge barogo ra, tuge karo ra, tuiorubea paru pijie aregodure, du kodi icare ure iedo Turugudu Pijiwu.		O que chegou primeiro ele o chamou Turugudu Pijiwu (o que vem das suas cinzas) porque falou que vinha das suas cinzas, que vinha do seu cupim, dos ossos de sua caça e de sua pesca, que vinha de sua lenha acessa. Por isso o chamou assim: Turugudu Pijiwu.	
-PC.177	41	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Akore Akaregodure?			
-PC.178	41	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Disse: - Você chegou?			
+PC.177	41	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Akore Akaregodure?		Disse: - Você chegou?	Portuguese translation carries the same source number and was merged during documentary import.
 PC.179	42	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare boecodure pugeje. Icare barogwa kododure, dukeje icare ia boe aregodure pugeje.		Anoiteceu de novo. E, quando amanheceu, chegou um outro Bororo	
 PC.180	43	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	E! ... Barogwa kododo jamedu jire boe etaregodu etaregodure tu tu tu je jii ... je.		Eh! Todas as manhãs sempre alguém chegava e isto durante muito tempo.	
 PC.181	44	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare boe eiamedu boe aregodure, dukejere icare uwarudure pugeje boebo.		Depois que todos os Bororo chegaram, ele se mudou daí com os Bororo.	
@@ -246,8 +244,7 @@ PC.244	107	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Boe enure tuger
 PC.245	108	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare ere tugera bu eidoru kajeje toku toku je. uu! Ewinure tuiegare koia turoi ei duji.		Então eles foram pegando-as pelo pescoço. Sim! Estavam morrendo de alegria enquando lutavam com elas.	
 PC.246	109	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare ere tugera rawuje epiji ca je. Ere cewu apueceba bu oino tu tu tu je. Boekare! Icare ure tuwogwado etai pugeje.		Depois pararam de pegá-las e foram deixando por aí as redes. Aí a rede de pegar pacas também sumiu deles.	
 PC.247	110	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare eturte ebo bato. Icare enogwagere. Mare enogwage pagakare ei.		Foram para a aldeia com as pacas e as comeram. Não as comeram, porém, de qualquer jeito.	
-PC.248	111	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore: Itagi reno (aki = alcatra, rabada)			
-PC.249	111	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Eles diziam (enquanto iam comendo):			
+PC.248	111	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore: Itagi reno (aki = alcatra, rabada)		Eles diziam (enquanto iam comendo):	Portuguese translation carries the same source number and was merged during documentary import.
 PC.250	112	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare egore uu! Awu pagere icare egore oino pai.		Depois disseram: - Sim! Eis que os nossos bichos nos falaram assim.	
 PC.251	113	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare eture pugeje. Ekodo pugeje jiii je. A! Icare eiore iageto pugeje. Awugere icare emaga remawure pugeje.		Depois foram embora de novo. Andaram muito e deram com outros bichos novamente. Mas estes eram muitos.	
 PC.252	114	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Kakodiboe bao? Inoba ureboe bao?		Perguntaram: - O que é isto? Que coisa é isto?	
@@ -279,7 +276,7 @@ PC.277	139	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Tugo tabore, baiga ta
 PC.278	140	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare egore Wo! Kode! Tugo pa? Baiga pa? Paia bito pageje!		Então os homens disseram: - Oh! Então! Onde estão a flecha e o arco? Pudéssemos matá-la para nós.	
 PC.279	141	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukeje icare nowu tugo, baiga, akore Tugo imireo! Baiga imeireo!		Aí a flecha e o arco responderam: - Eu sou a flecha! Eu sou o arco!	
 PC.280	142	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Ere bakuredo ji ta! Icare eidogodure ji. Ere bito.		Eles a cercaram (a anta), a flecharam e a mataram.	
-PC.281	143	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	A! Akore Então ela disse:			
+PC.281	143	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	A! Akore		Então ela disse:	Portuguese translation occurs inline in source number 143.
 PC.282	144	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare boe eture apo. Boe egore Gae gae gae! Tuiegare tabo. Boe etaregodure apo bato, icare boere akagirido. Boere tuku.		Depois os Bororo foram embora com ela, dizendo alegres: Gae gae gae! Chegando na aldeia a cortaram em pedaços. E acabaram.	
 PC.283	145	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Iage eture eregodaji pugeje. Ekodure... ere baado.		Outros bororos foram depois destes. Andaram bastante e depois acamparam.	
 PC.284	146	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare emerure. Icare etaregodure nowu eerudure jiboe kae, nowu tubore etae.		Depois foram caçar e chegaram onde estavam aqueles mesmos que os outros tinham visto; onde estavam os lambaris.	
@@ -297,14 +294,12 @@ PC.295	157	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Ere tuie codo. Ere jo
 PC.296	158	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Oinore egore tuiegare tabo, icai tudui bato duji. E! Ekudu kodu awadunure.		Comentavam muito, alegres por voltar para a aldeia. Os seus gritos se escutavam longe.	
 PC.297	159	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukeje icare areme etaregodure turidu tabo etogi.		Depois as mulheres sairam ao encontro deles para ajudar a carregar.	
 PC.298	160	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore: Woie! Woie! Woie! Tubore woie!		Os homens diziam: - Aqui! Aqui! Aqui! Aqui os lambaris!	
-PC.299	161	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare areme egore pugeje:			
-PC.300	161	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	As mulheres respondiam:			
+PC.299	161	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare areme egore pugeje:		As mulheres respondiam:	Portuguese translation carries the same source number and was merged during documentary import.
 PC.301	162	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare eiore pudo. Icare ere tudugu cewu tuborei ime epiji, tuiegare tabo.		Ao encontrar-se, elas carregavam os peixes recebendo-os dos homens com alegria.	
 PC.302	163	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Etaregodure ebo tu... uu! Oinore egore tuiegare tabo cewu moto tadaboe ji.		Chegando com eles... falavam muito alegres das batatas da terra (que elas tinham preparado).	
 PC.303	164	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Tagaiwodo, ituiemage, imugamage, aredumage: awu tabore cere tubore ewido. Akore bukerogu oinoie ciere. Baarodugodunure! Ire taeruduia. Oinore bukerogure boe joki. Tagado ji: emare tabore cedaregodure oino.		Os homens diziam: - Olhai, minhas tias, minhas mâes, minhas irmãs: foi com esta (rede) que nós matamos os lambaris. Ela disse que se chamava a rede pequena. Era uma coisa admirável. Eu queria que vocês vissem: ela estava aí estendida no chão. Observem-na. Nós a trouxemos aqui.	
 PC.304	165	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Ekodure pugeje jii... Icare eiore kidoguruto.		Foram (caçar) de novo e encontraram a resina.	
-PC.305	166	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Kakodiboe ba?			
-PC.306	166	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Eles perguntaram: - O que é isto? Então (a resina) respondeu; - Eu não sou qualquer coisa. Eu sou a resina. Eu sou enfeite dos Bororo.			
+PC.305	166	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Kakodiboe ba?		Eles perguntaram: - O que é isto? Então (a resina) respondeu; - Eu não sou qualquer coisa. Eu sou a resina. Eu sou enfeite dos Bororo.	Portuguese translation carries the same source number and was merged during documentary import.
 PC.307	167	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukejere icare eregodure kodure tododaiwu tumedage ewogai nowu kidoguru tabo, egore Cedogeadure pagoroeji.		Logo eles foram com a notícia da resina para onde estavam os que tinham ido primeiro e disseram: - Encontramos um enfeite nosso.	
 PC.308	168	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore O! Kaboba pagoroeba?		Eles perguntaram: - Oh! Que classe de enfeite nosso?	
 PC.309	169	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore uu! Boe kodiboe pagoroe karega: pagoroe kidoguru.		Responderam: - Sim! Não é qualquer enfeite. É a resina.	
@@ -326,8 +321,7 @@ PC.324	184	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Tamode tae codo
 PC.325	185	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Egore Tagudu rumode cedabo. Taegaredo cedabo bato.		E disseram também: - Vocês vão gritar conosco no rumoda aldeia. Vão chegar alegres conosco na aldeia.	
 PC.326	187	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare eegarere ebo rugadu. Egore: Kaaao! Kaaao!		Eles estavam de verdade alegres com os peixes. E gritavam: - Kaao! Kaao!	
 PC.327	188	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare areme etaregodure pugeje turidu tabo, ekudugodure jamedu, egore Ba! ba! ba!		Então as mulheres vieram de novo ao encontro, gritando também e dizendo: - Ba! ba! ba!	
-PC.328	189	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukeje egore Woie! Woie! Woie!			
-PC.329	189	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Depois (as mulheres) disseram: - Aqui! Aqui! Aqui!			
+PC.328	189	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukeje egore Woie! Woie! Woie!		Depois (as mulheres) disseram: - Aqui! Aqui! Aqui!	Portuguese translation carries the same source number and was merged during documentary import.
 PC.330	190	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Icare ere etugu. Icare ekodure. Icare ere etawuje.		Depois os puseram a cozinhar. Depois de cozidos os tiraram (da panela).	
 PC.331	191	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Dukejere icare nowu karo kodu makore, akore Tagomeado itabo taedaga ai, tawuri ai, taduie ai, tajarugo ai.		Então a carne do peixe falou dizendo: - Fazeis presente comigo para o vosso padrinho, para o vosso irmão mais velho, para as vossa irmã mais velha, para a vossa madrinha.	
 PC.332	192	HISTÓRIA DE PEMO – COQUEIRO – MERURI, 1974	Akore Awu ikaguru tugu powarito. Akore: tagagomode “powari gaguru” oino ji, meture powari tada kodi. Akore tabowarigaguru reno.		E acrescentou: - Ponham a minha gordura numa cabacinha. Vocês vão chamá-la assim: “gordura da cabacinha”, porque fica dentro da cabacinha. Essa é a vossa gordura da cabacinha.	
