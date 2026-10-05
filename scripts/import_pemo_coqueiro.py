@@ -43,19 +43,23 @@ def main():
     repaired=[]; k=0
     while k<len(rows):
         r=rows[k]
-        # Split two explicit inline-translation patterns found in this witness.
-        if not r["portuguese"]:
-            # e.g. "– Itugare ...! – Eis que ..."
-            mm=re.match(r"^(.*?[.!?])\\s+[–—]\\s+(Eis que\\b.*)$",r["source"],flags=re.I)
-            if mm:
-                r["source"]=mm.group(1).strip()
-                r["portuguese"]=mm.group(2).strip()
-            else:
-                # e.g. "A! Akore Então ela disse:"
-                mm=re.match(r"^(A!\\s*Akore)\\s+(Então ela disse:.*)$",r["source"],flags=re.I)
-                if mm:
-                    r["source"]=mm.group(1).strip()
-                    r["portuguese"]=mm.group(2).strip()
+        # Explicit documentary inline translations in the source witness.
+        # Source numbers 3–10 have "Bororo – Portuguese" on one numbered line.
+        if not r["portuguese"] and r["source_number"] in {str(x) for x in range(3,11)}:
+            marker=" – Eis que "
+            if marker in r["source"]:
+                bor,pt=r["source"].split(marker,1)
+                r["source"]=bor.strip()
+                r["portuguese"]=("Eis que "+pt).strip()
+                r["editorial_note"]="Portuguese translation occurs inline after an en dash in the numbered source unit."
+        # Source number 143 contains the short Bororo prompt followed inline by Portuguese.
+        if not r["portuguese"] and r["source_number"]=="143":
+            marker=" Então ela disse:"
+            if marker in r["source"]:
+                bor,pt=r["source"].split(marker,1)
+                r["source"]=bor.strip()
+                r["portuguese"]=("Então ela disse:"+pt).strip()
+                r["editorial_note"]="Portuguese translation occurs inline in source number 143."
         if k+1<len(rows):
             q=rows[k+1]
             same=(q["source_number"]==r["source_number"])
