@@ -70,10 +70,9 @@ def main():
                 r["editorial_note"]="Portuguese translation carries the same source number and was merged during documentary import."
                 repaired.append(r); k+=2; continue
         repaired.append(r); k+=1
+    # Preserve the originally assigned editorial IDs. Merged translation-only
+    # rows intentionally leave gaps; stable IDs take precedence over continuity.
     rows=repaired
-    # IDs are editorial sequence IDs, so renumber after documentary pair merging.
-    for j,r in enumerate(rows,1):
-        r["id"]=f"PC.{j:03d}"
 
     if not rows: raise SystemExit("Importação interrompida: nenhuma unidade numerada encontrada.")
     OUT.parent.mkdir(parents=True,exist_ok=True)
