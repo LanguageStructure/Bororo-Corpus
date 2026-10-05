@@ -29,3 +29,21 @@ Collation status is deliberately conservative:
 - `unmatched`: no sufficiently strong automatic correspondence has been established.
 
 Lower-similarity diagnostics and sequence proposals are review aids only. They do not create correspondences automatically. A fuzzy similarity score alone is never treated as documentary equivalence.
+
+
+### Limits of automatic parallel-witness alignment
+
+Automatic alignment was deliberately calibrated conservatively. After exact and near-exact correspondences were human-reviewed, 309 archival witness units remained unmatched. Additional diagnostics tested rare lexical anchors, ordered sequence gaps, 2–5-unit segmentation windows, and possible component relations.
+
+These diagnostics did not justify further automatic correspondences. In formulaic passages, high lexical or translation similarity can be misleading when a decisive proper name, participant, action, or narrative context differs. Sharing a named person or rare lexical item likewise does not establish unit identity: the same participant may occur in different episodes.
+
+Accordingly:
+
+- `confirmed` is reserved for human-reviewed unit correspondence;
+- `component` is reserved for a human-reviewed case where the archival unit is demonstrably represented inside a broader CorBo unit;
+- `unmatched` is a valid documentary result and must not be interpreted as an error;
+- rare-anchor, fuzzy, sequence, and component scores are diagnostic evidence only;
+- no similarity threshold may promote an `unmatched` unit automatically;
+- proper names, participants, actions, Portuguese documentary translations, and narrative context take precedence over global string similarity.
+
+The residual unmatched set should therefore be studied as evidence for differences in wording, segmentation, episode selection, and witness structure rather than forced into one-to-one alignment.
