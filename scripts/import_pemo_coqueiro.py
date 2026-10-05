@@ -43,12 +43,19 @@ def main():
     repaired=[]; k=0
     while k<len(rows):
         r=rows[k]
-        # Split explicit inline translation after an em/en dash.
+        # Split two explicit inline-translation patterns found in this witness.
         if not r["portuguese"]:
-            mm=re.match(r"^(.*?)\\s+[–—]\\s+(Eis que\\b.*)$",r["source"],flags=re.I)
+            # e.g. "– Itugare ...! – Eis que ..."
+            mm=re.match(r"^(.*?[.!?])\\s+[–—]\\s+(Eis que\\b.*)$",r["source"],flags=re.I)
             if mm:
                 r["source"]=mm.group(1).strip()
                 r["portuguese"]=mm.group(2).strip()
+            else:
+                # e.g. "A! Akore Então ela disse:"
+                mm=re.match(r"^(A!\\s*Akore)\\s+(Então ela disse:.*)$",r["source"],flags=re.I)
+                if mm:
+                    r["source"]=mm.group(1).strip()
+                    r["portuguese"]=mm.group(2).strip()
         if k+1<len(rows):
             q=rows[k+1]
             same=(q["source_number"]==r["source_number"])
