@@ -41,6 +41,21 @@ put(decisions,[229,230],"parallel_formulaic","BOR-CORBO-HM001-u150",
 put(decisions,[240,241,242],"parallel_formulaic","",
     "Structural/formulaic parallel to HM u148-u151 with different referents; not textual equivalence.")
 
+# Final human review of the formerly unresolved middle block.
+# PC232-237 continue the fishing/net narrative, but segmentation diverges enough
+# that no strict HM unit ID is forced here.
+put(decisions, range(232,238), "parallel_formulaic", "",
+    "Continuation of the confirmed net/fish episode; HM segmentation diverges, so no forced 1:1 match.")
+# PC238-250 are the paca/apueceba episode: structurally parallel to the fish/net
+# narrative, but with different referents and hunting technology.
+put(decisions, range(238,251), "parallel_formulaic", "",
+    "Paca/apueceba episode; structural/formulaic parallel, not textual equivalence.")
+# PC251 introduces the queixada encounter; PC252-253 are confirmed below.
+decisions[251]=("parallel_formulaic","",
+    "Transition into queixada episode; thematic/structural HM parallel without strict equivalence.")
+decisions[254]=("parallel_formulaic","",
+    "Queixada description continues confirmed PC252-253 but differs materially from HM fish/net wording.")
+
 # Late sequence: anchors and sequence-supported candidates established in review.
 late={276:138,277:139,278:140,279:141,280:142,282:144,283:145,284:146,285:147,
 286:148,287:149,288:150,289:151,290:152,291:153,292:154,293:155,294:156,
