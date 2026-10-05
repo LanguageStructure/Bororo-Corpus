@@ -56,6 +56,12 @@ decisions[251]=("parallel_formulaic","",
 decisions[254]=("parallel_formulaic","",
     "Queixada description continues confirmed PC252-253 but differs materially from HM fish/net wording.")
 
+# Final six segmentation fragments inside otherwise aligned late sequences.
+# Their immediate context is parallel to HM, but the fragments themselves do
+# not support a defensible independent 1:1 unit match.
+put(decisions, [281,299,305,326,327,328], "parallel_formulaic", "",
+    "Segment within an aligned/parallel narrative sequence; insufficient evidence for an independent 1:1 HM unit match.")
+
 # Late sequence: anchors and sequence-supported candidates established in review.
 late={276:138,277:139,278:140,279:141,280:142,282:144,283:145,284:146,285:147,
 286:148,287:149,288:150,289:151,290:152,291:153,292:154,293:155,294:156,
