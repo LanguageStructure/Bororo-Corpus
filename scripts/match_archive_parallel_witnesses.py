@@ -290,6 +290,9 @@ for weight,nu,nr,r,tid,shared in strong_anchor[:60]:
 
 
 # COMPONENT DIAGNOSTIC: finer archival unit potentially represented inside a broader CorBo unit.
+witness_df=Counter()
+for _r in wr:
+ witness_df.update(set(toks(_r.get("source",""))))
 # Requires Bororo lexical containment AND supporting Portuguese similarity.
 # Diagnostic only: never changes matches.
 def norm_pt(s):
@@ -318,6 +321,14 @@ for r in wr:
   target_pt=norm_pt(by_id.get(tid,{}).get("portuguese",""))
   if not target_pt:continue
   pt_sim=SequenceMatcher(None,src_pt,target_pt,autojunk=False).ratio()
+  # Formulaic passages can be nearly identical except for the decisive proper name.
+  # Treat long/rare source tokens as identity anchors: if a highly distinctive
+  # token occurs in the archival unit but not in the target, reject the component.
+  src_identity=[t for t in src_set if len(t)>=7 and witness_df.get(t,999)<=3]
+  target_all=set(toks(besttext))
+  identity_missing=[t for t in src_identity if t not in target_all]
+  identity_shared=[t for t in src_identity if t in target_all]
+  if src_identity and identity_missing and not identity_shared:continue
   # Names alone can create strong Bororo overlap while the episodes differ.
   # Require independent semantic support from the documentary translation.
   if pt_sim<0.34:continue
