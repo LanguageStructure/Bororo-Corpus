@@ -47,3 +47,13 @@ Accordingly:
 - proper names, participants, actions, Portuguese documentary translations, and narrative context take precedence over global string similarity.
 
 The residual unmatched set should therefore be studied as evidence for differences in wording, segmentation, episode selection, and witness structure rather than forced into one-to-one alignment.
+
+
+## Pemo — Baraedugume: collation result
+
+Sequence-aware review against História Mítica established that this staging document is a parallel witness, not an independent set of public corpus units.
+
+- 83 of 84 editorial units correspond to the História Mítica unit with the same numeric position. The lower-similarity cases were manually inspected; differences are documentary spelling, punctuation, abbreviations, or minor witness variation rather than distinct narrative units.
+- `PB.045` is the segmentation exception. Its Bororo text occurs within the final portion of `BOR-CORBO-HM001-u044`; it is therefore a human-reviewed component relation, not a correspondence with `HM001-u045`.
+- No Pemo–Baraedugume staging unit is promoted as a new public corpus unit on the basis of this collation.
+- The Portuguese fields around HM units 052–053 show an independent alignment problem: their Bororo corresponds to PB 052–053, while the current HM Portuguese text describes other passages. This must be audited separately and does not invalidate the Bororo witness correspondence.
