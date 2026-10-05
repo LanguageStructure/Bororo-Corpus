@@ -30,12 +30,43 @@ def main():
             if p: por=p.group(1).strip(); i+=1
         rows.append({"id":f"PC.{len(rows)+1:03d}","source_number":n,"section":section,"source":first,
                      "reviewed":"","portuguese":por,"editorial_note":""})
+    # Documentary repair pass. Some translations in this witness carry the same
+    # source number as the Bororo unit and were therefore parsed as a second unit.
+    # Merge only rows whose second member is overtly Portuguese.
+    pt_starts=re.compile(
+        r"^(?:O nosso|Disse:|Eles diziam|As mulheres|Eles perguntaram|Depois \\(|Então ela|"
+        r"Eis que|O que |Aí |Ao |Logo |Foram |Ele |Ela |Os |As |Você |Eu |Nós )",
+        re.I)
+    repaired=[]; k=0
+    while k<len(rows):
+        r=rows[k]
+        # Split explicit inline translation after an em/en dash.
+        if not r["portuguese"]:
+            mm=re.match(r"^(.*?)\\s+[–—]\\s+(Eis que\\b.*)$",r["source"],flags=re.I)
+            if mm:
+                r["source"]=mm.group(1).strip()
+                r["portuguese"]=mm.group(2).strip()
+        if k+1<len(rows):
+            q=rows[k+1]
+            same=(q["source_number"]==r["source_number"])
+            qsrc=q["source"].strip()
+            if same and not r["portuguese"] and pt_starts.match(qsrc):
+                r["portuguese"]=qsrc
+                r["editorial_note"]="Portuguese translation carries the same source number and was merged during documentary import."
+                repaired.append(r); k+=2; continue
+        repaired.append(r); k+=1
+    rows=repaired
+    # IDs are editorial sequence IDs, so renumber after documentary pair merging.
+    for j,r in enumerate(rows,1):
+        r["id"]=f"PC.{j:03d}"
+
     if not rows: raise SystemExit("Importação interrompida: nenhuma unidade numerada encontrada.")
     OUT.parent.mkdir(parents=True,exist_ok=True)
     fields=["id","source_number","section","source","reviewed","portuguese","editorial_note"]
     with OUT.open("w",encoding="utf-8",newline="") as f:
         w=csv.DictWriter(f,fieldnames=fields,delimiter="\t",lineterminator="\n");w.writeheader();w.writerows(rows)
     print(f"OK: {len(rows)} unidades documentais -> {OUT.relative_to(ROOT)}")
+    print("Pares de mesmo número com tradução portuguesa explícita são fundidos documentalmente.")
     print("Somente traduções com o mesmo número imediatamente adjacente foram alinhadas automaticamente.")
     print("A fonte PemoCoqueiro.txt permanece inalterada.")
 
