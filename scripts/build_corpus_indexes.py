@@ -76,7 +76,7 @@ def conllu_morphemes(path):
    if not line or line[0]=='#' or line.isspace():continue
    cols=line.rstrip('\n').split('\t')
    if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():continue
-   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('GLOSS')
+   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('MORPH') or md.get('GLOSS')
    if not seg or seg=='_' or not re.search(r'[-=]',seg):continue
    parts=[p for p in re.split(r'[-=]',seg) if p]
    if len(parts)<2:continue
@@ -225,7 +225,7 @@ def morpheme_token_data(path):
  for sent in conllu_sentences(path):
   sid=sent.get('sent_id','')
   for t in sent.get('tokens',[]):
-   md=t.get('misc') or {};seg=md.get('GLOSS') or '';form=t.get('form') or ''
+   md=t.get('misc') or {};seg=md.get('MORPH') or md.get('GLOSS') or '';seg_source='MISC/MORPH' if md.get('MORPH') else 'MISC/GLOSS';form=t.get('form') or ''
    if seg and seg!='_' and re.search(r'[-=]',seg):
     parts=[p for p in re.split(r'[-=]',seg) if p]
     for i,m in enumerate(parts):
@@ -238,7 +238,7 @@ def morpheme_token_data(path):
         if left=='=':pos='enclitic'
         elif right=='=':pos='proclitic'
         break
-     out.append({'morpheme':m,'position':pos,'segmentation':seg,'form':form,'sent_id':sid,'token_id':t.get('id'),'lemma':t.get('lemma',''),'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':t.get('feats',''),'deprel':t.get('deprel',''),'text':sent.get('text',''),'text_por':sent.get('text_por',''),'evidence':'MISC/GLOSS'})
+     out.append({'morpheme':m,'position':pos,'segmentation':seg,'form':form,'sent_id':sid,'token_id':t.get('id'),'lemma':t.get('lemma',''),'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':t.get('feats',''),'deprel':t.get('deprel',''),'text':sent.get('text',''),'text_por':sent.get('text_por',''),'evidence':seg_source})
    feats=str(t.get('feats') or '')
    if form.casefold().endswith('iagu') and 'Speech=Quo' in feats:
     out.append({'morpheme':'iagu','position':'suffix','segmentation':'','form':form,'sent_id':sid,'token_id':t.get('id'),'lemma':t.get('lemma',''),'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':feats,'deprel':t.get('deprel',''),'text':sent.get('text',''),'text_por':sent.get('text_por',''),'evidence':'FEATS:Speech=Quo'})
