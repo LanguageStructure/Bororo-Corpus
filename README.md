@@ -33,9 +33,14 @@ O corpus inclui, entre outros materiais:
 - **História da Corujinha — Tagogorogu** — narrativa de tradição oral;
 - **Etnobotânica** — unidades incorporadas a partir de material tabular;
 - **Textos bíblicos** — materiais bíblicos mantidos no corpus documental;
-- **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, em processo de revisão.
+- **Bakaru Maiwu** — Novo Testamento em Bororo, organizado por livro, capítulo e versículo, em processo de revisão;
+- **Pemo–Coqueiro** — testemunho documental colacionado contra o corpus público; 261 unidades não equivalentes são publicadas e 69 correspondências confirmadas são excluídas para evitar duplicação;
+- **Archive additions** — 226 unidades documentais de fontes de arquivo auditadas contra o corpus público e incorporadas sem duplicatas fortes identificadas;
+- **Archive parallel witnesses** — testemunhos paralelos colacionados unidade a unidade; 305 unidades independentes são publicadas, enquanto 55 correspondências confirmadas são mantidas apenas na camada de colação e uma unidade estruturalmente não resolvida permanece excluída.
 
 As coleções não têm necessariamente o mesmo grau de tradução, revisão ou anotação. Ausência de uma camada não é preenchida automaticamente por inferência.
+
+Após a integração documental de outubro de 2026, o índice público contém **10.268 unidades**. Esse total inclui **261 unidades de Pemo–Coqueiro**, **226 Archive additions** e **305 Archive parallel witnesses**. A incorporação dessas fontes usa uma camada explícita de colação: unidades `confirmed` ou `component` não são republicadas como novas unidades; `unique` e `parallel_formulaic` podem entrar no índice público; unidades `unresolved` permanecem fora até revisão humana.
 
 ## Organização dos dados
 
