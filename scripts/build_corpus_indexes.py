@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; DICT_CONLLU=ROOT/'CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; DICT_CONLLU=ROOT/'CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
@@ -285,6 +285,22 @@ def pemo_coqueiro_units():
   out.append({'id':uid,'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Pemo–Coqueiro','group':'Pemo–Coqueiro','section':(r.get('section') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'collation_status':status,'reviewed':bool(rev),'status':'reviewed' if rev else 'documentary'})
  return out
 
+def archive_additions_units():
+ if not ARC.exists() or not ARC_COL.exists():return []
+ editorial={r['id'].strip():r for r in tsv(ARC)}
+ decisions={r['id'].strip():r for r in tsv(ARC_COL)}
+ out=[]
+ for uid,r in editorial.items():
+  d=decisions.get(uid)
+  if not d:raise SystemExit(f'Archive-additions sem decisão de colação: {uid}')
+  status=(d.get('status') or '').strip()
+  if status=='confirmed':continue
+  if status not in {'unique','parallel_formulaic'}:
+   raise SystemExit(f'Archive-additions não resolvido para publicação: {uid} ({status})')
+  src=(r.get('source') or '').strip();rev=(r.get('reviewed') or '').strip()
+  out.append({'id':uid,'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':(r.get('document') or 'Archive additions').strip(),'group':'Archive additions','section':(r.get('section') or '').strip(),'source_file':(r.get('source_file') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'collation_status':status,'reviewed':bool(rev),'status':'reviewed' if rev else 'documentary'})
+ return out
+
 def main():
  cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','reviewed':True} for r in cr]
  hm=[]
@@ -299,13 +315,13 @@ def main():
  if BOE.exists():
   for r in tsv(BOE):
    rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
- bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();allu=coq+hm+adu+boe+bib+bm+etn+pc;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();allu=coq+hm+adu+boe+bib+bm+etn+pc+arc;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'corbo-units.json':allu}
+ outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu);stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(set(u['collection'] for u in allu)),'reviewed_units':sum(u['reviewed'] for u in allu),'provisional_units':sum(not u['reviewed'] for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
- print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
+ print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
