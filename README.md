@@ -1,4 +1,4 @@
-# CorBo — Corpus da Língua Bororo (v0.7.1)
+# CorBo — Corpus da Língua Bororo (v0.8.0)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
 > **DOI:** https://doi.org/10.5281/zenodo.22976962
@@ -213,7 +213,7 @@ Os principais formatos são:
 
 ## Estado da versão
 
-A versão 0.7.1 é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
+A versão 0.8.0 é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
 
 A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de produzir artificialmente um corpus inteiramente normalizado.
 
