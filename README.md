@@ -224,6 +224,20 @@ A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de
 - **Família:** Bororoan
 - **Região:** Mato Grosso, Brasil
 
+## Novidades da versão 0.8.0
+
+A versão 0.8.0 consolida a expansão documental e editorial realizada após 0.7.1.
+
+- índice público ampliado para **10.268 unidades**, **242.229 tokens** e **17.026 formas gráficas distintas**;
+- integração de **261 unidades Pemo–Coqueiro** após colação documental;
+- integração de **226 Archive additions** após auditoria contra o corpus público;
+- integração de **305 Archive parallel witnesses** adjudicados como `unique` ou `parallel_formulaic`;
+- exclusão de correspondências `confirmed` para impedir contagem duplicada de testemunhos;
+- manutenção de `CIR.001` fora do índice público enquanto a estrutura da fonte permanecer `unresolved`;
+- ampliação da busca por formas, lemas e morfemas;
+- visualização UD restrita às sentenças efetivamente anotadas no CoNLL-U autoritativo;
+- atualização do guia **Como usar**, estatísticas, manifesto de fontes e documentação da metodologia de colação.
+
 ## Licença e citação
 
 O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
