@@ -235,8 +235,16 @@ A versão 0.8.0 consolida a expansão documental e editorial realizada após 0.7
 - exclusão de correspondências `confirmed` para impedir contagem duplicada de testemunhos;
 - manutenção de `CIR.001` fora do índice público enquanto a estrutura da fonte permanecer `unresolved`;
 - ampliação da busca por formas, lemas e morfemas;
+- camada CoNLL-U com **973 sentenças** e **3.765 tokens**, das quais **874** possuem análise de dependência com raiz sintática explicitamente anotada;
 - visualização UD restrita às sentenças efetivamente anotadas no CoNLL-U autoritativo;
+- melhorias no editor, na busca por morfemas, no visualizador UD e nas páginas de exploração do corpus;
 - atualização do guia **Como usar**, estatísticas, manifesto de fontes e documentação da metodologia de colação.
+
+### Expansão documental e colação
+
+O foco desta versão é a **expansão documental, incorporação de testemunhos arquivísticos e colação textual**. A incorporação foi feita de modo conservador: correspondências documentais já representadas no corpus foram marcadas como `confirmed` e excluídas da contagem de novas unidades; paralelos formulares sem equivalência textual estrita permanecem identificados como `parallel_formulaic`.
+
+Entre os conjuntos incorporados e colacionados estão **Pemo–Coqueiro, Aijedoge, Barujauwo, Primeiras Andanças, Gêmeos Bakororodoge, Aroeceba, Arua Bororo, Arua Bororo II, Bakororodoge, Façanha Bakororogode, Ipare Ewororo, Jakomea Jiwu** e **Cirilo Discurso**.
 
 ## Licença e citação
 
