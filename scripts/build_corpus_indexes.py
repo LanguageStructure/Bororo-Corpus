@@ -315,6 +315,18 @@ def archive_parallel_units():
   out.append({'id':uid,'b':src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':(r.get('document') or 'Archive parallel witnesses').strip(),'group':'Archive parallel witnesses','section':(r.get('section') or '').strip(),'source_file':(r.get('source_file') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'collation_status':status,'reviewed':False,'status':'documentary'})
  return out
 
+def collation_data():
+ out=[]
+ if PC.exists() and PC_COL.exists():
+  editorial={r['id'].strip():r for r in tsv(PC)}
+  for d in tsv(PC_COL):
+   uid=(d.get('id') or '').strip();r=editorial.get(uid,{})
+   out.append({'id':uid,'family':'Pemo–Coqueiro','document':'Pemo–Coqueiro','source':(r.get('source') or '').strip(),'portuguese':(r.get('portuguese') or '').strip(),'reviewed':(r.get('reviewed') or '').strip(),'status':(d.get('status') or '').strip(),'corbo_match_id':(d.get('corbo_match_id') or '').strip(),'decision_note':(d.get('decision_note') or '').strip()})
+ if PAR.exists():
+  for r in tsv(PAR):
+   out.append({'id':(r.get('witness_id') or '').strip(),'family':'Testemunhos paralelos de arquivo','document':(r.get('document') or '').strip(),'source':(r.get('source') or '').strip(),'portuguese':(r.get('portuguese') or '').strip(),'reviewed':'','status':(r.get('collation_status') or '').strip(),'corbo_match_id':(r.get('corbo_match_id') or '').strip(),'decision_note':(r.get('editorial_note') or '').strip()})
+ return out
+
 def main():
  cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','group':'Documentary texts','reviewed':True,'status':'reviewed'} for r in cr]
  hm=[]
@@ -340,7 +352,7 @@ def main():
  by_collation=Counter(u.get('collation_status') for u in allu if u.get('collation_status'))
  stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(by_collection),'units_by_collection':dict(sorted(by_collection.items())),'units_by_group':dict(sorted(by_group.items())),'units_by_status':dict(sorted(by_status.items())),'units_by_collation_status':dict(sorted(by_collation.items())),'reviewed_units':sum(bool(u.get('reviewed')) for u in allu),'provisional_units':sum(not bool(u.get('reviewed')) for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json':collation_data(),'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
