@@ -92,3 +92,8 @@ Decision semantics:
 - `unresolved`: reserved for cases still requiring human collation; the completed review should currently yield zero such rows.
 
 The collation layer is deliberately separate from `source` and `reviewed`: documentary text remains unchanged, and collation decisions do not constitute orthographic/editorial normalization.
+
+
+## Archive additions: public-corpus audit
+
+The 226 units in `archive_additions_editorial.tsv` were audited against the complete public CorBo after Pemo–Coqueiro integration (9,737 units). No exact match and no near-exact match at >= 0.99 was found. A broader candidate review at >= 0.55 produced 36 isolated candidates, mostly formulaic/noisy. A sequence diagnostic found only two apparent monotonic pairs, both in Primeiras Andanças: PAND.060–061 vs. Coqueiro S08 p030–031 and PAND.061–062 vs. Pemo–Coqueiro PC.271/274. Human review of the surrounding Bororo and Portuguese context rejected both as documentary equivalences: the Coqueiro passage concerns cattle, a non-Indigenous man, horse, food and coffee; PC.271–274 concerns cooking peccary meat and the beginning of a new search, whereas PAND.060–064 concerns the caracara hawk/“spirit” and Birimodo's hunting party. Thus all 226 archive-addition units remain without an identified public-corpus duplicate. This is an ingestion decision, not orthographic normalization; source text remains unchanged.
