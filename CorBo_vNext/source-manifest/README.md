@@ -19,14 +19,17 @@ The manifest describes triage decisions. It does not replace the original source
 
 ## Parallel-witness collation
 
-Parallel witnesses are staged in `CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv` and are not additional public corpus units.
+Parallel witnesses are staged and collated in `CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv`. After human collation, documentary units classified as `unique` or `parallel_formulaic` may be included in the public corpus; `confirmed` and `component` relations are excluded from duplicate publication, and `unresolved` units remain outside the public index.
 
 Collation status is deliberately conservative:
 
 - `exact`: normalized Bororo text matches an existing Historia Mítica unit exactly; assigned automatically.
 - `candidate`: near-identical textual match (currently >= 0.99); requires human review.
 - `confirmed`: a human reviewer has accepted the proposed CorBo correspondence. This status is authoritative and is preserved on later matcher runs.
-- `unmatched`: no sufficiently strong automatic correspondence has been established.
+- `unique`: human review found no textual public-corpus equivalent; eligible for documentary publication.
+- `parallel_formulaic`: a narrative/structural/formulaic parallel exists without strict unit-level documentary equivalence; eligible for documentary publication.
+- `unresolved`: human review is incomplete or the source structure is insufficient for a secure decision; excluded from publication.
+- `unmatched`: legacy/intermediate state meaning that no sufficiently strong automatic correspondence has yet been established; not publishable until human adjudication.
 
 Lower-similarity diagnostics and sequence proposals are review aids only. They do not create correspondences automatically. A fuzzy similarity score alone is never treated as documentary equivalence.
 
@@ -48,6 +51,20 @@ Accordingly:
 
 The residual unmatched set should therefore be studied as evidence for differences in wording, segmentation, episode selection, and witness structure rather than forced into one-to-one alignment.
 
+
+
+### Archive parallel witnesses: completed collation and public integration
+
+The current archive-parallel layer contains **361 witness units**. Human collation is complete except for the source-layout exception `CIR.001`:
+
+- **283 `unique`**;
+- **22 `parallel_formulaic`**;
+- **55 `confirmed`**;
+- **1 `unresolved`** (`CIR.001`).
+
+Accordingly, **305 documentary units** from this layer are included in the public corpus. The 55 confirmed correspondences are retained in the collation layer but excluded from duplicate publication. `CIR.001` remains excluded pending secure source verification.
+
+Together with the completed Pemo–Coqueiro and Archive additions integrations, the generated public index contains **10,268 corpus units** as of October 2026. Counts are derived by `scripts/build_corpus_indexes.py`; historical audit counts below are retained as records of the corpus state at the time each audit was performed.
 
 ## Pemo — Baraedugume: collation result
 
