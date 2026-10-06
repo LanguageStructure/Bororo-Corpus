@@ -316,19 +316,19 @@ def archive_parallel_units():
  return out
 
 def main():
- cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','reviewed':True} for r in cr]
+ cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','group':'Documentary texts','reviewed':True,'status':'reviewed'} for r in cr]
  hm=[]
  if HM.exists():
   for r in tsv(HM):
-   rev=(r.get('reviewed') or '').strip();hm.append({'id':r['id'].strip(),'b':rev or r['witness_a'].strip(),'p':(r.get('portuguese') or '').strip(),'collection':'História Mítica','reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+   rev=(r.get('reviewed') or '').strip();hm.append({'id':r['id'].strip(),'b':rev or r['witness_a'].strip(),'p':(r.get('portuguese') or '').strip(),'collection':'História Mítica','group':'Documentary texts','reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  adu=[]
  if ADU.exists():
   for r in tsv(ADU):
-   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();adu.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Adugo Biri','reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();adu.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Adugo Biri','group':'Documentary texts','reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  boe=[]
  if BOE.exists():
   for r in tsv(BOE):
-   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
+   rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','group':'Documentary texts','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+bm+etn+pc+arc+par;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
