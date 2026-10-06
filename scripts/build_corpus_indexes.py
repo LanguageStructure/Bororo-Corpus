@@ -214,6 +214,36 @@ def dictionary_annotation_data():
    if row['head'] and row['deprel']:row['layers'].append('syntax')
    row['complete']=annotation_completeness(row);out.append(row)
  return out
+def morpheme_token_data(path):
+ """Token-level evidence for morphemes explicitly represented in the current CoNLL-U.
+
+ General segmentation is read only from MISC/GLOSS when it contains explicit
+ - or = boundaries. The special -iagu relation is licensed only by Speech=Quo.
+ No segmentation is inferred from the surface form.
+ """
+ out=[]
+ for sent in conllu_sentences(path):
+  sid=sent.get('sent_id','')
+  for t in sent.get('tokens',[]):
+   md=t.get('misc') or {};seg=md.get('GLOSS') or '';form=t.get('form') or ''
+   if seg and seg!='_' and re.search(r'[-=]',seg):
+    parts=[p for p in re.split(r'[-=]',seg) if p]
+    for i,m in enumerate(parts):
+     pos='stem_or_affix'
+     if '=' in seg:
+      raw=re.split(r'([-=])',seg.replace(' ',''))
+      for j,x in enumerate(raw):
+       if x==m:
+        left=raw[j-1] if j else '';right=raw[j+1] if j+1<len(raw) else ''
+        if left=='=':pos='enclitic'
+        elif right=='=':pos='proclitic'
+        break
+     out.append({'morpheme':m,'position':pos,'segmentation':seg,'form':form,'sent_id':sid,'token_id':t.get('id'),'lemma':t.get('lemma',''),'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':t.get('feats',''),'deprel':t.get('deprel',''),'text':sent.get('text',''),'text_por':sent.get('text_por',''),'evidence':'MISC/GLOSS'})
+   feats=str(t.get('feats') or '')
+   if form.casefold().endswith('iagu') and 'Speech=Quo' in feats:
+    out.append({'morpheme':'iagu','position':'suffix','segmentation':'','form':form,'sent_id':sid,'token_id':t.get('id'),'lemma':t.get('lemma',''),'upos':t.get('upos',''),'xpos':t.get('xpos',''),'feats':feats,'deprel':t.get('deprel',''),'text':sent.get('text',''),'text_por':sent.get('text_por',''),'evidence':'FEATS:Speech=Quo'})
+ return out
+
 def morphology_data():
  editorial=[]
  if MORPH.exists():
@@ -352,7 +382,7 @@ def main():
  by_collation=Counter(u.get('collation_status') for u in allu if u.get('collation_status'))
  stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(by_collection),'units_by_collection':dict(sorted(by_collection.items())),'units_by_group':dict(sorted(by_group.items())),'units_by_status':dict(sorted(by_status.items())),'units_by_collation_status':dict(sorted(by_collation.items())),'reviewed_units':sum(bool(u.get('reviewed')) for u in allu),'provisional_units':sum(not bool(u.get('reviewed')) for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(DICT_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
