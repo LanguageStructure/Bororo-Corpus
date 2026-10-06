@@ -1,7 +1,7 @@
 # CorBo — Corpus da Língua Bororo (v0.8.0)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
-> **DOI:** https://doi.org/10.5281/zenodo.22976962
+> **DOI:** https://doi.org/10.5281/zenodo.23187959
 
 O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais para pesquisa, documentação, ensino e desenvolvimento de tecnologia linguística.
 
@@ -250,8 +250,7 @@ Entre os conjuntos incorporados e colacionados estão **Pemo–Coqueiro, Aijedog
 
 O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22976962.svg)](https://doi.org/10.5281/zenodo.22976962)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23187959.svg)](https://doi.org/10.5281/zenodo.23187959)
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
 ## Autor
