@@ -21,8 +21,8 @@ for label,a,b in blocks:
  por=norm(" ".join(r.get("portuguese","") for r in ar))
  scored=[]
  for u in pub:
-  ub=norm(u.get("bororo") or u.get("reviewed") or u.get("source") or u.get("text") or "")
-  up=norm(u.get("portuguese") or u.get("text_por") or "")
+  ub=norm(u.get("b") or "")
+  up=norm(u.get("p") or "")
   if not ub: continue
   # block-to-unit diagnostic: semantic PT support is required
   bs=SequenceMatcher(None,bor,ub,autojunk=False).ratio()
