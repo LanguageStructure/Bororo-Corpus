@@ -6,7 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 W=ROOT/"CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv"
 P=ROOT/"docs/data/corbo-units.json"
 def norm(s):
- s=unicodedata.normalize("NFC",s or "").lower()
+ if not isinstance(s,str): s=""
+ s=unicodedata.normalize("NFC",s).lower()
  s=s.replace("\\n"," ")
  s=re.sub(r"[^a-záéíóúâêôãõçüñ]+"," ",s)
  return " ".join(s.split())
