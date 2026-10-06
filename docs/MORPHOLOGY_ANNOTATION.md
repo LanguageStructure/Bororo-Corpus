@@ -12,7 +12,7 @@ Esta nota define a representação mínima usada pelo CorBo para que evidência 
 
 ## MISC
 
-A segmentação explícita é registrada em `MISC` no campo `GLOSS`.
+A partir desta convenção, a segmentação explícita deve ser registrada em `MISC` no campo `MORPH`. O build ainda aceita `GLOSS` como campo legado quando ele contém fronteiras explícitas, para preservar compatibilidade com anotações existentes.
 
 Convenção de fronteiras:
 
@@ -22,12 +22,12 @@ Convenção de fronteiras:
 Exemplos estruturais:
 
 ```text
-GLOSS=i-nu-re
-GLOSS=ce=FORMA
-GLOSS=FORMA=iagu
+MORPH=i-nu-re|GLOSS=1SG-PROG-IND
+MORPH=ce=FORMA|GLOSS=1PL.EX=...
+MORPH=FORMA=iagu|GLOSS=...=QUO
 ```
 
-Esses exemplos ilustram a codificação de fronteiras; a análise linguística de cada forma deve seguir a anotação validada do corpus.
+`MORPH` contém os segmentos; `GLOSS` contém as glosas alinhadas na mesma ordem. Esses exemplos ilustram a estrutura de codificação e não substituem a análise linguística validada de cada forma.
 
 Campos como `ORTHO`, `POS_FINE`, `CLS` e `PRCLITIC` podem continuar em `MISC` quando necessários, mas não substituem a segmentação explícita.
 
@@ -47,7 +47,7 @@ O build gera `docs/data/morpheme-tokens.json`. Cada registro deve poder ser rast
 - segmentação explícita, quando houver;
 - lema e categorias disponíveis;
 - sentença e tradução;
-- fonte da evidência (`MISC/GLOSS` ou uma regra explícita documentada).
+- fonte da evidência (`MISC/MORPH`, `MISC/GLOSS` legado ou uma regra explícita documentada).
 
 O arquivo não deve conter segmentações produzidas por heurística sobre `FORM`.
 
