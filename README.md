@@ -21,6 +21,11 @@ source witness
 
 A fonte documental permanece primária. Uma forma revista ou normalizada não apaga a forma testemunhada. Segmentação morfológica, análise sintática e tradução são camadas adicionais e podem ter graus diferentes de completude.
 
+### Convenção de anotação morfológica
+
+A representação usada para evidência morfológica token-level está documentada em [`docs/MORPHOLOGY_ANNOTATION.md`](docs/MORPHOLOGY_ANNOTATION.md). O índice distingue segmentação explícita no CoNLL-U de projeções documentais por forma e não infere fronteiras morfêmicas automaticamente.
+
+
 ## Coleções textuais
 
 O corpus inclui, entre outros materiais:
