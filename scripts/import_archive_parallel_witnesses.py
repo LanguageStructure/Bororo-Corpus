@@ -112,6 +112,19 @@ def parse(path,key,title):
  for i,r in enumerate(rows,1): r["witness_id"]=f"{key}.{i:03d}"
  return rows
 
+def preserve_collation(rows):
+ old={}
+ if OUT.exists():
+  with OUT.open(encoding="utf-8") as f:
+   for r in csv.DictReader(f,delimiter="\t"):
+    old[r["witness_id"]]=r
+ for r in rows:
+  o=old.get(r["witness_id"])
+  if o and o.get("source")==r.get("source") and o.get("portuguese")==r.get("portuguese"):
+   for k in ("collation_status","corbo_match_id","editorial_note"):
+    r[k]=o.get(k,"")
+ return rows
+
 def main():
  if len(sys.argv)!=2:
   raise SystemExit("Uso: python3 scripts/import_archive_parallel_witnesses.py '/caminho/Bororo Corpus'")
@@ -123,6 +136,7 @@ def main():
   rs=parse(p,key,title)
   print(f"{fn}: {len(rs)} unidades documentais")
   allrows.extend(rs)
+ allrows=preserve_collation(allrows)
  OUT.parent.mkdir(parents=True,exist_ok=True)
  with OUT.open("w",encoding="utf-8",newline="") as f:
   w=csv.DictWriter(f,fieldnames=FIELDS,delimiter="\t",lineterminator="\n")
