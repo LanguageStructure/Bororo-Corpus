@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Re-audit unmatched archive parallel witnesses against current public CorBo.
-
-Read-only diagnostic. Existing confirmed/component decisions remain authoritative.
-Reports exact and near-exact matches only; no automatic status changes.
-"""
+"""Fast re-audit of unmatched archive parallel witnesses against public CorBo."""
 from __future__ import annotations
 import csv,json,re,unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
-from collections import Counter
+from collections import defaultdict,Counter
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/"CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv"
 PUB=ROOT/"docs/data/corbo-units.json"
@@ -17,35 +13,39 @@ def norm(s):
  s=unicodedata.normalize("NFC",str(s or "")).casefold()
  s=re.sub(r"[^a-záéíóúâêôãõçüñ]+"," ",s)
  return " ".join(s.split())
+def toks(s): return set(s.split())
 with SRC.open(encoding="utf-8",newline="") as f: rows=list(csv.DictReader(f,delimiter="\t"))
 raw=json.loads(PUB.read_text(encoding="utf-8")); units=raw if isinstance(raw,list) else raw.get("units",[])
-idx={}
-for u in units:
- t=u.get("b") or u.get("source") or u.get("text") or ""; n=norm(t)
- if n: idx.setdefault(n,[]).append(u)
 unmatched=[r for r in rows if (r.get("collation_status") or "").strip()=="unmatched"]
-exact=[]; near=[]
-pub=[(norm(u.get("b") or u.get("source") or u.get("text") or ""),u) for u in units]
+P=[]; exact_idx=defaultdict(list); inv=defaultdict(list)
+for u in units:
+ n=norm(u.get("b") or u.get("source") or u.get("text") or "")
+ if not n: continue
+ pi=len(P);P.append((n,u));exact_idx[n].append(u)
+ for w in toks(n):inv[w].append(pi)
+exact=[];near=[]
 for r in unmatched:
  n=norm(r.get("source") or "")
- if n in idx:
-  for u in idx[n]: exact.append((r,u,1.0))
+ if n in exact_idx:
+  for u in exact_idx[n]:exact.append((r,u,1.0))
   continue
- # expensive similarity only after cheap length filtering
- cand=[]
- for pn,u in pub:
-  if not pn: continue
-  ratio=len(n)/len(pn) if pn else 0
-  if ratio < .80 or ratio > 1.25: continue
+ votes=Counter()
+ for w in toks(n):
+  for pi in inv.get(w,()):votes[pi]+=1
+ # Exact/0.99 matches necessarily share substantial vocabulary; shortlist 160.
+ for pi,_ in votes.most_common(160):
+  pn,u=P[pi]
+  lr=len(n)/len(pn)
+  if lr<.80 or lr>1.25:continue
   s=SequenceMatcher(None,n,pn,autojunk=True).ratio()
-  if s>=.99:cand.append((s,u))
- if cand:
-  s,u=max(cand,key=lambda x:x[0]);near.append((r,u,s))
+  if s>=.99:near.append((r,u,s));break
+matched={r["witness_id"] for r,_,_ in exact+near}
 print("Archive parallel unmatched auditadas:",len(unmatched))
+print("Corpus público:",len(units))
 print("exact:",len(exact))
 print("near_exact >=0.99:",len(near))
-print("sem duplicata forte:",len(unmatched)-len({r["witness_id"] for r,_,_ in exact+near}))
-for label,data in [("EXACT",exact),("NEAR",near)]:
+print("sem duplicata forte:",len(unmatched)-len(matched))
+for label,data in (("EXACT",exact),("NEAR",near)):
  if data:
   print("\n"+label)
   for r,u,s in data:
