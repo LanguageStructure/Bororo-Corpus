@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; DICT_CONLLU=ROOT/'CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu'; BORORO2_CONLLU=ROOT/'CorBo/Corpus_Files/Bororo2.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CORBO_CONLLU=ROOT/'CorBo/Corpus_Files/CorBo.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
@@ -233,8 +233,8 @@ def dictionary_annotation_data():
       n=sid_counts[original];sent_id=(f'{namespace}:{original}'+(f'#{n}' if n>1 else '')) if namespace else original
     elif line.strip():
      emit(line.split('\t'),sent_id)
- read_conllu(DICT_CONLLU)
- read_conllu(BORORO2_CONLLU,'bororo2')
+ read_conllu(CORBO_CONLLU)
+ []
  if DICT_ANN.exists():
   for r in tsv(DICT_ANN):
    key=((r.get('sent_id') or '').strip(),(r.get('token_id') or '').strip())
@@ -278,10 +278,10 @@ def morphology_data():
  editorial=[]
  if MORPH.exists():
   editorial=[{k:(r.get(k) or '').strip() for k in ['form','segmentation','morphemes','gloss','status','note']} for r in tsv(MORPH)]
- morphs=enrich_morphemes(conllu_morphemes(DICT_CONLLU))
+ morphs=enrich_morphemes(conllu_morphemes(CORBO_CONLLU))
  qi=Counter()
- if DICT_CONLLU.exists():
-  with DICT_CONLLU.open(encoding='utf-8') as f:
+ if CORBO_CONLLU.exists():
+  with CORBO_CONLLU.open(encoding='utf-8') as f:
    for line in f:
     if not line.strip() or line.startswith('#'):continue
     c=line.rstrip('\n').split('\t')
@@ -291,7 +291,7 @@ def morphology_data():
      qi[c[1]]+=1
  if qi:
   morphs.append({'morpheme':'iagu','frequency':sum(qi.values()),'examples':[{'value':v,'frequency':n} for v,n in qi.most_common(20)],'lemmas':[],'upos':[{'value':'PRON','frequency':sum(qi.values())}],'xpos':[],'positions':[{'value':'suffix','frequency':sum(qi.values())}],'classe_principal':'Speech=Quo','classe_ambigua':False,'analysis':{'gloss':'QUO','class':'speech','label':'marcador de fala/citação -iagu','status':'attested','note':'Relação derivada apenas de tokens do pass17 explicitamente anotados com Speech=Quo e forma terminada em iagu.'}})
- return {'fonte_conllu':str(DICT_CONLLU.relative_to(ROOT)),'fontes_lexicais':[str(DICT_CONLLU.relative_to(ROOT)),str(BORORO2_CONLLU.relative_to(ROOT))],'segmentacao_inferida':False,'relacoes_lexicais':merge_relations(conllu_relations(DICT_CONLLU),conllu_relations(BORORO2_CONLLU)),'morfemas_conllu':morphs,'analises_editoriais':editorial}
+ return {'fonte_conllu':str(CORBO_CONLLU.relative_to(ROOT)),'fontes_lexicais':[str(CORBO_CONLLU.relative_to(ROOT))],'segmentacao_inferida':False,'relacoes_lexicais':conllu_relations(CORBO_CONLLU),'morfemas_conllu':morphs,'analises_editoriais':editorial}
 def etnobotanica_units():
  if not ETN.exists():return []
  out=[]
@@ -412,8 +412,8 @@ def main():
  by_collation=Counter(u.get('collation_status') for u in allu if u.get('collation_status'))
  stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(by_collection),'units_by_collection':dict(sorted(by_collection.items())),'units_by_group':dict(sorted(by_group.items())),'units_by_status':dict(sorted(by_status.items())),'units_by_collation_status':dict(sorted(by_collation.items())),'reviewed_units':sum(bool(u.get('reviewed')) for u in allu),'provisional_units':sum(not bool(u.get('reviewed')) for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU)+conllu_sentences(BORORO2_CONLLU,namespace='bororo2'),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(DICT_CONLLU)+morpheme_token_data(BORORO2_CONLLU,namespace='bororo2'),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- (OUT/'pending-annotations.json').write_text(json.dumps(pending_annotations(BORORO2_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(CORBO_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(CORBO_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ (OUT/'pending-annotations.json').write_text(json.dumps(pending_annotations(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
