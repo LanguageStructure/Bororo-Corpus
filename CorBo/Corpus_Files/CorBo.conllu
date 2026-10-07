@@ -9332,13 +9332,6 @@
 4	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
 5	!	!	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 122-11
-# source_conllu = Bororo2-2.conllu
-# text = 105
-# text_por =
-# text_eng =
-1	105	_	_	_	_	_	_	_	_
-
 # sent_id = 123-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare...ire cewu iruwobo meririrogu raido jii nowu padre ae.
@@ -16086,13 +16079,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 18	.	.	PUNCT	punct	_	_	punct	_	_
 19	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 184-8
-# source_conllu = Bororo2-2.conllu
-# text = 117
-# text_por =
-# text_eng =
-1	117	_	_	_	_	_	_	_	_
-
 # sent_id = 185-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare meriri kudure.
@@ -17012,13 +16998,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 6	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 195-8
-# source_conllu = Bororo2-2.conllu
-# text = 119
-# text_por =
-# text_eng =
-1	119	_	_	_	_	_	_	_	_
-
 # sent_id = 196-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare ere tudo pui ebo, ere ewirido ta.
@@ -17594,13 +17573,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	maku	maku	VERB	vt	Number=Sing|Person=3	_	_	_	_
 3	ai	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 201-5
-# source_conllu = Bororo2-2.conllu
-# text = 120
-# text_por =
-# text_eng =
-1	120	root	_	_	_	_	_	_	_
 
 # sent_id = 202-1
 # source_conllu = Bororo2-2.conllu
@@ -21231,13 +21203,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	egoi	_	_	_	_	_	_	_	_
 7	birigadu	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 241-8
-# source_conllu = Bororo2-2.conllu
-# text = 128
-# text_por =
-# text_eng =
-1	128	_	_	_	_	_	_	_	_
 
 # sent_id = 242-1
 # source_conllu = Bororo2-2.conllu
@@ -27003,13 +26968,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
-# sent_id = 317-11
-# source_conllu = Bororo2-2.conllu
-# text = 145
-# text_por =
-# text_eng =
-1	145	_	_	_	_	_	_	_	_
-
 # sent_id = 318-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare uture toro.
@@ -28203,13 +28161,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 65	.	.	PUNCT	punct	_	_	punct	_	_
 66	.	.	PUNCT	punct	_	_	punct	_	_
 67	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 331-10
-# source_conllu = Bororo2-2.conllu
-# text = 147
-# text_por =
-# text_eng =
-1	147	_	_	_	_	_	_	_	_
 
 # sent_id = 332-1
 # source_conllu = Bororo2-2.conllu
@@ -29429,13 +29380,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	)	_	_	_	_	_	_	_	_
 
-# sent_id = 348-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 348-2
 # source_conllu = Bororo2-2.conllu
 # text = Dukeje icare etaregodure apo.
@@ -29498,13 +29442,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	kodo	_	_	_	_	_	_	_	_
 6	keje	keje	ADP	posp	Number=Sing|Person=3	_	_	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 349-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 349-2
 # source_conllu = Bororo2-2.conllu
@@ -29599,13 +29536,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	tugu	tugu	VERB	v	Number=Sing|Person=3	_	_	_	_
 5	to	to	ADP	posp	Number=Sing|Person=3	_	_	_	_
 6	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 350-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 350-2
 # source_conllu = Bororo2-2.conllu
@@ -29766,13 +29696,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
 2	ei	ji	ADP	posp	Number=Plur|Person=3	_	_	_	_
 
-# sent_id = 351-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 351-2
 # source_conllu = Bororo2-2.conllu
 # text = Icare akore
@@ -29780,13 +29703,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-
-# sent_id = 352-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 352-2
 # source_conllu = Bororo2-2.conllu
@@ -29848,13 +29764,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 9	bureagurudo	_	_	_	_	_	_	_	_
 10	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
 11	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 353-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 353-2
 # source_conllu = Bororo2-2.conllu
@@ -30069,13 +29978,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 10	emareno	_	_	_	_	_	_	_	_
 11	!	!	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 354-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 354-2
 # source_conllu = Bororo2-2.conllu
 # text = Icare utuie, uwie, uce, oreduje, ere taredo kae, ere tugera to ji tuku.,A!
@@ -30277,13 +30179,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 357-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 357-2
 # source_conllu = Bororo2-2.conllu
 # text = Akore Hoi!
@@ -30370,20 +30265,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	o	_	_	_	_	_	_	_	_
 X	...	...	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 357-10
-# source_conllu = Bororo2-2.conllu
-# text = 155
-# text_por =
-# text_eng =
-1	155	_	_	_	_	_	_	_	_
-
-# sent_id = 358-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 358-2
 # source_conllu = Bororo2-2.conllu
 # text = Bakoro...
@@ -30448,13 +30329,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 47	.	.	PUNCT	punct	_	_	punct	_	_
 48	.	.	PUNCT	punct	_	_	punct	_	_
 49	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 359-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 359-2
 # source_conllu = Bororo2-2.conllu
@@ -30537,13 +30411,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text =
 # text_por = A ROÇA NA MATA AZUL
 # text_eng =
-
-# sent_id = 360-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 360-2
 # source_conllu = Bororo2-2.conllu
@@ -30837,13 +30704,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 362-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 362-2
 # source_conllu = Bororo2-2.conllu
 # text = Dukodire uto itabo, kodo itabo jii...je.
@@ -30952,13 +30812,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por = Estava tudo limpo.
 # text_eng =
 
-# sent_id = 363-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 363-2
 # source_conllu = Bororo2-2.conllu
 # text = Akore oinore awure joru kae;
@@ -31061,13 +30914,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Marigu	marigu	ADV	adv	_	_	advmod	_	_
 2	!	!	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 364-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 364-2
 # source_conllu = Bororo2-2.conllu
@@ -31199,13 +31045,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 6	kuri	_	_	_	_	_	_	_	_
 7	imireo	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 365-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 365-2
 # source_conllu = Bororo2-2.conllu
@@ -31450,13 +31289,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 11	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
 12	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 368-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
-
 # sent_id = 368-2
 # source_conllu = Bororo2-2.conllu
 # text = Cegodo jii...je...Nowu Boe Gigudu Rairewu jipagi.Akore awu ipoguru toru rema jire boe egore Ató Itoguru, Ató Iguru, oino.
@@ -31491,13 +31323,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 32	,	,	PUNCT	punct	_	_	punct	_	_
 33	oino	oino	ADV	adv	_	_	advmod	_	_
 34	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 369-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 369-2
 # source_conllu = Bororo2-2.conllu
@@ -31566,13 +31391,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Ema	ema	ADV	_	_	0	root	_	_
 2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id = 370-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 370-2
 # source_conllu = Bororo2-2.conllu
@@ -31685,13 +31503,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	ituwo	_	_	_	_	_	_	_	_
 6	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 371-1
-# source_conllu = Bororo2-2.conllu
-# text = .
-# text_por = .
-# text_eng =
-1	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 371-2
 # source_conllu = Bororo2-2.conllu
@@ -32565,13 +32376,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
 2	akedudo	akedu	VERB	v	Number=Sing|Person=3|Voice=Cau	_	_	_	_
 3	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 377-13
-# source_conllu = Bororo2-2.conllu
-# text = 159
-# text_por =
-# text_eng =
-1	159	_	_	_	_	_	_	_	_
 
 # sent_id = 378-1
 # source_conllu = Bororo2-2.conllu
@@ -43193,13 +42997,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 6	ko	ko	VERB	v	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 454-20
-# source_conllu = Bororo2-2.conllu
-# text = 175
-# text_por =
-# text_eng =
-1	175	_	_	_	_	_	_	_	_
-
 # sent_id = 455-1
 # source_conllu = Bororo2-2.conllu
 # text = Itaregodure nowu ro oino jiwu kae.
@@ -43928,13 +43725,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 4	uu	uu	PART	prcl	_	_	_	_	_
 5	!	!	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 458-21
-# source_conllu = Bororo2-2.conllu
-# text = 176
-# text_por =
-# text_eng =
-1	176	_	_	_	_	_	_	_	_
 
 # sent_id = 459-1
 # source_conllu = Bororo2-2.conllu
@@ -48795,13 +48585,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	cebiji	piji	ADP	posp	Clusivity=EX|Number=Plur|Person=1	_	_	_	_
 4	taci	taci	ADV	adv	_	_	advmod	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 486-18
-# source_conllu = Bororo2-2.conllu
-# text = 184
-# text_por =
-# text_eng =
-1	184	_	_	_	_	_	_	_	_
 
 # sent_id = 487-1
 # source_conllu = Bororo2-2.conllu
@@ -55030,13 +54813,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 3	pegare	_	_	_	_	_	_	_	_
 4	!	!	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 518-19
-# source_conllu = Bororo2-2.conllu
-# text = 193
-# text_por =
-# text_eng =
-1	193	_	_	_	_	_	_	_	_
 
 # sent_id = 519-1
 # source_conllu = Bororo2-2.conllu
@@ -78838,13 +78614,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 11	baiji	_	_	_	_	_	_	_	_
 12	!	!	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 649-15
-# source_conllu = Bororo2-2.conllu
-# text = 120
-# text_por =
-# text_eng =
-1	120	root	_	_	_	_	_	_	_
-
 # sent_id = 650-1
 # source_conllu = Bororo2-2.conllu
 # text = Nonore icare cemaragodure ji cegera kiari tabo.
@@ -98410,13 +98179,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 14	oino	oino	ADV	adv	_	_	advmod	_	_
 15	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 756-10
-# source_conllu = Bororo2-2.conllu
-# text = 153
-# text_por =
-# text_eng =
-1	153	_	_	_	_	_	_	_	_
-
 # sent_id = 757-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare kodure.
@@ -111090,13 +110852,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 15	kae	kae	ADP	posp	Number=Sing|Person=3	_	_	_	_
 16	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 829-6
-# source_conllu = Bororo2-2.conllu
-# text = 183
-# text_por =
-# text_eng =
-1	183	_	_	_	_	_	_	_	_
-
 # sent_id = 830-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare meriri kudure, dukeje icare cedure mato cege kae.
@@ -122556,13 +122311,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	emodudo	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 894-22
-# source_conllu = Bororo2-2.conllu
-# text = 200
-# text_por =
-# text_eng =
-1	200	root	_	_	_	_	_	_	_
-
 # sent_id = 895-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare cegodure jii, cedao tabo awu ipoguru toru...cedao tabo awu kiaorewu, cedao tabo awu itoguru, cedao tabo awu boe okwa,boe jipa boe ji, cegodui.
@@ -126638,13 +126386,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Marigu	marigu	ADV	adv	_	_	advmod	_	_
 2	!	!	PUNCT	punct	_	_	punct	_	_
 
-# sent_id = 917-28
-# source_conllu = Bororo2-2.conllu
-# text = 207
-# text_por =
-# text_eng =
-1	207	_	_	_	_	_	_	_	_
-
 # sent_id = 918-1
 # source_conllu = Bororo2-2.conllu
 # text = Icare awu ipare egore Eu não.
@@ -127846,13 +127587,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	cenogwage	_	_	_	_	_	_	_	_
 3	tabo	tabo	ADP	posp	Number=Sing|Person=3	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = 923-19
-# source_conllu = Bororo2-2.conllu
-# text = 209
-# text_por =
-# text_eng =
-1	209	_	_	_	_	_	_	_	_
 
 # sent_id = 924-1
 # source_conllu = Bororo2-2.conllu
