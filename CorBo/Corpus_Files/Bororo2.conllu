@@ -8503,7 +8503,7 @@
 # text_por =
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 118-11
 # text = Ire iremo, ire ipujodo ii iremo dutabo.
@@ -11768,7 +11768,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por = Que coisa!
 # text_eng =
 1	Kirabodu	kirabodu	INTJ	intj	_	0	root	_	_
-2	!	!	PUNCT	punct	_	1_	punct	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 153-1***
 # text = Egore macare atumode toro , awo cewu boe ewi kejeboe awo bukeje cenai .
@@ -11795,7 +11795,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por = Esperem!
 # text_eng =
 1	Kajao	kajao	INTJ	intj	_	0	root	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 153-4
 # text = Iwo awu ikerogu ko jao .
@@ -22397,7 +22397,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Icare	icare	ADV	adv	_	2	advmod	_	_
 2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	.	.	PUNCT	punct	_	_2	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 278-1
 # text = Icare ere baia towuje .
@@ -22453,7 +22453,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Icare	icare	ADV	adv	_	2	advmod	_	_
 2	eture	tu	VERB	vi	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 3	mato	mato	ADV	adv	_	2	advmod	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 278-6
 # text = Icare ere tumugudo .
@@ -22659,7 +22659,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	go	go	X	x	_	3	ccomp	_	_
 5	go	go	X	x	_	4	conj	_	_
 6	go	go	X	x	_	4	conj	_	_
-7	.	.	PUNCT	punct	_	_	punct	_	_
+7	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 281-1
 # text = Icare Cibae Tawadu epa ure turagojedo nowu Cibae Tawadu tabo pugeje.
@@ -23709,7 +23709,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	tagerogu	ke	NOUN	n	Degree=Dim|Number=Plur|Person=2	5	nsubj	_	_
 5	reo	reo	ADV	adv	_	1	ccomp	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 299-3
 # text = Ino kodire itobudu maere.,Akore nowuge kugure eire inogwagere tu tu woe.
@@ -29692,7 +29692,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Wojere	woje	ADV	adv	Mood=Ind	2	advmod	_	_
 2	pagodumode	kodu	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	0	root	_	_
 3	woje	woje	ADV	adv	_	2	advmod	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 371-7
 # text = Akore paguduwo Bakuri uke aroe kuruce.
@@ -33227,7 +33227,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por =
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 402-19
 # text = Egore Uu!
@@ -39558,7 +39558,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por = Você não vai fugir de mim.
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 451-25
 # text = Icare ire itaredo ae, ire baiga bu kajeje...ta!
@@ -41060,7 +41060,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por =
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 460-1
 # text = Icare cemago akedure, dukeje icare meriri kudure pugeje, boe etuwo kuiada kuru kae.,A!
@@ -41587,7 +41587,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por =
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 464-1
 # text = Icare boecodure gu, dukeje icare ia iparedu aregodure kowaru apo.
@@ -50481,7 +50481,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 3	tuiegare	jekare	NOUN	n	Reflex=Yes	2	obl	_	_
 4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+5	!	!	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 514-5
 # text = Icare cere emagu etai.
@@ -78083,7 +78083,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por =
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 678-1
 # text = Icare ire kowuje nono.
@@ -103037,7 +103037,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por =
 # text_eng =
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 831-1
 # text = Icare meriri kudure, egore Ca!
@@ -112212,7 +112212,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_por = Falei que fizessem de pressa!
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 889-9
 # text = Tamara tabo!
@@ -128078,7 +128078,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	_
 3	piribi	piribi	NOUN	n	_	1	ccomp	_	_
 4	pugeje	pugeje	ADV	adv	_	3	advmod	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 983-13
 # text = Ire barigu ao to .

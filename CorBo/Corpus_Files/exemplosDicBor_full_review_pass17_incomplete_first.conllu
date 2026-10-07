@@ -437,7 +437,7 @@
 # text_eng = 
 1	cei	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1	2	nsubj	_	_
 2	cemagu	maku	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0346
 # text = cei cegeragu boe ji .
@@ -1359,7 +1359,7 @@
 # text_eng = 
 1	eno	o	PRON	bi	Number=Plur|Person=3	0	root	_	_
 2	moto	moto	NOUN	n	_	1	appos	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0520
 # text = ikeno akore .
@@ -1628,7 +1628,7 @@
 # text_eng = 
 1	cege	ke	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	1	nsubj	_	_
 2	rore	ro	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0579
 # text = iwudumode aiagi micege erudunure iboragi kakodoge erudunure ibora gi .
@@ -1694,7 +1694,7 @@
 # text_eng = 
 1	ikana	kana	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
 2	guririre	guriri	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	.	.	PUNCT	punct	_	s	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0586
 # text = iture .
@@ -2420,7 +2420,7 @@
 3	jodo	jodo	VERB	v	Number=Sing|Person=3	0	root	_	_
 4	moto	moto	NOUN	n	Number=Sing|Person=3	3	obl	_	_
 5	to	to	ADP	posp	Number=Sing|Person=3	4	case	_	_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0719
 # text = imana akore atuiagu iwai kae akiogowo ioga ji .
@@ -2443,7 +2443,7 @@
 1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
 2	iogwarido	okwari	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	ji	ji	ADP	posp	Number=Sing|Person=3	1	case	_	_
-4	.	.	PUNCT	punct	_	s	punct	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0725
 # text = itura jipa keje .
@@ -3608,7 +3608,7 @@
 # text_eng = 
 1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
 2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1057
 # text = paiagu pageragu boe ji .
@@ -5235,7 +5235,7 @@
 # text_eng = 
 1	ai	a	PRON	bi	Number=Sing|Person=2|VerbForm=Ger	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
-3	.	.	PUNCT	punct	_	2_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0040
 # text = ai amagu .
@@ -5857,7 +5857,7 @@
 # text_eng = 
 1	inure	i	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
 2	itamudo	amu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
-3	.	.	PUNCT	punct	_	2_	punct	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0140
 # text = awara onado .
@@ -6112,7 +6112,7 @@
 2	akarobiwu	arobi	NOUN	n	Nomzr=Rel|Number=Sing|Person=2	1	nmod	_	_
 3	jetori	jetori	NOUN	n	_	0	root	_	_
 4	barika	barika	ADV	adv	_	3	advmod	_	_
-5	.	.	PUNCT	punct	_	3_	punct	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0188
 # text = Pao .
@@ -6249,7 +6249,7 @@
 1	ikerako	erako	NOUN	n	Number=Sing|Person=1	2	nmod	_	_
 2	bape	bape	NOUN	n	_	3	nsubj	_	_
 3	korire	kori	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-4	.	.	PUNCT	punct	_	s	punct	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_0221
 # text = kiege ewaradu .
