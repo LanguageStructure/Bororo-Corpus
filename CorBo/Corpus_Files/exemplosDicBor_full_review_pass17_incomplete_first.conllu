@@ -402,7 +402,7 @@
 # text = cegire ceeruduware .
 # text_por = somos nós que sabemos.
 # text_eng = 
-1	cegire	cegi	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+1	cegire	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
 2	ceeruduware	joruduwa	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1012,7 +1012,7 @@
 # text = eia tugeragu boe ji .
 # text_por = pudera que eles pegassem, se eles pudessem pegar algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -1176,7 +1176,7 @@
 # text = ekawo maragodudo .
 # text_por = para eles não o fazerem trabalhar.
 # text_eng = 
-1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3|Polarity=Neg	2	nsubj	_	_
+1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3	2	nsubj	_	_
 2	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1184,7 +1184,7 @@
 # text = ekawo tumagu .
 # text_por = para eles não se entregarem.
 # text_eng = 
-1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3|Polarity=Neg	2	nsubj	_	_
+1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1968,9 +1968,10 @@
 # text = ikijoru panure Pao ce .
 # text_por = Deus é minha segurança.
 # text_eng = 
-1	ikijoru	_	_	_	_	_	_	_	_
-2	panure	pa	NOUN	n	_	_	_	_	_
-3	Paoce	_	_	_	_	_	_	_	_
+1	ikijoru	_	NOUN	v	Number=Sinf|Person=1	_	_	_	_
+2	panure	pa	PRON	bi	Aspect=Prog|Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	_
+3	Pao	o	NOUN	n	Clusivity=In|Number=Plur|Person=1	_	_	_	_
+4	ce	ce	NOUN	n	_	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0629
@@ -2356,7 +2357,7 @@
 # text_por = eu não pegarei.
 # text_eng = 
 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
 2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3128,7 +3129,7 @@
 # text = ure inoiogwarido .
 # text_por = ele me fez gritar.
 # text_eng = 
-1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
+1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
 2	inoiogwarido	oiogwari	VERB	v	Mood=Ind|Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3136,79 +3137,72 @@
 # text = bure okea .
 # text_por = a palma do pé.
 # text_eng = 
-1	bure	_	_	_	_	_	_	_	_
-2	okea	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	bure	bure	NOUN	n	_	2	nmod	_	_
+2	okea	okea	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0965
 # text = iera okea .
 # text_por = a palma da mão.
 # text_eng = 
-1	iera	_	_	_	_	_	_	_	_
-2	okea	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iera	era	NOUN	n	_	2	nmod	_	_
+2	okea	okea	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0966
 # text = itogeare .
 # text_por = eu desejo.
 # text_eng = 
-1	itogeare	_	_	_	_	0	root	_	_
+1	itogeare	okea	NOUN	n	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0967
 # text = itogeabadure .
 # text_por = estou de barriga para o ar.
 # text_eng = 
-1	itogeabadure	_	_	_	_	0	root	_	_
+1	itogeabadure	okeabadure	NOUN	n	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0968
 # text = itoki karega ure tai .
 # text_por = eu não estou insultando vocês.
 # text_eng = 
-1	itoki	_	_	_	_	_	_	_	_
-2	karega	_	_	_	_	_	_	_	_
+1	itoki	oki	NOUN	n	Number=Sing|Person=1	_	_	_	_
+2	karega	karega	AUX	x	Mood=Ind|Polarity=Neg	_	aux	_	_
 3	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-4	tai	ta	PRON	bi	Number=Plur|Person=2|VerbForm=Ger	_	nsubj	_	_
+4	tai	ta	ADP	posp	Number=Plur|Person=2	_	obl	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_0969
 # text = ire inogiegi .
 # text_por = eu contei.
 # text_eng = 
-1	ire	i	PRON	bi	Number=Sing|Person=1	_	nsubj	_	_
-2	inogiegi	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
+2	inogiegi	okiegi	VERB	v	Number=Sing|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0970
 # text = boe enogiegidae .
 # text_por = os nomes das coisas, a fala dos Bororo.
 # text_eng = 
-1	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-2	enogiegidae	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	boe	boe	NOUN	n	Number=Sing	2	nmod	_	_
+2	enogiegidae	okiegidae	NOUN	n	Number=Plur|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0973
 # text = inogituware ei .
 # text_por = eu os aconselhei.
 # text_eng = 
-1	inogituware	_	_	_	_	_	_	_	_
-2	ei	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = dic_0974
-# text = okiwoe .
-# text_por = pL de okiwa.
-# text_eng = 
-1	okiwoe	_	_	_	_	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
+1	inogituware	ogituwa	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	ei	ji	ADP	posp	Number=Plur|Person=3	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0982
 # text = ire inogwabi ji .
 # text_por = eu o beijei.
 # text_eng = 
-1	ire	i	PRON	bi	Number=Sing|Person=1	2	nsubj	_	_
-2	inogwabi	_	_	_	_	0	root	_	_
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
+2	inogwabi	okwabi	NOUN	n	Number=Sing|Person=1	0	root	_	_
 3	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3216,46 +3210,45 @@
 # text = okwabu kurirewu .
 # text_por = de barba longa, barbudo.
 # text_eng = 
-1	okwabu	_	_	_	_	_	_	_	_
-2	kurirewu	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	okwabu	okwabu	NOUN	n	_	0	root	_	_
+2	kurirewu	kuri	NOUN	n	Mood=Ind|Nomzr=Rel	1	nmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0984
 # text = okwa jerebarire apo .
 # text_por = elogiou-o, o exaltou.
 # text_eng = 
-
-1	okwa	_	_	_	_	_	_	_	_
-2	jerebarire	_	_	_	_	_	_	_	_
-3	apo	apo	ADP	posp	Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	okwa	okwa	NOUN	n	_	2	nmod	_	_
+2	jerebarire	jerebari	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	apo	apo	ADP	posp	Number=Sing|Person=1	2	obl	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0985
 # text = ire inogwamu .
 # text_por = eu soprei.
 # text_eng = 
-1	ire	i	PRON	bi	Number=Sing|Person=1	_	nsubj	_	_
-2	inogwamu	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
+2	inogwamu	okwamu	VERB	v	Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0986
 # text = boe enogwamudu .
 # text_por = sopro de alguém.
 # text_eng = 
-1	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-2	enogwamudu	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	boe	boe	NOUN	n	Number=Sing	2	nsubj	_	_
+2	enogwamudu	okwamudu	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0988
 # text = iwiapaga okwarinure ero oino dukae .
 # text_por = sempre estou pondo atenção ao que eles fazem.
 # text_eng = 
-1	iwiapaga	biapaga	_	_	_	_	_	_	_
-2	okwarinure	okwari	_	_	_	_	_	_	_
-3	ero	ro	_	_	_	_	_	_	_
-4	oino	oino	_	_	_	_	_	_	_
-5	dukae	du	X	X	_	_	_	_	PosMorphAnnot=_
-6	.	.	PUNCT	punct	_	_	punct	_	_
+1	iwiapaga	biapaga	VERB	v	Number=Sing|Person=1	0	root	_	_
+2	okwarinure	okwari	ADV	adv	Aspect=Prog|Mood=Ind	1	advmod	_	_
+3	ero	ro	NOUN	n	Number=Plur|Person=3	1	obl	_	_
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	dukae	du	X	X	_	3	case	_	PosMorphAnnot=_
+6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0993
 # text = akonagodure amagoi bapera ji tuji .
@@ -3269,47 +3262,38 @@
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_0994
-# text = eture pudouaji .
+# text = eture pudonaji .
 # text_por = foram embora um atrás do outro.
 # text_eng = 
 1	eture	tu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-2	pudouaji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
+2	pudonaji	onaji	ADP	posp	PronType=Rcp	2	obl	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1000
 # text = cere bai otoborado .
 # text_por = trançamos a palha.
 # text_eng = 
-
-1	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-2	bai	bai	NOUN	n	_	_	_	_	_
-3	otoborado	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	_
+2	bai	bai	NOUN	n	_	3	obj	_	_
+3	otoborado	otobora	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1011
 # text = ae otowubo .
 # text_por = levante o rosto.
 # text_eng = 
-
-1	ae	ae	ADP	posp	Number=Sing|Person=3	_	_	_	PosMorphAnnot=_
-2	otowubo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
-
-# sent_id = dic_1012
-# text = paduwo (vamos embora .
-# text_por = todos os presentes.
-# text_eng = 
-1	paduwo	_	_	_	_	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
+1	ae	ae	ADP	posp	Number=Sing|Person=3	2	obj	_	PosMorphAnnot=_
+2	otowubo	otowubo	VERB	v	Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1014
 # text = pare ki bito .
 # text_por = nós todos matamos a anta.
 # text_eng = 
-1	pare	_	_	_	_	_	_	_	_
-2	ki	ki	NOUN	n	_	_	_	_	PosMorphAnnot=_
-3	bito	bito	VERB	vt	Number=Sing|Person=3	_	_	_	PosMorphAnnot=_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	pare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1	_	_	_	_
+2	ki	ki	NOUN	n	_	3	obj	_	PosMorphAnnot=_
+3	bito	bito	VERB	vt	Number=Sing|Person=3	0	root	_	PosMorphAnnot=_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1015
 # text = pao akore pai .
@@ -3326,32 +3310,32 @@
 # text_eng = 
 1	Boe	boe	NOUN	n	Number=Sing	2	nmod	_	PosMorphAnnot=AI:FEATS
 2	epa	pa	NOUN	n	Number=Plur|Person=3	0	root	_	_
-3	reno	reno	AUX	_	_	2	aux	_	_
+3	reno	reno	AUX	aux	_	2	aux	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1018
-# text = ipa pa? .
+# text = ipa pa ?
 # text_por = onde é meu lugar?.
 # text_eng = 
-1	ipa	_	_	_	_	_	_	_	_
-2	pa?	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ipa	pa	NOUN	n	Number=Sing|Person=1	0	root	_	_
+2	pa	pa	ADV	adv	_	1	advmod	_	_
+3	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1019
-# text = ema pa? .
-# text_por = cadê ele? onde ele está?.
+# text = ema pa ?
+# text_por = cadê ele? onde ele está?
 # text_eng = 
-1	ema	_	_	_	_	_	_	_	_
-2	pa?	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	pa	pa	ADV	adv	_	1	advmod	_	_
+3	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1020
 # text = ure pado boe maku .
 # text_por = ele nos fez dar algo.
 # text_eng = 
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	_
-2	pado	_	_	_	_	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	_	_	_	_
+3	boe	boe	NOUN	n	Number=Sing	4	_	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -3359,9 +3343,8 @@
 # text = ure pado amaragodudo .
 # text_por = ele nos fez fazer você trabalhar.
 # text_eng = 
-
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	pado	_	_	_	_	_	_	_	_
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	_	_	_	_
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -3369,9 +3352,8 @@
 # text = ure pado pamagu .
 # text_por = ele nos obrigou a nos entregarmos.
 # text_eng = 
-
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	pado	_	_	_	_	_	_	_	_
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	_	_	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 
@@ -3379,9 +3361,8 @@
 # text = ure pado pageragu iaboeji .
 # text_por = ele nos fez pegar algo.
 # text_eng = 
-
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	nsubj	_	_
-2	pado	_	_	_	_	_	_	_	_
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	_	_	_	_
 3	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
 4	iaboeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
@@ -3390,39 +3371,39 @@
 # text = pagaidure .
 # text_por = nós queremos.
 # text_eng = 
-1	pagaidure	_	_	_	_	0	root	_	_
+1	pagaidure	aidu	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1025
 # text = pagaora .
 # text_por = nossa cabeça.
 # text_eng = 
-1	pagaora	_	_	_	_	0	root	_	_
+1	pagaora	aora	NOUN	n	Clusivity=In|Number=Plur|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1026
 # text = ipagamode awogai .
 # text_por = eu esperarei por você.
 # text_eng = 
-1	ipagamode	_	_	_	_	_	_	_	_
-2	awogai	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	ipagamode	paga	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	_
+2	awogai	bogai	ADP	posp	Number=Sing|Person=1	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1027
 # text = apagado bakowu kae .
 # text_por = atravesse para o outro lado.
 # text_eng = 
-1	apagado	_	_	_	_	_	_	_	_
-2	bakowu	_	_	_	_	_	_	_	_
-3	kae	kae	ADP	posp	Number=Sing|Person=3	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	apagado	paga	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	bakowu	bakowu	NOUN	n	_	1	obl	_	_
+3	kae	kae	ADP	posp	Number=Sing|Person=3	2	case	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1028
 # text = akore pagae boe maku .
 # text_por = falou que nós não demos algo.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	pagae	_	_	_	_	_	_	_	_
+2	pagae	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|Speech=Ind	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -3431,9 +3412,8 @@
 # text = akore pagae amaragodudo .
 # text_por = falou que nós não fizemos você trabalhar.
 # text_eng = 
-
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	pagae	_	_	_	_	_	_	_	_
+2	pagae	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|Speech=Ind	3	nsubj	_	_
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	1	ccomp	_	_|_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -3441,127 +3421,115 @@
 # text = akore pagae pamagu .
 # text_por = falou que nós não nos entregamos.
 # text_eng = 
-
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	pagae	_	_	_	_	_	_	_	_
+2	pagae	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|Speech=Ind	3	nsubj	_	_
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	1	ccomp	_	_|_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1031
-# text = ref) akore pagae pageragu boe ji .
+# text = akore pagae pageragu boe ji .
 # text_por = falou que nós não pegamos algo.
 # text_eng = 
-
-1	ref)	_	_	_	_	_	_	_	_
-2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	pagae	_	_	_	_	_	_	_	_
-4	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-5	boeji	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
-6	.	.	PUNCT	punct	_	2	punct	_	_
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	pagae	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|Speech=Ind	3	nsubj	_	_
+3	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	ccomp	_	_
+4	boe	boe	NOUN	n	Number=Sing	3	obl	_	_
+5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1033
 # text = pagai amaragodudo .
 # text_por = nós não fazendo você trabalhar.
 # text_eng = 
-
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
-2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1034
 # text = pagai pamagu .
 # text_por = nós não nos entregando.
 # text_eng = 
-
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
-2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1035
 # text = pagai pageragu boe ji .
 # text_por = nós não pegando algo.
 # text_eng = 
-
-1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	_	_	_	_
-2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	pagai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|VerbForm=Ger	2	nsubj	_	_
+2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1037
 # text = pagare amaragodudo .
 # text_por = nós não fizemos você fez trabalhar.
 # text_eng = 
-
-1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1038
-# text = (v.rejl.) pagare pamagu .
+# text = pagare pamagu .
 # text_por = nós não nos entregamos.
 # text_eng = 
-
-1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1039
 # text = pagare pageragu boe ji .
 # text_por = nós não pegamos algo.
 # text_eng = 
-
-1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1040
-# text = pagawo boe rnaku .
+# text = pagawo boe maku .
 # text_por = para nós não darmos algo.
 # text_eng = 
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-2	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-3	rnaku	_	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	3	nsubj	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
+3	maku	maku	VERB	v	Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1041
-# text = pagawo arnaragodudo .
+# text = pagawo amaragodudo .
 # text_por = para nós não fazermos você trabalhar.
 # text_eng = 
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-2	arnaragodudo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1042
-# text = (v.rejl.) pagawo pamagu .
+# text = pagawo pamagu .
 # text_por = para nós não nos entregarmos.
 # text_eng = 
-
-1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1043
 # text = pagawo pageragu boe ji .
 # text_por = para nós não pegarmos algo.
 # text_eng = 
-
-1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	_	_	_	_
-2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	pagawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Polarity=Neg	2	nsubj	_	_
+2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1044
 # text = akore pagie .
 # text_por = disse que somos nós.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	pagie	_	_	_	_	_	_	_	_
+2	pagie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	1	ccomp	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1045
@@ -3569,8 +3537,8 @@
 # text_por = disse que somos nós que iremos.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	pagie	_	_	_	_	_	_	_	_
-3	padumode	_	_	_	_	_	_	_	_
+2	pagie	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Ind	3	nsubj	_	_
+3	padumode	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1046
@@ -3585,38 +3553,34 @@
 # text = pai pageragu boe ji .
 # text_por = nós pegando algo.
 # text_eng = 
-
-
-1	pai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|VerbForm=Ger	_	nsubj	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
-2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	pai	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|VerbForm=Ger	2	nsubj	_	_
+2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1050
 # text = paia boe maku .
 # text_por = pudéramos nós darmos algo, se nós déssemos algo.
 # text_eng = 
-
-1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	_	nsubj	_	_
+1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = dic_1051
-# text = paia arnaragodudo .
+# text = paia amaragodudo .
 # text_por = pudéramos nós te fazer trabalhar, se nós pudéssemos te fazer trabalhar.
 # text_eng = 
-1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	_	nsubj	_	_
-2	arnaragodudo	_	_	_	_	0	root	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	2	nsubj	_	_
+2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1052
 # text = paia pamagu .
 # text_por = pudéramos nós nos entregarmos, se nós nos entregássemos.
 # text_eng = 
-
-1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	_	nsubj	_	_
+1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	2	nsubj	_	_
 2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3624,10 +3588,9 @@
 # text = paia pageragu boe ji .
 # text_por = pudéramos nós pegar, se nós pudéssemos pegar algo.
 # text_eng = 
-
-1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	_	nsubj	_	_
+1	paia	pa	PRON	bi	Clusivity=In|Mood=Opt|Number=Plur|Person=1	2	nsubj	_	_
 2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -3635,58 +3598,47 @@
 # text = paiagu amaragodudo .
 # text_por = que é para nós te fazermos trabalhar.
 # text_eng = 
-
-1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1056
-# text = (v.rejl.) paiagu pamagu .
+# text = paiagu pamagu .
 # text_por = que é para nós nos entregarmos.
 # text_eng = 
-
-1	(v.rejl.)	_	_	_	_	_	_	_	_
-2	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
-3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
+2	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = dic_1057
 # text = paiagu pageragu boe ji .
 # text_por = que é para nós pegarmos algo.
 # text_eng = 
-
-1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	_	_	_	_
-2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	_	_	_	_
-3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+1	paiagu	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Speech=Quo	2	nsubj	_	_
+2	pageragu	eragu	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1062
 # text = joruduware paiure boe maku .
 # text_por = ele sabe que nós estamos dando algo.
 # text_eng = 
-1	joruduware	_	VERB	v	_	_	_	_	_
-2	paiure	_	_	_	_	_	_	_	_
+1	joruduware	joruduwa	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	paiure	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
-4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
+4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_1063
 # text = jorudure paiure boe maku .
 # text_por = ele viu que nós estávamos dando algo.
 # text_eng = 
-1	jorudure	_	VERB	v	_	_	_	_	_
-2	paiure	_	_	_	_	_	_	_	_
+1	jorudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	paiure	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id = dic_1064
-# text = Paiwe .
-# text_por = vart. de paiwoe.
-# text_eng = 
-1	Paiwe	_	_	_	_	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = dic_1069
 # text = inagore pamoduie boe maku .
@@ -4987,7 +4939,7 @@
 # text_por = eu disse que ele não ia dar nada.
 # text_eng = 
 1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	umodukae	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg|Speech=Ind|Status=Irr	4	nsubj	_	_
+2	umodukae	u	PRON	bi	Number=Sing|Person=3|Speech=Ind|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -5502,7 +5454,7 @@
 # text_por = falou que você não deu algo.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	akae	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	ccomp	_	_
+2	akae	ae	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	ccomp	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -5512,7 +5464,7 @@
 # text_por = falou que você não me fez trabalhar.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	akae	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
+2	akae	ae	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
 3	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -5521,7 +5473,7 @@
 # text_por = falou que você não se entregou.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	akae	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
+2	akae	ae	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
 3	amagu	maku	VERB	vt	Number=Sing|Person=2	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -5530,7 +5482,7 @@
 # text_por = falou que você não pegou algo.
 # text_eng = 
 1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	akae	a	PRON	bi	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
+2	akae	ae	ADP	posp	Number=Sing|Person=2|Polarity=Neg|Speech=Ind	3	nsubj	_	_
 3	akeragu	eragu	VERB	v	Number=Sing|Person=2	1	ccomp	_	_
 4	boe	boe	NOUN	n	Number=Sing	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	_
@@ -6745,7 +6697,7 @@
 # text = ei boe maku .
 # text_por = eles dando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	3	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6754,7 +6706,7 @@
 # text = ei imaragodudo .
 # text_por = eles me fazendo trabalhar.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6762,7 +6714,7 @@
 # text = ei tumagu .
 # text_por = eles se entregando.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6770,7 +6722,7 @@
 # text = ei tugeragu boe ji .
 # text_por = eles pegando algo.
 # text_eng = 
-1	ei	e	PRON	bi	Number=Plur|Person=3|VerbForm=Ger	2	nsubj	_	_
+1	ei	e	PRON	bi	Number=Plur|Number=3|VerbForm=Ger	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -6780,7 +6732,7 @@
 # text = eia boe maku .
 # text_por = pudera que eles dessem algo, se eles dessem algo.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	3	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6789,7 +6741,7 @@
 # text = eia imaragodudo .
 # text_por = pudera que eles me fizessem trabalhar, se eles pudessem me fazer trabalhar.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6797,7 +6749,7 @@
 # text = eia tumagu .
 # text_por = pudera que eles se entregassem, se eles se entregassem.
 # text_eng = 
-1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Person=3	2	nsubj	_	_
+1	eia	e	PRON	bi	Mood=Opt|Number=Plur|Number=3	2	nsubj	_	_
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -6879,7 +6831,7 @@
 # text_por = para eles não darem algo.
 # text_eng = 
 
-1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3|Polarity=Neg	3	nsubj	_	_|_
+1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3	3	nsubj	_	_|_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -6888,7 +6840,7 @@
 # text = ekawo tugeragu boe ji .
 # text_por = par eles não pegarem algo.
 # text_eng = 
-1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3|Polarity=Neg	2	nsubj	_	_
+1	ekawo	e	PRON	bi	Mood=Sub|Number=Plur|Person=3	2	nsubj	_	_
 2	tugeragu	eragu	VERB	v	Number=Sing|Person=3|Reflex=Yes	0	root	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	_
@@ -7253,7 +7205,7 @@
 # text = imodukare boe maku .
 # text_por = eu não vou dar, ou eu não darei, algo.
 # text_eng = 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	3	nsubj	_	_
 2	boe	boe	NOUN	n	Number=Sing	3	obj	_	_
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
@@ -7263,7 +7215,7 @@
 # text_por = eu não farei você trabalhar.
 # text_eng = 
 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
 2	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -7271,7 +7223,7 @@
 # text = imodukare imagu .
 # text_por = eu não me entregarei.
 # text_eng = 
-1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	2	nsubj	_	_
+1	imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
 2	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
