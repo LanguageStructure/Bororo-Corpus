@@ -205,7 +205,7 @@ def generator_attested_forms(path):
 def annotation_completeness(row):
  lexical=bool(row.get('lemma') and row.get('upos'))
  morphology=bool(row.get('feats'))
- syntax=bool(row.get('head') and row.get('deprel'))
+ syntax=bool(str(row.get('head','')) != '' and row.get('deprel'))
  return {'lexical':lexical,'morphology':morphology,'syntax':syntax}
 def dictionary_annotation_data():
  # Combine token-level annotation from dictionary and Bororo2.
