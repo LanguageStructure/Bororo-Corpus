@@ -140358,7 +140358,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	emodukae	e	VERB	v	Mood=Ind|Number=Plur|Person=3|Speech=Quo|Status=Irr	4	nsubj	_	_
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = dic_0512
 # source_conllu = exemplosDicBor
