@@ -1,0 +1,1004 @@
+sent_id	token_id	form	field	old	new	exact_parallel
+930-9	1	Mare	HEAD	_	2	Mare emagokare .
+930-9	1	Mare	DEPREL	_	cc	Mare emagokare .
+930-9	2	emagokare	HEAD	_	0	Mare emagokare .
+930-9	2	emagokare	DEPREL	_	root	Mare emagokare .
+930-9	3	.	HEAD	_	2	Mare emagokare .
+484-15	1	Dukeje	HEAD	_	3	Dukeje icare iture .
+484-15	2	icare	HEAD	_	3	Dukeje icare iture .
+484-15	3	iture	HEAD	_	0	Dukeje icare iture .
+484-15	3	iture	DEPREL	_	root	Dukeje icare iture .
+484-15	4	.	HEAD	_	3	Dukeje icare iture .
+954-8	1	Dukeje	HEAD	_	3	Dukeje icare iture .
+954-8	2	icare	HEAD	_	3	Dukeje icare iture .
+954-8	3	iture	HEAD	_	0	Dukeje icare iture .
+954-8	3	iture	DEPREL	_	root	Dukeje icare iture .
+954-8	4	.	HEAD	_	3	Dukeje icare iture .
+982-3	1	Dukeje	HEAD	_	3	Dukeje icare iture .
+982-3	2	icare	HEAD	_	3	Dukeje icare iture .
+982-3	3	iture	HEAD	_	0	Dukeje icare iture .
+982-3	3	iture	DEPREL	_	root	Dukeje icare iture .
+982-3	4	.	HEAD	_	3	Dukeje icare iture .
+492-5	1	Boe	HEAD	_	2	Boe emagare .
+492-5	1	Boe	DEPREL	_	nsubj	Boe emagare .
+492-5	2	emagare	HEAD	_	0	Boe emagare .
+492-5	2	emagare	DEPREL	_	root	Boe emagare .
+492-5	3	.	HEAD	_	2	Boe emagare .
+566-13	1	Icare	HEAD	_	2	Icare cedaregodure .
+566-13	2	cedaregodure	HEAD	_	0	Icare cedaregodure .
+566-13	2	cedaregodure	DEPREL	_	root	Icare cedaregodure .
+566-13	3	.	HEAD	_	2	Icare cedaregodure .
+726-10	1	Akore	HEAD	_	0	Akore ii .
+726-10	1	Akore	DEPREL	_	root	Akore ii .
+726-10	2	ii	HEAD	_	1	Akore ii .
+726-10	2	ii	DEPREL	_	obl	Akore ii .
+726-10	3	.	HEAD	_	1	Akore ii .
+952-3	1	Boe	HEAD	_	2	Boe emagaguraga .
+952-3	1	Boe	DEPREL	_	nsubj	Boe emagaguraga .
+952-3	2	emagaguraga	LEMMA	_	emaga	Boe emagaguraga .
+952-3	2	emagaguraga	UPOS	_	PRON	Boe emagaguraga .
+952-3	2	emagaguraga	FEATS	_	Number=Col	Boe emagaguraga .
+952-3	2	emagaguraga	HEAD	_	0	Boe emagaguraga .
+952-3	2	emagaguraga	DEPREL	_	root	Boe emagaguraga .
+952-3	3	.	HEAD	_	2	Boe emagaguraga .
+126-1	1	Icare	HEAD	_	2	Icare iture .
+126-1	2	iture	HEAD	_	0	Icare iture .
+126-1	2	iture	DEPREL	_	root	Icare iture .
+126-1	3	.	HEAD	_	2	Icare iture .
+133-1	1	Icare	HEAD	_	2	Icare iture .
+133-1	2	iture	HEAD	_	0	Icare iture .
+133-1	2	iture	DEPREL	_	root	Icare iture .
+133-1	3	.	HEAD	_	2	Icare iture .
+149-1	1	Icare	HEAD	_	2	Icare iture .
+149-1	2	iture	HEAD	_	0	Icare iture .
+149-1	2	iture	DEPREL	_	root	Icare iture .
+149-1	3	.	HEAD	_	2	Icare iture .
+151-1	1	Icare	HEAD	_	2	Icare iture .
+151-1	2	iture	HEAD	_	0	Icare iture .
+151-1	2	iture	DEPREL	_	root	Icare iture .
+151-1	3	.	HEAD	_	2	Icare iture .
+183-9	1	Icare	HEAD	_	2	Icare iture .
+183-9	2	iture	HEAD	_	0	Icare iture .
+183-9	2	iture	DEPREL	_	root	Icare iture .
+183-9	3	.	HEAD	_	2	Icare iture .
+185-2	1	Icare	HEAD	_	2	Icare iture .
+185-2	2	iture	HEAD	_	0	Icare iture .
+185-2	2	iture	DEPREL	_	root	Icare iture .
+185-2	3	.	HEAD	_	2	Icare iture .
+360-2	1	Icare	HEAD	_	2	Icare iture .
+360-2	2	iture	HEAD	_	0	Icare iture .
+360-2	2	iture	DEPREL	_	root	Icare iture .
+360-2	3	.	HEAD	_	2	Icare iture .
+392-1	1	Icare	HEAD	_	2	Icare iture .
+392-1	2	iture	HEAD	_	0	Icare iture .
+392-1	2	iture	DEPREL	_	root	Icare iture .
+392-1	3	.	HEAD	_	2	Icare iture .
+392-3	1	Icare	HEAD	_	2	Icare iture .
+392-3	2	iture	HEAD	_	0	Icare iture .
+392-3	2	iture	DEPREL	_	root	Icare iture .
+392-3	3	.	HEAD	_	2	Icare iture .
+412-1	1	Icare	HEAD	_	2	Icare iture .
+412-1	2	iture	HEAD	_	0	Icare iture .
+412-1	2	iture	DEPREL	_	root	Icare iture .
+412-1	3	.	HEAD	_	2	Icare iture .
+465-1	1	Icare	HEAD	_	2	Icare iture .
+465-1	2	iture	HEAD	_	0	Icare iture .
+465-1	2	iture	DEPREL	_	root	Icare iture .
+465-1	3	.	HEAD	_	2	Icare iture .
+476-5	1	Icare	HEAD	_	2	Icare iture .
+476-5	2	iture	HEAD	_	0	Icare iture .
+476-5	2	iture	DEPREL	_	root	Icare iture .
+476-5	3	.	HEAD	_	2	Icare iture .
+489-10	1	Icare	HEAD	_	2	Icare iture .
+489-10	2	iture	HEAD	_	0	Icare iture .
+489-10	2	iture	DEPREL	_	root	Icare iture .
+489-10	3	.	HEAD	_	2	Icare iture .
+508-1	1	Icare	HEAD	_	2	Icare iture .
+508-1	2	iture	HEAD	_	0	Icare iture .
+508-1	2	iture	DEPREL	_	root	Icare iture .
+508-1	3	.	HEAD	_	2	Icare iture .
+533-9	1	Icare	HEAD	_	2	Icare iture .
+533-9	2	iture	HEAD	_	0	Icare iture .
+533-9	2	iture	DEPREL	_	root	Icare iture .
+533-9	3	.	HEAD	_	2	Icare iture .
+546-15	1	Icare	HEAD	_	2	Icare iture .
+546-15	2	iture	HEAD	_	0	Icare iture .
+546-15	2	iture	DEPREL	_	root	Icare iture .
+546-15	3	.	HEAD	_	2	Icare iture .
+730-10	1	Icare	HEAD	_	2	Icare iture .
+730-10	2	iture	HEAD	_	0	Icare iture .
+730-10	2	iture	DEPREL	_	root	Icare iture .
+730-10	3	.	HEAD	_	2	Icare iture .
+733-1	1	Icare	HEAD	_	2	Icare iture .
+733-1	2	iture	HEAD	_	0	Icare iture .
+733-1	2	iture	DEPREL	_	root	Icare iture .
+733-1	3	.	HEAD	_	2	Icare iture .
+932-6	1	Icare	HEAD	_	2	Icare iture .
+932-6	2	iture	HEAD	_	0	Icare iture .
+932-6	2	iture	DEPREL	_	root	Icare iture .
+932-6	3	.	HEAD	_	2	Icare iture .
+935-1	1	Icare	HEAD	_	2	Icare iture .
+935-1	2	iture	HEAD	_	0	Icare iture .
+935-1	2	iture	DEPREL	_	root	Icare iture .
+935-1	3	.	HEAD	_	2	Icare iture .
+941-7	1	Icare	HEAD	_	2	Icare iture .
+941-7	2	iture	HEAD	_	0	Icare iture .
+941-7	2	iture	DEPREL	_	root	Icare iture .
+941-7	3	.	HEAD	_	2	Icare iture .
+964-13	1	Icare	HEAD	_	2	Icare iture .
+964-13	2	iture	HEAD	_	0	Icare iture .
+964-13	2	iture	DEPREL	_	root	Icare iture .
+964-13	3	.	HEAD	_	2	Icare iture .
+975-1	1	Icare	HEAD	_	2	Icare iture .
+975-1	2	iture	HEAD	_	0	Icare iture .
+975-1	2	iture	DEPREL	_	root	Icare iture .
+975-1	3	.	HEAD	_	2	Icare iture .
+552-16	1	Icare	HEAD	_	2	Icare cenudure .
+552-16	2	cenudure	LEMMA	_	nudu	Icare cenudure .
+552-16	2	cenudure	UPOS	_	VERB	Icare cenudure .
+552-16	2	cenudure	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Icare cenudure .
+552-16	2	cenudure	HEAD	_	0	Icare cenudure .
+552-16	2	cenudure	DEPREL	_	root	Icare cenudure .
+552-16	3	.	HEAD	_	2	Icare cenudure .
+637-1	1	Icare	HEAD	_	2	Icare cenudure .
+637-1	2	cenudure	LEMMA	_	nudu	Icare cenudure .
+637-1	2	cenudure	UPOS	_	VERB	Icare cenudure .
+637-1	2	cenudure	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Icare cenudure .
+637-1	2	cenudure	HEAD	_	0	Icare cenudure .
+637-1	2	cenudure	DEPREL	_	root	Icare cenudure .
+637-1	3	.	HEAD	_	2	Icare cenudure .
+715-2	1	Icare	HEAD	_	2	Icare cenudure .
+715-2	2	cenudure	LEMMA	_	nudu	Icare cenudure .
+715-2	2	cenudure	UPOS	_	VERB	Icare cenudure .
+715-2	2	cenudure	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Icare cenudure .
+715-2	2	cenudure	HEAD	_	0	Icare cenudure .
+715-2	2	cenudure	DEPREL	_	root	Icare cenudure .
+715-2	3	.	HEAD	_	2	Icare cenudure .
+881-8	1	Icare	HEAD	_	2	Icare cenudure .
+881-8	2	cenudure	LEMMA	_	nudu	Icare cenudure .
+881-8	2	cenudure	UPOS	_	VERB	Icare cenudure .
+881-8	2	cenudure	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Icare cenudure .
+881-8	2	cenudure	HEAD	_	0	Icare cenudure .
+881-8	2	cenudure	DEPREL	_	root	Icare cenudure .
+881-8	3	.	HEAD	_	2	Icare cenudure .
+917-12	1	Icare	HEAD	_	2	Icare cenudure .
+917-12	2	cenudure	LEMMA	_	nudu	Icare cenudure .
+917-12	2	cenudure	UPOS	_	VERB	Icare cenudure .
+917-12	2	cenudure	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Icare cenudure .
+917-12	2	cenudure	HEAD	_	0	Icare cenudure .
+917-12	2	cenudure	DEPREL	_	root	Icare cenudure .
+917-12	3	.	HEAD	_	2	Icare cenudure .
+545-7	1	Icare	HEAD	_	2	Icare ikudure .
+545-7	2	ikudure	HEAD	_	0	Icare ikudure .
+545-7	2	ikudure	DEPREL	_	root	Icare ikudure .
+545-7	3	.	HEAD	_	2	Icare ikudure .
+546-13	1	Icare	HEAD	_	2	Icare ikudure .
+546-13	2	ikudure	HEAD	_	0	Icare ikudure .
+546-13	2	ikudure	DEPREL	_	root	Icare ikudure .
+546-13	3	.	HEAD	_	2	Icare ikudure .
+517-17	1	Ere	HEAD	_	0	Ere kogudo .
+517-17	1	Ere	DEPREL	_	root	Ere kogudo .
+517-17	2	kogudo	LEMMA	_	kogu	Ere kogudo .
+517-17	2	kogudo	UPOS	_	VERB	Ere kogudo .
+517-17	2	kogudo	FEATS	_	Number=Plur|Person=3|Voice=Cau	Ere kogudo .
+517-17	2	kogudo	HEAD	_	1	Ere kogudo .
+517-17	2	kogudo	DEPREL	_	ccomp	Ere kogudo .
+517-17	3	.	HEAD	_	2	Ere kogudo .
+336-4	1	Amorora	LEMMA	_	morora	Amorora amagadukaba .
+336-4	1	Amorora	UPOS	_	NOUN	Amorora amagadukaba .
+336-4	1	Amorora	FEATS	_	Number=Sing|Person=2	Amorora amagadukaba .
+336-4	1	Amorora	HEAD	_	2	Amorora amagadukaba .
+336-4	1	Amorora	DEPREL	_	nsubj	Amorora amagadukaba .
+336-4	2	amagadukaba	LEMMA	_	magadu	Amorora amagadukaba .
+336-4	2	amagadukaba	UPOS	_	VERB	Amorora amagadukaba .
+336-4	2	amagadukaba	FEATS	_	Mod=Imp|Number=Sing|Person=2|Polarity=Neg	Amorora amagadukaba .
+336-4	2	amagadukaba	HEAD	_	0	Amorora amagadukaba .
+336-4	2	amagadukaba	DEPREL	_	root	Amorora amagadukaba .
+125-1	1	Icare	HEAD	_	2	Icare cedure .
+125-1	2	cedure	HEAD	_	0	Icare cedure .
+125-1	2	cedure	DEPREL	_	root	Icare cedure .
+125-1	3	.	HEAD	_	2	Icare cedure .
+158-1	1	Icare	HEAD	_	2	Icare cedure .
+158-1	2	cedure	HEAD	_	0	Icare cedure .
+158-1	2	cedure	DEPREL	_	root	Icare cedure .
+158-1	3	.	HEAD	_	2	Icare cedure .
+161-1	1	Icare	HEAD	_	2	Icare cedure .
+161-1	2	cedure	HEAD	_	0	Icare cedure .
+161-1	2	cedure	DEPREL	_	root	Icare cedure .
+161-1	3	.	HEAD	_	2	Icare cedure .
+305-1	1	Icare	HEAD	_	2	Icare cedure .
+305-1	2	cedure	HEAD	_	0	Icare cedure .
+305-1	2	cedure	DEPREL	_	root	Icare cedure .
+305-1	3	.	HEAD	_	2	Icare cedure .
+365-2	1	Icare	HEAD	_	2	Icare cedure .
+365-2	2	cedure	HEAD	_	0	Icare cedure .
+365-2	2	cedure	DEPREL	_	root	Icare cedure .
+365-2	3	.	HEAD	_	2	Icare cedure .
+403-1	1	Icare	HEAD	_	2	Icare cedure .
+403-1	2	cedure	HEAD	_	0	Icare cedure .
+403-1	2	cedure	DEPREL	_	root	Icare cedure .
+403-1	3	.	HEAD	_	2	Icare cedure .
+411-7	1	Icare	HEAD	_	2	Icare cedure .
+411-7	2	cedure	HEAD	_	0	Icare cedure .
+411-7	2	cedure	DEPREL	_	root	Icare cedure .
+411-7	3	.	HEAD	_	2	Icare cedure .
+412-7	1	Icare	HEAD	_	2	Icare cedure .
+412-7	2	cedure	HEAD	_	0	Icare cedure .
+412-7	2	cedure	DEPREL	_	root	Icare cedure .
+412-7	3	.	HEAD	_	2	Icare cedure .
+416-1	1	Icare	HEAD	_	2	Icare cedure .
+416-1	2	cedure	HEAD	_	0	Icare cedure .
+416-1	2	cedure	DEPREL	_	root	Icare cedure .
+416-1	3	.	HEAD	_	2	Icare cedure .
+487-2	1	Icare	HEAD	_	2	Icare cedure .
+487-2	2	cedure	HEAD	_	0	Icare cedure .
+487-2	2	cedure	DEPREL	_	root	Icare cedure .
+487-2	3	.	HEAD	_	2	Icare cedure .
+504-1	1	Icare	HEAD	_	2	Icare cedure .
+504-1	2	cedure	HEAD	_	0	Icare cedure .
+504-1	2	cedure	DEPREL	_	root	Icare cedure .
+504-1	3	.	HEAD	_	2	Icare cedure .
+505-1	1	Icare	HEAD	_	2	Icare cedure .
+505-1	2	cedure	HEAD	_	0	Icare cedure .
+505-1	2	cedure	DEPREL	_	root	Icare cedure .
+505-1	3	.	HEAD	_	2	Icare cedure .
+512-7	1	Icare	HEAD	_	2	Icare cedure .
+512-7	2	cedure	HEAD	_	0	Icare cedure .
+512-7	2	cedure	DEPREL	_	root	Icare cedure .
+512-7	3	.	HEAD	_	2	Icare cedure .
+513-1	1	Icare	HEAD	_	2	Icare cedure .
+513-1	2	cedure	HEAD	_	0	Icare cedure .
+513-1	2	cedure	DEPREL	_	root	Icare cedure .
+513-1	3	.	HEAD	_	2	Icare cedure .
+528-6	1	Icare	HEAD	_	2	Icare cedure .
+528-6	2	cedure	HEAD	_	0	Icare cedure .
+528-6	2	cedure	DEPREL	_	root	Icare cedure .
+528-6	3	.	HEAD	_	2	Icare cedure .
+536-13	1	Icare	HEAD	_	2	Icare cedure .
+536-13	2	cedure	HEAD	_	0	Icare cedure .
+536-13	2	cedure	DEPREL	_	root	Icare cedure .
+536-13	3	.	HEAD	_	2	Icare cedure .
+536-30	1	Icare	HEAD	_	2	Icare cedure .
+536-30	2	cedure	HEAD	_	0	Icare cedure .
+536-30	2	cedure	DEPREL	_	root	Icare cedure .
+536-30	3	.	HEAD	_	2	Icare cedure .
+537-10	1	Icare	HEAD	_	2	Icare cedure .
+537-10	2	cedure	HEAD	_	0	Icare cedure .
+537-10	2	cedure	DEPREL	_	root	Icare cedure .
+537-10	3	.	HEAD	_	2	Icare cedure .
+554-9	1	Icare	HEAD	_	2	Icare cedure .
+554-9	2	cedure	HEAD	_	0	Icare cedure .
+554-9	2	cedure	DEPREL	_	root	Icare cedure .
+554-9	3	.	HEAD	_	2	Icare cedure .
+559-10	1	Icare	HEAD	_	2	Icare cedure .
+559-10	2	cedure	HEAD	_	0	Icare cedure .
+559-10	2	cedure	DEPREL	_	root	Icare cedure .
+559-10	3	.	HEAD	_	2	Icare cedure .
+561-13	1	Icare	HEAD	_	2	Icare cedure .
+561-13	2	cedure	HEAD	_	0	Icare cedure .
+561-13	2	cedure	DEPREL	_	root	Icare cedure .
+561-13	3	.	HEAD	_	2	Icare cedure .
+573-1	1	Icare	HEAD	_	2	Icare cedure .
+573-1	2	cedure	HEAD	_	0	Icare cedure .
+573-1	2	cedure	DEPREL	_	root	Icare cedure .
+573-1	3	.	HEAD	_	2	Icare cedure .
+574-8	1	Icare	HEAD	_	2	Icare cedure .
+574-8	2	cedure	HEAD	_	0	Icare cedure .
+574-8	2	cedure	DEPREL	_	root	Icare cedure .
+574-8	3	.	HEAD	_	2	Icare cedure .
+576-1	1	Icare	HEAD	_	2	Icare cedure .
+576-1	2	cedure	HEAD	_	0	Icare cedure .
+576-1	2	cedure	DEPREL	_	root	Icare cedure .
+576-1	3	.	HEAD	_	2	Icare cedure .
+577-14	1	Icare	HEAD	_	2	Icare cedure .
+577-14	2	cedure	HEAD	_	0	Icare cedure .
+577-14	2	cedure	DEPREL	_	root	Icare cedure .
+577-14	3	.	HEAD	_	2	Icare cedure .
+593-1	1	Icare	HEAD	_	2	Icare cedure .
+593-1	2	cedure	HEAD	_	0	Icare cedure .
+593-1	2	cedure	DEPREL	_	root	Icare cedure .
+593-1	3	.	HEAD	_	2	Icare cedure .
+599-2	1	Icare	HEAD	_	2	Icare cedure .
+599-2	2	cedure	HEAD	_	0	Icare cedure .
+599-2	2	cedure	DEPREL	_	root	Icare cedure .
+599-2	3	.	HEAD	_	2	Icare cedure .
+599-11	1	Icare	HEAD	_	2	Icare cedure .
+599-11	2	cedure	HEAD	_	0	Icare cedure .
+599-11	2	cedure	DEPREL	_	root	Icare cedure .
+599-11	3	.	HEAD	_	2	Icare cedure .
+603-1	1	Icare	HEAD	_	2	Icare cedure .
+603-1	2	cedure	HEAD	_	0	Icare cedure .
+603-1	2	cedure	DEPREL	_	root	Icare cedure .
+603-1	3	.	HEAD	_	2	Icare cedure .
+605-6	1	Icare	HEAD	_	2	Icare cedure .
+605-6	2	cedure	HEAD	_	0	Icare cedure .
+605-6	2	cedure	DEPREL	_	root	Icare cedure .
+605-6	3	.	HEAD	_	2	Icare cedure .
+614-4	1	Icare	HEAD	_	2	Icare cedure .
+614-4	2	cedure	HEAD	_	0	Icare cedure .
+614-4	2	cedure	DEPREL	_	root	Icare cedure .
+614-4	3	.	HEAD	_	2	Icare cedure .
+615-6	1	Icare	HEAD	_	2	Icare cedure .
+615-6	2	cedure	HEAD	_	0	Icare cedure .
+615-6	2	cedure	DEPREL	_	root	Icare cedure .
+615-6	3	.	HEAD	_	2	Icare cedure .
+616-1	1	Icare	HEAD	_	2	Icare cedure .
+616-1	2	cedure	HEAD	_	0	Icare cedure .
+616-1	2	cedure	DEPREL	_	root	Icare cedure .
+616-1	3	.	HEAD	_	2	Icare cedure .
+617-1	1	Icare	HEAD	_	2	Icare cedure .
+617-1	2	cedure	HEAD	_	0	Icare cedure .
+617-1	2	cedure	DEPREL	_	root	Icare cedure .
+617-1	3	.	HEAD	_	2	Icare cedure .
+619-18	1	Icare	HEAD	_	2	Icare cedure .
+619-18	2	cedure	HEAD	_	0	Icare cedure .
+619-18	2	cedure	DEPREL	_	root	Icare cedure .
+619-18	3	.	HEAD	_	2	Icare cedure .
+654-13	1	Icare	HEAD	_	2	Icare cedure .
+654-13	2	cedure	HEAD	_	0	Icare cedure .
+654-13	2	cedure	DEPREL	_	root	Icare cedure .
+654-13	3	.	HEAD	_	2	Icare cedure .
+655-5	1	Icare	HEAD	_	2	Icare cedure .
+655-5	2	cedure	HEAD	_	0	Icare cedure .
+655-5	2	cedure	DEPREL	_	root	Icare cedure .
+655-5	3	.	HEAD	_	2	Icare cedure .
+660-7	1	Icare	HEAD	_	2	Icare cedure .
+660-7	2	cedure	HEAD	_	0	Icare cedure .
+660-7	2	cedure	DEPREL	_	root	Icare cedure .
+660-7	3	.	HEAD	_	2	Icare cedure .
+700-1	1	Icare	HEAD	_	2	Icare cedure .
+700-1	2	cedure	HEAD	_	0	Icare cedure .
+700-1	2	cedure	DEPREL	_	root	Icare cedure .
+700-1	3	.	HEAD	_	2	Icare cedure .
+712-1	1	Icare	HEAD	_	2	Icare cedure .
+712-1	2	cedure	HEAD	_	0	Icare cedure .
+712-1	2	cedure	DEPREL	_	root	Icare cedure .
+712-1	3	.	HEAD	_	2	Icare cedure .
+717-11	1	Icare	HEAD	_	2	Icare cedure .
+717-11	2	cedure	HEAD	_	0	Icare cedure .
+717-11	2	cedure	DEPREL	_	root	Icare cedure .
+717-11	3	.	HEAD	_	2	Icare cedure .
+721-1	1	Icare	HEAD	_	2	Icare cedure .
+721-1	2	cedure	HEAD	_	0	Icare cedure .
+721-1	2	cedure	DEPREL	_	root	Icare cedure .
+721-1	3	.	HEAD	_	2	Icare cedure .
+735-1	1	Icare	HEAD	_	2	Icare cedure .
+735-1	2	cedure	HEAD	_	0	Icare cedure .
+735-1	2	cedure	DEPREL	_	root	Icare cedure .
+735-1	3	.	HEAD	_	2	Icare cedure .
+748-1	1	Icare	HEAD	_	2	Icare cedure .
+748-1	2	cedure	HEAD	_	0	Icare cedure .
+748-1	2	cedure	DEPREL	_	root	Icare cedure .
+748-1	3	.	HEAD	_	2	Icare cedure .
+763-1	1	Icare	HEAD	_	2	Icare cedure .
+763-1	2	cedure	HEAD	_	0	Icare cedure .
+763-1	2	cedure	DEPREL	_	root	Icare cedure .
+763-1	3	.	HEAD	_	2	Icare cedure .
+790-8	1	Icare	HEAD	_	2	Icare cedure .
+790-8	2	cedure	HEAD	_	0	Icare cedure .
+790-8	2	cedure	DEPREL	_	root	Icare cedure .
+790-8	3	.	HEAD	_	2	Icare cedure .
+832-6	1	Icare	HEAD	_	2	Icare cedure .
+832-6	2	cedure	HEAD	_	0	Icare cedure .
+832-6	2	cedure	DEPREL	_	root	Icare cedure .
+832-6	3	.	HEAD	_	2	Icare cedure .
+853-12	1	Icare	HEAD	_	2	Icare cedure .
+853-12	2	cedure	HEAD	_	0	Icare cedure .
+853-12	2	cedure	DEPREL	_	root	Icare cedure .
+853-12	3	.	HEAD	_	2	Icare cedure .
+855-11	1	Icare	HEAD	_	2	Icare cedure .
+855-11	2	cedure	HEAD	_	0	Icare cedure .
+855-11	2	cedure	DEPREL	_	root	Icare cedure .
+855-11	3	.	HEAD	_	2	Icare cedure .
+883-11	1	Icare	HEAD	_	2	Icare cedure .
+883-11	2	cedure	HEAD	_	0	Icare cedure .
+883-11	2	cedure	DEPREL	_	root	Icare cedure .
+883-11	3	.	HEAD	_	2	Icare cedure .
+883-26	1	Icare	HEAD	_	2	Icare cedure .
+883-26	2	cedure	HEAD	_	0	Icare cedure .
+883-26	2	cedure	DEPREL	_	root	Icare cedure .
+883-26	3	.	HEAD	_	2	Icare cedure .
+893-13	1	Icare	HEAD	_	2	Icare cedure .
+893-13	2	cedure	HEAD	_	0	Icare cedure .
+893-13	2	cedure	DEPREL	_	root	Icare cedure .
+893-13	3	.	HEAD	_	2	Icare cedure .
+909-1	1	Icare	HEAD	_	2	Icare cedure .
+909-1	2	cedure	HEAD	_	0	Icare cedure .
+909-1	2	cedure	DEPREL	_	root	Icare cedure .
+909-1	3	.	HEAD	_	2	Icare cedure .
+912-2	1	Icare	HEAD	_	2	Icare cedure .
+912-2	2	cedure	HEAD	_	0	Icare cedure .
+912-2	2	cedure	DEPREL	_	root	Icare cedure .
+912-2	3	.	HEAD	_	2	Icare cedure .
+916-1	1	Icare	HEAD	_	2	Icare cedure .
+916-1	2	cedure	HEAD	_	0	Icare cedure .
+916-1	2	cedure	DEPREL	_	root	Icare cedure .
+916-1	3	.	HEAD	_	2	Icare cedure .
+917-25	1	Icare	HEAD	_	2	Icare cedure .
+917-25	2	cedure	HEAD	_	0	Icare cedure .
+917-25	2	cedure	DEPREL	_	root	Icare cedure .
+917-25	3	.	HEAD	_	2	Icare cedure .
+918-9	1	Icare	HEAD	_	2	Icare cedure .
+918-9	2	cedure	HEAD	_	0	Icare cedure .
+918-9	2	cedure	DEPREL	_	root	Icare cedure .
+918-9	3	.	HEAD	_	2	Icare cedure .
+924-1	1	Icare	HEAD	_	2	Icare cedure .
+924-1	2	cedure	HEAD	_	0	Icare cedure .
+924-1	2	cedure	DEPREL	_	root	Icare cedure .
+924-1	3	.	HEAD	_	2	Icare cedure .
+158-2	1	Cegodo	HEAD	_	0	Cegodo jii ...
+158-2	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+158-2	2	jii	HEAD	_	1	Cegodo jii ...
+158-2	3	...	HEAD	_	1	Cegodo jii ...
+169-2	1	Cegodo	HEAD	_	0	Cegodo jii ...
+169-2	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+169-2	2	jii	HEAD	_	1	Cegodo jii ...
+169-2	3	...	HEAD	_	1	Cegodo jii ...
+370-2	1	Cegodo	HEAD	_	0	Cegodo jii ...
+370-2	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+370-2	2	jii	HEAD	_	1	Cegodo jii ...
+370-2	3	...	HEAD	_	1	Cegodo jii ...
+406-5	1	Cegodo	HEAD	_	0	Cegodo jii ...
+406-5	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+406-5	2	jii	HEAD	_	1	Cegodo jii ...
+406-5	3	...	HEAD	_	1	Cegodo jii ...
+407-11	1	Cegodo	HEAD	_	0	Cegodo jii ...
+407-11	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+407-11	2	jii	HEAD	_	1	Cegodo jii ...
+407-11	3	...	HEAD	_	1	Cegodo jii ...
+408-1	1	Cegodo	HEAD	_	0	Cegodo jii ...
+408-1	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+408-1	2	jii	HEAD	_	1	Cegodo jii ...
+408-1	3	...	HEAD	_	1	Cegodo jii ...
+408-3	1	Cegodo	HEAD	_	0	Cegodo jii ...
+408-3	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+408-3	2	jii	HEAD	_	1	Cegodo jii ...
+408-3	3	...	HEAD	_	1	Cegodo jii ...
+412-9	1	Cegodo	HEAD	_	0	Cegodo jii ...
+412-9	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+412-9	2	jii	HEAD	_	1	Cegodo jii ...
+412-9	3	...	HEAD	_	1	Cegodo jii ...
+416-2	1	Cegodo	HEAD	_	0	Cegodo jii ...
+416-2	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+416-2	2	jii	HEAD	_	1	Cegodo jii ...
+416-2	3	...	HEAD	_	1	Cegodo jii ...
+434-5	1	Cegodo	HEAD	_	0	Cegodo jii ...
+434-5	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+434-5	2	jii	HEAD	_	1	Cegodo jii ...
+434-5	3	...	HEAD	_	1	Cegodo jii ...
+536-1	1	Cegodo	HEAD	_	0	Cegodo jii ...
+536-1	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+536-1	2	jii	HEAD	_	1	Cegodo jii ...
+536-1	3	...	HEAD	_	1	Cegodo jii ...
+783-1	1	Cegodo	HEAD	_	0	Cegodo jii ...
+783-1	1	Cegodo	DEPREL	_	root	Cegodo jii ...
+783-1	2	jii	HEAD	_	1	Cegodo jii ...
+783-1	3	...	HEAD	_	1	Cegodo jii ...
+479-12	1	Ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+479-12	1	Ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+479-12	1	Ema	FEATS	_	Mood=Ind|Number=Plur|Person=3	Ema rugadu , ema rugadu , ema rugadu !
+479-12	1	Ema	HEAD	_	0	Ema rugadu , ema rugadu , ema rugadu !
+479-12	1	Ema	DEPREL	_	root	Ema rugadu , ema rugadu , ema rugadu !
+479-12	2	rugadu	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+479-12	3	,	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+479-12	4	ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+479-12	4	ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+479-12	4	ema	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+479-12	4	ema	DEPREL	_	parataxis	Ema rugadu , ema rugadu , ema rugadu !
+479-12	5	rugadu	HEAD	_	4	Ema rugadu , ema rugadu , ema rugadu !
+479-12	6	,	HEAD	_	5	Ema rugadu , ema rugadu , ema rugadu !
+479-12	7	ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+479-12	7	ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+479-12	7	ema	FEATS	_	Number=Sing|Person=3	Ema rugadu , ema rugadu , ema rugadu !
+479-12	7	ema	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+479-12	7	ema	DEPREL	_	parataxis	Ema rugadu , ema rugadu , ema rugadu !
+479-12	8	rugadu	HEAD	_	7	Ema rugadu , ema rugadu , ema rugadu !
+479-12	9	!	HEAD	_	7	Ema rugadu , ema rugadu , ema rugadu !
+481-7	1	Ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+481-7	1	Ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+481-7	1	Ema	FEATS	_	Mood=Ind|Number=Plur|Person=3	Ema rugadu , ema rugadu , ema rugadu !
+481-7	1	Ema	HEAD	_	0	Ema rugadu , ema rugadu , ema rugadu !
+481-7	1	Ema	DEPREL	_	root	Ema rugadu , ema rugadu , ema rugadu !
+481-7	2	rugadu	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+481-7	3	,	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+481-7	4	ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+481-7	4	ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+481-7	4	ema	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+481-7	4	ema	DEPREL	_	parataxis	Ema rugadu , ema rugadu , ema rugadu !
+481-7	5	rugadu	HEAD	_	4	Ema rugadu , ema rugadu , ema rugadu !
+481-7	6	,	HEAD	_	5	Ema rugadu , ema rugadu , ema rugadu !
+481-7	7	ema	LEMMA	_	ema	Ema rugadu , ema rugadu , ema rugadu !
+481-7	7	ema	UPOS	_	ADV	Ema rugadu , ema rugadu , ema rugadu !
+481-7	7	ema	FEATS	_	Number=Sing|Person=3	Ema rugadu , ema rugadu , ema rugadu !
+481-7	7	ema	HEAD	_	1	Ema rugadu , ema rugadu , ema rugadu !
+481-7	7	ema	DEPREL	_	parataxis	Ema rugadu , ema rugadu , ema rugadu !
+481-7	8	rugadu	HEAD	_	7	Ema rugadu , ema rugadu , ema rugadu !
+481-7	9	!	HEAD	_	7	Ema rugadu , ema rugadu , ema rugadu !
+137-2	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+137-2	1	Ceboere	UPOS	_	INTJ	Ceboere !
+137-2	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+137-2	1	Ceboere	HEAD	_	0	Ceboere !
+137-2	1	Ceboere	DEPREL	_	root	Ceboere !
+137-2	2	!	HEAD	_	1	Ceboere !
+143-12	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+143-12	1	Ceboere	UPOS	_	INTJ	Ceboere !
+143-12	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+143-12	1	Ceboere	HEAD	_	0	Ceboere !
+143-12	1	Ceboere	DEPREL	_	root	Ceboere !
+143-12	2	!	HEAD	_	1	Ceboere !
+143-15	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+143-15	1	Ceboere	UPOS	_	INTJ	Ceboere !
+143-15	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+143-15	1	Ceboere	HEAD	_	0	Ceboere !
+143-15	1	Ceboere	DEPREL	_	root	Ceboere !
+143-15	2	!	HEAD	_	1	Ceboere !
+178-6	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+178-6	1	Ceboere	UPOS	_	INTJ	Ceboere !
+178-6	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+178-6	1	Ceboere	HEAD	_	0	Ceboere !
+178-6	1	Ceboere	DEPREL	_	root	Ceboere !
+178-6	2	!	HEAD	_	1	Ceboere !
+272-4	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+272-4	1	Ceboere	UPOS	_	INTJ	Ceboere !
+272-4	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+272-4	1	Ceboere	HEAD	_	0	Ceboere !
+272-4	1	Ceboere	DEPREL	_	root	Ceboere !
+272-4	2	!	HEAD	_	1	Ceboere !
+431-24	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+431-24	1	Ceboere	UPOS	_	INTJ	Ceboere !
+431-24	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+431-24	1	Ceboere	HEAD	_	0	Ceboere !
+431-24	1	Ceboere	DEPREL	_	root	Ceboere !
+431-24	2	!	HEAD	_	1	Ceboere !
+451-28	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+451-28	1	Ceboere	UPOS	_	INTJ	Ceboere !
+451-28	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+451-28	1	Ceboere	HEAD	_	0	Ceboere !
+451-28	1	Ceboere	DEPREL	_	root	Ceboere !
+451-28	2	!	HEAD	_	1	Ceboere !
+453-8	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+453-8	1	Ceboere	UPOS	_	INTJ	Ceboere !
+453-8	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+453-8	1	Ceboere	HEAD	_	0	Ceboere !
+453-8	1	Ceboere	DEPREL	_	root	Ceboere !
+453-8	2	!	HEAD	_	1	Ceboere !
+545-10	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+545-10	1	Ceboere	UPOS	_	INTJ	Ceboere !
+545-10	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+545-10	1	Ceboere	HEAD	_	0	Ceboere !
+545-10	1	Ceboere	DEPREL	_	root	Ceboere !
+545-10	2	!	HEAD	_	1	Ceboere !
+547-6	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+547-6	1	Ceboere	UPOS	_	INTJ	Ceboere !
+547-6	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+547-6	1	Ceboere	HEAD	_	0	Ceboere !
+547-6	1	Ceboere	DEPREL	_	root	Ceboere !
+547-6	2	!	HEAD	_	1	Ceboere !
+722-12	1	Ceboere	LEMMA	_	ceboe	Ceboere !
+722-12	1	Ceboere	UPOS	_	INTJ	Ceboere !
+722-12	1	Ceboere	FEATS	_	Mood=Ind	Ceboere !
+722-12	1	Ceboere	HEAD	_	0	Ceboere !
+722-12	1	Ceboere	DEPREL	_	root	Ceboere !
+722-12	2	!	HEAD	_	1	Ceboere !
+145-2	1	Ire	HEAD	_	2	Ire iwu tu .
+145-2	1	Ire	DEPREL	_	nsubj	Ire iwu tu .
+145-2	2	iwu	LEMMA	_	bu	Ire iwu tu .
+145-2	2	iwu	UPOS	_	VERB	Ire iwu tu .
+145-2	2	iwu	FEATS	_	Number=Sing|Person=1	Ire iwu tu .
+145-2	2	iwu	HEAD	_	0	Ire iwu tu .
+145-2	2	iwu	DEPREL	_	root	Ire iwu tu .
+145-2	3	tu	UPOS	_	ADV	Ire iwu tu .
+145-2	3	tu	FEATS	_	Number=Sing|Person=3	Ire iwu tu .
+145-2	3	tu	HEAD	_	2	Ire iwu tu .
+145-2	3	tu	DEPREL	_	obl	Ire iwu tu .
+145-2	4	.	HEAD	_	2	Ire iwu tu .
+173-11	1	Iegarere	LEMMA	_	egare	Iegarere !
+173-11	1	Iegarere	UPOS	_	VERB	Iegarere !
+173-11	1	Iegarere	FEATS	_	Mood=Ind|Number=Sing|Person=1	Iegarere !
+173-11	1	Iegarere	HEAD	_	0	Iegarere !
+173-11	1	Iegarere	DEPREL	_	ccomp	Iegarere !
+173-11	2	!	HEAD	_	1	Iegarere !
+604-11	1	Iegarere	LEMMA	_	egare	Iegarere !
+604-11	1	Iegarere	UPOS	_	VERB	Iegarere !
+604-11	1	Iegarere	FEATS	_	Mood=Ind|Number=Sing|Person=1	Iegarere !
+604-11	1	Iegarere	HEAD	_	0	Iegarere !
+604-11	1	Iegarere	DEPREL	_	ccomp	Iegarere !
+604-11	2	!	HEAD	_	1	Iegarere !
+299-6	1	Boe	HEAD	_	2	Boe kimo .
+299-6	1	Boe	DEPREL	_	nsubj	Boe kimo .
+299-6	2	kimo	FEATS	_	Mood=Ind|Number=Plur|Person=3	Boe kimo .
+299-6	2	kimo	HEAD	_	0	Boe kimo .
+299-6	2	kimo	DEPREL	_	root	Boe kimo .
+299-6	3	.	HEAD	_	2	Boe kimo .
+318-1	1	Icare	HEAD	_	2	Icare uture toro .
+318-1	2	uture	HEAD	_	0	Icare uture toro .
+318-1	2	uture	DEPREL	_	root	Icare uture toro .
+318-1	3	toro	HEAD	_	2	Icare uture toro .
+318-1	4	.	HEAD	_	2	Icare uture toro .
+431-15	1	Dukeje	HEAD	_	3	Dukeje icare aregodure .
+431-15	2	icare	HEAD	_	3	Dukeje icare aregodure .
+431-15	3	aregodure	HEAD	_	0	Dukeje icare aregodure .
+431-15	3	aregodure	DEPREL	_	root	Dukeje icare aregodure .
+431-15	4	.	HEAD	_	3	Dukeje icare aregodure .
+689-1	1	Dukeje	HEAD	_	3	Dukeje icare aregodure .
+689-1	2	icare	HEAD	_	3	Dukeje icare aregodure .
+689-1	3	aregodure	HEAD	_	0	Dukeje icare aregodure .
+689-1	3	aregodure	DEPREL	_	root	Dukeje icare aregodure .
+689-1	4	.	HEAD	_	3	Dukeje icare aregodure .
+701-7	1	Dukeje	HEAD	_	3	Dukeje icare aregodure .
+701-7	2	icare	HEAD	_	3	Dukeje icare aregodure .
+701-7	3	aregodure	HEAD	_	0	Dukeje icare aregodure .
+701-7	3	aregodure	DEPREL	_	root	Dukeje icare aregodure .
+701-7	4	.	HEAD	_	3	Dukeje icare aregodure .
+485-4	1	Ire	HEAD	_	2	Ire mito tu je .
+485-4	1	Ire	DEPREL	_	nsubj	Ire mito tu je .
+485-4	2	mito	HEAD	_	0	Ire mito tu je .
+485-4	2	mito	DEPREL	_	root	Ire mito tu je .
+485-4	3	tu	UPOS	_	ADV	Ire mito tu je .
+485-4	3	tu	HEAD	_	2	Ire mito tu je .
+485-4	3	tu	DEPREL	_	advmod	Ire mito tu je .
+485-4	4	je	LEMMA	_	je	Ire mito tu je .
+485-4	4	je	UPOS	_	ADV	Ire mito tu je .
+485-4	4	je	HEAD	_	3	Ire mito tu je .
+485-4	4	je	DEPREL	_	flat	Ire mito tu je .
+485-4	5	.	HEAD	_	2	Ire mito tu je .
+130-4	1	Itaregodu	LEMMA	_	aregodu	Itaregodu !
+130-4	1	Itaregodu	UPOS	_	VERB	Itaregodu !
+130-4	1	Itaregodu	FEATS	_	Number=Sing|Person=1	Itaregodu !
+130-4	1	Itaregodu	HEAD	_	0	Itaregodu !
+130-4	1	Itaregodu	DEPREL	_	root	Itaregodu !
+130-4	2	!	HEAD	_	1	Itaregodu !
+130-6	1	Kirabodu	LEMMA	_	kirabodu	Kirabodu !
+130-6	1	Kirabodu	UPOS	_	INTJ	Kirabodu !
+130-6	1	Kirabodu	HEAD	_	0	Kirabodu !
+130-6	1	Kirabodu	DEPREL	_	root	Kirabodu !
+130-6	2	!	HEAD	_	1	Kirabodu !
+327-13	1	Kirabodu	LEMMA	_	kirabodu	Kirabodu !
+327-13	1	Kirabodu	UPOS	_	INTJ	Kirabodu !
+327-13	1	Kirabodu	HEAD	_	0	Kirabodu !
+327-13	1	Kirabodu	DEPREL	_	root	Kirabodu !
+327-13	2	!	HEAD	_	1	Kirabodu !
+406-12	1	Kirabodu	LEMMA	_	kirabodu	Kirabodu !
+406-12	1	Kirabodu	UPOS	_	INTJ	Kirabodu !
+406-12	1	Kirabodu	HEAD	_	0	Kirabodu !
+406-12	1	Kirabodu	DEPREL	_	root	Kirabodu !
+406-12	2	!	HEAD	_	1	Kirabodu !
+380-2	1	Kajao	LEMMA	_	kajao	Kajao !
+380-2	1	Kajao	UPOS	_	INTJ	Kajao !
+380-2	1	Kajao	HEAD	_	0	Kajao !
+380-2	1	Kajao	DEPREL	_	root	Kajao !
+380-2	2	!	HEAD	_	1	Kajao !
+905-11	1	Kajao	LEMMA	_	kajao	Kajao !
+905-11	1	Kajao	UPOS	_	INTJ	Kajao !
+905-11	1	Kajao	HEAD	_	0	Kajao !
+905-11	1	Kajao	DEPREL	_	root	Kajao !
+905-11	2	!	HEAD	_	1	Kajao !
+841-13	1	Icare	HEAD	_	2	Icare cedure toro .
+841-13	2	cedure	HEAD	_	0	Icare cedure toro .
+841-13	2	cedure	DEPREL	_	root	Icare cedure toro .
+841-13	3	toro	HEAD	_	2	Icare cedure toro .
+841-13	4	.	HEAD	_	2	Icare cedure toro .
+865-7	1	Icare	HEAD	_	2	Icare cedure toro .
+865-7	2	cedure	HEAD	_	0	Icare cedure toro .
+865-7	2	cedure	DEPREL	_	root	Icare cedure toro .
+865-7	3	toro	HEAD	_	2	Icare cedure toro .
+865-7	4	.	HEAD	_	2	Icare cedure toro .
+165-2	1	Ema	LEMMA	_	ema	Ema rugadu .
+165-2	1	Ema	UPOS	_	ADV	Ema rugadu .
+165-2	1	Ema	HEAD	_	0	Ema rugadu .
+165-2	1	Ema	DEPREL	_	root	Ema rugadu .
+165-2	2	rugadu	HEAD	_	1	Ema rugadu .
+165-2	3	.	HEAD	_	1	Ema rugadu .
+299-5	1	Ema	LEMMA	_	ema	Ema rugadu .
+299-5	1	Ema	UPOS	_	ADV	Ema rugadu .
+299-5	1	Ema	HEAD	_	0	Ema rugadu .
+299-5	1	Ema	DEPREL	_	root	Ema rugadu .
+299-5	2	rugadu	HEAD	_	1	Ema rugadu .
+299-5	3	.	HEAD	_	1	Ema rugadu .
+315-10	1	Ema	LEMMA	_	ema	Ema rugadu .
+315-10	1	Ema	UPOS	_	ADV	Ema rugadu .
+315-10	1	Ema	HEAD	_	0	Ema rugadu .
+315-10	1	Ema	DEPREL	_	root	Ema rugadu .
+315-10	2	rugadu	HEAD	_	1	Ema rugadu .
+315-10	3	.	HEAD	_	1	Ema rugadu .
+317-10	1	Ema	LEMMA	_	ema	Ema rugadu .
+317-10	1	Ema	UPOS	_	ADV	Ema rugadu .
+317-10	1	Ema	HEAD	_	0	Ema rugadu .
+317-10	1	Ema	DEPREL	_	root	Ema rugadu .
+317-10	2	rugadu	HEAD	_	1	Ema rugadu .
+317-10	3	.	HEAD	_	1	Ema rugadu .
+318-6	1	Ema	LEMMA	_	ema	Ema rugadu .
+318-6	1	Ema	UPOS	_	ADV	Ema rugadu .
+318-6	1	Ema	HEAD	_	0	Ema rugadu .
+318-6	1	Ema	DEPREL	_	root	Ema rugadu .
+318-6	2	rugadu	HEAD	_	1	Ema rugadu .
+318-6	3	.	HEAD	_	1	Ema rugadu .
+326-5	1	Ema	LEMMA	_	ema	Ema rugadu .
+326-5	1	Ema	UPOS	_	ADV	Ema rugadu .
+326-5	1	Ema	HEAD	_	0	Ema rugadu .
+326-5	1	Ema	DEPREL	_	root	Ema rugadu .
+326-5	2	rugadu	HEAD	_	1	Ema rugadu .
+326-5	3	.	HEAD	_	1	Ema rugadu .
+328-9	1	Ema	LEMMA	_	ema	Ema rugadu .
+328-9	1	Ema	UPOS	_	ADV	Ema rugadu .
+328-9	1	Ema	HEAD	_	0	Ema rugadu .
+328-9	1	Ema	DEPREL	_	root	Ema rugadu .
+328-9	2	rugadu	HEAD	_	1	Ema rugadu .
+328-9	3	.	HEAD	_	1	Ema rugadu .
+338-7	1	Ema	LEMMA	_	ema	Ema rugadu .
+338-7	1	Ema	UPOS	_	ADV	Ema rugadu .
+338-7	1	Ema	HEAD	_	0	Ema rugadu .
+338-7	1	Ema	DEPREL	_	root	Ema rugadu .
+338-7	2	rugadu	HEAD	_	1	Ema rugadu .
+338-7	3	.	HEAD	_	1	Ema rugadu .
+339-6	1	Ema	LEMMA	_	ema	Ema rugadu .
+339-6	1	Ema	UPOS	_	ADV	Ema rugadu .
+339-6	1	Ema	HEAD	_	0	Ema rugadu .
+339-6	1	Ema	DEPREL	_	root	Ema rugadu .
+339-6	2	rugadu	HEAD	_	1	Ema rugadu .
+339-6	3	.	HEAD	_	1	Ema rugadu .
+359-5	1	Ema	LEMMA	_	ema	Ema rugadu .
+359-5	1	Ema	UPOS	_	ADV	Ema rugadu .
+359-5	1	Ema	HEAD	_	0	Ema rugadu .
+359-5	1	Ema	DEPREL	_	root	Ema rugadu .
+359-5	2	rugadu	HEAD	_	1	Ema rugadu .
+359-5	3	.	HEAD	_	1	Ema rugadu .
+369-6	1	Ema	LEMMA	_	ema	Ema rugadu .
+369-6	1	Ema	UPOS	_	ADV	Ema rugadu .
+369-6	1	Ema	HEAD	_	0	Ema rugadu .
+369-6	1	Ema	DEPREL	_	root	Ema rugadu .
+369-6	2	rugadu	HEAD	_	1	Ema rugadu .
+369-6	3	.	HEAD	_	1	Ema rugadu .
+458-13	1	Ema	LEMMA	_	ema	Ema rugadu .
+458-13	1	Ema	UPOS	_	ADV	Ema rugadu .
+458-13	1	Ema	HEAD	_	0	Ema rugadu .
+458-13	1	Ema	DEPREL	_	root	Ema rugadu .
+458-13	2	rugadu	HEAD	_	1	Ema rugadu .
+458-13	3	.	HEAD	_	1	Ema rugadu .
+458-16	1	Ema	LEMMA	_	ema	Ema rugadu .
+458-16	1	Ema	UPOS	_	ADV	Ema rugadu .
+458-16	1	Ema	HEAD	_	0	Ema rugadu .
+458-16	1	Ema	DEPREL	_	root	Ema rugadu .
+458-16	2	rugadu	HEAD	_	1	Ema rugadu .
+458-16	3	.	HEAD	_	1	Ema rugadu .
+489-9	1	Ema	LEMMA	_	ema	Ema rugadu .
+489-9	1	Ema	UPOS	_	ADV	Ema rugadu .
+489-9	1	Ema	HEAD	_	0	Ema rugadu .
+489-9	1	Ema	DEPREL	_	root	Ema rugadu .
+489-9	2	rugadu	HEAD	_	1	Ema rugadu .
+489-9	3	.	HEAD	_	1	Ema rugadu .
+494-4	1	Ema	LEMMA	_	ema	Ema rugadu .
+494-4	1	Ema	UPOS	_	ADV	Ema rugadu .
+494-4	1	Ema	HEAD	_	0	Ema rugadu .
+494-4	1	Ema	DEPREL	_	root	Ema rugadu .
+494-4	2	rugadu	HEAD	_	1	Ema rugadu .
+494-4	3	.	HEAD	_	1	Ema rugadu .
+538-25	1	Ema	LEMMA	_	ema	Ema rugadu .
+538-25	1	Ema	UPOS	_	ADV	Ema rugadu .
+538-25	1	Ema	HEAD	_	0	Ema rugadu .
+538-25	1	Ema	DEPREL	_	root	Ema rugadu .
+538-25	2	rugadu	HEAD	_	1	Ema rugadu .
+538-25	3	.	HEAD	_	1	Ema rugadu .
+539-11	1	Ema	LEMMA	_	ema	Ema rugadu .
+539-11	1	Ema	UPOS	_	ADV	Ema rugadu .
+539-11	1	Ema	HEAD	_	0	Ema rugadu .
+539-11	1	Ema	DEPREL	_	root	Ema rugadu .
+539-11	2	rugadu	HEAD	_	1	Ema rugadu .
+539-11	3	.	HEAD	_	1	Ema rugadu .
+648-20	1	Ema	LEMMA	_	ema	Ema rugadu .
+648-20	1	Ema	UPOS	_	ADV	Ema rugadu .
+648-20	1	Ema	HEAD	_	0	Ema rugadu .
+648-20	1	Ema	DEPREL	_	root	Ema rugadu .
+648-20	2	rugadu	HEAD	_	1	Ema rugadu .
+648-20	3	.	HEAD	_	1	Ema rugadu .
+652-17	1	Ema	LEMMA	_	ema	Ema rugadu .
+652-17	1	Ema	UPOS	_	ADV	Ema rugadu .
+652-17	1	Ema	HEAD	_	0	Ema rugadu .
+652-17	1	Ema	DEPREL	_	root	Ema rugadu .
+652-17	2	rugadu	HEAD	_	1	Ema rugadu .
+652-17	3	.	HEAD	_	1	Ema rugadu .
+688-21	1	Ema	LEMMA	_	ema	Ema rugadu .
+688-21	1	Ema	UPOS	_	ADV	Ema rugadu .
+688-21	1	Ema	HEAD	_	0	Ema rugadu .
+688-21	1	Ema	DEPREL	_	root	Ema rugadu .
+688-21	2	rugadu	HEAD	_	1	Ema rugadu .
+688-21	3	.	HEAD	_	1	Ema rugadu .
+719-9	1	Ema	LEMMA	_	ema	Ema rugadu .
+719-9	1	Ema	UPOS	_	ADV	Ema rugadu .
+719-9	1	Ema	HEAD	_	0	Ema rugadu .
+719-9	1	Ema	DEPREL	_	root	Ema rugadu .
+719-9	2	rugadu	HEAD	_	1	Ema rugadu .
+719-9	3	.	HEAD	_	1	Ema rugadu .
+739-7	1	Ema	LEMMA	_	ema	Ema rugadu .
+739-7	1	Ema	UPOS	_	ADV	Ema rugadu .
+739-7	1	Ema	HEAD	_	0	Ema rugadu .
+739-7	1	Ema	DEPREL	_	root	Ema rugadu .
+739-7	2	rugadu	HEAD	_	1	Ema rugadu .
+739-7	3	.	HEAD	_	1	Ema rugadu .
+914-12	1	Ema	LEMMA	_	ema	Ema rugadu .
+914-12	1	Ema	UPOS	_	ADV	Ema rugadu .
+914-12	1	Ema	HEAD	_	0	Ema rugadu .
+914-12	1	Ema	DEPREL	_	root	Ema rugadu .
+914-12	2	rugadu	HEAD	_	1	Ema rugadu .
+914-12	3	.	HEAD	_	1	Ema rugadu .
+917-22	1	Ema	LEMMA	_	ema	Ema rugadu .
+917-22	1	Ema	UPOS	_	ADV	Ema rugadu .
+917-22	1	Ema	HEAD	_	0	Ema rugadu .
+917-22	1	Ema	DEPREL	_	root	Ema rugadu .
+917-22	2	rugadu	HEAD	_	1	Ema rugadu .
+917-22	3	.	HEAD	_	1	Ema rugadu .
+917-23	1	Ema	LEMMA	_	ema	Ema rugadu .
+917-23	1	Ema	UPOS	_	ADV	Ema rugadu .
+917-23	1	Ema	HEAD	_	0	Ema rugadu .
+917-23	1	Ema	DEPREL	_	root	Ema rugadu .
+917-23	2	rugadu	HEAD	_	1	Ema rugadu .
+917-23	3	.	HEAD	_	1	Ema rugadu .
+925-6	1	Ema	LEMMA	_	ema	Ema rugadu .
+925-6	1	Ema	UPOS	_	ADV	Ema rugadu .
+925-6	1	Ema	HEAD	_	0	Ema rugadu .
+925-6	1	Ema	DEPREL	_	root	Ema rugadu .
+925-6	2	rugadu	HEAD	_	1	Ema rugadu .
+925-6	3	.	HEAD	_	1	Ema rugadu .
+950-18	1	Ema	LEMMA	_	ema	Ema rugadu .
+950-18	1	Ema	UPOS	_	ADV	Ema rugadu .
+950-18	1	Ema	HEAD	_	0	Ema rugadu .
+950-18	1	Ema	DEPREL	_	root	Ema rugadu .
+950-18	2	rugadu	HEAD	_	1	Ema rugadu .
+950-18	3	.	HEAD	_	1	Ema rugadu .
+955-9	1	Ema	LEMMA	_	ema	Ema rugadu .
+955-9	1	Ema	UPOS	_	ADV	Ema rugadu .
+955-9	1	Ema	HEAD	_	0	Ema rugadu .
+955-9	1	Ema	DEPREL	_	root	Ema rugadu .
+955-9	2	rugadu	HEAD	_	1	Ema rugadu .
+955-9	3	.	HEAD	_	1	Ema rugadu .
+984-5	1	Ema	LEMMA	_	ema	Ema rugadu .
+984-5	1	Ema	UPOS	_	ADV	Ema rugadu .
+984-5	1	Ema	HEAD	_	0	Ema rugadu .
+984-5	1	Ema	DEPREL	_	root	Ema rugadu .
+984-5	2	rugadu	HEAD	_	1	Ema rugadu .
+984-5	3	.	HEAD	_	1	Ema rugadu .
+984-6	1	Ema	LEMMA	_	ema	Ema rugadu .
+984-6	1	Ema	UPOS	_	ADV	Ema rugadu .
+984-6	1	Ema	HEAD	_	0	Ema rugadu .
+984-6	1	Ema	DEPREL	_	root	Ema rugadu .
+984-6	2	rugadu	HEAD	_	1	Ema rugadu .
+984-6	3	.	HEAD	_	1	Ema rugadu .
+473-9	1	Icare	HEAD	_	2	Icare akedure .
+473-9	2	akedure	HEAD	_	0	Icare akedure .
+473-9	2	akedure	DEPREL	_	root	Icare akedure .
+473-9	3	.	HEAD	_	2	Icare akedure .
+632-6	1	Icare	HEAD	_	2	Icare akedure .
+632-6	2	akedure	HEAD	_	0	Icare akedure .
+632-6	2	akedure	DEPREL	_	root	Icare akedure .
+632-6	3	.	HEAD	_	2	Icare akedure .
+764-8	1	Icare	HEAD	_	2	Icare akedure .
+764-8	2	akedure	HEAD	_	0	Icare akedure .
+764-8	2	akedure	DEPREL	_	root	Icare akedure .
+764-8	3	.	HEAD	_	2	Icare akedure .
+296-4	1	Cedaregodu	LEMMA	_	aregodu	Cedaregodu !
+296-4	1	Cedaregodu	UPOS	_	VERB	Cedaregodu !
+296-4	1	Cedaregodu	FEATS	_	Clusivity=Ex|Number=Plur|Person=1	Cedaregodu !
+296-4	1	Cedaregodu	HEAD	_	0	Cedaregodu !
+296-4	1	Cedaregodu	DEPREL	_	root	Cedaregodu !
+296-4	2	!	HEAD	_	1	Cedaregodu !
+307-2	1	Inoba	HEAD	_	2	Inoba boere ?
+307-2	1	Inoba	DEPREL	_	nsubj	Inoba boere ?
+307-2	2	boere	LEMMA	_	boe	Inoba boere ?
+307-2	2	boere	UPOS	_	NOUN	Inoba boere ?
+307-2	2	boere	FEATS	_	Mood=Ind	Inoba boere ?
+307-2	2	boere	HEAD	_	0	Inoba boere ?
+307-2	2	boere	DEPREL	_	root	Inoba boere ?
+307-2	3	?	HEAD	_	2	Inoba boere ?
+884-2	1	Akore	HEAD	_	0	Akore pugeje .
+884-2	1	Akore	DEPREL	_	root	Akore pugeje .
+884-2	2	pugeje	HEAD	_	1	Akore pugeje .
+884-2	3	.	HEAD	_	1	Akore pugeje .
+439-10	1	iorudure	LEMMA	_	jorudu	iorudure ji .
+439-10	1	iorudure	UPOS	_	VERB	iorudure ji .
+439-10	1	iorudure	FEATS	_	Mood=Ind|Number=Sing|Person=1	iorudure ji .
+439-10	1	iorudure	HEAD	_	0	iorudure ji .
+439-10	1	iorudure	DEPREL	_	root	iorudure ji .
+439-10	2	ji	HEAD	_	2	iorudure ji .
+439-10	3	.	HEAD	_	2	iorudure ji .
+453-10	1	Ike	LEMMA	_	ke	Ike boire ii .
+453-10	1	Ike	UPOS	_	NOUN	Ike boire ii .
+453-10	1	Ike	FEATS	_	Number=Sing|Person=1	Ike boire ii .
+453-10	1	Ike	HEAD	_	2	Ike boire ii .
+453-10	1	Ike	DEPREL	_	nsubj	Ike boire ii .
+453-10	2	boire	HEAD	_	0	Ike boire ii .
+453-10	2	boire	DEPREL	_	root	Ike boire ii .
+453-10	3	ii	HEAD	_	2	Ike boire ii .
+453-10	3	ii	DEPREL	_	obl	Ike boire ii .
+453-10	4	.	HEAD	_	2	Ike boire ii .
+482-3	1	Ike	LEMMA	_	ke	Ike boire ii .
+482-3	1	Ike	UPOS	_	NOUN	Ike boire ii .
+482-3	1	Ike	FEATS	_	Number=Sing|Person=1	Ike boire ii .
+482-3	1	Ike	HEAD	_	2	Ike boire ii .
+482-3	1	Ike	DEPREL	_	nsubj	Ike boire ii .
+482-3	2	boire	HEAD	_	0	Ike boire ii .
+482-3	2	boire	DEPREL	_	root	Ike boire ii .
+482-3	3	ii	HEAD	_	2	Ike boire ii .
+482-3	3	ii	DEPREL	_	obl	Ike boire ii .
+482-3	4	.	HEAD	_	2	Ike boire ii .
+878-6	1	Imagokare	LEMMA	_	mako	Imagokare .
+878-6	1	Imagokare	UPOS	_	VERB	Imagokare .
+878-6	1	Imagokare	FEATS	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	Imagokare .
+878-6	1	Imagokare	HEAD	_	0	Imagokare .
+878-6	1	Imagokare	DEPREL	_	root	Imagokare .
+878-6	2	.	HEAD	_	1	Imagokare .
+932-9	1	Imagokare	LEMMA	_	mako	Imagokare .
+932-9	1	Imagokare	UPOS	_	VERB	Imagokare .
+932-9	1	Imagokare	FEATS	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	Imagokare .
+932-9	1	Imagokare	HEAD	_	0	Imagokare .
+932-9	1	Imagokare	DEPREL	_	root	Imagokare .
+932-9	2	.	HEAD	_	1	Imagokare .
+932-16	1	Imagokare	LEMMA	_	mako	Imagokare .
+932-16	1	Imagokare	UPOS	_	VERB	Imagokare .
+932-16	1	Imagokare	FEATS	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	Imagokare .
+932-16	1	Imagokare	HEAD	_	0	Imagokare .
+932-16	1	Imagokare	DEPREL	_	root	Imagokare .
+932-16	2	.	HEAD	_	1	Imagokare .
+932-18	1	Imagokare	LEMMA	_	mako	Imagokare .
+932-18	1	Imagokare	UPOS	_	VERB	Imagokare .
+932-18	1	Imagokare	FEATS	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	Imagokare .
+932-18	1	Imagokare	HEAD	_	0	Imagokare .
+932-18	1	Imagokare	DEPREL	_	root	Imagokare .
+932-18	2	.	HEAD	_	1	Imagokare .
+774-10	1	Icare	HEAD	_	2	Icare iedadure .
+774-10	2	iedadure	LEMMA	_	jetadu	Icare iedadure .
+774-10	2	iedadure	UPOS	_	VERB	Icare iedadure .
+774-10	2	iedadure	FEATS	_	Mood=Ind|Number=Sing|Person=1	Icare iedadure .
+774-10	2	iedadure	HEAD	_	0	Icare iedadure .
+774-10	2	iedadure	DEPREL	_	root	Icare iedadure .
+774-10	3	.	HEAD	_	2	Icare iedadure .
+622-13	1	Oinore	HEAD	_	2	Oinore egore tuiegare tabo !
+622-13	1	Oinore	DEPREL	_	advmod	Oinore egore tuiegare tabo !
+622-13	2	egore	HEAD	_	0	Oinore egore tuiegare tabo !
+622-13	2	egore	DEPREL	_	root	Oinore egore tuiegare tabo !
+622-13	3	tuiegare	LEMMA	_	jekare	Oinore egore tuiegare tabo !
+622-13	3	tuiegare	UPOS	_	NOUN	Oinore egore tuiegare tabo !
+622-13	3	tuiegare	FEATS	_	Reflex=Yes	Oinore egore tuiegare tabo !
+622-13	3	tuiegare	HEAD	_	2	Oinore egore tuiegare tabo !
+622-13	3	tuiegare	DEPREL	_	obl	Oinore egore tuiegare tabo !
+622-13	4	tabo	HEAD	_	3	Oinore egore tuiegare tabo !
+622-13	4	tabo	DEPREL	_	case	Oinore egore tuiegare tabo !
+622-13	5	!	HEAD	_	2	Oinore egore tuiegare tabo !
+526-1	1	Icare	HEAD	_	2	Icare cedure apo .
+526-1	2	cedure	HEAD	_	0	Icare cedure apo .
+526-1	2	cedure	DEPREL	_	root	Icare cedure apo .
+526-1	3	apo	HEAD	_	2	Icare cedure apo .
+526-1	4	.	HEAD	_	2	Icare cedure apo .
+606-4	1	Cere	HEAD	_	2	Cere cedaimo .
+606-4	1	Cere	DEPREL	_	nsubj	Cere cedaimo .
+606-4	2	cedaimo	LEMMA	_	taimo	Cere cedaimo .
+606-4	2	cedaimo	UPOS	_	VERB	Cere cedaimo .
+606-4	2	cedaimo	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Cere cedaimo .
+606-4	2	cedaimo	HEAD	_	0	Cere cedaimo .
+606-4	2	cedaimo	DEPREL	_	root	Cere cedaimo .
+606-4	3	.	HEAD	_	2	Cere cedaimo .
+614-5	1	Cere	HEAD	_	2	Cere cedaimo .
+614-5	1	Cere	DEPREL	_	nsubj	Cere cedaimo .
+614-5	2	cedaimo	LEMMA	_	taimo	Cere cedaimo .
+614-5	2	cedaimo	UPOS	_	VERB	Cere cedaimo .
+614-5	2	cedaimo	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Cere cedaimo .
+614-5	2	cedaimo	HEAD	_	0	Cere cedaimo .
+614-5	2	cedaimo	DEPREL	_	root	Cere cedaimo .
+614-5	3	.	HEAD	_	2	Cere cedaimo .
+820-3	1	Cere	HEAD	_	2	Cere cedaimo .
+820-3	1	Cere	DEPREL	_	nsubj	Cere cedaimo .
+820-3	2	cedaimo	LEMMA	_	taimo	Cere cedaimo .
+820-3	2	cedaimo	UPOS	_	VERB	Cere cedaimo .
+820-3	2	cedaimo	FEATS	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	Cere cedaimo .
+820-3	2	cedaimo	HEAD	_	0	Cere cedaimo .
+820-3	2	cedaimo	DEPREL	_	root	Cere cedaimo .
+820-3	3	.	HEAD	_	2	Cere cedaimo .
+789-20	1	Boe	HEAD	_	2	Boe awadugodure .
+789-20	1	Boe	DEPREL	_	nsubj	Boe awadugodure .
+789-20	2	awadugodure	LEMMA	_	awadu	Boe awadugodure .
+789-20	2	awadugodure	HEAD	_	0	Boe awadugodure .
+789-20	2	awadugodure	DEPREL	_	root	Boe awadugodure .
+789-20	3	.	HEAD	_	2	Boe awadugodure .
+884-9	1	Cerore	HEAD	_	0	Cerore taci .
+884-9	1	Cerore	DEPREL	_	root	Cerore taci .
+884-9	2	taci	HEAD	_	1	Cerore taci .
+884-9	3	.	HEAD	_	1	Cerore taci .

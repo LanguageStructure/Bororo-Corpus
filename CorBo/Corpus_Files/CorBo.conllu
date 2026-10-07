@@ -9519,9 +9519,9 @@
 # text = Icare cedure.
 # text_por = Aí nós fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 125-2
 # source_conllu = Bororo2-2.conllu
@@ -9648,9 +9648,9 @@
 # text = Icare iture.
 # text_por = Aí fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 126-2
 # source_conllu = Bororo2-2.conllu
@@ -10075,8 +10075,8 @@
 # text = Itaregodu!
 # text_por = Eu cheguei!
 # text_eng =
-1	Itaregodu	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Itaregodu	aregodu	VERB	_	Number=Sing|Person=1	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 130-5
 # source_conllu = Bororo2-2.conllu
@@ -10092,8 +10092,8 @@
 # text = Kirabodu!
 # text_por = Está certo!
 # text_eng =
-1	Kirabodu	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Kirabodu	kirabodu	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 130-7
 # source_conllu = Bororo2-2.conllu
@@ -10314,9 +10314,9 @@
 # text = Icare iture.
 # text_por = Aí eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 133-3
 # source_conllu = Bororo2-2.conllu
@@ -10704,8 +10704,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = - Ps!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 137-3
 # source_conllu = Bororo2-2.conllu
@@ -11375,8 +11375,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Psh!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 143-13
 # source_conllu = Bororo2-2.conllu
@@ -11402,8 +11402,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Você é um homem bonito.
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 143-16
 # source_conllu = Bororo2-2.conllu
@@ -11511,10 +11511,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ire iwu tu.
 # text_por = Dormi bastante e de repente acordei.
 # text_eng =
-1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-2	iwu	_	_	_	_	_	_	_	_
-3	tu	tu	_	_	_	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
+2	iwu	bu	VERB	_	Number=Sing|Person=1	0	root	_	_
+3	tu	tu	ADV	_	Number=Sing|Person=3	2	obl	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 145-3
 # source_conllu = Bororo2-2.conllu
@@ -12002,9 +12002,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Ai fui embora.Eles disseram Sim!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 149-2
 # source_conllu = Bororo2-2.conllu
@@ -12264,9 +12264,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Aí eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 151-2
 # source_conllu = Bororo2-2.conllu
@@ -13013,18 +13013,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí partimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 158-2
 # source_conllu = Bororo2-2.conllu
 # text = Cegodo jii...
 # text_por = Fomos andando e depois anoiteceu.Eu disse O!
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 158-3
 # source_conllu = Bororo2-2.conllu
@@ -13237,9 +13237,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí nós fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 161-2
 # source_conllu = Bororo2-2.conllu
@@ -13954,9 +13954,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = É isso mesmo.Eles disseram Você vai cantar o Canto Grande?
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 165-3
 # source_conllu = Bororo2-2.conllu
@@ -14352,9 +14352,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Fomos andando...
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 169-3
 # source_conllu = Bororo2-2.conllu
@@ -14998,8 +14998,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Iegarere!
 # text_por =
 # text_eng =
-1	Iegarere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Iegarere	egare	VERB	_	Mood=Ind|Number=Sing|Person=1	0	ccomp	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 174-1
 # source_conllu = Bororo2-2.conllu
@@ -15462,8 +15462,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = 116,Eu disse M!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 178-7
 # source_conllu = Bororo2-2.conllu
@@ -15956,9 +15956,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 183-10
 # source_conllu = Bororo2-2.conllu
@@ -16137,9 +16137,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 185-3
 # source_conllu = Bororo2-2.conllu
@@ -23501,8 +23501,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Aí eles mandaram as almas embora: Wao!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 272-5
 # source_conllu = Bororo2-2.conllu
@@ -25156,8 +25156,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cedaregodu!
 # text_por = Chegamos!
 # text_eng =
-1	Cedaregodu	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Cedaregodu	aregodu	VERB	_	Clusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 296-5
 # source_conllu = Bororo2-2.conllu
@@ -25392,18 +25392,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Isso mesmo.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 299-6
 # source_conllu = Bororo2-2.conllu
 # text = Boe kimo.
 # text_por = Nada, eu estava morrendo de fome.
 # text_eng =
-1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
-2	kimo	kimo	ADV	adv	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	kimo	kimo	ADV	adv	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 299-7
 # source_conllu = Bororo2-2.conllu
@@ -25789,9 +25789,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 305-2
 # source_conllu = Bororo2-2.conllu
@@ -26064,9 +26064,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Inoba boere?
 # text_por = Ele penetrou na água chô! Eu disse: Psh!
 # text_eng =
-1	Inoba	inoba	PRON	pron	PronType=Int	_	_	_	_
-2	boere	_	_	_	_	_	_	_	_
-3	?	?	PUNCT	punct	_	_	punct	_	_
+1	Inoba	inoba	PRON	pron	PronType=Int	2	nsubj	_	_
+2	boere	boe	NOUN	_	Mood=Ind	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 307-3
 # source_conllu = Bororo2-2.conllu
@@ -26805,9 +26805,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Isso mesmo!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 316-1
 # source_conllu = Bororo2-2.conllu
@@ -27034,9 +27034,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 317-11
 # source_conllu = Bororo2-2.conllu
@@ -27050,10 +27050,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare uture toro.
 # text_por = Aí ele foi lá.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	uture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	toro	toro	ADV	adv	_	_	advmod	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	uture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	toro	toro	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 318-2
 # source_conllu = Bororo2-2.conllu
@@ -27114,9 +27114,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Ele disse Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 318-7
 # source_conllu = Bororo2-2.conllu
@@ -27643,9 +27643,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = É isso mesmo.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 327-1
 # source_conllu = Bororo2-2.conllu
@@ -27791,8 +27791,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Kirabodu!
 # text_por = Eu disse Sim!
 # text_eng =
-1	Kirabodu	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Kirabodu	kirabodu	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 327-14
 # source_conllu = Bororo2-2.conllu
@@ -27903,9 +27903,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 328-10
 # source_conllu = Bororo2-2.conllu
@@ -28718,8 +28718,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Amorora amagadukaba .
 # text_por = Não se preocupe, não.,O que nos preocupa é a falta de ceriba.
 # text_eng =
-1	Amorora	_	_	_	_	_	_	_	_
-2	amagadukaba	_	_	_	_	_	_	_	_
+1	Amorora	morora	NOUN	_	Number=Sing|Person=2	2	nsubj	_	_
+2	amagadukaba	magadu	VERB	_	Mod=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 336-5
@@ -28998,9 +28998,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Respondeu Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 338-8
 # source_conllu = Bororo2-2.conllu
@@ -29080,9 +29080,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Respondeu Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 339-7
 # source_conllu = Bororo2-2.conllu
@@ -30551,9 +30551,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu .
 # text_por = Isso mesmo.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 359-6
 # source_conllu = Bororo2-2.conllu
@@ -30591,9 +30591,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 360-3
 # source_conllu = Bororo2-2.conllu
@@ -31253,9 +31253,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 365-3
 # source_conllu = Bororo2-2.conllu
@@ -31604,9 +31604,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 370-1
 # source_conllu = Bororo2-2.conllu
@@ -31620,9 +31620,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Andamos bastante.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 370-3
 # source_conllu = Bororo2-2.conllu
@@ -32833,8 +32833,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Kajao!
 # text_por = Tal vez vamos atravessar primeiro para buscar traíras.
 # text_eng =
-1	Kajao	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Kajao	kajao	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 380-3
 # source_conllu = Bororo2-2.conllu
@@ -34261,9 +34261,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Aí eu fui embora.Eu disse Eu vou embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 392-2
 # source_conllu = Bororo2-2.conllu
@@ -34283,9 +34283,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Aí fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 392-4
 # source_conllu = Bororo2-2.conllu
@@ -35674,9 +35674,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 403-2
 # source_conllu = Bororo2-2.conllu
@@ -36018,9 +36018,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Outros disseram Os lambaris ficam aí embaixo da ponte.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 406-6
 # source_conllu = Bororo2-2.conllu
@@ -36097,8 +36097,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Kirabodu!
 # text_por =
 # text_eng =
-1	Kirabodu	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Kirabodu	kirabodu	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 406-13
 # source_conllu = Bororo2-2.conllu
@@ -36239,9 +36239,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por =
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 407-12
 # source_conllu = Bororo2-2.conllu
@@ -36302,9 +36302,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Andamos bastante e chegamos na estrada de rodagem.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 408-2
 # source_conllu = Bororo2-2.conllu
@@ -36322,9 +36322,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Disseram Sim!
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 408-4
 # source_conllu = Bororo2-2.conllu
@@ -36669,9 +36669,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí acabei.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 411-8
 # source_conllu = Bororo2-2.conllu
@@ -36719,9 +36719,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois eu fui embora.Eu disse Eu vou embora, vou procurar algo para comer.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 412-2
 # source_conllu = Bororo2-2.conllu
@@ -36781,9 +36781,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Fomos lá para o povo de Tiago.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 412-8
 # source_conllu = Bororo2-2.conllu
@@ -36802,9 +36802,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por =
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 412-10
 # source_conllu = Bororo2-2.conllu
@@ -37217,18 +37217,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 416-2
 # source_conllu = Bororo2-2.conllu
 # text = Cegodo jii...
 # text_por = Andamos bastante até lá onde eles costumam ficar, Barreiro abaixo.,Ali pulamos na água, com as almas.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 416-3
 # source_conllu = Bororo2-2.conllu
@@ -39261,10 +39261,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Dukeje icare aregodure.
 # text_por = Eu me abaixei para o chão mais do que antes.
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 431-16
 # source_conllu = Bororo2-2.conllu
@@ -39369,8 +39369,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Ele ficou olhando para mim.
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 431-25
 # source_conllu = Bororo2-2.conllu
@@ -40003,9 +40003,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = 170 Disseram Aqui que os bororos enterraram os finados dos Xavantes Eu fiquei triste com aquilo.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 434-6
 # source_conllu = Bororo2-2.conllu
@@ -40685,9 +40685,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = iorudure ji.
 # text_por = Eis, aqui ele.
 # text_eng =
-1	iorudure	_	_	_	_	_	_	_	_
-2	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	iorudure	jorudu	VERB	_	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 439-11
 # source_conllu = Bororo2-2.conllu
@@ -42529,8 +42529,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Quê bom!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 451-29
 # source_conllu = Bororo2-2.conllu
@@ -42908,8 +42908,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Que bom!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 453-9
 # source_conllu = Bororo2-2.conllu
@@ -42927,10 +42927,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ike boire ii.
 # text_por = Eu tenho fome.
 # text_eng =
-1	Ike	_	_	_	_	_	_	_	_
-2	boire	boi	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ike	ke	NOUN	_	Number=Sing|Person=1	2	nsubj	_	_
+2	boire	boi	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	ii	ji	ADP	posp	Number=Sing|Person=1	2	obl	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 453-11
 # source_conllu = Bororo2-2.conllu
@@ -43895,9 +43895,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Mas não tenham medo.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 458-14
 # source_conllu = Bororo2-2.conllu
@@ -43928,9 +43928,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 458-17
 # source_conllu = Bororo2-2.conllu
@@ -44942,9 +44942,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Aí eu fui.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 465-2
 # source_conllu = Bororo2-2.conllu
@@ -46598,9 +46598,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare akedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 474-1
 # source_conllu = Bororo2-2.conllu
@@ -46912,9 +46912,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Vim até aqui, a procura do padre.,Ele disse Filho, você chegou?
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 476-6
 # source_conllu = Bororo2-2.conllu
@@ -47440,15 +47440,15 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu, ema rugadu, ema rugadu!
 # text_por = Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	,	,	PUNCT	punct	_	_	punct	_	_
-4	ema	_	_	_	_	_	_	_	_
-5	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-6	,	,	PUNCT	punct	_	_	punct	_	_
-7	ema	_	_	_	_	_	_	_	_
-8	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-9	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	ema	ema	ADV	_	_	1	parataxis	_	_
+5	rugadu	rugadu	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	ema	ema	ADV	_	Number=Sing|Person=3	1	parataxis	_	_
+8	rugadu	rugadu	ADV	adv	_	7	advmod	_	_
+9	!	!	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 479-13
 # source_conllu = Bororo2-2.conllu
@@ -47760,15 +47760,15 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu, ema rugadu, ema rugadu!
 # text_por = Isso mesmo, isso mesmo, isso mesmo!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	,	,	PUNCT	punct	_	_	punct	_	_
-4	ema	_	_	_	_	_	_	_	_
-5	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-6	,	,	PUNCT	punct	_	_	punct	_	_
-7	ema	_	_	_	_	_	_	_	_
-8	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-9	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	ema	ema	ADV	_	_	1	parataxis	_	_
+5	rugadu	rugadu	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	ema	ema	ADV	_	Number=Sing|Person=3	1	parataxis	_	_
+8	rugadu	rugadu	ADV	adv	_	7	advmod	_	_
+9	!	!	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 482-1
 # source_conllu = Bororo2-2.conllu
@@ -47804,10 +47804,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ike boire ii.
 # text_por = Não me faltava, porém, comida.
 # text_eng =
-1	Ike	_	_	_	_	_	_	_	_
-2	boire	boi	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ike	ke	NOUN	_	Number=Sing|Person=1	2	nsubj	_	_
+2	boire	boi	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	ii	ji	ADP	posp	Number=Sing|Person=1	2	obl	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 482-4
 # source_conllu = Bororo2-2.conllu
@@ -48437,10 +48437,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Dukeje icare iture.
 # text_por =
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 485-1
 # source_conllu = Bororo2-2.conllu
@@ -48483,11 +48483,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ire mito tu je.
 # text_por = Eu estava sozinho.
 # text_eng =
-1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-2	mito	mito	NUM	num	_	_	_	_	_
-3	tu	tu	_	_	_	_	_	_	_
-4	je	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	_
+2	mito	mito	NUM	num	_	0	root	_	_
+3	tu	tu	ADV	_	_	2	advmod	_	_
+4	je	je	ADV	_	_	3	flat	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 485-5
 # source_conllu = Bororo2-2.conllu
@@ -48863,9 +48863,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = O sol estava por aqui, era perto de meio dia quando fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 487-3
 # source_conllu = Bororo2-2.conllu
@@ -49247,18 +49247,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = E fui embora.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 489-10
 # source_conllu = Bororo2-2.conllu
 # text = Icare iture.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 490-1
 # source_conllu = Bororo2-2.conllu
@@ -49691,9 +49691,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Boe emagare.
 # text_por = Chegaram aqui.
 # text_eng =
-1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
-2	emagare	maka	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	emagare	maka	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 492-6
 # source_conllu = Bororo2-2.conllu
@@ -50125,9 +50125,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Então nós fomos embora, mesmo a contra gosto meu.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 494-5
 # source_conllu = Bororo2-2.conllu
@@ -52277,9 +52277,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí nós fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 504-2
 # source_conllu = Bororo2-2.conllu
@@ -52475,9 +52475,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos para lá um atrás do outro.Os brancos falavam O!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 505-2
 # source_conllu = Bororo2-2.conllu
@@ -53065,9 +53065,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 508-2
 # source_conllu = Bororo2-2.conllu
@@ -53960,9 +53960,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Andamos bastante, atravessamos o Córrego da Anta e depois chegamos a uma aldeia dos brancos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 512-8
 # source_conllu = Bororo2-2.conllu
@@ -54099,9 +54099,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí saímos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 513-2
 # source_conllu = Bororo2-2.conllu
@@ -54858,9 +54858,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ere kogudo.
 # text_por =
 # text_eng =
-1	Ere	ere	PRON	bi	Number=Plur|Person=3	_	_	_	_
-2	kogudo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ere	ere	PRON	bi	Number=Plur|Person=3	0	root	_	_
+2	kogudo	kogu	VERB	_	Number=Plur|Person=3|Voice=Cau	1	ccomp	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 518-1
 # source_conllu = Bororo2-2.conllu
@@ -56120,10 +56120,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure apo.
 # text_por = Aí nos fomos embora com ele, fomos com ele até a lagoa;
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	apo	apo	ADP	posp	Number=Sing|Person=3	_	obl	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	apo	apo	ADP	posp	Number=Sing|Person=3	2	obl	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 526-2
 # source_conllu = Bororo2-2.conllu
@@ -56681,9 +56681,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 529-1
 # source_conllu = Bororo2-2.conllu
@@ -57363,9 +57363,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 534-1
 # source_conllu = Bororo2-2.conllu
@@ -57641,9 +57641,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = Andamos bastante e pousamos na beira do córrego Pae Eiao.
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 536-2
 # source_conllu = Bororo2-2.conllu
@@ -57771,9 +57771,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Os peixes, os moqueamos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 536-14
 # source_conllu = Bororo2-2.conllu
@@ -57987,9 +57987,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 536-31
 # source_conllu = Bororo2-2.conllu
@@ -58146,9 +58146,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 537-11
 # source_conllu = Bororo2-2.conllu
@@ -58432,9 +58432,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 538-26
 # source_conllu = Bororo2-2.conllu
@@ -58590,9 +58590,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Ele disse Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 539-12
 # source_conllu = Bororo2-2.conllu
@@ -59302,9 +59302,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare ikudure.
 # text_por = Pss!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	ikudure	kudu	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	ikudure	kudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 545-8
 # source_conllu = Bororo2-2.conllu
@@ -59332,8 +59332,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por =
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 545-11
 # source_conllu = Bororo2-2.conllu
@@ -59486,9 +59486,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare ikudure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	ikudure	kudu	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	ikudure	kudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 546-14
 # source_conllu = Bororo2-2.conllu
@@ -59505,9 +59505,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 547-1
 # source_conllu = Bororo2-2.conllu
@@ -59586,8 +59586,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Que bom!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 547-7
 # source_conllu = Bororo2-2.conllu
@@ -60670,9 +60670,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cenudure .
 # text_por = Aí dormimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cenudure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cenudure	nudu	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 553-1
 # source_conllu = Bororo2-2.conllu
@@ -60926,9 +60926,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 554-10
 # source_conllu = Bororo2-2.conllu
@@ -61933,9 +61933,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Eu fiquei com medo por causa disso que ele falou.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 559-11
 # source_conllu = Bororo2-2.conllu
@@ -62388,9 +62388,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Estava fingindo de morto.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 561-14
 # source_conllu = Bororo2-2.conllu
@@ -63299,9 +63299,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedaregodure.
 # text_por = Ele encostou a canoa no começo da estrada.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedaregodure	aregodu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedaregodure	aregodu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 566-14
 # source_conllu = Bororo2-2.conllu
@@ -64766,9 +64766,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 573-2
 # source_conllu = Bororo2-2.conllu
@@ -65113,9 +65113,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí procuramos e ele disse Nada elas não botaram aqui.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 574-9
 # source_conllu = Bororo2-2.conllu
@@ -65632,9 +65632,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Então fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 576-2
 # source_conllu = Bororo2-2.conllu
@@ -66013,9 +66013,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 578-1
 # source_conllu = Bororo2-2.conllu
@@ -68480,9 +68480,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 593-2
 # source_conllu = Bororo2-2.conllu
@@ -69592,9 +69592,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Eu disse Vamos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 599-3
 # source_conllu = Bororo2-2.conllu
@@ -69711,9 +69711,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Ele nos matava de medo pela sua maneira de agir.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 599-12
 # source_conllu = Bororo2-2.conllu
@@ -70571,9 +70571,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = ???
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 603-2
 # source_conllu = Bororo2-2.conllu
@@ -70866,8 +70866,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Iegarere!
 # text_por = Elas iam recebendo com as duas mãos e comiam com a boca aberta ‘ jagu jagu jagu’.
 # text_eng =
-1	Iegarere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Iegarere	egare	VERB	_	Mood=Ind|Number=Sing|Person=1	0	ccomp	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 604-12
 # source_conllu = Bororo2-2.conllu
@@ -70991,9 +70991,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Disse que a meio dia iria ver -nos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 605-7
 # source_conllu = Bororo2-2.conllu
@@ -71182,9 +71182,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cere cedaimo.
 # text_por = Chegamos em casa, tomamos banho e jantamos.
 # text_eng =
-1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-2	cedaimo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+2	cedaimo	taimo	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 606-5
 # source_conllu = Bororo2-2.conllu
@@ -72563,18 +72563,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Tomamos banho.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 614-5
 # source_conllu = Bororo2-2.conllu
 # text = Cere cedaimo.
 # text_por = Ele nos deu sabão para tirarmos o urucum.Aí nós o tiramos.
 # text_eng =
-1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-2	cedaimo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+2	cedaimo	taimo	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 614-6
 # source_conllu = Bororo2-2.conllu
@@ -72739,9 +72739,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Pusemos o arame nos postes de novo, assim.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 615-7
 # source_conllu = Bororo2-2.conllu
@@ -72919,9 +72919,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 616-2
 # source_conllu = Bororo2-2.conllu
@@ -73157,9 +73157,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 617-2
 # source_conllu = Bororo2-2.conllu
@@ -73729,9 +73729,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Estávamos assim tristes, por isso olhando ao redor, o ambiente parecia estranho para nós par causa da saudade.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 619-19
 # source_conllu = Bororo2-2.conllu
@@ -74260,11 +74260,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Oinore egore tuiegare tabo!
 # text_por =
 # text_eng =
-1	Oinore	oino	ADV	adv	Mood=Ind	_	_	_	_
-2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	tuiegare	_	_	_	_	_	_	_	_
-4	tabo	tabo	ADP	posp	Number=Sing|Person=3	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+1	Oinore	oino	ADV	adv	Mood=Ind	2	advmod	_	_
+2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+3	tuiegare	jekare	NOUN	_	Reflex=Yes	2	obl	_	_
+4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	_
+5	!	!	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 622-14
 # source_conllu = Bororo2-2.conllu
@@ -75858,9 +75858,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare akedure.
 # text_por = Fez assim porque a cabaça estava furada e estragada.Aí fomos para casa.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 632-7
 # source_conllu = Bororo2-2.conllu
@@ -76763,9 +76763,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cenudure.
 # text_por = Aí fomos dormir.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cenudure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cenudure	nudu	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 637-2
 # source_conllu = Bororo2-2.conllu
@@ -78682,9 +78682,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = O!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 648-21
 # source_conllu = Bororo2-2.conllu
@@ -79432,9 +79432,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Ele disse A!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 653-1
 # source_conllu = Bororo2-2.conllu
@@ -79813,9 +79813,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Vamos embora!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 654-14
 # source_conllu = Bororo2-2.conllu
@@ -79883,9 +79883,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Tinha muito pato ali reunido!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 655-6
 # source_conllu = Bororo2-2.conllu
@@ -80934,9 +80934,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Estávamos subindo o rio.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 660-8
 # source_conllu = Bororo2-2.conllu
@@ -86384,19 +86384,19 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 689-1
 # source_conllu = Bororo2-2.conllu
 # text = Dukeje icare aregodure.
 # text_por = Depois ele chegou.
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 689-2
 # source_conllu = Bororo2-2.conllu
@@ -88262,9 +88262,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois partimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 700-2
 # source_conllu = Bororo2-2.conllu
@@ -88494,10 +88494,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Dukeje icare aregodure.
 # text_por = Depois chegou e disse Todos vocês vão ali para comer.
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 701-8
 # source_conllu = Bororo2-2.conllu
@@ -90480,9 +90480,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 712-2
 # source_conllu = Bororo2-2.conllu
@@ -91151,9 +91151,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cenudure.
 # text_por = Não fomos passear.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cenudure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cenudure	nudu	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 715-3
 # source_conllu = Bororo2-2.conllu
@@ -91559,9 +91559,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 717-12
 # source_conllu = Bororo2-2.conllu
@@ -91860,9 +91860,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Eu disse Sim!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 719-10
 # source_conllu = Bororo2-2.conllu
@@ -92056,9 +92056,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois fomos embora.Eles disseram Vamos, vamos!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 721-2
 # source_conllu = Bororo2-2.conllu
@@ -92369,8 +92369,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ceboere!
 # text_por = Heis!
 # text_eng =
-1	Ceboere	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Ceboere	ceboe	INTJ	_	Mood=Ind	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 722-13
 # source_conllu = Bororo2-2.conllu
@@ -93004,9 +93004,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Akore ii.
 # text_por = Aí parei.
 # text_eng =
-1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-2	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	ii	ji	ADP	posp	Number=Sing|Person=1	1	obl	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 726-11
 # source_conllu = Bororo2-2.conllu
@@ -93726,9 +93726,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Olhei e vi que aquele nosso companheiro tinha vomitada na sua cama, não era pouco.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 730-11
 # source_conllu = Bororo2-2.conllu
@@ -94368,9 +94368,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Aí fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 733-2
 # source_conllu = Bororo2-2.conllu
@@ -94621,9 +94621,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois partimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 735-2
 # source_conllu = Bororo2-2.conllu
@@ -95565,9 +95565,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Logo depois levantamos a beirada da lona.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 739-8
 # source_conllu = Bororo2-2.conllu
@@ -97026,9 +97026,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 748-2
 # source_conllu = Bororo2-2.conllu
@@ -99569,9 +99569,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí partimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 763-2
 # source_conllu = Bororo2-2.conllu
@@ -99871,9 +99871,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare akedure.
 # text_por = Olhem, minhas costelas estão aparecendo, de fome.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 764-9
 # source_conllu = Bororo2-2.conllu
@@ -101674,9 +101674,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iedadure.
 # text_por = Dormi só um pouquinho e depois acordei.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iedadure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iedadure	jetadu	VERB	_	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 774-11
 # source_conllu = Bororo2-2.conllu
@@ -103506,9 +103506,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cegodo jii...
 # text_por = ???
 # text_eng =
-1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	_	_	_	_
-2	jii	jii	ADV	adv	_	_	advmod	_	_
-3	...	...	PUNCT	punct	_	_	punct	_	_
+1	Cegodo	kodo	VERB	v	CLusivity=Ex|Number=Plur|Person=1	0	root	_	_
+2	jii	jii	ADV	adv	_	1	advmod	_	_
+3	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 783-2
 # source_conllu = Bororo2-2.conllu
@@ -104706,9 +104706,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Boe awadugodure.
 # text_por =
 # text_eng =
-1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
-2	awadugodure	_	VERB	v	Mood=Ind	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	awadugodure	awadu	VERB	v	Mood=Ind	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 790-1
 # source_conllu = Bororo2-2.conllu
@@ -104811,9 +104811,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Entraram muitos na minha rede.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 790-9
 # source_conllu = Bororo2-2.conllu
@@ -109935,9 +109935,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cere cedaimo.
 # text_por = Estava carregando uma saco volumoso.
 # text_eng =
-1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-2	cedaimo	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	_
+2	cedaimo	taimo	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 820-4
 # source_conllu = Bororo2-2.conllu
@@ -111491,9 +111491,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Por isso eram muitos os que não tinham baquitê, mas também eram muitos os que tinham.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 832-7
 # source_conllu = Bororo2-2.conllu
@@ -112932,10 +112932,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure toro.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	toro	toro	ADV	adv	_	_	advmod	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	toro	toro	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 842-1
 # source_conllu = Bororo2-2.conllu
@@ -114787,9 +114787,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 853-13
 # source_conllu = Bororo2-2.conllu
@@ -115081,9 +115081,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = O!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 855-12
 # source_conllu = Bororo2-2.conllu
@@ -116733,10 +116733,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure toro.
 # text_por = O!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	toro	toro	ADV	adv	_	_	advmod	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	toro	toro	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 865-8
 # source_conllu = Bororo2-2.conllu
@@ -118651,8 +118651,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Imagokare.
 # text_por = Peguei uma outra pedra dizendo por aqui que ela fez barulho na água.
 # text_eng =
-1	Imagokare	_	_	_	_	_	_	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+1	Imagokare	mako	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 878-7
 # source_conllu = Bororo2-2.conllu
@@ -119192,9 +119192,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cenudure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cenudure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cenudure	nudu	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 881-9
 # source_conllu = Bororo2-2.conllu
@@ -119528,9 +119528,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Chegamos no acampamento.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 883-12
 # source_conllu = Bororo2-2.conllu
@@ -119696,9 +119696,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 883-27
 # source_conllu = Bororo2-2.conllu
@@ -119825,9 +119825,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Akore pugeje.
 # text_por = Respondemos Nós não sabemos, nós não sabemos.,Então ele disse Vamos para este lado Esse nosso passeio foi muito bom.
 # text_eng =
-1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-2	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	pugeje	pugeje	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 884-3
 # source_conllu = Bororo2-2.conllu
@@ -119910,9 +119910,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Cerore taci.
 # text_por = O paramos e descemos.
 # text_eng =
-1	Cerore	ro	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-2	taci	taci	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Cerore	ro	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+2	taci	taci	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 884-10
 # source_conllu = Bororo2-2.conllu
@@ -122377,9 +122377,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 894-1
 # source_conllu = Bororo2-2.conllu
@@ -124460,8 +124460,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Kajao!
 # text_por =
 # text_eng =
-1	Kajao	_	_	_	_	_	_	_	_
-2	!	!	PUNCT	punct	_	_	punct	_	_
+1	Kajao	kajao	INTJ	_	_	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 905-12
 # source_conllu = Bororo2-2.conllu
@@ -125083,9 +125083,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 909-2
 # source_conllu = Bororo2-2.conllu
@@ -125624,9 +125624,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Fizemos assim: Íamos um de costas para o outro.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 912-3
 # source_conllu = Bororo2-2.conllu
@@ -126135,9 +126135,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 915-1
 # source_conllu = Bororo2-2.conllu
@@ -126233,9 +126233,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Aí fomos embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 916-2
 # source_conllu = Bororo2-2.conllu
@@ -126564,9 +126564,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cenudure.
 # text_por = Está na hora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cenudure	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cenudure	nudu	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 917-13
 # source_conllu = Bororo2-2.conllu
@@ -126657,18 +126657,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 917-23
 # source_conllu = Bororo2-2.conllu
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 917-24
 # source_conllu = Bororo2-2.conllu
@@ -126683,9 +126683,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por =
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 917-26
 # source_conllu = Bororo2-2.conllu
@@ -126817,9 +126817,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Eu disse Sim!
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 918-10
 # source_conllu = Bororo2-2.conllu
@@ -127926,9 +127926,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare cedure.
 # text_por = Depois partimos.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 924-2
 # source_conllu = Bororo2-2.conllu
@@ -128196,9 +128196,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Eu já estou fraco de dor de bexiga,Outro disse A!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 925-7
 # source_conllu = Bororo2-2.conllu
@@ -129413,9 +129413,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Mare emagokare.
 # text_por = O finado José Maria estava aí, mas não falou nada.
 # text_eng =
-1	Mare	mare	CCONJ	cconj	_	_	_	_	_
-2	emagokare	mako	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	_
+2	emagokare	mako	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 930-10
 # source_conllu = Bororo2-2.conllu
@@ -129725,9 +129725,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 932-7
 # source_conllu = Bororo2-2.conllu
@@ -129754,8 +129754,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Imagokare.
 # text_por = Eu não respondia.
 # text_eng =
-1	Imagokare	_	_	_	_	_	_	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+1	Imagokare	mako	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 932-10
 # source_conllu = Bororo2-2.conllu
@@ -129820,8 +129820,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Imagokare.
 # text_por =
 # text_eng =
-1	Imagokare	_	_	_	_	_	_	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+1	Imagokare	mako	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 932-17
 # source_conllu = Bororo2-2.conllu
@@ -129840,8 +129840,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Imagokare.
 # text_por =
 # text_eng =
-1	Imagokare	_	_	_	_	_	_	_	_
-2	.	.	PUNCT	punct	_	_	punct	_	_
+1	Imagokare	mako	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 933-1
 # source_conllu = Bororo2-2.conllu
@@ -130231,9 +130231,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois eu fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 935-2
 # source_conllu = Bororo2-2.conllu
@@ -131416,9 +131416,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Chamei o meu cunhado Ukewai e lhe disse Acompanhe -me, vamos cantar sobre o Mestre.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 941-8
 # source_conllu = Bororo2-2.conllu
@@ -133016,9 +133016,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por =
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 951-1
 # source_conllu = Bororo2-2.conllu
@@ -133220,9 +133220,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Boe emagaguraga.
 # text_por = Tem muitos Bororos.
 # text_eng =
-1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
-2	emagaguraga	_	_	_	_	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	emagaguraga	emaga	PRON	_	Number=Col	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 952-4
 # source_conllu = Bororo2-2.conllu
@@ -133569,10 +133569,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Dukeje icare iture.
 # text_por = Depois continuei a viagem.
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 954-9
 # source_conllu = Bororo2-2.conllu
@@ -133753,9 +133753,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Encontro com o Pe.
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 955-10
 # source_conllu = Bororo2-2.conllu
@@ -135467,9 +135467,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Alcancei-os numa cabeceira onde eles estavam dando água para as galinhas.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 964-14
 # source_conllu = Bororo2-2.conllu
@@ -137174,9 +137174,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Icare iture.
 # text_por = Depois fui embora.
 # text_eng =
-1	Icare	icare	ADV	adv	_	_	advmod	_	_
-2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 975-2
 # source_conllu = Bororo2-2.conllu
@@ -138224,10 +138224,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Dukeje icare iture.
 # text_por = 
 # text_eng =
-1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
-2	icare	icare	ADV	adv	_	_	advmod	_	_
-3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-4	.	.	PUNCT	punct	_	_	punct	_	_
+1	Dukeje	dukeje	ADV	adv	_	3	advmod	_	_
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 982-4
 # source_conllu = Bororo2-2.conllu
@@ -138659,18 +138659,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text = Ema rugadu.
 # text_por = Está bem!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 984-6
 # source_conllu = Bororo2-2.conllu
 # text = Ema rugadu.
 # text_por = Entre!
 # text_eng =
-1	Ema	_	_	_	_	_	_	_	_
-2	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-3	.	.	PUNCT	punct	_	_	punct	_	_
+1	Ema	ema	ADV	_	_	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 984-7
 # source_conllu = Bororo2-2.conllu
