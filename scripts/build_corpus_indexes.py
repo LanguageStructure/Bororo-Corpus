@@ -162,6 +162,23 @@ def conllu_sentences(path, namespace=''):
    md=misc_dict(cols[9]);rows.append({'id':int(cols[0]),'form':cols[1],'lemma':cols[2],'upos':cols[3],'xpos':cols[4],'feats':cols[5],'head':int(cols[6]) if cols[6].isdigit() else 0,'deprel':cols[7],'deps':cols[8],'misc':md})
   flush()
  return out
+def pending_annotations(path):
+ out=[]; annotated=set(); pending=[]
+ blocks=re.split(r"(?=^# *sent_id *=)",path.read_text(encoding="utf-8"),flags=re.M)
+ for b in blocks:
+  m=re.search(r"^# *text *= *(.*)$",b,re.M)
+  if not m:continue
+  text=m.group(1).strip()
+  sid=re.search(r"^# *sent_id *= *(.*)$",b,re.M)
+  if re.search(r"^[0-9]+\t",b,re.M):annotated.add(text)
+  else:pending.append((sid.group(1).strip() if sid else "",text))
+ seen=set()
+ for sid,text in pending:
+  if text in annotated or text in seen:continue
+  seen.add(text)
+  out.append({"sent_id":sid,"text":text,"source_conllu":path.name,"status":"editorial_review" if sid=="542-3" else "pending_annotation"})
+ return out
+
 def generator_attested_forms(path):
  """Inventory explicit CoNLL-U token analyses for the experimental generator.
 
@@ -396,6 +413,7 @@ def main():
  stats={'units':len(allu),'tokens':sum(x['frequency'] for x in fs),'types':len(fs),'collections':sorted(by_collection),'units_by_collection':dict(sorted(by_collection.items())),'units_by_group':dict(sorted(by_group.items())),'units_by_status':dict(sorted(by_status.items())),'units_by_collation_status':dict(sorted(by_collation.items())),'reviewed_units':sum(bool(u.get('reviewed')) for u in allu),'provisional_units':sum(not bool(u.get('reviewed')) for u in allu),'top_forms':fs};(OUT/'corbo-stats.json').write_text(json.dumps(stats,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  cf=forms(coq);(OUT/'coqueiro-stats.json').write_text(json.dumps({'units':len(coq),'tokens':sum(x['frequency'] for x in cf),'types':len(cf),'collections':['Coqueiro'],'top_forms':cf},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(DICT_CONLLU)+conllu_sentences(BORORO2_CONLLU,namespace='bororo2'),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(DICT_CONLLU)+morpheme_token_data(BORORO2_CONLLU,namespace='bororo2'),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(DICT_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(DICT_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ (OUT/'pending-annotations.json').write_text(json.dumps(pending_annotations(BORORO2_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
