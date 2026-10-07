@@ -58,10 +58,10 @@ A interface pública é **somente para consulta**. A edição e revisão são fe
 O componente atualmente usado para anotação morfossintática e visualização de dependências tem como arquivo autoritativo:
 
 ```text
-CorBo/Corpus_Files/exemplosDicBor_full_review_pass17_incomplete_first.conllu
+CorBo/Corpus_Files/CorBo.conllu
 ```
 
-Este é o arquivo usado para construir o índice UD atual, a análise de formas e os recursos morfológicos derivados associados ao gerador.
+Este é o arquivo canônico unificado usado para anotação continuada, construção do índice UD atual, análise de formas e recursos morfológicos derivados associados ao gerador. Ele consolida as fontes CoNLL-U anteriormente mantidas separadamente, preservando a proveniência por meio de comentários  quando disponível.
 
 Arquivos CoNLL-U legados, incluindo versões enriquecidas com material bíblico como `Bororo_UD_enriched_v5_plus_scripture.conllu`, **não são a fonte do visualizador UD atual**. Textos bíblicos podem permanecer no corpus documental e em outros índices, mas não são projetados automaticamente no visualizador de dependências.
 
@@ -76,7 +76,7 @@ Os comentários CoNLL-U podem registrar, quando disponíveis:
 - `text_por`;
 - `text_eng`.
 
-O CoNLL-U atual ainda não preserva de maneira uniforme o grupo documental original de cada sentença. Essa limitação impede, em alguns experimentos históricos, a reconstrução exata de antigos splits por fonte apenas a partir do arquivo público atual.
+O CoNLL-U unificado preserva a origem dos componentes anteriores por meio de . Metadados documentais mais específicos ainda não estão disponíveis de maneira uniforme para todas as sentenças, de modo que alguns splits históricos por fonte podem não ser reconstruíveis apenas a partir do arquivo público atual.
 
 Para novas incorporações e revisões, o objetivo é preservar também, quando conhecido:
 
