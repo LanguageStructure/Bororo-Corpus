@@ -7643,9 +7643,8 @@
 11	woe	woe	ADV	adv	_	_	advmod	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
 13	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-14	:	_	_	_	_	9	appos	_	_
-15	Akaregodure	_	VERB	v	Mood=Ind	14	nmod	_	_
-16	?	?	PUNCT	punct	_	14	punct	_	_
+14	Akaregodure	_	VERB	v	Mood=Ind	_	_	_	_
+15	?	?	PUNCT	punct	_	_	_	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:4273 similarity:0.60
 
@@ -7656,9 +7655,8 @@
 # text_eng =
 1	102	_	_	_	_	_	_	_	_
 2	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Itaregodu	_	_	_	_	2	ccomp	_	_
-5	.	.	PUNCT	punct	_	4	punct	_	_
+3	Itaregodu	_	_	_	_	2	ccomp	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:13 similarity:0.30
 
@@ -7939,18 +7937,17 @@
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-3	:	_	_	_	_	2	advmod	_	_
-4	Padre	_	_	_	_	5	nmod	_	_
-5	César	_	_	_	Number=Sing	3	appos	_	_
-6	reno	_	_	_	Number=Sing|Person=3	5	obl	_	_
-7	,	,	PUNCT	punct	_	2	punct	_	_
-8	nowu	nowu	DET	dem	Deixis=Med	2	obl	_	_
-9	jordiwa	_	_	_	Number=Sing|Person=3	8	case	_	_
-10	rakaguragare	_	_	_	_	8	punct	_	_
-11	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
-12	ewadaru	bataru	NOUN	n	Number=Plur|Person=3	11	conj	_	_
-13	ji	ji	ADP	posp	Number=Sing|Person=3	12	obl	_	_
-14	.	.	PUNCT	punct	_	12	punct	_	_
+3	Padre	_	_	_	_	4	nmod	_	_
+4	César	_	_	_	Number=Sing	_	_	_	_
+5	reno	_	_	_	Number=Sing|Person=3	4	obl	_	_
+6	,	,	PUNCT	punct	_	2	punct	_	_
+7	nowu	nowu	DET	dem	Deixis=Med	2	obl	_	_
+8	jordiwa	_	_	_	Number=Sing|Person=3	7	case	_	_
+9	rakaguragare	_	_	_	_	7	punct	_	_
+10	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
+11	ewadaru	bataru	NOUN	n	Number=Plur|Person=3	10	conj	_	_
+12	ji	ji	ADP	posp	Number=Sing|Person=3	11	obl	_	_
+13	.	.	PUNCT	punct	_	11	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:10 similarity:0.62
 
@@ -7982,17 +7979,16 @@
 
 # sent_id = 104-2
 # source_conllu = Bororo2-2.conllu
-# text = Imagore: Itaregodu! Akore Hm!
+# text = Imagore Itaregodu! Akore Hm!
 # text_por = Eu disse Eu vim visitar você.
 # text_eng =
-1	Imagore	_	_	_	Number=Sing|Person=3	2	root	_	_
-2	:	_	_	_	_	0	root	_	_
-3	Itaregodu	_	_	_	_	2	flat	_	_
-4	!	!	PUNCT	punct	_	_	punct	_	_
-5	,	,	PUNCT	punct	_	2	punct	_	_
-6	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	2	appos	_	_
-7	Hm	_	_	_	_	6	nmod	_	_
-8	!	!	PUNCT	punct	_	6	punct	_	_
+1	Imagore	_	_	_	Number=Sing|Person=3	_	_	_	_
+2	Itaregodu	_	_	_	_	_	_	_	_
+3	!	!	PUNCT	punct	_	_	punct	_	_
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+6	Hm	_	_	_	_	5	nmod	_	_
+7	!	!	PUNCT	punct	_	5	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:10 similarity:0.62
 
@@ -8030,9 +8026,8 @@
 # text_eng =
 1	Icare	icare	ADV	adv	Mood=Ind	2	advmod	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-3	:	_	_	_	_	2	advmod	_	_
-4	Hm	_	_	_	_	2	advmod	_	_
-5	!	!	PUNCT	punct	_	2	punct	_	_
+3	Hm	_	_	_	_	2	advmod	_	_
+4	!	!	PUNCT	punct	_	2	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:10 similarity:0.62
 
@@ -8093,15 +8088,14 @@
 # text = akore Kajá, aragoje rugadu tu nono.
 # text_por = Disse Espere, fique aí um pouco.
 # text_eng =
-1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	2	root	_	_
-2	:	_	_	_	_	0	root	_	_
-3	Kajá	_	_	_	_	2	flat	_	_
-4	,	,	PUNCT	punct	_	2	punct	_	_
-5	aragoje	_	_	_	_	2	appos	_	_
-6	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-7	tu	tu	_	_	_	5	nmod	_	_
-8	nono	nono	ADV	adv	_	_	advmod	_	_
-9	.	.	PUNCT	punct	_	5	punct	_	_
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+2	Kajá	_	_	_	_	_	_	_	_
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	aragoje	_	_	_	_	_	_	_	_
+5	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
+6	tu	tu	_	_	_	4	nmod	_	_
+7	nono	nono	ADV	adv	_	_	advmod	_	_
+8	.	.	PUNCT	punct	_	4	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:10 similarity:0.56
 
@@ -8613,14 +8607,13 @@
 2	inoroedo	_	_	_	_	1	nsubj	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 4	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	Kuiada	_	_	_	Mood=Ind|Number=Sing|Person=3	1	nsubj	_	_
-7	kururogu	_	_	_	Degree=Dim	6	nsubj	_	_
-8	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
-9	pagudumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	7	punct	_	_
-10	tu	tu	_	_	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	_
-11	je	_	_	_	_	1	_	_	_
-12	.	.	PUNCT	punct	_	11	punct	_	_
+5	Kuiada	_	_	_	Mood=Ind|Number=Sing|Person=3	1	nsubj	_	_
+6	kururogu	_	_	_	Degree=Dim	5	nsubj	_	_
+7	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
+8	pagudumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	6	punct	_	_
+9	tu	tu	_	_	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	_
+10	je	_	_	_	_	1	_	_	_
+11	.	.	PUNCT	punct	_	10	punct	_	_
 # AUTO_FILLED_BY_MODEL = YES
 # model_projection = gold_sent_index:105 similarity:0.75
 
@@ -8987,9 +8980,8 @@
 # text_eng =
 1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Igreja	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	punct	_	_
+3	Igreja	_	_	_	_	_	_	_	_
+4	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 118-4
 # source_conllu = Bororo2-2.conllu
@@ -9377,9 +9369,8 @@
 4	!	!	PUNCT	punct	_	_	punct	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	uu	uu	PART	prcl	_	_	_	_	_
-9	!	!	PUNCT	punct	_	_	punct	_	_
+7	uu	uu	PART	prcl	_	_	_	_	_
+8	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 123-3
 # source_conllu = Bororo2-2.conllu
@@ -9550,9 +9541,8 @@
 3	betu	_	_	_	_	_	_	_	_
 4	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
 5	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	uu	uu	PART	prcl	_	_	_	_	_
-8	!	!	PUNCT	punct	_	_	punct	_	_
+6	uu	uu	PART	prcl	_	_	_	_	_
+7	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 125-4
 # source_conllu = Bororo2-2.conllu
@@ -10064,11 +10054,10 @@
 4	!	!	PUNCT	punct	_	_	punct	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	Imedu	imedu	NOUN	n	Number=Sing	_	_	_	_
-9	,	,	PUNCT	punct	_	_	punct	_	_
-10	akaregodure	_	VERB	v	Mood=Ind	_	_	_	_
-11	?	?	PUNCT	punct	_	_	punct	_	_
+7	Imedu	imedu	NOUN	n	Number=Sing	_	_	_	_
+8	,	,	PUNCT	punct	_	_	punct	_	_
+9	akaregodure	_	VERB	v	Mood=Ind	_	_	_	_
+10	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 130-4
 # source_conllu = Bororo2-2.conllu
@@ -10158,9 +10147,8 @@
 6	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
 8	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-9	:	_	_	_	_	_	_	_	_
-10	uu	uu	PART	prcl	_	_	_	_	_
-11	!	!	PUNCT	punct	_	_	punct	_	_
+9	uu	uu	PART	prcl	_	_	_	_	_
+10	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 131-6
 # source_conllu = Bororo2-2.conllu
@@ -10460,10 +10448,9 @@
 1	Cewu	cewu	DET	dem	Deixis=Med	_	_	_	_
 2	imetuia	metuia	NOUN	n	Number=Sing|Person=1	_	_	_	_
 3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Iareo	_	_	_	_	_	_	_	_
-6	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
-7	.	.	PUNCT	punct	_	_	punct	_	_
+4	Iareo	_	_	_	_	_	_	_	_
+5	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
+6	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 134-3
 # source_conllu = Bororo2-2.conllu
@@ -11272,12 +11259,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	!	!	PUNCT	punct	_	_	punct	_	_
 6	,	,	PUNCT	punct	_	_	punct	_	_
 7	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Taedu	_	_	_	_	_	_	_	_
-10	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-11	tu	tu	_	_	_	_	_	_	_
-12	woe	woe	ADV	adv	_	_	advmod	_	_
-13	.	.	PUNCT	punct	_	_	punct	_	_
+8	Taedu	_	_	_	_	_	_	_	_
+9	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
+10	tu	tu	_	_	_	_	_	_	_
+11	woe	woe	ADV	adv	_	_	advmod	_	_
+12	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 143-4
 # source_conllu = Bororo2-2.conllu
@@ -11443,10 +11429,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	!	!	PUNCT	punct	_	_	punct	_	_
 3	,	,	PUNCT	punct	_	_	punct	_	_
 4	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	Tagamudo	_	_	_	_	_	_	_	_
-7	jao	_	_	_	_	_	_	_	_
-8	!	!	PUNCT	punct	_	_	punct	_	_
+5	Tagamudo	_	_	_	_	_	_	_	_
+6	jao	_	_	_	_	_	_	_	_
+7	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 144-4
 # source_conllu = Bororo2-2.conllu
@@ -11716,10 +11701,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	109	_	_	_	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	punct	_	_
 3	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Inoba	inoba	PRON	pron	PronType=Int	_	_	_	_
-6	boere	_	_	_	_	_	_	_	_
-7	?	?	PUNCT	punct	_	_	punct	_	_
+4	Inoba	inoba	PRON	pron	PronType=Int	_	_	_	_
+5	boere	_	_	_	_	_	_	_	_
+6	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 146-10
 # source_conllu = Bororo2-2.conllu
@@ -11869,12 +11853,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 3	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Iogware	_	_	_	_	_	_	_	_
-6	meriri	meriri	NOUN	n	_	_	_	_	_
-7	kududo	_	_	_	_	_	_	_	_
-8	iwogai	bogai	ADP	posp	Number=Sing|Person=1	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+4	Iogware	_	_	_	_	_	_	_	_
+5	meriri	meriri	NOUN	n	_	_	_	_	_
+6	kududo	_	_	_	_	_	_	_	_
+7	iwogai	bogai	ADP	posp	Number=Sing|Person=1	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 148-1
 # source_conllu = Bororo2-2.conllu
@@ -12120,9 +12103,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Hm	_	_	_	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+3	Hm	_	_	_	_	_	_	_	_
+4	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 149-14
 # source_conllu = Bororo2-2.conllu
@@ -12437,9 +12419,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	110	root	_	_	_	_	_	_	_
 2	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	O	_	_	_	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+3	O	_	_	_	_	_	_	_	_
+4	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 152-1
 # source_conllu = Bororo2-2.conllu
@@ -12934,9 +12915,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	111	_	_	_	_	_	_	_	_
 2	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Kirabodu	_	_	_	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+3	Kirabodu	_	_	_	_	_	_	_	_
+4	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 157-1
 # source_conllu = Bororo2-2.conllu
@@ -14198,10 +14178,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	...	...	PUNCT	punct	_	_	punct	_	_
 6	Icare	icare	ADV	adv	_	_	advmod	_	_
 7	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Bapo	_	_	_	_	_	_	_	_
-10	reko	_	_	_	_	_	_	_	_
-11	!	!	PUNCT	punct	_	_	punct	_	_
+8	Bapo	_	_	_	_	_	_	_	_
+9	reko	_	_	_	_	_	_	_	_
+10	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 167-5
 # source_conllu = Bororo2-2.conllu
@@ -14236,14 +14215,13 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Ia	ia	DET	det	Definite=Ind|PronType=Art	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Hm	_	_	_	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+3	Hm	_	_	_	_	_	_	_	_
+4	!	!	PUNCT	punct	_	_	punct	_	_
 X	...	...	PUNCT	punct	_	_	punct	_	_
-9	Imodukare	_	_	_	_	_	_	_	_
-10	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
-11	utudo	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	punct	_	_	punct	_	_
+8	Imodukare	_	_	_	_	_	_	_	_
+9	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
+10	utudo	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 167-8
 # source_conllu = Bororo2-2.conllu
@@ -14602,10 +14580,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	coração	_	_	_	_	_	_	_	_
 6	reno	_	_	_	_	_	_	_	_
 7	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Manga	_	_	_	_	_	_	_	_
-10	pagodu	_	_	_	_	_	_	_	_
-11	reno	_	_	_	_	_	_	_	_
+8	Manga	_	_	_	_	_	_	_	_
+9	pagodu	_	_	_	_	_	_	_	_
+10	reno	_	_	_	_	_	_	_	_
 
 # sent_id = 170-10
 # source_conllu = Bororo2-2.conllu
@@ -14905,9 +14882,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Padre	_	_	_	_	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	uu	uu	PART	prcl	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	punct	_	_
+3	uu	uu	PART	prcl	_	_	_	_	_
+4	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 173-3
 # source_conllu = Bororo2-2.conllu
@@ -14964,13 +14940,12 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Aruduwo	_	_	_	_	_	_	_	_
-5	Baru	_	_	_	_	_	_	_	_
-6	to	to	ADP	posp	Number=Sing|Person=3	_	_	_	_
-7	inodukejere	_	_	_	_	_	_	_	_
-8	iegarere	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+3	Aruduwo	_	_	_	_	_	_	_	_
+4	Baru	_	_	_	_	_	_	_	_
+5	to	to	ADP	posp	Number=Sing|Person=3	_	_	_	_
+6	inodukejere	_	_	_	_	_	_	_	_
+7	iegarere	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 173-9
 # source_conllu = Bororo2-2.conllu
@@ -15020,9 +14995,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	?	?	PUNCT	punct	_	_	punct	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	Amaragodudo	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+7	Amaragodudo	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 174-3
 # source_conllu = Bororo2-2.conllu
@@ -15318,12 +15292,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	.	.	PUNCT	punct	_	_	punct	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	Awu	awu	DET	dem	Deixis=Prox	_	_	_	_
-9	akudawurogu	_	_	_	Degree=Dim	_	_	_	_
-10	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-11	na	_	_	_	_	_	_	_	_
-12	?	?	PUNCT	punct	_	_	punct	_	_
+7	Awu	awu	DET	dem	Deixis=Prox	_	_	_	_
+8	akudawurogu	_	_	_	Degree=Dim	_	_	_	_
+9	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
+10	na	_	_	_	_	_	_	_	_
+11	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 177-5
 # source_conllu = Bororo2-2.conllu
@@ -15515,11 +15488,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	Padre	_	_	_	_	_	_	_	_
 3	César	_	_	_	_	_	_	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	Amaragodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-7	boe	boe	NOUN	n	Number=Sing	_	_	_	_
-8	pegarewuji	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+5	Amaragodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+6	boe	boe	NOUN	n	Number=Sing	_	_	_	_
+7	pegarewuji	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 179-2
 # source_conllu = Bororo2-2.conllu
@@ -15881,9 +15853,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	inai	ai	ADP	posp	Number=Sing|Person=1	_	_	_	_
 6	.	.	PUNCT	punct	_	_	punct	_	_
 7	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Imedu	imedu	NOUN	n	Number=Sing	_	_	_	_
-10	!	!	PUNCT	punct	_	_	punct	_	_
+8	Imedu	imedu	NOUN	n	Number=Sing	_	_	_	_
+9	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 183-3
 # source_conllu = Bororo2-2.conllu
@@ -16980,19 +16951,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Baiga	_	_	_	_	_	_	_	_
 2	iku	_	_	_	_	_	_	_	_
 3	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	pa	_	_	_	_	_	_	_	_
-6	,	,	PUNCT	punct	_	_	punct	_	_
-7	pa	_	_	_	_	_	_	_	_
-8	,	,	PUNCT	punct	_	_	punct	_	_
-9	pa	_	_	_	_	_	_	_	_
-10	,	,	PUNCT	punct	_	_	punct	_	_
-11	pa	_	_	_	_	_	_	_	_
-12	,	,	PUNCT	punct	_	_	punct	_	_
-13	pa	_	_	_	_	_	_	_	_
-14	,	,	PUNCT	punct	_	_	punct	_	_
-15	pa	_	_	_	_	_	_	_	_
-16	.	.	PUNCT	punct	_	_	punct	_	_
+4	pa	_	_	_	_	_	_	_	_
+5	,	,	PUNCT	punct	_	_	punct	_	_
+6	pa	_	_	_	_	_	_	_	_
+7	,	,	PUNCT	punct	_	_	punct	_	_
+8	pa	_	_	_	_	_	_	_	_
+9	,	,	PUNCT	punct	_	_	punct	_	_
+10	pa	_	_	_	_	_	_	_	_
+11	,	,	PUNCT	punct	_	_	punct	_	_
+12	pa	_	_	_	_	_	_	_	_
+13	,	,	PUNCT	punct	_	_	punct	_	_
+14	pa	_	_	_	_	_	_	_	_
+15	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 195-5
 # source_conllu = Bororo2-2.conllu
@@ -21573,14 +21543,13 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	apowu	_	_	_	_	_	_	_	_
 4	uiadumage	_	_	_	_	_	_	_	_
 5	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	M	_	_	_	_	_	_	_	_
-8	m	_	_	_	_	_	_	_	_
+6	M	_	_	_	_	_	_	_	_
+7	m	_	_	_	_	_	_	_	_
+8	ka	_	_	_	_	_	_	_	_
 9	ka	_	_	_	_	_	_	_	_
 10	ka	_	_	_	_	_	_	_	_
-11	ka	_	_	_	_	_	_	_	_
-12	wa	_	_	_	_	_	_	_	_
-13	!	!	PUNCT	punct	_	_	punct	_	_
+11	wa	_	_	_	_	_	_	_	_
+12	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 245-5
 # source_conllu = Bororo2-2.conllu
@@ -23077,15 +23046,14 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	_	_	_	_
 3	boe	boe	NOUN	n	Number=Sing	_	_	_	_
 4	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	imuga	muga	NOUN	n	Number=Sing|Person=1	_	_	_	_
-7	,	,	PUNCT	punct	_	_	punct	_	_
-8	ioga	oga	NOUN	n	Number=Sing|Person=1	_	_	_	_
-9	,	,	PUNCT	punct	_	_	punct	_	_
-10	oino	oino	ADV	adv	_	_	advmod	_	_
-12	Kaba	_	_	_	_	_	_	_	_
-13	koiaba	_	_	_	_	_	_	_	_
-14	?	?	PUNCT	punct	_	_	punct	_	_
+5	imuga	muga	NOUN	n	Number=Sing|Person=1	_	_	_	_
+6	,	,	PUNCT	punct	_	_	punct	_	_
+7	ioga	oga	NOUN	n	Number=Sing|Person=1	_	_	_	_
+8	,	,	PUNCT	punct	_	_	punct	_	_
+9	oino	oino	ADV	adv	_	_	advmod	_	_
+11	Kaba	_	_	_	_	_	_	_	_
+12	koiaba	_	_	_	_	_	_	_	_
+13	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 268-4
 # source_conllu = Bororo2-2.conllu
@@ -24457,7 +24425,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	.	.	PUNCT	punct	_	_	punct	_	_
 6	,	,	PUNCT	punct	_	_	punct	_	_
 7	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
 
 # sent_id = 287-1
 # source_conllu = Bororo2-2.conllu
@@ -24510,7 +24477,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
 4	,	,	PUNCT	punct	_	_	punct	_	_
 5	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
 
 # sent_id = 288-1
 # source_conllu = Bororo2-2.conllu
@@ -24838,12 +24804,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
 4	,	,	PUNCT	punct	_	_	punct	_	_
 5	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	-Pawo	_	_	_	_	_	_	_	_
-8	pagamudo	_	_	_	_	_	_	_	_
-9	tu	tu	_	_	_	_	_	_	_
-10	jao	_	_	_	_	_	_	_	_
-11	;	_	_	_	_	_	_	_	_
+6	-Pawo	_	_	_	_	_	_	_	_
+7	pagamudo	_	_	_	_	_	_	_	_
+8	tu	tu	_	_	_	_	_	_	_
+9	jao	_	_	_	_	_	_	_	_
+10	;	_	_	_	_	_	_	_	_
 
 # sent_id = 292-2
 # source_conllu = Bororo2-2.conllu
@@ -27655,10 +27620,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
 2	icare	icare	ADV	adv	_	_	advmod	_	_
 3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Akiari	_	_	_	_	_	_	_	_
-6	kaba	_	_	_	_	_	_	_	_
-7	.	.	PUNCT	punct	_	_	punct	_	_
+4	Akiari	_	_	_	_	_	_	_	_
+5	kaba	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 327-2
 # source_conllu = Bororo2-2.conllu
@@ -28347,24 +28311,23 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 333-4
 # source_conllu = Bororo2-2.conllu
-# text = Inagore : He e...cera...ai...
+# text = Inagore He e...cera...ai...
 # text_por = aka...ru...huu...
 # text_eng =
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
-4	:	_	_	_	_	_	_	_	_
-5	He	_	_	_	_	_	_	_	_
-6	e	_	_	_	_	_	_	_	_
+4	He	_	_	_	_	_	_	_	_
+5	e	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	punct	_	_	punct	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
-10	cera	_	_	_	_	_	_	_	_
+9	cera	_	_	_	_	_	_	_	_
+10	.	.	PUNCT	punct	_	_	punct	_	_
 11	.	.	PUNCT	punct	_	_	punct	_	_
 12	.	.	PUNCT	punct	_	_	punct	_	_
-13	.	.	PUNCT	punct	_	_	punct	_	_
-14	ai	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
+13	ai	ji	ADP	posp	Number=Sing|Person=3	_	_	_	_
+14	.	.	PUNCT	punct	_	_	punct	_	_
 15	.	.	PUNCT	punct	_	_	punct	_	_
 16	.	.	PUNCT	punct	_	_	punct	_	_
-17	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 333-5
 # source_conllu = Bororo2-2.conllu
@@ -29295,7 +29258,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 6	dukejere	dukeje	ADV	adv	Mood=Ind	_	_	_	_
 7	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
 8	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-9	:	_	_	_	_	_	_	_	_
 
 # sent_id = 343-1
 # source_conllu = Bororo2-2.conllu
@@ -29318,7 +29280,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Boe	Boe	PROPN	propn	Number=Plur	_	_	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
 
 # sent_id = 344-1
 # source_conllu = Bororo2-2.conllu
@@ -29437,21 +29398,20 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Dukejere	dukeje	ADV	adv	Mood=Ind	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Mare	mare	CCONJ	cconj	_	_	_	_	_
-5	...	...	PUNCT	punct	_	_	punct	_	_
-8	na	_	_	_	_	_	_	_	_
+3	Mare	mare	CCONJ	cconj	_	_	_	_	_
+4	...	...	PUNCT	punct	_	_	punct	_	_
+7	na	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 9	.	.	PUNCT	punct	_	_	punct	_	_
 10	.	.	PUNCT	punct	_	_	punct	_	_
-11	.	.	PUNCT	punct	_	_	punct	_	_
-12	ruie	_	_	_	_	_	_	_	_
+11	ruie	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	punct	_	_	punct	_	_
 13	.	.	PUNCT	punct	_	_	punct	_	_
 14	.	.	PUNCT	punct	_	_	punct	_	_
-15	.	.	PUNCT	punct	_	_	punct	_	_
-16	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-19	Tarego	_	_	_	_	_	_	_	_
-20	bogai	bogai	ADP	posp	Number=Sing|Person=3	_	_	_	_
-21	!	!	PUNCT	punct	_	_	punct	_	_
+15	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+18	Tarego	_	_	_	_	_	_	_	_
+19	bogai	bogai	ADP	posp	Number=Sing|Person=3	_	_	_	_
+20	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 347-3
 # source_conllu = Bororo2-2.conllu
@@ -29820,7 +29780,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
 
 # sent_id = 352-1
 # source_conllu = Bororo2-2.conllu
@@ -38631,7 +38590,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 428-4
 # source_conllu = Bororo2-2.conllu
-# text = Cegodure gu je dukejere icare cachiworo akogodure: Akore gao, gao, gao, gao!
+# text = Cegodure gu je dukejere icare cachiworo akogodure Akore gao, gao, gao, gao!
 # text_por = Andamos um pouco e o cachorro começou a latir Gao, gao, gao, gao! Aí falaram Eles, eles, eles!
 # text_eng =
 1	Cegodure	kodu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	_	_	_	_
@@ -38641,16 +38600,15 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	icare	icare	ADV	adv	_	_	advmod	_	_
 6	cachiworo	_	_	_	_	_	_	_	_
 7	akogodure	_	VERB	v	Mood=Ind	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-12	Gao	_	_	_	_	_	_	_	_
-13	,	,	PUNCT	punct	_	_	punct	_	_
-14	gao	_	_	_	_	_	_	_	_
-15	,	,	PUNCT	punct	_	_	punct	_	_
-16	gao	_	_	_	_	_	_	_	_
-17	,	,	PUNCT	punct	_	_	punct	_	_
-18	gao	_	_	_	_	_	_	_	_
-19	!	!	PUNCT	punct	_	_	punct	_	_
+8	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+11	Gao	_	_	_	_	_	_	_	_
+12	,	,	PUNCT	punct	_	_	punct	_	_
+13	gao	_	_	_	_	_	_	_	_
+14	,	,	PUNCT	punct	_	_	punct	_	_
+15	gao	_	_	_	_	_	_	_	_
+16	,	,	PUNCT	punct	_	_	punct	_	_
+17	gao	_	_	_	_	_	_	_	_
+18	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 428-5
 # source_conllu = Bororo2-2.conllu
@@ -43468,19 +43426,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 456-3
 # source_conllu = Bororo2-2.conllu
-# text = Icare kogoriga akogodure: Ko ko ko!..
+# text = Icare kogoriga akogodure Ko ko ko!..
 # text_por = Ele disse A!
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	kogoriga	_	_	_	_	_	_	_	_
 3	akogodure	_	VERB	v	Mood=Ind	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Ko	_	_	_	_	_	_	_	_
+4	Ko	_	_	_	_	_	_	_	_
+5	ko	ko	VERB	v	_	_	_	_	_
 6	ko	ko	VERB	v	_	_	_	_	_
-7	ko	ko	VERB	v	_	_	_	_	_
-8	!	!	PUNCT	punct	_	_	punct	_	_
+7	!	!	PUNCT	punct	_	_	punct	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 9	.	.	PUNCT	punct	_	_	punct	_	_
-10	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 456-4
 # source_conllu = Bororo2-2.conllu
@@ -52643,21 +52600,20 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 506-10
 # source_conllu = Bororo2-2.conllu
-# text = Icare inojagodure, inagore: je je je je...
+# text = Icare inojagodure, inagore je je je je...
 # text_por =
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	inojagodure	_	VERB	v	Mood=Ind	_	_	_	_
 3	,	,	PUNCT	punct	_	_	punct	_	_
 4	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
 6	je	_	_	_	_	_	_	_	_
 7	je	_	_	_	_	_	_	_	_
 8	je	_	_	_	_	_	_	_	_
-9	je	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	punct	_	_	punct	_	_
 10	.	.	PUNCT	punct	_	_	punct	_	_
 11	.	.	PUNCT	punct	_	_	punct	_	_
-12	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 506-11
 # source_conllu = Bororo2-2.conllu
@@ -55181,11 +55137,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	jordiwado	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	punct	_	_
 7	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	awuji	_	_	_	_	_	_	_	_
-10	,	,	PUNCT	punct	_	_	punct	_	_
-11	awuji	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	punct	_	_	punct	_	_
+8	awuji	_	_	_	_	_	_	_	_
+9	,	,	PUNCT	punct	_	_	punct	_	_
+10	awuji	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 519-9
 # source_conllu = Bororo2-2.conllu
@@ -55245,9 +55200,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	jamedu	jamedu	ADV	adv	_	_	advmod	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	ps	_	_	_	_	_	_	_	_
-9	!	!	PUNCT	punct	_	_	punct	_	_
+7	ps	_	_	_	_	_	_	_	_
+8	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 519-14
 # source_conllu = Bororo2-2.conllu
@@ -56201,19 +56155,18 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	akogodure	_	VERB	v	Mood=Ind	_	_	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
-8	pr	_	_	_	_	_	_	_	_
+7	pr	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 9	.	.	PUNCT	punct	_	_	punct	_	_
 10	.	.	PUNCT	punct	_	_	punct	_	_
-11	.	.	PUNCT	punct	_	_	punct	_	_
-12	pr	_	_	_	_	_	_	_	_
+11	pr	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	punct	_	_	punct	_	_
 13	.	.	PUNCT	punct	_	_	punct	_	_
 14	.	.	PUNCT	punct	_	_	punct	_	_
-15	.	.	PUNCT	punct	_	_	punct	_	_
-16	pr	_	_	_	_	_	_	_	_
+15	pr	_	_	_	_	_	_	_	_
+16	.	.	PUNCT	punct	_	_	punct	_	_
 17	.	.	PUNCT	punct	_	_	punct	_	_
 18	.	.	PUNCT	punct	_	_	punct	_	_
-19	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 526-7
 # source_conllu = Bororo2-2.conllu
@@ -57204,20 +57157,19 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	uragodudo	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	punct	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	E	_	_	_	_	_	_	_	_
+5	E	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	punct	_	_	punct	_	_
 7	.	.	PUNCT	punct	_	_	punct	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
-10	e	_	_	_	_	_	_	_	_
+9	e	_	_	_	_	_	_	_	_
+10	.	.	PUNCT	punct	_	_	punct	_	_
 11	.	.	PUNCT	punct	_	_	punct	_	_
 12	.	.	PUNCT	punct	_	_	punct	_	_
-13	.	.	PUNCT	punct	_	_	punct	_	_
-14	e	_	_	_	_	_	_	_	_
+13	e	_	_	_	_	_	_	_	_
+14	.	.	PUNCT	punct	_	_	punct	_	_
 15	.	.	PUNCT	punct	_	_	punct	_	_
 16	.	.	PUNCT	punct	_	_	punct	_	_
-17	.	.	PUNCT	punct	_	_	punct	_	_
-18	!	!	PUNCT	punct	_	_	punct	_	_
+17	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 532-11
 # source_conllu = Bororo2-2.conllu
@@ -59065,7 +59017,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 4	pugeje	pugeje	ADV	adv	_	_	advmod	_	_
 5	,	,	PUNCT	punct	_	_	punct	_	_
 6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-7	:	_	_	_	_	_	_	_	_
 
 # sent_id = 544-1
 # source_conllu = Bororo2-2.conllu
@@ -60573,9 +60524,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
 4	,	,	PUNCT	punct	_	_	punct	_	_
 5	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	Pe	_	_	_	_	_	_	_	_
-8	.	.	PUNCT	punct	_	_	punct	_	_
+6	Pe	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 552-8
 # source_conllu = Bororo2-2.conllu
@@ -62057,10 +62007,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Emagore	_	_	_	_	_	_	_	_
 3	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	Padre	_	_	_	_	_	_	_	_
-6	Pedro	_	_	_	_	_	_	_	_
-7	!	!	PUNCT	punct	_	_	punct	_	_
+4	Padre	_	_	_	_	_	_	_	_
+5	Pedro	_	_	_	_	_	_	_	_
+6	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 560-7
 # source_conllu = Bororo2-2.conllu
@@ -63282,17 +63231,16 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Pedro	_	_	_	_	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Agora	_	_	_	_	_	_	_	_
-5	mesmo	_	_	_	_	_	_	_	_
-6	nós	_	_	_	_	_	_	_	_
-7	vamos	_	_	_	_	_	_	_	_
-8	chegar	_	_	_	_	_	_	_	_
-9	na	_	_	_	_	_	_	_	_
-10	corruptela	_	_	_	_	_	_	_	_
-11	dos	_	_	_	_	_	_	_	_
-12	brancos	_	_	_	_	_	_	_	_
-13	.	.	PUNCT	punct	_	_	punct	_	_
+3	Agora	_	_	_	_	_	_	_	_
+4	mesmo	_	_	_	_	_	_	_	_
+5	nós	_	_	_	_	_	_	_	_
+6	vamos	_	_	_	_	_	_	_	_
+7	chegar	_	_	_	_	_	_	_	_
+8	na	_	_	_	_	_	_	_	_
+9	corruptela	_	_	_	_	_	_	_	_
+10	dos	_	_	_	_	_	_	_	_
+11	brancos	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 566-13
 # source_conllu = Bororo2-2.conllu
@@ -64945,11 +64893,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	finado	_	_	_	_	_	_	_	_
 3	Simão	_	_	_	_	_	_	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	imire	_	_	_	_	_	_	_	_
-7	ikidogodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-8	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+5	imire	_	_	_	_	_	_	_	_
+6	ikidogodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+7	ji	ji	ADP	posp	Number=Sing|Person=3	_	obl	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 573-15
 # source_conllu = Bororo2-2.conllu
@@ -68059,28 +68006,27 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 590-11
 # source_conllu = Bororo2-2.conllu
-# text = Icare akore : ure tugera to tumoji, tumugu moduie nono, tuietu moduie pagoroeji, ceduiagu cemaragoduwo.
+# text = Icare akore ure tugera to tumoji, tumugu moduie nono, tuietu moduie pagoroeji, ceduiagu cemaragoduwo.
 # text_por =
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	tugera	_	_	_	_	_	_	_	_
-6	to	to	ADP	posp	Number=Sing|Person=3	_	_	_	_
-7	tumoji	_	_	_	_	_	_	_	_
-8	,	,	PUNCT	punct	_	_	punct	_	_
-9	tumugu	_	_	_	_	_	_	_	_
-10	moduie	_	_	_	_	_	_	_	_
-11	nono	nono	ADV	adv	_	_	advmod	_	_
-12	,	,	PUNCT	punct	_	_	punct	_	_
-13	tuietu	_	_	_	_	_	_	_	_
-14	moduie	_	_	_	_	_	_	_	_
-15	pagoroeji	_	_	_	_	_	_	_	_
-16	,	,	PUNCT	punct	_	_	punct	_	_
-17	ceduiagu	_	_	_	_	_	_	_	_
-18	cemaragoduwo	_	_	_	_	_	_	_	_
-19	.	.	PUNCT	punct	_	_	punct	_	_
+3	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+4	tugera	_	_	_	_	_	_	_	_
+5	to	to	ADP	posp	Number=Sing|Person=3	_	_	_	_
+6	tumoji	_	_	_	_	_	_	_	_
+7	,	,	PUNCT	punct	_	_	punct	_	_
+8	tumugu	_	_	_	_	_	_	_	_
+9	moduie	_	_	_	_	_	_	_	_
+10	nono	nono	ADV	adv	_	_	advmod	_	_
+11	,	,	PUNCT	punct	_	_	punct	_	_
+12	tuietu	_	_	_	_	_	_	_	_
+13	moduie	_	_	_	_	_	_	_	_
+14	pagoroeji	_	_	_	_	_	_	_	_
+15	,	,	PUNCT	punct	_	_	punct	_	_
+16	ceduiagu	_	_	_	_	_	_	_	_
+17	cemaragoduwo	_	_	_	_	_	_	_	_
+18	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 591-1
 # source_conllu = Bororo2-2.conllu
@@ -68438,23 +68384,22 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	itonaregedu	_	_	_	_	_	_	_	_
 3	Iori	_	_	_	_	_	_	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	-Tore	_	_	_	_	_	_	_	_
-7	ekeiagu	_	_	_	_	_	_	_	_
-8	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
-9	kare	_	_	_	_	_	_	_	_
-10	,	,	PUNCT	punct	_	_	punct	_	_
-11	oinore	oino	ADV	adv	Mood=Ind	_	_	_	_
-12	akomode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-13	,	,	PUNCT	punct	_	_	punct	_	_
-14	tuiagu	_	_	_	_	_	_	_	_
-15	erego	_	_	_	_	_	_	_	_
-16	toro	toro	ADV	adv	_	_	advmod	_	_
-17	ewogai	bogai	ADP	posp	Number=Plur|Person=3	_	_	_	_
-18	,	,	PUNCT	punct	_	_	punct	_	_
-19	oinore	oino	ADV	adv	Mood=Ind	_	_	_	_
-20	akomode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-21	.	.	PUNCT	punct	_	_	punct	_	_
+5	-Tore	_	_	_	_	_	_	_	_
+6	ekeiagu	_	_	_	_	_	_	_	_
+7	nowu	nowu	DET	dem	Deixis=Med	_	_	_	_
+8	kare	_	_	_	_	_	_	_	_
+9	,	,	PUNCT	punct	_	_	punct	_	_
+10	oinore	oino	ADV	adv	Mood=Ind	_	_	_	_
+11	akomode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+12	,	,	PUNCT	punct	_	_	punct	_	_
+13	tuiagu	_	_	_	_	_	_	_	_
+14	erego	_	_	_	_	_	_	_	_
+15	toro	toro	ADV	adv	_	_	advmod	_	_
+16	ewogai	bogai	ADP	posp	Number=Plur|Person=3	_	_	_	_
+17	,	,	PUNCT	punct	_	_	punct	_	_
+18	oinore	oino	ADV	adv	Mood=Ind	_	_	_	_
+19	akomode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+20	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 592-11
 # source_conllu = Bororo2-2.conllu
@@ -80600,12 +80545,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Ewure	_	_	_	_	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
+3	tr	_	_	_	_	_	_	_	_
 4	tr	_	_	_	_	_	_	_	_
 5	tr	_	_	_	_	_	_	_	_
-6	tr	_	_	_	_	_	_	_	_
-7	!	!	PUNCT	punct	_	_	punct	_	_
-8	.	.	PUNCT	punct	_	_	punct	_	_
+6	!	!	PUNCT	punct	_	_	punct	_	_
+7	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 659-1
 # source_conllu = Bororo2-2.conllu
@@ -83206,7 +83150,7 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 673-3
 # source_conllu = Bororo2-2.conllu
-# text = Imode iwuredo ca oino je, inagore: Hu hu hu!
+# text = Imode iwuredo ca oino je, inagore Hu hu hu!
 # text_por = Um monstro como uma baleia estava me atraindo.
 # text_eng =
 1	Imode	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Status=Irr	_	_	_	_
@@ -83216,11 +83160,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 5	je	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	punct	_	_
 7	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	_	_	_	_
-8	:	_	_	_	_	_	_	_	_
-9	Hu	_	_	_	_	_	_	_	_
+8	Hu	_	_	_	_	_	_	_	_
+9	hu	hu	X	x	_	_	_	_	_
 10	hu	hu	X	x	_	_	_	_	_
-11	hu	hu	X	x	_	_	_	_	_
-12	!	!	PUNCT	punct	_	_	punct	_	_
+11	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 673-4
 # source_conllu = Bororo2-2.conllu
@@ -84344,13 +84287,12 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	unoragodure	_	VERB	v	Mood=Ind	_	_	_	_
 3	ii	ji	ADP	posp	Number=Sing|Person=1	_	_	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	Kaba	_	_	_	_	_	_	_	_
-7	koiaba	_	_	_	_	_	_	_	_
-8	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-9	arodo	_	_	_	_	_	_	_	_
-10	ino	o	NOUN	n	Number=Sing|Person=1	_	_	_	_
-11	?	?	PUNCT	punct	_	_	punct	_	_
+5	Kaba	_	_	_	_	_	_	_	_
+6	koiaba	_	_	_	_	_	_	_	_
+7	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+8	arodo	_	_	_	_	_	_	_	_
+9	ino	o	NOUN	n	Number=Sing|Person=1	_	_	_	_
+10	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 678-6
 # source_conllu = Bororo2-2.conllu
@@ -84686,9 +84628,8 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	awadunure	_	VERB	v	Aspect=Prog|Mood=Ind||	_	_	_	_
 4	apo	apo	ADP	posp	Number=Sing|Person=3	_	obl	_	_
 5	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	Kae	_	_	_	_	_	_	_	_
-8	!	!	PUNCT	punct	_	_	punct	_	_
+6	Kae	_	_	_	_	_	_	_	_
+7	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 680-7
 # source_conllu = Bororo2-2.conllu
@@ -93079,11 +93020,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Pedro	_	_	_	_	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Amode	a	PRON	bi	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-5	amedage	_	_	_	_	_	_	_	_
-6	ekurugo	_	_	_	_	_	_	_	_
-7	.	.	PUNCT	punct	_	_	punct	_	_
+3	Amode	a	PRON	bi	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+4	amedage	_	_	_	_	_	_	_	_
+5	ekurugo	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 727-4
 # source_conllu = Bororo2-2.conllu
@@ -102679,15 +102619,14 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Bruno	Bruno	PROPN	PROPN	propn	_	_	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Hoje	_	_	_	_	_	_	_	_
-5	é	_	_	_	_	_	_	_	_
-6	muita	_	_	_	_	_	_	_	_
-7	alegria	_	_	_	_	_	_	_	_
-8	,	,	PUNCT	punct	_	_	punct	_	_
-9	alegria	_	_	_	_	_	_	_	_
-10	forte	_	_	_	_	_	_	_	_
-11	.	.	PUNCT	punct	_	_	punct	_	_
+3	Hoje	_	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_
+5	muita	_	_	_	_	_	_	_	_
+6	alegria	_	_	_	_	_	_	_	_
+7	,	,	PUNCT	punct	_	_	punct	_	_
+8	alegria	_	_	_	_	_	_	_	_
+9	forte	_	_	_	_	_	_	_	_
+10	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 779-3
 # source_conllu = Bororo2-2.conllu
@@ -105280,13 +105219,12 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Tumodukae	_	_	_	_	_	_	_	_
-5	emugudo	_	_	_	_	_	_	_	_
-6	woe	woe	ADV	adv	_	_	advmod	_	_
-7	ba	_	_	_	_	_	_	_	_
-8	tada	tada	ADP	posp	_	_	opl	_	_
-9	.	.	PUNCT	punct	_	_	punct	_	_
+3	Tumodukae	_	_	_	_	_	_	_	_
+4	emugudo	_	_	_	_	_	_	_	_
+5	woe	woe	ADV	adv	_	_	advmod	_	_
+6	ba	_	_	_	_	_	_	_	_
+7	tada	tada	ADP	posp	_	_	opl	_	_
+8	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 793-5
 # source_conllu = Bororo2-2.conllu
@@ -107919,11 +107857,10 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 3	jordiwarewu	_	_	_	_	_	_	_	_
 4	ime	_	_	_	_	_	_	_	_
 5	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-6	:	_	_	_	_	_	_	_	_
-7	nowugeraduie	_	_	_	_	_	_	_	_
-8	emaragodu	_	_	_	_	_	_	_	_
-9	rakare	_	_	_	_	_	_	_	_
-10	.	.	PUNCT	punct	_	_	punct	_	_
+6	nowugeraduie	_	_	_	_	_	_	_	_
+7	emaragodu	_	_	_	_	_	_	_	_
+8	rakare	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 806-15
 # source_conllu = Bororo2-2.conllu
@@ -112911,12 +112848,11 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Icare	icare	ADV	adv	_	_	advmod	_	_
 2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Icare	icare	ADV	adv	_	_	advmod	_	_
-5	pamode	u	PRON	bi	Clusivity=In|Mood=Ind|Number=Sing|Person=1|Status=Irr	_	_	_	_
-6	aroe	aroe	NOUN	n	Number=Plur	_	_	_	_
-7	kado	_	_	_	_	_	_	_	_
-8	.	.	PUNCT	punct	_	_	punct	_	_
+3	Icare	icare	ADV	adv	_	_	advmod	_	_
+4	pamode	u	PRON	bi	Clusivity=In|Mood=Ind|Number=Sing|Person=1|Status=Irr	_	_	_	_
+5	aroe	aroe	NOUN	n	Number=Plur	_	_	_	_
+6	kado	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 841-12
 # source_conllu = Bororo2-2.conllu
@@ -119484,18 +119420,17 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 1	Mare	mare	CCONJ	cconj	_	_	_	_	_
 2	iedaga	_	_	_	_	_	_	_	_
 3	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-4	:	_	_	_	_	_	_	_	_
-5	ro	_	_	_	_	_	_	_	_
-6	bokwareboe	_	_	_	_	_	_	_	_
-7	karega	karega	AUX	aux	Polarity=Neg	_	_	_	_
-8	.	.	PUNCT	punct	_	_	punct	_	_
-9	,	,	PUNCT	punct	_	_	punct	_	_
-10	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-13	Pamode	u	PRON	bi	Clusivity=In|Mood=Ind|Number=Sing|Person=1|Status=Irr	_	_	_	_
-14	kido	_	_	_	_	_	_	_	_
-15	dukeje	dukeje	_	_	_	_	_	_	_
-16	romode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-17	!	!	PUNCT	punct	_	_	punct	_	_
+4	ro	_	_	_	_	_	_	_	_
+5	bokwareboe	_	_	_	_	_	_	_	_
+6	karega	karega	AUX	aux	Polarity=Neg	_	_	_	_
+7	.	.	PUNCT	punct	_	_	punct	_	_
+8	,	,	PUNCT	punct	_	_	punct	_	_
+9	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
+12	Pamode	u	PRON	bi	Clusivity=In|Mood=Ind|Number=Sing|Person=1|Status=Irr	_	_	_	_
+13	kido	_	_	_	_	_	_	_	_
+14	dukeje	dukeje	_	_	_	_	_	_	_
+15	romode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+16	!	!	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 883-9
 # source_conllu = Bororo2-2.conllu
@@ -123715,7 +123650,6 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 2	uragodure	_	VERB	v	Mood=Ind	_	_	_	_
 3	,	,	PUNCT	punct	_	_	punct	_	_
 4	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
 
 # sent_id = 902-1
 # source_conllu = Bororo2-2.conllu
@@ -126762,27 +126696,26 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 918-5
 # source_conllu = Bororo2-2.conllu
-# text = Dukeje icare aije akogodure : tb!...tb...tb...
+# text = Dukeje icare aije akogodure tb!...tb...tb...
 # text_por = Tb!...
 # text_eng =
 1	Dukeje	dukeje	ADV	adv	_	_	advmod	_	_
 2	icare	icare	ADV	adv	_	_	advmod	_	_
 3	aije	_	_	_	_	_	_	_	_
 4	akogodure	_	VERB	v	Mood=Ind	_	_	_	_
-5	:	_	_	_	_	_	_	_	_
-6	tb	_	_	_	_	_	_	_	_
-7	!	!	PUNCT	punct	_	_	punct	_	_
+5	tb	_	_	_	_	_	_	_	_
+6	!	!	PUNCT	punct	_	_	punct	_	_
+7	.	.	PUNCT	punct	_	_	punct	_	_
 8	.	.	PUNCT	punct	_	_	punct	_	_
 9	.	.	PUNCT	punct	_	_	punct	_	_
-10	.	.	PUNCT	punct	_	_	punct	_	_
-11	tb	_	_	_	_	_	_	_	_
+10	tb	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	punct	_	_	punct	_	_
 12	.	.	PUNCT	punct	_	_	punct	_	_
 13	.	.	PUNCT	punct	_	_	punct	_	_
-14	.	.	PUNCT	punct	_	_	punct	_	_
-15	tb	_	_	_	_	_	_	_	_
+14	tb	_	_	_	_	_	_	_	_
+15	.	.	PUNCT	punct	_	_	punct	_	_
 16	.	.	PUNCT	punct	_	_	punct	_	_
 17	.	.	PUNCT	punct	_	_	punct	_	_
-18	.	.	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 918-6
 # source_conllu = Bororo2-2.conllu
@@ -129801,10 +129734,9 @@ X	...	...	PUNCT	punct	_	_	punct	_	_
 # text_eng =
 1	Iage	ia	DET	art	Definite=Ind|PronType=Art	_	_	_	_
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	_	_	_	_
-3	:	_	_	_	_	_	_	_	_
-4	Aragodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
-5	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
-6	?	?	PUNCT	punct	_	_	punct	_	_
+3	Aragodumode	_	VERB	v	Mood=Ind|Number=|Person=|Status=Irr	_	_	_	_
+4	rugadu	rugadu	ADV	adv	_	_	advmod	_	_
+5	?	?	PUNCT	punct	_	_	punct	_	_
 
 # sent_id = 932-15
 # source_conllu = Bororo2-2.conllu
