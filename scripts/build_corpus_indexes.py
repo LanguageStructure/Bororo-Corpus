@@ -134,7 +134,8 @@ def conllu_sentences(path, namespace=''):
  out=[];meta={};rows=[];sid_counts={}
  def flush():
   nonlocal meta,rows
-  if not rows:return
+  if not rows:
+   meta={};rows=[];return
   sid=meta.get('sent_id')
   if not sid:
    meta={};rows=[];return
@@ -152,6 +153,7 @@ def conllu_sentences(path, namespace=''):
    line=line.rstrip('\n')
    if not line.strip():flush();continue
    if line.startswith('#'):
+    if re.match(r'#\s*sent_id\s*=',line) and rows:flush()
     m=re.match(r'#\s*([^=]+?)\s*=\s*(.*)$',line)
     if m:meta[m.group(1).strip()]=m.group(2).strip()
     continue
@@ -189,27 +191,33 @@ def annotation_completeness(row):
  syntax=bool(row.get('head') and row.get('deprel'))
  return {'lexical':lexical,'morphology':morphology,'syntax':syntax}
 def dictionary_annotation_data():
- # Prefer the source CoNLL-U. The TSV remains a small editorial override/fallback layer.
+ # Combine token-level annotation from dictionary and Bororo2.
  out=[];seen=set()
- if DICT_CONLLU.exists():
-  sent_id='';rows=[]
+ def read_conllu(path,namespace=''):
+  if not path.exists():return
+  sent_id='';sid_counts={}
   def emit(cols,sid):
    if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():return
    form,lemma,upos,xpos,feats,head,deprel=cols[1],cols[2],cols[3],cols[4],cols[5],cols[6],cols[7]
-   vals={'sent_id':sid,'token_id':cols[0],'form':form,'lemma':'' if lemma=='_' else lemma,'upos':'' if upos=='_' else upos,'xpos':'' if xpos=='_' else xpos,'feats':'' if feats=='_' else feats,'head':'' if head=='_' else head,'deprel':'' if deprel=='_' else deprel,'source':DICT_CONLLU.name}
+   vals={'sent_id':sid,'token_id':cols[0],'form':form,'lemma':'' if lemma=='_' else lemma,'upos':'' if upos=='_' else upos,'xpos':'' if xpos=='_' else xpos,'feats':'' if feats=='_' else feats,'head':'' if head=='_' else head,'deprel':'' if deprel=='_' else deprel,'source':path.name}
    # Keep a token when at least one explicit linguistic layer is present.
    if not any(vals[k] for k in ['lemma','upos','xpos','feats','head','deprel']):return
    vals['layers']=[k for k in ['lemma','upos','xpos','feats'] if vals[k]]
    if vals['head'] and vals['deprel']:vals['layers'].append('syntax')
    vals['complete']=annotation_completeness(vals);out.append(vals);seen.add((sid,cols[0]))
-  with DICT_CONLLU.open(encoding='utf-8') as f:
+  with path.open(encoding='utf-8') as f:
    for line in f:
     line=line.rstrip('\n')
     if line.startswith('#'):
-     m=re.match(r'#\\s*sent_id\\s*=\\s*(.*)$',line)
-     if m:sent_id=m.group(1).strip()
+     m=re.match(r'#\s*sent_id\s*=\s*(.*)$',line)
+     if m:
+      original=m.group(1).strip()
+      sid_counts[original]=sid_counts.get(original,0)+1
+      n=sid_counts[original];sent_id=(f'{namespace}:{original}'+(f'#{n}' if n>1 else '')) if namespace else original
     elif line.strip():
      emit(line.split('\t'),sent_id)
+ read_conllu(DICT_CONLLU)
+ read_conllu(BORORO2_CONLLU,'bororo2')
  if DICT_ANN.exists():
   for r in tsv(DICT_ANN):
    key=((r.get('sent_id') or '').strip(),(r.get('token_id') or '').strip())
