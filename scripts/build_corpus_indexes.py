@@ -134,8 +134,6 @@ def conllu_sentences(path, namespace=''):
  out=[];meta={};rows=[];sid_counts={}
  def flush():
   nonlocal meta,rows
-  if not rows:
-   meta={};rows=[];return
   sid=meta.get('sent_id')
   if not sid:
    meta={};rows=[];return
