@@ -5,7 +5,70 @@ let D=[],limit=10,renderTimer=null,loaded=false;const esc=s=>String(s??'').repla
 
   return '<div class="muted">Anotação sintática pendente. Os tokens disponíveis podem ser consultados na tabela CoNLL-U abaixo.</div>';
 
-}return '<div class="muted">Anotação pendente: esta sentença ainda não possui tokens CoNLL-U.</div>';const validHead=t=>Number.isInteger(Number(t.head))&&Number(t.head)>0&&Number(t.head)<=n&&Number(t.id)>0&&Number(t.id)<=n;const distances=s.tokens.filter(validHead).map(t=>Math.abs(Number(t.id)-Number(t.head)));const max=Math.min(12,Math.max(1,...distances)),H=65+max*22,width=Math.max(W,n*W);let arcs=s.tokens.filter(validHead).map(t=>{let x1=(Number(t.head)-.5)*W,x2=(Number(t.id)-.5)*W,d=Math.min(12,Math.abs(Number(t.id)-Number(t.head))),y=H-8-d*22,mid=(x1+x2)/2;return `<path d="M ${x1} ${H} C ${x1} ${y}, ${x2} ${y}, ${x2} ${H}" fill="none" stroke="var(--accent)" stroke-width="1.7" marker-end="url(#arrow)"/><text x="${mid}" y="${Math.max(12,y-4)}" text-anchor="middle" font-size="11" fill="var(--accent)">${esc(t.deprel)}</text>`}).join('');return `<div class="tree" style="padding-top:${H}px"><svg class="arcs" width="${width}" height="${H+8}" viewBox="0 0 ${width} ${H+8}"><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="var(--accent)"/></marker></defs>${arcs}</svg><div class="tokens">${s.tokens.map(t=>`<div class="tok ${t.head===0?'root':''}"><b>${esc(t.form)}</b><small>${esc(t.lemma==='_'?'':t.lemma)}</small><small>${esc(t.upos)}</small><div class="dep">${t.head===0?'ROOT':esc(t.deprel)}</div></div>`).join('')}</div></div>`}function card(s){let toks=s.tokens.map(t=>`<div class="tok ${t.head===0?'root':''}"><b>${esc(t.form)}</b><small>${esc(t.lemma==='_'?'':t.lemma)}</small><small>${esc(t.upos)}</small><div class="dep">← ${t.head||'ROOT'} · ${esc(t.deprel)}</div></div>`).join('');let rows=s.tokens.map(t=>`<tr><td>${t.id}</td><td>${esc(t.form)}</td><td>${esc(t.lemma)}</td><td>${esc(t.upos)}</td><td>${t.head}</td><td>${esc(t.deprel)}</td></tr>`).join('');return `<section class="sentence" id="${esc(s.sent_id)}"><div class="muted"><code># sent_id = ${esc(s.sent_id)}</code></div><div class="text">${esc(s.text)}</div>${s.text_por?`<div><code># text_por =</code> ${esc(s.text_por)}</div>`:''}${s.text_eng?`<div><code># text_eng =</code> ${esc(s.text_eng)}</div>`:''}<div class="graph">${graph(s)}</div><details><summary>CoNLL-U essencial</summary><table><tr><th>ID</th><th>FORM</th><th>LEMMA</th><th>UPOS</th><th>HEAD</th><th>DEPREL</th></tr>${rows}</table></details></section>`}function matchTok(t,v){v=v.trim().toLocaleLowerCase('pt-BR');return !v||[t.form,t.lemma,t.upos,t.xpos].some(x=>String(x||'').toLocaleLowerCase('pt-BR')===v)}function pattern(s){let h=headq.value,d=depq.value,r=patrel.value;if(!h&&!d&&!r)return true;let by=new Map(s.tokens.map(t=>[t.id,t]));return s.tokens.some(t=>{if(t.head<=0)return false;let head=by.get(t.head);return head&&matchTok(head,h)&&matchTok(t,d)&&(!r||t.deprel===r)})}function annotated(s){return s.tokens&&s.tokens.some(t=>Number(t.head)===0&&String(t.deprel||'').toLowerCase()==='root')}function render(){if(!loaded)return;let qv=q.value.trim().toLocaleLowerCase('pt-BR'),pv=pos.value,rv=rel.value,x=D.filter(s=>annotated(s)&&(!qv||JSON.stringify(s).toLocaleLowerCase('pt-BR').includes(qv))&&(!pv||s.tokens.some(t=>t.upos===pv))&&(!rv||s.tokens.some(t=>t.deprel===rv))&&pattern(s));list.innerHTML=x.slice(0,limit).map(s=>{try{return card(s)}catch(e){console.error('UD render error',s.sent_id,e);return `<section class="sentence"><div class="muted">${esc(s.sent_id)}</div><div class="text">${esc(s.text||'')}</div><p class="muted">A árvore desta sentença não pôde ser desenhada. Os dados permanecem disponíveis no CoNLL-U.</p></section>`}}).join('');status.textContent=`${x.length.toLocaleString('pt-BR')} sentença(s).`;more.hidden=x.length<=limit}
+}return '<div class="muted">Anotação pendente: esta sentença ainda não possui tokens CoNLL-U.</div>';const validHead=t=>Number.isInteger(Number(t.head))&&Number(t.head)>0&&Number(t.head)<=n&&Number(t.id)>0&&Number(t.id)<=n;const distances=s.tokens.filter(validHead).map(t=>Math.abs(Number(t.id)-Number(t.head)));const max=Math.min(12,Math.max(1,...distances)),H=65+max*22,width=Math.max(W,n*W);let arcs=s.tokens.filter(validHead).map(t=>{let x1=(Number(t.head)-.5)*W,x2=(Number(t.id)-.5)*W,d=Math.min(12,Math.abs(Number(t.id)-Number(t.head))),y=H-8-d*22,mid=(x1+x2)/2;return `<path d="M ${x1} ${H} C ${x1} ${y}, ${x2} ${y}, ${x2} ${H}" fill="none" stroke="var(--accent)" stroke-width="1.7" marker-end="url(#arrow)"/><text x="${mid}" y="${Math.max(12,y-4)}" text-anchor="middle" font-size="11" fill="var(--accent)">${esc(t.deprel)}</text>`}).join('');return `<div class="tree" style="padding-top:${H}px"><svg class="arcs" width="${width}" height="${H+8}" viewBox="0 0 ${width} ${H+8}"><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="var(--accent)"/></marker></defs>${arcs}</svg><div class="tokens">${s.tokens.map(t=>`<div class="tok ${t.head===0?'root':''}"><b>${esc(t.form)}</b><small>${esc(t.lemma==='_'?'':t.lemma)}</small><small>${esc(t.upos)}</small><div class="dep">${t.head===0?'ROOT':esc(t.deprel)}</div></div>`).join('')}</div></div>`}function card(s){let toks=s.tokens.map(t=>`<div class="tok ${t.head===0?'root':''}"><b>${esc(t.form)}</b><small>${esc(t.lemma==='_'?'':t.lemma)}</small><small>${esc(t.upos)}</small><div class="dep">← ${t.head||'ROOT'} · ${esc(t.deprel)}</div></div>`).join('');let rows=s.tokens.map(t=>`<tr><td>${t.id}</td><td>${esc(t.form)}</td><td>${esc(t.lemma)}</td><td>${esc(t.upos)}</td><td>${t.head}</td><td>${esc(t.deprel)}</td></tr>`).join('');return `<section class="sentence" id="${esc(s.sent_id)}"><div class="muted"><code># sent_id = ${esc(s.sent_id)}</code></div><div class="text">${esc(s.text)}</div>${s.text_por?`<div><code># text_por =</code> ${esc(s.text_por)}</div>`:''}${s.text_eng?`<div><code># text_eng =</code> ${esc(s.text_eng)}</div>`:''}<div class="graph">${graph(s)}</div><details><summary>CoNLL-U essencial</summary><table><tr><th>ID</th><th>FORM</th><th>LEMMA</th><th>UPOS</th><th>HEAD</th><th>DEPREL</th></tr>${rows}</table></details></section>`}function matchTok(t,v){v=v.trim().toLocaleLowerCase('pt-BR');return !v||[t.form,t.lemma,t.upos,t.xpos].some(x=>String(x||'').toLocaleLowerCase('pt-BR')===v)}function pattern(s){let h=headq.value,d=depq.value,r=patrel.value;if(!h&&!d&&!r)return true;let by=new Map(s.tokens.map(t=>[t.id,t]));return s.tokens.some(t=>{if(t.head<=0)return false;let head=by.get(t.head);return head&&matchTok(head,h)&&matchTok(t,d)&&(!r||t.deprel===r)})}function annotated(s){
+  const tokens = s.tokens || [];
+  if (!tokens.length) return false;
+
+  const byId = new Map();
+
+  for (const t of tokens) {
+    const id = Number(t.id);
+
+    if (!Number.isInteger(id) || id < 1 || byId.has(id)) {
+      return false;
+    }
+
+    byId.set(id, t);
+  }
+
+  let roots = 0;
+
+  for (const t of tokens) {
+    const id = Number(t.id);
+    const head = Number(t.head);
+    const rel = String(t.deprel || '');
+
+    if (
+      t.head === null ||
+      t.head === undefined ||
+      t.head === '_' ||
+      !Number.isInteger(head) ||
+      !rel ||
+      rel === '_'
+    ) return false;
+
+    if (head === 0) {
+      if (rel !== 'root') return false;
+      roots++;
+    } else {
+      if (rel === 'root' || head === id || !byId.has(head)) {
+        return false;
+      }
+    }
+  }
+
+  if (roots !== 1) return false;
+
+  // Verifica se todos os tokens chegam à raiz,
+  // sem ciclos nas dependências.
+  for (const t of tokens) {
+    let current = Number(t.id);
+    const visited = new Set();
+
+    while (current !== 0) {
+      if (visited.has(current)) return false;
+
+      visited.add(current);
+
+      const node = byId.get(current);
+      if (!node) return false;
+
+      current = Number(node.head);
+    }
+  }
+
+  return true;
+}function render(){if(!loaded)return;let qv=q.value.trim().toLocaleLowerCase('pt-BR'),pv=pos.value,rv=rel.value,x=D.filter(s=>annotated(s)&&(!qv||JSON.stringify(s).toLocaleLowerCase('pt-BR').includes(qv))&&(!pv||s.tokens.some(t=>t.upos===pv))&&(!rv||s.tokens.some(t=>t.deprel===rv))&&pattern(s));list.innerHTML=x.slice(0,limit).map(s=>{try{return card(s)}catch(e){console.error('UD render error',s.sent_id,e);return `<section class="sentence"><div class="muted">${esc(s.sent_id)}</div><div class="text">${esc(s.text||'')}</div><p class="muted">A árvore desta sentença não pôde ser desenhada. Os dados permanecem disponíveis no CoNLL-U.</p></section>`}}).join('');status.textContent=`${x.length.toLocaleString('pt-BR')} sentença(s).`;more.hidden=x.length<=limit}
 function filters(){let ps=[...new Set(D.flatMap(s=>s.tokens.map(t=>t.upos)).filter(x=>x&&x!=='_'))].sort(),rs=[...new Set(D.flatMap(s=>s.tokens.map(t=>t.deprel)).filter(x=>x&&x!=='_'))].sort();pos.innerHTML='<option value="">Todas as classes</option>'+ps.map(x=>`<option>${esc(x)}</option>`).join('');rel.innerHTML='<option value="">Todas as relações</option>'+rs.map(x=>`<option>${esc(x)}</option>`).join('');patrel.innerHTML='<option value="">Relação</option>'+rs.map(x=>`<option>${esc(x)}</option>`).join('')}
 async function ensureLoaded(){if(loaded)return true;status.textContent='Carregando sentenças do CoNLL-U…';try{let r=await fetch('data/ud-sentences.json?v=20261010-1',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);D=await r.json();loaded=true;filters();status.textContent=`${D.length.toLocaleString('pt-BR')} sentença(s) do arquivo CoNLL-U.`;return true}catch(e){status.textContent='Não foi possível carregar o índice UD. Recarregue a página ou tente novamente em alguns instantes.';return false}}
 let timer;async function searchNow(){clearTimeout(timer);timer=setTimeout(async()=>{if(await ensureLoaded()){limit=10;render()}},250)}
