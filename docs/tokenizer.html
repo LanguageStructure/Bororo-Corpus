@@ -50,6 +50,10 @@ const knownSegments={
 };
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
 const lexicalBases=new Set(["mago","wiapaga"]);
+const corpusVerbBases=new Set();
+function isRecognizedBase(base){
+  return lexicalBases.has(base)||corpusVerbBases.has(base);
+}
 const protectedForms=new Set(["mode","modure"]);
 function productiveParts(word){
   const lower=word.toLocaleLowerCase("pt-BR");
@@ -61,16 +65,16 @@ function productiveParts(word){
     if(!lower.endsWith(suffix))continue;
     const stem=lower.slice(0,-suffix.length);
     if(!stem)continue;
-    if(lexicalBases.has(stem))return [stem,...ending];
+    if(isRecognizedBase(stem))return [stem,...ending];
     for(const prefix of personPrefixes){
-      if(stem.startsWith(prefix)&&lexicalBases.has(stem.slice(prefix.length))){
+      if(stem.startsWith(prefix)&&isRecognizedBase(stem.slice(prefix.length))){
         return [prefix,stem.slice(prefix.length),...ending];
       }
     }
   }
-  if(lexicalBases.has(lower))return null;
+  if(isRecognizedBase(lower))return null;
   for(const prefix of personPrefixes){
-    if(lower.startsWith(prefix)&&lexicalBases.has(lower.slice(prefix.length))){
+    if(lower.startsWith(prefix)&&isRecognizedBase(lower.slice(prefix.length))){
       return [prefix,lower.slice(prefix.length)];
     }
   }
@@ -125,6 +129,16 @@ async function loadCorpusForms(){
     const data=await response.json();
     const rows=Array.isArray(data.relacoes_lexicais)?data.relacoes_lexicais:[];
     corpusForms=new Map(rows.filter(x=>typeof x.form==="string").map(x=>[x.form.toLocaleLowerCase("pt-BR"),x]));
+    // Candidate verbal bases are attested corpus forms, not arbitrary substrings.
+    // Keep the original form intact if the corpus does not support a base.
+    corpusVerbBases.clear();
+    for(const row of rows){
+      if(typeof row.form!=="string")continue;
+      const form=row.form.toLocaleLowerCase("pt-BR");
+      const verbCount=(row.upos||[]).filter(p=>p.value==="VERB").reduce((n,p)=>n+(p.frequency||0),0);
+      if(verbCount>=2 && form.length>=3 && /^[\\p{L}]+$/u.test(form))corpusVerbBases.add(form);
+    }
+    render();
   }catch(err){corpusForms=null;console.warn("Índice lexical indisponível:",err);}
 }
 function corpusInfo(form){
