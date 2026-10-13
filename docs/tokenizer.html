@@ -227,6 +227,30 @@ function corpusCoverage(){
   unresolved.sort((a,b)=>b.frequency-a.frequency);
   return {counts,weighted,unresolved:unresolved.slice(0,20),verbalUnresolved:unresolved.filter(x=>x.verbal).slice(0,20),types:entries.length,tokens:Object.values(weighted).reduce((a,b)=>a+b,0)};
 }
+function downloadUnresolvedTSV(){
+  const result=corpusCoverage();
+  if(!result){info.textContent="Índice lexical ainda não carregado.";return;}
+  const rows=["forma\tfrequencia\tlema\tverbo\tdecisao\tsegmentacao\tobservacoes"];
+  // Review list is generated from all indexed forms, not just the top 20.
+  const unresolved=[];
+  for(const entry of corpusForms.values()){
+    if(typeof entry.form!=="string"||!/\\p{L}/u.test(entry.form))continue;
+    const t={form:entry.form,start:0,end:entry.form.length};
+    if(splitKnownForm(t)[0]?.status!=="unanalysed")continue;
+    const lemma=(entry.lemmas||[]).slice().sort((a,b)=>(b.frequency||0)-(a.frequency||0))[0]?.value||"";
+    const verb=(entry.upos||[]).some(x=>x.value==="VERB"&&(x.frequency||0)>0);
+    unresolved.push([entry.form,Number(entry.frequency)||0,lemma,verb?"sim":"não"]);
+  }
+  unresolved.sort((a,b)=>b[1]-a[1]);
+  for(const row of unresolved)rows.push([...row,"","",""].map(v=>String(v).replace(/[\\t\\r\\n]/g," ")).join("\t"));
+  const blob=new Blob([rows.join("\n")],{type:"text/tab-separated-values;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement("a");
+  link.href=url;link.download="corbo-tokenizador-revisao.tsv";
+  document.body.append(link);link.click();link.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  info.textContent="Arquivo de revisão gerado: "+unresolved.length+" formas sem segmentação. Preencha decisão (manter/segmentar/revisar), segmentação e observações; nenhuma análise foi modificada automaticamente.";
+}
 function showCorpusCoverage(){
   const result=corpusCoverage();
   if(!result){info.textContent="Carregando índice lexical do corpus; tente novamente.";return;}
@@ -259,6 +283,12 @@ allomorphButton.textContent="Revisar forma × lema";
 allomorphButton.title="Examinar diferenças entre formas verbais e seus lemas no índice CoNLL-U";
 document.getElementById("copy").insertAdjacentElement("beforebegin",allomorphButton);
 allomorphButton.addEventListener("click",showAllomorphCandidates);
+const exportButton=document.createElement("button");
+exportButton.type="button";
+exportButton.textContent="Exportar revisão TSV";
+exportButton.title="Exportar todas as formas não segmentadas para revisão linguística";
+document.getElementById("copy").insertAdjacentElement("beforebegin",exportButton);
+exportButton.addEventListener("click",downloadUnresolvedTSV);
 const coverageButton=document.createElement("button");
 coverageButton.type="button";
 coverageButton.textContent="Cobertura no corpus";
