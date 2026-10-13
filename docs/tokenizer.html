@@ -78,6 +78,41 @@ function importReviewedTSV(text){
   for(const [form,parts] of updates)reviewedSegments.set(form,parts);
   return {accepted,rejected};
 }
+async function loadPublishedReviews(){
+  try{
+    const response=await fetch("data/tokenizer-reviewed.json",{cache:"no-cache"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    const data=await response.json();
+    if(data.schema!=="corbo-tokenizer-reviewed/v1"||!Array.isArray(data.analyses))throw Error("Formato incompatível");
+    let accepted=0;
+    for(const item of data.analyses){
+      if(typeof item.form!=="string"||!Array.isArray(item.segments))continue;
+      const form=item.form.toLocaleLowerCase("pt-BR");
+      const parts=item.segments;
+      if(parts.length<2||!parts.every(p=>typeof p==="string"&&p.length>0)||parts.join("").toLocaleLowerCase("pt-BR")!==form)continue;
+      if(item.reviewed!==true||!item.reviewer||!item.source)continue;
+      reviewedSegments.set(form,parts);
+      accepted++;
+    }
+    render();
+    console.info("Análises revisadas publicadas carregadas:",accepted);
+  }catch(err){console.warn("Registro de análises revisadas indisponível:",err);}
+}
+function exportReviewedJSON(){
+  const reviewer=window.prompt("Identificação do revisor (obrigatória para publicação):","");
+  if(!reviewer||!reviewer.trim()){info.textContent="Exportação cancelada: revisor não identificado.";return;}
+  const source=window.prompt("Fonte ou justificativa das análises (obrigatória):","Revisão manual do CorBo");
+  if(!source||!source.trim()){info.textContent="Exportação cancelada: fonte não identificada.";return;}
+  const analyses=[...reviewedSegments].sort((a,b)=>a[0].localeCompare(b[0])).map(([form,segments])=>({
+    form,segments,reviewed:true,reviewer:reviewer.trim(),source:source.trim()
+  }));
+  const data={schema:"corbo-tokenizer-reviewed/v1",version:1,updated:new Date().toISOString().slice(0,10),analyses};
+  const blob=new Blob([JSON.stringify(data,null,2)+"\n"],{type:"application/json;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement("a");link.href=url;link.download="tokenizer-reviewed.json";
+  document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  info.textContent="Registro exportado com "+analyses.length+" análises. Para publicar, revise e atualize docs/data/tokenizer-reviewed.json no repositório; o site não faz commits.";
+}
 const corpusVerbBases=new Set();
 function isRecognizedBase(base){
   return lexicalBases.has(base)||corpusVerbBases.has(base);
@@ -307,6 +342,12 @@ allomorphButton.textContent="Revisar forma × lema";
 allomorphButton.title="Examinar diferenças entre formas verbais e seus lemas no índice CoNLL-U";
 document.getElementById("copy").insertAdjacentElement("beforebegin",allomorphButton);
 allomorphButton.addEventListener("click",showAllomorphCandidates);
+const publishButton=document.createElement("button");
+publishButton.type="button";
+publishButton.textContent="Exportar análises para publicação";
+publishButton.title="Gerar registro JSON versionado com identificação do revisor e fonte";
+document.getElementById("copy").insertAdjacentElement("beforebegin",publishButton);
+publishButton.addEventListener("click",exportReviewedJSON);
 const importButton=document.createElement("button");
 importButton.type="button";
 importButton.textContent="Importar revisão TSV";
@@ -345,5 +386,5 @@ document.getElementById("copy").insertAdjacentElement("beforebegin",auditButton)
 auditButton.addEventListener("click",showAudit);
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
-runTokenizerChecks();loadCorpusForms();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+runTokenizerChecks();loadPublishedReviews();loadCorpusForms();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 </script></body></html>
