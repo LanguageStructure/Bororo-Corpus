@@ -62,24 +62,22 @@ const protectedForms=new Set(["mode","modure"]);
 function productiveParts(word){
   const lower=word.toLocaleLowerCase("pt-BR");
   if(protectedForms.has(lower))return null;
-  // Longest recognized grammatical ending first; retain an intact lexical base.
-  const endings=[["modu","ka","re"],["modu","re"],["re"]];
-  for(const ending of endings){
+  // A surface allomorph must be licensed by an attested lexical mapping.
+  // No global b→w or k→g replacement: these are lexical alternations.
+  const endings=[["modu","ka","re"],["modu","re"],["re"],["do"]];
+  const candidates=[[] ,...endings];
+  for(const ending of candidates){
     const suffix=ending.join("");
-    if(!lower.endsWith(suffix))continue;
-    const stem=lower.slice(0,-suffix.length);
+    if(suffix && !lower.endsWith(suffix))continue;
+    const stem=suffix?lower.slice(0,-suffix.length):lower;
     if(!stem)continue;
-    if(isRecognizedBase(stem))return [stem,...ending];
+    if(isRecognizedBase(stem) && ending.length)return [stem,...ending];
     for(const prefix of personPrefixes){
-      if(stem.startsWith(prefix)&&isRecognizedBase(stem.slice(prefix.length))){
-        return [prefix,stem.slice(prefix.length),...ending];
-      }
-    }
-  }
-  if(isRecognizedBase(lower))return null;
-  for(const prefix of personPrefixes){
-    if(lower.startsWith(prefix)&&isRecognizedBase(lower.slice(prefix.length))){
-      return [prefix,lower.slice(prefix.length)];
+      if(!stem.startsWith(prefix))continue;
+      const base=stem.slice(prefix.length);
+      if(!base)continue;
+      // Both the recognized surface and its lemma are retained.
+      if(isRecognizedBase(base))return [prefix,base,...ending];
     }
   }
   return null;
@@ -118,7 +116,9 @@ function runTokenizerChecks(){
     "mode":["mode"],
     "modure":["modure"],
     "iwiapaga":["i","wiapaga"],
-    "pamagore":["pa","mago","re"]
+    "pamagore":["pa","mago","re"],
+    "tawiapagado":["ta","wiapaga","do"],
+    "ewiapagamodukare":["e","wiapaga","modu","ka","re"]
   };
   const failures=Object.entries(cases).filter(([word,expected])=>JSON.stringify(linguisticTokens(word).map(t=>t.form))!==JSON.stringify(expected));
   if(failures.length)console.error("Falhas na tokenização:",failures);
