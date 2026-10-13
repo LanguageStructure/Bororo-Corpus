@@ -1,7 +1,0 @@
-{
-  "schema": "corbo-tokenizer-reviewed/v1",
-  "version": 1,
-  "updated": "2026-10-13",
-  "description": "Análises humanas validadas e publicadas; nenhuma hipótese automática é promovida sem revisão.",
-  "analyses": []
-}
