@@ -49,7 +49,11 @@ const knownSegments={
   "tawiapagado":["ta","wiapaga","do"]
 };
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
+// Confirmed surface allomorphs; the lexical lemma is kept separately.
 const lexicalBases=new Set(["mago","wiapaga"]);
+const surfaceToLemma=new Map([["mago","mako"],["wiapaga","biapaga"]]);
+function lemmaOfSurface(form){return surfaceToLemma.get(form.toLocaleLowerCase("pt-BR"))||form;}
+
 const corpusVerbBases=new Set();
 function isRecognizedBase(base){
   return lexicalBases.has(base)||corpusVerbBases.has(base);
@@ -144,6 +148,11 @@ async function loadCorpusForms(){
     render();
   }catch(err){corpusForms=null;console.warn("Índice lexical indisponível:",err);}
 }
+function segmentationExplanation(token){
+  const base=token.form.toLocaleLowerCase("pt-BR");
+  const lemma=lemmaOfSurface(base);
+  return lemma!==base?"Alomorfe "+base+"; lema "+lemma+". ":"";
+}
 function corpusInfo(form){
   if(!corpusForms)return "Índice lexical do corpus indisponível ou ainda carregando.";
   const entry=corpusForms.get(form.toLocaleLowerCase("pt-BR"));
@@ -179,7 +188,7 @@ function showAudit(){
     " Não é uma medida de precisão: palavras sem divisão podem já ser tokens válidos.";
 }
 function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
-function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+analysis(m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
+function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+analysis(m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
 const auditButton=document.createElement("button");
 auditButton.type="button";auditButton.textContent="Auditar texto";
 auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
