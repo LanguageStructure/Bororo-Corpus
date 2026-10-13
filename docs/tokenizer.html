@@ -27,6 +27,13 @@ const input=document.getElementById('input'),output=document.getElementById('tok
 const pattern=/(?:\.(?:\s*\.){2,}|…)|[\p{L}\p{N}\p{M}]+(?:[’'\-][\p{L}\p{N}\p{M}]+)*|[^\s]/gu;
 function tokenize(text){return Array.from(text.matchAll(pattern),m=>({form:m[0],start:m.index,end:m.index+m[0].length}));}
 const knownSegments={
+  "imago":["i","mago"],
+  "amago":["a","mago"],
+  "pamago":["pa","mago"],
+  "cemago":["ce","mago"],
+  "tamago":["ta","mago"],
+  "emago":["e","mago"],
+  "tumago":["tu","mago"],
   "ure":["u","re"],
   "ire":["i","re"],
   "are":["a","re"],
@@ -43,7 +50,7 @@ const knownSegments={
 };
 function linguisticTokens(text){return tokenize(text).flatMap(t=>{const lower=t.form.toLocaleLowerCase("pt-BR");const parts=knownSegments[lower] || (lower.endsWith("modukare") && lower.length>8 ? [t.form.slice(0,-8),"modu","ka","re"] : null); // -mode e -modure permanecem indivisos nesta etapaif(!parts||parts.join("").toLocaleLowerCase("pt-BR")!==t.form.toLocaleLowerCase("pt-BR"))return [t];let at=t.start;return parts.map(p=>{const form=text.slice(at,at+p.length),r={form,start:at,end:at+p.length,whole:t.form};at+=p.length;return r;});});}
 function selectedTokens(text){return document.getElementById("mode").value==="ling"?linguisticTokens(text):tokenize(text);}
-function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
+function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
 function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+'. '+analysis(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');}
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
