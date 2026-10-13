@@ -133,8 +133,39 @@ function corpusInfo(form){
   const classes=(entry.upos||[]).slice(0,3).map(x=>x.value).filter(Boolean);
   return "CorBo: "+(entry.frequency??"?")+" ocorrência(s)"+(lemmas.length?" · lema(s): "+lemmas.join(", "):"")+(classes.length?" · UPOS: "+classes.join(", "):"")+". Dados do índice; não confirmam a segmentação proposta.";
 }
+function tokenizationAudit(text){
+  const words=tokenize(text).filter(t=>/[\\p{L}]/u.test(t.form));
+  const counts={confirmed:0,proposed:0,unanalysed:0};
+  const unresolved=new Map();
+  for(const word of words){
+    const parts=splitKnownForm(word);
+    const status=parts[0]?.status||"unanalysed";
+    counts[status]++;
+    if(status==="unanalysed"){
+      const key=word.form.toLocaleLowerCase("pt-BR");
+      unresolved.set(key,(unresolved.get(key)||0)+1);
+    }
+  }
+  const frequent=[...unresolved].sort((a,b)=>b[1]-a[1]).slice(0,12);
+  return {words:words.length,counts,frequent};
+}
+function showAudit(){
+  const a=tokenizationAudit(input.value);
+  const pct=n=>a.words?(100*n/a.words).toFixed(1)+"%":"0%";
+  info.textContent="Auditoria do texto inserido (formas ortográficas): "+a.words+" palavras; "+
+    a.counts.confirmed+" com análise cadastrada ("+pct(a.counts.confirmed)+"); "+
+    a.counts.proposed+" com análise por regra ("+pct(a.counts.proposed)+"); "+
+    a.counts.unanalysed+" sem segmentação proposta ("+pct(a.counts.unanalysed)+"). "+
+    (a.frequent.length?"Mais frequentes sem análise: "+a.frequent.map(([w,n])=>w+" ("+n+")").join(", ")+".":"")+
+    " Não é uma medida de precisão: palavras sem divisão podem já ser tokens válidos.";
+}
 function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
 function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+analysis(m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=ts.filter(t=>t.status==='proposed').length+' tokens em análises propostas · '+ts.filter(t=>t.status==='unanalysed' && /[A-Za-zÀ-ÿ]/.test(t.form)).length+' formas não analisadas';}
+const auditButton=document.createElement("button");
+auditButton.type="button";auditButton.textContent="Auditar texto";
+auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
+document.getElementById("copy").insertAdjacentElement("beforebegin",auditButton);
+auditButton.addEventListener("click",showAudit);
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
 runTokenizerChecks();loadCorpusForms();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
