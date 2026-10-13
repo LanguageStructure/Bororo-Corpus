@@ -108,7 +108,9 @@ function runTokenizerChecks(){
     "kururogu":["kuru","rogu"],
     "ure":["u","re"],
     "mode":["mode"],
-    "modure":["modure"],\n    "iwiapaga":["i","wiapaga"],\n    "pamagore":["pa","mago","re"]
+    "modure":["modure"],
+    "iwiapaga":["i","wiapaga"],
+    "pamagore":["pa","mago","re"]
   };
   const failures=Object.entries(cases).filter(([word,expected])=>JSON.stringify(linguisticTokens(word).map(t=>t.form))!==JSON.stringify(expected));
   if(failures.length)console.error("Falhas na tokenização:",failures);
@@ -134,7 +136,7 @@ function corpusInfo(form){
   return "CorBo: "+(entry.frequency??"?")+" ocorrência(s)"+(lemmas.length?" · lema(s): "+lemmas.join(", "):"")+(classes.length?" · UPOS: "+classes.join(", "):"")+". Dados do índice; não confirmam a segmentação proposta.";
 }
 function tokenizationAudit(text){
-  const words=tokenize(text).filter(t=>/[\\p{L}]/u.test(t.form));
+  const words=tokenize(text).filter(t=>/\p{L}/u.test(t.form));
   const counts={confirmed:0,proposed:0,unanalysed:0};
   const unresolved=new Map();
   for(const word of words){
