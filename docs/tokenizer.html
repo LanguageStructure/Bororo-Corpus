@@ -207,7 +207,7 @@ function tokenizationAudit(text){
 }
 function corpusCoverage(){
   if(!corpusForms)return null;
-  const entries=[...corpusForms.values()].filter(e=>typeof e.form==="string"&&/\\p{L}/u.test(e.form));
+  const entries=[...corpusForms.values()].filter(e=>typeof e.form==="string"&&/\p{L}/u.test(e.form));
   const counts={confirmed:0,proposed:0,unanalysed:0};
   const weighted={confirmed:0,proposed:0,unanalysed:0};
   const unresolved=[];
@@ -234,7 +234,7 @@ function downloadUnresolvedTSV(){
   // Review list is generated from all indexed forms, not just the top 20.
   const unresolved=[];
   for(const entry of corpusForms.values()){
-    if(typeof entry.form!=="string"||!/\\p{L}/u.test(entry.form))continue;
+    if(typeof entry.form!=="string"||!/\p{L}/u.test(entry.form))continue;
     const t={form:entry.form,start:0,end:entry.form.length};
     if(splitKnownForm(t)[0]?.status!=="unanalysed")continue;
     const lemma=(entry.lemmas||[]).slice().sort((a,b)=>(b.frequency||0)-(a.frequency||0))[0]?.value||"";
@@ -242,7 +242,7 @@ function downloadUnresolvedTSV(){
     unresolved.push([entry.form,Number(entry.frequency)||0,lemma,verb?"sim":"não"]);
   }
   unresolved.sort((a,b)=>b[1]-a[1]);
-  for(const row of unresolved)rows.push([...row,"","",""].map(v=>String(v).replace(/[\\t\\r\\n]/g," ")).join("\t"));
+  for(const row of unresolved)rows.push([...row,"","",""].map(v=>String(v).replace(/[\t\r\n]/g," ")).join("\t"));
   const blob=new Blob([rows.join("\n")],{type:"text/tab-separated-values;charset=utf-8"});
   const url=URL.createObjectURL(blob);
   const link=document.createElement("a");
