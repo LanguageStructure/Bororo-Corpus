@@ -54,6 +54,30 @@ const lexicalBases=new Set(["mago","wiapaga"]);
 const surfaceToLemma=new Map([["mago","mako"],["wiapaga","biapaga"]]);
 function lemmaOfSurface(form){return surfaceToLemma.get(form.toLocaleLowerCase("pt-BR"))||form;}
 
+// Manually reviewed analyses can be imported without overwriting corpus data.
+const reviewedSegments=new Map();
+function importReviewedTSV(text){
+  const lines=text.replace(/^\uFEFF/,"").split(/\r?\n/);
+  const headers=lines.shift().split("\t").map(x=>x.trim().toLocaleLowerCase("pt-BR"));
+  const col=name=>headers.indexOf(name);
+  if(["forma","decisao","segmentacao"].some(k=>col(k)<0))throw Error("Colunas obrigatórias: forma, decisao, segmentacao");
+  let accepted=0,rejected=0;
+  const updates=new Map();
+  for(const line of lines){
+    if(!line.trim())continue;
+    const cells=line.split("\t");
+    const form=(cells[col("forma")]||"").trim().toLocaleLowerCase("pt-BR");
+    const decision=(cells[col("decisao")]||"").trim().toLocaleLowerCase("pt-BR");
+    const raw=(cells[col("segmentacao")]||"").trim();
+    if(decision!=="segmentar")continue;
+    const parts=raw.split(/\s*\+\s*/).map(x=>x.trim()).filter(Boolean);
+    if(!form||parts.length<2||parts.join("").toLocaleLowerCase("pt-BR")!==form){rejected++;continue;}
+    updates.set(form,parts);accepted++;
+  }
+  reviewedSegments.clear();
+  for(const [form,parts] of updates)reviewedSegments.set(form,parts);
+  return {accepted,rejected};
+}
 const corpusVerbBases=new Set();
 function isRecognizedBase(base){
   return lexicalBases.has(base)||corpusVerbBases.has(base);
@@ -84,7 +108,7 @@ function productiveParts(word){
 }
 function splitKnownForm(t){
   const lower=t.form.toLocaleLowerCase("pt-BR");
-  let parts=knownSegments[lower] || productiveParts(t.form);
+  let parts=reviewedSegments.get(lower) || knownSegments[lower] || productiveParts(t.form);
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
     const stemParts=knownSegments[stem.toLocaleLowerCase("pt-BR")];
@@ -94,7 +118,7 @@ function splitKnownForm(t){
   let at=t.start;
   return parts.map(part=>{
     const form=t.form.slice(at-t.start,at-t.start+part.length);
-    const token={form,start:at,end:at+part.length,whole:t.form,status:knownSegments[lower]?"confirmed":"proposed"};
+    const token={form,start:at,end:at+part.length,whole:t.form,status:(reviewedSegments.has(lower)||knownSegments[lower])?"confirmed":"proposed"};
     at+=part.length;
     return token;
   });
@@ -283,6 +307,25 @@ allomorphButton.textContent="Revisar forma × lema";
 allomorphButton.title="Examinar diferenças entre formas verbais e seus lemas no índice CoNLL-U";
 document.getElementById("copy").insertAdjacentElement("beforebegin",allomorphButton);
 allomorphButton.addEventListener("click",showAllomorphCandidates);
+const importButton=document.createElement("button");
+importButton.type="button";
+importButton.textContent="Importar revisão TSV";
+importButton.title="Carregar análises humanas revisadas apenas nesta sessão";
+document.getElementById("copy").insertAdjacentElement("beforebegin",importButton);
+const reviewFileInput=document.createElement("input");
+reviewFileInput.type="file";reviewFileInput.accept=".tsv,text/tab-separated-values,text/plain";
+reviewFileInput.hidden=true;
+document.body.append(reviewFileInput);
+importButton.addEventListener("click",()=>reviewFileInput.click());
+reviewFileInput.addEventListener("change",async()=>{
+  const file=reviewFileInput.files?.[0];if(!file)return;
+  try{
+    const result=importReviewedTSV(await file.text());
+    render();
+    info.textContent="Revisão carregada nesta sessão: "+result.accepted+" análises válidas, "+result.rejected+" rejeitadas. Nenhum arquivo do repositório foi alterado.";
+  }catch(err){info.textContent="Erro ao importar revisão: "+err.message;}
+  reviewFileInput.value="";
+});
 const exportButton=document.createElement("button");
 exportButton.type="button";
 exportButton.textContent="Exportar revisão TSV";
