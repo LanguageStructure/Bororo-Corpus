@@ -217,10 +217,15 @@ function corpusCoverage(){
     const freq=Number(entry.frequency)||0;
     counts[status]++;
     weighted[status]+=freq;
-    if(status==="unanalysed")unresolved.push({form:entry.form,frequency:freq});
+    if(status==="unanalysed")unresolved.push({
+      form:entry.form,frequency:freq,
+      lexical:corpusForms.has(entry.form.toLocaleLowerCase("pt-BR")),
+      verbal:(entry.upos||[]).some(p=>p.value==="VERB"&&(p.frequency||0)>0),
+      lemma:(entry.lemmas||[]).slice().sort((a,b)=>(b.frequency||0)-(a.frequency||0))[0]?.value||""
+    });
   }
   unresolved.sort((a,b)=>b.frequency-a.frequency);
-  return {counts,weighted,unresolved:unresolved.slice(0,20),types:entries.length,tokens:Object.values(weighted).reduce((a,b)=>a+b,0)};
+  return {counts,weighted,unresolved:unresolved.slice(0,20),verbalUnresolved:unresolved.filter(x=>x.verbal).slice(0,20),types:entries.length,tokens:Object.values(weighted).reduce((a,b)=>a+b,0)};
 }
 function showCorpusCoverage(){
   const result=corpusCoverage();
@@ -232,7 +237,8 @@ function showCorpusCoverage(){
     "Segmentações propostas: "+result.counts.proposed+" tipos ("+pct(result.counts.proposed,result.types)+"), "+
     result.weighted.proposed+" ocorrências ("+pct(result.weighted.proposed,result.tokens)+"). "+
     "Sem segmentação: "+result.counts.unanalysed+" tipos ("+pct(result.counts.unanalysed,result.types)+"). "+
-    "Formas frequentes sem segmentação: "+result.unresolved.map(x=>x.form+" ("+x.frequency+")").join(", ")+
+    "Formas frequentes sem segmentação: "+result.unresolved.map(x=>x.form+" ("+x.frequency+"; lema "+x.lemma+")").join(", ")+
+    ". Verbos frequentes sem segmentação: "+result.verbalUnresolved.map(x=>x.form+" ("+x.frequency+"; lema "+x.lemma+")").join(", ")+
     ". Formas inteiras podem estar corretamente tokenizadas; esta métrica mede apenas segmentações.";
 }
 function showAudit(){
