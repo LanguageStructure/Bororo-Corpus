@@ -55,7 +55,9 @@ function splitKnownForm(t){
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
     const stemParts=knownSegments[stem.toLocaleLowerCase("pt-BR")];
-    parts=[...(stemParts || [stem]),"modu","ka","re"];
+    // Only split the ending when the preceding stem has a confirmed analysis.
+    // This avoids splitting unrelated words that happen to end in these letters.
+    if(stemParts)parts=[...stemParts,"modu","ka","re"];
   }
   if(!parts || parts.join("").toLocaleLowerCase("pt-BR")!==lower)return [t];
   let at=t.start;
@@ -67,10 +69,30 @@ function splitKnownForm(t){
   });
 }
 function linguisticTokens(text){return tokenize(text).flatMap(splitKnownForm);}
+// Small built-in regression checks for confirmed analyses.
+function runTokenizerChecks(){
+  const cases={
+    "imago":["i","mago"],
+    "imagomodukare":["i","mago","modu","ka","re"],
+    "amagomodukare":["a","mago","modu","ka","re"],
+    "pamagomodukare":["pa","mago","modu","ka","re"],
+    "cemagomodukare":["ce","mago","modu","ka","re"],
+    "tamagomodukare":["ta","mago","modu","ka","re"],
+    "emagomodukare":["e","mago","modu","ka","re"],
+    "tumagomodukare":["tu","mago","modu","ka","re"],
+    "kururogu":["kuru","rogu"],
+    "ure":["u","re"],
+    "mode":["mode"],
+    "modure":["modure"]
+  };
+  const failures=Object.entries(cases).filter(([word,expected])=>JSON.stringify(linguisticTokens(word).map(t=>t.form))!==JSON.stringify(expected));
+  if(failures.length)console.error("Falhas na tokenização:",failures);
+  return {total:Object.keys(cases).length,failures:failures.length};
+}
 function selectedTokens(text){return document.getElementById("mode").value==="ling"?linguisticTokens(text):tokenize(text);}
 function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
 function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+'. '+analysis(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');}
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
-input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+runTokenizerChecks();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 </script></body></html>
