@@ -16,7 +16,7 @@ textarea{width:100%;min-height:160px;resize:vertical;border:1px solid var(--line
 <main><div class="muted">FERRAMENTAS · VERSÃO EXPERIMENTAL</div><h1>Tokenizador bororo</h1>
 <p class="muted">Digite ou cole um texto em bororo. Cada token recebe uma cor de fundo diferente. A grafia e os espaços do texto são preservados.</p>
 <label for="input"><strong>Texto de entrada</strong></label><textarea id="input" spellcheck="false" placeholder="Digite um texto em bororo…"></textarea>
-<div class="controls"><label for="mode">Modo: <select id="mode"><option value="ling">Linguístico (experimental)</option><option value="orth">Ortográfico</option></select></label><strong id="count" aria-live="polite">0 tokens</strong><button id="copy" type="button">Copiar tokens</button><button id="clear" type="button">Limpar</button></div>
+<div class="controls"><label for="mode">Modo: <select id="mode"><option value="ling">Linguístico (experimental)</option><option value="orth">Ortográfico</option></select></label><strong id="count" aria-live="polite">0 tokens</strong><span id="diagnostic" class="muted"></span><button id="copy" type="button">Copiar tokens</button><button id="clear" type="button">Limpar</button></div>
 <section class="panel"><strong>Resultado</strong><div id="tokens" class="render" aria-label="Tokens identificados"></div></section>
 <div id="info" aria-live="polite">Selecione um token para ver sua posição e, quando disponível, uma análise.</div>
 <p class="muted">O modo linguístico separa proclíticos pessoais e morfemas gramaticais apenas em formas cuja análise foi confirmada; outras palavras permanecem inteiras. <i>Kururogu</i> mantém a ligação gráfica e pode ser analisado como <i>kuru + rogu</i>. O modo ortográfico preserva as palavras. A ferramenta não corrige o texto.</p>
@@ -48,22 +48,47 @@ const knownSegments={
   "ewiapagamodukare":["e","wiapaga","modu","ka","re"],
   "tawiapagado":["ta","wiapaga","do"]
 };
+const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
+const lexicalBases=new Set(["mago","wiapaga"]);
+const protectedForms=new Set(["mode","modure"]);
+function productiveParts(word){
+  const lower=word.toLocaleLowerCase("pt-BR");
+  if(protectedForms.has(lower))return null;
+  // Longest recognized grammatical ending first; retain an intact lexical base.
+  const endings=[["modu","ka","re"],["modu","re"],["re"]];
+  for(const ending of endings){
+    const suffix=ending.join("");
+    if(!lower.endsWith(suffix))continue;
+    const stem=lower.slice(0,-suffix.length);
+    if(!stem)continue;
+    if(lexicalBases.has(stem))return [stem,...ending];
+    for(const prefix of personPrefixes){
+      if(stem.startsWith(prefix)&&lexicalBases.has(stem.slice(prefix.length))){
+        return [prefix,stem.slice(prefix.length),...ending];
+      }
+    }
+  }
+  if(lexicalBases.has(lower))return null;
+  for(const prefix of personPrefixes){
+    if(lower.startsWith(prefix)&&lexicalBases.has(lower.slice(prefix.length))){
+      return [prefix,lower.slice(prefix.length)];
+    }
+  }
+  return null;
+}
 function splitKnownForm(t){
   const lower=t.form.toLocaleLowerCase("pt-BR");
-  // First apply fully confirmed analyses; otherwise recognize the confirmed final sequence.
-  let parts=knownSegments[lower];
+  let parts=knownSegments[lower] || productiveParts(t.form);
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
     const stemParts=knownSegments[stem.toLocaleLowerCase("pt-BR")];
-    // Only split the ending when the preceding stem has a confirmed analysis.
-    // This avoids splitting unrelated words that happen to end in these letters.
     if(stemParts)parts=[...stemParts,"modu","ka","re"];
   }
-  if(!parts || parts.join("").toLocaleLowerCase("pt-BR")!==lower)return [t];
+  if(!parts || parts.join("").toLocaleLowerCase("pt-BR")!==lower)return [{...t,status:"unanalysed"}];
   let at=t.start;
   return parts.map(part=>{
     const form=t.form.slice(at-t.start,at-t.start+part.length);
-    const token={form,start:at,end:at+part.length,whole:t.form};
+    const token={form,start:at,end:at+part.length,whole:t.form,status:knownSegments[lower]?"confirmed":"proposed"};
     at+=part.length;
     return token;
   });
@@ -83,7 +108,7 @@ function runTokenizerChecks(){
     "kururogu":["kuru","rogu"],
     "ure":["u","re"],
     "mode":["mode"],
-    "modure":["modure"]
+    "modure":["modure"],\n    "iw iapaga".replace(' ',''):["i","wiapaga"],\n    "pamagore":["pa","mago","re"]
   };
   const failures=Object.entries(cases).filter(([word,expected])=>JSON.stringify(linguisticTokens(word).map(t=>t.form))!==JSON.stringify(expected));
   if(failures.length)console.error("Falhas na tokenização:",failures);
@@ -91,7 +116,7 @@ function runTokenizerChecks(){
 }
 function selectedTokens(text){return document.getElementById("mode").value==="ling"?linguisticTokens(text):tokenize(text);}
 function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
-function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+'. '+analysis(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');}
+function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+analysis(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');const groups=new Map();ts.forEach(t=>{const key=t.whole+':'+(t.start-(t.whole? t.whole.length:0));if(t.status==='proposed')groups.set(key,true)});d.textContent=ts.filter(t=>t.status==='proposed').length+' tokens em análises propostas · '+ts.filter(t=>t.status==='unanalysed' && /\\p{L}/u.test(t.form)).length+' formas não analisadas';}
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
 runTokenizerChecks();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
