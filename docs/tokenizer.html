@@ -205,6 +205,36 @@ function tokenizationAudit(text){
   const frequent=[...unresolved].sort((a,b)=>b[1]-a[1]).slice(0,12);
   return {words:words.length,counts,frequent};
 }
+function corpusCoverage(){
+  if(!corpusForms)return null;
+  const entries=[...corpusForms.values()].filter(e=>typeof e.form==="string"&&/\\p{L}/u.test(e.form));
+  const counts={confirmed:0,proposed:0,unanalysed:0};
+  const weighted={confirmed:0,proposed:0,unanalysed:0};
+  const unresolved=[];
+  for(const entry of entries){
+    const word={form:entry.form,start:0,end:entry.form.length};
+    const status=splitKnownForm(word)[0]?.status||"unanalysed";
+    const freq=Number(entry.frequency)||0;
+    counts[status]++;
+    weighted[status]+=freq;
+    if(status==="unanalysed")unresolved.push({form:entry.form,frequency:freq});
+  }
+  unresolved.sort((a,b)=>b.frequency-a.frequency);
+  return {counts,weighted,unresolved:unresolved.slice(0,20),types:entries.length,tokens:Object.values(weighted).reduce((a,b)=>a+b,0)};
+}
+function showCorpusCoverage(){
+  const result=corpusCoverage();
+  if(!result){info.textContent="Carregando índice lexical do corpus; tente novamente.";return;}
+  const pct=(n,d)=>d?(100*n/d).toFixed(1)+"%":"0%";
+  info.textContent="Cobertura no índice lexical CoNLL-U (não é avaliação de acurácia): "+
+    result.types+" formas distintas, "+result.tokens+" ocorrências indexadas. "+
+    "Análises cadastradas: "+result.counts.confirmed+" tipos ("+pct(result.counts.confirmed,result.types)+"). "+
+    "Segmentações propostas: "+result.counts.proposed+" tipos ("+pct(result.counts.proposed,result.types)+"), "+
+    result.weighted.proposed+" ocorrências ("+pct(result.weighted.proposed,result.tokens)+"). "+
+    "Sem segmentação: "+result.counts.unanalysed+" tipos ("+pct(result.counts.unanalysed,result.types)+"). "+
+    "Formas frequentes sem segmentação: "+result.unresolved.map(x=>x.form+" ("+x.frequency+")").join(", ")+
+    ". Formas inteiras podem estar corretamente tokenizadas; esta métrica mede apenas segmentações.";
+}
 function showAudit(){
   const a=tokenizationAudit(input.value);
   const pct=n=>a.words?(100*n/a.words).toFixed(1)+"%":"0%";
@@ -223,6 +253,12 @@ allomorphButton.textContent="Revisar forma × lema";
 allomorphButton.title="Examinar diferenças entre formas verbais e seus lemas no índice CoNLL-U";
 document.getElementById("copy").insertAdjacentElement("beforebegin",allomorphButton);
 allomorphButton.addEventListener("click",showAllomorphCandidates);
+const coverageButton=document.createElement("button");
+coverageButton.type="button";
+coverageButton.textContent="Cobertura no corpus";
+coverageButton.title="Avaliar segmentações sobre as formas e frequências do índice lexical";
+document.getElementById("copy").insertAdjacentElement("beforebegin",coverageButton);
+coverageButton.addEventListener("click",showCorpusCoverage);
 const auditButton=document.createElement("button");
 auditButton.type="button";auditButton.textContent="Auditar texto";
 auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
