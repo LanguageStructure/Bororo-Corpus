@@ -19,7 +19,7 @@ textarea{width:100%;min-height:160px;resize:vertical;border:1px solid var(--line
 <div class="controls"><label for="mode">Modo: <select id="mode"><option value="ling">Linguístico (experimental)</option><option value="orth">Ortográfico</option></select></label><strong id="count" aria-live="polite">0 tokens</strong><span id="diagnostic" class="muted"></span><button id="copy" type="button">Copiar tokens</button><button id="clear" type="button">Limpar</button></div>
 <section class="panel"><strong>Resultado</strong><div id="tokens" class="render" aria-label="Tokens identificados"></div></section>
 <div id="info" aria-live="polite">Selecione um token para ver sua posição e, quando disponível, uma análise.</div>
-<p class="muted">O modo linguístico separa proclíticos pessoais e morfemas gramaticais apenas em formas cuja análise foi confirmada; outras palavras permanecem inteiras. <i>Kururogu</i> mantém a ligação gráfica e pode ser analisado como <i>kuru + rogu</i>. O modo ortográfico preserva as palavras. A ferramenta não corrige o texto.</p>
+<p class="muted">O modo linguístico apresenta análises confirmadas e hipóteses geradas a partir de bases documentadas no corpus; palavras sem análise permanecem inteiras. <i>Kururogu</i> mantém a ligação gráfica e pode ser analisado como <i>kuru + rogu</i>. O modo ortográfico preserva as palavras. A ferramenta não corrige o texto.</p>
 </main><script>
 'use strict';
 const colors=['#ffe0df','#dceaff','#def2df','#fff0c8','#edddf7','#d8f3f1','#ffe4cc','#e7e8ff'];
@@ -143,7 +143,7 @@ async function loadCorpusForms(){
       const lemma=(row.lemmas||[]).find(l=>typeof l.value==="string" && l.value.toLocaleLowerCase("pt-BR")===form);
       // A form attested as a verb is not automatically a morphological stem.
       // Require matching lemma evidence; derived analyses remain hypotheses.
-      if(verbCount>=2 && lemma && form.length>=3 && /^[\\p{L}]+$/u.test(form))corpusVerbBases.add(form);
+      if(verbCount>=2 && lemma && form.length>=3 && /^[\p{L}]+$/u.test(form))corpusVerbBases.add(form);
     }
     render();
   }catch(err){corpusForms=null;console.warn("Índice lexical indisponível:",err);}
@@ -161,7 +161,10 @@ function corpusAllomorphCandidates(){
     // Report evidence only; do not turn spelling similarity into a rule.
     const isVerb=(entry.upos||[]).some(x=>x.value==="VERB"&&(x.frequency||0)>0);
     if(!isVerb)continue;
-    candidates.push({form,lemma,frequency:entry.frequency||0});
+    const prefix=personPrefixes.find(p=>form.startsWith(p)&&form.slice(p.length)===lemma);
+    const ending=["modukare","modure","re","do"].find(x=>form.endsWith(x)&&form.slice(0,-x.length)===lemma);
+    const relation=prefix?"prefixo candidato ("+prefix+")":ending?"terminação candidata ("+ending+")":"relação não classificada";
+    candidates.push({form,lemma,frequency:entry.frequency||0,relation});
   }
   return candidates.sort((a,b)=>b.frequency-a.frequency);
 }
@@ -170,7 +173,7 @@ function showAllomorphCandidates(){
   const candidates=corpusAllomorphCandidates();
   info.textContent="Formas verbais cuja forma difere do lema (candidatas à revisão, não necessariamente alomorfia): "+
     candidates.length+" pares. Mais frequentes: "+
-    candidates.slice(0,15).map(x=>x.form+" → "+x.lemma+" ("+x.frequency+")").join("; ")+
+    candidates.slice(0,15).map(x=>x.form+" → "+x.lemma+" ("+x.frequency+"; "+x.relation+")").join("; ")+
     ". Diferenças podem refletir flexão, erro de anotação ou outra relação; nenhuma regra é criada automaticamente.";
 }
 function segmentationExplanation(token){
