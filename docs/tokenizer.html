@@ -136,7 +136,10 @@ async function loadCorpusForms(){
       if(typeof row.form!=="string")continue;
       const form=row.form.toLocaleLowerCase("pt-BR");
       const verbCount=(row.upos||[]).filter(p=>p.value==="VERB").reduce((n,p)=>n+(p.frequency||0),0);
-      if(verbCount>=2 && form.length>=3 && /^[\\p{L}]+$/u.test(form))corpusVerbBases.add(form);
+      const lemma=(row.lemmas||[]).find(l=>typeof l.value==="string" && l.value.toLocaleLowerCase("pt-BR")===form);
+      // A form attested as a verb is not automatically a morphological stem.
+      // Require matching lemma evidence; derived analyses remain hypotheses.
+      if(verbCount>=2 && lemma && form.length>=3 && /^[\\p{L}]+$/u.test(form))corpusVerbBases.add(form);
     }
     render();
   }catch(err){corpusForms=null;console.warn("Índice lexical indisponível:",err);}
