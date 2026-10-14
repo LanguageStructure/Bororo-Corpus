@@ -110,11 +110,11 @@ def train(rows):
     # Rank cross-lemma patterns by independent lexical support.
     # Confidence is distributional only, never a claim of grammatical truth.
     for pattern in cross_lemma_patterns:
-        families = pattern["lemma_count"]
+        lemma_family_count = pattern["lemma_count"]
         tokens = pattern["tokens"]
-        if families >= 10 and tokens >= 50:
+        if lemma_family_count >= 10 and tokens >= 50:
             grade = "high_distributional"
-        elif families >= 5 and tokens >= 20:
+        elif lemma_family_count >= 5 and tokens >= 20:
             grade = "medium_distributional"
         else:
             grade = "low_distributional"
