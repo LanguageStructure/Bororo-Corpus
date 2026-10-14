@@ -59,6 +59,7 @@ function lemmaOfSurface(form){return surfaceToLemma.get(form.toLocaleLowerCase("
 
 const corpusVerbBases=new Set();
 const trainedCandidates=new Map();
+const trainedCandidateEvidence=new Map();
 let trainedLexicon=null;
 async function loadTrainedModel(){
   try{
@@ -71,10 +72,12 @@ async function loadTrainedModel(){
     console.info("Unidades gramaticais isoladas no CoNLL-U:",unitCounts);
     console.info("Evidência de sufixos por famílias de lemas:",data.suffix_evidence||{});
     trainedCandidates.clear();
+    trainedCandidateEvidence.clear();
     for(const [form,record] of Object.entries(data.candidates||{})){
       const parts=record.segments;
       if(!Array.isArray(parts)||parts.length<2||parts.join("")!==form)continue;
       trainedCandidates.set(form,parts);
+      trainedCandidateEvidence.set(form,record);
     }
     render();
     console.info("Modelo CorBo carregado:",trainedLexicon.size,"formas;",trainedCandidates.size,"candidatas.");
@@ -268,7 +271,20 @@ function showAudit(){
     " Não é uma medida de precisão: palavras sem divisão podem já ser tokens válidos.";
 }
 function analysis(form){const f=form.toLocaleLowerCase('pt-BR');if(f==='mago'||f==='mako')return 'Forma do verbo mako; alternância mako/mago no paradigma informado.';if(f==='rogu')return 'Diminutivo, unido ortograficamente à base à esquerda.';if(f==='kuru')return 'Líquido.';if(f==='re')return 'Morfema de indicativo (IND).';if(f==='mode'||f==='modure')return 'Token único nesta etapa; análise morfológica: modu + re (IRR + IND).';if(f==='modu')return 'Morfema irrealis (IRR).';if(f==='ka')return 'Morfema de negação (NEG).';if(f==='wiapaga')return 'Base verbal; lema: biapaga (alomorfia b/w após prefixo).';if(f==='ce')return 'Posposição (ADP), quando empregada nesse contexto.';if(f==='biapaga')return 'Lema: biapaga.';if(f==='paga')return 'Lexema independente: paga.';if(f==='ewiapaga')return 'Lema: biapaga; análise: e + biapaga (b → w após prefixo).';if(f==='iwiapagare')return 'Lema: biapaga; análise: i + biapaga + re.';if(f==='tawiapagado')return 'Lema: biapaga; análise: ta + biapaga + do.';if(f==='ewiapagamodukare')return 'Lema: biapaga; análise: e + biapaga + modu + ka + re.';return 'Análise morfológica ainda não disponível.';}
-function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+analysis(m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
+function trainedEvidence(form){
+  const key=form.toLocaleLowerCase("pt-BR");
+  const record=trainedCandidateEvidence.get(key);
+  if(!record)return "";
+  const labels={high_distributional:"alta",medium_distributional:"média",low_distributional:"baixa",unrated:"não classificada"};
+  const grade=labels[record.evidence_grade]||"não classificada";
+  const patterns=(record.cross_lemma_evidence||[]).map(p=>p.position+" "+p.material+" ("+p.lemma_count+" lemas)").join("; ");
+  return " Proposta aprendida do CoNLL-U: "+record.segments.join(" + ")+
+    "; suporte da forma: "+record.support+
+    "; evidência distribucional: "+grade+
+    (patterns?"; padrões: "+patterns:"")+
+    ". Não equivale a validação linguística.";
+}
+function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+trainedEvidence(m.whole||m.form)+analysis(m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
 const auditButton=document.createElement("button");
 auditButton.type="button";auditButton.textContent="Auditar texto";
 auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
