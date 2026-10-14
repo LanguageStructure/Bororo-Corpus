@@ -166,7 +166,7 @@ def train(rows):
         options = []
         related_lemmas = {lemma for lemma, _upos in analyses[form] if lemma}
         for lemma in related_lemmas:
-            if form == lemma or lemma not in forms or len(lemma) < 3:
+            if form == lemma or lemma not in forms or (len(lemma) < 3 and lemma not in {"u", "ce", "pa", "ta", "i", "a", "e", "tu"}):
                 continue
             support = families[lemma][form]
             for prefix in ("", *PREFIXES):
@@ -174,6 +174,10 @@ def train(rows):
                     if not prefix and not suffix:
                         continue
                     if form != prefix + lemma + suffix:
+                        continue
+                    # Short grammatical lemmas require an overt ending;
+                    # avoid arbitrary splits of common short strings.
+                    if len(lemma) < 3 and (prefix or not suffix):
                         continue
                     pieces = ([prefix] if prefix else []) + [lemma]
                     if suffix:
