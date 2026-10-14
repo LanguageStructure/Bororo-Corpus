@@ -44,18 +44,18 @@ def train(rows):
     candidates = {}
     for form, n in forms.items():
         options = []
-        for lemma, family in families.items():
-            if form not in family or form == lemma:
+        related_lemmas = {lemma for lemma, _upos in analyses[form] if lemma}
+        for lemma in related_lemmas:
+            if form == lemma or lemma not in forms or len(lemma) < 3:
                 continue
-            if lemma not in forms or len(lemma) < 3:
-                continue
+            support = families[lemma][form]
             for prefix in PREFIXES:
                 if form == prefix + lemma:
-                    options.append((family[form], [prefix, lemma]))
+                    options.append((support, [prefix, lemma]))
             for suffix in SUFFIXES:
                 if form == lemma + suffix:
                     pieces = ["modu", "ka", "re"] if suffix == "modukare" else ["modu", "re"] if suffix == "modure" else [suffix]
-                    options.append((family[form], [lemma, *pieces]))
+                    options.append((support, [lemma, *pieces]))
         options = [(support, parts) for support, parts in options if support >= MIN_SUPPORT]
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
