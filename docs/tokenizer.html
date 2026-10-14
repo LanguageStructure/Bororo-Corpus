@@ -35,6 +35,7 @@ const knownSegments={
   "emago":["e","mago"],
   "tumago":["tu","mago"],
   "ure":["u","re"],
+  "nure":["nu","re"],
   "ire":["i","re"],
   "are":["a","re"],
   "cere":["ce","re"],
@@ -48,6 +49,8 @@ const knownSegments={
   "ewiapagamodukare":["e","wiapaga","modu","ka","re"],
   "tawiapagado":["ta","wiapaga","do"]
 };
+// Independently attested grammatical units must be recognized even without splitting.
+const knownSimpleUnits=new Set(["u","nu"]);
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
 // Confirmed surface allomorphs; the lexical lemma is kept separately.
 const lexicalBases=new Set(["mago","wiapaga"]);
@@ -103,6 +106,7 @@ function productiveParts(word){
 }
 function splitKnownForm(t){
   const lower=t.form.toLocaleLowerCase("pt-BR");
+  if(knownSimpleUnits.has(lower))return [{...t,status:"confirmed"}];
   let parts=knownSegments[lower] || trainedCandidates.get(lower) || productiveParts(t.form);
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
@@ -132,6 +136,9 @@ function runTokenizerChecks(){
     "tumagomodukare":["tu","mago","modu","ka","re"],
     "kururogu":["kuru","rogu"],
     "ure":["u","re"],
+    "nure":["nu","re"],
+    "u":["u"],
+    "nu":["nu"],
     "mode":["mode"],
     "modure":["modure"],
     "iwiapaga":["i","wiapaga"],
