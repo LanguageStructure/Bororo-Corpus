@@ -21,6 +21,7 @@ CAUTION_ENDINGS = {"dure"}  # May cross morpheme boundaries; never infer -dure.
 
 
 
+
 def read_conllu(path):
     for line in path.open(encoding="utf-8-sig"):
         if not line.strip() or line.startswith("#"):
@@ -110,7 +111,7 @@ def train(rows):
     corroborated_endings = {}
     for ending, record in recurrent_endings.items():
         matching = suffix_evidence.get(ending)
-        if matching:
+        if matching and ending not in CAUTION_ENDINGS and ending not in REJECTED_SUFFIXES:
             corroborated_endings[ending] = {
                 **record,
                 "lemma_supported_types": matching["types"],
@@ -141,6 +142,7 @@ def train(rows):
         "corroborated_endings": corroborated_endings,
         "rejected_suffixes": sorted(REJECTED_SUFFIXES),
         "caution_endings": sorted(CAUTION_ENDINGS),
+        "excluded_from_suffix_inference": sorted(REJECTED_SUFFIXES | CAUTION_ENDINGS),
     }
 
 
