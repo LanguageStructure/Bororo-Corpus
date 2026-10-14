@@ -84,6 +84,23 @@ def train(rows):
                 if len(record["examples"]) < 8:
                     record["examples"].append(form)
     suffix_evidence = dict(sorted(suffix_evidence.items()))
+    # Distributional discovery from recurring word endings, independent of
+    # lemma annotations. This is evidence for investigation, not segmentation.
+    ending_counts = defaultdict(lambda: {"types": 0, "tokens": 0, "examples": []})
+    for form, freq in forms.items():
+        if len(form) < 5 or not form.isalpha():
+            continue
+        for width in range(2, min(6, len(form) - 2) + 1):
+            ending = form[-width:]
+            record = ending_counts[ending]
+            record["types"] += 1
+            record["tokens"] += freq
+            if len(record["examples"]) < 5:
+                record["examples"].append(form)
+    recurrent_endings = {
+        ending: record for ending, record in sorted(ending_counts.items())
+        if record["types"] >= 5 and record["tokens"] >= 20
+    }
     return {
         "schema": "corbo-tokenizer-model/v1",
         "source": str(SOURCE.relative_to(ROOT)),
@@ -104,6 +121,7 @@ def train(rows):
         },
         "candidates": dict(sorted(candidates.items())),
         "suffix_evidence": suffix_evidence,
+        "recurrent_endings": recurrent_endings,
     }
 
 
