@@ -67,6 +67,9 @@ async function loadTrainedModel(){
     const data=await response.json();
     if(data.schema!=="corbo-tokenizer-model/v1")throw Error("Modelo incompatível");
     trainedLexicon=new Map(Object.entries(data.lexicon||{}));
+    const unitCounts=data.grammatical_unit_counts||{};
+    console.info("Unidades gramaticais isoladas no CoNLL-U:",unitCounts);
+    console.info("Evidência de sufixos por famílias de lemas:",data.suffix_evidence||{});
     trainedCandidates.clear();
     for(const [form,record] of Object.entries(data.candidates||{})){
       const parts=record.segments;
