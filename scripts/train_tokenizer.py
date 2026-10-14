@@ -39,6 +39,10 @@ def train(rows):
         analyses[form][(lemma, upos)] += 1
         if lemma:
             families[lemma][form] += 1
+    # Observed grammatical units and their contiguous token sequences.
+    # These are distributional statistics, not claims of internal morphology.
+    grammatical = {"u", "nu", "re"}
+    grammatical_counts = {unit: forms[unit] for unit in sorted(grammatical)}
     # Surface segmentation candidates require evidence of a base attested
     # independently AND an identical lemma family; no b/w or k/g guessing.
     candidates = {}
@@ -64,6 +68,7 @@ def train(rows):
         "schema": "corbo-tokenizer-model/v1",
         "source": str(SOURCE.relative_to(ROOT)),
         "min_support": MIN_SUPPORT,
+        "grammatical_unit_counts": grammatical_counts,
         "types": len(forms),
         "tokens": sum(forms.values()),
         "lexicon": {
