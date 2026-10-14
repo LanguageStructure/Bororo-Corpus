@@ -44,6 +44,23 @@ def train(rows):
         analyses[form][(lemma, upos)] += 1
         if lemma:
             families[lemma][form] += 1
+    # Paradigms are grouped by annotated lemma; keep only informative
+    # families with multiple distinct surface forms and sufficient tokens.
+    paradigms = {}
+    for lemma, family in sorted(families.items()):
+        if not lemma or len(family) < 2:
+            continue
+        total = sum(family.values())
+        if total < MIN_SUPPORT:
+            continue
+        paradigms[lemma] = {
+            "types": len(family),
+            "tokens": total,
+            "forms": [
+                {"form": form, "frequency": count}
+                for form, count in sorted(family.items(), key=lambda item: (-item[1], item[0]))
+            ],
+        }
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
@@ -126,6 +143,8 @@ def train(rows):
         "grammatical_unit_attested": {unit: bool(forms[unit]) for unit in sorted(grammatical)},
         "types": len(forms),
         "tokens": sum(forms.values()),
+        "paradigm_count": len(paradigms),
+        "paradigms": paradigms,
         "lexicon": {
             form: {
                 "frequency": freq,
