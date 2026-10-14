@@ -101,6 +101,18 @@ def train(rows):
         ending: record for ending, record in sorted(ending_counts.items())
         if record["types"] >= 5 and record["tokens"] >= 20
     }
+    # Compare raw distributional evidence with lemma-supported boundaries.
+    # Never automatically split from character frequencies alone.
+    corroborated_endings = {}
+    for ending, record in recurrent_endings.items():
+        matching = suffix_evidence.get(ending)
+        if matching:
+            corroborated_endings[ending] = {
+                **record,
+                "lemma_supported_types": matching["types"],
+                "lemma_supported_tokens": matching["tokens"],
+                "evidence": "distributional+lemma",
+            }
     return {
         "schema": "corbo-tokenizer-model/v1",
         "source": str(SOURCE.relative_to(ROOT)),
@@ -122,6 +134,7 @@ def train(rows):
         "candidates": dict(sorted(candidates.items())),
         "suffix_evidence": suffix_evidence,
         "recurrent_endings": recurrent_endings,
+        "corroborated_endings": corroborated_endings,
     }
 
 
