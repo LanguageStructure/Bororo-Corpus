@@ -15,6 +15,10 @@ OUTPUT = ROOT / "docs/data/tokenizer-model.json"
 PREFIXES = ("ce", "pa", "ta", "tu", "i", "a", "u", "e")
 SUFFIXES = ("modukare", "modure", "re", "do")
 MIN_SUPPORT = 3
+# Linguistic safeguards: frequent strings are not automatically morphemes.
+REJECTED_SUFFIXES = {"je"}  # -je is not a suffix in Bororo.
+CAUTION_ENDINGS = {"dure"}  # May cross morpheme boundaries; never infer -dure.
+
 
 
 def read_conllu(path):
@@ -99,7 +103,7 @@ def train(rows):
                 record["examples"].append(form)
     recurrent_endings = {
         ending: record for ending, record in sorted(ending_counts.items())
-        if record["types"] >= 5 and record["tokens"] >= 20
+        if record["types"] >= 5 and record["tokens"] >= 20 and ending not in REJECTED_SUFFIXES
     }
     # Compare raw distributional evidence with lemma-supported boundaries.
     # Never automatically split from character frequencies alone.
@@ -135,6 +139,8 @@ def train(rows):
         "suffix_evidence": suffix_evidence,
         "recurrent_endings": recurrent_endings,
         "corroborated_endings": corroborated_endings,
+        "rejected_suffixes": sorted(REJECTED_SUFFIXES),
+        "caution_endings": sorted(CAUTION_ENDINGS),
     }
 
 
