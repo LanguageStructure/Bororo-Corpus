@@ -107,6 +107,19 @@ def train(rows):
         if len(record["lemmas"]) >= 3
     ]
     cross_lemma_patterns.sort(key=lambda x: (-x["lemma_count"], -x["tokens"], x["position"], x["material"]))
+    # Rank cross-lemma patterns by independent lexical support.
+    # Confidence is distributional only, never a claim of grammatical truth.
+    for pattern in cross_lemma_patterns:
+        families = pattern["lemma_count"]
+        tokens = pattern["tokens"]
+        if families >= 10 and tokens >= 50:
+            grade = "high_distributional"
+        elif families >= 5 and tokens >= 20:
+            grade = "medium_distributional"
+        else:
+            grade = "low_distributional"
+        pattern["evidence_grade"] = grade
+        pattern["linguistically_confirmed"] = False
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
