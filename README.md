@@ -251,6 +251,22 @@ O foco desta versão é a **expansão documental, incorporação de testemunhos 
 
 Entre os conjuntos incorporados e colacionados estão **Pemo–Coqueiro, Aijedoge, Barujauwo, Primeiras Andanças, Gêmeos Bakororodoge, Aroeceba, Arua Bororo, Arua Bororo II, Bakororodoge, Façanha Bakororogode, Ipare Ewororo, Jakomea Jiwu** e **Cirilo Discurso**.
 
+## Tokenizador experimental baseado no CoNLL-U
+
+A interface pública de [tokenização](docs/tokenizer.html) oferece dois modos: separação ortográfica e segmentação linguística experimental. As unidades identificadas podem ser selecionadas para consultar informações lexicais e, quando disponíveis, a justificativa de uma segmentação proposta.
+
+O treinamento reproduzível é realizado por `scripts/train_tokenizer.py`, usando as colunas `FORM`, `LEMMA` e `UPOS` do arquivo canônico `CorBo/Corpus_Files/CorBo.conllu`. O resultado é publicado em `docs/data/tokenizer-model.json`; o fluxo `.github/workflows/tokenizer-model.yml` reconstrói o modelo quando o arquivo CoNLL-U ou o programa de treinamento muda.
+
+```bash
+python3 scripts/train_tokenizer.py
+```
+
+O modelo reúne frequências de formas, famílias de lemas, correspondências entre formas e lemas, padrões recorrentes em famílias lexicais distintas e **segmentações candidatas**. A classificação da evidência distribucional distingue padrões de suporte baixo (pelo menos três lemas), médio (cinco lemas e 20 ocorrências) e alto (dez lemas e 50 ocorrências). A classificação de uma segmentação considera a fronteira menos sustentada; fronteiras sem suporte independente impedem a atribuição de grau. **Essas categorias não constituem validação linguística nem medem precisão preditiva.**
+
+O tokenizador mantém análises linguísticas cadastradas separadas das hipóteses geradas automaticamente. Entre os exemplos explicitamente cadastrados estão `ure → u + re` e `nure → nu + re`. A aprendizagem estatística não autoriza tratar terminações frequentes como morfemas: `-je` é excluído da inferência de sufixos e `-dure` exige cautela, pois pode atravessar fronteiras morfológicas. Formas lexicais não devem ser divididas apenas por coincidência gráfica, como uma terminação `-re`.
+
+**Estado de desenvolvimento (outubro de 2026).** O último modelo público verificado continha 74.255 ocorrências, 6.674 formas distintas, 236 famílias de lemas, 27 padrões entre famílias e 83 propostas de segmentação. Esses números descrevem o artefato verificado, não necessariamente o resultado do próximo treinamento. O código para atribuir graus de evidência já foi atualizado, mas a publicação de um JSON regenerado com esses campos ainda precisa ser confirmada. A avaliação com dados separados do treinamento e revisão linguística das propostas continuam pendentes.
+
 ## Licença e citação
 
 O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
