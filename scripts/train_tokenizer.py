@@ -120,41 +120,6 @@ def train(rows):
             grade = "low_distributional"
         pattern["evidence_grade"] = grade
         pattern["linguistically_confirmed"] = False
-    # Attach independent cross-lemma support to each proposed segmentation.
-    # A pattern's distributional grade is not linguistic validation.
-    pattern_index = {
-        (p["position"], p["material"]): p
-        for p in cross_lemma_patterns
-    }
-    for form, candidate in candidates.items():
-        parts = candidate["segments"]
-        matched = []
-        for prefix in PREFIXES:
-            if len(parts) >= 2 and parts[0] == prefix:
-                p = pattern_index.get(("prefix", prefix))
-                if p:
-                    matched.append(p)
-                break
-        for ending in SUFFIXES:
-            suffix_parts = ["modu", "ka", "re"] if ending == "modukare" else ["modu", "re"] if ending == "modure" else [ending]
-            if parts[-len(suffix_parts):] == suffix_parts:
-                p = pattern_index.get(("suffix", ending))
-                if p:
-                    matched.append(p)
-                break
-        candidate["cross_lemma_evidence"] = [
-            {"position": p["position"], "material": p["material"],
-             "lemma_count": p["lemma_count"], "evidence_grade": p["evidence_grade"]}
-            for p in matched
-        ]
-        # Every proposed boundary needs independent evidence; a strong
-        # prefix cannot compensate for an unsupported suffix.
-        boundaries = len(parts) - 1
-        candidate["evidence_grade"] = (
-            min((p["evidence_grade"] for p in matched),
-                key=lambda g: {"low_distributional": 1, "medium_distributional": 2, "high_distributional": 3}[g])
-            if len(matched) >= boundaries else "unrated"
-        )
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
@@ -190,6 +155,41 @@ def train(rows):
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
             candidates[form] = {"segments": options[0][1], "support": options[0][0], "status": "proposed"}
+    # Attach independent cross-lemma support to each proposed segmentation.
+    # A pattern's distributional grade is not linguistic validation.
+    pattern_index = {
+        (p["position"], p["material"]): p
+        for p in cross_lemma_patterns
+    }
+    for form, candidate in candidates.items():
+        parts = candidate["segments"]
+        matched = []
+        for prefix in PREFIXES:
+            if len(parts) >= 2 and parts[0] == prefix:
+                p = pattern_index.get(("prefix", prefix))
+                if p:
+                    matched.append(p)
+                break
+        for ending in SUFFIXES:
+            suffix_parts = ["modu", "ka", "re"] if ending == "modukare" else ["modu", "re"] if ending == "modure" else [ending]
+            if parts[-len(suffix_parts):] == suffix_parts:
+                p = pattern_index.get(("suffix", ending))
+                if p:
+                    matched.append(p)
+                break
+        candidate["cross_lemma_evidence"] = [
+            {"position": p["position"], "material": p["material"],
+             "lemma_count": p["lemma_count"], "evidence_grade": p["evidence_grade"]}
+            for p in matched
+        ]
+        # Every proposed boundary needs independent evidence; a strong
+        # prefix cannot compensate for an unsupported suffix.
+        boundaries = len(parts) - 1
+        candidate["evidence_grade"] = (
+            min((p["evidence_grade"] for p in matched),
+                key=lambda g: {"low_distributional": 1, "medium_distributional": 2, "high_distributional": 3}[g])
+            if len(matched) >= boundaries else "unrated"
+        )
     # Discover recurring grammatical endings in lemma-linked forms.
     # Counts are evidence for candidate discovery, never confirmation.
     suffix_evidence = defaultdict(lambda: {"types": 0, "tokens": 0, "examples": []})
