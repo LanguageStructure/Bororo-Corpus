@@ -147,10 +147,13 @@ def train(rows):
              "lemma_count": p["lemma_count"], "evidence_grade": p["evidence_grade"]}
             for p in matched
         ]
+        # Every proposed boundary needs independent evidence; a strong
+        # prefix cannot compensate for an unsupported suffix.
+        boundaries = len(parts) - 1
         candidate["evidence_grade"] = (
-            max((p["evidence_grade"] for p in matched),
+            min((p["evidence_grade"] for p in matched),
                 key=lambda g: {"low_distributional": 1, "medium_distributional": 2, "high_distributional": 3}[g])
-            if matched else "unrated"
+            if len(matched) >= boundaries else "unrated"
         )
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
