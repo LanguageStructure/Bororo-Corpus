@@ -70,6 +70,20 @@ def train(rows):
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
             candidates[form] = {"segments": options[0][1], "support": options[0][0], "status": "proposed"}
+    # Discover recurring grammatical endings in lemma-linked forms.
+    # Counts are evidence for candidate discovery, never confirmation.
+    suffix_evidence = defaultdict(lambda: {"types": 0, "tokens": 0, "examples": []})
+    for form, item in candidates.items():
+        parts = item["segments"]
+        for ending in ("re", "do", "modure", "modukare"):
+            suffix_parts = {"re": ["re"], "do": ["do"], "modure": ["modu", "re"], "modukare": ["modu", "ka", "re"]}[ending]
+            if parts[-len(suffix_parts):] == suffix_parts:
+                record = suffix_evidence[ending]
+                record["types"] += 1
+                record["tokens"] += forms[form]
+                if len(record["examples"]) < 8:
+                    record["examples"].append(form)
+    suffix_evidence = dict(sorted(suffix_evidence.items()))
     return {
         "schema": "corbo-tokenizer-model/v1",
         "source": str(SOURCE.relative_to(ROOT)),
@@ -89,6 +103,7 @@ def train(rows):
             for form, freq in sorted(forms.items())
         },
         "candidates": dict(sorted(candidates.items())),
+        "suffix_evidence": suffix_evidence,
     }
 
 
