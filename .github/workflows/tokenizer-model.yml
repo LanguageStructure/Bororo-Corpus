@@ -1,0 +1,29 @@
+name: Build tokenizer model
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'CorBo/Corpus_Files/CorBo.conllu'
+      - 'scripts/train_tokenizer.py'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Train from CoNLL-U
+        run: python scripts/train_tokenizer.py
+      - name: Commit generated public model
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/tokenizer-model.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update public tokenizer model from CoNLL-U"
+            git push
+          fi
