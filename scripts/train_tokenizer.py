@@ -164,8 +164,10 @@ def train(rows):
     for form, candidate in candidates.items():
         parts = candidate["segments"]
         matched = []
+        # A two-part form ending in a licensed suffix is base+suffix,
+        # not automatically prefix+base (e.g. a+do).
         for prefix in PREFIXES:
-            if len(parts) >= 2 and parts[0] == prefix:
+            if len(parts) >= 2 and parts[0] == prefix and not (len(parts) == 2 and parts[-1] in SUFFIXES):
                 p = pattern_index.get(("prefix", prefix))
                 if p:
                     matched.append(p)
