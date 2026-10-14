@@ -50,7 +50,7 @@ const knownSegments={
   "tawiapagado":["ta","wiapaga","do"]
 };
 // Independently attested grammatical units must be recognized even without splitting.
-const knownSimpleUnits=new Set(["u","nu"]);
+const knownSimpleUnits=new Set(["u","nu","re"]);
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
 // Confirmed surface allomorphs; the lexical lemma is kept separately.
 const lexicalBases=new Set(["mago","wiapaga"]);
@@ -80,6 +80,15 @@ async function loadTrainedModel(){
 function isRecognizedBase(base){
   return lexicalBases.has(base)||corpusVerbBases.has(base);
 }
+// Conservative grammatical sequence model: only licensed combinations are split.
+// Distinguish lexical recognition from a verified morphological boundary.
+const grammaticalUnits=new Set(["u","nu","re"]);
+function grammaticalParts(form){
+  const lower=form.toLocaleLowerCase("pt-BR");
+  if(lower==="nure")return ["nu","re"];
+  if(lower==="ure")return ["u","re"];
+  return null;
+}
 const protectedForms=new Set(["mode","modure"]);
 function productiveParts(word){
   const lower=word.toLocaleLowerCase("pt-BR");
@@ -107,7 +116,7 @@ function productiveParts(word){
 function splitKnownForm(t){
   const lower=t.form.toLocaleLowerCase("pt-BR");
   if(knownSimpleUnits.has(lower))return [{...t,status:"confirmed"}];
-  let parts=knownSegments[lower] || trainedCandidates.get(lower) || productiveParts(t.form);
+  let parts=knownSegments[lower] || grammaticalParts(t.form) || trainedCandidates.get(lower) || productiveParts(t.form);
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
     const stemParts=knownSegments[stem.toLocaleLowerCase("pt-BR")];
@@ -139,6 +148,7 @@ function runTokenizerChecks(){
     "nure":["nu","re"],
     "u":["u"],
     "nu":["nu"],
+    "re":["re"],
     "mode":["mode"],
     "modure":["modure"],
     "iwiapaga":["i","wiapaga"],
