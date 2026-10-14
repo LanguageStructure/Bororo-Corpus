@@ -55,6 +55,25 @@ const surfaceToLemma=new Map([["mago","mako"],["wiapaga","biapaga"]]);
 function lemmaOfSurface(form){return surfaceToLemma.get(form.toLocaleLowerCase("pt-BR"))||form;}
 
 const corpusVerbBases=new Set();
+const trainedCandidates=new Map();
+let trainedLexicon=null;
+async function loadTrainedModel(){
+  try{
+    const response=await fetch("data/tokenizer-model.json",{cache:"no-cache"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    const data=await response.json();
+    if(data.schema!=="corbo-tokenizer-model/v1")throw Error("Modelo incompatível");
+    trainedLexicon=new Map(Object.entries(data.lexicon||{}));
+    trainedCandidates.clear();
+    for(const [form,record] of Object.entries(data.candidates||{})){
+      const parts=record.segments;
+      if(!Array.isArray(parts)||parts.length<2||parts.join("")!==form)continue;
+      trainedCandidates.set(form,parts);
+    }
+    render();
+    console.info("Modelo CorBo carregado:",trainedLexicon.size,"formas;",trainedCandidates.size,"candidatas.");
+  }catch(err){console.warn("Modelo treinado ainda indisponível:",err);}
+}
 function isRecognizedBase(base){
   return lexicalBases.has(base)||corpusVerbBases.has(base);
 }
@@ -84,7 +103,7 @@ function productiveParts(word){
 }
 function splitKnownForm(t){
   const lower=t.form.toLocaleLowerCase("pt-BR");
-  let parts=knownSegments[lower] || productiveParts(t.form);
+  let parts=knownSegments[lower] || trainedCandidates.get(lower) || productiveParts(t.form);
   if(!parts && lower.endsWith("modukare") && lower.length>8){
     const stem=t.form.slice(0,-8);
     const stemParts=knownSegments[stem.toLocaleLowerCase("pt-BR")];
@@ -154,6 +173,11 @@ function segmentationExplanation(token){
   return lemma!==base?"Alomorfe "+base+"; lema "+lemma+". ":"";
 }
 function corpusInfo(form){
+  if(trainedLexicon?.has(form.toLocaleLowerCase("pt-BR"))){
+    const item=trainedLexicon.get(form.toLocaleLowerCase("pt-BR"));
+    const top=(item.analyses||[]).slice(0,2).map(x=>x.lemma+" / "+x.upos).join(", ");
+    return "Modelo CoNLL-U: "+item.frequency+" ocorrência(s)"+(top?"; "+top:"")+".";
+  }
   if(!corpusForms)return "Índice lexical do corpus indisponível ou ainda carregando.";
   const entry=corpusForms.get(form.toLocaleLowerCase("pt-BR"));
   if(!entry)return "Forma não encontrada no índice lexical consultado.";
@@ -232,5 +256,5 @@ document.getElementById("copy").insertAdjacentElement("beforebegin",auditButton)
 auditButton.addEventListener("click",showAudit);
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
-runTokenizerChecks();loadCorpusForms();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+runTokenizerChecks();loadCorpusForms();loadTrainedModel();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 </script></body></html>
