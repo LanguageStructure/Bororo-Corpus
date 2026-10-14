@@ -43,6 +43,9 @@ def train(rows):
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
     grammatical_counts = {unit: forms[unit] for unit in sorted(grammatical)}
+    # Observed surface forms alone do not license a morphological boundary.
+    # Candidate analyses must share a CoNLL-U lemma with an independently
+    # attested base. Enumerate prefix+base+suffix as well as single affixes.
     # Surface segmentation candidates require evidence of a base attested
     # independently AND an identical lemma family; no b/w or k/g guessing.
     candidates = {}
@@ -53,13 +56,16 @@ def train(rows):
             if form == lemma or lemma not in forms or len(lemma) < 3:
                 continue
             support = families[lemma][form]
-            for prefix in PREFIXES:
-                if form == prefix + lemma:
-                    options.append((support, [prefix, lemma]))
-            for suffix in SUFFIXES:
-                if form == lemma + suffix:
-                    pieces = ["modu", "ka", "re"] if suffix == "modukare" else ["modu", "re"] if suffix == "modure" else [suffix]
-                    options.append((support, [lemma, *pieces]))
+            for prefix in ("", *PREFIXES):
+                for suffix in ("", *SUFFIXES):
+                    if not prefix and not suffix:
+                        continue
+                    if form != prefix + lemma + suffix:
+                        continue
+                    pieces = ([prefix] if prefix else []) + [lemma]
+                    if suffix:
+                        pieces += ["modu", "ka", "re"] if suffix == "modukare" else ["modu", "re"] if suffix == "modure" else [suffix]
+                    options.append((support, pieces))
         options = [(support, parts) for support, parts in options if support >= MIN_SUPPORT]
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
@@ -69,6 +75,7 @@ def train(rows):
         "source": str(SOURCE.relative_to(ROOT)),
         "min_support": MIN_SUPPORT,
         "grammatical_unit_counts": grammatical_counts,
+        "grammatical_unit_attested": {unit: bool(forms[unit]) for unit in sorted(grammatical)},
         "types": len(forms),
         "tokens": sum(forms.values()),
         "lexicon": {
