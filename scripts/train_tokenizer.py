@@ -80,6 +80,33 @@ def train(rows):
                 alignments.append({"form": form, "relation": "nonconcatenative_or_unresolved", "frequency": item["frequency"]})
         if alignments:
             paradigm_alternations[lemma] = alignments
+    # Aggregate cross-lemma evidence for recurrent surface additions.
+    # Count distinct lemmas, not merely tokens, to avoid a single frequent
+    # paradigm being mistaken for a productive grammatical pattern.
+    cross_lemma = defaultdict(lambda: {"lemmas": set(), "types": 0, "tokens": 0, "examples": []})
+    for lemma, alignments in paradigm_alternations.items():
+        for item in alignments:
+            relation = item["relation"]
+            material = item.get("material", "")
+            if relation not in ("prefix", "suffix") or not material:
+                continue
+            if relation == "suffix" and (material in REJECTED_SUFFIXES or material in CAUTION_ENDINGS):
+                continue
+            key = (relation, material)
+            record = cross_lemma[key]
+            record["lemmas"].add(lemma)
+            record["types"] += 1
+            record["tokens"] += item["frequency"]
+            if len(record["examples"]) < 6:
+                record["examples"].append({"lemma": lemma, "form": item["form"]})
+    cross_lemma_patterns = [
+        {"position": position, "material": material,
+         "lemma_count": len(record["lemmas"]), "types": record["types"],
+         "tokens": record["tokens"], "examples": record["examples"]}
+        for (position, material), record in cross_lemma.items()
+        if len(record["lemmas"]) >= 3
+    ]
+    cross_lemma_patterns.sort(key=lambda x: (-x["lemma_count"], -x["tokens"], x["position"], x["material"]))
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
@@ -165,6 +192,7 @@ def train(rows):
         "paradigm_count": len(paradigms),
         "paradigms": paradigms,
         "paradigm_alternations": paradigm_alternations,
+        "cross_lemma_patterns": cross_lemma_patterns,
         "lexicon": {
             form: {
                 "frequency": freq,
