@@ -61,6 +61,25 @@ def train(rows):
                 for form, count in sorted(family.items(), key=lambda item: (-item[1], item[0]))
             ],
         }
+    # Describe surface correspondences within each attested lemma family.
+    # These are descriptive alignments, NOT licensed morpheme boundaries.
+    paradigm_alternations = {}
+    for lemma, record in paradigms.items():
+        if lemma not in forms or len(lemma) < 3:
+            continue
+        alignments = []
+        for item in record["forms"]:
+            form = item["form"]
+            if form == lemma:
+                continue
+            if form.endswith(lemma):
+                alignments.append({"form": form, "relation": "prefix", "material": form[:-len(lemma)], "frequency": item["frequency"]})
+            elif form.startswith(lemma):
+                alignments.append({"form": form, "relation": "suffix", "material": form[len(lemma):], "frequency": item["frequency"]})
+            else:
+                alignments.append({"form": form, "relation": "nonconcatenative_or_unresolved", "frequency": item["frequency"]})
+        if alignments:
+            paradigm_alternations[lemma] = alignments
     # Observed grammatical units and their contiguous token sequences.
     # These are distributional statistics, not claims of internal morphology.
     grammatical = {"u", "nu", "re"}
@@ -145,6 +164,7 @@ def train(rows):
         "tokens": sum(forms.values()),
         "paradigm_count": len(paradigms),
         "paradigms": paradigms,
+        "paradigm_alternations": paradigm_alternations,
         "lexicon": {
             form: {
                 "frequency": freq,
