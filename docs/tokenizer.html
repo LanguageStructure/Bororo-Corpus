@@ -27,6 +27,12 @@ const input=document.getElementById('input'),output=document.getElementById('tok
 const pattern=/(?:\.(?:\s*\.){2,}|…)|[\p{L}\p{N}\p{M}]+(?:[’'\-][\p{L}\p{N}\p{M}]+)*|[^\s]/gu;
 function tokenize(text){return Array.from(text.matchAll(pattern),m=>({form:m[0],start:m.index,end:m.index+m[0].length}));}
 const knownSegments={
+  "inagore":["in","ago","re"],
+  "cenagore":["cen","ago","re"],
+  "egore":["e","go","re"],
+  "ego":["e","go"],
+  "inago":["in","ago"],
+  "inagokare":["in","ago","ka","re"],
   "imago":["i","mago"],
   "amago":["a","mago"],
   "pamago":["pa","mago"],
@@ -50,6 +56,15 @@ const knownSegments={
   "tawiapagado":["ta","wiapaga","do"]
 };
 // Independently attested grammatical units must be recognized even without splitting.
+const confirmedMorphology={
+  "inago":"i(n) + ago",
+  "inagore":"i(n) + ago + re",
+  "inagokare":"i(n) + ago + ka + re",
+  "cenagore":"ce(n) + ago + re",
+  "egore":"e + go + re",
+  "ego":"e + go",
+  "akore":"ako + re"
+};
 const knownSimpleUnits=new Set(["u","nu","re"]);
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
 // Confirmed surface allomorphs; the lexical lemma is kept separately.
@@ -139,7 +154,7 @@ function splitKnownForm(t){
     }
     if(surfaces.join("")===t.form.toLocaleLowerCase("pt-BR")){
       let at=t.start;
-      return surfaces.map(part=>{const token={form:t.form.slice(at-t.start,at-t.start+part.length),start:at,end:at+part.length,whole:t.form,status:v2.status,analysis:morphological.join(" + "),lemma:v2.lemma||""};at+=part.length;return token;});
+      return surfaces.map(part=>{const token={form:t.form.slice(at-t.start,at-t.start+part.length),start:at,end:at+part.length,whole:t.form,status:v2.status,analysis:confirmedMorphology[t.form.toLocaleLowerCase("pt-BR")]||morphological.join(" + "),lemma:v2.lemma||""};at+=part.length;return token;});
     }
   }
 
@@ -155,7 +170,7 @@ function splitKnownForm(t){
   let at=t.start;
   return parts.map(part=>{
     const form=t.form.slice(at-t.start,at-t.start+part.length);
-    const token={form,start:at,end:at+part.length,whole:t.form,status:knownSegments[lower]?"confirmed":"proposed"};
+    const token={form,start:at,end:at+part.length,whole:t.form,status:knownSegments[lower]?"confirmed":"proposed",analysis:confirmedMorphology[lower]||""};
     at+=part.length;
     return token;
   });
