@@ -23,6 +23,20 @@ CONFIRMED = {
     "tamago": ("ta","mago"), "emago": ("e","mago"),
     "tumago": ("tu","mago"), "iwiapagare": ("i","wiapaga","re"),
 }
+# Confirmed closed-class personal forms. These are whole-form rules,
+# not productive stripping of arbitrary lexical stems.
+PERSON_TAILS = {
+    "re": ("re",), "wo": ("wo",), "ia": ("ia",),
+    "ie": ("ie",), "iagu": ("iagu",),
+    "kare": ("ka","re"), "kawo": ("ka","wo"),
+    "kae": ("ka","e"), "kai": ("ka","i"),
+    "mode": ("modu","re"), "modure": ("modu","re"),
+    "modukare": ("modu","ka","re"),
+    "modukae": ("modu","ka","e"), "moduie": ("modu","ie"),
+    "nure": ("nu","re"),
+}
+PERSON_PREFIXES = ("u","i","a","e")
+
 PREFIXES = ("ce","pa","ta","tu","et","i","a","u","e")
 ENDINGS = (
     ("modu","ka","re"), ("modu","re"), ("modu","ka","wo"),
@@ -60,6 +74,26 @@ def analyse(word, forms, lemmas, families):
             return {"form":word,"segments":[person,"mago"],
                     "status":"confirmed","lemma":"mako",
                     "rule":"mako: bound mago after personal prefix"}
+    # Restricted lexical alternations in the ako paradigm.
+    ako_confirmed = {
+        "inago": ("i(n)","ago"),
+        "inagore": ("i(n)","ago","re"),
+        "inagokare": ("i(n)","ago","ka","re"),
+        "cenagore": ("ce(n)","ago","re"),
+        "ego": ("e","go"),
+        "egore": ("e","go","re"),
+    }
+    if w in ako_confirmed:
+        return {"form":word,"segments":list(ako_confirmed[w]),
+                "status":"confirmed","lemma":"ako"}
+    # Avoid assigning these forms to unrelated lexical items.
+    for person in PERSON_PREFIXES:
+        if not w.startswith(person):continue
+        tail=w[len(person):]
+        if tail in PERSON_TAILS:
+            return {"form":word,"segments":[person,*PERSON_TAILS[tail]],
+                    "status":"confirmed","lemma":person,
+                    "rule":"closed-class personal paradigm"}
     if w in CONFIRMED:
         return {"form":word,"segments":list(CONFIRMED[w]),"status":"confirmed"}
     if w in PROTECTED or w=="mago": return {"form":word,"segments":[word],"status":"unanalysed"}
