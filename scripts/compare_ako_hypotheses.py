@@ -12,11 +12,16 @@ HYPOTHESES={
  "inagore":[("i+n+ago+re","epenthetic_n_plus_ago"),("i+nago+re","nago_allomorph")],
  "inago":[("i+n+ago","epenthetic_n_plus_ago"),("i+nago","nago_allomorph")],
  "inagokare":[("i+n+ago+ka+re","epenthetic_n_plus_ago"),("i+nago+ka+re","nago_allomorph")],
+ "inagoi":[("i+n+ago+i","epenthetic_n_plus_ago_gerund_candidate"),("i+nago+i","nago_allomorph_gerund_candidate")],
  "cenagore":[("ce+n+ago+re","epenthetic_n_plus_ago"),("ce+nago+re","nago_allomorph")],
+ "inagorire":[("i+n+ago+ri+re","epenthetic_n_plus_ago_ri_candidate"),("i+nago+ri+re","nago_allomorph_ri_candidate")],
  "egore":[("e+go+re","go_allomorph"),("ego+re","ego_allomorph")],
  "ego":[("e+go","go_allomorph"),("ego","ego_allomorph")],
  "akore":[("ako+re","attested_base_plus_indicative")],
  "ako":[("ako","unsegmented_base")],
+ "akomode":[("ako+modu+re","irrealis_plus_indicative_candidate")],
+ "egowo":[("e+go+wo","go_allomorph_subjunctive_candidate"),("ego+wo","ego_allomorph_subjunctive_candidate")],
+ "egomodukare":[("e+go+modu+ka+re","go_allomorph_irrealis_negative_candidate"),("ego+modu+ka+re","ego_allomorph_irrealis_negative_candidate")],
 }
 def main():
  p=argparse.ArgumentParser()
@@ -42,7 +47,7 @@ def main():
    options=HYPOTHESES.get(form,[("","no_hypothesis")])
    for candidate,hypothesis in options:
     w.writerow([form,upos,feats,n,candidate,hypothesis,
-                "review_required" if len(options)>1 or not candidate else "documented_candidate",
+                "review_required" if len(options)>1 or not candidate or "candidate" in hypothesis else "documented_candidate",
                 ",".join(sids[(form,upos,feats)])])
  print(f"{len(counts)} annotated combinations; {sum(counts.values())} tokens -> {out}")
  print("Competing segmentations are hypotheses only. No corpus files modified.")
