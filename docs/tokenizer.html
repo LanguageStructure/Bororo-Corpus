@@ -57,19 +57,19 @@ const knownSegments={
 };
 // Independently attested grammatical units must be recognized even without splitting.
 const confirmedMorphology={
-  "inago":"i(n) + ago",
-  "inagore":"i(n) + ago + re",
-  "inagokare":"i(n) + ago + ka + re",
-  "cenagore":"ce(n) + ago + re",
-  "egore":"e + go + re",
-  "ego":"e + go",
+  "inago":"i(n) + ako",
+  "inagore":"i(n) + ako + re",
+  "inagokare":"i(n) + ako + ka + re",
+  "cenagore":"ce(n) + ako + re",
+  "egore":"e + ako + re",
+  "ego":"e + ako",
   "akore":"ako + re"
 };
 const knownSimpleUnits=new Set(["u","nu","re"]);
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
 // Confirmed surface allomorphs; the lexical lemma is kept separately.
 const lexicalBases=new Set(["mago","wiapaga"]);
-const surfaceToLemma=new Map([["mago","mako"],["wiapaga","biapaga"]]);
+const surfaceToLemma=new Map([["mago","mako"],["wiapaga","biapaga"],["ago","ako"],["go","ako"]]);
 function lemmaOfSurface(form){return surfaceToLemma.get(form.toLocaleLowerCase("pt-BR"))||form;}
 
 const corpusVerbBases=new Set();
