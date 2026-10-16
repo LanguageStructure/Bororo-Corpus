@@ -22,6 +22,8 @@ def align(form,lemma):
     # Linguist-confirmed: the nasal belongs to the person prefix,
     # while ago is the surface stem corresponding to lemma ako.
     if lemma=="ako":
+        if form in ("ego","egore"):
+            return "e","go",form[3:],"curated_allomorph"
         for form_prefix,analysis_prefix in (("cen","ce(n)"),("in","i(n)")):
             if form.startswith(form_prefix+"ago"):
                 tail=form[len(form_prefix+"ago"):]
