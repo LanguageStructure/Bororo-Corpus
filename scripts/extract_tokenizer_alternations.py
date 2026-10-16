@@ -18,7 +18,38 @@ def rows(path):
             if len(c)==10 and c[0].isdigit() and c[1]!="_" and c[2]!="_":
                 yield c[1].casefold(),c[2].casefold(),c[3],c[5]
 
+PERSON_PREFIXES=("u","i","a","e")
+PERSON_TAILS=(
+    ("modukare","modu+ka+re"),
+    ("modukae","modu+ka+e"),
+    ("moduie","modu+ie"),
+    ("mode","modu+re"),
+    ("modure","modu+re"),
+    ("kare","ka+re"),
+    ("kae","ka+e"),
+    ("kawo","ka+wo"),
+    ("kai","ka+i"),
+    ("nure","nu+re"),
+    ("re","re"),
+    ("wo","wo"),
+    ("iagu","iagu"),
+    ("ia","ia"),
+    ("ie","ie"),
+)
+def person_alignment(form,lemma):
+    # Closed-class, attested personal-marker paradigms; not a general
+    # suffix stripper and not applicable to unrelated lexical lemmas.
+    if lemma not in PERSON_PREFIXES or not form.startswith(lemma):
+        return None
+    tail=form[len(lemma):]
+    for surface,analysis in PERSON_TAILS:
+        if tail==surface:
+            return lemma,lemma,analysis,"curated_allomorph"
+    return None
+
 def align(form,lemma):
+    personal=person_alignment(form,lemma)
+    if personal is not None:return personal
     # Linguist-confirmed: the nasal belongs to the person prefix,
     # while ago is the surface stem corresponding to lemma ako.
     if lemma=="ako":
