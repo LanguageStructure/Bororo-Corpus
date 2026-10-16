@@ -43,7 +43,7 @@ ENDINGS = (
     ("ka","re"), ("ka","wo"), ("iagu",), ("ie",),
     ("wo",), ("ia",), ("re",), ("rogu",),
 )
-ALLOMORPHS = {"mago": "mako", "wiapaga": "biapaga"}
+ALLOMORPHS = {"mago": "mako", "wiapaga": "biapaga", "wai": "bai"}
 BLOCKED = {"tabiapagado","ibiapagare"}
 PROTECTED = {"mode","modure"}
 
@@ -74,6 +74,12 @@ def analyse(word, forms, lemmas, families):
             return {"form":word,"segments":[person,"mago"],
                     "status":"confirmed","lemma":"mako",
                     "rule":"mako: bound mago after personal prefix"}
+    # Confirmed b ~ w alternation under the 1SG prefix i-.
+    # Keep the surface segmentation separate from the lexical lemma.
+    if w == "iwai":
+        return {"form":word,"segments":["i","wai"],
+                "status":"confirmed","lemma":"bai",
+                "rule":"b → w after personal prefix i"}
     # Restricted lexical alternations in the ako paradigm.
     ako_confirmed = {
         "inago": ("i(n)","ago"),
