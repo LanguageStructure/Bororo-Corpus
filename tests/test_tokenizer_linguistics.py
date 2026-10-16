@@ -25,8 +25,9 @@ class AlignmentTests(unittest.TestCase):
                 self.assertEqual((p,base,end,status),(prefix,"mago","","curated_allomorph"))
     def test_mago_alone_is_not_licensed(self):
         self.assertNotEqual(self.extract.align("mago","mako")[3],"curated_allomorph")
-    def test_ako_is_not_assumed_to_be_ago(self):
-        self.assertNotEqual(self.extract.align("inagore","ako")[3],"curated_allomorph")
+    def test_ako_allomorph_is_context_restricted(self):
+        self.assertEqual(self.extract.align("inagore","ako"),("i(n)","ago","re","curated_allomorph"))
+        self.assertNotEqual(self.extract.align("agore","ako")[3],"curated_allomorph")
     def test_confirmed_nasal_prefix_ako(self):
         cases={"inago":("i(n)","ago","","curated_allomorph"),"inagore":("i(n)","ago","re","curated_allomorph"),"inagokare":("i(n)","ago","kare","curated_allomorph"),"cenagore":("ce(n)","ago","re","curated_allomorph")}
         for form,expected in cases.items():
