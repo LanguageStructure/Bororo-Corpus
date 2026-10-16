@@ -36,7 +36,7 @@ def align(form,lemma):
             else:grade=2
             candidates.append((grade,len(prefix)+len(ending),prefix,core,ending))
     if not candidates:return ("",form,"","unresolved")
-    candidates.sort(key=lambda x:(x[0],-x[1],x[2],x[4]))
+    candidates.sort(key=lambda x:(x[0],x[1],x[2],x[4]))
     grade,_,prefix,core,ending=candidates[0]
     return prefix,core,ending,("exact_base" if grade==0 else "curated_allomorph" if grade==1 else "unresolved")
 
