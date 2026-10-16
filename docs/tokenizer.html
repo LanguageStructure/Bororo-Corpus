@@ -63,7 +63,14 @@ const confirmedMorphology={
   "cenagore":"ce(n) + ako + re",
   "egore":"e + ako + re",
   "ego":"e + ako",
-  "akore":"ako + re"
+  "akore":"ako + re",
+  "imago":"i + mako",
+  "amago":"a + mako",
+  "pamago":"pa + mako",
+  "cemago":"ce + mako",
+  "tamago":"ta + mako",
+  "emago":"e + mako",
+  "tumago":"tu + mako"
 };
 const knownSimpleUnits=new Set(["u","nu","re"]);
 const personPrefixes=["ce","pa","ta","tu","i","a","u","e"];
@@ -239,6 +246,7 @@ function segmentationExplanation(token){
   const word=(token.whole||"").toLocaleLowerCase("pt-BR");
   const akoForms={inago:"in + ago → i(n) + ako",inagore:"in + ago + re → i(n) + ako + re",inagokare:"in + ago + ka + re → i(n) + ako + ka + re",cenagore:"cen + ago + re → ce(n) + ako + re",egore:"e + go + re → e + ako + re",ego:"e + go → e + ako"};
   if(akoForms[word])return "Alternância morfofonológica: "+akoForms[word]+". Lema verbal: ako. "+(lemma!==base?"Alomorfe "+base+" → "+lemma+". ":"");
+  if(confirmedMorphology[word] && word.endsWith("mago"))return "Alternância morfofonológica: "+word+" → "+confirmedMorphology[word]+". Lema verbal: mako. "+(base==="mago"?"Alomorfe mago → mako. ":"");
   if(lemma!==base)return "Alomorfe "+base+"; lema "+lemma+". ";
   return "";
 }
