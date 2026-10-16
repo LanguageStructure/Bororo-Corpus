@@ -236,7 +236,11 @@ async function loadCorpusForms(){
 function segmentationExplanation(token){
   const base=token.form.toLocaleLowerCase("pt-BR");
   const lemma=lemmaOfSurface(base);
-  return lemma!==base?"Alomorfe "+base+"; lema "+lemma+". ":"";
+  if(lemma!==base)return "Alomorfe "+base+"; lema "+lemma+". ";
+  const word=(token.whole||"").toLocaleLowerCase("pt-BR");
+  const akoForms={inago:"in + ago → i(n) + ako",inagore:"in + ago + re → i(n) + ako + re",inagokare:"in + ago + ka + re → i(n) + ako + ka + re",cenagore:"cen + ago + re → ce(n) + ako + re",egore:"e + go + re → e + ako + re",ego:"e + go → e + ako"};
+  if(akoForms[word])return "Alternância morfofonológica: "+akoForms[word]+". Lema verbal: ako. ";
+  return "";
 }
 function corpusInfo(form){
   if(trainedLexicon?.has(form.toLocaleLowerCase("pt-BR"))){
