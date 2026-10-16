@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""Conservative Bororo morphology v2: attested lexicon + explicit rules.
+
+This module does NOT infer gold morpheme boundaries from CoNLL-U columns.
+It emits confirmed analyses for a small curated inventory and proposed
+analyses only when the surface stem is supported by corpus lemma evidence.
+"""
+from __future__ import annotations
+from collections import Counter, defaultdict
+from pathlib import Path
+import argparse, json
+
+CONFIRMED = {
+    "ure": ("u","re"), "ire": ("i","re"), "are": ("a","re"),
+    "cere": ("ce","re"), "pare": ("pa","re"), "tare": ("ta","re"),
+    "ere": ("e","re"), "nure": ("nu","re"),
+    "imode": ("i","modu","re"), "iere": ("i","ie","re"),
+    "iorudukare": ("i","jorudu","ka","re"),
+    "iorudumodukare": ("i","jorudu","modu","ka","re"),
+    "akore": ("ako","re"), "kururogu": ("kuru","rogu"),
+    "imago": ("i","mago"), "amago": ("a","mago"),
+    "pamago": ("pa","mago"), "cemago": ("ce","mago"),
+    "tamago": ("ta","mago"), "emago": ("e","mago"),
+    "tumago": ("tu","mago"), "iwiapagare": ("i","wiapaga","re"),
+}
+PREFIXES = ("ce","pa","ta","tu","et","i","a","u","e")
+ENDINGS = (
+    ("modu","ka","re"), ("modu","re"), ("modu","ka","wo"),
+    ("ka","re"), ("ka","wo"), ("iagu",), ("ie",),
+    ("wo",), ("ia",), ("re",), ("rogu",),
+)
+BLOCKED = {"tabiapagado","ibiapagare"}
+PROTECTED = {"mode","modure"}
+
+def corpus_lexicon(path):
+    forms, lemmas, families = Counter(), Counter(), defaultdict(Counter)
+    for line in path.open(encoding="utf-8-sig"):
+        if not line or line.startswith("#"): continue
+        cols=line.rstrip("\n").split("\t")
+        if len(cols)!=10 or not cols[0].isdigit(): continue
+        form, lemma=cols[1].casefold(),cols[2].casefold()
+        if form=="_": continue
+        forms[form]+=1
+        if lemma!="_":
+            lemmas[lemma]+=1
+            families[lemma][form]+=1
+    return forms,lemmas,families
+
+def analyse(word, forms, lemmas, families):
+    w=word.casefold()
+    if w in BLOCKED: return {"form":word,"segments":[word],"status":"blocked"}
+    if w in CONFIRMED:
+        return {"form":word,"segments":list(CONFIRMED[w]),"status":"confirmed"}
+    if w in PROTECTED: return {"form":word,"segments":[word],"status":"unanalysed"}
+    # Requiring independent lemma evidence prevents arbitrary substring splits.
+    # A proposal is NOT a linguistically verified morpheme segmentation.
+    options=[]
+    for ending in ENDINGS:
+        tail="".join(ending)
+        if not w.endswith(tail) or len(w)<=len(tail)+1: continue
+        stem=w[:-len(tail)]
+        for prefix in ("",*PREFIXES):
+            if prefix and not stem.startswith(prefix): continue
+            base=stem[len(prefix):]
+            if len(base)<3 or base not in lemmas: continue
+            if not (forms[base] or families[base].get(w)): continue
+            # Productive prefix evidence is weaker than confirmed analysis.
+            parts=([prefix] if prefix else [])+[base]+list(ending)
+            if "".join(parts)!=w: continue
+            support=forms[base]+families[base].get(w,0)
+            options.append((support,len(parts),parts,base))
+    if options:
+        options.sort(key=lambda x:(-x[0],x[1],x[2]))
+        support,_,parts,lemma=options[0]
+        return {"form":word,"segments":parts,"status":"proposed",
+                "lemma":lemma,"support":support}
+    return {"form":word,"segments":[word],"status":"unanalysed"}
+
+def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--corpus",default="CorBo/Corpus_Files/CorBo.conllu")
+    ap.add_argument("--output",default="docs/data/tokenizer-v2.json")
+    args=ap.parse_args()
+    forms,lemmas,families=corpus_lexicon(Path(args.corpus))
+    records={form:analyse(form,forms,lemmas,families) for form in sorted(forms)}
+    counts=Counter(record["status"] for record in records.values())
+    result={"schema":"corbo-tokenizer-v2/v1",
+            "description":"Conservative analyses; proposed does not mean verified",
+            "source":args.corpus,"types":len(forms),
+            "tokens":sum(forms.values()),"status_counts":dict(counts),
+            "analyses":records}
+    target=Path(args.output);target.parent.mkdir(parents=True,exist_ok=True)
+    target.write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    print(f"{len(forms)} types; {sum(forms.values())} tokens; {dict(counts)} -> {target}")
+
+if __name__=="__main__":main()
