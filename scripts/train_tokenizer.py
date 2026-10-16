@@ -155,6 +155,28 @@ def train(rows):
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
             candidates[form] = {"segments": options[0][1], "support": options[0][0], "status": "proposed"}
+    # Linguistically confirmed segmentations, applied only to attested forms.
+    # These are deliberately separate from distributional proposals. They do
+    # not authorize splitting other words with similar character sequences.
+    confirmed = {
+        "ure": ["u", "re"], "ire": ["i", "re"],
+        "are": ["a", "re"], "cere": ["ce", "re"],
+        "pare": ["pa", "re"], "tare": ["ta", "re"],
+        "ere": ["e", "re"], "imode": ["i", "modu", "re"],
+        "nure": ["nu", "re"],
+        "iorudukare": ["i", "jorudu", "ka", "re"],
+        "itonaregedu": ["i", "tonarege", "du"],
+    }
+    for surface, segments in confirmed.items():
+        if surface in forms:
+            candidates[surface] = {
+                "segments": segments, "support": forms[surface],
+                "status": "linguistically_confirmed",
+                "evidence": "explicit_confirmed_analysis",
+            }
+    # Do not create or license unattested forms from an apparent paradigm.
+    for nonexistent in ("tabiapagado", "ibiapagare"):
+        candidates.pop(nonexistent, None)
     # Attach independent cross-lemma support to each proposed segmentation.
     # A pattern's distributional grade is not linguistic validation.
     pattern_index = {
