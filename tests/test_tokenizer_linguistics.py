@@ -33,8 +33,9 @@ class AlignmentTests(unittest.TestCase):
         for form,expected in cases.items():
             with self.subTest(form=form):
                 self.assertEqual(self.extract.align(form,"ako"),expected)
-    def test_no_unconfirmed_ego_allomorph(self):
-        self.assertNotEqual(self.extract.align("egore","ako")[3],"curated_allomorph")
+    def test_confirmed_ego_allomorph(self):
+        self.assertEqual(self.extract.align("egore","ako"),("e","go","re","curated_allomorph"))
+        self.assertEqual(self.extract.align("ego","ako"),("e","go","","curated_allomorph"))
     def test_ako_exact_stem(self):
         self.assertEqual(self.extract.align("akore","ako"),("","ako","re","exact_base"))
     def test_no_suffix_je(self):
