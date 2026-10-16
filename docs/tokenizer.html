@@ -61,6 +61,8 @@ const corpusVerbBases=new Set();
 const trainedCandidates=new Map();
 const trainedCandidateEvidence=new Map();
 let trainedLexicon=null;
+let v2Analyses=new Map();
+async function loadV2(){try{const r=await fetch("data/tokenizer-v2.json",{cache:"no-cache"});if(!r.ok)throw Error("HTTP "+r.status);const data=await r.json();if(data.schema!=="corbo-tokenizer-v2/v1")throw Error("schema");v2Analyses=new Map(Object.entries(data.analyses||{}));render();}catch(e){console.warn("Tokenizador v2 indisponível:",e);}}
 let grammaticalLexicon=null;
 async function loadGrammaticalIndex(){try{const r=await fetch('data/grammatical-index.json',{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.schema!=='corbo-grammatical-index/v1')throw Error('schema');grammaticalLexicon=new Map(Object.entries(d.lexicon||{}));render();}catch(e){console.warn('Índice gramatical indisponível:',e);}}
 function grammaticalInfo(form){const e=grammaticalLexicon?.get(form.toLocaleLowerCase('pt-BR'));if(!e)return '';return ' Análises documentadas (não validam segmentação): '+(e.analyses||[]).slice(0,5).map(a=>[a.lemma?'lema '+a.lemma:'lema não anotado',a.upos||'UPOS não anotado',a.feats?'FEATS '+a.feats+(a.feats_well_formed?'':' [revisar formato]'):'',a.frequency+' ocorrência(s)',a.sent_ids?.length?'sent_id '+a.sent_ids.join(', '):''].filter(Boolean).join(' · ')).join(' | ');}
@@ -124,6 +126,23 @@ function productiveParts(word){
   return null;
 }
 function splitKnownForm(t){
+  const v2=v2Analyses.get(t.form.toLocaleLowerCase("pt-BR"));
+  if(v2 && (v2.status==="confirmed"||v2.status==="proposed") && Array.isArray(v2.segments)){
+    const morphological=v2.segments;
+    const raw=morphological.join("");
+    let surfaces=morphological;
+    if(raw!==t.form.toLocaleLowerCase("pt-BR")){
+      // Non-concatenative surface correspondences must be explicit.
+      const special={inago:["in","ago"],inagore:["in","ago","re"],inagokare:["in","ago","ka","re"],cenagore:["cen","ago","re"],imode:["i","mode"],umode:["u","mode"],amode:["a","mode"],emode:["e","mode"]};
+      surfaces=special[t.form.toLocaleLowerCase("pt-BR")];
+      if(!surfaces)return [{...t,status:"unanalysed"}];
+    }
+    if(surfaces.join("")===t.form.toLocaleLowerCase("pt-BR")){
+      let at=t.start;
+      return surfaces.map(part=>{const token={form:t.form.slice(at-t.start,at-t.start+part.length),start:at,end:at+part.length,whole:t.form,status:v2.status,analysis:morphological.join(" + "),lemma:v2.lemma||""};at+=part.length;return token;});
+    }
+  }
+
   const lower=t.form.toLocaleLowerCase("pt-BR");
   if(knownSimpleUnits.has(lower))return [{...t,status:"confirmed"}];
   let parts=knownSegments[lower] || grammaticalParts(t.form) || trainedCandidates.get(lower) || productiveParts(t.form);
@@ -288,7 +307,7 @@ function trainedEvidence(form){
     (patterns?"; padrões: "+patterns:"")+
     ". Não equivale a validação linguística.";
 }
-function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+trainedEvidence(m.whole||m.form)+analysis(m.form)+' '+grammaticalInfo(m.whole||m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
+function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+(m.analysis?' Análise morfológica: '+m.analysis+'. ':'')+trainedEvidence(m.whole||m.form)+analysis(m.form)+' '+grammaticalInfo(m.whole||m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
 const auditButton=document.createElement("button");
 auditButton.type="button";auditButton.textContent="Auditar texto";
 auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
@@ -296,5 +315,5 @@ document.getElementById("copy").insertAdjacentElement("beforebegin",auditButton)
 auditButton.addEventListener("click",showAudit);
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
-runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex();loadV2();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 </script></body></html>
