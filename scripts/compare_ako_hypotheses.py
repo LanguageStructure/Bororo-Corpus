@@ -15,8 +15,8 @@ HYPOTHESES={
  "inagoi":[("i(n)+ago+i","prefix_confirmed_suffix_requires_review")],
  "cenagore":[("ce(n)+ago+re","confirmed_prefix_allomorph")],
  "inagorire":[("i(n)+ago+ri+re","prefix_confirmed_suffix_requires_review")],
- "egore":[("e+go+re","go_allomorph"),("ego+re","ego_allomorph")],
- "ego":[("e+go","go_allomorph"),("ego","ego_allomorph")],
+ "egore":[("e+go+re","confirmed_prefix_and_base")],
+ "ego":[("e+go","confirmed_prefix_and_base")],
  "akore":[("ako+re","attested_base_plus_indicative")],
  "ako":[("ako","unsegmented_base")],
  "akomode":[("ako+modu+re","irrealis_plus_indicative_candidate")],
@@ -47,7 +47,7 @@ def main():
    options=HYPOTHESES.get(form,[("","no_hypothesis")])
    for candidate,hypothesis in options:
     w.writerow([form,upos,feats,n,candidate,hypothesis,
-                "confirmed_by_linguist" if hypothesis=="confirmed_prefix_allomorph" else "review_required" if len(options)>1 or not candidate or "requires_review" in hypothesis or "candidate" in hypothesis else "documented_candidate",
+                "confirmed_by_linguist" if hypothesis in ("confirmed_prefix_allomorph","confirmed_prefix_and_base") else "review_required" if len(options)>1 or not candidate or "requires_review" in hypothesis or "candidate" in hypothesis else "documented_candidate",
                 ",".join(sids[(form,upos,feats)])])
  print(f"{len(counts)} annotated combinations; {sum(counts.values())} tokens -> {out}")
  print("Competing segmentations are hypotheses only. No corpus files modified.")
