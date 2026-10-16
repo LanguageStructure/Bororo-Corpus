@@ -19,6 +19,15 @@ def rows(path):
                 yield c[1].casefold(),c[2].casefold(),c[3],c[5]
 
 def align(form,lemma):
+    # Linguist-confirmed: the nasal belongs to the person prefix,
+    # while ago is the surface stem corresponding to lemma ako.
+    if lemma=="ako":
+        for form_prefix,analysis_prefix in (("cen","ce(n)"),("in","i(n)")):
+            if form.startswith(form_prefix+"ago"):
+                tail=form[len(form_prefix+"ago"):]
+                if tail in ("","re","kare"):
+                    return analysis_prefix,"ago",tail,"curated_allomorph"
+
     """Surface alignment hypothesis, not morpheme analysis."""
     candidates=[]
     for prefix in ("",*PREFIXES):
