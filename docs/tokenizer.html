@@ -142,7 +142,8 @@ function productiveParts(word){
 }
 function splitKnownForm(t){
   const v2=v2Analyses.get(t.form.toLocaleLowerCase("pt-BR"));
-  if(v2 && (v2.status==="confirmed"||v2.status==="proposed") && Array.isArray(v2.segments)){
+  // Curated browser analyses take precedence over statistical proposals.
+  if(v2 && (v2.status==="confirmed" || (v2.status==="proposed" && !knownSegments[t.form.toLocaleLowerCase("pt-BR")])) && Array.isArray(v2.segments)){
     const morphological=v2.segments;
     const raw=morphological.join("");
     let surfaces=morphological;
