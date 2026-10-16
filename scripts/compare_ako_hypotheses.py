@@ -9,12 +9,12 @@ from collections import Counter,defaultdict
 from pathlib import Path
 
 HYPOTHESES={
- "inagore":[("i+n+ago+re","epenthetic_n_plus_ago"),("i+nago+re","nago_allomorph")],
- "inago":[("i+n+ago","epenthetic_n_plus_ago"),("i+nago","nago_allomorph")],
- "inagokare":[("i+n+ago+ka+re","epenthetic_n_plus_ago"),("i+nago+ka+re","nago_allomorph")],
- "inagoi":[("i+n+ago+i","epenthetic_n_plus_ago_gerund_candidate"),("i+nago+i","nago_allomorph_gerund_candidate")],
- "cenagore":[("ce+n+ago+re","epenthetic_n_plus_ago"),("ce+nago+re","nago_allomorph")],
- "inagorire":[("i+n+ago+ri+re","epenthetic_n_plus_ago_ri_candidate"),("i+nago+ri+re","nago_allomorph_ri_candidate")],
+ "inagore":[("i(n)+ago+re","confirmed_prefix_allomorph")],
+ "inago":[("i(n)+ago","confirmed_prefix_allomorph")],
+ "inagokare":[("i(n)+ago+ka+re","confirmed_prefix_allomorph")],
+ "inagoi":[("i(n)+ago+i","prefix_confirmed_suffix_requires_review")],
+ "cenagore":[("ce(n)+ago+re","confirmed_prefix_allomorph")],
+ "inagorire":[("i(n)+ago+ri+re","prefix_confirmed_suffix_requires_review")],
  "egore":[("e+go+re","go_allomorph"),("ego+re","ego_allomorph")],
  "ego":[("e+go","go_allomorph"),("ego","ego_allomorph")],
  "akore":[("ako+re","attested_base_plus_indicative")],
@@ -47,7 +47,7 @@ def main():
    options=HYPOTHESES.get(form,[("","no_hypothesis")])
    for candidate,hypothesis in options:
     w.writerow([form,upos,feats,n,candidate,hypothesis,
-                "review_required" if len(options)>1 or not candidate or "candidate" in hypothesis else "documented_candidate",
+                "confirmed_by_linguist" if hypothesis=="confirmed_prefix_allomorph" else "review_required" if len(options)>1 or not candidate or "requires_review" in hypothesis or "candidate" in hypothesis else "documented_candidate",
                 ",".join(sids[(form,upos,feats)])])
  print(f"{len(counts)} annotated combinations; {sum(counts.values())} tokens -> {out}")
  print("Competing segmentations are hypotheses only. No corpus files modified.")
