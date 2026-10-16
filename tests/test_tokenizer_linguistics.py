@@ -57,6 +57,32 @@ class AlignmentTests(unittest.TestCase):
     def test_personal_alignment_not_generalized(self):
         self.assertNotEqual(self.extract.align("ikare","ako")[3],"curated_allomorph")
         self.assertNotEqual(self.extract.align("ureje","u")[3],"curated_allomorph")
+    def test_v2_confirmed_analyses(self):
+        v2=load("build_tokenizer_v2",Path("scripts/build_tokenizer_v2.py"))
+        forms,lemmas,families={}, {}, {}
+        cases={
+            "ure":["u","re"],"ire":["i","re"],"are":["a","re"],
+            "ere":["e","re"],"ikare":["i","ka","re"],
+            "imode":["i","modu","re"],
+            "imodukare":["i","modu","ka","re"],
+            "inure":["i","nu","re"],
+            "inagore":["i(n)","ago","re"],
+            "cenagore":["ce(n)","ago","re"],
+            "egore":["e","go","re"],
+            "akore":["ako","re"],
+        }
+        for word,segments in cases.items():
+            with self.subTest(word=word):
+                result=v2.analyse(word,forms,lemmas,families)
+                self.assertEqual(result["status"],"confirmed")
+                self.assertEqual(result["segments"],segments)
+    def test_v2_protected_and_blocked(self):
+        v2=load("build_tokenizer_v2",Path("scripts/build_tokenizer_v2.py"))
+        for word in ("tabiapagado","ibiapagare"):
+            with self.subTest(word=word):
+                self.assertEqual(v2.analyse(word,{}, {}, {})["status"],"blocked")
+        self.assertEqual(v2.analyse("mago",{}, {}, {})["status"],"unanalysed")
+        self.assertNotEqual(v2.analyse("agore",{}, {}, {})["status"],"confirmed")
     def test_no_suffix_je(self):
         self.assertEqual(self.extract.align("boeje","boe"),("","boeje","","unresolved"))
 
