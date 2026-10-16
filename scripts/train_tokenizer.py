@@ -165,7 +165,7 @@ def train(rows):
         "ere": ["e", "re"], "imode": ["i", "modu", "re"],
         "nure": ["nu", "re"],
         "iorudukare": ["i", "jorudu", "ka", "re"],
-        "itonaregedu": ["i", "tonarege", "du"],
+        "itonaregedu": ["it", "onarege", "du"],
     }
     for surface, segments in confirmed.items():
         if surface in forms:
