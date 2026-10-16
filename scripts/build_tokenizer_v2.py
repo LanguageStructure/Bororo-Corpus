@@ -50,6 +50,16 @@ def corpus_lexicon(path):
 def analyse(word, forms, lemmas, families):
     w=word.casefold()
     if w in BLOCKED: return {"form":word,"segments":[word],"status":"blocked"}
+    # The mako paradigm is a closed, linguistically verified alternation.
+    # Do not infer unattested combinations by applying k -> g globally.
+    mako_prefixes = ("i", "a", "pa", "ce", "ta", "e", "tu")
+    if w == "mako":
+        return {"form":word,"segments":[word],"status":"confirmed","lemma":"mako"}
+    for person in mako_prefixes:
+        if w == person + "mago":
+            return {"form":word,"segments":[person,"mago"],
+                    "status":"confirmed","lemma":"mako",
+                    "rule":"mako: bound mago after personal prefix"}
     if w in CONFIRMED:
         return {"form":word,"segments":list(CONFIRMED[w]),"status":"confirmed"}
     if w in PROTECTED or w=="mago": return {"form":word,"segments":[word],"status":"unanalysed"}
