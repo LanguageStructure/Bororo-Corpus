@@ -66,6 +66,8 @@ def analyse(word, forms, lemmas, families):
             if len(base)<3: continue
             # mago is a bound allomorph: only after a personal prefix.
             if base=="mago" and not prefix: continue
+            # Bound allomorph must not be licensed by a bare surface form.
+            if base=="mago" and prefix not in ("i","a","pa","ce","ta","e","tu"): continue
             lexical_lemma=ALLOMORPHS.get(base,base)
             if lexical_lemma not in lemmas: continue
             if not (forms[base] or families[lexical_lemma].get(w)): continue
