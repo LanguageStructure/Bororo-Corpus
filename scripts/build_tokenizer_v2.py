@@ -29,6 +29,7 @@ ENDINGS = (
     ("ka","re"), ("ka","wo"), ("iagu",), ("ie",),
     ("wo",), ("ia",), ("re",), ("rogu",),
 )
+ALLOMORPHS = {"mago": "mako", "wiapaga": "biapaga"}
 BLOCKED = {"tabiapagado","ibiapagare"}
 PROTECTED = {"mode","modure"}
 
@@ -51,7 +52,7 @@ def analyse(word, forms, lemmas, families):
     if w in BLOCKED: return {"form":word,"segments":[word],"status":"blocked"}
     if w in CONFIRMED:
         return {"form":word,"segments":list(CONFIRMED[w]),"status":"confirmed"}
-    if w in PROTECTED: return {"form":word,"segments":[word],"status":"unanalysed"}
+    if w in PROTECTED or w=="mago": return {"form":word,"segments":[word],"status":"unanalysed"}
     # Requiring independent lemma evidence prevents arbitrary substring splits.
     # A proposal is NOT a linguistically verified morpheme segmentation.
     options=[]
@@ -62,13 +63,17 @@ def analyse(word, forms, lemmas, families):
         for prefix in ("",*PREFIXES):
             if prefix and not stem.startswith(prefix): continue
             base=stem[len(prefix):]
-            if len(base)<3 or base not in lemmas: continue
-            if not (forms[base] or families[base].get(w)): continue
+            if len(base)<3: continue
+            # mago is a bound allomorph: only after a personal prefix.
+            if base=="mago" and not prefix: continue
+            lexical_lemma=ALLOMORPHS.get(base,base)
+            if lexical_lemma not in lemmas: continue
+            if not (forms[base] or families[lexical_lemma].get(w)): continue
             # Productive prefix evidence is weaker than confirmed analysis.
             parts=([prefix] if prefix else [])+[base]+list(ending)
             if "".join(parts)!=w: continue
-            support=forms[base]+families[base].get(w,0)
-            options.append((support,len(parts),parts,base))
+            support=forms[base]+families[lexical_lemma].get(w,0)
+            options.append((support,len(parts),parts,lexical_lemma))
     if options:
         options.sort(key=lambda x:(-x[0],x[1],x[2]))
         support,_,parts,lemma=options[0]
