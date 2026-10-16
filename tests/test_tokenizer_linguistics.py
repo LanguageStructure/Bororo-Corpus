@@ -38,6 +38,25 @@ class AlignmentTests(unittest.TestCase):
         self.assertEqual(self.extract.align("ego","ako"),("e","go","","curated_allomorph"))
     def test_ako_exact_stem(self):
         self.assertEqual(self.extract.align("akore","ako"),("","ako","re","exact_base"))
+    def test_personal_marker_paradigm(self):
+        cases={
+            ("ure","u"):"re",("ire","i"):"re",("are","a"):"re",
+            ("ere","e"):"re",("ukare","u"):"ka+re",
+            ("ikare","i"):"ka+re",("ekare","e"):"ka+re",
+            ("umode","u"):"modu+re",("imode","i"):"modu+re",
+            ("amode","a"):"modu+re",
+            ("imodukare","i"):"modu+ka+re",
+            ("emodukare","e"):"modu+ka+re",
+            ("inure","i"):"nu+re",("unure","u"):"nu+re",
+            ("iwo","i"):"wo",("uiagu","u"):"iagu",
+        }
+        for (form,lemma),ending in cases.items():
+            with self.subTest(form=form):
+                self.assertEqual(self.extract.align(form,lemma),
+                                 (lemma,lemma,ending,"curated_allomorph"))
+    def test_personal_alignment_not_generalized(self):
+        self.assertNotEqual(self.extract.align("ikare","ako")[3],"curated_allomorph")
+        self.assertNotEqual(self.extract.align("ureje","u")[3],"curated_allomorph")
     def test_no_suffix_je(self):
         self.assertEqual(self.extract.align("boeje","boe"),("","boeje","","unresolved"))
 
