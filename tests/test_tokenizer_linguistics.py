@@ -27,6 +27,13 @@ class AlignmentTests(unittest.TestCase):
         self.assertNotEqual(self.extract.align("mago","mako")[3],"curated_allomorph")
     def test_ako_is_not_assumed_to_be_ago(self):
         self.assertNotEqual(self.extract.align("inagore","ako")[3],"curated_allomorph")
+    def test_confirmed_nasal_prefix_ako(self):
+        cases={"inago":("i(n)","ago","","curated_allomorph"),"inagore":("i(n)","ago","re","curated_allomorph"),"inagokare":("i(n)","ago","kare","curated_allomorph"),"cenagore":("ce(n)","ago","re","curated_allomorph")}
+        for form,expected in cases.items():
+            with self.subTest(form=form):
+                self.assertEqual(self.extract.align(form,"ako"),expected)
+    def test_no_unconfirmed_ego_allomorph(self):
+        self.assertNotEqual(self.extract.align("egore","ako")[3],"curated_allomorph")
     def test_ako_exact_stem(self):
         self.assertEqual(self.extract.align("akore","ako"),("","ako","re","exact_base"))
     def test_no_suffix_je(self):
