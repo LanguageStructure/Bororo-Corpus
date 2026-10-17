@@ -164,8 +164,6 @@ def train(rows):
         "pare": ["pa", "re"], "tare": ["ta", "re"],
         "ere": ["e", "re"], "imode": ["i", "modu", "re"],
         "nure": ["nu", "re"],
-        "iakore": ["i", "ako", "re"],,
-        "eakore": ["e", "ako", "re"],
         "iere": ["i", "ie", "re"],
         "iorudumodukare": ["i", "jorudu", "modu", "ka", "re"],
         "iorudukare": ["i", "jorudu", "ka", "re"],
@@ -179,7 +177,7 @@ def train(rows):
                 "evidence": "explicit_confirmed_analysis",
             }
     # Do not create or license unattested forms from an apparent paradigm.
-    for nonexistent in ("tabiapagado", "ibiapagare"):
+    for nonexistent in ("tabiapagado", "ibiapagare", "iakore", "eakore"):
         candidates.pop(nonexistent, None)
     # Attach independent cross-lemma support to each proposed segmentation.
     # A pattern's distributional grade is not linguistic validation.
