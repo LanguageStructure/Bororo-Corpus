@@ -101,6 +101,27 @@ def main():
         ])
         writer.writeheader()
         writer.writerows(selected)
+    # Group the shortlist by lemma and cue for an actionable paradigm overview.
+    grouped = {}
+    for row in selected:
+        key = (row["lemma"].casefold(), row["cue"], row["upos"])
+        entry = grouped.setdefault(key, {"tokens": 0, "forms": set(), "sent_ids": set()})
+        entry["tokens"] += 1
+        entry["forms"].add(row["form"].casefold())
+        if row["sent_id"]:
+            entry["sent_ids"].add(row["sent_id"])
+    summary = output.with_name(output.stem + "_paradigm_summary.csv")
+    with summary.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["lemma", "cue", "upos", "tokens", "distinct_forms", "forms", "example_sent_ids"])
+        for (lemma, cue, upos), entry in sorted(grouped.items(),
+                key=lambda pair: (-len(pair[1]["forms"]), -pair[1]["tokens"], pair[0])):
+            writer.writerow([
+                lemma, cue, upos, entry["tokens"], len(entry["forms"]),
+                "; ".join(sorted(entry["forms"])),
+                "; ".join(sorted(entry["sent_ids"])[:5]),
+            ])
+    print(f"{len(grouped)} grupos por lema/proclítico/UPOS → {summary}")
     print(f"{len(selected)} ocorrências na lista por famílias de lemas → {shortlist}")
     print("A lista reduzida não é uma validação linguística.")
     counts = Counter(row["status"] for row in rows)
