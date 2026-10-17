@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "docs/data/tokenizer-model.json"
 PREFIXES = ("ce", "pa", "ta", "tu", "i", "a", "u", "e")
-SUFFIXES = ("modukare", "modure", "re", "do")
+SUFFIXES = ("modukare", "modure", "kare", "re", "do")
 MIN_SUPPORT = 3
 # Linguistic safeguards: frequent strings are not automatically morphemes.
 REJECTED_SUFFIXES = {"je"}  # -je is not a suffix in Bororo.
@@ -149,7 +149,7 @@ def train(rows):
                         continue
                     pieces = ([prefix] if prefix else []) + [lemma]
                     if suffix:
-                        pieces += ["modu", "ka", "re"] if suffix == "modukare" else ["modu", "re"] if suffix == "modure" else [suffix]
+                        pieces += ["modu", "ka", "re"] if suffix == "modukare" else ["modu", "re"] if suffix == "modure" else ["ka", "re"] if suffix == "kare" else [suffix]
                     options.append((support, pieces))
         options = [(support, parts) for support, parts in options if support >= MIN_SUPPORT]
         if options:
@@ -197,7 +197,7 @@ def train(rows):
                     matched.append(p)
                 break
         for ending in SUFFIXES:
-            suffix_parts = ["modu", "ka", "re"] if ending == "modukare" else ["modu", "re"] if ending == "modure" else [ending]
+            suffix_parts = ["modu", "ka", "re"] if ending == "modukare" else ["modu", "re"] if ending == "modure" else ["ka", "re"] if ending == "kare" else [ending]
             if parts[-len(suffix_parts):] == suffix_parts:
                 p = pattern_index.get(("suffix", ending))
                 if p:
@@ -221,8 +221,8 @@ def train(rows):
     suffix_evidence = defaultdict(lambda: {"types": 0, "tokens": 0, "examples": []})
     for form, item in candidates.items():
         parts = item["segments"]
-        for ending in ("re", "do", "modure", "modukare"):
-            suffix_parts = {"re": ["re"], "do": ["do"], "modure": ["modu", "re"], "modukare": ["modu", "ka", "re"]}[ending]
+        for ending in ("re", "do", "kare", "modure", "modukare"):
+            suffix_parts = {"re": ["re"], "do": ["do"], "kare": ["ka", "re"], "modure": ["modu", "re"], "modukare": ["modu", "ka", "re"]}[ending]
             if parts[-len(suffix_parts):] == suffix_parts:
                 record = suffix_evidence[ending]
                 record["types"] += 1
