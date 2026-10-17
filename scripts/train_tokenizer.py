@@ -176,6 +176,19 @@ def train(rows):
                 "status": "linguistically_confirmed",
                 "evidence": "explicit_confirmed_analysis",
             }
+    # A nasal onset in i(n)- and the t onset before vowel-initial bases
+    # require lexical confirmation; never infer them from spelling alone.
+    # Keep explicitly reviewed forms separate from productive proposals.
+    confirmed_onset_alternations = {
+        "itonaregedu": ["it", "onarege", "du"],
+    }
+    for surface, segments in confirmed_onset_alternations.items():
+        if surface in forms:
+            candidates[surface] = {
+                "segments": segments, "support": forms[surface],
+                "status": "linguistically_confirmed",
+                "evidence": "reviewed_onset_alternation",
+            }
     # Do not create or license unattested forms from an apparent paradigm.
     for nonexistent in ("tabiapagado", "ibiapagare", "iakore", "eakore"):
         candidates.pop(nonexistent, None)
