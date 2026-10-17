@@ -164,6 +164,10 @@ def train(rows):
         "pare": ["pa", "re"], "tare": ["ta", "re"],
         "ere": ["e", "re"], "imode": ["i", "modu", "re"],
         "nure": ["nu", "re"],
+        "iakore": ["i", "ako", "re"],,
+        "eakore": ["e", "ako", "re"],
+        "iere": ["i", "ie", "re"],
+        "iorudumodukare": ["i", "jorudu", "modu", "ka", "re"],
         "iorudukare": ["i", "jorudu", "ka", "re"],
         "itonaregedu": ["it", "onarege", "du"],
     }
