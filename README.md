@@ -1,7 +1,8 @@
-# CorBo — Corpus da Língua Bororo (v0.8.0)
+# CorBo — Corpus da Língua Bororo (v0.9.0)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
-> **DOI:** https://doi.org/10.5281/zenodo.23187959
+> **DOI:** https://doi.org/10.5281/zenodo.23441622  
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441622.svg)](https://doi.org/10.5281/zenodo.23441622)
 
 O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais para pesquisa, documentação, ensino e desenvolvimento de tecnologia linguística.
 
