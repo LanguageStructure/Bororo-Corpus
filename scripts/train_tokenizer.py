@@ -169,6 +169,15 @@ def train(rows):
         "iorudukare": ["i", "jorudu", "ka", "re"],
         "itonaregedu": ["it", "onarege", "du"],
     }
+    # Reviewed mako paradigm: the orthographic g is retained in the
+    # stem allomorph mago; do not infer a general k~g rewrite rule.
+    confirmed_mako = {
+        "imago": ["i", "mago"], "amago": ["a", "mago"],
+        "pamago": ["pa", "mago"], "cemago": ["ce", "mago"],
+        "tamago": ["ta", "mago"], "emago": ["e", "mago"],
+        "tumago": ["tu", "mago"],
+    }
+    confirmed.update(confirmed_mako)
     for surface, segments in confirmed.items():
         if surface in forms:
             candidates[surface] = {
