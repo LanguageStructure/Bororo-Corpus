@@ -16,7 +16,11 @@ async function load(){if(!q){kwicStatus.textContent='Especifique uma forma na UR
     const profile=document.getElementById('morphProfile');
     profile.hidden=false;
     const status=record.status==='confirmed'?'confirmada':record.status==='proposed'?'proposta':'não analisada';
-    profile.innerHTML='<b>Análise morfológica · tokenizador v2</b><p><b>Segmentação superficial:</b> '+esc(surface.join(' + '))+'</p><p><b>Análise lematizada:</b> '+esc(lemmatized.join(' + '))+'</p>'+(record.lemma?'<p><b>Lema lexical:</b> '+esc(record.lemma)+'</p>':'')+'<p class="muted">Classificação: '+esc(status)+'. A análise do tokenizador não substitui a anotação CoNLL-U.</p>';
+    // Related forms are taken from the same explicit lemma field, not guessed
+    // from shared substrings or from productive segmentation proposals.
+    const lemma=record.lemma||({imago:'mako',amago:'mako',pamago:'mako',cemago:'mako',tamago:'mako',emago:'mako',tumago:'mako',iwai:'bai'}[norm(q)]||'');
+    const related=lemma?Object.entries(data.analyses||{}).filter(([form,item])=>form!==norm(q)&&item.lemma===lemma&&item.status==='confirmed').map(([form])=>form).sort((a,b)=>a.localeCompare(b,'pt-BR')).slice(0,60):[];
+    profile.innerHTML='<b>Análise morfológica · tokenizador v2</b><p><b>Segmentação superficial:</b> '+esc(surface.join(' + '))+'</p><p><b>Análise lematizada:</b> '+esc(lemmatized.join(' + '))+'</p>'+(lemma?'<p><b>Lema lexical:</b> '+esc(lemma)+'</p>':'')+(related.length?'<p><b>Outras formas confirmadas do mesmo lema:</b> '+related.map(form=>'<a href="word.html?form='+encodeURIComponent(form)+'">'+esc(form)+'</a>').join(' · ')+'</p>':'')+'<p class="muted">Classificação: '+esc(status)+'. As relações acima são limitadas às análises confirmadas do modelo. A análise do tokenizador não substitui a anotação CoNLL-U.</p>';
   }catch(e){console.warn('Perfil morfológico indisponível',e)}
 }
 load();loadMorph();loadTokenizerProfile();more.onclick=renderMore;document.querySelectorAll('[data-window]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-window]').forEach(x=>x.classList.toggle('active',x===b));renderCollocations(Number(b.dataset.window))});document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.p).classList.add('active')});</script></body></html>
