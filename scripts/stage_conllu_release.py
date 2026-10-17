@@ -28,9 +28,27 @@ def audit(path):
     tokens = 0
     bad = []
     ids = Counter()
+    blocks = 0
+    blocks_without_id = 0
+    blocks_with_multiple_ids = 0
+    block_id_count = 0
+    has_content = False
+    def finish_block():
+        nonlocal blocks, blocks_without_id, blocks_with_multiple_ids, block_id_count, has_content
+        if has_content:
+            blocks += 1
+            blocks_without_id += block_id_count == 0
+            blocks_with_multiple_ids += block_id_count > 1
+        block_id_count = 0
+        has_content = False
     with path.open(encoding="utf-8-sig") as stream:
         for number, line in enumerate(stream, 1):
+            if not line.strip():
+                finish_block()
+                continue
+            has_content = True
             if line.startswith("# sent_id ="):
+                block_id_count += 1
                 ids[line.split("=", 1)[1].strip()] += 1
             elif line.strip() and not line.startswith("#"):
                 cols = line.rstrip("\r\n").split("\t")
@@ -38,8 +56,12 @@ def audit(path):
                     bad.append(number)
                 else:
                     tokens += 1
+    finish_block()
     return {
         "tokens": tokens,
+        "blocks": blocks,
+        "blocks_without_sent_id": blocks_without_id,
+        "blocks_with_multiple_sent_ids": blocks_with_multiple_ids,
         "sent_id_occurrences": sum(ids.values()),
         "duplicate_sent_ids": [key for key, count in ids.items() if count > 1],
         "invalid_token_lines": bad,
@@ -57,6 +79,8 @@ def main():
         parser.error("Arquivo CoNLL-U não encontrado")
     result = audit(source)
     print(json.dumps(result, ensure_ascii=False, indent=2))
+    if result["blocks_without_sent_id"] or result["blocks_with_multiple_sent_ids"]:
+        print("AVISO: blocos sem sent_id ou com múltiplos sent_id; preservar para revisão manual.", file=sys.stderr)
     if result["invalid_token_lines"]:
         raise SystemExit("Abortado: linhas de tokens sem 10 colunas")
     if result["duplicate_sent_ids"] and not args.allow_duplicate_ids:
