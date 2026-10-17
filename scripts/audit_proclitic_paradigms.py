@@ -121,6 +121,35 @@ def main():
                 "; ".join(sorted(entry["forms"])),
                 "; ".join(sorted(entry["sent_ids"])[:5]),
             ])
+    # Verb-only shortlist: require distinct attested surface forms and
+    # independently attested lemma; these are NOT validated person paradigms.
+    verb_groups = {}
+    for row in selected:
+        if row["upos"] != "VERB" or row["status"] != "surface_candidate_not_validated":
+            continue
+        lemma = row["lemma"].casefold()
+        key = lemma
+        record = verb_groups.setdefault(key, {"forms": set(), "cues": set(), "tokens": 0, "sent_ids": set()})
+        record["forms"].add(row["form"].casefold())
+        record["cues"].add(row["cue"])
+        record["tokens"] += 1
+        if row["sent_id"]:
+            record["sent_ids"].add(row["sent_id"])
+    verb_summary = output.with_name(output.stem + "_verb_review.csv")
+    with verb_summary.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["lemma", "tokens", "distinct_forms", "surface_cues", "forms", "example_sent_ids", "status"])
+        for lemma, entry in sorted(verb_groups.items(),
+                key=lambda pair: (-len(pair[1]["forms"]), -len(pair[1]["cues"]), -pair[1]["tokens"], pair[0])):
+            if len(entry["forms"]) < 2:
+                continue
+            writer.writerow([
+                lemma, entry["tokens"], len(entry["forms"]),
+                "; ".join(sorted(entry["cues"])), "; ".join(sorted(entry["forms"])),
+                "; ".join(sorted(entry["sent_ids"])[:8]),
+                "review_required_not_person_annotation",
+            ])
+    print(f"Lista verbal para revisão → {verb_summary}")
     print(f"{len(grouped)} grupos por lema/proclítico/UPOS → {summary}")
     print(f"{len(selected)} ocorrências na lista por famílias de lemas → {shortlist}")
     print("A lista reduzida não é uma validação linguística.")
