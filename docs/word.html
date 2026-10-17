@@ -4,7 +4,9 @@ function renderRelations(){if(!q)return;let target=norm(q),lx=(morph?.relacoes_l
 async function loadMorph(){try{let r=await fetch('./data/morphology.json');if(!r.ok)throw Error();morph=await r.json();renderRelations()}catch(e){relStatus.textContent='Não foi possível carregar a camada de relações.'}}
 async function load(){if(!q){kwicStatus.textContent='Especifique uma forma na URL, por exemplo ?form=akore.';return}try{let r=await fetch('./data/corbo-units.json');if(!r.ok)throw Error();let data=await r.json(),target=norm(q);for(const u of data){let ts=tokens(u.b||''),s=sec(u);corpusTokens.push(ts);collectionTokens.set(s,(collectionTokens.get(s)||0)+ts.length);for(let i=0;i<ts.length;i++)if(norm(ts[i])===target){unitsWith.add(u.id);if(!sd.has(s))sd.set(s,{o:0,u:new Set});sd.get(s).o++;sd.get(s).u.add(u.id);hits.push({id:u.id,b:u.b,p:u.p,s,left:ts.slice(Math.max(0,i-7),i).join(' '),hit:ts[i],right:ts.slice(i+1,i+8).join(' ')});if(i>0)add(ng,norm(ts[i-1])+' '+target);if(i+1<ts.length)add(ng,target+' '+norm(ts[i+1]));if(i>0&&i+1<ts.length)add(ng,norm(ts[i-1])+' '+target+' '+norm(ts[i+1]))}}let f=hits.length.toLocaleString('pt-BR'),u=unitsWith.size.toLocaleString('pt-BR');freq.textContent=dfreq.textContent=f;unitCount.textContent=ufreq.textContent=u;kwicStatus.textContent=hits.length?`${f} ocorrência(s) em ${u} unidade(s). Correspondência gráfica exata, sem normalização.`:'Nenhuma ocorrência exata encontrada.';renderMore();renderN();renderDist();renderCollocations(3)}catch(e){kwicStatus.textContent='Não foi possível carregar o índice de unidades.'}}async function loadTokenizerProfile(){
   try{
-    const response=await fetch('./data/tokenizer-v2.json',{cache:'no-cache'});
+    const [response,unitsResponse,morphResponse]=await Promise.all([fetch('./data/tokenizer-v2.json',{cache:'no-cache'}),fetch('./data/corbo-units.json'),fetch('./data/morphology.json')]);
+    if(unitsResponse.ok)window.corboUnitsForParadigm=await unitsResponse.json();
+    if(morphResponse.ok){const m=await morphResponse.json();window.corboAnnotatedForms=new Set((m.relacoes_lexicais||[]).filter(a=>(a.lemmas||[]).length||(a.upos||[]).length).map(a=>norm(a.form)));}
     if(!response.ok)return;
     const data=await response.json();
     const record=data.analyses?.[norm(q)];
@@ -21,12 +23,22 @@ async function load(){if(!q){kwicStatus.textContent='Especifique uma forma na UR
     const lemma=record.lemma||({imago:'mako',amago:'mako',pamago:'mako',cemago:'mako',tamago:'mako',emago:'mako',tumago:'mako',iwai:'bai'}[norm(q)]||'');
     const related=lemma?Object.entries(data.analyses||{}).filter(([form,item])=>form!==norm(q)&&item.lemma===lemma&&item.status==='confirmed').map(([form])=>form).sort((a,b)=>a.localeCompare(b,'pt-BR')).slice(0,60):[];
     if(lemma){
+      // Corpus occurrence counts are loaded independently of the tokenizer model.
+      // They represent exact graphic matches in the published units, not UD annotations.
+      const corpusForms=new Map();
+      for(const unit of (window.corboUnitsForParadigm||[])){
+        for(const form of tokens(unit.b||'')){
+          const key=norm(form);
+          corpusForms.set(key,(corpusForms.get(key)||0)+1);
+        }
+      }
+      const udForms=window.corboAnnotatedForms||new Set();
       const members=Object.entries(data.analyses||{}).filter(([form,item])=>item.lemma===lemma&&item.status==='confirmed').sort((a,b)=>a[0].localeCompare(b[0],'pt-BR'));
       if(members.length>1){
         const table=document.createElement('table');
         table.style.cssText='width:100%;border-collapse:collapse';
         const head=document.createElement('thead');
-        head.innerHTML='<tr><th style="text-align:left">Forma</th><th style="text-align:left">Segmentação do modelo</th><th style="text-align:left">Lema</th></tr>';
+        head.innerHTML='<tr><th style="text-align:left">Forma</th><th style="text-align:left">Segmentação do modelo</th><th style="text-align:left">Lema</th><th style="text-align:right">Corpus</th><th style="text-align:left">CoNLL-U</th></tr>';
         table.appendChild(head);
         const body=document.createElement('tbody');
         for(const [form,item] of members){
@@ -36,6 +48,8 @@ async function load(){if(!q){kwicStatus.textContent='Especifique uma forma na UR
           link.href='word.html?form='+encodeURIComponent(form);link.textContent=form;td.appendChild(link);tr.appendChild(td);
           const seg=document.createElement('td');seg.textContent=(item.segments||[]).join(' + ');tr.appendChild(seg);
           const lem=document.createElement('td');lem.textContent=item.lemma;tr.appendChild(lem);
+          const count=document.createElement('td');count.textContent=corpusForms.has(norm(form))?String(corpusForms.get(norm(form))):'0';count.style.textAlign='right';tr.appendChild(count);
+          const ud=document.createElement('td');ud.textContent=udForms.has(norm(form))?'com anotação':'sem registro no índice';tr.appendChild(ud);
           for(const cell of tr.cells)cell.style.padding='8px 12px 8px 0';
           body.appendChild(tr);
         }
