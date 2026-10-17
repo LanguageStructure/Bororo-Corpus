@@ -73,6 +73,36 @@ def main():
         ])
         writer.writeheader()
         writer.writerows(rows)
+    # A second, much smaller review queue requires an independently attested
+    # lemma and at least two distinct forms in its annotated family.
+    # These are still candidates, not validated morphological boundaries.
+    lemma_forms = {}
+    for row in rows:
+        lemma = row["lemma"].casefold()
+        if lemma and lemma != "_":
+            lemma_forms.setdefault(lemma, set()).add(row["form"].casefold())
+    selected = []
+    for row in rows:
+        lemma = row["lemma"].casefold()
+        form = row["form"].casefold()
+        if row["status"] == "explicit_confirmed_analysis":
+            selected.append(row)
+        elif (row["status"] == "surface_candidate_not_validated"
+              and lemma not in ("", "_") and lemma != form
+              and len(lemma_forms.get(lemma, ())) >= 2
+              and form.startswith(row["cue"])
+              and len(form) > len(row["cue"]) + 2):
+            selected.append(row)
+    shortlist = output.with_name(output.stem + "_lemma_shortlist.csv")
+    with shortlist.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=[
+            "line", "sent_id", "token_id", "form", "lemma", "upos",
+            "feats", "cue", "status", "confirmed_segmentation", "text",
+        ])
+        writer.writeheader()
+        writer.writerows(selected)
+    print(f"{len(selected)} ocorrências na lista por famílias de lemas → {shortlist}")
+    print("A lista reduzida não é uma validação linguística.")
     counts = Counter(row["status"] for row in rows)
     print(f"{len(rows)} ocorrências candidatas → {output}")
     for label, count in sorted(counts.items()):
