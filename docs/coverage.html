@@ -128,6 +128,20 @@ function refreshReview(){const id=inputReview.value.trim();const found=D.find(s=
 inputReview.oninput=refreshReview;refreshReview();
 saveReview.onclick=()=>{const id=inputReview.value.trim();if(!D.some(s=>String(s.sent_id||'')===id))return;if(!reviewStatus.value)delete reviews[id];else reviews[id]={status:reviewStatus.value,note:reviewNote.value.trim(),updated_at:new Date().toISOString()};saveReviews();refreshReview()};
 exportReview.onclick=()=>{const blob=new Blob([JSON.stringify({format:'corbo-human-review-v1',exported_at:new Date().toISOString(),reviews},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='corbo_revisao_humana.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+const importReview=document.createElement('input');importReview.type='file';importReview.accept='.json,application/json';importReview.setAttribute('aria-label','Importar registro de revisão humana');importReview.style.cssText='display:block;margin-top:12px';reviewPanel.appendChild(importReview);
+const importMessage=document.createElement('p');importMessage.className='muted';reviewPanel.appendChild(importMessage);
+importReview.onchange=async()=>{const file=importReview.files&&importReview.files[0];if(!file)return;try{
+ const payload=JSON.parse(await file.text());
+ if(payload.format!=='corbo-human-review-v1'||!payload.reviews||typeof payload.reviews!=='object'||Array.isArray(payload.reviews))throw Error('Formato de registro não reconhecido.');
+ const ids=new Set(D.map(sent=>String(sent.sent_id||'')).filter(Boolean));const accepted={};let ignored=0;
+ for(const [id,record] of Object.entries(payload.reviews)){
+  if(!ids.has(id)||!record||!['revisado','pendente'].includes(record.status)){ignored++;continue}
+  accepted[id]={status:record.status,note:String(record.note||'').slice(0,2000),updated_at:typeof record.updated_at==='string'?record.updated_at:''};
+ }
+ const conflicts=Object.keys(accepted).filter(id=>reviews[id]&&JSON.stringify(reviews[id])!==JSON.stringify(accepted[id])).length;
+ if(!confirm('Importar '+Object.keys(accepted).length+' registros? '+conflicts+' registro(s) local(is) serão substituídos. '+ignored+' entrada(s) serão ignoradas.'))return;
+ reviews={...reviews,...accepted};saveReviews();refreshReview();importMessage.textContent='Importados '+Object.keys(accepted).length+' registros; '+ignored+' ignorados.';
+ }catch(error){importMessage.textContent='Erro na importação: '+error.message}finally{importReview.value=''}};
 const issues=[
  ['IDs de token duplicados',sent=>{const ids=(sent.tokens||[]).map(t=>String(t.id));return new Set(ids).size!==ids.length}],
  ['HEAD não numérico',sent=>(sent.tokens||[]).some(t=>t.head!==null&&t.head!==undefined&&t.head!=='_'&&!Number.isInteger(Number(t.head)))],
