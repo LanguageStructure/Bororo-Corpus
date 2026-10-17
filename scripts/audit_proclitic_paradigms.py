@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+"""Read-only concordance for Bororo person proclitics and onset alternations.
+
+Usage: python3 scripts/audit_proclitic_paradigms.py [input.conllu] [output.csv]
+The output is evidence for manual review, not a morphological analyzer.
+No CoNLL-U data or tokenizer model is modified.
+"""
+import csv
+import sys
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
+OUTPUT = ROOT / "reports/proclitic_paradigms.csv"
+# Surface cues are intentionally broad; every hit requires linguistic review.
+CUES = ("ce", "pa", "ta", "etu", "tu", "i", "a", "u", "e")
+REVIEWED = {
+    "itonaregedu": "it+onarege+du",
+    "iorudukare": "i+jorudu+ka+re",
+    "iorudumodukare": "i+jorudu+modu+ka+re",
+    "nure": "nu+re",
+}
+EXCLUDED = {"iakore", "eakore", "tabiapagado", "ibiapagare"}
+
+
+def main():
+    source = Path(sys.argv[1]) if len(sys.argv) > 1 else SOURCE
+    output = Path(sys.argv[2]) if len(sys.argv) > 2 else OUTPUT
+    if not source.is_file():
+        raise SystemExit(f"Arquivo não encontrado: {source}")
+    rows = []
+    sid, text = "", ""
+    with source.open(encoding="utf-8-sig") as handle:
+        for line_number, raw in enumerate(handle, 1):
+            line = raw.rstrip("\r\n")
+            if not line:
+                sid, text = "", ""
+                continue
+            if line.startswith("# sent_id ="):
+                sid = line.partition("=")[2].strip()
+                continue
+            if line.startswith("# text ="):
+                text = line.partition("=")[2].strip()
+                continue
+            if line.startswith("#"):
+                continue
+            cols = line.split("\t")
+            if len(cols) != 10 or not cols[0].isdigit():
+                continue
+            form = cols[1].casefold()
+            if form in EXCLUDED:
+                cue, status = "excluded", "unexpected_attestation_review"
+            elif form in REVIEWED:
+                cue, status = "reviewed", "explicit_confirmed_analysis"
+            else:
+                cue = next((p for p in CUES if form.startswith(p) and len(form) > len(p) + 2), "")
+                if not cue:
+                    continue
+                status = "surface_candidate_not_validated"
+            rows.append({
+                "line": line_number, "sent_id": sid, "token_id": cols[0],
+                "form": cols[1], "lemma": cols[2], "upos": cols[3],
+                "feats": cols[5], "cue": cue, "status": status,
+                "confirmed_segmentation": REVIEWED.get(form, ""),
+                "text": text,
+            })
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=[
+            "line", "sent_id", "token_id", "form", "lemma", "upos",
+            "feats", "cue", "status", "confirmed_segmentation", "text",
+        ])
+        writer.writeheader()
+        writer.writerows(rows)
+    counts = Counter(row["status"] for row in rows)
+    print(f"{len(rows)} ocorrências candidatas → {output}")
+    for label, count in sorted(counts.items()):
+        print(f"{label}: {count}")
+    print("Aviso: correspondência ortográfica não comprova segmentação.")
+
+
+if __name__ == "__main__":
+    main()
