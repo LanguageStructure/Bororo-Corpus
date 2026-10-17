@@ -36,7 +36,14 @@ def main():
     parser.add_argument("--apply", action="store_true", help="Write versionable TSV (default: dry run)")
     args = parser.parse_args()
 
-    data = json.loads(args.input.read_text(encoding="utf-8-sig"))
+    if not args.input.is_file():
+        parser.error(f"Arquivo JSON não encontrado: {args.input}. Exporte-o em docs/coverage.html → Revisão humana → Exportar registro JSON. Se ainda não há revisões, não é necessário importar.")
+    if not args.conllu.is_file():
+        parser.error(f"Arquivo CoNLL-U não encontrado: {args.conllu}. Informe o caminho correto com --conllu.")
+    try:
+        data = json.loads(args.input.read_text(encoding="utf-8-sig"))
+    except (ValueError, UnicodeError) as exc:
+        parser.error(f"JSON inválido: {exc}")
     if data.get("format") != "corbo-human-review-v1" or not isinstance(data.get("reviews"), dict):
         parser.error("Unsupported review interchange format")
     ids, duplicates = read_ids(args.conllu)
@@ -57,6 +64,9 @@ def main():
     print(f"Accepted: {len(accepted)}; rejected: {len(rejected)}; duplicate CoNLL-U IDs: {len(duplicates)}")
     if rejected:
         print("Rejected IDs:", ", ".join(rejected[:30]))
+    if not accepted:
+        print("Nenhuma revisão válida a importar; nenhum arquivo será alterado.")
+        return
     if not args.apply:
         print("DRY RUN: use --apply to write the TSV.")
         return
