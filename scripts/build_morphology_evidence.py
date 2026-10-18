@@ -61,6 +61,17 @@ def main():
     print("Forms with tokenizer candidate:",
           sum(item["tokenizer"] is not None for item in data["forms"].values()))
     print("Dictionary loaded:", dictionary is not None)
+    corpus_forms = {form for form, item in data["forms"].items()
+                    if item["corpus_frequency"] > 0}
+    dictionary_forms = {form for form, item in data["forms"].items()
+                        if item["dictionary_matches"]}
+    print("Corpus forms:", len(corpus_forms))
+    print("Distinct dictionary forms:", len(dictionary_forms))
+    print("Dictionary forms also in corpus:", len(dictionary_forms & corpus_forms))
+    print("Dictionary-only forms:", len(dictionary_forms - corpus_forms))
+    if dictionary is None:
+        print("WARNING: dictionary file not found:", DEFAULT)
+        print("The index is corpus-only. Supply the JSON and rebuild.")
     print("Output:", OUT)
 
 
