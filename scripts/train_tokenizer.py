@@ -44,7 +44,10 @@ def load_reviewed_aimo(path=REVIEWED_AIMO):
     if data.get("status") != "linguist_confirmed_examples_not_general_rules":
         raise ValueError("Unexpected review status")
     reviewed = {}
-    for item in data["analyses"]:
+    entries = list(data["analyses"])
+    for paradigm in data.get("paradigms", []):
+        entries.extend(paradigm["analyses"])
+    for item in entries:
         form = item["surface"].casefold()
         segments = [part.casefold() for part in item["segments"]]
         if not segments or "".join(segments) != form:
