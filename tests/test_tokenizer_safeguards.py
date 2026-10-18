@@ -59,6 +59,18 @@ class TokenizerSafeguards(unittest.TestCase):
         for form in ("akaimo", "cedaimo", "padaimo", "tagaimo"):
             self.assertNotIn(form, model["candidates"])
 
+    def test_awure_confirmed_over_suffix_guess(self):
+        model = train([("awure", "bure", "NOUN")] * 3 +
+                      [("awu", "awu", "NOUN")] * 3)
+        self.assertEqual(model["candidates"]["awure"]["segments"], ["a", "wure"])
+        self.assertEqual(model["candidates"]["awure"]["status"], "linguistically_confirmed")
+
+    def test_cedaimo_reviewed_over_competing_taimo(self):
+        model = train([("cedaimo", "taimo", "VERB"),
+                       ("cedaimo", "aimo", "NOUN")])
+        self.assertEqual(model["candidates"]["cedaimo"]["segments"], ["ced", "aimo"])
+        self.assertEqual(model["candidates"]["cedaimo"]["status"], "linguistically_confirmed")
+
     def test_je_not_a_suffix(self):
         model = train([("taje", "ta", "VERB")] * 5 + [("ta", "ta", "VERB")] * 5)
         self.assertNotIn("taje", model["candidates"])
