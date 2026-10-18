@@ -13,12 +13,14 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "reports/mako_inflections.csv"
 # Orthographic hypotheses only. Stem allomorphy must be checked manually.
-ENDINGS = ("modukare", "kare", "mode", "nure", "re", "do", "i")
+ENDINGS = ("modukare", "modure", "kare", "mode", "wo", "re", "do", "i")
 
 
 def main():
     source = Path(sys.argv[1]) if len(sys.argv) > 1 else SOURCE
     output = Path(sys.argv[2]) if len(sys.argv) > 2 else OUTPUT
+    if not source.is_file():
+        raise SystemExit(f"Arquivo não encontrado: {source}")
     groups = defaultdict(lambda: {"feats": Counter(), "sent_ids": [], "upos": Counter()})
     sid = ""
     for line in source.open(encoding="utf-8-sig"):
