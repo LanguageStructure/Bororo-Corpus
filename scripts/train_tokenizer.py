@@ -8,6 +8,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
 import json
+from bororo_initial_alternations import find_attested_analysis
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
@@ -180,6 +181,21 @@ def train(rows, reviewed_aimo=None):
         if options:
             options.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
             candidates[form] = {"segments": options[0][1], "support": options[0][0], "status": "proposed"}
+    # Apply productive initial-consonant correspondences only to observed
+    # surface forms with an explicitly annotated lemma. These remain
+    # rule-supported proposals, not manually reviewed analyses.
+    # Lexical exceptions can be added to the exception set after review.
+    initial_alternation_exceptions = set()
+    for surface in forms:
+        if surface in candidates:
+            continue
+        for lemma, _upos in analyses[surface]:
+            proposed = find_attested_analysis(surface, lemma, initial_alternation_exceptions)
+            if proposed:
+                candidates[surface] = {
+                    **proposed, "support": families[lemma][surface],
+                }
+                break
     # Linguistically confirmed segmentations, applied only to attested forms.
     # These are deliberately separate from distributional proposals. They do
     # not authorize splitting other words with similar character sequences.
@@ -315,7 +331,9 @@ def train(rows, reviewed_aimo=None):
         "linguistic_assumptions": {
             "lexical_roots_inherently_noun_verb_distinct": False,
             "upos_role": "contextual_syntactic_annotation_not_lexical_root_class",
-            "allomorph_classes": "lexeme_specific_reviewed_examples_not_productive_rules",
+            "allomorph_classes": "initial_consonant_rules_plus_lexeme_specific_reviewed_examples",
+            "initial_consonant_rules": {"b": "w", "p": "b", "t": "d", "k": "g", "c": "j"},
+            "initial_consonant_rule_scope": "prefixation_only; b>w general, others defaults with exceptions",
         },
         "source": str(SOURCE.relative_to(ROOT)),
         "min_support": MIN_SUPPORT,
