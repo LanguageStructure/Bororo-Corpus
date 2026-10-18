@@ -52,7 +52,127 @@
   "unresolved": [
     "3SG alternation",
     "3PL",
-    "phonological conditioning and productivity"
+    "phonological conditioning and productivity",
+    "to=t+o not yet explicitly confirmed"
   ],
-  "warning": "Earlier ce+daimo and pa+daimo analyses superseded. Do not derive universal morphophonological rewrite rules from these examples."
+  "warning": "Earlier ce+daimo and pa+daimo analyses superseded. Do not derive universal morphophonological rewrite rules from these examples.",
+  "paradigms": [
+    {
+      "lexeme": "o",
+      "status": "confirmed_individual_boundaries_except_reflexive",
+      "analyses": [
+        {
+          "surface": "ino",
+          "segments": [
+            "in",
+            "o"
+          ],
+          "person": "1SG"
+        },
+        {
+          "surface": "ako",
+          "segments": [
+            "ak",
+            "o"
+          ],
+          "person": "2SG"
+        },
+        {
+          "surface": "ceno",
+          "segments": [
+            "cen",
+            "o"
+          ],
+          "person": "1PL.EX"
+        },
+        {
+          "surface": "pago",
+          "segments": [
+            "pag",
+            "o"
+          ],
+          "person": "1PL.IN"
+        },
+        {
+          "surface": "tago",
+          "segments": [
+            "tag",
+            "o"
+          ],
+          "person": "2PL"
+        },
+        {
+          "surface": "eno",
+          "segments": [
+            "en",
+            "o"
+          ],
+          "person": "3PL"
+        }
+      ]
+    },
+    {
+      "lexeme": "okwa",
+      "stem_allomorph": "ogwa",
+      "status": "confirmed_individual_boundaries",
+      "analyses": [
+        {
+          "surface": "inogwa",
+          "segments": [
+            "in",
+            "ogwa"
+          ],
+          "person": "1SG"
+        },
+        {
+          "surface": "akogwa",
+          "segments": [
+            "ak",
+            "ogwa"
+          ],
+          "person": "2SG"
+        },
+        {
+          "surface": "cenogwa",
+          "segments": [
+            "cen",
+            "ogwa"
+          ],
+          "person": "1PL.EX"
+        },
+        {
+          "surface": "pagogwa",
+          "segments": [
+            "pag",
+            "ogwa"
+          ],
+          "person": "1PL.IN"
+        },
+        {
+          "surface": "tagogwa",
+          "segments": [
+            "tag",
+            "ogwa"
+          ],
+          "person": "2PL"
+        },
+        {
+          "surface": "enogwa",
+          "segments": [
+            "en",
+            "ogwa"
+          ],
+          "person": "3PL"
+        },
+        {
+          "surface": "togwa",
+          "segments": [
+            "t",
+            "ogwa"
+          ],
+          "person": "3REFL"
+        }
+      ]
+    }
+  ]
 }
