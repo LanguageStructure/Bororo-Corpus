@@ -17,6 +17,7 @@ def main():
     forms = collections.Counter()
     paradigms = collections.defaultdict(lambda: collections.Counter())
     feats_bad = collections.Counter()
+    missing = collections.Counter()
     stats = collections.Counter()
     with src.open(encoding="utf-8") as fh:
         for line in fh:
@@ -34,6 +35,10 @@ def main():
             if upos == "PUNCT":
                 continue
             stats["lexical_tokens"] += 1
+            if lemma == "_" or upos == "_":
+                missing[(lemma, upos)] += 1
+                stats["tokens_missing_lemma_or_upos"] += 1
+                continue
             key = (lemma, upos)
             paradigms[key][(form, feats)] += 1
             forms[(form, lemma, upos, feats)] += 1
@@ -58,6 +63,9 @@ def main():
         for key, n in sorted(feats_bad.items(), key=lambda x: (-x[1], x[0])):
             w.writerow((*key, n))
     stats["lemma_upos_pairs"] = len(paradigms)
+    stats["paradigms_with_multiple_forms"] = sum(len({f for f, _ in entries}) > 1 for entries in paradigms.values())
+    stats["paradigms_with_3plus_forms"] = sum(len({f for f, _ in entries}) >= 3 for entries in paradigms.values())
+    stats["tokens_with_lemma_and_upos"] = sum(sum(v.values()) for v in paradigms.values())
     stats["distinct_form_analyses"] = len(forms)
     for k, v in sorted(stats.items()): print("{}: {}".format(k, v))
     print("Reports:", out)
