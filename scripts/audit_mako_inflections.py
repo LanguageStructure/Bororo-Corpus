@@ -14,6 +14,28 @@ SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "reports/mako_inflections.csv"
 # Orthographic hypotheses only. Stem allomorphy must be checked manually.
 ENDINGS = ("modukare", "modure", "kare", "mode", "wo", "re", "do", "i")
+# Only orthographic alignments with the reviewed mago allomorph.
+# These columns are evidence for review, never confirmed segmentation.
+PERSON_CUES = ("ce", "pa", "ta", "tu", "i", "a", "e")
+SUFFIX_PARTS = {
+    "modukare": "modu+ka+re", "modure": "modu+re",
+    "kare": "ka+re", "re": "re", "do": "do",
+    "wo": "wo", "mode": "mode", "i": "i",
+}
+
+
+def surface_hypothesis(form):
+    for prefix in (*PERSON_CUES, ""):
+        stem = prefix + "mago"
+        if not form.startswith(stem):
+            continue
+        remainder = form[len(stem):]
+        if not remainder:
+            return prefix, "mago", "", "orthographic_match_review_required"
+        if remainder in SUFFIX_PARTS:
+            return prefix, "mago", SUFFIX_PARTS[remainder], "orthographic_match_review_required"
+    return "", "", "", "unresolved_allomorphy_or_other_structure"
+
 
 
 def main():
@@ -46,7 +68,7 @@ def main():
     with output.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.writer(handle)
         writer.writerow(["form", "tokens", "ending_candidate", "feats_variants",
-                         "upos", "example_sent_ids", "status"])
+                         "upos", "example_sent_ids", "status",\n                         "prefix_candidate", "stem_candidate", "ending_parts_candidate", "review_note"])
         for form, record in sorted(groups.items(), key=lambda pair: (-sum(pair[1]["feats"].values()), pair[0])):
             ending = next((x for x in ENDINGS if form.endswith(x)), "")
             writer.writerow([
