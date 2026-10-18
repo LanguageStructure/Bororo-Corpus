@@ -200,13 +200,14 @@ def train(rows, reviewed_aimo=None):
     confirmed.update(confirmed_mako)
     # Reviewed aimo forms supersede previous ce+daimo/pa+daimo guesses.
     # Preserve attestation gating; never invent unattested inflections.
-    confirmed.update(load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo)
+    reviewed = load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo
+    confirmed.update(reviewed)
     for surface, segments in confirmed.items():
         if surface in forms:
             candidates[surface] = {
                 "segments": segments, "support": forms[surface],
                 "status": "linguistically_confirmed",
-                "evidence": "linguist_reviewed_analysis" if surface in (load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo) else "explicit_confirmed_analysis",
+                "evidence": "linguist_reviewed_analysis" if surface in reviewed else "explicit_confirmed_analysis",
             }
     # A nasal onset in i(n)- and the t onset before vowel-initial bases
     # require lexical confirmation; never infer them from spelling alone.
