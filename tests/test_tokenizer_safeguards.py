@@ -39,6 +39,26 @@ class TokenizerSafeguards(unittest.TestCase):
         self.assertEqual(model["candidates"]["ire"]["segments"], ["i", "re"])
         self.assertNotIn("iorudukare", model["candidates"])
 
+    def test_aimo_reviewed_boundaries(self):
+        expected = {
+            "itaimo": ["it", "aimo"],
+            "akaimo": ["ak", "aimo"],
+            "cedaimo": ["ced", "aimo"],
+            "padaimo": ["pad", "aimo"],
+            "tagaimo": ["tag", "aimo"],
+        }
+        rows = [(form, "aimo", "VERB") for form in expected]
+        model = train(rows)
+        for form, segments in expected.items():
+            self.assertEqual(model["candidates"][form]["segments"], segments)
+            self.assertEqual(model["candidates"][form]["status"], "linguistically_confirmed")
+
+    def test_aimo_review_does_not_generate_unattested_forms(self):
+        model = train([("itaimo", "aimo", "VERB")])
+        self.assertIn("itaimo", model["candidates"])
+        for form in ("akaimo", "cedaimo", "padaimo", "tagaimo"):
+            self.assertNotIn(form, model["candidates"])
+
     def test_je_not_a_suffix(self):
         model = train([("taje", "ta", "VERB")] * 5 + [("ta", "ta", "VERB")] * 5)
         self.assertNotIn("taje", model["candidates"])
