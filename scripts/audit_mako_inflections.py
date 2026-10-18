@@ -68,7 +68,8 @@ def main():
     with output.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.writer(handle)
         writer.writerow(["form", "tokens", "ending_candidate", "feats_variants",
-                         "upos", "example_sent_ids", "status",\n                         "prefix_candidate", "stem_candidate", "ending_parts_candidate", "review_note"])
+                         "upos", "example_sent_ids", "status",
+                         "prefix_candidate", "stem_candidate", "ending_parts_candidate", "review_note"])
         for form, record in sorted(groups.items(), key=lambda pair: (-sum(pair[1]["feats"].values()), pair[0])):
             ending = next((x for x in ENDINGS if form.endswith(x)), "")
             writer.writerow([
