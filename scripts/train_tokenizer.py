@@ -2,7 +2,7 @@
 """Build a reproducible, conservative lexical model from CorBo CoNLL-U.
 
 Usage: python3 scripts/train_tokenizer.py
-Only public CoNLL-U columns FORM, LEMMA, UPOS are read. No review files.
+Reads FORM, LEMMA, UPOS and a separate linguist-reviewed analysis file.
 """
 from __future__ import annotations
 from collections import Counter, defaultdict
@@ -12,6 +12,7 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "docs/data/tokenizer-model.json"
+REVIEWED_AIMO = ROOT / "CorBo_vNext/annotations/aimo_reviewed_20261018.json"
 PREFIXES = ("ce", "pa", "ta", "tu", "i", "a", "u", "e")
 SUFFIXES = ("modukare", "modure", "kare", "re", "do")
 MIN_SUPPORT = 3
@@ -35,7 +36,26 @@ def read_conllu(path):
         yield form.casefold(), lemma.casefold() if lemma != "_" else "", upos
 
 
-def train(rows):
+def load_reviewed_aimo(path=REVIEWED_AIMO):
+    """Load explicitly reviewed forms; no general rule is inferred."""
+    if not path.is_file():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("status") != "linguist_confirmed_examples_not_general_rules":
+        raise ValueError("Unexpected review status")
+    reviewed = {}
+    for item in data["analyses"]:
+        form = item["surface"].casefold()
+        segments = [part.casefold() for part in item["segments"]]
+        if not segments or "".join(segments) != form:
+            raise ValueError("Invalid reviewed segmentation: " + form)
+        if form in reviewed:
+            raise ValueError("Duplicate reviewed form: " + form)
+        reviewed[form] = segments
+    return reviewed
+
+
+def train(rows, reviewed_aimo=None):
     forms = Counter()
     analyses = defaultdict(Counter)
     families = defaultdict(Counter)
@@ -178,12 +198,15 @@ def train(rows):
         "tumago": ["tu", "mago"],
     }
     confirmed.update(confirmed_mako)
+    # Reviewed aimo forms supersede previous ce+daimo/pa+daimo guesses.
+    # Preserve attestation gating; never invent unattested inflections.
+    confirmed.update(load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo)
     for surface, segments in confirmed.items():
         if surface in forms:
             candidates[surface] = {
                 "segments": segments, "support": forms[surface],
                 "status": "linguistically_confirmed",
-                "evidence": "explicit_confirmed_analysis",
+                "evidence": "linguist_reviewed_analysis" if surface in (load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo) else "explicit_confirmed_analysis",
             }
     # A nasal onset in i(n)- and the t onset before vowel-initial bases
     # require lexical confirmation; never infer them from spelling alone.
