@@ -196,6 +196,18 @@ def train(rows, reviewed_aimo=None):
                     **proposed, "support": families[lemma][surface],
                 }
                 break
+    # A confirmed b>w analysis outranks a merely distributional suffix split.
+    # The source CoNLL-U lemma must explicitly support the correspondence.
+    # Other initial-alternation candidates remain provisional.
+    awure = find_attested_analysis("awure", "bure")
+    if "awure" in forms and ("bure", "VERB") in analyses["awure"] or (
+        "awure" in forms and any(lemma == "bure" for lemma, _ in analyses["awure"])
+    ):
+        candidates["awure"] = {
+            **awure, "support": families["bure"]["awure"],
+            "status": "linguistically_confirmed",
+            "evidence": "linguist_confirmed_b_to_w",
+        }
     # Linguistically confirmed segmentations, applied only to attested forms.
     # These are deliberately separate from distributional proposals. They do
     # not authorize splitting other words with similar character sequences.
