@@ -67,6 +67,8 @@ def train(rows, reviewed_aimo=None):
         analyses[form][(lemma, upos)] += 1
         if lemma:
             families[lemma][form] += 1
+    # UPOS is a contextual annotation, not an inherent noun/verb class of
+    # a Bororo lexical root. Morphological families must remain UPOS-neutral.
     # Paradigms are grouped by annotated lemma; keep only informative
     # families with multiple distinct surface forms and sufficient tokens.
     paradigms = {}
@@ -310,6 +312,11 @@ def train(rows, reviewed_aimo=None):
             }
     return {
         "schema": "corbo-tokenizer-model/v1",
+        "linguistic_assumptions": {
+            "lexical_roots_inherently_noun_verb_distinct": False,
+            "upos_role": "contextual_syntactic_annotation_not_lexical_root_class",
+            "allomorph_classes": "lexeme_specific_reviewed_examples_not_productive_rules",
+        },
         "source": str(SOURCE.relative_to(ROOT)),
         "min_support": MIN_SUPPORT,
         "grammatical_unit_counts": grammatical_counts,
