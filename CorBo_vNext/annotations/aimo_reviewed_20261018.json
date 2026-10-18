@@ -1,0 +1,58 @@
+{
+  "status": "linguist_confirmed_examples_not_general_rules",
+  "date": "2026-10-18",
+  "lexeme": "aimo",
+  "analyses": [
+    {
+      "surface": "itaimo",
+      "segments": [
+        "it",
+        "aimo"
+      ],
+      "person": "1SG",
+      "note": "i(t)+aimo"
+    },
+    {
+      "surface": "akaimo",
+      "segments": [
+        "ak",
+        "aimo"
+      ],
+      "person": "2SG",
+      "note": "a(k)+aimo"
+    },
+    {
+      "surface": "cedaimo",
+      "segments": [
+        "ced",
+        "aimo"
+      ],
+      "person": "1PL.EX",
+      "note": "ce(d)+aimo"
+    },
+    {
+      "surface": "padaimo",
+      "segments": [
+        "pad",
+        "aimo"
+      ],
+      "person": "1PL.IN",
+      "note": "pa(d)+aimo"
+    },
+    {
+      "surface": "tagaimo",
+      "segments": [
+        "tag",
+        "aimo"
+      ],
+      "person": "2PL",
+      "note": "ta(g)+aimo"
+    }
+  ],
+  "unresolved": [
+    "3SG alternation",
+    "3PL",
+    "phonological conditioning and productivity"
+  ],
+  "warning": "Earlier ce+daimo and pa+daimo analyses superseded. Do not derive universal morphophonological rewrite rules from these examples."
+}
