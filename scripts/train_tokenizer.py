@@ -9,6 +9,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 import json
 from bororo_initial_alternations import find_attested_analysis
+from bororo_combined_morphology import analyze_combined
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
@@ -194,6 +195,17 @@ def train(rows, reviewed_aimo=None):
             if proposed:
                 candidates[surface] = {
                     **proposed, "support": families[lemma][surface],
+                }
+                break
+    # Combined analyses are proposed only for attested surface/lemma pairs.
+    # Do not overwrite explicit confirmations applied below. Unlike simple
+    # surface splits, these retain the lexical lemma and stem allomorph.
+    for surface in forms:
+        for lemma, _upos in analyses[surface]:
+            proposal = analyze_combined(surface, lemma)
+            if proposal:
+                candidates[surface] = {
+                    **proposal, "support": families[lemma][surface],
                 }
                 break
     # A confirmed b>w analysis outranks a merely distributional suffix split.
