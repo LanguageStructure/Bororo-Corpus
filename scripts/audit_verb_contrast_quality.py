@@ -19,7 +19,10 @@ def main():
         columns = reader.fieldnames or []
     counts = Counter()
     for row in rows:
-        a, b = row["example_form_a"], row["example_form_b"]
+        a = row.get("example_form_a") or row.get("form_a")
+        b = row.get("example_form_b") or row.get("form_b")
+        if not a or not b:
+            raise SystemExit("Missing form columns in contrast report")
         na, nb = int(row["count_a"]), int(row["count_b"])
         flags = []
         if a.casefold() == b.casefold():
