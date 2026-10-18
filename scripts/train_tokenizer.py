@@ -200,9 +200,7 @@ def train(rows, reviewed_aimo=None):
     # The source CoNLL-U lemma must explicitly support the correspondence.
     # Other initial-alternation candidates remain provisional.
     awure = find_attested_analysis("awure", "bure")
-    if "awure" in forms and ("bure", "VERB") in analyses["awure"] or (
-        "awure" in forms and any(lemma == "bure" for lemma, _ in analyses["awure"])
-    ):
+    if "awure" in forms and any(lemma == "bure" for lemma, _ in analyses["awure"]):
         candidates["awure"] = {
             **awure, "support": families["bure"]["awure"],
             "status": "linguistically_confirmed",
