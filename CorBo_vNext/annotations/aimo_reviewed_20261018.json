@@ -53,13 +53,13 @@
     "3SG alternation",
     "3PL",
     "phonological conditioning and productivity",
-    "to=t+o not yet explicitly confirmed"
+    "distribution of allomorphs across lexical classes"
   ],
   "warning": "Earlier ce+daimo and pa+daimo analyses superseded. Do not derive universal morphophonological rewrite rules from these examples.",
   "paradigms": [
     {
       "lexeme": "o",
-      "status": "confirmed_individual_boundaries_except_reflexive",
+      "status": "confirmed_individual_boundaries",
       "analyses": [
         {
           "surface": "ino",
@@ -108,6 +108,14 @@
             "o"
           ],
           "person": "3PL"
+        },
+        {
+          "surface": "to",
+          "segments": [
+            "t",
+            "o"
+          ],
+          "person": "3REFL"
         }
       ]
     },
