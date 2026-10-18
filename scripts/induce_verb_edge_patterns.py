@@ -44,7 +44,10 @@ def main():
     groups = defaultdict(list)
     with source.open(encoding="utf-8", newline="") as fh:
         for row in csv.DictReader(fh):
-            a, b = row["example_form_a"], row["example_form_b"]
+            a = row.get("example_form_a") or row.get("form_a")
+            b = row.get("example_form_b") or row.get("form_b")
+            if not a or not b:
+                raise SystemExit("Missing form columns in contrast report")
             if a.casefold() == b.casefold():
                 continue
             diff = edge_difference(a.casefold(), b.casefold())
