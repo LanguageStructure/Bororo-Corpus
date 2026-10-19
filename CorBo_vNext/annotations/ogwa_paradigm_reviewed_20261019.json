@@ -1,0 +1,66 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "id": "P055",
+  "lemma": "ogwa",
+  "gloss_pt": "pai",
+  "source": {
+    "dictionary_paradigm": "P055",
+    "pdf_page": 73
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "not_reviewed",
+    "note": "Membership and person correspondences confirmed; do not infer morpheme boundaries."
+  },
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "ioga",
+      "gloss_pt": "meu pai",
+      "segmentation": null
+    },
+    {
+      "person": "2SG",
+      "form": "ao",
+      "gloss_pt": "teu pai",
+      "segmentation": null
+    },
+    {
+      "person": "3SG",
+      "form": "uo",
+      "gloss_pt": "seu pai",
+      "segmentation": null
+    },
+    {
+      "person": "1PL.EX",
+      "form": "ceo",
+      "gloss_pt": "nosso pai (exclusivo)",
+      "segmentation": null
+    },
+    {
+      "person": "1PL.IN",
+      "form": "pao",
+      "gloss_pt": "nosso pai (inclusivo)",
+      "segmentation": null
+    },
+    {
+      "person": "2PL",
+      "form": "tao",
+      "gloss_pt": "vosso pai",
+      "segmentation": null
+    },
+    {
+      "person": "3PL",
+      "form": "etuo",
+      "gloss_pt": "pai deles",
+      "segmentation": null
+    },
+    {
+      "person": "3REFL",
+      "form": "tuo",
+      "gloss_pt": "seu próprio pai",
+      "segmentation": null
+    }
+  ]
+}
