@@ -338,7 +338,7 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
         candidate["evidence_grade"] = (
             min((p["evidence_grade"] for p in matched),
                 key=lambda g: {"low_distributional": 1, "medium_distributional": 2, "high_distributional": 3}[g])
-            if len(matched) >= boundaries else "unrated"
+            if matched and len(matched) >= boundaries else "unrated"
         )
     # Discover recurring grammatical endings in lemma-linked forms.
     # Counts are evidence for candidate discovery, never confirmation.
