@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "partially_confirmed",
-    "note": "User confirms i(k)+ie, a(k)+ie, tu(g)+ie, alongside earlier ce(g)+ie, pa(g)+ie, ta(g)+ie. Parenthesized consonants belong to personal prefixes, not stem allomorphs. ie, eie and cie remain without confirmed segmentation."
+    "note": "Linguist confirms eie = e + ie (3PL), in addition to previously confirmed prefix-boundary analyses. cie (3REFL variant of tugie) remains unsegmented."
   },
   "id": "IE_NOME",
   "lemma": "ie",
@@ -74,7 +74,10 @@
       "person": "3PL",
       "form": "eie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "e",
+        "ie"
+      ]
     },
     {
       "person": "3REFL",
