@@ -67,16 +67,19 @@ def load_reviewed_paradigms(directory=ROOT / "CorBo_vNext/annotations"):
     result = {}
     for path in sorted(Path(directory).glob("*_paradigm_reviewed_*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
-        if data.get("review", {}).get("segmentation_status") != "linguist_confirmed":
+        if data.get("review", {}).get("segmentation_status") not in {"linguist_confirmed", "partially_confirmed"}:
             continue
         if data.get("review", {}).get("status") != "linguist_confirmed_paradigm_membership":
             continue
         for entry in data["forms"]:
             form = entry["form"].casefold()
             parts = entry.get("segmentation")
+            if parts is None:
+                continue  # Confirmed membership, but no reviewed boundaries.
             if not isinstance(parts, list) or not parts or not all(isinstance(x, str) and x for x in parts):
                 raise ValueError("Invalid reviewed segmentation: " + form)
-            parts = [x.casefold() for x in parts]
+            # ce(g) + ie denotes the surface spans ceg + ie.
+            parts = [x.casefold().replace("(", "").replace(")", "") for x in parts]
             if "".join(parts) != form or form in result:
                 raise ValueError("Invalid or duplicate reviewed segmentation: " + form)
             result[form] = {"segments": parts, "paradigm_id": data["id"], "lemma": data.get("lemma")}
