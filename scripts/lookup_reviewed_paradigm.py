@@ -37,10 +37,14 @@ def lookup(form, paradigm=None):
 
 def load_all_paradigms(directory=ROOT / "CorBo_vNext/annotations"):
     """Load all reviewed paradigms, including dictionary-only attestations."""
-    return [
-        load_paradigm_any(path)
-        for path in sorted(Path(directory).glob("*_paradigm_reviewed_*.json"))
-    ]
+    reviewed = []
+    for path in sorted(Path(directory).glob("*_paradigm_reviewed_*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        # Disputed or withdrawn paradigms must not block index generation.
+        if data.get("review", {}).get("status") != "linguist_confirmed_paradigm_membership":
+            continue
+        reviewed.append(data)
+    return reviewed
 
 
 def load_paradigm_any(path):
