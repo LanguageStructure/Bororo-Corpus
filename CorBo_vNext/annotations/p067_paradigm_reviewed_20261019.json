@@ -1,0 +1,79 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "id": "P067",
+  "lemma": "e",
+  "gloss_pt": null,
+  "source": {
+    "dictionary_paradigm": "P067"
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "partially_confirmed",
+    "note": "Confirmed stem allomorphs e, je (3SG), ie (after tu-). Prefix boundaries for other forms remain proposals, not reviewed segmentations."
+  },
+  "allomorphy": {
+    "underlying_stem": "e",
+    "surface_variants": [
+      "e",
+      "je",
+      "ie"
+    ],
+    "conditions": {
+      "je": "3SG",
+      "ie": "after tu-"
+    },
+    "scope": "P067 only",
+    "status": "linguist_confirmed"
+  },
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "ie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2SG",
+      "form": "ae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3SG",
+      "form": "je",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.EX",
+      "form": "cee",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.IN",
+      "form": "pae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2PL",
+      "form": "tae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3PL",
+      "form": "ee",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3REFL",
+      "form": "tuie",
+      "gloss_pt": null,
+      "segmentation": null
+    }
+  ]
+}
