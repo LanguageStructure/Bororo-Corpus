@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "not_reviewed",
-    "note": "Linguist confirms pu- forms are reciprocal; puae assigned RECIP, not 3REFL. kae person remains unresolved. No segmentations confirmed."
+    "note": "Linguist confirms kae is a variant of ae (3SG), and pu- forms are reciprocal (puae RECIP). No full segmentation confirmed."
   },
   "id": "AE_ADPOSITION",
   "lemma": "ae",
@@ -33,10 +33,11 @@
       "segmentation": null
     },
     {
-      "person": "UNASSIGNED",
+      "person": "3SG",
       "form": "kae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": null,
+      "variant_of": "ae"
     },
     {
       "person": "1PL.EX",
