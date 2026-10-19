@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "docs/data/tokenizer-model.json"
 REVIEWED_AIMO = ROOT / "CorBo_vNext/annotations/aimo_reviewed_20261018.json"
+REVIEWED_P077 = ROOT / "CorBo_vNext/annotations/p077_paradigm_reviewed_20261019.json"
 PREFIXES = ("ce", "pa", "ta", "tu", "i", "a", "u", "e")
 SUFFIXES = ("modukare", "modure", "kare", "re", "do")
 MIN_SUPPORT = 3
@@ -60,7 +61,27 @@ def load_reviewed_aimo(path=REVIEWED_AIMO):
     return reviewed
 
 
-def train(rows, reviewed_aimo=None):
+
+def load_reviewed_p077(path=REVIEWED_P077):
+    """Load lexeme-specific confirmed splits, rejecting inconsistent records."""
+    if not path.is_file():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("id") != "P077" or data.get("review", {}).get("segmentation_status") != "linguist_confirmed":
+        raise ValueError("P077 segmentations are not confirmed")
+    result = {}
+    for entry in data["forms"]:
+        form = entry["form"].casefold()
+        segments = entry.get("segmentation")
+        if not isinstance(segments, list) or len(segments) != 2 or "".join(segments).casefold() != form:
+            raise ValueError("Invalid P077 segmentation: " + form)
+        if form in result:
+            raise ValueError("Duplicate P077 form: " + form)
+        result[form] = [part.casefold() for part in segments]
+    return result
+
+
+def train(rows, reviewed_aimo=None, reviewed_p077=None):
     forms = Counter()
     analyses = defaultdict(Counter)
     families = defaultdict(Counter)
@@ -245,12 +266,18 @@ def train(rows, reviewed_aimo=None):
     # Preserve attestation gating; never invent unattested inflections.
     reviewed = load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo
     confirmed.update(reviewed)
+    p077 = load_reviewed_p077() if reviewed_p077 is None else reviewed_p077
+    for surface, segments in p077.items():
+        if surface in confirmed and confirmed[surface] != segments:
+            raise ValueError('Conflicting confirmed segmentation for ' + surface)
+    confirmed.update(p077)
     for surface, segments in confirmed.items():
         if surface in forms:
             candidates[surface] = {
                 "segments": segments, "support": forms[surface],
                 "status": "linguistically_confirmed",
-                "evidence": "linguist_reviewed_analysis" if surface in reviewed else "explicit_confirmed_analysis",
+                "evidence": "reviewed_P077_ke_ge_allomorphy" if surface in p077 else "linguist_reviewed_analysis" if surface in reviewed else "explicit_confirmed_analysis",
+                **({"paradigm_id": "P077", "lemma": "ke"} if surface in p077 else {}),
             }
     # A nasal onset in i(n)- and the t onset before vowel-initial bases
     # require lexical confirmation; never infer them from spelling alone.
