@@ -65,6 +65,7 @@ def lookup_all(form, paradigms=None):
             matches.append({
                 "form": item["form"], "lemma": paradigm.get("lemma"),
                 "person": item["person"], "gloss_pt": item.get("gloss_pt"),
+                "variant_of": item.get("variant_of"),
                 "paradigm_id": paradigm["id"],
                 "recognition_status": paradigm["review"]["status"],
                 "segmentation": item.get("segmentation"),
