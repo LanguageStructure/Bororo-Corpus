@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "not_reviewed",
-    "note": "kae and puae retained without inventing person mapping; positional ordering suggests possibilities but not confirmed."
+    "note": "Linguist confirms pu- forms are reciprocal; puae assigned RECIP, not 3REFL. kae person remains unresolved. No segmentations confirmed."
   },
   "id": "AE_ADPOSITION",
   "lemma": "ae",
@@ -69,10 +69,18 @@
       "segmentation": null
     },
     {
-      "person": "ALTERNATIVE_UNASSIGNED",
+      "person": "RECIP",
       "form": "puae",
-      "gloss_pt": null,
+      "gloss_pt": "recíproco",
       "segmentation": null
+    }
+  ],
+  "grammatical_notes": [
+    {
+      "morpheme": "pu-",
+      "function": "reciprocal",
+      "status": "linguist_confirmed",
+      "scope": "forms with pu-"
     }
   ]
 }
