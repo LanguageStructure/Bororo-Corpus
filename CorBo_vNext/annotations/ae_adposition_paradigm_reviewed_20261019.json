@@ -7,8 +7,8 @@
   "review": {
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
-    "segmentation_status": "not_reviewed",
-    "note": "Linguist confirms kae is a variant of ae (3SG), and pu- forms are reciprocal (puae RECIP). No full segmentation confirmed."
+    "segmentation_status": "partially_confirmed",
+    "note": "User explicitly confirmed that final consonants of it-, ak-, ced-, pag-, tag-, et-, pud- belong to personal prefixes rather than stem allomorphs; eight listed segmentations confirmed. ae and kae remain without explicit segmentation; kae is variant of ae."
   },
   "id": "AE_ADPOSITION",
   "lemma": "ae",
@@ -18,13 +18,19 @@
       "person": "1SG",
       "form": "itae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "it",
+        "ae"
+      ]
     },
     {
       "person": "2SG",
       "form": "akae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ak",
+        "ae"
+      ]
     },
     {
       "person": "3SG",
@@ -43,37 +49,55 @@
       "person": "1PL.EX",
       "form": "cedae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ced",
+        "ae"
+      ]
     },
     {
       "person": "1PL.IN",
       "form": "pagae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "pag",
+        "ae"
+      ]
     },
     {
       "person": "2PL",
       "form": "tagae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "tag",
+        "ae"
+      ]
     },
     {
       "person": "3PL",
       "form": "etae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "et",
+        "ae"
+      ]
     },
     {
       "person": "3REFL",
       "form": "pudae",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "pud",
+        "ae"
+      ]
     },
     {
       "person": "RECIP",
       "form": "puae",
       "gloss_pt": "recíproco",
-      "segmentation": null
+      "segmentation": [
+        "pu",
+        "ae"
+      ]
     }
   ],
   "grammatical_notes": [
