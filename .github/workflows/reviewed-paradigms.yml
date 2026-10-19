@@ -1,0 +1,29 @@
+name: Reviewed Bororo paradigms
+
+on:
+  push:
+    paths:
+      - 'CorBo_vNext/annotations/**'
+      - 'scripts/train_tokenizer.py'
+      - 'scripts/lookup_reviewed_paradigm.py'
+      - 'tests/test_reviewed_partial_paradigms.py'
+      - '.github/workflows/reviewed-paradigms.yml'
+  pull_request:
+    paths:
+      - 'CorBo_vNext/annotations/**'
+      - 'scripts/train_tokenizer.py'
+      - 'scripts/lookup_reviewed_paradigm.py'
+      - 'tests/test_reviewed_partial_paradigms.py'
+      - '.github/workflows/reviewed-paradigms.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate reviewed paradigms
+        run: python -m unittest discover -s tests -p 'test_reviewed_partial_paradigms.py' -v
