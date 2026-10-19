@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "not_reviewed",
-    "note": "cie is an alternative supplied without unambiguous person assignment; retain separately."
+    "note": "Linguist confirms cie as a variant of tugie (3REFL). Membership confirmed; segmentation and conditioning of variation not reviewed."
   },
   "id": "IE_NOME",
   "lemma": "ie",
@@ -63,10 +63,11 @@
       "segmentation": null
     },
     {
-      "person": "ALTERNATIVE_UNASSIGNED",
+      "person": "3REFL",
       "form": "cie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": null,
+      "variant_of": "tugie"
     }
   ]
 }
