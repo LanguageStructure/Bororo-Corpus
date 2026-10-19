@@ -35,6 +35,40 @@ def lookup(form, paradigm=None):
         "source": paradigm["source"],
     } for item in paradigm["forms"] if item["form"].casefold() == key]
 
+def load_all_paradigms(directory=ROOT / "CorBo_vNext/annotations"):
+    """Load all reviewed paradigms, including dictionary-only attestations."""
+    return [
+        load_paradigm_any(path)
+        for path in sorted(Path(directory).glob("*_paradigm_reviewed_*.json"))
+    ]
+
+
+def load_paradigm_any(path):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    if data.get("review", {}).get("status") != "linguist_confirmed_paradigm_membership":
+        raise ValueError("Paradigm membership is not confirmed: " + str(path))
+    return data
+
+
+def lookup_all(form, paradigms=None):
+    paradigms = load_all_paradigms() if paradigms is None else paradigms
+    key = form.casefold()
+    matches = []
+    for paradigm in paradigms:
+        for item in paradigm["forms"]:
+            if item["form"].casefold() != key:
+                continue
+            matches.append({
+                "form": item["form"], "lemma": paradigm.get("lemma"),
+                "person": item["person"], "gloss_pt": item.get("gloss_pt"),
+                "paradigm_id": paradigm["id"],
+                "recognition_status": paradigm["review"]["status"],
+                "segmentation": item.get("segmentation"),
+                "segmentation_status": paradigm["review"].get("segmentation_status", "not_reviewed"),
+                "source": paradigm["source"],
+            })
+    return matches
+
 
 if __name__ == "__main__":
     import sys
