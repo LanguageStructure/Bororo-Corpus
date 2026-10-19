@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "partially_confirmed",
-    "note": "User corrected analysis: ce(g)+ie, pa(g)+ie, etc. Updated plural ce-, pa-, ta- to prefix(g)+ie; earlier kie/gie stem allomorphy is withdrawn as a general analysis. Other segmentations retained provisionally pending reconciliation."
+    "note": "User confirms i(k)+ie, a(k)+ie, tu(g)+ie, alongside earlier ce(g)+ie, pa(g)+ie, ta(g)+ie. Parenthesized consonants belong to personal prefixes, not stem allomorphs. ie, eie and cie remain without confirmed segmentation."
   },
   "id": "IE_NOME",
   "lemma": "ie",
@@ -19,18 +19,20 @@
       "form": "ikie",
       "gloss_pt": null,
       "segmentation": [
-        "i",
-        "kie"
-      ]
+        "i(k)",
+        "ie"
+      ],
+      "segmentation_notation": "Parenthesized consonant belongs to personal prefix."
     },
     {
       "person": "2SG",
       "form": "akie",
       "gloss_pt": null,
       "segmentation": [
-        "a",
-        "kie"
-      ]
+        "a(k)",
+        "ie"
+      ],
+      "segmentation_notation": "Parenthesized consonant belongs to personal prefix."
     },
     {
       "person": "3SG",
@@ -79,9 +81,10 @@
       "form": "tugie",
       "gloss_pt": null,
       "segmentation": [
-        "tu",
-        "gie"
-      ]
+        "tu(g)",
+        "ie"
+      ],
+      "segmentation_notation": "Parenthesized consonant belongs to personal prefix."
     },
     {
       "person": "3REFL",
@@ -92,7 +95,7 @@
     }
   ],
   "allomorphy": {
-    "status": "withdrawn_pending_reanalysis",
-    "note": "Do not treat gie as established lexical stem allomorph; g belongs with personal prefix in corrected plural analyses."
+    "status": "withdrawn",
+    "note": "Earlier kie/gie stem allomorphy rejected; consonants k/g analyzed with personal prefixes."
   }
 }
