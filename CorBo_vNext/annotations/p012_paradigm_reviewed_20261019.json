@@ -1,0 +1,100 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "id": "P012",
+  "lemma": "apo",
+  "gloss_pt": null,
+  "source": {
+    "dictionary_paradigm": "P012",
+    "pdf_page": 17
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "linguist_confirmed",
+    "note": "Speaker confirms apo/abo/bo are stem allomorphs, p>b with prefixation. Applies only to P012; segmentation reflects explicitly reviewed paradigm."
+  },
+  "allomorphy": {
+    "underlying_stem": "apo",
+    "surface_variants": [
+      "apo",
+      "abo",
+      "bo"
+    ],
+    "change": "p>b",
+    "scope": "P012 only",
+    "status": "linguist_confirmed"
+  },
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "itabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "it",
+        "abo"
+      ]
+    },
+    {
+      "person": "2SG",
+      "form": "akabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "ak",
+        "abo"
+      ]
+    },
+    {
+      "person": "3SG",
+      "form": "apo",
+      "gloss_pt": null,
+      "segmentation": [
+        "apo"
+      ]
+    },
+    {
+      "person": "1PL.EX",
+      "form": "cedabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "ced",
+        "abo"
+      ]
+    },
+    {
+      "person": "1PL.IN",
+      "form": "pagabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "pag",
+        "abo"
+      ]
+    },
+    {
+      "person": "2PL",
+      "form": "tagabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "tag",
+        "abo"
+      ]
+    },
+    {
+      "person": "3PL",
+      "form": "ebo",
+      "gloss_pt": null,
+      "segmentation": [
+        "e",
+        "bo"
+      ]
+    },
+    {
+      "person": "3REFL",
+      "form": "pudabo",
+      "gloss_pt": null,
+      "segmentation": [
+        "pud",
+        "abo"
+      ]
+    }
+  ]
+}
