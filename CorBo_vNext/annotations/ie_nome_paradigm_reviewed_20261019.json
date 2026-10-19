@@ -1,0 +1,72 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "source": {
+    "kind": "user_supplied_correction",
+    "date": "2026-10-19"
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "not_reviewed",
+    "note": "cie is an alternative supplied without unambiguous person assignment; retain separately."
+  },
+  "id": "IE_NOME",
+  "lemma": "ie",
+  "gloss_pt": "nome",
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "ikie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2SG",
+      "form": "akie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3SG",
+      "form": "ie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.EX",
+      "form": "cegie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.IN",
+      "form": "pagie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2PL",
+      "form": "tagie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3PL",
+      "form": "eie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3REFL",
+      "form": "tugie",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "ALTERNATIVE_UNASSIGNED",
+      "form": "cie",
+      "gloss_pt": null,
+      "segmentation": null
+    }
+  ]
+}
