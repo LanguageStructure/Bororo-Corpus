@@ -1,12 +1,29 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paradigmas revisados · CorBo</title><style>body{font:16px/1.6 system-ui;background:#fbfcfb;color:#202624;max-width:900px;margin:40px auto;padding:0 20px}a{color:#527066}h1{font-family:Georgia,serif}table{border-collapse:collapse;width:100%;background:white}th,td{border-bottom:1px solid #e3e7e4;padding:10px;text-align:left}.note{background:#eef3f1;border-left:3px solid #527066;padding:12px;margin:20px 0}.muted{color:#6d7672}</style></head><body><nav><a href="./">Início</a> · <a href="forms.html">Análise de formas</a></nav><h1>Paradigmas revisados</h1><p>Formas reconhecidas por revisão linguística, separadas das segmentações automáticas e das anotações CoNLL-U.</p><div class="note">O reconhecimento de uma forma como membro de um paradigma não confirma sua segmentação interna. O índice do corpus é atualizado localmente antes da publicação.</div><h2 id="heading">Carregando…</h2><p id="source" class="muted"></p><table><thead><tr><th>Pessoa</th><th>Forma</th><th>Tradução</th><th>Segmentação</th></tr></thead><tbody id="rows"></tbody></table><p id="message" role="status"></p><script>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paradigmas revisados · CorBo</title><style>body{font:16px/1.6 system-ui;background:#fbfcfb;color:#202624;max-width:900px;margin:40px auto;padding:0 20px}a{color:#527066}h1{font-family:Georgia,serif}table{border-collapse:collapse;width:100%;background:white}th,td{border-bottom:1px solid #e3e7e4;padding:10px;text-align:left}.note{background:#eef3f1;border-left:3px solid #527066;padding:12px;margin:20px 0}.muted{color:#6d7672}</style></head><body><nav><a href="./">Início</a> · <a href="forms.html">Análise de formas</a></nav><h1>Paradigmas revisados</h1><p>Formas reconhecidas por revisão linguística, separadas das segmentações automáticas e das anotações CoNLL-U.</p><div class="note">O reconhecimento de uma forma como membro de um paradigma não confirma sua segmentação interna. O índice do corpus é atualizado localmente antes da publicação.</div><label for="paradigm">Paradigma: </label><select id="paradigm"><option>Carregando…</option></select><h2 id="heading">Carregando…</h2><p id="source" class="muted"></p><table><thead><tr><th>Pessoa</th><th>Forma</th><th>Tradução</th><th>Segmentação</th></tr></thead><tbody id="rows"></tbody></table><p id="message" role="status"></p><script>
 const esc=s=>{const e=document.createElement('span');e.textContent=String(s??'');return e.innerHTML};
 fetch('./data/morphology-evidence.json').then(r=>{if(!r.ok)throw Error('Índice indisponível');return r.json()}).then(data=>{
-const entries=[];
-for(const [form,item] of Object.entries(data.forms||{}))for(const match of item.reviewed_paradigm_matches||[])if(match.paradigm_id==='P055')entries.push(match);
-const order=['1SG','2SG','3SG','1PL.EX','1PL.IN','2PL','3PL','3REFL'];entries.sort((a,b)=>order.indexOf(a.person)-order.indexOf(b.person));
-if(!entries.length){document.getElementById('heading').textContent='P055 ainda não publicado';document.getElementById('message').textContent='Reconstrua e publique o índice morphology-evidence.json para disponibilizar as formas revisadas.';return}
-document.getElementById('heading').textContent='P055 · ogwa (‘pai’)';
-document.getElementById('source').textContent='Dicionário, página '+(entries[0].source?.pdf_page??'73')+' · correspondências pessoais confirmadas';
-document.getElementById('rows').innerHTML=entries.map(e=>'<tr><td>'+esc(e.person)+'</td><td><a href="word.html?form='+encodeURIComponent(e.form)+'">'+esc(e.form)+'</a></td><td>'+esc(e.gloss_pt)+'</td><td class="muted">não revisada</td></tr>').join('');
+const groups=new Map();
+for(const item of Object.values(data.forms||{}))for(const match of item.reviewed_paradigm_matches||[]){
+  if(!match.paradigm_id)continue;
+  if(!groups.has(match.paradigm_id))groups.set(match.paradigm_id,[]);
+  groups.get(match.paradigm_id).push(match);
+}
+const select=document.getElementById('paradigm');
+select.replaceChildren();
+if(!groups.size){document.getElementById('heading').textContent='Nenhum paradigma revisado publicado';document.getElementById('message').textContent='Reconstrua e publique morphology-evidence.json para disponibilizar os paradigmas revisados.';select.disabled=true;return}
+const order=['1SG','2SG','3SG','1PL.EX','1PL.IN','2PL','3PL','3REFL'];
+for(const id of [...groups.keys()].sort()){const option=document.createElement('option');option.value=id;option.textContent=id;select.append(option)}
+function render(){
+ const id=select.value,entries=groups.get(id)||[];
+ entries.sort((a,b)=>{const x=order.indexOf(a.person),y=order.indexOf(b.person);return (x<0?99:x)-(y<0?99:y)});
+ const lemma=[...new Set(entries.map(e=>e.lemma).filter(Boolean))].join(', ');
+ document.getElementById('heading').textContent=id+(lemma?' · '+lemma:'');
+ const pages=[...new Set(entries.map(e=>e.source?.pdf_page).filter(x=>x!=null))];
+ document.getElementById('source').textContent='Dicionário'+(pages.length?', página(s) '+pages.join(', '):'')+' · correspondências pessoais confirmadas';
+ document.getElementById('rows').innerHTML=entries.map(e=>'<tr><td>'+esc(e.person)+'</td><td><a href="word.html?form='+encodeURIComponent(e.form)+'">'+esc(e.form)+'</a></td><td>'+esc(e.gloss_pt)+'</td><td class="muted">'+(e.segmentation==null?'não revisada':esc(e.segmentation))+'</td></tr>').join('');
+}
+select.addEventListener('change',render);
+const requested=new URLSearchParams(location.search).get('id');
+if(requested&&groups.has(requested))select.value=requested;
+render();
 }).catch(e=>{document.getElementById('heading').textContent='Índice indisponível';document.getElementById('message').textContent=e.message});
 </script></body></html>
