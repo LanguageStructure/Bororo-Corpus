@@ -1,0 +1,78 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "source": {
+    "kind": "user_supplied_correction",
+    "date": "2026-10-19"
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "not_reviewed",
+    "note": "kae and puae retained without inventing person mapping; positional ordering suggests possibilities but not confirmed."
+  },
+  "id": "AE_ADPOSITION",
+  "lemma": "ae",
+  "gloss_pt": "para, a",
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "itae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2SG",
+      "form": "akae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3SG",
+      "form": "ae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "UNASSIGNED",
+      "form": "kae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.EX",
+      "form": "cedae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.IN",
+      "form": "pagae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2PL",
+      "form": "tagae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3PL",
+      "form": "etae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3REFL",
+      "form": "pudae",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "ALTERNATIVE_UNASSIGNED",
+      "form": "puae",
+      "gloss_pt": null,
+      "segmentation": null
+    }
+  ]
+}
