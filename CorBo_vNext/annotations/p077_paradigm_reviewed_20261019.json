@@ -1,0 +1,66 @@
+{
+  "schema": "corbo-reviewed-lexical-paradigm/v1",
+  "id": "P077",
+  "lemma": null,
+  "gloss_pt": null,
+  "source": {
+    "dictionary_paradigm": "P077",
+    "pdf_page": 89
+  },
+  "review": {
+    "status": "linguist_confirmed_paradigm_membership",
+    "date": "2026-10-19",
+    "segmentation_status": "not_reviewed",
+    "note": "Eight forms and person slots confirmed. Lexical lemma, gloss and k~g alternation analysis remain unconfirmed."
+  },
+  "forms": [
+    {
+      "person": "1SG",
+      "form": "ike",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2SG",
+      "form": "ake",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3SG",
+      "form": "uke",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.EX",
+      "form": "cege",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "1PL.IN",
+      "form": "page",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "2PL",
+      "form": "tage",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3PL",
+      "form": "eke",
+      "gloss_pt": null,
+      "segmentation": null
+    },
+    {
+      "person": "3REFL",
+      "form": "tuge",
+      "gloss_pt": null,
+      "segmentation": null
+    }
+  ]
+}
