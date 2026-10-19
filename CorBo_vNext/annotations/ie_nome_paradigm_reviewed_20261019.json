@@ -8,7 +8,7 @@
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
     "segmentation_status": "partially_confirmed",
-    "note": "Linguist confirmed six segmentations with kie/gie allomorphy on 2026-10-19. Other forms (ie, eie, cie) remain unsegmented; do not infer their boundaries."
+    "note": "User corrected analysis: ce(g)+ie, pa(g)+ie, etc. Updated plural ce-, pa-, ta- to prefix(g)+ie; earlier kie/gie stem allomorphy is withdrawn as a general analysis. Other segmentations retained provisionally pending reconciliation."
   },
   "id": "IE_NOME",
   "lemma": "ie",
@@ -43,27 +43,30 @@
       "form": "cegie",
       "gloss_pt": null,
       "segmentation": [
-        "ce",
-        "gie"
-      ]
+        "ce(g)",
+        "ie"
+      ],
+      "segmentation_notation": "parenthesized consonant is part of person marker, not lexical stem"
     },
     {
       "person": "1PL.IN",
       "form": "pagie",
       "gloss_pt": null,
       "segmentation": [
-        "pa",
-        "gie"
-      ]
+        "pa(g)",
+        "ie"
+      ],
+      "segmentation_notation": "parenthesized consonant is part of person marker, not lexical stem"
     },
     {
       "person": "2PL",
       "form": "tagie",
       "gloss_pt": null,
       "segmentation": [
-        "ta",
-        "gie"
-      ]
+        "ta(g)",
+        "ie"
+      ],
+      "segmentation_notation": "parenthesized consonant is part of person marker, not lexical stem"
     },
     {
       "person": "3PL",
@@ -89,16 +92,7 @@
     }
   ],
   "allomorphy": {
-    "surface_variants": [
-      "ie",
-      "kie",
-      "gie"
-    ],
-    "confirmed_segmented_variants": [
-      "kie",
-      "gie"
-    ],
-    "status": "linguist_confirmed_for_six_forms",
-    "scope": "IE_NOME only"
+    "status": "withdrawn_pending_reanalysis",
+    "note": "Do not treat gie as established lexical stem allomorph; g belongs with personal prefix in corrected plural analyses."
   }
 }
