@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from train_tokenizer import SOURCE, read_conllu, train
 from query_dictionary_paradigms import DEFAULT, build_index
-from lookup_reviewed_paradigm import REVIEWED, load_paradigm, lookup
+from lookup_reviewed_paradigm import load_all_paradigms, lookup_all
 
 OUT = ROOT / "docs/data/morphology-evidence.json"
 
@@ -25,15 +25,22 @@ def build(rows, dictionary=None, reviewed_paradigm=None):
         forms[surface][(lemma, upos)] += 1
     dictionary_index = build_index(dictionary) if dictionary else {}
     reviewed_index = {}
-    if reviewed_paradigm:
-        for entry in reviewed_paradigm['forms']:
-            reviewed_index[entry['form'].casefold()] = lookup(entry['form'], reviewed_paradigm)
+    paradigms = ([reviewed_paradigm] if isinstance(reviewed_paradigm, dict) else reviewed_paradigm) or []
+    for paradigm in paradigms:
+        for entry in paradigm['forms']:
+            form = entry['form'].casefold()
+            reviewed_index.setdefault(form, []).extend(lookup_all(form, [paradigm]))
     result = {}
     for form in sorted(set(forms) | set(dictionary_index) | set(reviewed_index)):
         analyses = forms.get(form, Counter())
         candidate = model["candidates"].get(form)
         result[form] = {
             "corpus_frequency": sum(analyses.values()),
+            "attestation": {
+                "conllu_form": bool(analyses),
+                "dictionary_candidate": bool(dictionary_index.get(form)),
+                "reviewed_dictionary_paradigm": bool(reviewed_index.get(form)),
+            },
             "corpus_analyses": [
                 {"lemma": lemma, "upos": upos, "frequency": count}
                 for (lemma, upos), count in sorted(analyses.items())
@@ -49,7 +56,7 @@ def build(rows, dictionary=None, reviewed_paradigm=None):
             "corpus": str(SOURCE.relative_to(ROOT)),
             "dictionary_loaded": dictionary is not None,
             "dictionary_status": "unreviewed",
-            "reviewed_paradigm_loaded": reviewed_paradigm is not None,
+            "reviewed_paradigm_loaded": bool(reviewed_paradigm),
         },
         "forms": result,
     }
@@ -59,7 +66,7 @@ def main():
     if not SOURCE.is_file():
         raise SystemExit("Corpus missing: " + str(SOURCE))
     dictionary = json.loads(DEFAULT.read_text(encoding="utf-8")) if DEFAULT.is_file() else None
-    reviewed_paradigm = load_paradigm(REVIEWED) if REVIEWED.is_file() else None
+    reviewed_paradigm = load_all_paradigms()
     data = build(read_conllu(SOURCE), dictionary, reviewed_paradigm)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
@@ -69,7 +76,7 @@ def main():
     print("Forms with tokenizer candidate:",
           sum(item["tokenizer"] is not None for item in data["forms"].values()))
     print("Dictionary loaded:", dictionary is not None)
-    print("Reviewed paradigm loaded:", reviewed_paradigm is not None)
+    print("Reviewed paradigms loaded:", len(reviewed_paradigm))
     print("Forms with reviewed paradigm membership:", sum(bool(x["reviewed_paradigm_matches"]) for x in data["forms"].values()))
     corpus_forms = {form for form, item in data["forms"].items()
                     if item["corpus_frequency"] > 0}
