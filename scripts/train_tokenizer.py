@@ -62,26 +62,28 @@ def load_reviewed_aimo(path=REVIEWED_AIMO):
 
 
 
-def load_reviewed_p077(path=REVIEWED_P077):
-    """Load lexeme-specific confirmed splits, rejecting inconsistent records."""
-    if not path.is_file():
-        return {}
-    data = json.loads(path.read_text(encoding="utf-8"))
-    if data.get("id") != "P077" or data.get("review", {}).get("segmentation_status") != "linguist_confirmed":
-        raise ValueError("P077 segmentations are not confirmed")
+def load_reviewed_paradigms(directory=ROOT / "CorBo_vNext/annotations"):
+    """Read confirmed segmentations; never infer boundaries from paradigms."""
     result = {}
-    for entry in data["forms"]:
-        form = entry["form"].casefold()
-        segments = entry.get("segmentation")
-        if not isinstance(segments, list) or len(segments) != 2 or "".join(segments).casefold() != form:
-            raise ValueError("Invalid P077 segmentation: " + form)
-        if form in result:
-            raise ValueError("Duplicate P077 form: " + form)
-        result[form] = [part.casefold() for part in segments]
+    for path in sorted(Path(directory).glob("*_paradigm_reviewed_*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if data.get("review", {}).get("segmentation_status") != "linguist_confirmed":
+            continue
+        if data.get("review", {}).get("status") != "linguist_confirmed_paradigm_membership":
+            continue
+        for entry in data["forms"]:
+            form = entry["form"].casefold()
+            parts = entry.get("segmentation")
+            if not isinstance(parts, list) or not parts or not all(isinstance(x, str) and x for x in parts):
+                raise ValueError("Invalid reviewed segmentation: " + form)
+            parts = [x.casefold() for x in parts]
+            if "".join(parts) != form or form in result:
+                raise ValueError("Invalid or duplicate reviewed segmentation: " + form)
+            result[form] = {"segments": parts, "paradigm_id": data["id"], "lemma": data.get("lemma")}
     return result
 
 
-def train(rows, reviewed_aimo=None, reviewed_p077=None):
+def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
     forms = Counter()
     analyses = defaultdict(Counter)
     families = defaultdict(Counter)
@@ -266,18 +268,24 @@ def train(rows, reviewed_aimo=None, reviewed_p077=None):
     # Preserve attestation gating; never invent unattested inflections.
     reviewed = load_reviewed_aimo() if reviewed_aimo is None else reviewed_aimo
     confirmed.update(reviewed)
-    p077 = load_reviewed_p077() if reviewed_p077 is None else reviewed_p077
-    for surface, segments in p077.items():
-        if surface in confirmed and confirmed[surface] != segments:
-            raise ValueError('Conflicting confirmed segmentation for ' + surface)
-    confirmed.update(p077)
+    paradigm_reviews = load_reviewed_paradigms() if reviewed_paradigms is None else reviewed_paradigms
+    for surface, record in paradigm_reviews.items():
+        if surface in confirmed and confirmed[surface] != record["segments"]:
+            raise ValueError("Conflicting confirmed segmentation for " + surface)
     for surface, segments in confirmed.items():
         if surface in forms:
             candidates[surface] = {
                 "segments": segments, "support": forms[surface],
                 "status": "linguistically_confirmed",
-                "evidence": "reviewed_P077_ke_ge_allomorphy" if surface in p077 else "linguist_reviewed_analysis" if surface in reviewed else "explicit_confirmed_analysis",
-                **({"paradigm_id": "P077", "lemma": "ke"} if surface in p077 else {}),
+                "evidence": "linguist_reviewed_analysis" if surface in reviewed else "explicit_confirmed_analysis",
+            }
+    for surface, record in paradigm_reviews.items():
+        if surface in forms:
+            candidates[surface] = {
+                "segments": record["segments"], "support": forms[surface],
+                "status": "linguistically_confirmed",
+                "evidence": "reviewed_paradigm_" + record["paradigm_id"],
+                "paradigm_id": record["paradigm_id"], "lemma": record["lemma"],
             }
     # A nasal onset in i(n)- and the t onset before vowel-initial bases
     # require lexical confirmation; never infer them from spelling alone.
