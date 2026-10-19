@@ -7,8 +7,8 @@
   "review": {
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
-    "segmentation_status": "not_reviewed",
-    "note": "Linguist confirms cie as a variant of tugie (3REFL). Membership confirmed; segmentation and conditioning of variation not reviewed."
+    "segmentation_status": "partially_confirmed",
+    "note": "Linguist confirmed six segmentations with kie/gie allomorphy on 2026-10-19. Other forms (ie, eie, cie) remain unsegmented; do not infer their boundaries."
   },
   "id": "IE_NOME",
   "lemma": "ie",
@@ -18,13 +18,19 @@
       "person": "1SG",
       "form": "ikie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "i",
+        "kie"
+      ]
     },
     {
       "person": "2SG",
       "form": "akie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "a",
+        "kie"
+      ]
     },
     {
       "person": "3SG",
@@ -36,19 +42,28 @@
       "person": "1PL.EX",
       "form": "cegie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ce",
+        "gie"
+      ]
     },
     {
       "person": "1PL.IN",
       "form": "pagie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "pa",
+        "gie"
+      ]
     },
     {
       "person": "2PL",
       "form": "tagie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ta",
+        "gie"
+      ]
     },
     {
       "person": "3PL",
@@ -60,7 +75,10 @@
       "person": "3REFL",
       "form": "tugie",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "tu",
+        "gie"
+      ]
     },
     {
       "person": "3REFL",
@@ -69,5 +87,18 @@
       "segmentation": null,
       "variant_of": "tugie"
     }
-  ]
+  ],
+  "allomorphy": {
+    "surface_variants": [
+      "ie",
+      "kie",
+      "gie"
+    ],
+    "confirmed_segmented_variants": [
+      "kie",
+      "gie"
+    ],
+    "status": "linguist_confirmed_for_six_forms",
+    "scope": "IE_NOME only"
+  }
 }
