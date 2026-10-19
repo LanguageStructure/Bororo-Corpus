@@ -7,10 +7,10 @@
     "dictionary_paradigm": "P067"
   },
   "review": {
-    "status": "linguist_confirmed_paradigm_membership",
+    "status": "needs_source_verification",
     "date": "2026-10-19",
-    "segmentation_status": "partially_confirmed",
-    "note": "Confirmed stem allomorphs e, je (3SG), ie (after tu-). Prefix boundaries for other forms remain proposals, not reviewed segmentations."
+    "segmentation_status": "not_reviewed",
+    "note": "User flagged P067 paradigm as possibly incorrect on 2026-10-19. Previous membership and e/je/ie allomorphy confirmation withdrawn pending verification against dictionary source. Do not use for tokenizer or reviewed paradigm index."
   },
   "allomorphy": {
     "underlying_stem": "e",
@@ -24,7 +24,7 @@
       "ie": "after tu-"
     },
     "scope": "P067 only",
-    "status": "linguist_confirmed"
+    "status": "withdrawn_pending_source_verification"
   },
   "forms": [
     {
