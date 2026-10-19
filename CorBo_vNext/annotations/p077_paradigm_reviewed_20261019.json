@@ -1,7 +1,7 @@
 {
   "schema": "corbo-reviewed-lexical-paradigm/v1",
   "id": "P077",
-  "lemma": null,
+  "lemma": "ke",
   "gloss_pt": null,
   "source": {
     "dictionary_paradigm": "P077",
@@ -10,57 +10,96 @@
   "review": {
     "status": "linguist_confirmed_paradigm_membership",
     "date": "2026-10-19",
-    "segmentation_status": "not_reviewed",
-    "note": "Eight forms and person slots confirmed. Lexical lemma, gloss and k~g alternation analysis remain unconfirmed."
+    "segmentation_status": "linguist_confirmed",
+    "note": "Confirmed k~g stem allomorphy: ge after ce-, pa-, ta-, tu-; ke elsewhere in this paradigm. Segmentation reviewed for P077 only; do not generalize automatically."
   },
   "forms": [
     {
       "person": "1SG",
       "form": "ike",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "i",
+        "ke"
+      ]
     },
     {
       "person": "2SG",
       "form": "ake",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "a",
+        "ke"
+      ]
     },
     {
       "person": "3SG",
       "form": "uke",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "u",
+        "ke"
+      ]
     },
     {
       "person": "1PL.EX",
       "form": "cege",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ce",
+        "ge"
+      ]
     },
     {
       "person": "1PL.IN",
       "form": "page",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "pa",
+        "ge"
+      ]
     },
     {
       "person": "2PL",
       "form": "tage",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "ta",
+        "ge"
+      ]
     },
     {
       "person": "3PL",
       "form": "eke",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "e",
+        "ke"
+      ]
     },
     {
       "person": "3REFL",
       "form": "tuge",
       "gloss_pt": null,
-      "segmentation": null
+      "segmentation": [
+        "tu",
+        "ge"
+      ]
     }
-  ]
+  ],
+  "allomorphy": {
+    "underlying_stem": "ke",
+    "surface_variants": [
+      "ke",
+      "ge"
+    ],
+    "conditioned_ge_after": [
+      "ce",
+      "pa",
+      "ta",
+      "tu"
+    ],
+    "scope": "P077 only",
+    "status": "linguist_confirmed"
+  }
 }
