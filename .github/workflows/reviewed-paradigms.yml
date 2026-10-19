@@ -27,3 +27,23 @@ jobs:
           python-version: '3.11'
       - name: Validate reviewed paradigms
         run: python -m unittest discover -s tests -p 'test_reviewed_partial_paradigms.py' -v
+      - name: Rebuild tokenizer and morphology evidence
+        run: |
+          python scripts/train_tokenizer.py
+          python scripts/build_morphology_evidence.py
+      - name: Validate published index semantics
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('docs/data/morphology-evidence.json').read_text(encoding='utf-8'))
+          forms = data['forms']
+          for form, expected in {'ikie': ['ik','ie'], 'cegie': ['ceg','ie'], 'itae': ['it','ae'], 'puae': ['pu','ae']}.items():
+              entry = forms[form]
+              assert entry['reviewed_paradigm_matches'], form
+              if entry['corpus_frequency']:
+                  assert entry['tokenizer']['segments'] == expected, form
+          assert any(x['person'] == 'RECIP' for x in forms['puae']['reviewed_paradigm_matches'])
+          assert not any(x['paradigm_id'] == 'P067' for item in forms.values() for x in item['reviewed_paradigm_matches'])
+          print('Reviewed paradigms and quarantine validated')
+          PY
