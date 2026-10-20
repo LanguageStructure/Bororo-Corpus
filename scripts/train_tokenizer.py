@@ -79,10 +79,11 @@ def load_reviewed_paradigms(directory=ROOT / "CorBo_vNext/annotations"):
             if not isinstance(parts, list) or not parts or not all(isinstance(x, str) and x for x in parts):
                 raise ValueError("Invalid reviewed segmentation: " + form)
             # ce(g) + ie denotes the surface spans ceg + ie.
-            parts = [x.casefold().replace("(", "").replace(")", "") for x in parts]
+            notation = [x.casefold() for x in parts]
+            parts = [x.replace("(", "").replace(")", "") for x in notation]
             if "".join(parts) != form or form in result:
                 raise ValueError("Invalid or duplicate reviewed segmentation: " + form)
-            result[form] = {"segments": parts, "paradigm_id": data["id"], "lemma": data.get("lemma")}
+            result[form] = {"segments": parts, "segmentation_notation": notation, "paradigm_id": data["id"], "lemma": data.get("lemma")}
     return result
 
 
@@ -289,6 +290,7 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
                 "status": "linguistically_confirmed",
                 "evidence": "reviewed_paradigm_" + record["paradigm_id"],
                 "paradigm_id": record["paradigm_id"], "lemma": record["lemma"],
+                "segmentation_notation": record.get("segmentation_notation"),
             }
     # A nasal onset in i(n)- and the t onset before vowel-initial bases
     # require lexical confirmation; never infer them from spelling alone.
