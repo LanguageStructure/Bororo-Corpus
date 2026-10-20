@@ -62,11 +62,16 @@ def main():
     parser.add_argument("--size", type=int, default=150)
     parser.add_argument("--seed", type=int, default=20261020)
     parser.add_argument("--exclude", type=Path, help="UTF-8 file of development forms, one per line")
+    parser.add_argument("--exclude-reviewed", action="store_true", help="Exclude all forms in reviewed paradigms")
     args = parser.parse_args()
     if args.size < 1:
         parser.error("--size must be positive")
     model = json.loads(args.model.read_text(encoding="utf-8"))
     excluded = set(args.exclude.read_text(encoding="utf-8").splitlines()) if args.exclude else set()
+    if args.exclude_reviewed:
+        from lookup_reviewed_paradigm import load_all_paradigms
+        for paradigm in load_all_paradigms():
+            excluded.update(item["form"] for item in paradigm.get("forms", []) if item.get("form"))
     rows = sample(model, args.size, args.seed, exclude=excluded)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8", newline="") as file:
