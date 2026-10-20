@@ -13,11 +13,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def sample(model, size=150, seed=20261020):
+def sample(model, size=150, seed=20261020, exclude=None):
+    exclude = {form.casefold() for form in (exclude or set())}
     lexicon = model["lexicon"]
     candidates = model["candidates"]
     strata = {"confirmed": [], "proposed": [], "unanalysed": []}
     for form, item in lexicon.items():
+        if form.casefold() in exclude:
+            continue
         candidate = candidates.get(form)
         label = ("confirmed" if candidate and candidate.get("status") == "linguistically_confirmed"
                  else "proposed" if candidate else "unanalysed")
@@ -58,11 +61,13 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT / "tokenizer_gold_review.csv")
     parser.add_argument("--size", type=int, default=150)
     parser.add_argument("--seed", type=int, default=20261020)
+    parser.add_argument("--exclude", type=Path, help="UTF-8 file of development forms, one per line")
     args = parser.parse_args()
     if args.size < 1:
         parser.error("--size must be positive")
     model = json.loads(args.model.read_text(encoding="utf-8"))
-    rows = sample(model, args.size, args.seed)
+    excluded = set(args.exclude.read_text(encoding="utf-8").splitlines()) if args.exclude else set()
+    rows = sample(model, args.size, args.seed, exclude=excluded)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=["form", "frequency", "stratum", "segments", "review_status", "reviewer_note"])
