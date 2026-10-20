@@ -17,6 +17,7 @@ class ReviewedParadigmsTest(unittest.TestCase):
         reviews = load_reviewed_paradigms()
         self.assertEqual(reviews["ikie"]["segments"], ["ik", "ie"])
         self.assertEqual(reviews["cegie"]["segments"], ["ceg", "ie"])
+        self.assertEqual(reviews["cegie"]["segmentation_notation"], ["ce(g)", "ie"])
         self.assertEqual(reviews["eie"]["segments"], ["e", "ie"])
         self.assertEqual(reviews["itae"]["segments"], ["it", "ae"])
         self.assertEqual(reviews["puae"]["segments"], ["pu", "ae"])
