@@ -64,14 +64,53 @@ def analyze(form, model, min_lemma_frequency=3):
     return sorted(results, key=lambda x: (len(x["segments"]), x["segments"]))
 
 
+def diagnose(form, model, min_lemma_frequency=3):
+    """Explain why an OOV form did not receive a proposal."""
+    form = form.casefold().strip()
+    lexicon = model.get("lexicon", {})
+    if not form or not form.isalpha():
+        return {"form": form, "reason": "invalid_input"}
+    if form in lexicon:
+        return {"form": form, "reason": "already_attested",
+                "candidate": model.get("candidates", {}).get(form)}
+    possibilities = []
+    for prefix in ("", *PREFIXES):
+        if prefix and not form.startswith(prefix):
+            continue
+        remainder = form[len(prefix):]
+        for ending in ("", *ENDINGS):
+            if ending and not remainder.endswith(ending):
+                continue
+            stem = remainder[:-len(ending)] if ending else remainder
+            if len(stem) < 3 or (not prefix and not ending):
+                continue
+            entry = lexicon.get(stem)
+            if entry is None:
+                reason = "stem_not_attested"
+            elif entry.get("frequency", 0) < min_lemma_frequency:
+                reason = "insufficient_stem_frequency"
+            elif not any(a.get("lemma") == stem for a in entry.get("analyses", [])):
+                reason = "stem_not_independent_lemma"
+            else:
+                reason = "eligible_proposal"
+            possibilities.append({"prefix": prefix, "stem": stem,
+                                  "ending": ending, "reason": reason})
+    proposals = analyze(form, model, min_lemma_frequency)
+    return {"form": form, "reason": "proposals_found" if proposals else "no_licensed_proposal",
+            "proposals": proposals, "possible_decompositions": possibilities}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("form")
     parser.add_argument("--model", type=Path, default=ROOT / "docs/data/tokenizer-model.json")
     parser.add_argument("--min-lemma-frequency", type=int, default=3)
+    parser.add_argument("--diagnose", action="store_true", help="Show candidate stems and reasons for rejection")
     args = parser.parse_args()
     model = json.loads(args.model.read_text(encoding="utf-8"))
-    print(json.dumps(analyze(args.form, model, args.min_lemma_frequency), ensure_ascii=False, indent=2))
+    result = (diagnose(args.form, model, args.min_lemma_frequency) if args.diagnose
+              else analyze(args.form, model, args.min_lemma_frequency))
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
