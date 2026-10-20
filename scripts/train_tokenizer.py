@@ -8,6 +8,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
 import json
+import argparse
 from bororo_initial_alternations import find_attested_analysis
 from bororo_combined_morphology import analyze_combined
 
@@ -428,12 +429,23 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
 
 
 def main():
-    if not SOURCE.exists():
-        raise SystemExit(f"Missing CoNLL-U: {SOURCE}")
-    model = train(read_conllu(SOURCE))
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(model, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    print(f"{model['types']} types; {model['tokens']} tokens; {len(model['candidates'])} candidate segmentations -> {OUTPUT}")
+    parser = argparse.ArgumentParser(description="Train conservative CorBo tokenizer")
+    parser.add_argument("--source", type=Path, default=SOURCE)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
+    parser.add_argument("--exclude-forms", type=Path, help="UTF-8 file, one held-out surface form per line")
+    args = parser.parse_args()
+    if not args.source.exists():
+        raise SystemExit(f"Missing CoNLL-U: {args.source}")
+    excluded = set()
+    if args.exclude_forms:
+        excluded = {line.strip().casefold() for line in args.exclude_forms.read_text(encoding="utf-8").splitlines() if line.strip()}
+    rows = (row for row in read_conllu(args.source) if row[0] not in excluded)
+    model = train(rows)
+    model["held_out_forms_count"] = len(excluded)
+    model["held_out_protocol"] = "surface_form_exclusion" if excluded else "none"
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(model, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"{model['types']} types; {model['tokens']} tokens; {len(model['candidates'])} candidate segmentations -> {args.output}")
 
 
 if __name__ == "__main__":
