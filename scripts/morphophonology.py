@@ -11,6 +11,10 @@ Uso:
  python3 scripts/morphophonology.py --form ikodure
 """
 import argparse,json
+try:
+    from morph_suffixes import analyze as analyze_compositional
+except ImportError:
+    from scripts.morph_suffixes import analyze as analyze_compositional
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 # Análises diretamente confirmadas no diálogo de revisão, sem inventar FEATS.
@@ -46,6 +50,12 @@ def analyze(form):
                            "surface_reconstruction":"".join(seg)==word,
                            "allomorph":stem if stem!=lemma else None}
                 if candidate not in results:results.append(candidate)
+    for candidate in analyze_compositional(word)["analyses"]:
+        normalized={"lemma":candidate["lemma"],"morphemes":candidate["segments"],
+                    "status":"hypothesis","surface_reconstruction":candidate["surface_matches"],
+                    "allomorph":candidate["stem_allomorph"] if candidate["stem_allomorph"]!=candidate["lemma"] else None}
+        if normalized not in results:
+            results.append(normalized)
     results.sort(key=lambda r:(r["status"]!="confirmed",r["lemma"],len(r["morphemes"])))
     return {"form":form,"analyses":results,
             "note":"Hipóteses não equivalem a segmentações validadas; ausência de análise é permitida."}
