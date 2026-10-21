@@ -386,6 +386,8 @@ def collation_data():
  return out
 
 def main():
+ if not CORBO_CONLLU.is_file():
+  raise SystemExit(f'CoNLL-U principal ausente: {CORBO_CONLLU}. Publique o arquivo antes de reconstruir os indices.')
  cr=tsv(COQ);coq=[{'id':r['id'].strip(),'b':r['bororo'].strip(),'p':r['portuguese'].strip(),'collection':'Coqueiro','group':'Documentary texts','reviewed':True,'status':'reviewed'} for r in cr]
  hm=[]
  if HM.exists():
