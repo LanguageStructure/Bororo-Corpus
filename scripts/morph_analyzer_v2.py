@@ -26,7 +26,7 @@ CONFIRMED={
     "makore":[{"lemma":"mako","segments":["mako","re"]}],
     "cegodure":[{"lemma":"kodu","segments":["ce","kodu","re"]}],
     "aregodure":[{"lemma":"regodu","segments":["a","regodu","re"]}],
-    "cedaregodure":[{"lemma":"aregodu","segments":["ce(d)","are","godu","re"]}],
+    "cedaregodure":[{"lemma":"aregodu","segments":["ce","are","godu","re"],"surface_segments":["ced","are","godu","re"],"morphophonology":"ce → ced (alomorfia contextual; d não é morfema independente)"}],
     "cegodo":[{"lemma":"kodo","segments":["ce","kodo"]}],
 }
 # Cada alternante é uma hipótese explícita, não uma regra universal.
@@ -67,7 +67,9 @@ def analyze(form):
     for item in CONFIRMED.get(surface,[]):
         parts=item["segments"]
         analyses.append({"lemma":item["lemma"],"segments":parts,
-                         "status":"confirmed","surface_matches":"".join(parts)==surface})
+                         "status":"confirmed","surface_matches":"".join(parts)==surface,
+                         **({"surface_segments":item["surface_segments"]} if "surface_segments" in item else {}),
+                         **({"morphophonology":item["morphophonology"]} if "morphophonology" in item else {})})
     if surface in REVIEW_REQUIRED:
         return {"form":form,"analyses":analyses,
                 "review_required":True,
