@@ -14,6 +14,7 @@ def main():
     obj=json.loads(PATH.read_text(encoding="utf-8"))
     assert obj.get("schema")=="corbo-morph-integrated/v1","schema incorreto"
     entries=obj["entries"]
+    assert entries,"Índice vazio: não publique. Regenere após corrigir a leitura do CoNLL-U."
     forms=[x["form"] for x in entries]
     assert len(forms)==len(set(forms)),"formas duplicadas"
     assert all(isinstance(x["frequency"],int) and x["frequency"]>0 for x in entries),"frequência inválida"
