@@ -4,7 +4,7 @@
 Uso: python3 scripts/build_morph_integrated_index.py
 Saída: docs/data/morph-integrated-index.json
 """
-import csv,json,sys
+import json,sys
 from collections import defaultdict
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -13,22 +13,29 @@ from morph_analyzer_v2 import analyze
 INDEX=ROOT/"tokenizer_morph_paradigms.tsv"
 OUT=ROOT/"docs/data/morph-integrated-index.json"
 def build():
-    lexical=defaultdict(list)
-    with INDEX.open(encoding="utf-8",newline="") as f:
-        for row in csv.DictReader(f,delimiter="\t"):
-            lexical[row["form"].casefold()].append({
-                "lemma":row["lemma"],"upos":row["upos"] or None,
-                "feats":row["feats"] or None,"frequency":int(row["frequency"])
-            })
-    # The paradigm index omits occurrences without lemma. Read the corpus
-    # directly to include ALL types and accurate token frequencies.
+    # Extrai evidências diretamente do mesmo CoNLL-U usado para frequências.
+    # Não depende de TSV intermediário potencialmente desatualizado.
+    lexical_counts=defaultdict(lambda:defaultdict(int))
     forms=defaultdict(int)
     corpus=ROOT/"CorBo/Corpus_Files/CorBo.conllu"
     with corpus.open(encoding="utf-8-sig") as f:
         for line in f:
-            c=line.rstrip("\r\n").split("\t")
-            if len(c)==10 and c[0].isdigit() and c[1] not in ("","_"):
-                forms[c[1].casefold()]+=1
+            c=line.rstrip("\\r\\n").split("\\t")
+            if len(c)!=10 or not c[0].isdigit() or c[1] in ("","_"):
+                continue
+            form=c[1].casefold()
+            forms[form]+=1
+            lemma,upos,feats=c[2],c[3],c[5]
+            if lemma not in ("","_"):
+                lexical_counts[form][(lemma.casefold(),None if upos=="_" else upos,
+                                      None if feats=="_" else feats)]+=1
+    lexical={}
+    for form,counts in lexical_counts.items():
+        lexical[form]=sorted(
+            ({"lemma":lemma,"upos":upos,"feats":feats,"frequency":n}
+             for (lemma,upos,feats),n in counts.items()),
+            key=lambda r:(-r["frequency"],r["lemma"],r["upos"] or "")
+        )
     records=[]
     for form,freq in sorted(forms.items()):
         analyses=analyze(form)["analyses"]
