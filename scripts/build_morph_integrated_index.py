@@ -46,7 +46,9 @@ def build():
             "lexical_evidence":sorted(lexical.get(form,[]),key=lambda x:-x["frequency"]),
             "morphological_segmentations":[{
                 "segments":a["segments"],"proposed_stem_lemma":a["lemma"],
-                "status":a["status"],"surface_matches":a["surface_matches"]
+                "status":a["status"],"surface_matches":a["surface_matches"],
+                **({"surface_segments":a["surface_segments"]} if "surface_segments" in a else {}),
+                **({"morphophonology":a["morphophonology"]} if "morphophonology" in a else {})
             } for a in analyses]
         })
     result={
