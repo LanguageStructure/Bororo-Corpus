@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CorBo · Índice morfológico</title>
+<style>
+:root{--accent:#527066;--line:#e3e7e4;--muted:#6d7672}body{margin:0;background:#fbfcfb;color:#202624;font:15px/1.6 system-ui,-apple-system,sans-serif}main{max-width:950px;margin:auto;padding:32px 22px 80px}h1{font:600 40px Georgia,serif}a{color:var(--accent)}input{width:100%;padding:13px;border:1px solid var(--line);border-radius:7px;font:inherit;box-sizing:border-box}article{background:white;border:1px solid var(--line);border-radius:9px;padding:16px;margin-top:14px}.muted{color:var(--muted)}.badge{background:#eef3f1;padding:3px 8px;border-radius:6px;font-size:12px}ul{padding-left:20px}li{margin:5px 0}.mono{font-family:ui-monospace,monospace;overflow-wrap:anywhere}button{padding:8px 12px;border:1px solid var(--accent);background:white;color:var(--accent);border-radius:6px;cursor:pointer}</style></head>
+<body><main><p><a href="index.html">← CorBo</a> · <a href="word-search.html">Busca de palavras</a></p>
+<h1>Índice morfológico</h1>
+<p class="muted">Anotações lexicais do CoNLL-U e propostas de segmentação apresentadas separadamente. Uma hipótese não constitui análise validada.</p>
+<label for="query">Forma Bororo</label><input id="query" placeholder="Ex.: icare, ire, iture" autocomplete="off" aria-describedby="status">
+<p id="status" role="status" class="muted">Carregando índice…</p><div id="result"></div></main>
+<script>
+const $=id=>document.getElementById(id);
+const make=(tag,txt,cls)=>{const el=document.createElement(tag);if(txt!==undefined)el.textContent=txt;if(cls)el.className=cls;return el};
+let dictionary=new Map();
+function show(){
+ const q=$("query").value.trim().toLocaleLowerCase("pt-BR");
+ const host=$("result");host.replaceChildren();
+ if(!q)return;
+ const entry=dictionary.get(q);
+ if(!entry){host.append(make("p","Forma não encontrada neste índice.","muted"));return}
+ const head=make("article");head.append(make("h2",entry.form),make("p",entry.frequency+" ocorrências no corpus","muted"));host.append(head);
+ const lex=make("article");lex.append(make("h3","Evidência lexical · CoNLL-U"));
+ if(!entry.lexical_evidence.length)lex.append(make("p","Sem anotação lexical disponível.","muted"));
+ else{const ul=make("ul");for(const x of entry.lexical_evidence){const li=make("li");li.append(make("span",x.lemma+" · "+(x.upos||"UPOS não informado")+" · "+(x.feats||"FEATS não informado")+" · "+x.frequency+" ocorrências","mono"));ul.append(li)}lex.append(ul)}
+ host.append(lex);
+ const morph=make("article");morph.append(make("h3","Segmentações morfológicas"));
+ if(!entry.morphological_segmentations.length)morph.append(make("p","Sem segmentação disponível.","muted"));
+ else{const ul=make("ul");for(const x of entry.morphological_segmentations){const li=make("li");li.append(make("span",x.segments.join(" + "),"mono"),make("span"," · "+(x.status==="confirmed"?"Confirmada":"Hipótese"),"badge"));if(!x.surface_matches)li.append(make("span"," · representação não concatenativa","muted"));ul.append(li)}morph.append(ul)}
+ host.append(morph);
+}
+$("query").addEventListener("input",show);
+fetch("data/morph-integrated-index.json").then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(data=>{
+ if(data.schema!=="corbo-morph-integrated/v1"||!Array.isArray(data.entries))throw new Error("Formato inesperado");
+ dictionary=new Map(data.entries.map(e=>[e.form,e]));
+ $("status").textContent=data.stats.types.toLocaleString("pt-BR")+" formas disponíveis. Consulta exata, sem diferenciação de maiúsculas/minúsculas.";
+ const q=new URLSearchParams(location.search).get("form");if(q)$("query").value=q;show();
+}).catch(e=>{$("status").textContent="Índice ainda não publicado. Gere e valide docs/data/morph-integrated-index.json antes de disponibilizar esta página.";});
+</script></body></html>
