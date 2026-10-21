@@ -22,7 +22,7 @@ CONFIRMED={
     "egore":[{"lemma":"ako","segments":["e","ako","re"]}],
     "cedure":[{"lemma":"tu","segments":["ce","du","re"]}],
     "ure":[{"lemma":"re","segments":["u","re"]}],
-    "cenagore":[{"lemma":"ako","segments":["ce","nago","re"]}],
+    "cenagore":[{"lemma":"ako","segments":["cen","ako","re"]}],
     "makore":[{"lemma":"mako","segments":["mako","re"]}],
     "cegodure":[{"lemma":"kodu","segments":["ce","kodu","re"]}],
 }
