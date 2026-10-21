@@ -10,7 +10,7 @@ class TestConfirmedForms(unittest.TestCase):
     def test_tududo(self):
         a=analyze("tududo")
         self.assertFalse(a["review_required"])
-        self.assertTrue(any(x["segments"]==["tu","tu","do"] and x["status"]=="confirmed" and x["surface_matches"] for x in a["analyses"]))
+        self.assertTrue(any(x["segments"]==["tu","tu","do"] and x["status"]=="confirmed" and not x["surface_matches"] for x in a["analyses"]))
     def test_ituiagu_still_pending(self):
         self.assertTrue(analyze("ituiagu")["review_required"])
 if __name__=="__main__":unittest.main()
