@@ -1,0 +1,2 @@
+sent_id	text	morph_segments	status	comment
+99-5	Icare ikiarigodure pugeje .	i | ca | re | ik | iari | godu | re | pugeje | .	confirmed_by_user	Confirmed ik+iari+godu+re and unsplit pugeje; UD tokenization kept separately.
