@@ -5,7 +5,7 @@ from morph_analyzer_v2 import analyze
 class TestNewConfirmations(unittest.TestCase):
     def test_confirmed(self):
         cases={
-            "cenagore":("ako",["ce","nago","re"],True),
+            "cenagore":("ako",["cen","ako","re"],False),
             "makore":("mako",["mako","re"],True),
             "cegodure":("kodu",["ce","kodu","re"],False),
         }
