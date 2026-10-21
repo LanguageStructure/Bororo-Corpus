@@ -20,7 +20,7 @@ def build():
     corpus=ROOT/"CorBo/Corpus_Files/CorBo.conllu"
     with corpus.open(encoding="utf-8-sig") as f:
         for line in f:
-            c=line.rstrip("\\r\\n").split("\\t")
+            c=line.rstrip("\r\n").split("\t")
             if len(c)!=10 or not c[0].isdigit() or c[1] in ("","_"):
                 continue
             form=c[1].casefold()
@@ -36,6 +36,8 @@ def build():
              for (lemma,upos,feats),n in counts.items()),
             key=lambda r:(-r["frequency"],r["lemma"],r["upos"] or "")
         )
+    if not forms:
+        raise RuntimeError("Nenhum token CoNLL-U encontrado: verifique separadores TAB e caminho do corpus. Índice NÃO gerado.")
     records=[]
     for form,freq in sorted(forms.items()):
         analyses=analyze(form)["analyses"]
