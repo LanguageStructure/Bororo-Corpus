@@ -25,6 +25,9 @@ ALLOMORPHS={
     "mugu":("mugu",),
 }
 PREFIXES=("ce","pa","ta","et","tu","i","a","e","")
+# Conflitos atestados: não propor automaticamente uma base verbal.
+# A forma continua consultável por sua anotação lexical CoNLL-U.
+REVIEW_REQUIRED={"padui","tududo","ituiagu"}
 # Morfotática: terminações superficiais e análises propostas.
 ENDINGS={
     "modukare":("modu","ka","re"),
@@ -52,6 +55,10 @@ def analyze(form):
         parts=item["segments"]
         analyses.append({"lemma":item["lemma"],"segments":parts,
                          "status":"confirmed","surface_matches":"".join(parts)==surface})
+    if surface in REVIEW_REQUIRED:
+        return {"form":form,"analyses":analyses,
+                "review_required":True,
+                "note":"Conflito de lema no CoNLL-U: hipótese verbal automática suspensa até revisão linguística."}
     for lemma,stems in ALLOMORPHS.items():
         for prefix in PREFIXES:
             if not surface.startswith(prefix):
@@ -70,7 +77,7 @@ def analyze(form):
                 if not any(a["lemma"]==lemma and a["segments"]==parts for a in analyses):
                     analyses.append(proposal)
     analyses.sort(key=lambda a:(a["status"]!="confirmed",a["lemma"],len(a["segments"]),a["segments"]))
-    return {"form":form,"analyses":analyses,
+    return {"form":form,"analyses":analyses,"review_required":False,
             "note":"Hipóteses de superfície, sem FEATS; análises confirmadas têm precedência."}
 def main():
     p=argparse.ArgumentParser(description=__doc__)
