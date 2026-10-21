@@ -15,6 +15,8 @@ CONFIRMED={
     "icare":[{"lemma":"ca","segments":["i","ca","re"]}],
     "iwiegare":[{"lemma":"biega","segments":["i","wiega","re"]}],
     "ire":[{"lemma":"re","segments":["i","re"]}],
+    "padui":[{"lemma":"tu","segments":["pa","tu","i"]}],
+    "tududo":[{"lemma":"tu","segments":["tu","tu","do"]}],
 }
 # Cada alternante é uma hipótese explícita, não uma regra universal.
 ALLOMORPHS={
@@ -27,7 +29,7 @@ ALLOMORPHS={
 PREFIXES=("ce","pa","ta","et","tu","i","a","e","")
 # Conflitos atestados: não propor automaticamente uma base verbal.
 # A forma continua consultável por sua anotação lexical CoNLL-U.
-REVIEW_REQUIRED={"padui","tududo","ituiagu"}
+REVIEW_REQUIRED={"ituiagu"}
 # Morfotática: terminações superficiais e análises propostas.
 ENDINGS={
     "modukare":("modu","ka","re"),
