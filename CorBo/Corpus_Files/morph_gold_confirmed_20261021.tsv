@@ -1,4 +1,4 @@
 sent_id	text	morph_segments	status	comment
 99-5	Icare ikiarigodure pugeje .	i | ca | re | ik | iari | godu | re | pugeje | .	confirmed_by_user	Confirmed ik+iari+godu+re and unsplit pugeje; UD tokenization kept separately.
 122-5	Egore mare akaidumodukare jitu keje, are maku inai: imire ikemode ema.	e | ako | re | mare | ak | aidu | modu | ka | re | jitu | keje | , | a | re | maku | in | ai | : | imi | re | i | ke | mode | ema | .	confirmed_by_user_in_parts	Confirmed egore e+ako+re; akaidumodukare ak+aidu+modu+ka+re; are a+re; imire ikemode ema imi+re i+ke+mode ema. Other forms kept unsplit; punctuation follows original.
-137-5	Icare ioku akodure .	i | ca | re | i | joku | a | ko | du | re | .	confirmed_by_user	User corrected ioku analysis to i+joku; morph analysis is underlying, not strictly surface-concatenative.
+137-5	Icare ioku akodure .	i | ca | re | i | joku | a | kodu | re | .	confirmed_by_user	User corrected ioku to i+joku and akodure to a+kodu+re; underlying morph analysis.
