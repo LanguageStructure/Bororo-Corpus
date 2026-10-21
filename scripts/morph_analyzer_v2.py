@@ -25,6 +25,9 @@ CONFIRMED={
     "cenagore":[{"lemma":"ako","segments":["cen","ako","re"]}],
     "makore":[{"lemma":"mako","segments":["mako","re"]}],
     "cegodure":[{"lemma":"kodu","segments":["ce","kodu","re"]}],
+    "aregodure":[{"lemma":"regodu","segments":["a","regodu","re"]}],
+    "cedaregodure":[{"lemma":"aregodu","segments":["ce(d)","are","godu","re"]}],
+    "cegodo":[{"lemma":"kodo","segments":["ce","kodo"]}],
 }
 # Cada alternante é uma hipótese explícita, não uma regra universal.
 ALLOMORPHS={
