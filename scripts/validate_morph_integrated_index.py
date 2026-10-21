@@ -29,6 +29,14 @@ def main():
             assert morph["status"] in ("confirmed","hypothesis"),"status inválido"
             assert morph["segments"] and all(isinstance(s,str) and s for s in morph["segments"]),"segmentos inválidos"
             statuses[morph["status"]]+=1
+            if "surface_segments" in morph:
+                parts=morph["surface_segments"]
+                assert len(parts)==len(morph["segments"]), "alinhamento morfema/alomorfe inválido"
+                assert all(isinstance(p,str) and p for p in parts), "alomorfe vazio"
+                assert "".join(parts)==entry["form"], "segmentos superficiais não reconstroem a forma"
+                assert morph["status"]=="confirmed", "alomorfia superficial não revisada"
+            if "morphophonology" in morph:
+                assert "surface_segments" in morph, "processo morfofonológico sem realização superficial"
             if morph["surface_matches"]:
                 assert "".join(morph["segments"])==entry["form"],"reconstrução incorreta"
     report={"valid":True,"types":len(entries),"tokens":sum(x["frequency"] for x in entries),
