@@ -18,7 +18,7 @@ CONFIRMED={
     "padui":[{"lemma":"tu","segments":["pa","tu","i"]}],
     "tududo":[{"lemma":"tu","segments":["tu","tu","do"]}],
     "akore":[{"lemma":"ako","segments":["ako","re"]}],
-    "inagore":[{"lemma":"ako","segments":["i","nago","re"]}],
+    "inagore":[{"lemma":"ako","segments":["i","ako","re"],"surface_segments":["i","nago","re"],"morphophonology":"ako → nago na realização superficial de inagore"}],
     "egore":[{"lemma":"ako","segments":["e","ako","re"]}],
     "cedure":[{"lemma":"tu","segments":["ce","du","re"]}],
     "ure":[{"lemma":"re","segments":["u","re"]}],
