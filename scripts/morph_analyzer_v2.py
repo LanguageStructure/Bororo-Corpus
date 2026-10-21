@@ -17,6 +17,11 @@ CONFIRMED={
     "ire":[{"lemma":"re","segments":["i","re"]}],
     "padui":[{"lemma":"tu","segments":["pa","tu","i"]}],
     "tududo":[{"lemma":"tu","segments":["tu","tu","do"]}],
+    "akore":[{"lemma":"ako","segments":["ako","re"]}],
+    "inagore":[{"lemma":"ako","segments":["i","nago","re"]}],
+    "egore":[{"lemma":"ako","segments":["e","ako","re"]}],
+    "cedure":[{"lemma":"tu","segments":["ce","du","re"]}],
+    "ure":[{"lemma":"re","segments":["u","re"]}],
 }
 # Cada alternante é uma hipótese explícita, não uma regra universal.
 ALLOMORPHS={
