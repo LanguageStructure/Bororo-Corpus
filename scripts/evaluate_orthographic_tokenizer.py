@@ -19,7 +19,7 @@ REPORT=ROOT/"tokenizer_orthographic_baseline.json"
 ERRORS=ROOT/"tokenizer_orthographic_errors.tsv"
 
 # Baseline deliberadamente simples; não separa afixos de palavras.
-TOKEN_RE=re.compile(r"\w+(?:[’'-]\w+)*|[^\w\s]",re.UNICODE)
+TOKEN_RE=re.compile(r"\.{2,}|\w+(?:[’'-]\w+)*|[^\w\s]",re.UNICODE)
 
 def baseline(text):
     return [(m.start(),m.end(),m.group()) for m in TOKEN_RE.finditer(text)]
