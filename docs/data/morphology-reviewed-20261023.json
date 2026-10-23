@@ -643,6 +643,43 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível conforme revisão."
+    },
+    "ii": {
+      "segments": [
+        "i",
+        "ji"
+      ],
+      "status": "confirmed",
+      "note": "Análise confirmada em revisão manual de 2026-10-23."
+    },
+    "oinore": {
+      "segments": [
+        "oino",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Análise confirmada em revisão manual de 2026-10-23."
+    },
+    "jamedu": {
+      "segments": [
+        "jamedu"
+      ],
+      "status": "confirmed",
+      "note": "Análise confirmada em revisão manual de 2026-10-23."
+    },
+    "nono": {
+      "segments": [
+        "nono"
+      ],
+      "status": "confirmed",
+      "note": "Análise confirmada em revisão manual de 2026-10-23."
+    },
+    "marigu": {
+      "segments": [
+        "marigu"
+      ],
+      "status": "confirmed",
+      "note": "Análise confirmada em revisão manual de 2026-10-23."
     }
   }
 }
