@@ -1102,6 +1102,27 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "bito": {
+      "segments": [
+        "bito"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 71–80."
+    },
+    "caminhão": {
+      "segments": [
+        "caminhão"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 71–80."
+    },
+    "care": {
+      "segments": [
+        "care"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 71–80."
     }
   }
 }
