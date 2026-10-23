@@ -29,6 +29,15 @@ CONFIRMED={
     "cedaregodure":[{"lemma":"aregodu","segments":["ce","are","godu","re"],"surface_segments":["ced","are","godu","re"],"morphophonology":"ce → ced (alomorfia contextual; d não é morfema independente)"}],
     "cegodo":[{"lemma":"kodo","segments":["ce","kodo"]}],
 }
+# Análises revisadas ficam em arquivo de dados, não em exceções no código.
+REVIEWED_PATH=Path(__file__).resolve().parents[1]/"docs/data/morphology-reviewed-20261023.json"
+def load_reviewed():
+    if not REVIEWED_PATH.is_file():
+        return {}
+    data=json.loads(REVIEWED_PATH.read_text(encoding="utf-8"))
+    return data.get("entries",{})
+REVIEWED=load_reviewed()
+
 # Cada alternante é uma hipótese explícita, não uma regra universal.
 ALLOMORPHS={
     "tu":("tu","du"),
@@ -70,6 +79,14 @@ def analyze(form):
                          "status":"confirmed","surface_matches":"".join(parts)==surface,
                          **({"surface_segments":item["surface_segments"]} if "surface_segments" in item else {}),
                          **({"morphophonology":item["morphophonology"]} if "morphophonology" in item else {})})
+    reviewed=REVIEWED.get(surface)
+    if reviewed:
+        parts=reviewed["segments"]
+        analyses=[{"lemma":None,"segments":parts,"status":"confirmed",
+                   "surface_matches":"".join(parts)==surface,
+                   "source":"morphology-reviewed-20261023.json"}]
+        return {"form":form,"analyses":analyses,"review_required":False,
+                "note":"Análise manual confirmada; segmentos subjacentes."}
     if surface in REVIEW_REQUIRED:
         return {"form":form,"analyses":analyses,
                 "review_required":True,
