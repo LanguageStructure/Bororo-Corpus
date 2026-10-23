@@ -1,0 +1,548 @@
+{
+  "schema": "corbo-reviewed-morphology/v1",
+  "provenance": "Revisão linguística manual em conversa, 2026-10-23",
+  "notes": [
+    "Segmentos são subjacentes; a concatenação pode diferir da superfície.",
+    "Formas atômicas são análises contextuais, não proibições universais de segmentação.",
+    "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores."
+  ],
+  "entries": {
+    "cebagudure": {
+      "segments": [
+        "ce",
+        "pagudu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "egore": {
+      "segments": [
+        "e",
+        "ako",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "cebagudukaiagu": {
+      "segments": [
+        "ce",
+        "pagudu",
+        "ka",
+        "iagu"
+      ],
+      "status": "confirmed"
+    },
+    "ece": {
+      "segments": [
+        "e",
+        "ce"
+      ],
+      "status": "confirmed"
+    },
+    "etae": {
+      "segments": [
+        "e",
+        "ae"
+      ],
+      "status": "confirmed"
+    },
+    "tadare": {
+      "segments": [
+        "tada",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "imugure": {
+      "segments": [
+        "i",
+        "mugu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "jorumode": {
+      "segments": [
+        "joru",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "ikudure": {
+      "segments": [
+        "i",
+        "kudu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "kururoguce": {
+      "segments": [
+        "kuru",
+        "rogu",
+        "ce"
+      ],
+      "status": "confirmed"
+    },
+    "ere": {
+      "segments": [
+        "e",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "makudu": {
+      "segments": [
+        "maku",
+        "du"
+      ],
+      "status": "confirmed"
+    },
+    "kuricigodo": {
+      "segments": [
+        "kuricigo",
+        "do"
+      ],
+      "status": "confirmed"
+    },
+    "etai": {
+      "segments": [
+        "e",
+        "ai"
+      ],
+      "status": "confirmed"
+    },
+    "woere": {
+      "segments": [
+        "woe",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "tare": {
+      "segments": [
+        "ta",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "awure": {
+      "segments": [
+        "awu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "rakado": {
+      "segments": [
+        "raka",
+        "do"
+      ],
+      "status": "confirmed"
+    },
+    "kororogodure": {
+      "segments": [
+        "kororo",
+        "godu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "tabo": {
+      "segments": [
+        "t",
+        "apo"
+      ],
+      "status": "confirmed"
+    },
+    "ikera": {
+      "segments": [
+        "i(k)",
+        "era"
+      ],
+      "status": "confirmed"
+    },
+    "kiarire": {
+      "segments": [
+        "kiari",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "kiorodo": {
+      "segments": [
+        "kioro",
+        "do"
+      ],
+      "status": "confirmed"
+    },
+    "ceo": {
+      "segments": [
+        "ce",
+        "o"
+      ],
+      "status": "confirmed"
+    },
+    "tudumoduie": {
+      "segments": [
+        "tu",
+        "tu",
+        "modu",
+        "ie"
+      ],
+      "status": "confirmed"
+    },
+    "dukejere": {
+      "segments": [
+        "dukeje",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "baraedu": {
+      "segments": [
+        "barae",
+        "du"
+      ],
+      "status": "confirmed"
+    },
+    "tamagodo": {
+      "segments": [
+        "ta",
+        "mako",
+        "do"
+      ],
+      "status": "confirmed"
+    },
+    "rekodumode": {
+      "segments": [
+        "rekodu",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "tapiradoge": {
+      "segments": [
+        "tapira",
+        "doge"
+      ],
+      "status": "confirmed"
+    },
+    "ewogai": {
+      "segments": [
+        "e",
+        "bogai"
+      ],
+      "status": "confirmed"
+    },
+    "pagai": {
+      "segments": [
+        "pa",
+        "ai"
+      ],
+      "status": "confirmed"
+    },
+    "itore": {
+      "segments": [
+        "i",
+        "ore"
+      ],
+      "status": "confirmed"
+    },
+    "turiago": {
+      "segments": [
+        "tu",
+        "riago"
+      ],
+      "status": "confirmed"
+    },
+    "imedu": {
+      "segments": [
+        "ime",
+        "du"
+      ],
+      "status": "confirmed"
+    },
+    "akaiwore": {
+      "segments": [
+        "a",
+        "aiwo",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "aerudukare": {
+      "segments": [
+        "a",
+        "jorudu",
+        "ka",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "iiagu": {
+      "segments": [
+        "i",
+        "iagu"
+      ],
+      "status": "confirmed"
+    },
+    "ikeragu": {
+      "segments": [
+        "i",
+        "eragu"
+      ],
+      "status": "confirmed"
+    },
+    "cemode": {
+      "segments": [
+        "ce",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "cegeragu": {
+      "segments": [
+        "ce",
+        "eragu"
+      ],
+      "status": "confirmed"
+    },
+    "kabagurure": {
+      "segments": [
+        "kabaguru",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "cegera": {
+      "segments": [
+        "ce",
+        "era"
+      ],
+      "status": "confirmed"
+    },
+    "ituiagu": {
+      "segments": [
+        "i",
+        "tuaigu"
+      ],
+      "status": "confirmed"
+    },
+    "pudae": {
+      "segments": [
+        "pu",
+        "ae"
+      ],
+      "status": "confirmed"
+    },
+    "awo": {
+      "segments": [
+        "a",
+        "wo"
+      ],
+      "status": "confirmed"
+    },
+    "akeragu": {
+      "segments": [
+        "a",
+        "eragu"
+      ],
+      "status": "confirmed"
+    },
+    "toroie": {
+      "segments": [
+        "toro",
+        "ie"
+      ],
+      "status": "confirmed"
+    },
+    "emugumode": {
+      "segments": [
+        "e",
+        "mugu",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed"
+    },
+    "iwo": {
+      "segments": [
+        "i",
+        "wo"
+      ],
+      "status": "confirmed"
+    },
+    "mare": {
+      "segments": [
+        "mare"
+      ],
+      "status": "confirmed"
+    },
+    "ie": {
+      "segments": [
+        "ie"
+      ],
+      "status": "confirmed"
+    },
+    "padu": {
+      "segments": [
+        "padu"
+      ],
+      "status": "confirmed"
+    },
+    "ta": {
+      "segments": [
+        "ta"
+      ],
+      "status": "confirmed"
+    },
+    "kuiada": {
+      "segments": [
+        "kuiada"
+      ],
+      "status": "confirmed"
+    },
+    "barae": {
+      "segments": [
+        "barae"
+      ],
+      "status": "confirmed"
+    },
+    "diiero": {
+      "segments": [
+        "diiero"
+      ],
+      "status": "confirmed"
+    },
+    "buke": {
+      "segments": [
+        "buke"
+      ],
+      "status": "confirmed"
+    },
+    "bu": {
+      "segments": [
+        "bu"
+      ],
+      "status": "confirmed"
+    },
+    "woe": {
+      "segments": [
+        "woe"
+      ],
+      "status": "confirmed"
+    },
+    "ja": {
+      "segments": [
+        "ja"
+      ],
+      "status": "confirmed"
+    },
+    "moto": {
+      "segments": [
+        "moto"
+      ],
+      "status": "confirmed"
+    },
+    "anu": {
+      "segments": [
+        "anu"
+      ],
+      "status": "confirmed"
+    },
+    "duji": {
+      "segments": [
+        "duji"
+      ],
+      "status": "confirmed"
+    },
+    "tu": {
+      "segments": [
+        "tu"
+      ],
+      "status": "confirmed"
+    },
+    "nowu": {
+      "segments": [
+        "nowu"
+      ],
+      "status": "confirmed"
+    },
+    "ji": {
+      "segments": [
+        "ji"
+      ],
+      "status": "confirmed"
+    },
+    "du": {
+      "segments": [
+        "du"
+      ],
+      "status": "confirmed"
+    },
+    "bogai": {
+      "segments": [
+        "bogai"
+      ],
+      "status": "confirmed"
+    },
+    "boe": {
+      "segments": [
+        "boe"
+      ],
+      "status": "confirmed"
+    },
+    "maku": {
+      "segments": [
+        "maku"
+      ],
+      "status": "confirmed"
+    },
+    "ure": {
+      "segments": [
+        "ure"
+      ],
+      "status": "confirmed"
+    },
+    "ia": {
+      "segments": [
+        "ia"
+      ],
+      "status": "confirmed"
+    },
+    "kodo": {
+      "segments": [
+        "kodo"
+      ],
+      "status": "confirmed"
+    },
+    "ae": {
+      "segments": [
+        "ae"
+      ],
+      "status": "confirmed"
+    },
+    "pugeje": {
+      "segments": [
+        "pugeje"
+      ],
+      "status": "confirmed"
+    },
+    "toro": {
+      "segments": [
+        "toro"
+      ],
+      "status": "confirmed"
+    },
+    "keje": {
+      "segments": [
+        "keje"
+      ],
+      "status": "confirmed"
+    }
+  }
+}
