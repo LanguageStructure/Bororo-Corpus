@@ -891,6 +891,55 @@
       ],
       "status": "confirmed",
       "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "tugeragu": {
+      "segments": [
+        "tu",
+        "eragu"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "nonore": {
+      "segments": [
+        "nono",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "cei": {
+      "segments": [
+        "ce",
+        "ji"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "itaiwore": {
+      "segments": [
+        "i",
+        "aiwo",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "pemegado": {
+      "segments": [
+        "pemega",
+        "do"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "ike": {
+      "segments": [
+        "i",
+        "ke"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
     }
   }
 }
