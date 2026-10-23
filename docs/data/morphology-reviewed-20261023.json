@@ -5,7 +5,8 @@
     "Segmentos são subjacentes; a concatenação pode diferir da superfície.",
     "Formas atômicas são análises contextuais, não proibições universais de segmentação.",
     "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores.",
-    "to: formas homófonas distintas; análise dependente do contexto. Não atribuir segmentação única por tipo."
+    "to: formas homófonas distintas; análise dependente do contexto. Não atribuir segmentação única por tipo.",
+    "kare: análise pendente. Usuário propõe possível marcação plural por -e sobre karo; não confirmado. Verificar alternância karo/kare e contexto antes de registrar segmentação."
   ],
   "entries": {
     "cebagudure": {
@@ -680,6 +681,70 @@
       ],
       "status": "confirmed",
       "note": "Análise confirmada em revisão manual de 2026-10-23."
+    },
+    "cewu": {
+      "segments": [
+        "cewu"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "paru": {
+      "segments": [
+        "paru"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "a": {
+      "segments": [
+        "a"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "kuri": {
+      "segments": [
+        "kuri"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "ema": {
+      "segments": [
+        "ema"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "reo": {
+      "segments": [
+        "reo"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "piji": {
+      "segments": [
+        "piji"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "ko": {
+      "segments": [
+        "ko"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada na revisão."
+    },
+    "ei": {
+      "segments": [
+        "e",
+        "ji"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada na revisão."
     }
   }
 }
