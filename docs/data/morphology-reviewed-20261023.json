@@ -7,7 +7,8 @@
     "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores.",
     "to: formas homófonas distintas; análise dependente do contexto. Não atribuir segmentação única por tipo.",
     "kare: análise pendente. Usuário propõe possível marcação plural por -e sobre karo; não confirmado. Verificar alternância karo/kare e contexto antes de registrar segmentação.",
-    "jice: análise pendente; usuário não tem certeza sobre segmentação. Não confirmar automaticamente."
+    "jice: análise pendente; usuário não tem certeza sobre segmentação. Não confirmar automaticamente.",
+    "ure = u + re permanece confirmado no analisador morfológico; removida entrada atômica conflitante."
   ],
   "entries": {
     "cebagudure": {
@@ -502,12 +503,6 @@
     "maku": {
       "segments": [
         "maku"
-      ],
-      "status": "confirmed"
-    },
-    "ure": {
-      "segments": [
-        "ure"
       ],
       "status": "confirmed"
     },
