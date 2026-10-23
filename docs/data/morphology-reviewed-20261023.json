@@ -753,6 +753,69 @@
       ],
       "status": "confirmed",
       "note": "ia + ge; ge marca plural. Confirmado pelo usuário em 2026-10-23."
+    },
+    "bai": {
+      "segments": [
+        "bai"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "pa": {
+      "segments": [
+        "pa"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "taci": {
+      "segments": [
+        "taci"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "apo": {
+      "segments": [
+        "apo"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "ai": {
+      "segments": [
+        "ai"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "kowuje": {
+      "segments": [
+        "kowuje"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "meri": {
+      "segments": [
+        "meri"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "o": {
+      "segments": [
+        "o"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "koia": {
+      "segments": [
+        "koia"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
     }
   }
 }
