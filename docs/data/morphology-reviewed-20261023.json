@@ -968,6 +968,48 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível confirmada pelo usuário na revisão 51–60."
+    },
+    "ebo": {
+      "segments": [
+        "e",
+        "apo"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
+    },
+    "boere": {
+      "segments": [
+        "boe",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
+    },
+    "pawo": {
+      "segments": [
+        "pa",
+        "wo"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
+    },
+    "itaregodure": {
+      "segments": [
+        "i",
+        "are",
+        "godu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
+    },
+    "akedudo": {
+      "segments": [
+        "akedu",
+        "do"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
     }
   }
 }
