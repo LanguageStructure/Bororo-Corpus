@@ -1159,6 +1159,14 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada pelo usuário na revisão das formas 81–90."
+    },
+    "tai": {
+      "segments": [
+        "ta",
+        "ji"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão da forma 85."
     }
   }
 }
