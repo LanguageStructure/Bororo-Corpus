@@ -940,6 +940,34 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada pelo usuário na revisão das formas 51–60."
+    },
+    "karega": {
+      "segments": [
+        "karega"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 51–60."
+    },
+    "kodi": {
+      "segments": [
+        "kodi"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 51–60."
+    },
+    "barogwa": {
+      "segments": [
+        "barogwa"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 51–60."
+    },
+    "woje": {
+      "segments": [
+        "woje"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 51–60."
     }
   }
 }
