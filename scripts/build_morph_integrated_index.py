@@ -56,7 +56,7 @@ def build(corpus=None, output=None):
         })
     result={
         "schema":"corbo-morph-integrated/v1",
-        "source":str(corpus.relative_to(ROOT)) if ROOT in corpus.resolve().parents else str(corpus),
+        "source":str(corpus.resolve().relative_to(ROOT)) if ROOT in corpus.resolve().parents else str(corpus.resolve()),
         "notes":[
             "LEXICAL: lema/UPOS/FEATS são evidências CoNLL-U; não são fronteiras morfológicas.",
             "MORPHOLOGY: segmentações são independentes do lema lexical.",
