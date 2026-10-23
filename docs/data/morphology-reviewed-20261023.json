@@ -1045,6 +1045,63 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
+    },
+    "tugera": {
+      "segments": [
+        "tu",
+        "era"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "bokware": {
+      "segments": [
+        "bokwa",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "akedure": {
+      "segments": [
+        "akedu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "imode": {
+      "segments": [
+        "i",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "ikodo": {
+      "segments": [
+        "i",
+        "kodo"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "mugudo": {
+      "segments": [
+        "mugu",
+        "do"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
+    },
+    "dukodire": {
+      "segments": [
+        "dukodi",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 71–80."
     }
   }
 }
