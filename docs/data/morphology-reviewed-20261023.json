@@ -816,6 +816,81 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível confirmada pelo usuário; a análise por ocorrência pode depender do contexto."
+    },
+    "ino": {
+      "segments": [
+        "i",
+        "o"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário em revisão das formas 41–50."
+    },
+    "kodire": {
+      "segments": [
+        "kodi",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário em revisão das formas 41–50."
+    },
+    "eture": {
+      "segments": [
+        "e",
+        "tu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário em revisão das formas 41–50."
+    },
+    "jire": {
+      "segments": [
+        "ji",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário em revisão das formas 41–50."
+    },
+    "kuru": {
+      "segments": [
+        "kuru"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "reko": {
+      "segments": [
+        "reko"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "padre": {
+      "segments": [
+        "padre"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "gu": {
+      "segments": [
+        "gu"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "m": {
+      "segments": [
+        "m"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
+    },
+    "meriri": {
+      "segments": [
+        "meriri"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna conforme revisão das formas 41–50; 'm' requer auditoria de tokenização."
     }
   }
 }
