@@ -6,7 +6,8 @@
     "Formas atômicas são análises contextuais, não proibições universais de segmentação.",
     "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores.",
     "to: formas homófonas distintas; análise dependente do contexto. Não atribuir segmentação única por tipo.",
-    "kare: análise pendente. Usuário propõe possível marcação plural por -e sobre karo; não confirmado. Verificar alternância karo/kare e contexto antes de registrar segmentação."
+    "kare: análise pendente. Usuário propõe possível marcação plural por -e sobre karo; não confirmado. Verificar alternância karo/kare e contexto antes de registrar segmentação.",
+    "jice: análise pendente; usuário não tem certeza sobre segmentação. Não confirmar automaticamente."
   ],
   "entries": {
     "cebagudure": {
@@ -1167,6 +1168,107 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada pelo usuário na revisão da forma 85."
+    },
+    "okwa": {
+      "segments": [
+        "okwa"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "barigu": {
+      "segments": [
+        "barigu"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "reno": {
+      "segments": [
+        "reno"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "goro": {
+      "segments": [
+        "goro"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "kajeje": {
+      "segments": [
+        "kajeje"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "kode": {
+      "segments": [
+        "kode"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "tawuje": {
+      "segments": [
+        "tawuje"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "joru": {
+      "segments": [
+        "joru"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "ika": {
+      "segments": [
+        "ika"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "imi": {
+      "segments": [
+        "imi"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "karo": {
+      "segments": [
+        "karo"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "ma": {
+      "segments": [
+        "ma"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada em revisão manual."
+    },
+    "mugure": {
+      "segments": [
+        "mugu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada em revisão manual."
+    },
+    "kurirewu": {
+      "segments": [
+        "kuri",
+        "re",
+        "wu"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada em revisão manual."
     }
   }
 }
