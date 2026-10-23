@@ -608,6 +608,41 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível conforme revisão."
+    },
+    "jii": {
+      "segments": [
+        "jii"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "mato": {
+      "segments": [
+        "mato"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna, conforme revisão."
+    },
+    "aroe": {
+      "segments": [
+        "aroe"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "ca": {
+      "segments": [
+        "ca"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "tugu": {
+      "segments": [
+        "tugu"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
     }
   }
 }
