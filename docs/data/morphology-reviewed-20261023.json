@@ -745,6 +745,14 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada na revisão."
+    },
+    "iage": {
+      "segments": [
+        "ia",
+        "ge"
+      ],
+      "status": "confirmed",
+      "note": "ia + ge; ge marca plural. Confirmado pelo usuário em 2026-10-23."
     }
   }
 }
