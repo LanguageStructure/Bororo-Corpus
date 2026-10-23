@@ -1010,6 +1010,41 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada pelo usuário na revisão das formas 61–70."
+    },
+    "pe": {
+      "segments": [
+        "pe"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
+    },
+    "tada": {
+      "segments": [
+        "tada"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
+    },
+    "kodu": {
+      "segments": [
+        "kodu"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
+    },
+    "kado": {
+      "segments": [
+        "kado"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
+    },
+    "tuku": {
+      "segments": [
+        "tuku"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível confirmada pelo usuário na revisão 61–70."
     }
   }
 }
