@@ -86,6 +86,38 @@ const trainedCandidates=new Map();
 const trainedCandidateEvidence=new Map();
 let trainedLexicon=null;
 let v2Analyses=new Map();
+let reviewedMorphology=new Map();
+async function loadReviewedMorphology(){
+  try{
+    const response=await fetch("data/morphology-reviewed-20261023.json",{cache:"no-cache"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    const data=await response.json();
+    reviewedMorphology=new Map(Object.entries(data.entries||{}));
+    render();
+  }catch(error){console.warn("Revisões morfológicas indisponíveis:",error);}
+}
+function reviewedTokens(token){
+  const lower=token.form.toLocaleLowerCase("pt-BR");
+  // to, kare e jice exigem revisão contextual; não promover análises por tipo.
+  if(["to","kare","jice"].includes(lower))return [{...token,status:"unanalysed"}];
+  const entry=reviewedMorphology.get(lower);
+  if(!entry || entry.status!=="confirmed" || !Array.isArray(entry.segments) || !entry.segments.length)return null;
+  const parts=entry.segments;
+  const analysis=parts.join(" + ");
+  if(parts.length===1)return [{...token,status:"confirmed",analysis,review_kind:"atomic"}];
+  // Segmentos subjacentes não devem ser exibidos como fatias da superfície.
+  if(parts.join("").toLocaleLowerCase("pt-BR")!==lower)
+    return [{...token,status:"confirmed",analysis,review_kind:"nonconcatenative"}];
+  let offset=0;
+  return parts.map(part=>{
+    const result={form:token.form.slice(offset,offset+part.length),
+      start:token.start+offset,end:token.start+offset+part.length,
+      whole:token.form,status:"confirmed",analysis,review_kind:"segmented"};
+    offset+=part.length;
+    return result;
+  });
+}
+
 async function loadV2(){try{const r=await fetch("data/tokenizer-v2.json",{cache:"no-cache"});if(!r.ok)throw Error("HTTP "+r.status);const data=await r.json();if(data.schema!=="corbo-tokenizer-v2/v1")throw Error("schema");v2Analyses=new Map(Object.entries(data.analyses||{}));render();}catch(e){console.warn("Tokenizador v2 indisponível:",e);}}
 let grammaticalLexicon=null;
 async function loadGrammaticalIndex(){try{const r=await fetch('data/grammatical-index.json',{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.schema!=='corbo-grammatical-index/v1')throw Error('schema');grammaticalLexicon=new Map(Object.entries(d.lexicon||{}));render();}catch(e){console.warn('Índice gramatical indisponível:',e);}}
@@ -150,6 +182,8 @@ function productiveParts(word){
   return null;
 }
 function splitKnownForm(t){
+  const reviewed=reviewedTokens(t);
+  if(reviewed)return reviewed;
   const v2=v2Analyses.get(t.form.toLocaleLowerCase("pt-BR"));
   // Curated browser analyses take precedence over statistical proposals.
   if(v2 && (v2.status==="confirmed" || (v2.status==="proposed" && !knownSegments[t.form.toLocaleLowerCase("pt-BR")])) && Array.isArray(v2.segments)){
@@ -350,5 +384,6 @@ document.getElementById("copy").insertAdjacentElement("beforebegin",auditButton)
 auditButton.addEventListener("click",showAudit);
 document.getElementById('copy').addEventListener('click',async()=>{const v=selectedTokens(input.value).map(t=>t.form).join(' | ');try{await navigator.clipboard.writeText(v);info.textContent='Tokens copiados.';}catch{info.textContent='Cópia automática indisponível neste navegador.';}});
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
-runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex();loadV2();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex();loadReviewedMorphology();
+loadV2();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 </script></body></html>
