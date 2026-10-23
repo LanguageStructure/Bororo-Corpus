@@ -4,7 +4,8 @@
   "notes": [
     "Segmentos são subjacentes; a concatenação pode diferir da superfície.",
     "Formas atômicas são análises contextuais, não proibições universais de segmentação.",
-    "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores."
+    "ituiagu=i+tuaigu conforme revisão; reavaliar conflitos com dados anteriores.",
+    "to: formas homófonas distintas; análise dependente do contexto. Não atribuir segmentação única por tipo."
   ],
   "entries": {
     "cebagudure": {
@@ -543,6 +544,35 @@
         "keje"
       ],
       "status": "confirmed"
+    },
+    "kae": {
+      "segments": [
+        "kae"
+      ],
+      "status": "confirmed",
+      "note": "Posposição indivisível."
+    },
+    "rugadu": {
+      "segments": [
+        "rugadu"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna."
+    },
+    "uu": {
+      "segments": [
+        "uu"
+      ],
+      "status": "confirmed",
+      "note": "Resposta afirmativa: 'sim'."
+    },
+    "cere": {
+      "segments": [
+        "ce",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada."
     }
   }
 }
