@@ -15,8 +15,9 @@ def coverage(entries):
         freq=row["frequency"]
         analyses=row.get("morphological_segmentations",[])
         statuses={a.get("status") for a in analyses}
-        if "confirmed" in statuses:
-            group="confirmed"
+        confirmed=[a for a in analyses if a.get("status")=="confirmed"]
+        if confirmed:
+            group="confirmed_segmented" if any(len(a.get("segments",[]))>1 for a in confirmed) else "confirmed_atomic"
         elif "hypothesis" in statuses:
             group="hypothesis"
         else:
@@ -29,11 +30,15 @@ def coverage(entries):
     total_types=len(entries)
     total_tokens=sum(row["frequency"] for row in entries)
     result={"total_types":total_types,"total_tokens":total_tokens}
-    for group in ("confirmed","hypothesis","unanalysed","lexical"):
+    for group in ("confirmed_segmented","confirmed_atomic","hypothesis","unanalysed","lexical"):
         for unit,total in (("types",total_types),("tokens",total_tokens)):
             value=counts[group+"_"+unit]
             result[group+"_"+unit]=value
             result[group+"_"+unit+"_pct"]=round(100*value/total,2) if total else 0
+    for unit,total in (("types",total_types),("tokens",total_tokens)):
+        value=counts["confirmed_segmented_"+unit]+counts["confirmed_atomic_"+unit]
+        result["confirmed_"+unit]=value
+        result["confirmed_"+unit+"_pct"]=round(100*value/total,2) if total else 0
     return result
 
 def main():
