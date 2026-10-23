@@ -573,6 +573,41 @@
       ],
       "status": "confirmed",
       "note": "Segmentação confirmada."
+    },
+    "awu": {
+      "segments": [
+        "awu"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "oino": {
+      "segments": [
+        "oino"
+      ],
+      "status": "confirmed",
+      "note": "Sem segmentação interna, conforme revisão."
+    },
+    "dukeje": {
+      "segments": [
+        "dukeje"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "je": {
+      "segments": [
+        "je"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
+    },
+    "pobo": {
+      "segments": [
+        "pobo"
+      ],
+      "status": "confirmed",
+      "note": "Forma indivisível conforme revisão."
     }
   }
 }
