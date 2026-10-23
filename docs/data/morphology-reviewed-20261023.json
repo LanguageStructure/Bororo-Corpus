@@ -1123,6 +1123,42 @@
       ],
       "status": "confirmed",
       "note": "Forma indivisível confirmada pelo usuário na revisão 71–80."
+    },
+    "etaregodure": {
+      "segments": [
+        "e",
+        "are",
+        "godu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 81–90."
+    },
+    "uture": {
+      "segments": [
+        "u",
+        "tu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 81–90."
+    },
+    "kodure": {
+      "segments": [
+        "kodu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 81–90."
+    },
+    "amode": {
+      "segments": [
+        "a",
+        "modu",
+        "re"
+      ],
+      "status": "confirmed",
+      "note": "Segmentação confirmada pelo usuário na revisão das formas 81–90."
     }
   }
 }
