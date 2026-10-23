@@ -4,7 +4,7 @@
 Uso: python3 scripts/build_morph_integrated_index.py
 Saída: docs/data/morph-integrated-index.json
 """
-import json,sys
+import argparse,json,sys
 from collections import defaultdict
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -12,12 +12,15 @@ sys.path.insert(0,str(ROOT/"scripts"))
 from morph_analyzer_v2 import analyze
 INDEX=ROOT/"tokenizer_morph_paradigms.tsv"
 OUT=ROOT/"docs/data/morph-integrated-index.json"
-def build():
+def build(corpus=None, output=None):
     # Extrai evidências diretamente do mesmo CoNLL-U usado para frequências.
     # Não depende de TSV intermediário potencialmente desatualizado.
     lexical_counts=defaultdict(lambda:defaultdict(int))
     forms=defaultdict(int)
-    corpus=ROOT/"CorBo/Corpus_Files/CorBo.conllu"
+    corpus=Path(corpus) if corpus else ROOT/"CorBo/Corpus_Files/CorBo.conllu"
+    if not corpus.is_file():
+        raise FileNotFoundError(f"Corpus não encontrado: {corpus}")
+    output=Path(output) if output else OUT
     with corpus.open(encoding="utf-8-sig") as f:
         for line in f:
             c=line.rstrip("\r\n").split("\t")
@@ -53,7 +56,7 @@ def build():
         })
     result={
         "schema":"corbo-morph-integrated/v1",
-        "source":"CorBo/Corpus_Files/CorBo.conllu",
+        "source":str(corpus.relative_to(ROOT)) if ROOT in corpus.resolve().parents else str(corpus),
         "notes":[
             "LEXICAL: lema/UPOS/FEATS são evidências CoNLL-U; não são fronteiras morfológicas.",
             "MORPHOLOGY: segmentações são independentes do lema lexical.",
@@ -65,9 +68,13 @@ def build():
                  "types_with_segmentation":sum(bool(r["morphological_segmentations"]) for r in records)},
         "entries":records
     }
-    OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    output.parent.mkdir(parents=True,exist_ok=True)
+    output.write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     print(json.dumps(result["stats"],ensure_ascii=False,indent=2))
-    print("Índice:",OUT.relative_to(ROOT))
+    print("Índice:",output)
 if __name__=="__main__":
-    build()
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--corpus",type=Path,help="Arquivo CoNLL-U de entrada (padrão: CorBo.conllu)")
+    parser.add_argument("--output",type=Path,help="JSON de saída")
+    args=parser.parse_args()
+    build(args.corpus,args.output)
