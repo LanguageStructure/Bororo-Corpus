@@ -7,7 +7,7 @@ from pathlib import Path
 from build_morph_integrated_index import build
 
 ROOT=Path(__file__).resolve().parents[1]
-DEFAULT=ROOT/"CorBo/Corpus_Files/corbo_fix(20261018-230729).conllu"
+DEFAULT=ROOT/"CorBo/Corpus_Files/CorBo_20261027.conllu"
 
 def coverage(entries):
     counts=Counter()

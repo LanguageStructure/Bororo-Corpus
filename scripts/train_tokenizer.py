@@ -13,7 +13,7 @@ from bororo_initial_alternations import find_attested_analysis
 from bororo_combined_morphology import analyze_combined
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "CorBo/Corpus_Files/corbo_fix(20261018-230729).conllu"
+SOURCE = ROOT / "CorBo/Corpus_Files/CorBo_20261027.conllu"
 OUTPUT = ROOT / "docs/data/tokenizer-model.json"
 REVIEWED_AIMO = ROOT / "CorBo_vNext/annotations/aimo_reviewed_20261018.json"
 REVIEWED_P077 = ROOT / "CorBo_vNext/annotations/p077_paradigm_reviewed_20261019.json"
