@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CORBO_CONLLU=ROOT/'CorBo/Corpus_Files/CorBo_20261027.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
+BIBOR=ROOT/'CorBo_vNext/texts/biblia-oral/biblia_oral_interlinear.tsv'
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
  return str(s or '').replace('Y','U').replace('y','u')
@@ -401,9 +402,15 @@ def main():
  if BOE.exists():
   for r in tsv(BOE):
    rev=(r.get('reviewed') or '').strip();src=(r.get('source') or '').strip();boe.append({'id':r['id'].strip(),'b':rev or src,'source':src,'p':(r.get('portuguese') or '').strip(),'collection':'Boe Ero','group':'Documentary texts','allow_empty_b':not bool(src),'section':(r.get('section') or '').strip(),'title':(r.get('title') or '').strip(),'speaker':(r.get('speaker') or '').strip(),'translator':(r.get('translator') or '').strip(),'source_number':(r.get('source_number') or '').strip(),'translation_number':(r.get('translation_number') or '').strip(),'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
- bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+bm+etn+pc+arc+par;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ biboral=[]
+ if BIBOR.exists():
+  for r in tsv(BIBOR):
+   source=(r.get('source') or '').strip()
+   reviewed=(r.get('reviewed') or '').strip()
+   biboral.append({'id':r['id'].strip(),'b':reviewed or source,'source':source,'p':(r.get('portuguese_reviewed') or r.get('portuguese') or '').strip(),'collection':'Marigudu','group':'Documentary texts','title':'Marigudu','subtitle':'Criação segundo a Bíblia','reviewed':False,'status':'provisional','editorial_note':(r.get('editorial_note') or '').strip()})
+ bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
+ outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu)
  by_collection=Counter(u.get('collection') or '(sem coleção)' for u in allu)
@@ -415,5 +422,5 @@ def main():
  md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(CORBO_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(CORBO_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  (OUT/'pending-annotations.json').write_text(json.dumps(pending_annotations(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
- print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
+ print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(biboral)} de Marigudu, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
