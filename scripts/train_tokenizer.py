@@ -9,6 +9,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 import json
 import argparse
+import hashlib
 from bororo_initial_alternations import find_attested_analysis
 from bororo_combined_morphology import analyze_combined
 from bororo_morphotactics import assess as assess_verbal_suffixes, CONFIRMED_SEQUENCES, UNATTESTED_SEQUENCES, EXCLUDED_PAIRS
@@ -508,6 +509,9 @@ def main():
         excluded = {line.strip().casefold() for line in args.exclude_forms.read_text(encoding="utf-8").splitlines() if line.strip()}
     rows = (row for row in read_conllu(args.source) if row[0] not in excluded)
     model = train(rows)
+    # Record the actual input, not the default SOURCE constant, for reproducibility.
+    model["source"] = str(args.source.resolve().relative_to(ROOT.resolve())) if args.source.resolve().is_relative_to(ROOT.resolve()) else str(args.source.resolve())
+    model["source_sha256"] = hashlib.sha256(args.source.read_bytes()).hexdigest()
     model["held_out_forms_count"] = len(excluded)
     model["held_out_protocol"] = "surface_form_exclusion" if excluded else "none"
     args.output.parent.mkdir(parents=True, exist_ok=True)
