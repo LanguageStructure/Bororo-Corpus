@@ -17,6 +17,7 @@ def audit(model):
     reviewed = model.get("reviewed_analyses", {})
     issues = []
     counts = Counter()
+    underlying_nonconcatenative = []
 
     for form, candidate in sorted(candidates.items()):
         counts["candidates"] += 1
@@ -27,10 +28,17 @@ def audit(model):
         if not segments or not all(isinstance(x, str) and x for x in segments):
             issues.append((form, "invalid_segments", status, repr(segments)))
             continue
-        if "".join(segments) != form:
-            # An underlying analysis is not necessarily surface-concatenative.
-            # Candidate segments, however, must represent surface spans.
-            issues.append((form, "surface_mismatch", status, "+".join(segments)))
+        surface = candidate.get("surface_segments")
+        if surface is not None:
+            if not isinstance(surface, list) or not surface or not all(isinstance(x, str) and x for x in surface):
+                issues.append((form, "invalid_surface_segments", status, repr(surface)))
+            elif "".join(surface) != form:
+                issues.append((form, "surface_mismatch", status, "+".join(surface)))
+        elif "".join(segments) != form:
+            # The model's segments may be underlying morphemes. Without
+            # surface_segments, do not classify morphophonology as an error.
+            counts["underlying_nonconcatenative"] += 1
+            underlying_nonconcatenative.append((form, status, "+".join(segments)))
         if status == "linguistically_confirmed":
             counts["confirmed_candidates"] += 1
         else:
@@ -52,7 +60,7 @@ def audit(model):
         analyses = {tuple(x.get("segments", [])) for x in reviewed["to"]}
         if not {("to",), ("t", "o")}.issubset(analyses):
             issues.append(("to", "missing_contextual_alternative", "", repr(sorted(analyses))))
-    return counts, issues
+    return counts, issues, underlying_nonconcatenative
 
 
 def main():
@@ -62,7 +70,7 @@ def main():
     parser.add_argument("--issues", type=Path, default=Path("tokenizer_model_issues.csv"))
     args = parser.parse_args()
     model = json.loads(args.model.read_text(encoding="utf-8"))
-    counts, issues = audit(model)
+    counts, issues, underlying_nonconcatenative = audit(model)
     report = {
         "model": str(args.model),
         "source": model.get("source"),
@@ -71,9 +79,14 @@ def main():
         "tokens": model.get("tokens"),
         "counts": dict(counts),
         "issue_count": len(issues),
+        "underlying_nonconcatenative_examples": [
+            {"form": form, "status": status, "underlying_segments": segments}
+            for form, status, segments in underlying_nonconcatenative
+        ],
         "notes": [
             "This is a structural audit, not an accuracy or precision estimate.",
-            "Reviewed underlying morphemes may differ from surface spans.",
+            "Underlying morphemes may differ from surface spans; this is reported separately, not counted as an error.",
+            "Only explicit surface_segments are required to concatenate to the surface form.",
             "No candidate or corpus data are modified.",
         ],
     }
