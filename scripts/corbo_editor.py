@@ -354,12 +354,12 @@ class Handler(BaseHTTPRequestHandler):
        fields=list(rows[0])
        tmp=path.with_suffix('.tsv.tmp')
        with tmp.open('w',encoding='utf-8',newline='') as fh:
-        w=csv.DictWriter(fh,fieldnames=fields,delimiter='\\t',lineterminator='\\n')
+        w=csv.DictWriter(fh,fieldnames=fields,delimiter='\t',lineterminator='\n')
         w.writeheader();w.writerows([{k:r.get(k,'') for k in fields} for r in rows])
        tmp.replace(path)
       log=ROOT/'CorBo_vNext/annotations/bakaru_maiwu_replace_history.jsonl'
       with log.open('a',encoding='utf-8') as fh:
-       fh.write(json.dumps({'timestamp':stamp,'find':find,'replacement':replacement,'field':'reviewed','occurrences':count,'units':changed_rows,'files':[str(p.relative_to(ROOT)) for p,_ in changes],'backup':str(backup.relative_to(ROOT))},ensure_ascii=False)+'\\n')
+       fh.write(json.dumps({'timestamp':stamp,'find':find,'replacement':replacement,'field':'reviewed','occurrences':count,'units':changed_rows,'files':[str(p.relative_to(ROOT)) for p,_ in changes],'backup':str(backup.relative_to(ROOT))},ensure_ascii=False)+'\n')
       build_indexes()
      self.js({'ok':True,'count':count,'rows':changed_rows,'applied':apply,'offset':offset,'limit':limit,'matches':matches});return
     rows=read_rows(c)
