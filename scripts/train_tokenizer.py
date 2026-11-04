@@ -11,6 +11,7 @@ import json
 import argparse
 from bororo_initial_alternations import find_attested_analysis
 from bororo_combined_morphology import analyze_combined
+from bororo_morphotactics import assess as assess_verbal_suffixes, CONFIRMED_SEQUENCES, UNATTESTED_SEQUENCES, EXCLUDED_PAIRS
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo_20261027.conllu"
@@ -389,6 +390,40 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
                 "lemma_supported_tokens": matching["tokens"],
                 "evidence": "distributional+lemma",
             }
+    # Attach reviewed verbal morphotactics as an independent evidence layer.
+    # Do not change or validate arbitrary candidates based on character
+    # endings: suffix boundaries must already be linguistically established.
+    morphotactic_assessments = {}
+    for surface, candidate in candidates.items():
+        if candidate.get("status") != "linguistically_confirmed":
+            continue
+        parts = candidate["segments"]
+        for start in range(1, len(parts)):
+            suffixes = parts[start:]
+            if not suffixes or suffixes[0] not in {"godu", "modu", "nu"}:
+                continue
+            assessment = assess_verbal_suffixes(suffixes)
+            if assessment.status in {"confirmed", "excluded", "unattested"}:
+                morphotactic_assessments[surface] = {
+                    "status": assessment.status,
+                    "reason": assessment.reason,
+                    "suffixes": list(assessment.underlying),
+                    "predicted_surface": assessment.surface,
+                    "evidence": "linguist_reviewed_morphotactics",
+                }
+            break
+    morphotactic_rules = {
+        "aspect_order": ["godu", "modu", "nu"],
+        "final_slot": {"re": "IND", "wo": "SBJV", "ie": "INDIR", "iagu": "QUOT"},
+        "confirmed_sequences": [
+            {"segments": list(parts), "frequency_label": label}
+            for parts, label in sorted(CONFIRMED_SEQUENCES.items())
+        ],
+        "unattested_sequences": [list(parts) for parts in sorted(UNATTESTED_SEQUENCES)],
+        "excluded_pairs": [list(parts) for parts in sorted(EXCLUDED_PAIRS)],
+        "surface_rule": {"underlying": ["modu", "re"], "surface": "mode"},
+        "note": "Unattested does not mean ungrammatical; no forms are generated.",
+    }
     return {
         "schema": "corbo-tokenizer-model/v1",
         "linguistic_assumptions": {
@@ -419,6 +454,8 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
             for form, freq in sorted(forms.items())
         },
         "candidates": dict(sorted(candidates.items())),
+        "morphotactic_rules": morphotactic_rules,
+        "morphotactic_assessments": morphotactic_assessments,
         "suffix_evidence": suffix_evidence,
         "recurrent_endings": recurrent_endings,
         "corroborated_endings": corroborated_endings,
