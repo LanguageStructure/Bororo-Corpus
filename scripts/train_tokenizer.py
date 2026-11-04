@@ -12,6 +12,7 @@ import argparse
 from bororo_initial_alternations import find_attested_analysis
 from bororo_combined_morphology import analyze_combined
 from bororo_morphotactics import assess as assess_verbal_suffixes, CONFIRMED_SEQUENCES, UNATTESTED_SEQUENCES, EXCLUDED_PAIRS
+from reviewed_morphology_registry import load_registry
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "CorBo/Corpus_Files/CorBo_20261027.conllu"
@@ -307,6 +308,34 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
                 "status": "linguistically_confirmed",
                 "evidence": "reviewed_onset_alternation",
             }
+    # Keep all contextual analyses separately from the legacy single-best
+    # segmentation. Reviewed 2026-10-23 analyses take precedence for the
+    # single-best display, but never erase alternative analyses.
+    reviewed_registry = load_registry()
+    for surface, records in reviewed_registry.items():
+        if surface not in forms:
+            continue
+        central = next((record for record in records
+                        if record["source"] == "morphology-reviewed-20261023"), None)
+        if central is not None:
+            surface_parts = central.get("surface_segments", central["segments"])
+            # Some underlying analyses are nonconcatenative: preserve the
+            # surface segmentation separately and do not fake boundaries.
+            if "".join(surface_parts) == surface:
+                candidates[surface] = {
+                    "segments": surface_parts,
+                    "underlying_segments": central["segments"],
+                    "support": forms[surface],
+                    "status": "linguistically_confirmed",
+                    "evidence": "morphology-reviewed-20261023",
+                }
+        if surface == "to":
+            candidates[surface] = {
+                "segments": ["to"], "support": forms[surface],
+                "status": "linguistically_confirmed",
+                "evidence": "linguist-clarification-20261104",
+                "context_dependent": True,
+            }
     # Do not create or license unattested forms from an apparent paradigm.
     for nonexistent in ("tabiapagado", "ibiapagare", "iakore", "eakore"):
         candidates.pop(nonexistent, None)
@@ -454,6 +483,7 @@ def train(rows, reviewed_aimo=None, reviewed_paradigms=None):
             for form, freq in sorted(forms.items())
         },
         "candidates": dict(sorted(candidates.items())),
+        "reviewed_analyses": {form: records for form, records in sorted(reviewed_registry.items()) if form in forms},
         "morphotactic_rules": morphotactic_rules,
         "morphotactic_assessments": morphotactic_assessments,
         "suffix_evidence": suffix_evidence,
