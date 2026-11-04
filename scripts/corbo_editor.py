@@ -2,12 +2,24 @@
 # -*- coding: utf-8 -*-
 """Editor local do CorBo. Acesso somente em 127.0.0.1."""
 from __future__ import annotations
-import csv,json,re,subprocess,sys,threading,webbrowser,datetime,hashlib
+import csv,json,re,subprocess,sys,threading,webbrowser,datetime,hashlib,time
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs
 from build_corpus_indexes import conllu_relations,CONLLU,main as build_indexes
 ROOT=Path(__file__).resolve().parents[1]
+_INDEX_BUILD_LOCK=threading.Lock()
+def rebuild_indexes(reason):
+ """Serialize rebuilds and record why each was requested."""
+ with _INDEX_BUILD_LOCK:
+  started=time.monotonic()
+  stamp=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+  print(f'[CorBo indexes] start {stamp} reason={reason}',flush=True)
+  try:
+   build_indexes()
+  finally:
+   print(f'[CorBo indexes] end reason={reason} elapsed={time.monotonic()-started:.2f}s',flush=True)
+
 FILES={'coqueiro':ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv','hm':ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv','adugo':ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv','boeero':ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv','bakarudoge':ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv','bibliaoral':ROOT/'CorBo_vNext/texts/biblia-oral/biblia_oral_interlinear.tsv','paulinho':ROOT/'CorBo_vNext/texts/paulinho/paulinho_interlinear.tsv','oieigo':ROOT/'CorBo_vNext/texts/oieigo/mito-explicacao.tsv','oieigocanto':ROOT/'CorBo_vNext/texts/oieigo/canto-no-mito.tsv','oieigomeremere':ROOT/'CorBo_vNext/texts/oieigo/o-meremere.tsv','oieigoantonio':ROOT/'CorBo_vNext/texts/oieigo/antonio-caio-g96.tsv','oieigodeus':ROOT/'CorBo_vNext/texts/oieigo/para-deus-garcas.tsv','oieigorodolfo':ROOT/'CorBo_vNext/texts/oieigo/p-rodolfo-m85.tsv','oieigobentinho':ROOT/'CorBo_vNext/texts/oieigo/finado-bentinho-g86.tsv','etnobotanica':ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv','pemo-baraedugume':ROOT/'CorBo_vNext/texts/pemo-baraedugume/pemo_baraedugume_editorial.tsv','pemo-coqueiro':ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv','archive-additions':ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv','archive-parallel':ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv','morph':ROOT/'CorBo_vNext/annotations/morphology.tsv'}
 OIEIGO_COMMENT=ROOT/'CorBo_vNext/texts/oieigo/comment.txt'
 OIEIGO_MANIFEST=ROOT/'CorBo_vNext/texts/oieigo/manifest.tsv'
@@ -340,7 +352,7 @@ class Handler(BaseHTTPRequestHandler):
         count+=1;start=pos+len(find)
        if apply:row['reviewed']=old.replace(find,replacement)
       if touched and apply:changes.append((path,rows))
-     if apply and count:
+     if apply and count and find!=replacement:
       import shutil
       stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
       backup=ROOT/'CorBo_vNext/annotations/editor_backups'/('bakaru_maiwu_'+stamp)
@@ -360,7 +372,7 @@ class Handler(BaseHTTPRequestHandler):
       log=ROOT/'CorBo_vNext/annotations/bakaru_maiwu_replace_history.jsonl'
       with log.open('a',encoding='utf-8') as fh:
        fh.write(json.dumps({'timestamp':stamp,'find':find,'replacement':replacement,'field':'reviewed','occurrences':count,'units':changed_rows,'files':[str(p.relative_to(ROOT)) for p,_ in changes],'backup':str(backup.relative_to(ROOT))},ensure_ascii=False)+'\n')
-      build_indexes()
+      rebuild_indexes('replace:bakaru-maiwu')
      self.js({'ok':True,'count':count,'rows':changed_rows,'applied':apply,'offset':offset,'limit':limit,'matches':matches});return
     rows=read_rows(c)
     if not rows:self.js({'ok':True,'count':0,'rows':0});return
@@ -385,9 +397,9 @@ class Handler(BaseHTTPRequestHandler):
         count+=1;start=pos+len(find)
        if apply:r[k]=old.replace(find,replacement)
      if row_changed:changed_rows+=1
-    if apply and count:
+    if apply and count and find!=replacement:
      write_rows(c,rows)
-     build_indexes()
+     rebuild_indexes('replace:'+c)
     self.js({'ok':True,'count':count,'rows':changed_rows,'applied':apply,'offset':offset,'limit':limit,'matches':matches});return
    except Exception as e:self.js({'error':str(e)},400)
    return
@@ -415,10 +427,10 @@ class Handler(BaseHTTPRequestHandler):
      m[0]['collation_status']=status;m[0]['corbo_match_id']=str(body.get('corbo_match_id','')).strip()
      write_rows(c,rows);self.js({'ok':True,'id':uid});return
     if c=='bakaru-maiwu':
-     save_bakaru_maiwu(body);build_indexes();self.js({'ok':True,'id':uid,'rebuilt':True});return
+     save_bakaru_maiwu(body);rebuild_indexes('save:bakaru-maiwu');self.js({'ok':True,'id':uid,'rebuilt':True});return
     if c in BIBLES:
      if not any(r['id']==uid for r in bible_editor_units(c)):raise ValueError('ID bíblico não encontrado')
-     save_bible(c,body);build_indexes();self.js({'ok':True,'id':uid,'rebuilt':True});return
+     save_bible(c,body);rebuild_indexes('save:'+c);self.js({'ok':True,'id':uid,'rebuilt':True});return
     if c in ('bibliaoral','paulinho','oieigo','oieigocanto','oieigomeremere','oieigoantonio','oieigodeus','oieigorodolfo','oieigobentinho'):
      rows=read_rows(c);uid=str(body.get('id','')).strip();m=[r for r in rows if r['id']==uid]
      if len(m)!=1:raise ValueError('ID estável não encontrado ou duplicado')
@@ -440,7 +452,7 @@ class Handler(BaseHTTPRequestHandler):
      bor=str(body.get('bororo','')).strip()
      if not bor:raise ValueError('Texto Bororo não pode ficar vazio')
      m[0]['bororo']=bor;m[0]['portuguese']=str(body.get('portuguese','')).strip()
-    write_rows(c,rows);build_indexes();self.js({'ok':True,'id':uid,'rebuilt':True})
+    write_rows(c,rows);rebuild_indexes('save:'+c);self.js({'ok':True,'id':uid,'rebuilt':True})
    except Exception as e:self.js({'error':str(e)},400)
    return
   if p=='/api/build':
