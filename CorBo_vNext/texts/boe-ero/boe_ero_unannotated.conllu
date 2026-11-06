@@ -132,7 +132,7 @@
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-006
-# text = Icare akore: “Ioga”, oino. Akore: “Imuga”, oino. Akore: “Aja”, oino. Akore: “Mama”, oino. Akore: “Ikê boiri”.
+# text = Icare akore Ioga, oino. Akore Imuga, oino. Akore Aja, oino. Akore Mama, oino. Akore Ikê boiri.
 # text_por = Então ele diz: “Papai”. Diz: “Mamãe”. Diz: “Quero papinha”. E diz: “Estou com fome”.
 # collection = Boe Ero
 # section = 1
@@ -184,7 +184,7 @@
 40	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-007
-# text = Ica, icare makore, icare batarure. Boe egore: “Ica, care batarure”, oino.
+# text = Ica, icare makore, icare batarure. Boe egore Ica, care batarure, oino.
 # text_por = Então ele já fala, conversa. E os bororo dizem: “Então agora ele conversa”.
 # collection = Boe Ero
 # section = 1
@@ -235,7 +235,7 @@
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-009
-# text = Dukeje icare boe emagore ji, boere pagududo, boe egore: “Atu kaba toro”. Oino boe egore.
+# text = Dukeje icare boe emagore ji, boere pagududo, boe egore Atu kaba toro. Oino boe egore.
 # text_por = Daí então os bororo falam com ele. Eles o assustam. Os bororo falam: “Não vá lá”. É assim que falam: “É de bicho que os bororo têm medo”.
 # collection = Boe Ero
 # section = 1
@@ -269,7 +269,7 @@
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-010
-# text = Kugure boe epagudae rema. Boe egore: “Kugu”, oino. Egore: “Atu kaba toro”, oino. Boe egore: “Adugo”, oino.
+# text = Kugure boe epagudae rema. Boe egore Kugu, oino. Egore Atu kaba toro, oino. Boe egore Adugo, oino.
 # text_por = Os bororo dizem: “Olha lá o curujão!”. Eles falam: “Não vá lá”. Eles falam: “Olha lá a onça”.
 # collection = Boe Ero
 # section = 1
@@ -338,7 +338,7 @@
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-012
-# text = Boe egore: “Atu kaba toro, nowu bari kodo mato, barimode awia porodo, barimode awaga kado”. Oinore boe egore tonaregeduji.
+# text = Boe egore Atu kaba toro, nowu bari kodo mato, barimode awia porodo, barimode awaga kado. Oinore boe egore tonaregeduji.
 # text_por = Eles falam: “Não vá lá, o pajé vem aí, o pajé vai furar-lhe a orelha, o pajé vai lhe capar”. É assim que os bororo falam com seus filhos.
 # collection = Boe Ero
 # section = 1
@@ -403,7 +403,7 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-014
-# text = Boe egore: “Atu kaba toro”. Oino boe egore: “Aro kaba oino”. Boe egore: “Rie”, oino. Boe egore: “Kugu”, oino. Boe egore: “Umode toedo ai”, oino. Boe egore: “Umode tododo ai”. Oino boe egore.
+# text = Boe egore Atu kaba toro. Oino boe egore Aro kaba oino. Boe egore Rie, oino. Boe egore Kugu, oino. Boe egore Umode toedo ai, oino. Boe egore Umode tododo ai. Oino boe egore.
 # text_por = Os bororo falam: “Não vá lá”. Os bororo falam: “Não faça isso”. Os bororo falam: “Olha lá o lobo”. Os bororo falam: “Olha lá o bicho”. Os bororo falam: “Ele vai te morder”. Os bororo falam: “Ele vai te bicar”.
 # collection = Boe Ero
 # section = 1
@@ -476,7 +476,7 @@
 61	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-015
-# text = Bari, boe egore: “Barimode awia porodo”, oino. “Barimode awaga kado”, oino.
+# text = Bari, boe egore Barimode awia porodo, oino. Barimode awaga kado, oino.
 # text_por = Pajé, os bororo falam: “O pajé vai furar-lhe a orelha, o pajé vai lhe capar.”
 # collection = Boe Ero
 # section = 1
@@ -567,7 +567,7 @@
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-018
-# text = Egore: “Aro kaba aino”. Oino, boe egore: “Mato”. Oino, boe egore tonaregedu imeduji guu, guu, guu...
+# text = Egore Aro kaba aino. Oino, boe egore Mato. Oino, boe egore tonaregedu imeduji guu, guu, guu...
 # text_por = Eles falam: “Não faça isso”. Os bororo falam: “Vem cá”. Os bororo falam muito com seus filhos.
 # collection = Boe Ero
 # section = 1
@@ -965,7 +965,7 @@
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-029
-# text = Ica, nonore icare imedu nure ema. Nonore icare boe etuore ema. Boe egore: “Ioga”, oino. Boe egore: “Pao”, oino. Boe egore: “Ioga”, oino.
+# text = Ica, nonore icare imedu nure ema. Nonore icare boe etuore ema. Boe egore Ioga, oino. Boe egore Pao, oino. Boe egore Ioga, oino.
 # text_por = Então ele já é um homem, já se torna um pai para os bororo. Os bororo lhe chamam de pai.
 # collection = Boe Ero
 # section = 1
@@ -1076,7 +1076,7 @@
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-032
-# text = Ia mearduwa rakareu boe eimejerare ema, boe eimejerare ema. Boe egore: “Pagimejera”, oino ji. Boe egore: “Boe eimejera”, oinore ji. Boe egore: “Pao”, oino ji.
+# text = Ia mearduwa rakareu boe eimejerare ema, boe eimejerare ema. Boe egore Pagimejera, oino ji. Boe egore Boe eimejera, oinore ji. Boe egore Pao, oino ji.
 # text_por = Aquele que é inteligentíssimo se torna um chefe, os bororo o chamam de nosso chefe, os bororo o chamam de chefe dos bororo, os bororo o chamam de nosso pai.
 # collection = Boe Ero
 # section = 1
@@ -1130,7 +1130,7 @@
 42	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-033
-# text = Boe eimejerare ema, boe eimejerare ema, boe egore: “Pagimejera”, oino ji. Boe egore: “Pagimejera”, oino ji. Boe egore: “Boe eimejera”, oino ji.
+# text = Boe eimejerare ema, boe eimejerare ema, boe egore Pagimejera, oino ji. Boe egore Pagimejera, oino ji. Boe egore Boe eimejera, oino ji.
 # text_por = Ele é chefe, os bororo falam: “Oh, nosso chefe. Oh, nosso chefe.”
 # collection = Boe Ero
 # section = 1
@@ -1181,7 +1181,7 @@
 39	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-034
-# text = Boe egore: “Pao”, oino ji. Boe egore: “Ioga”, oino ji, gu, gu, gu...
+# text = Boe egore Pao, oino ji. Boe egore Ioga, oino ji, gu, gu, gu...
 # text_por = O bororo falam: “Oh, nosso pai”. Os bororo falam: “Oh, meu pai”, por muito tempo...
 # collection = Boe Ero
 # section = 1
@@ -1219,7 +1219,7 @@
 26	...	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-035
-# text = Ica! Care pegagodure, icare pegagodure ,icare boe egore: “Pao pega”, oino ji.
+# text = Ica! Care pegagodure, icare pegagodure,icare boe egore Pao pega, oino ji.
 # text_por = Então ele começa a envelhecer, os bororo o chamam de meu pai.
 # collection = Boe Ero
 # section = 1
@@ -1251,7 +1251,7 @@
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-036
-# text = Aredu akore: “Ioga pega”, oino. Aredu akore: “Ioga pega”, oino ji. Boe egore: “Paedaga pega”, oino ji. “Iedaga pega”, oino ji, gu, gu, gu...
+# text = Aredu akore Ioga pega, oino. Aredu akore Ioga pega, oino ji. Boe egore Paedaga pega, oino ji. Iedaga pega, oino ji, gu, gu, gu...
 # text_por = A mulher o chama de meu tio velho, meu velho pai, os bororo o chamam de nosso padrinho, de meu padrinho.
 # collection = Boe Ero
 # section = 1
@@ -1309,7 +1309,7 @@
 46	...	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-037
-# text = Boe emagore bogai. Ica, ie nure nowu tubegagoduredu boe egore du tabo. Aredu akore: “Ioga pega, ioga pega, ioga, ioga pega...”, oino. “Iwuripega, iwuripega, iwuripega”, oino.
+# text = Boe emagore bogai. Ica, ie nure nowu tubegagoduredu boe egore du tabo. Aredu akore Ioga pega, ioga pega, ioga, ioga pega..., oino. Iwuripega, iwuripega, iwuripega, oino.
 # text_por = Os bororo chamam ele quando está velho, de meu velho pai, meu velho pai, meu velho pai... Meu tio velho, meu tio velho, meu tio velho...
 # collection = Boe Ero
 # section = 1
@@ -1365,7 +1365,7 @@
 44	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-038
-# text = Imedu pega otowure akoino ji, otowure akore: “Imedupega”, oino ji. Ia boe enodowure ema. Boe egore: “Inodowu pega”, oino. “Inodowu pega”, oino. “Ioga pega”, oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu...
+# text = Imedu pega otowure akoino ji, otowure akore Imedupega, oino ji. Ia boe enodowure ema. Boe egore Inodowu pega, oino. Inodowu pega, oino. Ioga pega, oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu...
 # text_por = O seu cunhado o chama de homem velho, ele é cunhado de algumas pessoas, os bororo chamam ele de cunhado velho, meu padrinho velho.
 # collection = Boe Ero
 # section = 1
@@ -1488,7 +1488,7 @@
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-040
-# text = Beo egore: “Pao pega aregodu”, oino. Boe egore: “Ioga pega aregodu”, oino. “Ioga pega, amugudo, amugudo, amugudo!”.
+# text = Beo egore Pao pega aregodu, oino. Boe egore Ioga pega aregodu, oino. Ioga pega, amugudo, amugudo, amugudo!.
 # text_por = Os bororo falam: “O velho chegou”. Os bororo falam para ele: “Meu velho pai chegou. Meu velho pai, sente-se”.
 # collection = Boe Ero
 # section = 1
@@ -1534,7 +1534,7 @@
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-041
-# text = Ia boere jetadudo, boe egore: “Ioga pega, ioga pega, ioga pega, aedadudo, akerogu reo, aedadudo awo akerogu ko”.
+# text = Ia boere jetadudo, boe egore Ioga pega, ioga pega, ioga pega, aedadudo, akerogu reo, aedadudo awo akerogu ko.
 # text_por = Alguém o acorda, os bororo falam: “Meu velho pai, meu velho pai acorda. Aqui sua comidinha, acorda para você comer sua comidinha.”
 # collection = Boe Ero
 # section = 1
@@ -1574,7 +1574,7 @@
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-01-042
-# text = Ah! Akore: “Uuum, uuum, uuum... ikerogu, ikerogu...” Ure tugeragu, tugeragu ji tu, ure ko tumugui tu je.
+# text = Ah! Akore Uuum, uuum, uuum... ikerogu, ikerogu... Ure tugeragu, tugeragu ji tu, ure ko tumugui tu je.
 # text_por = Ele disse: “É meu, é meu”. Ele pegou a sua comidinha, saboreando sentado.
 # collection = Boe Ero
 # section = 1
@@ -1686,7 +1686,7 @@
 6	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-002
-# text = Boe etonaregedu aredu rogu buture. Boe egore: “Butu, aredu, aredurogu, aredu rogure ema”.
+# text = Boe etonaregedu aredu rogu buture. Boe egore Butu, aredu, aredurogu, aredu rogure ema.
 # text_por = Nasceu uma filha menina, a gente está falando: “A mulher nasceu, menina, menina, menina ela é.
 # collection = Boe Ero
 # section = 2
@@ -1719,7 +1719,7 @@
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-003
-# text = “Uu! Ema rugadu, ema rugadu”.
+# text = Uu! Ema rugadu, ema rugadu.
 # text_por = Ah! Sim ela mesmo, ela mesmo.
 # collection = Boe Ero
 # section = 2
@@ -1741,7 +1741,7 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-004
-# text = Ica, Icare boere iedo, boe eragodure ie paruji. Ica, boere iedo taci je. Icare boe egore: “Icare ire itonaregedurogu iedo, Icare ire aredurogu iedo, ire aredurogu iedo”.
+# text = Ica, Icare boere iedo, boe eragodure ie paruji. Ica, boere iedo taci je. Icare boe egore Icare ire itonaregedurogu iedo, Icare ire aredurogu iedo, ire aredurogu iedo.
 # text_por = Aí a gente deu nome a ela, a gente deu nome a ela, depois começa o ritual do nome, daí deram nome prá ela, assim a gente faz.
 # collection = Boe Ero
 # section = 2
@@ -1811,7 +1811,7 @@
 8	...	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-006
-# text = Icare makore, batarure, akore: “Imuga”, oino. Akore: “Ioga”, oino .
+# text = Icare makore, batarure, akore Imuga, oino. Akore Ioga, oino.
 # text_por = Daí ela começou a falar e disse: “Minha mãe” assim, ela disse: “Meu pai”, assim.
 # collection = Boe Ero
 # section = 2
@@ -1844,7 +1844,7 @@
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-007
-# text = Uce akore: “Are, are, are”.
+# text = Uce akore Are, are, are.
 # text_por = A mãe dela disse: “Minha filhinha, filhinha, filhinha.”
 # collection = Boe Ero
 # section = 2
@@ -1867,7 +1867,7 @@
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-008
-# text = Akore: “Ah!”, oino. Akore: “Mato, mato, mato”, oino .
+# text = Akore Ah!, oino. Akore Mato, mato, mato, oino.
 # text_por = Ela respondeu: “O quê?” assim, ela diz: “Venha, venha, venha, venha”, assim.
 # collection = Boe Ero
 # section = 2
@@ -1900,7 +1900,7 @@
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-009
-# text = Makore bogai, akore: “Are, are, are”.
+# text = Makore bogai, akore Are, are, are.
 # text_por = Ela chama ela diz: “Filhinha, filhinha, filhinha.”
 # collection = Boe Ero
 # section = 2
@@ -1925,7 +1925,7 @@
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-010
-# text = Akore: “Ah!” Akore: “Mato, mato, mato, mato”. Ah! Aregodure, akore: “Imireu, itaregodu”.
+# text = Akore Ah! Akore Mato, mato, mato, mato. Ah! Aregodure, akore Imireu, itaregodu.
 # text_por = Ela responde: “O quê?” Ela diz: “Venha, venha, venha, venha. Ah! Você chegou!” Ela diz: “Estou aqui, cheguei.”
 # collection = Boe Ero
 # section = 2
@@ -1967,7 +1967,7 @@
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-011
-# text = “Ah! Mato, mato”.
+# text = Ah! Mato, mato.
 # text_por = Ela disse: “Venha, venha.”
 # collection = Boe Ero
 # section = 2
@@ -1987,7 +1987,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-012
-# text = Nowu onaregedu rogu akore: “Itaidure iwo inogwagirido, mokuro boire i, bibi”.
+# text = Nowu onaregedu rogu akore Itaidure iwo inogwagirido, mokuro boire i, bibi.
 # text_por = Aquela filhinha dela disse: “Eu quero mamar leite”.
 # collection = Boe Ero
 # section = 2
@@ -2016,7 +2016,7 @@
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-013
-# text = Boe etore kugure egore: “Bibi”, oino mokuroji, mokuro, tuge mokuroji, tuge mokuroji.
+# text = Boe etore kugure egore Bibi, oino mokuroji, mokuro, tuge mokuroji, tuge mokuroji.
 # text_por = As criancinhas falam: “Bibi, mamar do leite”.
 # collection = Boe Ero
 # section = 2
@@ -2072,7 +2072,7 @@
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-015
-# text = Akore: “Are, atu kaba toro. Are, mato”.
+# text = Akore Are, atu kaba toro. Are, mato.
 # text_por = Ela diz: “Filhinha não vai para lá, filhinha vem para cá.”
 # collection = Boe Ero
 # section = 2
@@ -2098,7 +2098,7 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-016
-# text = Akore: “Are, amugu tugudo; kugu, rie, kodu mato, mugu nono; bari mode awia porodo”.
+# text = Akore Are, amugu tugudo; kugu, rie, kodu mato, mugu nono; bari mode awia porodo.
 # text_por = Ela diz: “Filhinha assenta-se e fica quieta corujão, lobo vem aí, ele está aí, o feiticeiro vai furar a sua orelha.”
 # collection = Boe Ero
 # section = 2
@@ -2236,7 +2236,7 @@
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-021
-# text = Boe egore: “Nogwaredu”, oino ji.
+# text = Boe egore Nogwaredu, oino ji.
 # text_por = A gente diz: “Mocinha”, assim, prá ela.
 # collection = Boe Ero
 # section = 2
@@ -2413,7 +2413,7 @@
 3	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-028
-# text = Nonore Icare okogere. Boe egore: “Pawo akogedo, pawo amagu jewu pawagedu ai, pagonaregedu ai.
+# text = Nonore Icare okogere. Boe egore Pawo akogedo, pawo amagu jewu pawagedu ai, pagonaregedu ai.
 # text_por = Aí ela se casa, agente diz: “Vamos fazer ela casar, vamos dar você para aquele rapaz, para ser o nosso genro, para nosso filho.”
 # collection = Boe Ero
 # section = 2
@@ -2620,7 +2620,7 @@
 40	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-034
-# text = Boe egore: “Imuga”, oino ji. Icare iwororaere. Icare maragodure, Icare boe etujere ema.
+# text = Boe egore Imuga, oino ji. Icare iwororaere. Icare maragodure, Icare boe etujere ema.
 # text_por = Aí a gente fala: “Minha mãe”, para ela, aí ela trabalha para oferecer comida para as almas, aí ela trabalha, aí então ela se torna a mãe da gente.
 # collection = Boe Ero
 # section = 2
@@ -2653,7 +2653,7 @@
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-035
-# text = Koare boe egore: “Imuga”, oino. Boe egore: “Paje”, oino. Boe egore: “Imuga”, oino. Boe egore: “Paje”. Oino, boe egore.
+# text = Koare boe egore Imuga, oino. Boe egore Paje, oino. Boe egore Imuga, oino. Boe egore Paje. Oino, boe egore.
 # text_por = Por isso a gente fala: “A minha mãe”, assim, a gente fala: “Nossa mãe”, assim, então a gente fala: “Minha mãe”, assim, a gente fala: “Nossa mãe”, assim.
 # collection = Boe Ero
 # section = 2
@@ -2706,7 +2706,7 @@
 40	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-036
-# text = Ah! Oino, boe egore ji. Ica, boe etuje nure ema pugeje. Boe egore: “Imuga pega”, oino.
+# text = Ah! Oino, boe egore ji. Ica, boe etuje nure ema pugeje. Boe egore Imuga pega, oino.
 # text_por = A gente fala: “Minha mãe”, assim, ela responde: “O quê”, assim, a gente fala: “Corre prá cá assim”, a gente fala prá ela, daí a gente fala: “Minha mãe” assim prá ela, a gente fala: “Minha avó”, assim.
 # collection = Boe Ero
 # section = 2
@@ -2760,7 +2760,7 @@
 4	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-038
-# text = Icare egore: “Imuga pega”, oino ji. Boe egore: “Ituie pega”, oino ji. Boe egore: “Paje pega”, oino ji. Boe egore: “Pajarugo pega”, oino j. Boe egore: “Parago pega”, oino ji. “Ituie pega”, oino. Boe egore ji: “Aredu pega”, oino.
+# text = Icare egore Imuga pega, oino ji. Boe egore Ituie pega, oino ji. Boe egore Paje pega, oino ji. Boe egore Pajarugo pega, oino j. Boe egore Parago pega, oino ji. Ituie pega, oino. Boe egore ji Aredu pega, oino.
 # text_por = Agora a gente fala: “Minha velha mãe”, assim, prá ela, aí a gente fala: “Nossa mãe velha” assim prá ela, a gente fala: “Nossa tia velha” assim prá ela, a gente fala: “Nossa sogra velha” assim prá ela, a gente fala: “Nossa nora velha”, assim, prá ela.
 # collection = Boe Ero
 # section = 2
@@ -2891,7 +2891,7 @@
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-041
-# text = Icare ia onaregedure, ia uragore, iedure ieraji pugeje goro, goro, goro. Ica, Icare merukare. “Woo, Icare akuru akedure”. Boe egore, “Paje pega kugudugodu nure”, oino. Boe egore: “Paje pega akuru akedu nure”, oino. “Pajepega bigodu nure”, oino.
+# text = Icare ia onaregedure, ia uragore, iedure ieraji pugeje goro, goro, goro. Ica, Icare merukare. Woo, Icare akuru akedure. Boe egore, Paje pega kugudugodu nure, oino. Boe egore Paje pega akuru akedu nure, oino. Pajepega bigodu nure, oino.
 # text_por = Aí ela tem um filho ou uma filha segurando na mão dela e andando devagar, aí ela não anda duma vez, aí ela não caminha mais longe, a gente fala: “A nossa mãe está enfraquecida assim, a nossa mãe está enfraquecida, assim, a nossa velha mãe está morrendo.”
 # collection = Boe Ero
 # section = 2
@@ -2965,7 +2965,7 @@
 62	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-02-042
-# text = Jorduwarewudo akore: “Iwigodu nure, oino, iwogagodu nure, iwoga nure tabiji, iwoga nure apiji”. Oino tonaregeduji, oino torei.
+# text = Jorduwarewudo akore Iwigodu nure, oino, iwogagodu nure, iwoga nure tabiji, iwoga nure apiji. Oino tonaregeduji, oino torei.
 # text_por = Aquela que sabe diz que: “Estou morrendo aos poucos”, assim, morrendo, está se acabando, “Estou acabando para vocês, assim, estou morrendo de vocês”, assim, ela fala, assim, que está morrendo, assim, para o filho e para os filhos.
 # collection = Boe Ero
 # section = 2
@@ -3034,7 +3034,7 @@
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-001
-# text = Boe egore: “Imedu”, oino. “Imedu, arduwado, aroiwado, akagoiwado”.
+# text = Boe egore Imedu, oino. Imedu, arduwado, aroiwado, akagoiwado.
 # text_por = A gente fala: “Meu filho”, assim, “Meu filho saiba fazer as coisas, saiba falar.”
 # collection = Boe Ero
 # section = 3
@@ -3085,7 +3085,7 @@
 8	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-003
-# text = “Amago pemegado, amago jetorodo, boe emearutoruwo ai, boe ataiduwo ai, boe emoduduwo ai.
+# text = Amago pemegado, amago jetorodo, boe emearutoruwo ai, boe ataiduwo ai, boe emoduduwo ai.
 # text_por = “Converse bem, fale direito, para a gente ter crédito em você, para as pessoas gostarem de você, para as pessoas terem confiança em você.
 # collection = Boe Ero
 # section = 3
@@ -3215,7 +3215,7 @@
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-008
-# text = Boe egomode: “Ah! jewure pemegare, jewure ro pemegare, jewure bataru pemegare, nowu ure boe ekuno, ure boe enogwagedo.
+# text = Boe egomode Ah! jewure pemegare, jewure ro pemegare, jewure bataru pemegare, nowu ure boe ekuno, ure boe enogwagedo.
 # text_por = As pessoas vão falar: ‘Aquele que é bom, esse que faz direito, aquele que fala direito, esse que dá as coisas, dá de comer às pessoas.
 # collection = Boe Ero
 # section = 3
@@ -3253,7 +3253,7 @@
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-009
-# text = Ure ia toro ia toro, ia tuge ure maku boe etai, ure boe ekuno”.
+# text = Ure ia toro ia toro, ia tuge ure maku boe etai, ure boe ekuno.
 # text_por = Ele contribui com o seu trabalho, dá um objeto seu, ele dá o seu alimento para as pessoas, ele dá as suas coisas.’
 # collection = Boe Ero
 # section = 3
@@ -3341,7 +3341,7 @@
 3	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-013
-# text = “Ah!! Awu pemegare rugadu, awu jorduware rugadu, awu okudure boe ebo rugadu.
+# text = Ah!! Awu pemegare rugadu, awu jorduware rugadu, awu okudure boe ebo rugadu.
 # text_por = ‘Ah! Esse que é bom mesmo, esse que sabe mesmo, esse que tem dor da gente mesmo!
 # collection = Boe Ero
 # section = 3
@@ -3521,7 +3521,7 @@
 2	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-020
-# text = “Ah! Cee!, boe jokoduji rabodu ioga akoino! Boe jokoduji rabodu akoino, boe jokoduji rabodu inodowu akoino”.
+# text = Ah! Cee!, boe jokoduji rabodu ioga akoino! Boe jokoduji rabodu akoino, boe jokoduji rabodu inodowu akoino.
 # text_por = ‘É verdade que meu pai estava falando! É verdade que ele estava falando! É verdade o que meu cunhado estava falando.’
 # collection = Boe Ero
 # section = 3
@@ -3687,7 +3687,7 @@
 20	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-026
-# text = “Oh! Kocare arduwa bokware. Kocare ao makokare ai, Icare ace mako kare ai, aokare arduwado, acekare arduwado”, oinore boe egore.
+# text = Oh! Kocare arduwa bokware. Kocare ao makokare ai, Icare ace mako kare ai, aokare arduwado, acekare arduwado, oinore boe egore.
 # text_por = Ah! Como que você não sabe. Por que seu pai não falou nada com você e a sua mãe não fala com você, seu pai não te ensina, sua mãe não te ensina.
 # collection = Boe Ero
 # section = 3
@@ -3809,7 +3809,7 @@
 2	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-030
-# text = “Aredu, imedu, arokaba oino, akago kaba oino atu kaba toro, mato, akirimi, arokaba oino”, oino. Kodire erugodu kigodure.
+# text = Aredu, imedu, arokaba oino, akago kaba oino atu kaba toro, mato, akirimi, arokaba oino, oino. Kodire erugodu kigodure.
 # text_por = “Ó meu filho, minha filha, não faça isso, não fale assim, não vá para lá. Prá cá, volta. Não faça assim.” Por isso que eles brigam.
 # collection = Boe Ero
 # section = 3
@@ -3921,7 +3921,7 @@
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-034
-# text = Woe emadadu paga nure oino tu, etore erore, etore emagore, enogwarire, erokowodure, mare egokare: “Aro kaba oino”, oino.
+# text = Woe emadadu paga nure oino tu, etore erore, etore emagore, enogwarire, erokowodure, mare egokare Aro kaba oino, oino.
 # text_por = Aqui eles são bobos, assim, os filhos fazem, os filhos falam e gritam, eles brincam, mas eles não falam: “Não façam assim”.
 # collection = Boe Ero
 # section = 3
@@ -3961,7 +3961,7 @@
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-03-035
-# text = Egokare: “Mato”, oino. Egokare: “Atu kaba toro”, oino. Egokare: “Ioi”, oino, torei. Eerduwa tabo karega eedure oino.
+# text = Egokare Mato, oino. Egokare Atu kaba toro, oino. Egokare Ioi, oino, torei. Eerduwa tabo karega eedure oino.
 # text_por = Não falam: “Vem” assim, não falam: “Não vá para lá”.
 # collection = Boe Ero
 # section = 3
@@ -4325,7 +4325,7 @@
 41	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-04-008
-# text = “a muga pega, akerogu reo, akerogu reo”. Icare ure oino rugadu. Dukeje ere kodo towuje: “Akado, jewu inodu, jewu inodu towuje, kodokora towuje akoredu kudawuce, uce kudawuce; ure beto to, ure micigu towuje”. Boe egore: “Oino irore, oinore inagore. Micigu rogure ire to, kodorabo rogure ire to, baku rogure ire to, parikiboto rogure ire to”. Boe egore cewu pitori roguji, du iera kodure ji rugadu, turijodu tabo jii je.
+# text = a muga pega, akerogu reo, akerogu reo. Icare ure oino rugadu. Dukeje ere kodo towuje Akado, jewu inodu, jewu inodu towuje, kodokora towuje akoredu kudawuce, uce kudawuce; ure beto to, ure micigu towuje. Boe egore Oino irore, oinore inagore. Micigu rogure ire to, kodorabo rogure ire to, baku rogure ire to, parikiboto rogure ire to. Boe egore cewu pitori roguji, du iera kodure ji rugadu, turijodu tabo jii je.
 # text_por = Então assim ficou, depois eles fizeram o banquete. Olha como é feito aquele. Faz esteira grossa para o marido dela, para a mãe dele, fez esteira. Ela fez embornal. Ela fez o cestinho. A gente diz: “Assim que eu faço, assim que eu falo. Eu iz um embornalzinho, eu fiz uma esteirinha, eu fiz uma bandejinha, eu fiz um abanadorzinho”. A gente diz para a pequena, aí ela faz mesmo enquanto vai crescendo.
 # collection = Boe Ero
 # section = 4
@@ -4526,7 +4526,7 @@
 16	...	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-04-012
-# text = Icare ere tugogedo: “Akado, pawo maku je,cewu iwagududogeto. Pawo maku je,cewu apiboregeto rakudu, aroroeto rakudu. Uuu. Cewu iwagududogeto rugadu.
+# text = Icare ere tugogedo Akado, pawo maku je,cewu iwagududogeto. Pawo maku je,cewu apiboregeto rakudu, aroroeto rakudu. Uuu. Cewu iwagududogeto rugadu.
 # text_por = Depois elas se casam: “Olhem para qual clã que vamos entregar, se é iwagududoge ou se é para o clã dos apiborege, ou então para clã dos arore. É para clã dos iwagududoge mesmo.” (Quem fala é kiedu).
 # collection = Boe Ero
 # section = 4
@@ -4606,7 +4606,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-04-015
-# text = Ure pemegado: “Muga akerogu reo, iwuri akerogu reo, iedaga pega akerogu reo, muga pega akerogu reo, marugo pega ake rogu reo. Kado pui”.
+# text = Ure pemegado Muga akerogu reo, iwuri akerogu reo, iedaga pega akerogu reo, muga pega akerogu reo, marugo pega ake rogu reo. Kado pui.
 # text_por = Ela prepara. “Minha mãe, esta é a sua comida ; meu irmão, esta é a sua comida; meu avô, esta é a sua comida; minha avó, esta é a sua comida, minha sogra esta é a sua comida. Repartam entre vocês”.
 # collection = Boe Ero
 # section = 4
@@ -4719,7 +4719,7 @@
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-04-018
-# text = Boe etugogere boe eejore tu wu tugoge keje. Boe etaiwokare ia bogai pugeje. Nowu boe toredu jire boe etaiwore tu je. Boe egore: “Oinore boe egore cewu tonaregedu nogwaredu roguji”. Du pemegare rugadu. Ricodure nuwu tuinodu tabo rugadu. Oinore boere.
+# text = Boe etugogere boe eejore tu wu tugoge keje. Boe etaiwokare ia bogai pugeje. Nowu boe toredu jire boe etaiwore tu je. Boe egore Oinore boe egore cewu tonaregedu nogwaredu roguji. Du pemegare rugadu. Ricodure nuwu tuinodu tabo rugadu. Oinore boere.
 # text_por = Quando a gente tem marido, só pensa nele. Não procura outro, além dele. Presta cuidados somente a ele. A gente diz: “É isso que a agente fala para a sua filha”. É assim que está bom. E ela cresce com isso. Assim é o costume da gente.
 # collection = Boe Ero
 # section = 4
@@ -4782,7 +4782,7 @@
 50	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-04-019
-# text = Paje pega magere kodobie ta, ere noidoia ta, ere meiaoborireu ta. Ere boe kugudo ema, ere tugeragu jerigiga, apeoroguji. Ere apeo kugu to .
+# text = Paje pega magere kodobie ta, ere noidoia ta, ere meiaoborireu ta. Ere boe kugudo ema, ere tugeragu jerigiga, apeoroguji. Ere apeo kugu to.
 # text_por = As nossas mães tiram embira, elas preparam palmito, elas preparam mel de chupé, elas preparam mingau, elas pegam lenha, coco de acuri, fazem mingau com o coco do acuri.
 # collection = Boe Ero
 # section = 4
@@ -4995,7 +4995,7 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-05-004
-# text = Boe etuje akore: “Amugu tugudo, akaba ae bu kuri kuri kuri boe awadu kae.
+# text = Boe etuje akore Amugu tugudo, akaba ae bu kuri kuri kuri boe awadu kae.
 # text_por = A mãe da gente dizia: “Fique quieta, não saia toda hora fora de casa.
 # collection = Boe Ero
 # section = 5
@@ -5054,7 +5054,7 @@
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-05-006
-# text = Ameduia kigodu kaba amedagewu emode akaora pegado”. Oino boe etuje akore boei.
+# text = Ameduia kigodu kaba amedagewu emode akaora pegado. Oino boe etuje akore boei.
 # text_por = Não acompanhe as suas companheiras, que elas vão desviar a sua cabeça”. Assim que a mãe da gente fala para agente.
 # collection = Boe Ero
 # section = 5
@@ -5165,7 +5165,7 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-05-010
-# text = Itumode woje baito irawo, du iture imuga apo rugadu, muga kudawu jire ikedure .
+# text = Itumode woje baito irawo, du iture imuga apo rugadu, muga kudawu jire ikedure.
 # text_por = Quando ia para a casa central para cantar, eu ia com a minha mãe mesmo, segurando a saia da minha mãe..
 # collection = Boe Ero
 # section = 5
@@ -5232,7 +5232,7 @@
 4	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-06-002
-# text = “A arokowodu kaba, arokowodu kaba boe etorebo.
+# text = A arokowodu kaba, arokowodu kaba boe etorebo.
 # text_por = “Meu filho não brinca, não brinca com os filhos dos outros.
 # collection = Boe Ero
 # section = 6
@@ -5276,7 +5276,7 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-06-004
-# text = Etokimode ai, emode boe to ai, Ca ikorigodumode awugeje, Icare imode boe ekorigo ii awugeje, tore ewugeje”.
+# text = Etokimode ai, emode boe to ai, Ca ikorigodumode awugeje, Icare imode boe ekorigo ii awugeje, tore ewugeje.
 # text_por = Eles irão brigar com você, eles vão bater eu vou brigar por causa de você, então e vou fazer os outros brigar comigo por causa de você, por causa dos filhos deles”.
 # collection = Boe Ero
 # section = 6
@@ -5710,7 +5710,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-004
-# text = Iwobe etokire ii. Egore: “Oh... Amearudu bokware iwadaruji, kode adurudo”.
+# text = Iwobe etokire ii. Egore Oh... Amearudu bokware iwadaruji, kode adurudo.
 # text_por = Meus parentes me repreenderam. Disseram: “Oh! Não escutaste a nossa palavra, agora esforça-te.”
 # collection = Boe Ero
 # section = 7
@@ -5756,7 +5756,7 @@
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-006
-# text = Awu itonaregedure. Iparedu rogu, imedu rogu: “Atu kaba ba oiado, jewu ime ekorigodumode ai, jewu ime erugodumode ai.” Oino imeduroguji.
+# text = Awu itonaregedure. Iparedu rogu, imedu rogu Atu kaba ba oiado, jewu ime ekorigodumode ai, jewu ime erugodumode ai. Oino imeduroguji.
 # text_por = É esse meu filho. Rapazinho, homenzinho: “Não vá ao centro da aldeia. Aqueles homens zangarão com você”. Assim é o pequeno homem.
 # collection = Boe Ero
 # section = 7
@@ -5819,7 +5819,7 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-008
-# text = Inagore: “Atukaba bai managejewuto. Bai managejewu, aroere bai managejewu rema. Bai managejewu jerimagare, kirerure aroe eerimaga tabo. Umode apegado, umode akugududo, umode korido aekuji. Arijodu mariguwo”.
+# text = Inagore Atukaba bai managejewuto. Bai managejewu, aroere bai managejewu rema. Bai managejewu jerimagare, kirerure aroe eerimaga tabo. Umode apegado, umode akugududo, umode korido aekuji. Arijodu mariguwo.
 # text_por = Eu disse: “Não vá à casa central. A casa central tem almas, ela é alma. A casa central tem cheiro amargo, tem cheiro forte, com cheiro amargo das almas. Ela vai te estragar, vai te tornar fraco, vai te fazer doer os olhos. Para que tu cresças logo”
 # collection = Boe Ero
 # section = 7
@@ -5893,7 +5893,7 @@
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-010
-# text = Boere, ipare, imere togwa kurido ji: “Arego jewu kae, arego jewu ipo kae, jewu iwara kae, ino bukidaga bogai. Arego jice iruwoborogu bogai, ipagaga bogai.”
+# text = Boere, ipare, imere togwa kurido ji Arego jewu kae, arego jewu ipo kae, jewu iwara kae, ino bukidaga bogai. Arego jice iruwoborogu bogai, ipagaga bogai.
 # text_por = As pessoas, os rapazes, os homens começaram a falar demais, ordenando-o: “Vá até aquele, corra a pegar aquele pau, a pegar aquele arbusto, atrás da minha fibra de tucum. Corra lá atrás da minha tigela, da minha amarradura de cabelos.”
 # collection = Boe Ero
 # section = 7
@@ -5941,7 +5941,7 @@
 36	”	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-011
-# text = Boe eroiware, tuwo togwa kurido ji, boe egore: “Ah, pawo jorududo aijeji, pawo jorududo aroei. Awurogu barigodure ai, ai, ai boe ewadaru otoji.”
+# text = Boe eroiware, tuwo togwa kurido ji, boe egore Ah, pawo jorududo aijeji, pawo jorududo aroei. Awurogu barigodure ai, ai, ai boe ewadaru otoji.
 # text_por = Para poderem retribuir um favor para ele, dizem: “Aarr! Vamos fazê-lo ver aije, vamos fazê-lo ver as almas. Este pequeno é obediente às palavras das pessoas.”
 # collection = Boe Ero
 # section = 7
@@ -6118,7 +6118,7 @@
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-016
-# text = Boe egore ji: “Akaiwo kurimode aroei, nori korimode aekuji, akera kiarimode, awure kiarimode, akugudumode.
+# text = Boe egore ji Akaiwo kurimode aroei, nori korimode aekuji, akera kiarimode, awure kiarimode, akugudumode.
 # text_por = Os bororo falam a ele: “Se demoradamente as almas tu irás ficar com sono, suas mãos vão ficar preguiçosas, seus pés vão ficar preguiçosos, irás ficar frouxo.”
 # collection = Boe Ero
 # section = 7
@@ -6187,7 +6187,7 @@
 4	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-019
-# text = “Na, awiapagado aedagamage enogwaji, amanamage enogwaji; boe jokodu jire egoino ai, ekaregure amearudu pagado. Kodibá enogwa kodure inogwa kodaji ai?
+# text = Na, awiapagado aedagamage enogwaji, amanamage enogwaji; boe jokodu jire egoino ai, ekaregure amearudu pagado. Kodibá enogwa kodure inogwa kodaji ai?
 # text_por = “Deste modo, escutas dos teus padrinhos, dos teus irmãos mais velhos as suas palavras. É verdade o que eles dizem a você, não é à toa que te fazem ouvi-a. Por que suas palavras tomam o mesmo rumo que as minhas com você?
 # collection = Boe Ero
 # section = 7
@@ -6246,7 +6246,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-021
-# text = Boe ekare pu reore, boe ekare turugadu. Pemegare boere, pegare boere. Mearutorureu boere, mearutoru bokwareu boere.”
+# text = Boe ekare pu reore, boe ekare turugadu. Pemegare boere, pegare boere. Mearutorureu boere, mearutoru bokwareu boere.
 # text_por = As pessoas não são iguais, as coisas não são perfeitas. Há os bons, há os maus. Há os que acreditam, há os que não acreditam.”
 # collection = Boe Ero
 # section = 7
@@ -6281,7 +6281,7 @@
 23	”	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-022
-# text = Icare erijodure. Icare inagore: “Akire, arokagado. Arokagado awo bai managejewu bu, arokagado awo bororo akudo, arokagado aije mugaji, arokagado awu mano kadaji.
+# text = Icare erijodure. Icare inagore Akire, arokagado. Arokagado awo bai managejewu bu, arokagado awo bororo akudo, arokagado aije mugaji, arokagado awu mano kadaji.
 # text_por = Nesse tempo ele cresceu. Nessa ocasião eu disse a ele: “É contigo, seja firme! Experimenta-te nesta casa central, experimenta-te a limpar o pátio de cerimônias, prova-te no local onde ficam os espíritos (aije), prova-te no percurso do mano (corrida).
 # collection = Boe Ero
 # section = 7
@@ -6413,7 +6413,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-027
-# text = Akonaregedu jokumode, akoreduje jokumode jice ia karo boe, barogo boe. Apogurumode”.
+# text = Akonaregedu jokumode, akoreduje jokumode jice ia karo boe, barogo boe. Apogurumode.
 # text_por = Teu filho olhará, tua mulher irá colocar seus olhos lá num peixe, num bicho. Tu irás sentir vergonha.
 # collection = Boe Ero
 # section = 7
@@ -6518,7 +6518,7 @@
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-031
-# text = Inagore: “Arokagado. Awiremode. Mare kajao, akodo mai.”
+# text = Inagore Arokagado. Awiremode. Mare kajao, akodo mai.
 # text_por = “Esforça-te. Ainda vais ter mulher. Mas aguarde, ainda és novo.
 # collection = Boe Ero
 # section = 7
@@ -6628,7 +6628,7 @@
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-035
-# text = Akore : “Uh! Itaidure imuguwo jewu akonaregedu apo”.
+# text = Akore Uh! Itaidure imuguwo jewu akonaregedu apo.
 # text_por = ‘Sim! Meu desejo é ficar com aquele seu filho’”.
 # collection = Boe Ero
 # section = 7
@@ -6652,7 +6652,7 @@
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-036
-# text = Inagore: “Oh! Itaidure. Mare kodo mai, matadu, joruduwa bokwa. Ukare karo, barogo bito roga”.
+# text = Inagore Oh! Itaidure. Mare kodo mai, matadu, joruduwa bokwa. Ukare karo, barogo bito roga.
 # text_por = Eu disse: “Sim, eu quero. Mas ele ainda é novo, é bobo, ele não sabe nada. Ele ainda não matou peixe, bicho”.
 # collection = Boe Ero
 # section = 7
@@ -6814,7 +6814,7 @@
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-042
-# text = Kodibá? Iorudukare boe ewoduji. Iorudukare: “Bakoro Kudu, Ki Bakororo, Kaigu, Akaruio Bokodori, iorudukare ewoduji.
+# text = Kodibá? Iorudukare boe ewoduji. Iorudukare Bakoro Kudu, Ki Bakororo, Kaigu, Akaruio Bokodori, iorudukare ewoduji.
 # text_por = Por quê? Eu não vi os bororo surgirem. Eu não vi: BAKORO KUDU, KI BAKORORO KAIGU, AKARUIO BOKODORI (chefes míticos), eu não vi eles nascerem.
 # collection = Boe Ero
 # section = 7
@@ -7395,7 +7395,7 @@
 5	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-07-066
-# text = “Iiui! Icare boe pegare! Icare barodugodure, Icare paeda kedomode”.
+# text = Iiui! Icare boe pegare! Icare barodugodure, Icare paeda kedomode.
 # text_por = “Iiuui! Então as coisas estão más. Então está de mau augúrio, eis que vamos ficar nus”.
 # collection = Boe Ero
 # section = 7
@@ -7499,7 +7499,7 @@
 3	:	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-08-002
-# text = “Boro, imedu, aredu. Awiapado tu boe enogwaji.
+# text = Boro, imedu, aredu. Awiapado tu boe enogwaji.
 # text_por = “Não, homem, mulher. Ouça bem o que os bororo dizem.
 # collection = Boe Ero
 # section = 8
@@ -7862,7 +7862,7 @@
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-08-019
-# text = Boe nure aki. Boe aki reo. Awuge rema barae reo”.
+# text = Boe nure aki. Boe aki reo. Awuge rema barae reo.
 # text_por = Tu és bororo. Bororo és. Agora esses são brancos.
 # collection = Boe Ero
 # section = 8
@@ -7905,7 +7905,7 @@
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = BOR-CORBO-BOE-08-021
-# text = “Jewu rema, jewu pegare. Jewu kugu rice, rie rice.
+# text = Jewu rema, jewu pegare. Jewu kugu rice, rie rice.
 # text_por = “Aquele lá, aquele é mau. Aquele lá é kugu (corujão, animal que amedronta, bicho papão), eis o lobo.
 # collection = Boe Ero
 # section = 8
