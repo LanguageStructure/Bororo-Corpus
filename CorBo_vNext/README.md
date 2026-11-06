@@ -33,6 +33,7 @@ Corpus text identifiers use the prefix `BOR-CORBO-`. Source units receive IDs de
 - Bakarudoge / Frederico Coqueiro
 - Kleber–Tiago materials
 - Coqueiro Bororo–Portuguese compilation
+- Boe Ero – Vida Bororo (8 parallel texts; 276 aligned records)
 
 The Coqueiro compilation currently has a section-aware alignment workflow. Candidate pairs are separated from structurally verified pairs; `verified_structural` describes documentary alignment confidence, not linguistic or translation validation.
 

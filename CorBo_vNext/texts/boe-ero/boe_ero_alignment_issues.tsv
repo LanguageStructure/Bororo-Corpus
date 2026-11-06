@@ -1,0 +1,12 @@
+id	issue_type	severity	description
+BOR-CORBO-BOE-02-039	missing_bororo_source	alignment	Portuguese item 39 has no printed Bororo counterpart; the Bororo numbering jumps from 38 to 40.
+BOR-CORBO-BOE-07-050	translation_number_shift	alignment	Bororo item 50 aligns positionally with the first Portuguese item printed as 51.
+BOR-CORBO-BOE-07-051	duplicate_translation_number	alignment	Bororo item 51 aligns positionally with the second Portuguese item printed as 51.
+BOR-CORBO-BOE-02-027	private_use_character	encoding	Source contains U+F087 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-02-035	private_use_character	encoding	Source contains U+F087 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-04-008	private_use_character	encoding	Source contains U+F086 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-04-010	private_use_character	encoding	Source contains U+F086 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-04-018	private_use_character	encoding	Source contains U+F063 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-07-011	private_use_character	encoding	Source contains U+F087 three times from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-07-060	private_use_character	encoding	Source contains U+F087 from a special font; retain pending authoritative character identification.
+BOR-CORBO-BOE-08-003	private_use_character	encoding	Source contains U+F087 from a special font; retain pending authoritative character identification.
