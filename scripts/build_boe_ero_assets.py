@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Build the Boe Ero public JSON and standalone annotation CoNLL-U.
 
-The canonical source is the parallel TSV.  The CoNLL-U output is deliberately
-kept separate from CorBo.conllu: this builder will create it once, verify an
+The canonical documentary source is the parallel TSV.  The standalone CoNLL-U
+is a clean annotation baseline: this builder will create it once, verify an
 identical generated copy, and refuse to replace a file that may contain manual
-annotation.
+annotation.  It never modifies the integrated canonical CorBo.conllu.
 """
 from __future__ import annotations
 

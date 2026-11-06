@@ -34,7 +34,7 @@ O corpus inclui, entre outros materiais:
 - **Coqueiro** — texto com alinhamento Bororo–Português;
 - **História Mítica** — coleção documental e paralela;
 - **Adugo Biri** — unidades com fonte, revisão e tradução;
-- **Boe Ero** — 8 textos e 276 unidades paralelas, com numeração original, créditos, tradução e metadados editoriais; o [CoNLL-U autônomo para anotação](CorBo_vNext/texts/boe-ero/boe_ero_unannotated.conllu) permanece separado do corpus CoNLL-U autoritativo;
+- **Boe Ero** — 8 textos e 276 unidades paralelas, com numeração original, créditos, tradução e metadados editoriais; o arquivo de trabalho expandido integra o CoNLL-U autoritativo e o [CoNLL-U autônomo](CorBo_vNext/texts/boe-ero/boe_ero_unannotated.conllu) permanece como base documental regenerável;
 - **Oiegos** — cantos Oieigo e documentos relacionados, preservados como textos independentes;
 - **História da Corujinha — Tagogorogu** — narrativa de tradição oral;
 - **Etnobotânica** — unidades incorporadas a partir de material tabular;

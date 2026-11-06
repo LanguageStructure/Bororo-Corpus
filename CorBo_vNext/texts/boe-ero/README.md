@@ -15,7 +15,7 @@ The source binary is not committed here. CorBo vNext keeps source binaries outsi
 ## Files
 
 - `boe_ero_parallel.tsv` is the canonical documentary and editorial table. `source` preserves the extracted Bororo witness; `reviewed` is a separate human-editable layer. Existing reviewed values must not be replaced by regeneration.
-- `boe_ero_unannotated.conllu` is a standalone annotation file generated from the current displayed Bororo text (`reviewed` when present, otherwise `source`). It is not merged into `CorBo/Corpus_Files/CorBo.conllu` and is not gold annotation.
+- `boe_ero_unannotated.conllu` is a standalone annotation baseline generated from the current displayed Bororo text (`reviewed` when present, otherwise `source`). It remains separate and regenerable even though the expanded, partially annotated working version is now integrated into `CorBo/Corpus_Files/CorBo.conllu`.
 - `boe_ero_alignment_issues.tsv` records source numbering, alignment, and character-encoding anomalies without silently repairing the witness.
 
 Regenerate or verify the derived website JSON and standalone CoNLL-U with:
@@ -35,3 +35,14 @@ The earlier exploratory export counted 277 rows because it matched repeated prin
 - In text 7, the Portuguese numbering omits 50 and prints 51 twice. The two translations are aligned positionally to Bororo 50 and 51. The mismatch is preserved in `source_number` and `translation_number` and is not silently renumbered.
 
 Several source strings contain Unicode private-use characters inherited from a special font. They remain unchanged pending inspection of the original font or another authoritative witness.
+
+## Expanded CoNLL-U integration
+
+The working file `corbo_work.conllu` supplied on 2026-11-06 was integrated into the canonical corpus without automatic correction. Its manual annotations, incomplete rows, numbering, identifiers, and non-Boe portion were preserved for incremental human review. The file currently contains:
+
+- 277 Boe Ero blocks, of which 275 contain Bororo text;
+- 300 incomplete token rows containing only a numeric token ID, chiefly in passages with quotation marks;
+- the translation-only blocks `boe_ero_02_39` and `boe_ero_07_51_2`;
+- the documentary numbering irregularities already recorded in the parallel alignment notes.
+
+These irregularities are intentionally left for correction during manual annotation. Their complete source line numbers, digest, and counts are stored in `../../annotations/latest_conllu_import_report.json`.

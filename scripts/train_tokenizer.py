@@ -16,7 +16,7 @@ from bororo_morphotactics import assess as assess_verbal_suffixes, CONFIRMED_SEQ
 from reviewed_morphology_registry import load_registry
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "CorBo/Corpus_Files/CorBo_20261027.conllu"
+SOURCE = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
 OUTPUT = ROOT / "docs/data/tokenizer-model.json"
 REVIEWED_AIMO = ROOT / "CorBo_vNext/annotations/aimo_reviewed_20261018.json"
 REVIEWED_P077 = ROOT / "CorBo_vNext/annotations/p077_paradigm_reviewed_20261019.json"
