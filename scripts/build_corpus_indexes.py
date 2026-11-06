@@ -152,7 +152,7 @@ def conllu_sentences(path, namespace=''):
    line=line.rstrip('\n')
    if not line.strip():flush();continue
    if line.startswith('#'):
-    if re.match(r'#\s*sent_id\s*=',line) and rows:flush()
+    if re.match(r'#\s*sent_id\s*=',line) and (rows or meta.get('sent_id')):flush()
     m=re.match(r'#\s*([^=]+?)\s*=\s*(.*)$',line)
     if m:meta[m.group(1).strip()]=m.group(2).strip()
     continue
