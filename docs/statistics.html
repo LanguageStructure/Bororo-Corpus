@@ -30,7 +30,7 @@
   const res=await fetch('./data/ud-sentences.json',{cache:'no-cache'});
   if(!res.ok)throw Error('Índice CoNLL-U indisponível');
   const rows=await res.json();
-  let complete=0,pending=0,tokens=0,analysed=0;
+  let complete=0,pending=0,tokens=0,analysed=0,lemmaTokens=0,uposTokens=0,headTokens=0,deprelTokens=0;
   const lemmas=new Set(),upos=new Map(),relations=new Map();
   for(const row of rows){
    const ts=(row.tokens||[]).filter(t=>Number.isInteger(t.id));
@@ -40,6 +40,10 @@
    for(const t of ts){
     const ok=t.upos&&t.upos!=='_'&&Number.isInteger(t.head)&&t.deprel&&t.deprel!=='_';
     if(ok)analysed++;else full=false;
+    if(t.lemma&&t.lemma!=='_')lemmaTokens++;
+    if(t.upos&&t.upos!=='_')uposTokens++;
+    if(Number.isInteger(t.head))headTokens++;
+    if(t.deprel&&t.deprel!=='_')deprelTokens++;
     if(t.lemma&&t.lemma!=='_')lemmas.add(t.lemma);
     if(t.upos&&t.upos!=='_')upos.set(t.upos,(upos.get(t.upos)||0)+1);
     if(t.deprel&&t.deprel!=='_')relations.set(t.deprel,(relations.get(t.deprel)||0)+1);
@@ -48,8 +52,8 @@
   }
   const fmt=n=>n.toLocaleString('pt-BR');
   const pct=(n,d)=>d?(100*n/d).toLocaleString('pt-BR',{maximumFractionDigits:1})+'%':'0%';
-  const summary=[['Frases com tokens',rows.filter(r=>(r.tokens||[]).length).length],['Frases integralmente anotadas',complete],['Frases com anotação incompleta ou sem tokens',pending],['Tokens',tokens],['Tokens com UPOS, HEAD e DEPREL',analysed],['Lemas distintos preenchidos',lemmas.size],['Classes UPOS observadas',upos.size],['Relações de dependência distintas',relations.size]];
-  el.innerHTML='<div class="table-scroll"><table class="lex-table"><tbody>'+summary.map(([k,v])=>'<tr><td>'+k+'</td><td class="numcell">'+fmt(v)+'</td></tr>').join('')+'</tbody></table></div><p class="muted">Cobertura de anotação por token: '+pct(analysed,tokens)+'; por frase: '+pct(complete,rows.filter(r=>(r.tokens||[]).length).length)+'.</p><details><summary>Distribuição de classes gramaticais e relações de dependência</summary><div class="table-scroll"><table class="lex-table"><thead><tr><th>UPOS</th><th>Tokens</th></tr></thead><tbody>'+[...upos].sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<tr><td>'+k+'</td><td>'+fmt(v)+'</td></tr>').join('')+'</tbody></table><table class="lex-table"><thead><tr><th>DEPREL</th><th>Tokens</th></tr></thead><tbody>'+[...relations].sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<tr><td>'+k+'</td><td>'+fmt(v)+'</td></tr>').join('')+'</tbody></table></div></details>';
+  const summary=[['Frases com tokens',rows.filter(r=>(r.tokens||[]).length).length],['Frases integralmente anotadas',complete],['Frases com anotação incompleta ou sem tokens',pending],['Tokens',tokens],['Tokens com lema',lemmaTokens],['Tokens com UPOS',uposTokens],['Tokens com HEAD',headTokens],['Tokens com DEPREL',deprelTokens],['Tokens com UPOS, HEAD e DEPREL',analysed],['Lemas distintos preenchidos',lemmas.size],['Classes UPOS observadas',upos.size],['Relações de dependência distintas',relations.size]];
+  el.innerHTML='<div class="table-scroll"><table class="lex-table"><tbody>'+summary.map(([k,v])=>'<tr><td>'+k+'</td><td class="numcell">'+fmt(v)+'</td></tr>').join('')+'</tbody></table></div><p class="muted">Cobertura por token — lema: '+pct(lemmaTokens,tokens)+'; UPOS: '+pct(uposTokens,tokens)+'; HEAD: '+pct(headTokens,tokens)+'; DEPREL: '+pct(deprelTokens,tokens)+'; análise sintática completa: '+pct(analysed,tokens)+'. Frases integralmente anotadas: '+pct(complete,rows.filter(r=>(r.tokens||[]).length).length)+'.</p><details><summary>Distribuição de classes gramaticais e relações de dependência</summary><div class="table-scroll"><table class="lex-table"><thead><tr><th>UPOS</th><th>Tokens</th></tr></thead><tbody>'+[...upos].sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<tr><td>'+k+'</td><td>'+fmt(v)+'</td></tr>').join('')+'</tbody></table><table class="lex-table"><thead><tr><th>DEPREL</th><th>Tokens</th></tr></thead><tbody>'+[...relations].sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<tr><td>'+k+'</td><td>'+fmt(v)+'</td></tr>').join('')+'</tbody></table></div></details>';
  }catch(e){el.textContent='Estatísticas de anotação indisponíveis: '+e.message;}
 })();
 </script></body></html>
