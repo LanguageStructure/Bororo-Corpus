@@ -386,6 +386,28 @@ def collation_data():
    out.append({'id':(r.get('witness_id') or '').strip(),'family':'Testemunhos paralelos de arquivo','document':(r.get('document') or '').strip(),'source':(r.get('source') or '').strip(),'portuguese':(r.get('portuguese') or '').strip(),'reviewed':'','status':(r.get('collation_status') or '').strip(),'corbo_match_id':(r.get('corbo_match_id') or '').strip(),'decision_note':(r.get('editorial_note') or '').strip()})
  return out
 
+def primeiro_reis_units():
+ path = ROOT / 'CorBo_vNext/texts/biblicos/1reis/1reis_unidades_documentais.json'
+ data = json.loads(path.read_text(encoding='utf-8'))
+ out = []
+ for r in data['units']:
+  texto = (r.get('text') or '').strip()
+  if not texto:
+   continue
+  out.append({
+   'id': r['id'], 'b': texto, 'p': '',
+   'collection': '1 Reis', 'group': 'Antigo Testamento',
+   'book': '1 Reis', 'reference': r.get('reference', ''),
+   'reference_provisional': r.get('reference_provisional', False),
+   'document_id': r.get('document_id', ''),
+   'source': r.get('source_text_original', ''),
+   'segmentation_status': r.get('segmentation_status', ''),
+   'editorial_class': r.get('editorial_class', ''),
+   'duplicate_text_count': r.get('duplicate_text_count', 1),
+   'reviewed': False, 'status': 'provisional'
+  })
+ return out
+
 def main():
  if not CORBO_CONLLU.is_file():
   raise SystemExit(f'CoNLL-U principal ausente: {CORBO_CONLLU}. Publique o arquivo antes de reconstruir os indices.')
@@ -408,7 +430,7 @@ def main():
    source=(r.get('source') or '').strip()
    reviewed=(r.get('reviewed') or '').strip()
    biboral.append({'id':r['id'].strip(),'b':reviewed or source,'source':source,'p':(r.get('portuguese_reviewed') or r.get('portuguese') or '').strip(),'collection':'Marigudu','group':'Documentary texts','title':'Marigudu','subtitle':'Criação segundo a Bíblia','reviewed':False,'status':'provisional','editorial_note':(r.get('editorial_note') or '').strip()})
- bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par;validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par+primeiro_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
