@@ -19,6 +19,50 @@ button.lexical-word {
     background: var(--soft);
     text-decoration: none;
 }
+
+/* Palavras clicáveis com aparência de texto comum */
+.lexical-word,
+.word,
+.token,
+.word-link,
+button.lexical-word,
+a.lexical-word {
+    color: inherit !important;
+    text-decoration: none !important;
+    border: none !important;
+    border-bottom: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    font: inherit !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+/* Palavras clicáveis: aparência de texto normal */
+.bororo-text .reis-word,
+.reis-word {
+    color: inherit !important;
+    text-decoration: none !important;
+    border: 0 !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    font: inherit !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+/* Destaque das palavras ao passar o cursor */
+.bororo-text .reis-word:hover,
+.reis-word:hover,
+.bororo-text .reis-word:focus-visible,
+.reis-word:focus-visible {
+    color: var(--accent, #527066) !important;
+    background: var(--soft, #eef3f1) !important;
+    text-decoration: none !important;
+    border: none !important;
+}
 </style></head><body><header><div class="bar"><strong>CorBo · Corpus da Língua Bororo</strong><nav><a href="index.html">Início</a> · <a href="catalogo.html#biblicos">Catálogo</a> · <a href="biblia.html">Textos bíblicos</a></nav></div></header><main class="wrap"><div class="meta">CORPUS DOCUMENTAL · ANTIGO TESTAMENTO</div><h1>1 Reis</h1><p class="muted">319 unidades de leitura propostas, provenientes de 200 registros documentais. Segmentação e algumas referências em revisão. O texto original está disponível em cada unidade.</p><div class="controls"><input id="q" type="search" placeholder="Buscar no texto Bororo ou na referência" aria-label="Buscar"><select id="refs" aria-label="Filtrar referências"><option value="">Todas as referências</option></select></div><p id="count" class="muted" aria-live="polite">Carregando…</p><div id="results"></div><div class="pagination"><button id="prev">Anterior</button><span id="page"></span><button id="next">Próxima</button></div><p class="muted">Os textos desta página não possuem análise morfossintática. Referências provisórias são indicadas; repetições documentais são preservadas.</p></main><aside id="lexicalPop" class="lexical-pop" hidden role="dialog" aria-label="Consulta lexical"><button class="close" aria-label="Fechar">×</button><div id="lexicalBody"></div></aside><script src="./ud-pt.js">const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let morph=null,dictAnn=null;
 async function morphology(){if(morph)return morph;const r=await fetch('./data/morphology.json');if(!r.ok)throw Error('morphology');return morph=await r.json()}
 async function dictionaryAnnotations(){if(dictAnn)return dictAnn;try{const r=await fetch('./data/dictionary-annotations.json');if(!r.ok)return dictAnn=[];return dictAnn=await r.json()}catch(e){return dictAnn=[]}}
