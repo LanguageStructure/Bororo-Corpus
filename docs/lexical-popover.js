@@ -21,14 +21,15 @@ function data(){return cache||(cache=Promise.all([
 fetchJSON('./data/morphology.json',{}),
 fetchJSON('./data/dictionary-annotations.json',[]),
 fetchJSON('./data/grammatical-index.json',{}),
-fetchJSON('./data/corbo-stats.json',{})
-]).then(([m,d,g,s])=>({m,d,g,s})))}
+fetchJSON('./data/corbo-stats.json',{}),
+fetchJSON('./data/dicionario-bororo-publico.json',{entries:[]})
+]).then(([m,d,g,s,dict])=>({m,d,g,s,dict})))}
 let sequence=0;
 async function show(word){
 const seq=++sequence;box.hidden=false;document.body.classList.add('corbo-lex-open');
 const body=box.querySelector('.body');body.innerHTML='<h3>'+esc(word)+'</h3><p class="muted">Consultando os índices…</p>';
 try{
-const {m,d,g,s}=await data();if(seq!==sequence||box.hidden)return;
+const {m,d,g,s,dict}=await data();if(seq!==sequence||box.hidden)return;
 const relation=(m.relacoes_lexicais||[]).find(x=>norm(x.form)===norm(word));
 const gram=g.lexicon?.[norm(word)]||{};
 const annotated=(Array.isArray(d)?d:[]).filter(x=>norm(x.form)===norm(word));
@@ -43,7 +44,19 @@ const analyses=(gram.analyses||[]).slice(0,5);
 const lemmaFreq=lemmas.length?Object.entries(g.lexicon||{}).reduce((n,[form,item])=>n+(item.analyses||[]).reduce((sum,a)=>sum+(lemmas.some(l=>norm(l)===norm(a.lemma))?Number(a.frequency||0):0),0),0):null;
 let html='<h3>'+esc(word)+'</h3><h4>Identificação</h4>';
 html+=field('Forma',word)+field('Lema',lemmas)+field('Classe gramatical',classes);
-html+='<h4>Dicionário</h4><p class="muted">Tradução: não disponível nesta camada de dados.</p><p class="muted">Exemplo do dicionário: não disponível nesta camada de dados.</p>';
+const dictionaryEntries=Array.isArray(dict.entries)?dict.entries:[];
+const keys=unique([word,...lemmas]).map(norm);
+const matches=dictionaryEntries.filter(x=>keys.includes(norm(x.entry))||keys.includes(norm(x.lemma_key)));
+html+='<h4>Dicionário Bororo</h4>';
+if(matches.length){
+ for(const entry of matches.slice(0,12)){
+  html+='<div class="field"><strong>'+esc(entry.entry)+'</strong>';
+  html+=field('Transcrição fonética',entry.ipa)+field('Classe lexicográfica',entry.pos)+field('Definição',entry.definition)+field('Exemplo do dicionário',entry.example_sent)+field('Observações',entry.comment);
+  html+='</div>';
+ }
+ if(matches.length>12)html+='<p class="muted">Outras entradas disponíveis na consulta completa.</p>';
+}else html+='<p class="muted">Nenhuma entrada correspondente à forma ou aos lemas identificados.</p>';
+html+='<p><a href="dicionario.html?lemma='+encodeURIComponent(lemmas[0]||word)+'">Consultar o dicionário completo →</a></p>';
 if(glosses.length)html+=field('Glosas registradas no CoNLL-U (não equivalem necessariamente à tradução)',glosses);
 html+='<h4>Frequência</h4>';
 html+=freq!==undefined?field('Ocorrências da forma',Number(freq).toLocaleString('pt-BR')):'<p class="muted">Frequência da forma indisponível.</p>';
