@@ -3,4 +3,4 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const re=/[\p{L}]+(?:['’][\p{L}]+)?/gu;
 function clickable(s){let out='',last=0;for(const m of String(s||'').matchAll(re)){out+=esc(s.slice(last,m.index));out+=`<a class="word" href="word.html?form=${encodeURIComponent(m[0])}">${esc(m[0])}</a>`;last=m.index+m[0].length}return out+esc(s.slice(last))}
 fetch('./data/etnobotanica-units.json').then(r=>r.json()).then(rows=>{entries.innerHTML=rows.map(x=>`<article class="entry" id="${esc(x.id)}"><h2>${clickable(x.name)}</h2><div class="bororo">${clickable(x.b)}</div><div class="meta">${esc(x.id)}</div></article>`).join('')||'<p>Nenhuma entrada disponível.</p>'}).catch(()=>entries.innerHTML='<p>Não foi possível carregar a coleção.</p>');
-</script></body></html>
+</script><script src="./ud-pt.js"></script><script src="./lexical-sidepanel.js"></script></body></html>
