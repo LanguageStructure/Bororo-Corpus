@@ -1,0 +1,78 @@
+{
+  "collection": "Antigo Testamento",
+  "book": "Ageu",
+  "source": "CorBo/Scripture_Sources/ageu.txt",
+  "segmentation_method": "original_paragraphs",
+  "units": [
+    {
+      "id": "AT_ageu_001_s01",
+      "document_id": "AT_ageu_001",
+      "collection": "Antigo Testamento",
+      "book": "Ageu",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "1",
+      "text": "Jorure pobe brae eimejerai Dário cedu keje, arii ikera awubodure boture ikera awubowuto mito, boetojiwu meri keje, Pao bataru aregodure profeta Ageu jabiji, Salatiel naregedu Sorobabel, Judá kejewu brae eimejera, ai, Josedec naregedu Salatiel, Pao burejoiage eimejera, ai jamedu oinore Pao utugare makarewu akore awu boe egore boe emode Pao Aroe Eimejera uwai pemegado pugeje du kejewu meri aregodukare raga!",
+      "source_text_original": "Jorure pobe brae eimejerai Dário cedu keje, arii ikera awubodure boture ikera awubowuto mito, boetojiwu meri keje, Pao bataru aregodure profeta Ageu jabiji, Salatiel naregedu Sorobabel, Judá kejewu brae eimejera, ai, Josedec naregedu Salatiel, Pao burejoiage eimejera, ai jamedu oinore Pao utugare makarewu akore awu boe egore boe emode Pao Aroe Eimejera uwai pemegado pugeje du kejewu meri aregodukare raga!",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_ageu_002_s01",
+      "document_id": "AT_ageu_002",
+      "collection": "Antigo Testamento",
+      "book": "Ageu",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "2",
+      "text": "Du kodi icare Pao bataru aregodure profeta Ageu jabiji, tagoi oino dutabo umode turugadu tamuguwo bai todure irá moturewu tabowu tada, Pao uwai pegadodu tonaji?",
+      "source_text_original": "Du kodi icare Pao bataru aregodure profeta Ageu jabiji, tagoi oino dutabo umode turugadu tamuguwo bai todure irá moturewu tabowu tada, Pao uwai pegadodu tonaji?",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_ageu_003_s01",
+      "document_id": "AT_ageu_003",
+      "collection": "Antigo Testamento",
+      "book": "Ageu",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "3",
+      "text": "Kode, oinore Pao utugare makarewu akore tawiapagado tarore jiboeji! Tare boe tugudu kuricigodo, mare takare tageragu du kurido boture moto pijiboeji; tagogwagere mare tagogwa amogodukare; tagudure mare pobo boi taidu akedukare; tagudae meture tai mare ukare tawiri urudo: maragodurewu ure tumaragodae mori tugu ia micigu pororewu tada!",
+      "source_text_original": "Kode, oinore Pao utugare makarewu akore tawiapagado tarore jiboeji! Tare boe tugudu kuricigodo, mare takare tageragu du kurido boture moto pijiboeji; tagogwagere mare tagogwa amogodukare; tagudure mare pobo boi taidu akedukare; tagudae meture tai mare ukare tawiri urudo: maragodurewu ure tumaragodae mori tugu ia micigu pororewu tada!",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_ageu_004_s01",
+      "document_id": "AT_ageu_004",
+      "collection": "Antigo Testamento",
+      "book": "Ageu",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "4",
+      "text": "Oinore Pao utugare makarewu akore tawiapagado tarorewu boeji! Taru torikodu ao kae, iguru arego, iwai mugudo; nono iwudugugodu mode tada, itagaru kuridodu mode, oinore Pao akore.",
+      "source_text_original": "Oinore Pao utugare makarewu akore tawiapagado tarorewu boeji! Taru torikodu ao kae, iguru arego, iwai mugudo; nono iwudugugodu mode tada, itagaru kuridodu mode, oinore Pao akore.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_ageu_005_s01",
+      "document_id": "AT_ageu_005",
+      "collection": "Antigo Testamento",
+      "book": "Ageu",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "5",
+      "text": "Jorure pobe brae eimejera Dário cedu keje, arii ikera awubodure buture ikera awubowuto pobe, merire ikera pudogidure iwure pudogidure buture ikera awubowuto mito, dukeje, Pao bataru aregodure profeta Ageu jabiji, tagoi oino dutabo amagodo Salatiel naregedu, Judá kejewuge eimejera, Zorobabel ji, Josedec onaregedu Pao burejoiage eimejera Josué ji, boe eiamedu boe ekobo boeji, akagoi oino dutabo kakoduwu tagiba taerdure awu bai urugu boetojiwuji, inoba ure taegai oino pugeje? Biega jokodukare taegai? Kode, Zorobabel, atugu ato. Oinore Pao akore. Josué, Josedec onaregedu, Pao burejoiage eimejerage eimejera, atugu ato; moto kejewu boe, tadugu tado, oinore Pao akore; tamaragodudo, iragojere tagabo, oinore Pao utugare makarewu akore. Imago magai tai, tai tadawuje Egito piji dukeje, du reorere itaroe mugure tagoiadoda. Tabagudu kaba; oinore Pao utugare makarewu akore. Boe raimodukare dukeje imode baru, moto, amagadudo; imode pobo maerewu, moto jamedu boe amagadudo; imode boe epadui pumekejeboe eiamedu boe etamagadudo; boe eiamedu boe enoroe aregodumode; imode awu iwai korobadudo irugu tabo, oinore Pao utugare makarewu akore. Ino nure meri kigadurewu, meri ekurewu, oinore Pao utugare makarewu akore. Awu maiwu bai urugu kodumode boetojiwu urugu kori, oinore Pao utugare makarewu akore; imode awu bai jiwo aidugirido. Oinore Pao utugare makarewu akore.",
+      "source_text_original": "Jorure pobe brae eimejera Dário cedu keje, arii ikera awubodure buture ikera awubowuto pobe, merire ikera pudogidure iwure pudogidure buture ikera awubowuto mito, dukeje, Pao bataru aregodure profeta Ageu jabiji, tagoi oino dutabo amagodo Salatiel naregedu, Judá kejewuge eimejera, Zorobabel ji, Josedec onaregedu Pao burejoiage eimejera Josué ji, boe eiamedu boe ekobo boeji, akagoi oino dutabo kakoduwu tagiba taerdure awu bai urugu boetojiwuji, inoba ure taegai oino pugeje? Biega jokodukare taegai? Kode, Zorobabel, atugu ato. Oinore Pao akore. Josué, Josedec onaregedu, Pao burejoiage eimejerage eimejera, atugu ato; moto kejewu boe, tadugu tado, oinore Pao akore; tamaragodudo, iragojere tagabo, oinore Pao utugare makarewu akore. Imago magai tai, tai tadawuje Egito piji dukeje, du reorere itaroe mugure tagoiadoda. Tabagudu kaba; oinore Pao utugare makarewu akore. Boe raimodukare dukeje imode baru, moto, amagadudo; imode pobo maerewu, moto jamedu boe amagadudo; imode boe epadui pumekejeboe eiamedu boe etamagadudo; boe eiamedu boe enoroe aregodumode; imode awu iwai korobadudo irugu tabo, oinore Pao utugare makarewu akore. Ino nure meri kigadurewu, meri ekurewu, oinore Pao utugare makarewu akore. Awu maiwu bai urugu kodumode boetojiwu urugu kori, oinore Pao utugare makarewu akore; imode awu bai jiwo aidugirido. Oinore Pao utugare makarewu akore.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    }
+  ]
+}
