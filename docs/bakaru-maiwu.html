@@ -22,4 +22,4 @@ fetch('data/bakaru-maiwu-units.json').then(r=>{if(!r.ok)throw Error();return r.j
  render(true);
  addEventListener('hashchange',()=>{let id=decodeURIComponent(location.hash.slice(1)),u=data.find(x=>x.id===id);if(u){book=u.book;chapter=String(u.chapter);render(true)}})
 }).catch(e=>$('status').textContent='Os dados do Bakaru Maiwu ainda estão sendo gerados.');
-</script></body></html>
+</script><script src="./ud-pt.js"></script><script src="./lexical-sidepanel.js"></script></body></html>
