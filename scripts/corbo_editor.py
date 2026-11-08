@@ -28,7 +28,7 @@ BM_ROOT=ROOT/'CorBo_vNext/texts/bakaru-maiwu'
 BIBLES={'jonas':('Jonas',ROOT/'CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt',ROOT/'CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu',ROOT/'CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt',ROOT/'CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos',ROOT/'CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt',ROOT/'CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 DOCUMENTARY_BIBLES = {
  'josue':'Josué','juizes':'Juízes','rute':'Rute','1samuel':'1 Samuel','2samuel':'2 Samuel',
- '1reis':'1 Reis','2reis':'2 Reis','1cronicas':'1 Crônicas','2cronicas':'2 Crônicas',
+ '1reis':'1 Reis','2reis':'2 Reis','cronicas':'1–2 Crônicas (fonte conjunta; atribuição pendente)',
  'esdras':'Esdras','neemias':'Neemias','amos':'Amós','joel':'Joel','oseias':'Oseias','malaquias':'Malaquias','daniel':'Daniel','baruc':'Baruc','lamentacoes':'Lamentações','proverbios':'Provérbios','eclesiastes':'Eclesiastes','eclesiastico':'Eclesiástico','sabedoria':'Sabedoria','macabeus_1':'1 Macabeus','macabeus_2':'2 Macabeus','deuteronomio':'Deuteronômio','levitico':'Levítico','numeros':'Números','ageu':'Ageu','jonas':'Jonas','cantico_dos_canticos':'Cântico dos Cânticos','judite':'Judite','ester':'Ester'
 }
 def documentary_path(key):
