@@ -550,6 +550,66 @@ def cronicas_units():
    'reviewed':False,'status':'provisional'})
  return out
 
+
+def esdras_units():
+ path = ROOT / 'CorBo_vNext/texts/biblicos/esdras/esdras_unidades_documentais.json'
+ data = json.loads(path.read_text(encoding='utf-8'))
+ out = []
+ for r in data['units']:
+  texto = (r.get('text') or '').strip()
+  if not texto: continue
+  out.append({'id':r['id'],'b':texto,'p':'','collection':'Esdras',
+   'group':'Antigo Testamento','book':'Esdras',
+   'reference':r.get('reference') or '',
+   'reference_provisional':r.get('reference_provisional',True),
+   'document_id':r.get('document_id',''),
+   'source':r.get('source_text_original',''),
+   'segmentation_status':r.get('segmentation_status',''),
+   'editorial_class':r.get('editorial_class',''),
+   'duplicate_text_count':r.get('duplicate_text_count',1),
+   'reviewed':False,'status':'provisional'})
+ return out
+
+
+def judite_units():
+ path = ROOT / 'CorBo_vNext/texts/biblicos/judite/judite_unidades_documentais.json'
+ data = json.loads(path.read_text(encoding='utf-8'))
+ out = []
+ for r in data['units']:
+  texto = (r.get('text') or '').strip()
+  if not texto: continue
+  out.append({'id':r['id'],'b':texto,'p':'','collection':'Judite',
+   'group':'Antigo Testamento','book':'Judite',
+   'reference':r.get('reference') or '',
+   'reference_provisional':r.get('reference_provisional',True),
+   'document_id':r.get('document_id',''),
+   'source':r.get('source_text_original',''),
+   'segmentation_status':r.get('segmentation_status',''),
+   'editorial_class':r.get('editorial_class',''),
+   'duplicate_text_count':r.get('duplicate_text_count',1),
+   'reviewed':False,'status':'provisional'})
+ return out
+
+
+def ester_units():
+ path = ROOT / 'CorBo_vNext/texts/biblicos/ester/ester_unidades_documentais.json'
+ data = json.loads(path.read_text(encoding='utf-8'))
+ out = []
+ for r in data['units']:
+  texto = (r.get('text') or '').strip()
+  if not texto: continue
+  out.append({'id':r['id'],'b':texto,'p':'','collection':'Ester',
+   'group':'Antigo Testamento','book':'Ester',
+   'reference':r.get('reference') or '',
+   'reference_provisional':r.get('reference_provisional',True),
+   'document_id':r.get('document_id',''),
+   'source':r.get('source_text_original',''),
+   'segmentation_status':r.get('segmentation_status',''),
+   'editorial_class':r.get('editorial_class',''),
+   'duplicate_text_count':r.get('duplicate_text_count',1),
+   'reviewed':False,'status':'provisional'})
+ return out
+
 def main():
  if not CORBO_CONLLU.is_file():
   raise SystemExit(f'CoNLL-U principal ausente: {CORBO_CONLLU}. Publique o arquivo antes de reconstruir os indices.')
@@ -572,7 +632,7 @@ def main():
    source=(r.get('source') or '').strip()
    reviewed=(r.get('reviewed') or '').strip()
    biboral.append({'id':r['id'].strip(),'b':reviewed or source,'source':source,'p':(r.get('portuguese_reviewed') or r.get('portuguese') or '').strip(),'collection':'Marigudu','group':'Documentary texts','title':'Marigudu','subtitle':'Criação segundo a Bíblia','reviewed':False,'status':'provisional','editorial_note':(r.get('editorial_note') or '').strip()})
- bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+judite_units()+ester_units()+esdras_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')

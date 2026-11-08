@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1",
+  "status": "provisional_for_site_review",
+  "source": "CorBo/Scripture_Sources/judite_e_ester_2-orthophon.txt",
+  "units": [
+    {
+      "id": "AT_judite_001_s01",
+      "document_id": "AT_judite_001",
+      "collection": "Antigo Testamento",
+      "book": "Judite",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "1",
+      "text": "Judite oredu iere Manasés, duwu bire boe ji cevada kado dukeje; meri joku urugu ro pegare ji, oebatodui boe ji cevada opodo dutabo. Bire to bakurirewu Betúlia keje; tugududodure mototo tuomage ebo, moto padui Dotain, Balamon, etoiadoda du tada.",
+      "source_text_original": "Judite oredu iere Manasés, duwu bire boe ji cevada kado dukeje; meri joku urugu ro pegare ji, oebatodui boe ji cevada opodo dutabo. Bire to bakurirewu Betúlia keje; tugududodure mototo tuomage ebo, moto padui Dotain, Balamon, etoiadoda du tada.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_judite_002_s01",
+      "document_id": "AT_judite_002",
+      "collection": "Antigo Testamento",
+      "book": "Judite",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "2",
+      "text": "Jorure pobe ma jewu metuia bokware pobe puibijidu oiado Judite oredu okware piji dukeje.",
+      "source_text_original": "Jorure pobe ma jewu metuia bokware pobe puibijidu oiado Judite oredu okware piji dukeje.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_judite_003_s01",
+      "document_id": "AT_judite_003",
+      "collection": "Antigo Testamento",
+      "book": "Judite",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "3",
+      "text": "Ure ia tumuga pemegado tuwai mugui tumeduia aogejedu keje; nonore ure tugera opodo pudabo, tugarege areme ebo. Ure ia tujebae epa bu tubeagajeje, tugudae corewu ure tugu tugu pudui; otorogare pudui meri jameduji tu tu je tugoadu tonaji; mare sábado keje, ari rutu boe keje, Israeldoge eegarei puduidu boe keje, otorogakare pudui.",
+      "source_text_original": "Ure ia tumuga pemegado tuwai mugui tumeduia aogejedu keje; nonore ure tugera opodo pudabo, tugarege areme ebo. Ure ia tujebae epa bu tubeagajeje, tugudae corewu ure tugu tugu pudui; otorogare pudui meri jameduji tu tu je tugoadu tonaji; mare sábado keje, ari rutu boe keje, Israeldoge eegarei puduidu boe keje, otorogakare pudui.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    },
+    {
+      "id": "AT_judite_004_s01",
+      "document_id": "AT_judite_004",
+      "collection": "Antigo Testamento",
+      "book": "Judite",
+      "reference": null,
+      "reference_provisional": true,
+      "source_paragraphs": "4",
+      "text": "Je motu remawu nure, jordu aidugirire boe ji. Oredu Manasesre meriri ekurewu, meriri kigadurewu jetudo apo, ure tudugarege areme, ime, eedudo apo, ure moto maerewu jetudo apo jamedu, du ure inodu padu pemegado pudabo kimo. Iaboe iaboe emago pegakare ji, pagudu kuricigore Paoce kodi.",
+      "source_text_original": "Je motu remawu nure, jordu aidugirire boe ji. Oredu Manasesre meriri ekurewu, meriri kigadurewu jetudo apo, ure tudugarege areme, ime, eedudo apo, ure moto maerewu jetudo apo jamedu, du ure inodu padu pemegado pudabo kimo. Iaboe iaboe emago pegakare ji, pagudu kuricigore Paoce kodi.",
+      "segmentation_status": "original_paragraph",
+      "editorial_class": "sem_referencia_biblica",
+      "duplicate_text_count": 1
+    }
+  ]
+}
