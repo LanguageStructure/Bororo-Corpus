@@ -29,7 +29,7 @@ BIBLES={'jonas':('Jonas',ROOT/'CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt'
 DOCUMENTARY_BIBLES = {
  'josue':'Josué','juizes':'Juízes','rute':'Rute','1samuel':'1 Samuel','2samuel':'2 Samuel',
  '1reis':'1 Reis','2reis':'2 Reis','1cronicas':'1 Crônicas','2cronicas':'2 Crônicas',
- 'esdras':'Esdras','neemias':'Neemias','amos':'Amós','joel':'Joel','oseias':'Oseias','malaquias':'Malaquias','daniel':'Daniel','baruc':'Baruc','lamentacoes':'Lamentações','judite':'Judite','ester':'Ester'
+ 'esdras':'Esdras','neemias':'Neemias','amos':'Amós','joel':'Joel','oseias':'Oseias','malaquias':'Malaquias','daniel':'Daniel','baruc':'Baruc','lamentacoes':'Lamentações','proverbios':'Provérbios','judite':'Judite','ester':'Ester'
 }
 def documentary_path(key):
  if key not in DOCUMENTARY_BIBLES: raise ValueError('Livro desconhecido')
