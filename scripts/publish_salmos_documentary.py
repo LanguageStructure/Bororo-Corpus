@@ -39,6 +39,7 @@ def main():
     if old not in template:
         raise ValueError("A descrição do modelo Sabedoria mudou; revisar antes de publicar")
     template = template.replace(old, new)
+    template = template.replace('<script src="./ud-pt.js">const esc=', '<script src="./ud-pt.js"></script><script>const esc=')
     (ROOT / "docs/salmos.html").write_text(template, encoding="utf-8")
     # Canonical editable copy for the local documentary editor.
     canonical = ROOT / "CorBo_vNext/texts/biblicos/salmos"
