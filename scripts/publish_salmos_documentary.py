@@ -40,7 +40,7 @@ def main():
         raise ValueError("A descrição do modelo Sabedoria mudou; revisar antes de publicar")
     template = template.replace(old, new)
     (ROOT / "docs/salmos.html").write_text(template, encoding="utf-8")
-    # Keep the detached canticles as a separately reviewable source, not as psalm 150.
+    # Canonical editable copy for the local documentary editor.\n    canonical = ROOT / "CorBo_vNext/texts/biblicos/salmos"\n    canonical.mkdir(parents=True, exist_ok=True)\n    (canonical / "salmos_unidades_documentais.json").write_text(\n        json.dumps(data, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8"\n    )\n    # Keep the detached canticles as a separately reviewable source, not as psalm 150.
     review = ROOT / "CorBo_vNext/texts/biblicos/salmos"
     review.mkdir(parents=True, exist_ok=True)
     (review / "canticos_breviario_unidades_documentais.json").write_text(
