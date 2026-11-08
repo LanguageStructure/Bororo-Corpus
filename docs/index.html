@@ -14,6 +14,6 @@
 const slugs=['1reis','1samuel','2reis','2samuel','cronicas','esdras','ester','josue','judite','juizes','rute','neemias','amos','joel','oseias','malaquias','daniel','baruc','lamentacoes','proverbios','eclesiastes','eclesiastico','sabedoria','macabeus_1','macabeus_2','deuteronomio','levitico','numeros','ageu','jonas','cantico_dos_canticos'];
 const rows=await Promise.all(slugs.map(async slug=>{try{let r=await fetch('./data/'+slug+'.json',{cache:'no-store'});if(!r.ok)return null;let d=await r.json();return Array.isArray(d.units)?d.units.length:null}catch{return null}}));
 const n=rows.filter(x=>x!==null),el=document.getElementById('biblicalHomeStats');
-el.innerHTML='<strong>Textos bíblicos documentais:</strong> '+n.length+' livros · '+n.reduce((a,b)=>a+b,0).toLocaleString('pt-BR')+' unidades publicadas, contadas separadamente do índice geral'+(n.length<slugs.length?' (alguns arquivos indisponíveis)':'')+'. <a href="statistics.html">Ver distribuição e estatísticas</a>.';
+el.innerHTML='<strong>Textos bíblicos documentais:</strong> '+n.length+' conjuntos documentais · '+n.reduce((a,b)=>a+b,0).toLocaleString('pt-BR')+' unidades publicadas, contadas separadamente do índice geral'+(n.length<slugs.length?' (alguns arquivos indisponíveis)':'')+'. <a href="statistics.html">Ver distribuição e estatísticas</a>.';
 })();
 </script></body></html>
