@@ -25,11 +25,11 @@ def main():
             if not (row.get("entry") or "").strip():
                 continue
             item = {k: (row.get(k) or "").strip() for k in FIELDS}
-            item["lemma_key"] = re.sub(r"\\s*\\d+$", "", item["entry"]).strip().casefold()
+            item["lemma_key"] = re.sub(r"\s*\d+$", "", item["entry"]).strip().casefold()
             rows.append(item)
     output = ROOT / "docs/data/dicionario-bororo-publico.json"
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps({"source": "Dicionário Bororo (Google Drive; original não publicado)", "entries": rows}, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    output.write_text(json.dumps({"source": "Dicionário Bororo (Google Drive; original não publicado)", "entries": rows}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print(f"{len(rows)} entradas públicas exportadas para {output.relative_to(ROOT)}")
 if __name__ == "__main__":
     main()
