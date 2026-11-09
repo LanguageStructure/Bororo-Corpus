@@ -1,0 +1,3 @@
+form	lemma	segments	status	evidence
+iture	tu	i+tu+re	confirmed	CoNLL-U: 1SG IND; revisao morfologica
+cedure	tu	ce+tu+re	confirmed	CoNLL-U: 1PL EX IND; revisao morfologica
