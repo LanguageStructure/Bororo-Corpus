@@ -181,7 +181,44 @@ function productiveParts(word){
   }
   return null;
 }
+/* CORBO_V4_SITE_INTEGRATION */
+let corboV4=new Map();
+async function loadCorboV4(){
+  try{
+    const response=await fetch('data/tokenizer-v4-site.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('HTTP '+response.status);
+    const data=await response.json();
+    if(data.schema!=='corbo-tokenizer-v4-site/v1')throw Error('Esquema v4 incompatível');
+    corboV4=new Map(Object.entries(data.forms||{}));
+    render();
+    console.info('CorBo v4: '+corboV4.size+' formas carregadas.');
+  }catch(e){console.warn('CorBo v4 indisponível; mantendo tokenizador anterior.',e);}
+}
+function corboV4Tokens(t){
+  const word=t.form.toLocaleLowerCase('pt-BR');
+  const entry=corboV4.get(word);
+  if(!entry)return null; // preserva fallback para palavras fora do inventário
+  const alternatives=Array.isArray(entry.analyses)?entry.analyses:[];
+  const candidate=alternatives.find(x=>Array.isArray(x.segments)&&x.segments.length>1&&x.segments.every(s=>typeof s==='string'&&s.length));
+  if(!candidate)return [{...t,status:'unanalysed',analysis:'Forma reconhecida; sem segmentação registrada (v4).'}];
+  const parts=candidate.segments;
+  const status=candidate.status==='confirmed'?'confirmed':'proposed';
+  const label=parts.join(' + ');
+  // Representações subjacentes/alomórficas não são fatias da palavra escrita.
+  if(parts.join('').toLocaleLowerCase('pt-BR')!==word)
+    return [{...t,status,whole:t.form,analysis:label+' (representação morfológica; superfície não concatenativa)',v4:true}];
+  let at=t.start;
+  return parts.map(part=>{
+    const token={form:t.form.slice(at-t.start,at-t.start+part.length),start:at,
+      end:at+part.length,whole:t.form,status,analysis:label,v4:true};
+    at+=part.length;
+    return token;
+  });
+}
+/* END_CORBO_V4_SITE_INTEGRATION */
+
 function splitKnownForm(t){
+  const v4=corboV4Tokens(t); if(v4)return v4;
   const reviewed=reviewedTokens(t);
   if(reviewed)return reviewed;
   const v2=v2Analyses.get(t.form.toLocaleLowerCase("pt-BR"));
@@ -386,4 +423,6 @@ document.getElementById('copy').addEventListener('click',async()=>{const v=selec
 document.getElementById('clear').addEventListener('click',()=>{input.value='';render();input.focus();});
 runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex();loadReviewedMorphology();
 loadV2();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
+
+loadCorboV4();
 </script></body></html>
