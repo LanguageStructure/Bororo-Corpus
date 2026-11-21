@@ -583,3 +583,4 @@ line	sent_id	form	column	before	after	rule
 169619	dic_0492	boe	UPOS	NOUN	PROPN	boe_plural_propn
 169619	dic_0492	boe	XPOS	n	propn	boe_plural_propn
 170233	dic_0873	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+168374	dic_0091	akedugodunure	FEATS	Aspect=IProg|Number=Sing|Person=3	Aspect=IncProg|Number=Sing|Person=3	iprog_incprog

@@ -3718,7 +3718,6 @@ line	sent_id	severity	category	detail
 138652	873-9	warning	feat_undocumented	Mood=In
 139033	876-4	warning	feat_undocumented	Mod=Ind
 165083	dic_0743	warning	feat_undocumented	Person=S
-168374	dic_0091	warning	feat_undocumented	Aspect=IProg
 322	boe_ero_01_14-2	warning	head_deprel_mismatch	HEAD=2 DEPREL=_
 329	boe_ero_01_14-2	warning	head_deprel_mismatch	HEAD=2 DEPREL=_
 983		warning	head_deprel_mismatch	HEAD=_ DEPREL=punct

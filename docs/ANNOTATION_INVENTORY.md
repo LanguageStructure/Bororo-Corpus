@@ -106,8 +106,8 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 
 | Traço | Valor | Origem | Descrição | Tokens |
 |---|---|---|---|---:|
-| `Aspect` | `Inc` | CorBo | incoativo (a confirmar) | 96 |
-| `Aspect` | `IncProg` | CorBo | (sem descrição) | 3 |
+| `Aspect` | `Inc` | CorBo | incoativo | 96 |
+| `Aspect` | `IncProg` | CorBo | incoativo-progressivo (-godu- + -nu-) | 4 |
 | `Aspect` | `Prog` | UD | progressivo | 436 |
 | `Clusivity` | `Ex` | UD | exclusivo | 2603 |
 | `Clusivity` | `In` | UD | inclusivo | 929 |
@@ -169,7 +169,6 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | Traço | Valor | Tokens |
 |---|---|---:|
 | `` | `Sing` | 1 |
-| `Aspect` | `IProg` | 1 |
 | `Clusivity[psor]` | `Ex` | 1 |
 | `Mod` | `Imp` | 2 |
 | `Mod` | `Ind` | 1 |

@@ -31,7 +31,7 @@ A coluna "O que o repositório registra" foi preenchida a partir de `CorBo_vNext
 | Textos bíblicos e Bakaru Maiwu (NT) | arquivos `*_2-orthophon.txt` em `CorBo/Corpus_Files/bíblia/` | **[A PREENCHER: titular dos direitos e autorização]** | nenhuma |
 | Cantos rituais: Roia Kurirewu, Ekeroia, Oieigo | Ekeroia: 627 cantos preparados, **publicação retida** até revisão humana | **[A PREENCHER]** | nenhuma |
 | Etnobotânica e fauna | vocabulário temático só publica entradas expressamente autorizadas, com planilha fora do repositório (`docs/VOCABULARIO_TEMATICO.md`) | **[A PREENCHER]** | conforme autorização por entrada |
-| Sentenças anotadas sem coleção identificada (10.554 com ID numérico, 971 `dic_`, 52 `Jussila`) | origem não registrada no repositório (ver `CorBo/validation/sent_id_groups.tsv`) | **[A PREENCHER]** | nenhuma |
+| Sentenças anotadas sem coleção identificada (10.550 com ID numérico, 971 `dic_`) — dados a fornecer pelo autor | origem não registrada no repositório (ver `CorBo/validation/sent_id_groups.tsv`) | **[A PREENCHER]** | nenhuma |
 
 ## 3. Consentimento
 
@@ -64,6 +64,8 @@ Dados e conteúdos sob **CC BY-NC-SA 4.0**, salvo indicação específica. Não 
 - Mariel Kujibo Ekureu — parceiro do projeto
 - Fernando Kudoro — parceiro do projeto
 - Missão Salesiana — parceira do projeto; missionários salesianos que viveram em Meruri são autores do Boe Ero (*Vida Bororo*) e de outros materiais
+- Jussila — narrador das narrativas coletadas por Fabrício Ferraz Gerardi (grupo `Jussila` do CoNLL-U)
+- Fabrício Ferraz Gerardi — trabalho de campo (FFG-FW), anotação manual e correção do CoNLL-U
 - Outros falantes, consultores, transcritores e tradutores: **[A PREENCHER]**
 
 ## 7. Contato

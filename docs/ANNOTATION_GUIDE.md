@@ -5,6 +5,7 @@
 > exigem uma decisão do responsável pela anotação antes de serem tratados como norma.
 
 Arquivo canônico: `CorBo/Corpus_Files/CorBo.conllu`.
+Responsável pela anotação manual e pelas correções do CoNLL-U: **Fabrício Ferraz Gerardi** (FFG). Toda anotação sem marca de automática (§6) é dele.
 Inventário completo (gerado automaticamente, com contagens): [`ANNOTATION_INVENTORY.md`](ANNOTATION_INVENTORY.md).
 Convenção de segmentação morfológica: [`MORPHOLOGY_ANNOTATION.md`](MORPHOLOGY_ANNOTATION.md).
 Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.md`](../CorBo_vNext/schema/EDITORIAL_GUIDELINES.md).
@@ -96,7 +97,7 @@ Traços universais conforme o UD; os específicos do Bororo estão marcados como
 | `Reflex=Yes` | — | prefixo correferente *t-* |
 | `Deixis` | Prox, Med, Dist, Remt | |
 | `Voice` | Cau, Pass, CauPass, CauInc | `CauInc` = causativo-incoativo, sufixo *-go* (`CauI` e `IncCau` unificados em 21/11/2026); **[DECIDIR]** `CPass` (3 tokens) |
-| `Aspect` | Prog, Inc | **[DECIDIR]** `IncProg`, `IProg` (4 tokens) — em resolução pelo anotador |
+| `Aspect` | Prog, Inc, IncProg | `IncProg` = incoativo-progressivo (*-godu-* + *-nu-*, ex.: *paburedugodunure*); `IProg` corrigido para `IncProg` em 21/11/2026 |
 | `Speech` | Ind, Quo, IndTrans | `Speech=Quo` licencia a evidência de *-iagu* (ver MORPHOLOGY_ANNOTATION.md) |
 | `Person[psor]`, `Number[psor]` | — | traços do possuidor (camada `[psor]`, formato UD) |
 
