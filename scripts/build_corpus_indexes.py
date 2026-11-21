@@ -648,3 +648,7 @@ def main():
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(biboral)} de Marigudu, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
+
+# Índice lexical compacto do painel lateral (docs/data/lexicon/), derivado dos arquivos acima.
+import runpy as _runpy
+_runpy.run_path(str(ROOT/'scripts/build_lexicon_panel.py'), run_name='__main__')
