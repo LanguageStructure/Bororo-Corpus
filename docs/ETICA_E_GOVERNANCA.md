@@ -10,8 +10,9 @@
 
 O Boe-Bororo (ISO 639-3 `bor`) é falado pelo povo Boe em Mato Grosso, Brasil. O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**.
 
-- Relação do projeto com as comunidades e organizações Boe: **[A PREENCHER: aldeias/Terras Indígenas envolvidas, associações, lideranças, escolas]**
-- Papel de falantes e professores Boe no projeto (consultores, coautores, revisores, transcritores): **[A PREENCHER]**
+- Comunidades envolvidas: Aldeia Meruri (TI Meruri), Tadarimana e Córrego Grande.
+- Pessoas Boe envolvidas: Mariel Kujibo Ekureu e Fernando Kudoro. Papel de cada um no projeto (consultor, coautor, revisor, transcritor, tradutor): **[A PREENCHER]**
+- Associações, lideranças ou escolas com que o projeto se relaciona: **[A PREENCHER]**
 - Como a comunidade é informada sobre o uso e a publicação dos dados: **[A PREENCHER]**
 
 ## 2. Origem dos materiais e base de publicação
@@ -58,7 +59,9 @@ Dados e conteúdos sob **CC BY-NC-SA 4.0**, salvo indicação específica. **[A 
 
 ## 6. Créditos
 
-**[A PREENCHER: falantes, consultores, transcritores e tradutores a creditar, com a forma de crédito que cada um autorizou.]**
+- Mariel Kujibo Ekureu — **[A PREENCHER: papel e forma de crédito autorizada]**
+- Fernando Kudoro — **[A PREENCHER: papel e forma de crédito autorizada]**
+- Outros falantes, consultores, transcritores e tradutores: **[A PREENCHER]**
 
 ## 7. Contato
 
