@@ -1,0 +1,374 @@
+{
+  "source": "CorBo/Corpus_Files/CorBo.conllu",
+  "min_count": 3,
+  "features": {
+    "Aspect": {
+      "values": {
+        "Inc": {
+          "count": 96,
+          "description": "incoativo (a confirmar)",
+          "origin": "CorBo"
+        },
+        "IncProg": {
+          "count": 3,
+          "description": "(sem descrição)",
+          "origin": "CorBo"
+        },
+        "Prog": {
+          "count": 436,
+          "description": "progressivo",
+          "origin": "UD"
+        }
+      }
+    },
+    "Clusivity": {
+      "values": {
+        "Ex": {
+          "count": 2603,
+          "description": "exclusivo",
+          "origin": "UD"
+        },
+        "In": {
+          "count": 929,
+          "description": "inclusivo",
+          "origin": "UD"
+        },
+        "Ind": {
+          "count": 3,
+          "description": "(sem descrição)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "Definite": {
+      "values": {
+        "Ind": {
+          "count": 563,
+          "description": "indefinido",
+          "origin": "UD"
+        }
+      }
+    },
+    "Degree": {
+      "values": {
+        "Aug": {
+          "count": 3,
+          "description": "aumentativo",
+          "origin": "UD"
+        },
+        "Dim": {
+          "count": 528,
+          "description": "diminutivo",
+          "origin": "UD"
+        }
+      }
+    },
+    "Deixis": {
+      "values": {
+        "Dist": {
+          "count": 9,
+          "description": "distal",
+          "origin": "UD"
+        },
+        "Med": {
+          "count": 1508,
+          "description": "medial",
+          "origin": "UD"
+        },
+        "Prox": {
+          "count": 434,
+          "description": "proximal",
+          "origin": "UD"
+        },
+        "Remt": {
+          "count": 1,
+          "description": "remoto (a confirmar)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Dub": {
+      "values": {
+        "Yes": {
+          "count": 3,
+          "description": "(sem descrição)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "Emph": {
+      "values": {
+        "Yes": {
+          "count": 39,
+          "description": "enfático (a confirmar)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Gender": {
+      "values": {
+        "Fem": {
+          "count": 5,
+          "description": "feminino (empréstimos?)",
+          "origin": "UD"
+        },
+        "Masc": {
+          "count": 1,
+          "description": "masculino (empréstimos?)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Int": {
+      "values": {
+        "Yes": {
+          "count": 18,
+          "description": "interrogativo (a confirmar; considerar PronType=Int ou Mood=Int)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "Mood": {
+      "values": {
+        "Imp": {
+          "count": 232,
+          "description": "imperativo",
+          "origin": "UD"
+        },
+        "Ind": {
+          "count": 14887,
+          "description": "indicativo",
+          "origin": "UD"
+        },
+        "Opt": {
+          "count": 36,
+          "description": "optativo",
+          "origin": "UD"
+        },
+        "Qop": {
+          "count": 3,
+          "description": "(sem descrição)",
+          "origin": "CorBo"
+        },
+        "Quot": {
+          "count": 77,
+          "description": "quotativo (a confirmar)",
+          "origin": "UD"
+        },
+        "Sub": {
+          "count": 848,
+          "description": "subjuntivo/dependente (a confirmar)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Nomzr": {
+      "values": {
+        "Loc": {
+          "count": 10,
+          "description": "nominalização locativa (a confirmar)",
+          "origin": "CorBo"
+        },
+        "Rel": {
+          "count": 632,
+          "description": "nominalização relativa (a confirmar)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "Number": {
+      "values": {
+        "Col": {
+          "count": 3,
+          "description": "coletivo (a confirmar; o UD usa `Coll`)",
+          "origin": "CorBo"
+        },
+        "Plur": {
+          "count": 11140,
+          "description": "plural",
+          "origin": "UD"
+        },
+        "Sgtv": {
+          "count": 256,
+          "description": "singulativo (a confirmar)",
+          "origin": "UD"
+        },
+        "Sing": {
+          "count": 21207,
+          "description": "singular",
+          "origin": "UD"
+        }
+      }
+    },
+    "Number[psor]": {
+      "values": {
+        "Plur": {
+          "count": 17,
+          "description": "possuidor plural",
+          "origin": "UD"
+        },
+        "Sing": {
+          "count": 36,
+          "description": "possuidor singular",
+          "origin": "UD"
+        }
+      }
+    },
+    "Person": {
+      "values": {
+        "1": {
+          "count": 8945,
+          "description": "primeira pessoa",
+          "origin": "UD"
+        },
+        "2": {
+          "count": 1930,
+          "description": "segunda pessoa",
+          "origin": "UD"
+        },
+        "3": {
+          "count": 18527,
+          "description": "terceira pessoa",
+          "origin": "UD"
+        }
+      }
+    },
+    "Person[psor]": {
+      "values": {
+        "1": {
+          "count": 39,
+          "description": "possuidor de 1ª pessoa",
+          "origin": "UD"
+        },
+        "2": {
+          "count": 1,
+          "description": "possuidor de 2ª pessoa",
+          "origin": "UD"
+        },
+        "3": {
+          "count": 29,
+          "description": "possuidor de 3ª pessoa",
+          "origin": "UD"
+        }
+      }
+    },
+    "Polarity": {
+      "values": {
+        "Neg": {
+          "count": 1125,
+          "description": "negativo",
+          "origin": "UD"
+        }
+      }
+    },
+    "PronType": {
+      "values": {
+        "Art": {
+          "count": 561,
+          "description": "artigo",
+          "origin": "UD"
+        },
+        "Dem": {
+          "count": 85,
+          "description": "demonstrativo",
+          "origin": "UD"
+        },
+        "Ind": {
+          "count": 33,
+          "description": "indefinido",
+          "origin": "UD"
+        },
+        "Int": {
+          "count": 96,
+          "description": "interrogativo",
+          "origin": "UD"
+        },
+        "Prs": {
+          "count": 361,
+          "description": "pessoal",
+          "origin": "UD"
+        },
+        "Rcp": {
+          "count": 52,
+          "description": "recíproco",
+          "origin": "UD"
+        },
+        "Tot": {
+          "count": 44,
+          "description": "total/coletivo",
+          "origin": "UD"
+        }
+      }
+    },
+    "Reflex": {
+      "values": {
+        "Yes": {
+          "count": 1264,
+          "description": "reflexivo / correferente com o sujeito (prefixo t-) (a confirmar)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Speech": {
+      "values": {
+        "Ind": {
+          "count": 113,
+          "description": "discurso indireto (a confirmar)",
+          "origin": "CorBo"
+        },
+        "IndTrans": {
+          "count": 5,
+          "description": "(a definir)",
+          "origin": "CorBo"
+        },
+        "Quo": {
+          "count": 33,
+          "description": "discurso citado (a confirmar)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "Status": {
+      "values": {
+        "Irr": {
+          "count": 1010,
+          "description": "irrealis (a confirmar)",
+          "origin": "CorBo"
+        }
+      }
+    },
+    "VerbForm": {
+      "values": {
+        "Ger": {
+          "count": 149,
+          "description": "gerúndio/forma adverbial (a confirmar)",
+          "origin": "UD"
+        }
+      }
+    },
+    "Voice": {
+      "values": {
+        "CPass": {
+          "count": 3,
+          "description": "(sem descrição)",
+          "origin": "CorBo"
+        },
+        "Cau": {
+          "count": 1913,
+          "description": "causativo",
+          "origin": "UD"
+        },
+        "CauPass": {
+          "count": 11,
+          "description": "causativo-passivo (a confirmar)",
+          "origin": "CorBo"
+        },
+        "Pass": {
+          "count": 71,
+          "description": "passivo",
+          "origin": "UD"
+        }
+      }
+    }
+  }
+}

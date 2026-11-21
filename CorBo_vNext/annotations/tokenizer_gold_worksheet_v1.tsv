@@ -1,0 +1,401 @@
+form	surface_segments	decision	split	note	frequency	frequency_band	example_sent_id	example_text	example_por
+ado			train		7	média	44-7	Ado arugadu !	Fique pronto.
+aebu			train		2	baixa	215-4	Amode aebu jii ...mato akera tabo, imi remawu cai irorerui ai du kae .	Você vai chegar com as mãos vazias, em quanto eu me sacrifico aqui, batendo à toa com o pau na minha barriga.
+aeiogi			test		1	baixa	218-5	Jukore imode bito, umode joru reko aeiogi. Akore uu !	Eu vou matar macaco, e ele vai jogar fogo na sua cara.
+agripinado			test		2	baixa	816-2	Icare boe emedugodure apo, dukeje ure awu,Agripinado amirewu to to boe ekeje .	Quando os Bororos ficavam cansados ele mandava Agripina fazer bolo para eles, bolo grande, e acrescentava rapadura, quando os bororos começavam a ficar com preguiça ou cansados.
+agripinaji			train		1	baixa	826-1	Makore nowu Agripinaji, akore Imode tapira bito boe ekeje.,Agripina akore Akaba tapira bito .	Ele falava para Agripina dizendo Eu vou matar uma vaca para os Bororos.Agripina respondia Não mate vaca.
+aia			test		6	média	133-4	Bure...aia, paia parokagado ji !	Era isso que eu sempre estava procurando.Ora!
+aie			test		4	baixa	dic_0056	akore aie boe maku .	falou que você deu algo.
+ainore			test		5	média	boe_ero_07_41	Iwimode toro mare itonaregedu akurumode imugato, imearudae, awu itaidu tabo pemega pugeje. Ainore boere.	Irei morrer lá, mas meu filho irá passar para o meu lugar com o meu pensamento, com o que eu quero de bom outra vez. Assim é que são as coisas.
+akae			test		6	média	699-5	136 Makore nowu Padreji, akore Boe jameduji, akodure woe du rodu reore, akore imagoiagu akae tugoduwo akabo, tuwoe akudawu kabi, tuwoe Mestredoge, Merimaodoge ekudawu kabi. Akore .	E disse Quando eu voltar, eu vou levá -la.
+akago			test		3	baixa	boe_ero_03_30	"Aredu, imedu, arokaba oino, akagokaba oino atukaba toro, mato, akirimi, arokaba oino"", oino. Kodire erugodu kigodure."	"Ó meu filho, minha filha, não faça isso, não fale assim, não vá para lá. Prá cá, volta. Não faça assim."" Por isso que eles brigam."
+akai			train		10	média	327-6	Dukodire cedaidure cewo ia metago maku akai akiarikaba ji: pemegaguraga. .	Aceite-a, ela é muito boa.
+akamudo			train		4	baixa	107-7	Awo akerogu ko , awo akamudo .	Vai comer sua comidinha e descansar.
+akare			test		10	média	357-5	Oi! Akare Bakorokudu Akare Bakoroakaru Ipareceba Ewiriga Kaiaceba Uwaepa Boroerudu Uwaborewu Atugorewu Akare kare imi Oi !	Seu pai é Bakorokudu Bakoroakaru Ipareceba Ewiriga Kaiaceba Uwaepa Boroerudu Uwaborewu Atugorewu
+akarekare			test		1	baixa	3-0.FFG-FW	Awogu kigudure , mare akarekare akeragu boe ji .	Você costume pescar, mas você não pega nada.
+akawo			train		4	baixa	dic_0086	akawo boe maku .	para você não dar algo.
+akedure			test		78	alta	boe_ero_01_04-2	Boere iedo taci , icare ie akedure , icare Boere rogu bu .	Logo dão o nome e quando termina, o deitam.
+akirorogu			test		2	baixa	29-6	Kode ire kare ewido tu, ewido tu, ekeje, akirorogu bogai .	Por isso eu fiquei pescando, pescando, em troca de algum agrado.
+akoduwo			train		1	baixa	dic_0833	itaidukare akoduwo .	eu não quero que você vá.
+akore			test		1173	alta	boe_ero_01_06	Icare akore ioga , oino , akore imuga , oino , akore aja , oino , akore mama, oino , akore ike boire .	"Então ele diz: ""Papai"". Diz: ""Mamãe"". Diz: ""Quero papinha"". E diz: ""Estou com fome""."
+akoreduje			test		4	baixa	boe_ero_03_22	Du kodire ardiwawo rugadu, apemegawo rugadu, imeduwo aki rugadu akoreduje pemegawo, akonaregedu pemegawo rugadu, aro pemegawo, aedorikaba.	Por isso que você tem que saber mesmo, para você ficar bom mesmo, para você ser homem mesmo, para a sua mulher ficar boa com você, para seu filho ser bom mesmo, para fazer coisas boas, não seja mesquinho..
+aku			test		9	média	62-3	inagore madia , egore madia , egore pobo corewurogu reo , aku !	E disseram Aqui o cafezinho.
+amagadudo			test		4	baixa	741-11	Icare cere cegera amagadudo ji, jetadukare .	Que coisa! Então o puxamos com as mãos, e com isso ele acordou.
+amago			test		6	média	boe_ero_03_03	"""Amago pemegado, amago jetorodo, boe emearutoruwo ai, boe ataiduwo ai, boe emoduduwo ai."	"""Converse bem, fale direito, para a gente ter crédito em você, para as pessoas gostarem de você, para as pessoas terem confiança em você."
+amagu			train		17	média	boe_ero_02_28	Nonore Icare okogere. Boe egore Pawo akogedo, pawo amagu jewu pawagedu ai, pagonaregedu ai.	"Aí ela se casa, agente diz: ""Vamos fazer ela casar, vamos dar você para aquele rapaz, para ser o nosso genro, para nosso filho."""
+amearutoruwo			test		1	baixa	106-4	Ino karega , awu Pao baru tadawu orogu , amearutoruwo pudui , aruduwo baru to .	Não é coisa minha, é coisa do nosso Pai do céu, para você acreditar nele e ir para o céu.
+amode			test		66	alta	criação-020	Amode jowu kurodureboe ko nowu rakojere boe eiadadawu kurodureboe ko, amode nono Deu reore.	Se ela comer da fruta la do meio ela vai ser como Deu
+amoduie			train		1	baixa	dic_0129	inagore amoduie boe maku .	falei que você iria dar algo.
+amodukae			train		1	baixa	dic_0130	inagore amodukae boe maku .	eu disse que você não ia dar algo.
+amodukare			train		7	média	120-2	Amodukare aremodu pagado awu bai to .	Você não vai entrar assim à toa nesta casa.
+amudo			test		6	média	boe_ero_04_11	ere amudo tu tu tu tu, cenogwagere ji. Ca.	Nós socamos a polpa e comemos dele.
+anure			test		6	média	738-15	Egore anure cewido tu cege boi koia, aroi akowage tabo duji .	A minha fome era forte.
+aoraji			test		6	média	273-3	Ure tugeragu nowu aroe aoraji, ure mugudo baku keje .	Pegou o crânio do finado e o colocou na bandeja de palha.
+apadure			train		1	baixa	978-1	Icare ire iebu.Akore Woere apadure tu woe .	Depois eu sai.Ele disse Fique aqui um pouco.
+apo			train		116	alta	boe_ero_05_10	Itumode woje baito irawo, du iture imuga apo rugadu, muga kudawu jire ikedure .	Quando ia para a casa central para cantar, eu ia com a minha mãe mesmo, segurando a saia da minha mãe..
+are			train		38	média	boe_ero_02_07	Uce akore are , are , are .	"A mãe dela disse: ""Minha filhinha, filhinha, filhinha."""
+aredu			train		29	média	boe_ero_01_36	"Aredu akore: ""Ioga pega"", oino. Aredu akore: ""Ioga pega"", oino ji. Boe egore Paedaga pega"", oino ji. ""Iedaga pega"", oino ji, gu, gu, gu..."	A mulher o chama de meu tio velho, meu velho pai, os bororo o chamam de nosso padrinho, de meu padrinho.
+aregodure			train		151	alta	boe_ero_01_28	Ica; icare imedu aregodure pudae, icare uwirere; icare onaregedure, icare ore kugurere.	Então ele começa a ser um homem experiente e se casa, tendo filhos.
+aremo			train		7	média	120-3	Amode aremo, amode apujodo tuku je, ai aremo dukeje, tu tu tu, ai aremo du rodu reore.,Oinore icare .	Quando você entrar, faz genuflexão, assim, cada vez que você entrar.,Aí eu falei: Sim!
+aroe			test		221	alta	boe_ero_07_08	"Inagore: ""Atukaba bai managejewuto. Bai managejewu, aroere bai managejewu rema. Bai managejewu jerimagare, kirerure aroe eerimaga tabo. Umode apegado, umode akugududo, umode korido aekuji. Arijodu mariguwo""."	"Eu disse: ""Não vá à casa central. A casa central tem almas, ela é alma. A casa central tem cheiro amargo, tem cheiro forte, com cheiro amargo das almas. Ela vai te estragar, vai te tornar fraco, vai te fazer doer os olhos. Para que tu cresças logo"""
+aroere			test		6	média	boe_ero_07_08	"Inagore: ""Atukaba bai managejewuto. Bai managejewu, aroere bai managejewu rema. Bai managejewu jerimagare, kirerure aroe eerimaga tabo. Umode apegado, umode akugududo, umode korido aekuji. Arijodu mariguwo""."	"Eu disse: ""Não vá à casa central. A casa central tem almas, ela é alma. A casa central tem cheiro amargo, tem cheiro forte, com cheiro amargo das almas. Ela vai te estragar, vai te tornar fraco, vai te fazer doer os olhos. Para que tu cresças logo"""
+aroerogu			test		10	média	106-2	Aregodure padurarogu tabo, parinarogu, aroerogu um litrorogu, tapira kodurogu.,akore Imedu, ca, akerogu reo .	Chegou com rapadura, um pouquinho de farinha, um litrinho de arroz, e um pouquinho de carne.
+aruduia			train		1	baixa	909-8	Aruduia !	Olhem!
+atudo			test		11	média	FWFFG-8565-1	Atudo mato pawo moto urugududo parerutabo awo akera bararedo ii .	Venha para cá, esquentar o chão com nossa dança para você me ajudar.
+aviadordoge			test		1	baixa	928-3	Kujibo Paru kejewu, Jakorewuge Eliao Paru kejewu barae eimejerage, sargentodoge, aviadordoge etaregodure jamedu. Akore mato tagwagewo Boe enogwage boetojiwuji. .	Esses brancos foram lá e se levantaram com os seus pratos de metal.
+awagure			test		1	baixa	dic_0252	awagure biodo ii .	a cobra me ofendeu.
+awo			train		33	média	boe_ero_01_41	"Ia boere jetadudo, Boe egore Ioga pega, ioga pega, ioga pega, aedadudo, akerogu reo, aedadudo awo akerogu ko""."	"Alguém o acorda, os bororo falam: ""Meu velho pai, meu velho pai acorda. Aqui sua comidinha, acorda para você comer sua comidinha."""
+awubodure			train		8	média	139-4	Inagore Ire udo pagera awubodure pagera metuiare pobema awu metuia bokware .	Respondi Eu fiz dezoito.
+awurogu			test		6	média	boe_ero_07_11	"Boe eroiware, tuwo togwa kurido ji, Boe egore ah, pawo jorududo aijeji, pawo jorududo aroei. Awurogu barigodure ai, ai, ai boe ewadaru otoji."""	"Para poderem retribuir um favor para ele, dizem: ""Aarr! Vamos fazê-lo ver aije, vamos fazê-lo ver as almas. Este pequeno é obediente às palavras das pessoas."""
+bace			test		1	baixa	767-11	Boe egore bace baradu, Boe egore Baiaoboa ino jiboere etaidure iwo mugudo pudai .	Eu fui levando, primeiro a palha e depois os paus.
+bakaru			train		5	média	Jussila-1	Imagomode ia bakaru ji woe , awu imagomode jiwu bakaru pawodure kejewu boe ji , Jakoramogodogedo , Barurewu , Iroere .	Eu vou contar um bakaru (mito) aqui, de como nascemos dos espíritos Jakoromogodogedo, Barurewo e Irere.
+bakujebiji			test		7	média	boe_ero_05_09	Ituwo woje bakujebiji, aidukare imeduiawo boimuga apore iture toro bakujebiji ikigurudu kae.	Ela não queria que eu fosse no mato com má companhia. Quando eu ia no mato urinar eu ia com a minha mãe.
+baporogu			train		5	média	boe_ero_07_15	Uwo baporogu reko, uwo ba oia akudo, uwo bai managejewu paru akudo, uwo mano koda to, uwo aije koda pemegado.	Para levar chocalho pequeno, para limpar o círculo da aldeia, para limpar em volta da casa central, para construir o trajeto do mano, para consertar o caminho do aije.
+baraedu			train		83	alta	boe_ero_07_48	Ire baraedu tugu ii, mare inure baraedu tugu ii.	Eu coloquei o branco em mim e estou colocando o branco em mim.
+baraere			test		2	baixa	52-6	Baraere egore Macaco, Macaco oino ji .	Os brancos chamam de Macaco, Macaco mesmo.
+bararedo			train		14	média	criação-028	Deu akore iogwa itumode jice moto kae, iwo nono imere, iwo ikera bararedo nowu, nowu boe, nowu imei.	Deu disse pai eu vou ali na Terra, eu vou me fazer de um homem/humano, para mim ajudar os homens/humanos
+barigu			train		68	alta	criação-016	Deu koiare ure Satanae towuje ure bope towuje boekare etaidure tugoduwo pudumiwo tugurire , pudumiwo tugodure Deu kori kocare Deu ure rugadu barigu .	Deus que fez Satanae, fez o demonio, antes eles eram bons mas depois eles quiseram ser maior do que Deus, por isso que Deus os expulsou.
+barogwa			test		89	alta	24-3	Ure barogwa kododudo , ure iedadudo .	Ao amanhecer, ele me acordou.
+biagare			train		1	baixa	712-9	Uwairogu biagare tu je .	Sua casa era pequenina.
+biakure			test		6	média	703-6	Biakure .	As frutas estavam aparecendo.
+biji			test		6	média	boe_ero_05_05	Akaiwodo oino kuri je atui bakuje biji du kae; akaiwodo kuri awureji jice ba aiado.	Olhe perto, ao seu redor quando sair para fora, olhe para seus pés até chegar ao centro da casa.
+birirogu			train		5	média	394-1	Icare ire eigodo birirogu ta, ire etoiaga birirogu ta, icare ire eworogu ra pugeje, ire tugu, tugu, tugu imijigu aroiaroguto .	Depois eu tirei o couro das asas e o couro dos rabos, depois tirei as peninhas dos corpos e fui pondo no meu embornalzinho de pano.,Depois eu pus os rabos e as asas lá num cordão, para secar o couro das asas delas.
+boeburireboe			test		1	baixa	526-4	Cere nowu boeburireboe kado ta...cere jado .	fez: kuru ru ru ru ru.,Depois ele fez : pr pr pr!
+boekare			train		51	alta	boe_ero_07_03	Awurema Icare irijodure. Boekare, iwirere.	Eis então que eu cresci. Isso mesmo!. Eu desposei.
+boere			test		117	alta	boe_ero_01_03	Icare Boere iedo, Boere tonaregedu imedurogu iedo .	Então eles lhe dão o nome eles dão o nome para seu filhinho.
+bogai			test		264	alta	boe_ero_01_37	"Boe emagore bogai. Ica, ie nure nowu tubegagoduredu Boe egore du tabo. Aredu akore: ""Ioga pega, ioga pega, ioga, ioga pega..."", oino. ""Iwuripega, iwuripega, iwuripega"", oino."	Os bororo chamam ele quando está velho, de meu velho pai, meu velho pai, meu velho pai... Meu tio velho, meu tio velho, meu tio velho...
+boi			test		55	alta	boe_ero_01_27	Tuge boi koia, uwo karo bito tugeje.	De fome para que ele matasse peixe e bicho para ela comer.
+boigodure			train		1	baixa	846-5	Icare ike boigodure ii kodire inago oino .	Agora o Mestre não faz a gente trabalhar.
+boimode			test		2	baixa	boe_ero_07_25	Akonaregedu uke boimode ji. Akoreduje uke boimode ji, ukudawumodukare.	Teu filho irá sentir fome. Tua mulher irá sentir fome, ela não terá roupa.
+bokware			test		81	alta	boe_ero_02_33	Icare aredure ema rugadu, Icare orere, onaregedure, orere pobe, pobe ma metia bokware, orere pobe puibiji, ia onaregedure mito tu je, orere pobe tu je nono. Icare boe etujere ema pugeje.	Aí ela se torna mulher de verdade, aí ela dá filhos, ela tem dois filhos, três e quatro filhos. Tem delas que só têm um filho, outras têm dois filhos. Aí ela se torna a mãe da gente.
+borore			train		1	baixa	486-8	Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu cidugoduwo ii. Akore ioguduba ure joru tugu awu moto to ?	Nós, porém, conhecemos aqui o lugar, por isso nós não pomos fogo aqui no campo.
+bu			train		255	alta	boe_ero_01_04-2	Boere iedo taci , icare ie akedure , icare Boere rogu bu .	Logo dão o nome e quando termina, o deitam.
+buke			train		72	alta	8-1	Boe eedure nono togwage tabo tuge jugo ji, tuge buke ji, tuge apogo ji, tuge okwaru ji, tuge ki ji .	Os Bororo ficaram ali, comendo queixada, tamanduá-bandeira, tamanduá-mirim, tatupeba, anta.
+burere			test		1	baixa	608-15	Oinore kaidaga burere pui .	Dizemos Vamos, vamos procurar palha, vamos procurar palha!
+buturogu			test		1	baixa	466-6	Meri rekodugodu tabo ure nowu boe buturogu ikududo ce pugeje nowu amirewurogu tabo .	Aí anoiteceu e ele arrumou a minha cama.
+c			train		2	baixa	575-12	Nowu bokuge buture, jore pobo to c .	Parecia uma folha de bananeira.
+ca			train		218	alta	boe_ero_01_04	Icare boere , imedu rema , Boere okwa porodo , Boe eragodure ie paru ji , okwa paru ji jii tu ca .	O tempo foi passando e ele se tornou um homem, os bororo furam-lhe o beiço e cantam por um bom tempo o canto para dar o nome ou para furação do beiço.
+cebagudunure			train		1	baixa	593-5	Cedaore ceibagi jamedu: cebagudunure ewogai .	Ele dizia Dawara!
+ceburedugodure			test		7	média	495-4	Icare ceburedugodure toro, nowu boe egore Jaruru ino jiboe to .	O! Quando estávamos nos aproximando do Córrego do Areado, começou a nos chover.
+cedaregodure			train		153	alta	13-1	Icare cedaregodure .	Então chegamos.
+cedui			test		1	baixa	503-1	Cerore ta...cedui bato kodi, ceedarogu kae, cewu baraedu uwai kae .	Fomos embora todos para o nosso acampamento na casa do branco.
+cedure			test		259	alta	4-5	Kiwabo piji Boe eture toro Tuguribo to , dupijire cedure Tuborebo to , dupijire cedure Bakurebo to .	Do rio Kiwabo fomos embora para o rio Tuguribo e dali nós fomos embora para o rio Bakurebo.
+cee			test		7	média	boe_ero_03_20	"""Ah! Cee!, boe jokoduji rabodu ioga akoino! Boe jokoduji rabodu akoino, boe jokoduji rabodu inodowu akoino""."	‘É verdade que meu pai estava falando! É verdade que ele estava falando! É verdade o que meu cunhado estava falando.’
+ceedadure			test		6	média	497-15	Dukeje icare ceedadure, dukeje ia imedu akore Taedadudo !	Aí corremos dizendo Rápido, rápido, rápido!
+ceedo			train		2	baixa	692-18	Ceedo woe tu.. .	só fumando cigarro.
+cegera			train		15	média	119-5	Egore akaiwonure cei, cemode cegera to ceeri to dukeje, aki jamedu, amode akera to aeri to jamedu .	
+cegiarigodure			test		8	média	33-5	Cebagudukare, cegiarigodure awogai kodi .	Não tivemos medo, porque estávamos com saudade de você.
+cegodo			train		110	alta	51-2	Cegodo jii .	Andamos longe
+cegodure			test		100	alta	7-2	Cegodure jii .. .	Fomos até Kuruie Emerao Os rapazes costumavam ir lá pegar coco de buriti, por isso se chama assim Kuruie Emarao.
+ceguiagudo			test		1	baixa	657-7	Icare ure ceguiagudo pugeje, icare ure ceejiwudo pugeje .	Fizemos círculo no praça dos xavantes.
+cemago			test		3	baixa	460-1	Icare cemago akedure, dukeje icare meriri kudure pugeje, boe etuwo kuiada kuru kae .,A !	Quando acabou a nossa oração, o sino bateu de novo para o povo ir buscar canjica de milho.,A!
+cemaragodure			train		7	média	603-2	Cemaragodure jii toro .	Aí fomos embora.
+cemedugodukare			test		1	baixa	855-16	Uu!..Cemedugodukare, Mestre kodure cedabo kodi .	
+cemerure			train		3	baixa	51-5	Cemerure jii, nowu bubutu kuda .	Fomos andando embaixo da chuva.
+cenagore			test		117	alta	136-7	Cenagore ji boe boe boe.. .	
+cenudure			test		23	média	54-4	Icare cenudure .	Aí dormimos.
+cere			test		527	alta	boe_ero_04_10	Noidoiare cere kado cegeje, motorere cere kado cegeje, nowu motore kugu rogure cere ko, jewu no kodu kugu rogu cenogwagere ji jamedu.	Nós cortamos palmito de babaçu, nós cortamos macaúba para o nosso alimento. Mistura do miolo da macaúba para fazer mingau, nós comemos também a polpa de coco de babaçu..
+ceroi			test		3	baixa	554-17	Ceroi boeco, jitu duji .	
+cewire			test		1	baixa	534-14	Cewire cege boi koia .	
+cewogai			train		3	baixa	605-4	Akore tudumoduie meri pagaia keje cewogai .	Eu disse Padre, amanhã nós vamos esticar o arame.
+colchete			train		2	baixa	617-9	Akore barogwa to tamode awara akudo jii jice colchete kae .	Ele disse Amanhã vocês vão limpar a estrada lá até no colchete.
+cristoie			test		1	baixa	dic_0309	akore Cristoie ure Jesus ce .	disse que Jesus era o Cristo.
+cruz			test		7	média	636-9	akore Tawiagodukaba cruz piji .	São as mesmas palavras, os mesmos pensamento s as mesmas crenças que os nossos pais falaram para nós.
+dukae			train		7	média	Jussila-4	Nowu Iroere ure to jodo , nowu to ika to jo jo tui porodo dukae .	Irere começou a roer a canoa, ele roeu até furar.
+dukeje			test		384	alta	boe_ero_01_09	Dukeje icare Boe emagore ji , boere pagududo , Boe egore atukaba toro , oino Boe egore .	"Daí então os bororo falam com ele. Eles o assustam. Os bororo falam: ""Não vá lá"". É assim que falam."
+dukejere			train		125	alta	5-1	Dukejere Boe ere tugirimi mato pugeje , etaidukare toro pugeje kodi .	Depois os Bororo voltaram, não gostaram mais de lá.
+dukodire			test		69	alta	AdugoBiri-2.10	Dukodire , imagonure tu oino Boe ereru ji , Boe ero ji, tu rugadu .	Por isso que estou falando assim: como é que os Bororo dançam, como é que os Bororo fazem, só isso.
+dutabore			test		41	média	36-1	Imedure imi dutabore itaregodure Sangradouro kae .	Eu já era adulto quando cheguei a Sangradouro.
+eekudure			test		1	baixa	boe_ero_07_59	Boe eekudure tu nowu meriri ji, aroia ji etogi pugeje .	E os brancos nesse momento... Os bororo admiram esse metal, o pano na frente deles novamente.
+eekuji			train		1	baixa	956-7	nori okorikare eekuji .	Inagore Tesouro uporu keje toro.
+eeruduwamodukare			train		3	baixa	AdugoBiri-2.10	Ure awuge eeruduwamodukare Boe ero bogai , eeruduwamodukare Boe ewadaru bogai , eeruduwamodukare roia bogai .	Estes não vão aprender os rituais, não vão aprender a língua bororo, não vão aprender a cantar em bororo.
+ego			test		7	média	boe_ero_08_08	Awu reo , barae ero reo , barae ego reo .	Há este, há a ação dos brancos, o dizer dos brancos.
+egore			train		805	alta	boe_ero_01_01	Oinore Boe egore tore kugure ji , Boe erore tore kugure ji .	É desse jeito que os bororo falam com seus filhinhos, fazem com seus filhinhos.
+ei			train		149	alta	boe_ero_03_27	Oinore jawuge egore tore ei.	Assim que a gente fala, assim que os pais falavam com os seus filhos.
+eiagu			test		4	baixa	dic_0453	eiagu maragodudo .	que é para eles o fazerem trabalhar.
+eie			test		5	média	813-3	Mare boe eie tabo karega boe mugudodure, pemegadodure .	Elas foram construídas sem dono.
+ekaba			train		1	baixa	771-4	Ekaba ikududo pugeje .	Que a bebida para mim já chega.
+ekae			test		4	baixa	dic_0467	akore ekae boe maku .	falou que eles não deram algo.
+ekai			test		4	baixa	dic_0471	ekai boe maku .	eles não dando algo.
+ekaiagu			train		1	baixa	793-5	Nowu baraedu akore boe ekaiagu emugudo pudabo .	Ou então escondê -los rápidamente.
+ekare			test		43	média	boe_ero_01_17	Tudumode jice iaboe ewai kae duji , tumode turemo iaboe ewai to duji. Boe ekare tonaregedu rokowo.	Quando ele vai até a casa de alguém, se por acaso ele entrar na casa de alguém, os bororo não deixam os filhos fazerem o que querem na casa dos outros.
+ekawo			train		4	baixa	dic_0480	ekawo maragodudo .	para eles não o fazerem trabalhar.
+eke			test		53	alta	8-3	Boe eke kurinure rugadu !	O povo estava tendo muita comida mesmo!
+ekere			train		6	média	619-11	Woe boe ekere tuginoi jamedu .	Morreríamos de fome à toa no mato.
+ekiarigodukare			train		1	baixa	844-4	Boe ekiarigodukare .	Ele fazia os Bororos plantar muito milho, muito arroz, muita cana, muito feijão, muita mandioca, muito mamão, muita batata.
+ekorigodo			train		1	baixa	626-7	Inagore awu jure biri kejere ekorigodo cei .	Eu disse Por causa do couro do sucuri eles estão bravos conosco.
+ekorigodure			train		7	média	619-5	Ia boe pegagodurewu koia karega ekorigodure pai .	Não é por coisa ruim que eles zangam conosco.
+ekowuje			train		12	média	292-2	barogwa tore pamode juredoge ekowuje .	amanhã vamos cantar os Juredoge.
+ekudugo			test		8	média	198-2	Egore aroe ekudugo .	E diziam Façam gritar as almas.
+emago			test		5	média	boe_ero_03_07	Dukeje Boe emearutorumode ai , dukeje Boe emago pemegamode ai .	Aí a gente vão acreditar em você, aí as pessoas vão falar bem de você.
+emagore			test		36	média	boe_ero_01_09	Dukeje icare Boe emagore ji , boere pagududo , Boe egore atukaba toro , oino Boe egore .	"Daí então os bororo falam com ele. Eles o assustam. Os bororo falam: ""Não vá lá"". É assim que falam."
+emaragodure			test		9	média	219-2	Maragodurewuge emaragodure .	Os que iam trabalhar trabalharam, os pescadores e caçadores foram matar peixe, bichos, pássaros, onça pintada, onça parda, arara amarela, águia, gavião.
+emarogu			train		2	baixa	374-4	Emarogu reo , mugure oino joru tada .	Hei-lo, está ai no fogo.
+emawo			test		1	baixa	boe_ero_08_25	Awo kugu bito, awo rie bito, awo adugo bito. Awo ro pega, ako pegarewu bito, emawo ukare awido.	Para matares corujão, para matares lobo, para matares jaguar. O maldoso, aquele que tem más ações, matares para eles não te matarem.
+emearuduwo			train		2	baixa	AdugoBiri-2.10	Awu boe etore eeruduwo, boe etore emearuduwo , mare egowo oino karega .	Para as crianças verem, para as crianças escutarem, mas para elas falarem não é assim.
+emerure			train		7	média	boe_ero_04_04	Icare erijodure guu, Icare emerure Icare ewoadure. Ewoadure jii boko tudurogu ji, rie tudurogu ji, ia boeji, ari tudurogu jii, dukeje eregodure kodorogu kae pugeje.	Então quando começam a crescer eles andam, passeiam, brincam com marmelada, com fruto de lobo e alguma coisa com fruto de marmelada crespo, depois eles vão buscar broto de palmeiras.
+emode			test		36	média	boe_ero_05_06	Ameduia kigodukaba amedagewu emode akaora pegado , oino Boe etuje akore Boe ji .	"Não acompanhe frequentemente as suas companheiras, que elas vão desviar a sua cabeça"". Assim que a mãe dos Bororo fala para os Bororo."
+emoduie			train		14	média	793-7	Emoduie tugeragu cai ji rugadu .	
+emodukae			train		3	baixa	803-13	Emugu jae Boei duie pemegamodeduie Emodukae boe ewido .	Que ficasse pronto para a chegada deles, que iriam mandar vir agrimesores para preparar essa terra para eles.
+emodukare			test		7	média	575-6	Kodire cemorora amagadukare ji, emodukare iku kado kodi .	A corda desenrolou.
+emori			test		2	baixa	29-7	Ere akirorogu maku inai tu, maku inai tu, cewu tuge kare kugure emori ce .	Eles iam me dando alguma coisa em pagamento dos peixes.
+enore			train		7	média	498-4	Ekudae, enore epage emugure etada tu tu, awu eke epage, emugure tu tu etada .	Aí nós pedimos para um dos chefes deles se compadecer de nós e nos emprestar uma casa para dormir.
+enorogu			test		1	baixa	boe_ero_06_06	Etuje okware marigudu epiji enorogu pitori tabo.	Faz muito tempo que a mãe deles morreu, quando eles eram muito pequenos.
+enure			test		29	média	boe_ero_01_13	Boe enure tonaregedu pagududo , Boe enure tonaregedu buredo , Boe enure kirimi .	Os bororo assustam seus filhos, brecam os filhos, não deixam os filhos soltos.
+epare			test		2	baixa	AdugoBiri-2.8.2	Cibae Etawadu epare ukere adugo morara .	O cantor de Cibae Etawado é quem recebe o lombo da onça.
+epore			train		1	baixa	982-1	Oinore nowu baigadoge epore, piribi jamedu, parira, poware, emagare .	Tinha um grande fecho de arcos e muitos colares, flautas e cabacinhas.,Depois de quatro noites chegou o domingo.
+ere			train		682	alta	boe_ero_04_01	Boe etore kugure ewodure nono, boe ekedure ei jii je, boe ere nugiado, kodobie tabo.	Quando as crianças nascem a gente segura até pôr na embira.
+ereorere			test		1	baixa	751-10	Koge ereorere .	Parecia dourado.
+eroji			test		1	baixa	boe_ero_08_33	Dukeje akaiwomode barae eroji pugeje.	Depois é que você deve observar as ações dos brancos novamente.
+etaidure			train		13	média	criação-016	Deu koiare ure Satanae towuje ure bope towuje boekare etaidure tugoduwo pudumiwo tugurire , pudumiwo tugodure Deu kori kocare Deu ure rugadu barigu .	Deus que fez Satanae, fez o demonio, antes eles eram bons mas depois eles quiseram ser maior do que Deus, por isso que Deus os expulsou.
+etaregodu			train		10	média	42-2	Boe etaregodu , Boe ebore ro oino .	Estão chegando Bororos, vem com Bororos!
+etaregoduie			train		2	baixa	801-4	Dukeje egore etaregoduie, etaregoduie.,A !	Então alguém disse Estão no pé do morro.
+etaregodukare			train		2	baixa	676-12	akore Iaboe etaregodukare woe ?	Os outros não chegaram.
+etaregodure			test		67	alta	Jussila-19	Eture baru paru to etaregodure baru paru kae .	Então os dois foram ao céu e chegaram no até céu.
+etawuje			train		13	média	boe_ero_04_08	Eemarure tu meiaoe ewogai, ere etawuje, ere mugudo nono. Dure boe awadugodu tabo, bubuture toro boei boe toda, woo! Icare joru biture, jewu meiaoborireuji, mare boere tawuje rugadu, boere arego rugadu.	"Procuram somente o mel. Eles tiraram e colocaram aí. Quando foi clareando choveu neles no mato. Então daí fogo apagou do mel de chupé. Assim mesmo tiraram e troxeram mesmo: ""Eis aqui, minha avó. Este aqui é da senhora""."
+etokire			train		5	média	boe_ero_07_04	"Iwobe etokire ii. Egore Oh... Amearudu bokware iwadaruji, kode adurudo""."	"Meus parentes me repreenderam. Disseram: ""Oh! Não escutaste a nossa palavra, agora esforça-te."""
+etuore			train		1	baixa	boe_ero_01_29	"Ica, nonore icare imedu nure ema. Nonore icare boe etuore ema. Boe egore Ioga"", oino. Boe egore Pao"", oino. Boe egore Ioga"", oino."	Então ele já é um homem, já se torna um pai para os bororo. Os bororo lhe chamam de pai.
+eture			test		93	alta	Jussila-2	Emagere eture baru paru to Pemo bogai , tubemo bogai eture baru paru to .	Eles (os espíritos) foram para a entrada do céu em busca do cajado, em busca dos seus cajados.
+ewadararodugo			train		1	baixa	622-7	Dukeje icare ure ewadararodugo puwogai  We we we we.. .	Íamos andando com eles e eles iam falando muito, alegres.
+ewo			train		19	média	231-1	Akedure tu , icare ere maku todowuge etai pugeje, ewo atugodo .	Quando acabou, eles entregaram a seus cunhados de novo para que os pintassem.,Aí os cunhados os embelezaram.
+falando			test		1	baixa	592-6	17 Interessante a imitação dos gestos do Xavante falando para os Bororo .	Eu disse Sim!
+falta			train		1	baixa	570-7	Aqui não tem falta .	Estava alegre.
+gao			train		5	média	389-8	Nabure akore Gao!! !	Eu peguei o cartucho e o enfiei dentro do cano, e deixei a espingarda pronta para ir com ela a procura das araras.
+goro			test		73	alta	boe_ero_01_39	Icare uiodore, uiodore goro, goro, guricá, guricá, guricá je.	Então ele está bem velho, usando bastão, andando devagarinho e mancando.
+gr			train		3	baixa	882-11	Irore gr gr iedaga apo .	O meu sogro ia apoiado nas minhas costas.
+hoi			train		1	baixa	357-2	Akore Hoi !	Disse: Hoi!
+iage			train		113	alta	31-3	Ikodure jii ... ia Boe ebo , Atílio , iage ebo .	Fui andando com outros Bororo, Atílio e outros.
+iarogu			test		7	média	37-6	Meri rekodu tabo tadure mato iwo iarogu maku tagai pugeje .	De tarde venham para eu lhes dar de novo alguma coisa.
+iawoe			train		1	baixa	804-3	Emugumoduie oino iawoe woje ia ona ma, etaregodumoduie woe, eremaemoduie woe, mare nowu emuguie toro duie etumodukare mato .	Mas se ficassem para lá não viriam aqui.
+icare			test		2426	alta	boe_ero_01_03	Icare Boere iedo, Boere tonaregedu imedurogu iedo .	Então eles lhe dão o nome eles dão o nome para seu filhinho.
+iedo			train		14	média	boe_ero_01_03	Icare Boere iedo, Boere tonaregedu imedurogu iedo .	Então eles lhe dão o nome eles dão o nome para seu filhinho.
+iere			train		47	média	criação-010	Deu ure ia aredu to , nowu oredu iere Adão , oreduje iere Eva.	Deus fez uma mulher, o esposo dela chamado Adão, e a esposa se chama Eva
+iia			test		7	média	148-7	Du kode inure iiarogudo tuku nowu kuiada kuru joki .	Por isso um pouco eu mastigo e outro não mastigo.
+iiagu			test		7	média	451-5	Ike boiwu tu iiagu rakudu toro !	wao, wao!
+iie			train		4	baixa	dic_0658	akore iie boe maku .	falou que eu dei algo.
+ikae			train		4	baixa	dic_0668	akore ikae boe maku .	falou que eu não dei algo.
+ikai			test		4	baixa	dic_0672	ikai boe maku .	eu não dando algo.
+ikaiagu			train		1	baixa			
+ikare			test		34	média	boe_ero_07_49	Baraedu karega ure imi, ikaregure baraedudo imi. Baraedu kudawure ire tugu ii, mare ikare baraedudo imi.	Eu não sou branco, não me fiz de branco. As roupas dos branco que eu coloquei em mim, mas eu não me tornei branco.
+ikawo			test		4	baixa	dic_0681	ikawo boe maku .	para eu não dar algo.
+ike			train		85	alta	boe_ero_01_06	Icare akore ioga , oino , akore imuga , oino , akore aja , oino , akore mama, oino , akore ike boire .	"Então ele diz: ""Papai"". Diz: ""Mamãe"". Diz: ""Quero papinha"". E diz: ""Estou com fome""."
+ikodo			test		71	alta	26-1	Itaregodure , iture , ikodo jii , ia pobo paru kae .	Cheguei, parti, e dirigi-me para a barra de um córrego.
+ikudawurogu			train		1	baixa	910-9	Icare ire ikudawurogu bu aogeje .	Depois pus a minha roupa por cima.
+ikudumode			train		4	baixa	364-9	Icare ikudumode boe kuru ce .	Então eu vou tomar caldo.
+ikuguduia			test		2	baixa	350-11	Inogwagekare ma, ikuguduia;	Eu que não comi, deveria estar mole;
+imago			test		6	média	479-8	Imi imago akedunure ai .	Eu já ensinei para você o começo da estrada;
+imaragodure			test		8	média	110-2	Dukoiare icare imaragodure cikuta pera ji .	Por isso eu fui trabalhar na segunda -feira.
+imearudaere			test		6	média	326-1	Icare imagore ei awara ji, inagore Imearudaere iwo boepa butudo .	Pelo caminho eu disse para eles Estou pensando derrubar uma roça.Eles disseram Sim!
+imearudure			test		10	média	160-3	Imearudure .	Sim!
+imeduia			train		6	média	115-2	Imeduia bokwa, imirogu mito tu je .	Eu não tinha companhia, eu estava sozinho.
+imedurogu			test		6	média	boe_ero_01_02	Boe etonaregedu buture , Boe etonaregedu imedurogu buture .	Quando seu filho nasce, seu filho menino nasce.
+imeduwo			test		1	baixa	boe_ero_03_22	Du kodire ardiwawo rugadu, apemegawo rugadu, imeduwo aki rugadu akoreduje pemegawo, akonaregedu pemegawo rugadu, aro pemegawo, aedorikaba.	Por isso que você tem que saber mesmo, para você ficar bom mesmo, para você ser homem mesmo, para a sua mulher ficar boa com você, para seu filho ser bom mesmo, para fazer coisas boas, não seja mesquinho..
+imegido			train		3	baixa	61-4	Ire imegido ... taci , ire iragojedo ... taci .	Virei-me e depois pulei em pé.
+imere			train		5	média	boe_ero_07_10	"Boere, ipare, imere togwa kurido ji: ""Arego jewu kae, arego jewu ipo kae, jewu iwara kae, ino bukidaga bogai. Arego jice iruwoborogu bogai, ipagaga bogai."""	"As pessoas, os rapazes, os homens começaram a falar demais, ordenando-o: ""Vá até aquele, corra a pegar aquele pau, a pegar aquele arbusto, atrás da minha fibra de tucum. Corra lá atrás da minha tigela, da minha amarradura de cabelos."""
+imire			test		33	média	boe_ero_06_12	Ikaregure butugudo ema, imire itonaregedure ema.	Não fui eu que fiz ele nascer. Estou fazendo dele meu filho.
+imode			train		74	alta	boe_ero_06_04	"Etokimode ai, emode boe to ai, Ca ikorigodumode awugeje, Icare imode boe ekorigo ii awugeje, tore ewugeje""."	"Eles irão brigar com você, eles vão bater eu vou brigar por causa de você, então e vou fazer os outros brigar comigo por causa de você, por causa dos filhos deles""."
+imoduie			test		1	baixa	dic_0692	inagore imoduie boe maku .	falei que eu daria algo.
+imodukae			test		1	baixa	dic_0693	inagore imodukae boe maku .	falei que não darei, ou daria, nada.
+imodukare			test		15	média	69-6	Inagore Imodukare reko , tamode ikidogo ii tabo !	Eu estou com muita raiva. Vocês vão fazer eu atirar em mim com ele!
+inago			train		9	média	Jussila-11	Awogaire inago oino , nono aregodure .	Em busca de você eu falo assim, assim ele chegou.
+inagokare			train		3	baixa	60-3	Inagokare uu !	Eu não disse sim.
+inagore			train		742	alta	boe_ero_04_09	"""a muga pega, akerogu reo, akerogu reo"". Icare ure oino rugadu. Dukeje ere kodo towuje: ""Akado, jewu inodu, jewu inodu towuje, kodokora towuje akoredu kudawuce, uce kudawuce; ure beto to, ure micigu towuje"". Boe egore Oino irore, oinore inagore. Micigu rogure ire to, kodorabo rogure ire to, baku rogure ire to, parikiboto rogure ire to"". Boe egore cewu pitorirogu ji, du iera kodure ji rugadu, turijodu tabo jii je."	"Então assim ficou, depois eles fizeram o banquete. Olha como é feito aquele. Faz esteira grossa para o marido dela, para a mãe dele, fez esteira. Ela fez embornal. Ela fez o cestinho. A gente diz: ""Assim que eu faço, assim que eu falo. Eu iz um embornalzinho, eu fiz uma esteirinha, eu fiz uma bandejinha, eu fiz um abanadorzinho"". A gente diz para a pequena, aí ela faz mesmo enquanto vai crescendo."
+inai			train		50	alta	AdugoBiri-1.6	Itamagadure tagabo , kodire taragodumode ikudawu adugo joki inai .	Eu me preocupo com vocês. Por isso que vocês vão cantar para mim sobre o meu couro de onça pintada.
+inodurogu			test		6	média	AdugoBiri-2.10	Awu iwagedure aidure tu je , kodire inagore tu oino , awu inodurogu tu je .	Só este meu afilhado que quis, por isso eu falei só esta coisinha.
+inogududo			train		3	baixa	148-5	Imodukare inogududo tagabo .	Por isso eu encho minha boca de canjica.
+inogwagemode			test		1	baixa	708-19	Inogwagemode .	Muito bem!
+inoro			train		2	baixa	238-2	Akedukeje, Roia Inoro .	Este grito do aroe maiwu é executado pela meia noite.,Depois um Marenaruie.
+inure			train		37	média	boe_ero_06_05	Inagore itorei, itonaregeduji mare itonaregedu remawu karega. Inure rogu ricodudo, inure erijodudo, ire ricodudowu imedurogure aredurogure tu rugadu.	Eu falei com os meus filhos, com o meu filho, mas não é o meu filho verdadeiro, eu que criei ele, eu que os fiz crescer, eu fiz crescer so um menino e uma menina.
+ioku			train		32	média	boe_ero_05_11	Ire oino imuga ukudawu padu kimore ioku keje du tabo...	Fiz isto lembrando-me de quando segurava a saia de minha mãe.
+iorudukare			train		9	média	boe_ero_07_42	"Kodibá? Iorudukare boe ewoduji. Iorudukare: ""Bakoro Kudu, Ki Bakororo, Kaigu, Akaruio Bokodori, iorudukare ewoduji."	Por quê? Eu não vi os bororo surgirem. Eu não vi: BAKORO KUDU, KI BAKORORO KAIGU, AKARUIO BOKODORI (chefes míticos), eu não vi eles nascerem.
+ipadunure			test		5	média	269-3	Ipadunure tu...ieparu oiagi, ike boi koia .	Alguns disseram Estou morrendo de fome.
+ipagamode			train		1	baixa	dic_1026	ipagamode awogai .	eu esperarei por você.
+ipagudu			test		8	média	56-3	Cere kowuje tu ... mare ipagudu tabo ire kowuje .	Nós comemos. Mas foi com medo que eu comi.
+ipagudure			test		13	média	55-7	Jiwijiwidoge egore jiwi jiwi jiwi, jiwi jiwi jiwi , du ure ipagududo , ipagudure .	Uns passarinhos de mau augúrio começaram a cantar: jiwi jiwi jiwi, jiwi jiwi jiwi. Isso me deu medo. Eu fiquei com medo.
+ipegado			test		1	baixa	765-9	Inure ipegado, kode ikugudugodunure Iwudumode caminhão piji ikuredu okori koia .	Uma outra pescaria no mesmo Rio São Marcos
+ipo			train		60	alta	boe_ero_07_10	"Boere, ipare, imere togwa kurido ji: ""Arego jewu kae, arego jewu ipo kae, jewu iwara kae, ino bukidaga bogai. Arego jice iruwoborogu bogai, ipagaga bogai."""	"As pessoas, os rapazes, os homens começaram a falar demais, ordenando-o: ""Vá até aquele, corra a pegar aquele pau, a pegar aquele arbusto, atrás da minha fibra de tucum. Corra lá atrás da minha tigela, da minha amarradura de cabelos."""
+iragojemode			test		5	média	360-8	Kodumodukare itododai dukeje , iragojemode boe tada , kodumodukare itododae dukeje itaregodumodukare , boe etae .	Se ele não fosse na minha frente eu teria ficado no mato, se ele não fosse na minha frente eu não teria chegado aonde estavam os Bororos.
+ire			train		730	alta	boe_ero_02_04-3	Icare Boe egore , icare ire itonaregedurogu iedo , icare ire aredurogu iedo , ire aredurogu iedo .	
+iredu			test		1	baixa	431-20	Ire irodo gu, pemega woje moto kae, ecewu iredu kori pugeje woje moto kae gu .	Será que não tenho mesmo sorte?
+iremo			train		12	média	118-11	Ire iremo, ire ipujodo ii iremo dutabo .	
+irure			train		1	baixa	dic_0495	aeku irure ii .	você me desprezou.
+iruwo			train		8	média	92-6	Boe kimo , inure iruwo rugadu bowuje .	Aí eu me fartei com o seu presente.
+itaiado			train		2	baixa	82-6	iwo itaiado oino , dukeje icare kawaru pagudugodure , akore kwarr !	para dar uma volta, aí o cavalo ficou assustado e fez barulho: kwarr...!
+itaimo			train		10	média	56-1	Ire itaimo nowu pobo moturewu to .	Eu tomei banho nesse rio claro.
+itaimodu			train		1	baixa	469-20	Icare itaimodu akedure, dukeje icare iture mato .	Quando acabei o banho, vim para cá.
+itaregodure			test		79	alta	14-2	Itaregodure mato Kejari kae dukeje iparedure imi .	Quando cheguei para cá para Kejari eu era rapaz.
+itodo			train		1	baixa	737-10	Ire nowu pobedu jodo krai iiagi, mare oino karega ito bokware, kode ire itodo pe pe pe keje .	Mas eu não estava sem dentes como agora, por isso eu mastiguei.
+itukare			test		7	média	452-15	Itukare .	Eu fiquei aí deitado queixando -me, e passando a mão no espinhaço no lugar onde doía.
+itumode			train		15	média	boe_ero_05_10	Itumode woje baito irawo, du iture imuga apo rugadu, muga kudawu jire ikedure .	Quando ia para a casa central para cantar, eu ia com a minha mãe mesmo, segurando a saia da minha mãe..
+iture			train		154	alta	boe_ero_05_09	Ituwo woje bakujebiji, aidukare imeduiawo boimuga apore iture toro bakujebiji ikigurudu kae.	Ela não queria que eu fosse no mato com má companhia. Quando eu ia no mato urinar eu ia com a minha mãe.
+iwai			train		9	média	463-7	Itunure toro iwai bogai toro .	O!
+iwiapagare			test		21	média	57-4	Iedadure boe co oia keje , iwiapagare tu .. .	No meio da noite eu acordei. Fiquei escutando...
+iwo			train		84	alta	boe_ero_02_12	Nowu onaregedurogu akore itaidure iwo inogwagirido , mokuro boire ii , bibi .	"Aquela filhinha dela disse: ""Eu quero mamar leite""."
+iwoguwo			train		1	baixa	dic_0143	itonagodumode iwoguwo .	estarei pronto para pescar com anzol.
+iwuripega			test		3	baixa	boe_ero_01_37	"Boe emagore bogai. Ica, ie nure nowu tubegagoduredu Boe egore du tabo. Aredu akore: ""Ioga pega, ioga pega, ioga, ioga pega..."", oino. ""Iwuripega, iwuripega, iwuripega"", oino."	Os bororo chamam ele quando está velho, de meu velho pai, meu velho pai, meu velho pai... Meu tio velho, meu tio velho, meu tio velho...
+jado			test		25	média	Jussila-27	Baru tuiado mido dukae ure tugera jado tabo .	Quando chegou de novo à porta do céu , ele abriu a mão com X.
+jekerogu			test		1	baixa	846-12	Icare aregodure, akore Mestre akore uie, paiagu cewu pagoda jekerogu roto cai je .	eu vou.
+jetadure			train		4	baixa	58-1	Dukejere nowu baraedu jetadure .	Depois o branco acordou.
+jewu			test		36	média	boe_ero_02_28	Nonore Icare okogere. Boe egore Pawo akogedo, pawo amagu jewu pawagedu ai, pagonaregedu ai.	"Aí ela se casa, agente diz: ""Vamos fazer ela casar, vamos dar você para aquele rapaz, para ser o nosso genro, para nosso filho."""
+jiboere			test		2	baixa	115-3	Mare Pemore imeduia rema, kodire ire mito tu je mare imearudae mearutorure jiboere kuricigore, du jire imodudure itui jetu dutabo .	Mas o meu companheiro era Deus, por isso eu era sozinho mas aquele em quem meu pensamento acreditava era muito grande, nele que eu confiava vindo para cá.
+jire			test		96	alta	boe_ero_04_17	Uh! Oinore boe erore. Aredurogu jire inagore oino, boe ere ukogedo, maku toro, iwagududogeto rabodu jice, apiboregeto rabodu. Woje aroroeto rabodu.	Assim que a gente diz para a menina. A gente manda ela casar no clã Iwagudu ou no clã dos Apiborege, ou Aroroe. Então ela se casa.
+jiwore			test		1	baixa	175-4	ere nono imuga iure emage du jiwore .	
+jokodukare			train		5	média	113-5	Mare iegare jokodukare ji .	Em Sangrado uro ela me tinha pego, e com ela cheguei aqui.
+joru			train		65	alta	boe_ero_04_08	Eemarure tu meiaoe ewogai, ere etawuje, ere mugudo nono. Dure boe awadugodu tabo, bubuture toro boei boe toda, woo! Icare joru biture, jewu meiaoborireuji, mare boere tawuje rugadu, boere arego rugadu.	"Procuram somente o mel. Eles tiraram e colocaram aí. Quando foi clareando choveu neles no mato. Então daí fogo apagou do mel de chupé. Assim mesmo tiraram e troxeram mesmo: ""Eis aqui, minha avó. Este aqui é da senhora""."
+kado			train		84	alta	boe_ero_01_12	Boe egore atukaba toro , nowu bari kodo mato , barimode awia porodo , barimode awaga kado .	"Eles falam: ""Não vá lá, o pajé vem aí, o pajé vai furar-lhe a orelha, o pajé vai lhe capar""."
+kaiamore			test		2	baixa	601-27	Kaiamore okwage okwagere ei .	
+kajeje			train		65	alta	Jussila-1#4	Ca aregodure ia nono boe kajeje .	Então ele chegou em até certo lugar.
+karamerurogu			train		1	baixa	557-8	Icare ire nowu karamerurogu udo pobe tu pobe tu etai .	Estava com receio de que não alcançassem e depois desse briga..
+karega			train		101	alta	boe_ero_01_26	Toro boe jaowuge, imedu karega ure tuwiredo, aredure ure tumagu imedu ai, iparedu ai.	Antigamente não eram os homens que procuravam para casar, eram as mulheres que se entregavam para o homem, para o rapaz.
+kejeie			test		1	baixa	boe_ero_02_19	Ica, Icare ricodure. Boe, egore tonaregedu aredu mokuro aregodu kejeie Icare boe epogurure ce, tonaregedu aredurogu ce.	"Daí ela foi crescendo, a gente diz: ""Quando cresce o peito da menina, daí a gente começa a ter vergonha dela, da sua filhinha."""
+kejere			train		19	média	3-4	Imugure Koroia keje jii , kejere iricodure .	Fiquei bastante tempo na Colônia, ali fui crescendo.
+kidugodunure			test		1	baixa	dic_0856	kidugodunure .	está para secar.
+kidure			test		5	média	Jussila-23	Jakoramogodogedo ure tugeragu ji , Barurewu joku kidure .	Jakoromogodogedo o pegou, mas Barurewo ficou olhando.
+kiogakare			test		1	baixa	498-18	Boe emaguru tabo, boe emeru tabo, boe enogwagerogu kiogakare .	Dizíamos Quando pegarmos alguns peixes vamos fazer mingau de farina no caldo e na gordura deles para nós comer.
+ko			test		134	alta	boe_ero_01_41	"Ia boere jetadudo, Boe egore Ioga pega, ioga pega, ioga pega, aedadudo, akerogu reo, aedadudo awo akerogu ko""."	"Alguém o acorda, os bororo falam: ""Meu velho pai, meu velho pai acorda. Aqui sua comidinha, acorda para você comer sua comidinha."""
+kode			train		68	alta	boe_ero_03_38	Du oinodu karega, ure oino awu jeture oinowugece awuge epagudukare rugadu, emearutorukare rugadu. Etuwobe emagokare ei, kode etuwobe eerduwa bokwanure jamedu kodi.	Por isso que não é desse jeito, como estão as coisas agora. Agora eles não têm medo mesmo, não acreditam mesmo, os parentes deles não falam nada com eles, porque os parentes deles também não sabem nada.
+kodi			test		98	alta	boe_ero_03_38	Du oinodu karega, ure oino awu jeture oinowugece awuge epagudukare rugadu, emearutorukare rugadu. Etuwobe emagokare ei, kode etuwobe eerduwa bokwanure jamedu kodi.	Por isso que não é desse jeito, como estão as coisas agora. Agora eles não têm medo mesmo, não acreditam mesmo, os parentes deles não falam nada com eles, porque os parentes deles também não sabem nada.
+kodire			test		113	alta	boe_ero_01_16	Kodire Boe etonaregedu pagudure , Boe etonaregedu mearutorure , Boe etonaregedu pagudure .	Por isso que os filhos têm medo, os filhos dos bororo são obedientes, os filhos dos bororo têm vergonha.
+kodo			test		57	alta	boe_ero_01_12	Boe egore atukaba toro , nowu bari kodo mato , barimode awia porodo , barimode awaga kado .	"Eles falam: ""Não vá lá, o pajé vem aí, o pajé vai furar-lhe a orelha, o pajé vai lhe capar""."
+kodoboto			train		1	baixa	592-7	103 Ure oecerewu kowuje, ure cewu kare etugu kodoboto .	Ele deve estar falando isso mesmo.
+kodure			test		68	alta	boe_ero_04_09	"""a muga pega, akerogu reo, akerogu reo"". Icare ure oino rugadu. Dukeje ere kodo towuje: ""Akado, jewu inodu, jewu inodu towuje, kodokora towuje akoredu kudawuce, uce kudawuce; ure beto to, ure micigu towuje"". Boe egore Oino irore, oinore inagore. Micigu rogure ire to, kodorabo rogure ire to, baku rogure ire to, parikiboto rogure ire to"". Boe egore cewu pitorirogu ji, du iera kodure ji rugadu, turijodu tabo jii je."	"Então assim ficou, depois eles fizeram o banquete. Olha como é feito aquele. Faz esteira grossa para o marido dela, para a mãe dele, fez esteira. Ela fez embornal. Ela fez o cestinho. A gente diz: ""Assim que eu faço, assim que eu falo. Eu iz um embornalzinho, eu fiz uma esteirinha, eu fiz uma bandejinha, eu fiz um abanadorzinho"". A gente diz para a pequena, aí ela faz mesmo enquanto vai crescendo."
+koduwo			train		1	baixa	boe_ero_07_37	Boro, ure bito , ro bokwa karega ure, ako bokwakare kodi karega inagoino, mare koduwo toro todobiji pemega pugeje du bogaire inagoino.	Não, ele matou. Não é que ele não fez nada ainda, ele ainda não tem qualidades para casar, por isso que eu estou falando, mas para ele ficar pronto para casar, por isso que estou falando.
+kogodure			train		2	baixa	453-15	Kogodure, rore oino u...u...je .	Respondeu Sim!
+koia			test		112	alta	boe_ero_01_27	Tuge boi koia, uwo karo bito tugeje.	De fome para que ele matasse peixe e bicho para ela comer.
+korawu			test		7	média	597-1	Icare cedure pugeje, cere nowu cegodo korawu kare ebo .	???
+korigodu			train		5	média	685-10	Icare korigodu remawure pai. !	Mas nós ainda não avisamos Nosso Pai.
+krai			train		13	média	148-8	Ioku rore krai krai krai, nowu kuiada kuru boi koia .	
+krucarogu			test		1	baixa	558-9	Ire krucarogu bu iwugeje .	Eu fiz o sinal da cruz e depois dormi logo, dormi bastante.
+kudare			test		2	baixa	734-6	Inagore Lona kudare paedumode .	Eu disse ponham por baixo da lona.
+kugudure			test		5	média	444-6	Aidure tuwo tugera kabi pobo tabo, mare roiwakare, kugudure, duru bokware, korigodunure, Kodire akore M !	Ele quer lavar as mãos com água, mas não pode, está fraco, não agüenta, está zangado.
+kugure			train		36	média	boe_ero_01_01	Oinore Boe egore tore kugure ji , Boe erore tore kugure ji .	É desse jeito que os bororo falam com seus filhinhos, fazem com seus filhinhos.
+kuri			test		154	alta	boe_ero_05_04	"Boe etuje akore: ""Amugu tugudo, akaba ae bu kuri kuri kuri boe awadu kae."	"A mãe da gente dizia: ""Fique quieta, não saia toda hora fora de casa."
+kurigodu			train		1	baixa	265-3	jeto Nonowu tuieduia Cibaiari otogajejewu aroweia arege ena ture kurigodu jeto pudabowu tuwudore kiadodu okwa...iekori reno .	
+kuriji			train		1	baixa	964-11	Icare inagore Kuriji, inagore Icare itumode ace rekodaji. Akore uu !	As coisas estão muito ruins.
+kurirewugei			test		1	baixa	907-5	Woere icare iorudure pobu kurirewugei, karo kidokia, karo birikigadurewu .	Aqui eu vi pacu caranha grande, peixe pirarara, peixe piratinga.
+kuru			train		111	alta	boe_ero_04_21	Icare ere maku toro baito. Nowu kae apeo kugu buture, no kugu buture, noidoia kuru buture toro baito.	Eles mandam lá paro o baito. E lá que vai a polpa coco de acuri, de babaçu, a sopa de palmito.
+kurudo			test		9	média	377-9	Icare ire iarogu kurudo ikeje: pemagare, ure imearudu awadudo ii tu je .	Fiquei bastante tempo derrubando.
+kurugarogu			test		3	baixa	174-5	Wojere emugure woje, awu kurugarogu okwa ji .	Elas disseram Olhe, aqui está: o rego dirigia-se no rumo da lagoa.
+kururogu			test		12	média	112-3.1	Akore kuiada kururogu cere pagudumode tu je .	Ele disse Nós agora vamos beber canjica de milho.
+maerewunure			test		1	baixa	350-12	itodoroga maerewunure ii ma, ikuguduia .	eu que sempre me mortifico, deveria estar mole.
+maga			test		9	média	108-4	Cewu maga kurodu kejegodu itaregodure woe .	Bem no meio do tempo das mangas maduras.
+mako			test		12	média	boe_ero_03_26	"""Oh! Kocare arduwa bokware. Kocare ao makokare ai, Icare ace mako kare ai, aokare arduwado, acekare arduwado"", oinore Boe egore."	Ah! Como que você não sabe. Por que seu pai não falou nada com você e a sua mãe não fala com você, seu pai não te ensina, sua mãe não te ensina.
+makore			test		108	alta	boe_ero_01_07	Ica , icare makore , icare batarure .	Então ele já fala, conversa.
+maragodure			train		19	média	boe_ero_02_34	Boe egore imuga , oino ji . Icare iwororaere. Icare maragodure, Icare boe etujere ema.	"Aí a gente fala: ""Minha mãe"", para ela, aí ela trabalha para oferecer comida para as almas, aí ela trabalha, aí então ela se torna a mãe da gente."
+mare			test		273	alta	boe_ero_03_06	Mare amago pemegamode, awadaru pemegamode, aro pemegamode dukeje, boe epemegamode ai.	Mas fale bem, fale direito, se você falar bem as pessoas vão falar bem de você.
+mariarogu			test		1	baixa	688-4	Cere 3 Ave Mariarogu to .	Mas o que eu alava não era coisa à toa.
+marigumodukare			test		1	baixa	49-7	Pagaregodu marigumodukare Meruri to .	Vamos custar para chegar a Meruri.
+mato			train		301	alta	boe_ero_01_12	Boe egore atukaba toro , nowu bari kodo mato , barimode awia porodo , barimode awaga kado .	"Eles falam: ""Não vá lá, o pajé vem aí, o pajé vai furar-lhe a orelha, o pajé vai lhe capar""."
+me			train		12	média	225-8	Ekurewuge eceba akore Me...ri...ri...reno! .	
+mi			test		5	média	498-15	Ukare mi .	Nas viagens, nas caçadas, agente não come nada que presta, mas a gente como e fica alegre.
+moto			test		51	alta	boe_ero_05_03	Jewu tadari rogu, jewu moto tadaboe jamedu boe ire maku toro baito.	Batata, cará, tudo que é debaixo da terra eu mandava para o baito.
+motudo			test		5	média	2-3	Koiare ure itawara motudo .	Foi ele quem embelezou o meu caminho.
+mugudo			train		73	alta	boe_ero_04_08	Eemarure tu meiaoe ewogai, ere etawuje, ere mugudo nono. Dure boe awadugodu tabo, bubuture toro boei boe toda, woo! Icare joru biture, jewu meiaoborireuji, mare boere tawuje rugadu, boere arego rugadu.	"Procuram somente o mel. Eles tiraram e colocaram aí. Quando foi clareando choveu neles no mato. Então daí fogo apagou do mel de chupé. Assim mesmo tiraram e troxeram mesmo: ""Eis aqui, minha avó. Este aqui é da senhora""."
+mugure			test		63	alta	AdugoBiri-2.10	Toro , mugure toro tuobe ebo dukae .	Lá, onde ele fica com os seus parentes.
+negedurogu			train		1	baixa	dic_0560	ae to negedurogu ji .	cuida do menino.
+nonore			train		97	alta	boe_ero_01_21	Nonore icare utunure boe epiji . Boe etonaregedu imedu utunure Boe epiji. Dure icare o bare, icare jordure aijeji, icare padure bai tada, icare boere o bado; ica, dukeje icare padukare tuwobe ebo pugeje, nonore icare utunure boe epiji. Boe etonaregedu imedu utunure boe epiji. Dure icare o bare, icare jordure aijeji, icare padure bai tada, icare padure bai tada, icare unudure bai tada, icare jordure aroei. Jordure aijeji.	Aí então ele está deixando de ser uma pessoa dependente dos parentes, tendo entrado na iniciação, ele já conhece aije, já dorme no baito, já viu as almas.
+nowugerema			train		1	baixa	479-20	Pemegarewuge eegarere tuiamedu tabo Pao bure paru, pegarewuge ere ino jamedu toro aidure jiboe keje, nowugerema, eegarekare;	Mas os que estão com Deus, não choram, estão sempre alegres em tudo mesmo.
+nure			train		27	média	boe_ero_01_23	Oino iparedu nure ema; iparedu, oinore Boe egore, iparedu, iparedure ema gu, gu, gu...	Agora ele já é rapaz. Os bororo o tratam mesmo de rapaz.
+o			train		116	alta	boe_ero_01_20-2	Care o bare , icare boere o bado . Ica dukeje icare padukare tuwobe ebo pugeje.	Então depois de estar preparado ele entra na iniciação do homem, então os bororo dão iniciação a ele, aí então ele não dorme mais com seus parentes.
+oce			train		1	baixa	443-1	Boe ekare kabiwu boe enoroe, boe ekare kabiwu boe etadu,.iere akodaga, metuia boe ekare kabiwu boe etadu iere apeodaga, metuia boe ekare kabiwu boe etadu iere nodaga, boe ekare kabiwu boe etadu iere kuodaga), boe ekare kabiwu boe etadu iere oce boroga .	Os vasilhas que os Bororos não lavam, as colheres que não lavam são: casca de coco de bocaiúva, casca de caroço de acuri, casca de coco de babaçu, caroço do coco do campo, folha de coroatá, coroatá do cerrado, e outra espécie de coroatá pequeno.
+oinonore			train		3	baixa	boe_ero_01_43	ica, nonore icare akedure, pegagodu nure, icare akuru akedure, oinonore icare pao pega, paedaga pega, pamana pegare, pagodowu pegare, pawuri pegare, pawagedu pegare, pagonaregedu pegare, oinore boere, ica.	Então aí que acabou, ele está ficando velho, está quase morrendo, assim, então nosso velho pai, padrinho, nosso irmão mais velho, cunhado, nosso genro, nosso filho é assim que é.
+oinore			train		224	alta	boe_ero_01_01	Oinore Boe egore tore kugure ji , Boe erore tore kugure ji .	É desse jeito que os bororo falam com seus filhinhos, fazem com seus filhinhos.
+oko			test		2	baixa	440-2	Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo cireruia Ca, ema rugadu reno .	Ele bateu chocalho sobre o mingau feito no caldo e na gordura.
+okori			train		18	média	21-2	Tagiwa rakado tajebae okori ji, tagiwa rakado jorubo okori ji, taeruduwo itaregodu ji pugeje .	Sejam fortes contra os sofrimentos, contra as doenças, para que possam ver a minha vinda de novo aqui.
+onare			train		2	baixa	630-7	Inagore Kaiamo onare ai. Akore a ?	Sawidi!
+ooo			train		1	baixa	885-8	Ooo .	Era muito grande mesmo.
+orogue			train		1	baixa	850-2	Turore kie eiwoji, turore jugodoge eiwoji, turore buke eiwoji, turore bokodore eiwoji, turore jukoe eiwoji, turore pae eiwoji, turore apue eiwoji, turore apogoe eiwoji, turore enokuridoge eiwoji, t urore readoge eiwoji, turore okwarue eiwoji, turore jerigige eiwoji, turore orogue eiwoji, turore atuboe eiwoji, turore adugodoge eiwoji, turore aigodoge eiwoji, turore aipoborewuge eiwoji, turore okwadoge eiwoji, turore aimearewuge eiwoji;	
+otoborado			train		3	baixa	643-1	Inagore Pawo ai otoborado .	Eu disse Vamos trançar a palha.
+pabadumode			test		5	média	89-2	Akore Boe egore Luiz Birico , Luiz Birico , oino ; akore nonore pabadumode .	Disse: o povo o chama Luiz Pele Preta; acrescentou Aí nos vamos pousar.
+paci			train		12	média	73-2	Erore woje, awara kae paci .	Tinham ido lá para a estrada.
+padrere			train		8	média	473-7	Icare Padrere itao pegodo, ure pobo bu itaora keje, ure, ure ia aroiarogu kabi itao pegoji: unure itao kidudo nowu aroiarogu tabo .	Depois disse Eis, agora acabou.
+padurarogu			train		5	média	106-2	Aregodure padurarogu tabo, parinarogu, aroerogu um litrorogu, tapira kodurogu.,akore Imedu, ca, akerogu reo .	Chegou com rapadura, um pouquinho de farinha, um litrinho de arroz, e um pouquinho de carne.
+paduwo			test		57	alta	94-2	Jorubodare Egídio Iroe Kudu akore iorubodare , paduwo , pagoduwo awu ji jice , aerudu mariguwo Meruri ji .	O meu cunhado Egídio Iroe Kudu disse: meu cunhado, vamos embora, vamos neste rumo, para você ver logo Meruri.
+pae			train		12	média	482-5	Ike pae ekodure, ike iwe ekodure , mare inogwarodaere bokware .	Tinha carne de bugio, e carne de ouriço, porém não tinha mistura.
+pagaia			train		5	média	125-10	Imugu pagaia keje inogwage tabo ji !	Que coisa!
+pagawo			test		5	média	105-2	Iemaru pagawo tu woje, iaboerogu boe bogai .	Eu vou procurar alguma coisa.
+pagore			test		7	média	199-3	Pagore ekudu aregodu !	Está chegando o grito dos nossos filhos!
+pai			train		35	média	boe_ero_07_54	Pare bai paru onado pai, pare bai onado pai, gu, gu, gu...	Fomos colocando folhas em nós, fomos colocando casa em nós, indo, indo, indo...
+pamaragoduwo			train		2	baixa	635-9	Cenagore: Pamode padre bie, pamaragoduwo meriji, pamaragoduwo boeco ji .	Ele não está judiando de nós.
+panuduwo			train		2	baixa	555-13	Panuduwo woe .	Vamos dormir aqui.
+paragoji			test		1	baixa	540-8	Akire akanagodure paragoji .	
+pare			test		10	média	boe_ero_07_53	Awu nowu otobiji Icare pare pagera bu bu, paeku bu bu.	Depois disso então fomos colocando nossas mãos aqui, ali, fomos olhando isso, aquilo.
+pariradoge			test		1	baixa	983-14	Akore nowu pariradoge .	Ele disse: - Essas flautas.
+parumode			train		2	baixa	212-11	Boe kugu paru rugadure aije parumode ema .	O canto do mingau será o início do aije.
+pawuge			test		5	média	579-1	Icare inagore Pawuge maku inai .	???
+pegagodure			test		6	média	boe_ero_01_35	"Ica! Care pegagodure, icare pegagodure ,icare Boe egore Pao pega"", oino ji."	Então ele começa a envelhecer, os bororo o chamam de meu pai.
+pemegadodure			test		1	baixa	813-3	Mare boe eie tabo karega boe mugudodure, pemegadodure .	Elas foram construídas sem dono.
+pemegaguragare			train		12	média	criação-009	Deu ure boe pa pemegaguragare , Boe epa moturewu to , cowu imedu muguwo keje , muguwo tada .	Ele fez uma roça perfeita, fez uma roça bonita, para aquele homem viver nela, viver dentro dela
+pemegamodukare			train		1	baixa	405-9	Panudu pemegamodukare .	Nós não vamos dormir bem.
+pemegare			train		50	alta	boe_ero_03_08	"Boe egomode: ""Ah! jewure pemegare, jewure ro pemegare, jewure bataru pemegare, nowu ure boe ekuno, ure boe enogwagedo."	As pessoas vão falar: ‘Aquele que é bom, esse que faz direito, aquele que fala direito, esse que dá as coisas, dá de comer às pessoas.
+pemegarewuge			train		4	baixa	384-6	Kare pemegarewuge reno, eiere Rekoe .	Esses são peixes gostosos, chamam - se traíras.
+pera			test		2	baixa	110-2	Dukoiare icare imaragodure cikuta pera ji .	Por isso eu fui trabalhar na segunda -feira.
+porekudurogu			test		1	baixa	823-1	Icare cere aroe tugu to, porekudurogu tabo, máquina tabo karega, cuku, cuku, cuku !	Ai nós semeamos arroz com enxada, não foi com máquina, chuku, chuku, chuku!
+preparei			train		1	baixa	676-8	Aí eu preparei a minha rede Icare ire ikudawu kuga bu .	Depois chegou o padre.
+pugeje			train		570	alta	boe_ero_01_20-2	Care o bare , icare boere o bado . Ica dukeje icare padukare tuwobe ebo pugeje.	Então depois de estar preparado ele entra na iniciação do homem, então os bororo dão iniciação a ele, aí então ele não dorme mais com seus parentes.
+pui			train		51	alta	boe_ero_04_16	"Ure pemegado: ""Muga akerogu reo, iwuri akerogu reo, iedaga pega akerogu reo, muga pega akerogu reo, marugo pega ake rogu reo. Kado pui""."	"Ela prepara. ""Minha mãe, esta é a sua comida ; meu irmão, esta é a sua comida; meu avô, esta é a sua comida; minha avó, esta é a sua comida, minha sogra esta é a sua comida. Repartam entre vocês""."
+puidu			train		1	baixa	653-20	Mare pawudugumodukare, oinore icare padu pegamode, padumode nono boe erugodui puidu boe erore padu tabo .	Mas se não tivermos calma, a nossa viagem será ruim, vamos viajar como gente que está brigando um com outro.
+rakojewo			train		1	baixa	167-6	Jorduwo, aiduwo pai, rakojewo pagabo .	Esse eu não vou deixar ir embora.
+rakuduie			test		9	média	64-3	Egore awu baraedu akore aregodumode rakuduie tapiradoge ewogai .	Disseram O branco está perguntando se você vai campear os bois. Eu não hesitei.
+remawure			test		9	média	AdugoBiri-1.4	Ukudawu remawure uwadodure , akore tado tarugadu , tagogududo itabo , taiagududo itabo , aragoduwo ikudawu apo , ikuie adugo apo , imori adugo apo .	O dono do couro (o que recebe o couro da onça) anuncia, diz: Fiquem preparados! Tenham dó de mim, tenham pena de mim! Para vocês cantarem com o meu tapete, com o meu colar de dente de onça pintada, com o meu pagamento, a onça pintada.
+remodukare			test		5	média	558-5	Ure udo pobe iwugeje. Akore eidugodumoduie ii, dukeje etugo remodukare ito .	Ele disse que se eles me frechassem, a flecha deles não iria penetrar em mim.
+rogu			train		54	alta	boe_ero_01_04-2	Boere iedo taci , icare ie akedure , icare Boere rogu bu .	Logo dão o nome e quando termina, o deitam.
+rojae			train		1	baixa	criação-017	Ahh joru rakoje kimore toro Deu apo toro , ure rojae jiboe jamedu boe ure pemegado .	Ahh o milagre que estava com Deus, e transformou o mal no bem...
+rokoere			test		2	baixa	544-10	Tuborere, Pawere, Rokoere .	E no meio deles tinha também jetobo e uma que outra voadeira.
+salrogu			test		1	baixa	695-6	Tuie apu bito, tuie salrogu tugu to, care tuierogu kido, duie pado nono .	encontrando, ia novamente comprar comida e assim sempre.
+tabore			test		36	média	AdugoBiri-1.8	Maereboe , bope tuiorudu tabore ro oino , ako oino , batarure oino .	O espírito ruim com sua esperteza fez isso, dizendo e falando.
+taedo			test		4	baixa	380-13	Inagore Taedo toro itogi .	
+tagao			train		2	baixa	607-1-2	Akore barogwa to tamode tagujagudo , tamode taeku bu ra , tamode taejiwudo , tamode nonogo tugu tagao to kuri rugadu , tamode nonogo kurido tagao ji .	Ele disse: amanhã vocês vão se pintar, vão tirar as pestanas, vão se pintar o rosto e vão colocar muito urucum no cabelo.
+tagaregodu			test		5	média	34-3	Pagimejerare tugera bararedo tai rugadu , tagaregoduwo iwogai , taeruduwo ii ma , iegarewo tai tagaregodu ji , ma, taegarewo ii tagaregodu tabo .	Nosso Senhor ajudou vocês para vir até mim, para me visitar, para eu me alegrar com sua chegada, e para vocês se alegrar comigo chegando aqui.
+tagire			train		5	média	768-5	Duwuge egore Tagire tamode kududo pugeje .	Quando ia de novo, esses outros me faziam beber de novo, sempre a mesma coisa.
+tago			test		5	média	713-1	Icare meri rekodure,Akore tadumode jice, jicere togwagemode, jicere tanudumode, tamode pagado tago camaji 50 .	Aí acabou o dia.Ele disse Vocês vão ali, ali vocês vão comer e dormir, terão que pagar 50 cruzeiros por cama.
+tamago			train		1	baixa	801-25	Tamago raikaba ji .	Aí eles foram embora de mim.
+tarajiwumode			test		1	baixa	808-16	etoiga koborirewu ekudukejewumode, eiba kejewumode, etae tarajiwumode .	
+tare			train		17	média	35-6	Pagare tare tamagu tawure okori kae .	Vocês cansaram seus pés à toa.
+taro			test		2	baixa	Jussila-13	Tadumode kaboba bogaiba taro oino ? Mare emagokare .	Atras do quê vocês vão fazendo assim? Mas eles não responderam.
+tawo			test		22	média	211-6	Kodire inagore oino tai, tawo tamaragodu rakado ia tamaragodaere jiboe ji ma, tawo udo turugadu, nowu meri kae .	disse Sim!
+tl			train		3	baixa	193-4	Icare egore tl tl tl !	Tinha rasto em forma de caramujo Era rasto fresco.
+tobadure			train		1	baixa	725-12	Buture pugeje kuri...okea tobadure kuri pao bure paru .	
+togedo			train		1	baixa	782-11	Ema rugadure togedo pobe ma awu metuia bokware .	Depois os tiramos e os comimos.
+togwarogu			test		1	baixa	960-13	Ere awu togwarogu ekudo, ere tugerarogu ekudo, nowu boio ka dutabo .	Depois passos a polpa da fruta do tucum na máquina.
+toroie			train		1	baixa	804-1	Icare nowu Boe egore toroie emugumode .	Então os Bororo disseram que ficassem lá, que assim eles não viriam aqui.
+toyota			test		1	baixa	711-11	Dukeje icare nowu padre aregodure ia toyota tabo , nowu cemeduia apo , ia baraedu apo .	Depois o padre chegou num toyota com o nosso companheiro e com um branco.
+tuduwo			test		5	média	608-1	Cleliare okire Padreji tuduwo .	Clélia reclamava com o Pe.
+tugajeje			test		1	baixa	486-8	Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu cidugoduwo ii. Akore ioguduba ure joru tugu awu moto to ?	Nós, porém, conhecemos aqui o lugar, por isso nós não pomos fogo aqui no campo.
+tugaregedu			train		1	baixa	791-5	Nowu tugaregedu koia .	Não comeram nenhum peixe, por causa de um chefe tugaregedu que disse Não comam aqui.
+tugujagudo			train		2	baixa	278-3	Ere tudo turugadu, ere tugujagudo , ere aroe eerubo tugu tudo .	Eles se prepararam, se pintaram, se passaram remédio.
+tuguriji			test		2	baixa	444-3	Mare kuredogedu imedu emare iera kabidure tuwureji, iera kabidure tobogoraji, iera kabidure cidoji tumoji, tuguriji, tumeji .	Mas o velhinho, ele limpa as mãos nos seus pés, limpa as mãos nas suas pernas, nos seus ombros, no seu peito, na sua barriga, nos seus lados.
+tuiebara			test		4	baixa	630-10	Ure nowu tuiebara aogado ta. .	
+tuiorudui			train		1	baixa	623-12	Cewu boe korire eidu rore piji ja tuku, tuiorudui nowu jure jitu keje .	
+tuje			test		4	baixa	boe_ero_06_13	Itore remawuge, itore ewire, ewire, ewire, kocare itore bokware, kocare nowu ire ricodudowudo onaregedu rogure tu je, Icare ire ikeragurogu ji tuje piji, kuiarure jamedu. Kodire iogugudure okwagirimode tuwie mokuro jituji, uke mokuro jituji.	Os meus filhos verdadeiros, meus filhos já morreram. eles foram morrendo por isso que não tenho filho, depois aquela que eu criei teve um filho, aí eu tomei da mãe dele, porque ela estava grávida (do outro filho). Por isso eu pensei que ele ia mamar o leite de seu irmãozinho.
+tuku			test		78	alta	AdugoBiri-2.8.3	Ca , ere morara jodo Cibae Etawadu epa keje tuku !	Então eles entregam o lombo para o cantor de Cibae Etawado .
+tumago			train		15	média	AdugoBiri-2.10	Baraedu tuwadaru jire eeruduware , baraedu tumago jire eeruduware , kode eragodumoduka , egomodukare. tamodukare kagado, tamodukare pemegado .	Eles só aprendem a língua dos brancos, só sabem a fala dos brancos, então eles não vão cantar, não vão falar em bororo.
+tumaguruiagu			test		1	baixa	868-1	Icare makore pugeje tumaguruiagu .	Depois ele falou de novo que queria fazer passeio.
+tumugu			train		2	baixa	590-11	Icare akore ure tugera to tumoji, tumugu moduie nono, tuietu moduie pagoroeji, ceduiagu cemaragoduwo .	
+turore			test		52	alta	boe_ero_01_38	"Imedu pega otowure ako oino ji , otowure akore: ""Imedupega"", oino ji. Ia boe enodowure ema. Boe egore Inodowu pega"", oino. ""Inodowu pega"", oino. ""Ioga pega"", oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu..."	O seu cunhado o chama de homem velho, ele é cunhado de algumas pessoas, os bororo chamam ele de cunhado velho, meu padrinho velho.
+tuwiri			test		1	baixa	boe_ero_07_61	Boe emerure to ba kedo tabo, tuwiri kedo tabo jii jewu boe bokware aino pugeje.	O que anda com seu estojo peniano de fora, com a pele nua assim, assim, não existe esse bororo assim ainda.
+tuwoaduiagu			test		2	baixa	679-1	Akore kaiamodoge ere tuwoaduiagu .	disse Os xavantes estão querendo brincar.Então eu avisei os meus companheiros dizendo Os xavantes estão querendo brincar para nós vermos.
+tuwuri			train		2	baixa	445-2	Duwugere ere nowu tuwuri kuredogedu aimo, ere kabi .	Elas dão banho no seu irmão mais velho, elas o limpam.
+uia			train		5	média	510-3	Amugudo tu cedogi ia po uia mugu keje .	191 Eu fui na frente deles e vendi o meu pintado para um branco.
+uiagu			train		5	média	811-3	Bruno uiagu boe emuga remagu. Akore tumoduie nowu bai epa, awu telha boe epae boe reko mato .	Bruno pedindo para ele calcular o número de casas.
+uie			train		9	média	695-8	Icare akore uie, togwageie ei .	Que ele matava paca e salgava.
+ukae			test		4	baixa	dic_1323	akore ukae boe maku .	falou que ele não deu algo.
+ukai			train		4	baixa	dic_1330	ukai tugeragu boe ji .	ele não pegando algo.
+ukare			test		44	média	boe_ero_01_38	"Imedu pega otowure ako oino ji , otowure akore: ""Imedupega"", oino ji. Ia boe enodowure ema. Boe egore Inodowu pega"", oino. ""Inodowu pega"", oino. ""Ioga pega"", oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu..."	O seu cunhado o chama de homem velho, ele é cunhado de algumas pessoas, os bororo chamam ele de cunhado velho, meu padrinho velho.
+ukawo			train		5	média	486-13	Icare nowu baraedu akore Tamagodo ji ukawo joru tugu pugeje .	Disse Eu vou embora.
+ukogedo			train		1	baixa	boe_ero_04_17	Uh! Oinore boe erore. Aredurogu jire inagore oino, boe ere ukogedo, maku toro, iwagududogeto rabodu jice, apiboregeto rabodu. Woje aroroeto rabodu.	Assim que a gente diz para a menina. A gente manda ela casar no clã Iwagudu ou no clã dos Apiborege, ou Aroroe. Então ela se casa.
+ukwa			train		1	baixa	882-10	cere cerawuje tori joki gu gu gu.,Awu boe butu ukwa rore ikera tabo taci .	Eu fui me deslizando com o meu sogro.
+umode			train		58	alta	boe_ero_01_14-2	Boe egore kugu , oino , Boe egore umode toedo ai , oino , Boe egore umode tododo ai , oino Boe egore .	"Os bororo falam: ""Olha lá o bicho"". Os bororo falam: ""Ele vai te morder"". Os bororo falam: ""Ele vai te bicar""."
+umoduie			train		2	baixa	944-16	Egore awu Pao umoduie tugerabararedo ii .	
+umodukae			test		2	baixa	793-8	eked umodukae ji jao tu je .	
+umodukare			train		13	média	163-13	Jetumode pui ma, umodukare turugadu.,Oinore umode .	- Vai acontecer assim: as penas de gavião real vão quebrar.
+unure			test		19	média	boe_ero_05_07	Imuga kaie unure pa oino ie ji , ierare pa oino ie ji itaora pega kawo , iedorowo rugadu du bogaire muga roino ii .	A minha mãe não bateu com a mão no meu rosto para ficar eu com a cabeça ruim, mas ela fazia assim para eu andar direito mesmo.
+ure			test		1123	alta	boe_ero_01_22	Icare merure boe ebo, icare ure karo bito, ure barogo bito tudugo remawu tabo gu, gu...	Então já caça com os homens, então ele já mata peixe, ele já mata bicho até mesmo com suas próprias flechas.
+ureorere			train		7	média	60-6	Nowu boe kori ure ido nono cewu boe egore adugo , ino jiboe ureorere nowu boe kori ure ido .	Aquela raiva me fez virar como uma onça.
+uu			train		542	alta	boe_ero_02_03	Uu , ema rugadu, ema rugadu .	Ah! Sim ela mesmo, ela mesmo.
+uuu			test		1	baixa	boe_ero_04_13	"Icare ere tugogedo: ""Akado, pawo maku je,cewu iwagududogeto. Pawo maku je,cewu apiboregeto rakudu, aroroeto rakudu. Uuu. Cewu iwagududogeto rugadu."	"Depois elas se casam: ""Olhem para qual clã que vamos entregar, se é iwagududoge ou se é para o clã dos apiborege, ou então para clã dos arore. É para clã dos iwagududoge mesmo."" (Quem fala é kiedu)."
+uwo			train		30	média	boe_ero_01_27	Tuge boi koia, uwo karo bito tugeje.	De fome para que ele matasse peixe e bicho para ela comer.
+uwobe			test		3	baixa	235-1	Jokurega: Icare nowu aroe uwobe eedure woe bai tada, icare erare .	O Canto Jokurega: Os parentes do finado estávamos aí no bai to, e cantaram:
+uwurimage			test		1	baixa	202-11	pawo uwurimage ekerogu maku ewogai .	
+vendo			test		1	baixa	778-20	Bruno akore Está vendo ?	
+woje			test		92	alta	boe_ero_04_17	Uh! Oinore boe erore. Aredurogu jire inagore oino, boe ere ukogedo, maku toro, iwagududogeto rabodu jice, apiboregeto rabodu. Woje aroroeto rabodu.	Assim que a gente diz para a menina. A gente manda ela casar no clã Iwagudu ou no clã dos Apiborege, ou Aroroe. Então ela se casa.

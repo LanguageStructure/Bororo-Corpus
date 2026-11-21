@@ -185,13 +185,15 @@ function productiveParts(word){
 let corboV4=new Map();
 async function loadCorboV4(){
   try{
-    const response=await fetch('data/tokenizer-v4-site.json',{cache:'no-cache'});
+    // v5: mesmo formato do v4, com review_status, suporte, superfície/subjacente e suspeita de português.
+    let response=await fetch('data/tokenizer-v5-site.json',{cache:'no-cache'});
+    if(!response.ok)response=await fetch('data/tokenizer-v4-site.json',{cache:'no-cache'});
     if(!response.ok)throw Error('HTTP '+response.status);
     const data=await response.json();
-    if(data.schema!=='corbo-tokenizer-v4-site/v1')throw Error('Esquema v4 incompatível');
+    if(!['corbo-tokenizer-v5-site/v1','corbo-tokenizer-v4-site/v1'].includes(data.schema))throw Error('Esquema incompatível');
     corboV4=new Map(Object.entries(data.forms||{}));
     render();
-    console.info('CorBo v4: '+corboV4.size+' formas carregadas.');
+    console.info('CorBo '+data.schema+': '+corboV4.size+' formas carregadas.');
   }catch(e){console.warn('CorBo v4 indisponível; mantendo tokenizador anterior.',e);}
 }
 function corboV4Tokens(t){
@@ -200,10 +202,12 @@ function corboV4Tokens(t){
   if(!entry)return null; // preserva fallback para palavras fora do inventário
   const alternatives=Array.isArray(entry.analyses)?entry.analyses:[];
   const candidate=alternatives.find(x=>Array.isArray(x.segments)&&x.segments.length>1&&x.segments.every(s=>typeof s==='string'&&s.length));
-  if(!candidate)return [{...t,status:'unanalysed',analysis:'Forma reconhecida; sem segmentação registrada (v4).'}];
+  const ptNote=entry.lang_suspect==='pt'?' · possível palavra portuguesa ou empréstimo ('+entry.lang_evidence+')':'';
+  if(!candidate)return [{...t,status:'unanalysed',analysis:'Forma reconhecida; sem segmentação registrada'+ptNote}];
   const parts=candidate.segments;
   const status=candidate.status==='confirmed'?'confirmed':'proposed';
-  const label=parts.join(' + ');
+  const support=candidate.low_support?' · suporte baixo ('+candidate.support+' ocorrência(s) da família lexical)':'';
+  const label=parts.join(' + ')+support+ptNote;
   // Representações subjacentes/alomórficas não são fatias da palavra escrita.
   if(parts.join('').toLocaleLowerCase('pt-BR')!==word)
     return [{...t,status,whole:t.form,analysis:label+' (representação morfológica; superfície não concatenativa)',v4:true}];

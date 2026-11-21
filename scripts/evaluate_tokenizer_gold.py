@@ -30,6 +30,8 @@ def read_gold(path):
     for line, row in enumerate(records, 2):
         form = row["form"].strip().casefold()
         decision = row["decision"].strip().casefold()
+        if not decision:
+            continue  # linha da planilha ainda não anotada
         split = row["split"].strip().casefold()
         parts = tuple(x.strip().casefold() for x in row["surface_segments"].split("+")) if row["surface_segments"].strip() else ()
         if not form or decision not in DECISIONS or split not in {"train", "test"}:

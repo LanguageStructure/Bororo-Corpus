@@ -1,0 +1,784 @@
+{
+ "schema": "corbo-tokenizer-v5-site/v1",
+ "generated": "2026-11-21",
+ "derived_from": [
+  "docs/data/tokenizer-v4-site.json",
+  "docs/data/tokenizer-v2.json (support)",
+  "docs/data/tokenizer-lexicon-v3.json (surface/underlying)"
+ ],
+ "policy": "Reconhecimento não equivale a segmentação verificada. 'proposed' não é verificado; 'proposed_low_support' tem família lexical com menos de 3 ocorrências. lang_suspect é uma suspeita gráfica, não uma classificação.",
+ "review_status_counts": {
+  "proposed": 565,
+  "unanalysed": 6124,
+  "confirmed": 82,
+  "proposed_low_support": 148
+ },
+ "lang_suspect_pt": 180,
+ "non_lexical_tokens": {
+  "punctuation": 193,
+  "affix_citation": 20,
+  "number": 26,
+  "multiword": 5
+ },
+ "private_use_forms": [
+  "",
+  "",
+  ""
+ ],
+ "pt_suspects": [
+  [
+   "abóbora",
+   "diacrítico ó"
+  ],
+  [
+   "adão",
+   "diacrítico ã"
+  ],
+  [
+   "agulha",
+   "dígrafo 'lh'"
+  ],
+  [
+   "akiró",
+   "diacrítico ó"
+  ],
+  [
+   "akó",
+   "diacrítico ó"
+  ],
+  [
+   "alho",
+   "dígrafo 'lh'"
+  ],
+  [
+   "alhoji",
+   "dígrafo 'lh'"
+  ],
+  [
+   "almoço",
+   "diacrítico ç"
+  ],
+  [
+   "amadrinha",
+   "dígrafo 'nh'"
+  ],
+  [
+   "apadrinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "aqui",
+   "dígrafo 'qu'"
+  ],
+  [
+   "aquileji",
+   "dígrafo 'qu'"
+  ],
+  [
+   "aquiles",
+   "dígrafo 'qu'"
+  ],
+  [
+   "armoçorogu",
+   "diacrítico ç"
+  ],
+  [
+   "arranca",
+   "dígrafo 'rr'"
+  ],
+  [
+   "aró",
+   "diacrítico ó"
+  ],
+  [
+   "assado",
+   "dígrafo 'ss'"
+  ],
+  [
+   "assis",
+   "dígrafo 'ss'"
+  ],
+  [
+   "atílio",
+   "diacrítico í"
+  ],
+  [
+   "ató",
+   "diacrítico ó"
+  ],
+  [
+   "avião",
+   "diacrítico ã"
+  ],
+  [
+   "açuca",
+   "diacrítico ç"
+  ],
+  [
+   "açucaji",
+   "diacrítico ç"
+  ],
+  [
+   "açucarogu",
+   "diacrítico ç"
+  ],
+  [
+   "aí",
+   "diacrítico í"
+  ],
+  [
+   "baixinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "baquerão",
+   "diacrítico ã"
+  ],
+  [
+   "baralho",
+   "dígrafo 'lh'"
+  ],
+  [
+   "barinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "barra",
+   "dígrafo 'rr'"
+  ],
+  [
+   "baú",
+   "diacrítico ú"
+  ],
+  [
+   "bentinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "benção",
+   "diacrítico ãç"
+  ],
+  [
+   "boqueirão",
+   "diacrítico ã"
+  ],
+  [
+   "boqueraoto",
+   "dígrafo 'qu'"
+  ],
+  [
+   "boquerãoto",
+   "diacrítico ã"
+  ],
+  [
+   "bororinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "borá",
+   "diacrítico á"
+  ],
+  [
+   "botão",
+   "diacrítico ã"
+  ],
+  [
+   "brr",
+   "dígrafo 'rr'"
+  ],
+  [
+   "bênção",
+   "diacrítico ãçê"
+  ],
+  [
+   "bóbora",
+   "diacrítico ó"
+  ],
+  [
+   "cachorrodoge",
+   "dígrafo 'rr'"
+  ],
+  [
+   "café",
+   "diacrítico é"
+  ],
+  [
+   "caférogu",
+   "diacrítico é"
+  ],
+  [
+   "caixão",
+   "diacrítico ã"
+  ],
+  [
+   "caminhao",
+   "dígrafo 'nh'"
+  ],
+  [
+   "caminhaoto",
+   "dígrafo 'nh'"
+  ],
+  [
+   "caminhão",
+   "diacrítico ã"
+  ],
+  [
+   "caminhãoto",
+   "diacrítico ã"
+  ],
+  [
+   "capitão",
+   "diacrítico ã"
+  ],
+  [
+   "carandá",
+   "diacrítico á"
+  ],
+  [
+   "carro",
+   "dígrafo 'rr'"
+  ],
+  [
+   "cecília",
+   "diacrítico í"
+  ],
+  [
+   "cemitério",
+   "diacrítico é"
+  ],
+  [
+   "chapéu",
+   "diacrítico é"
+  ],
+  [
+   "chibé",
+   "diacrítico é"
+  ],
+  [
+   "churrascodo",
+   "dígrafo 'rr'"
+  ],
+  [
+   "chá",
+   "diacrítico á"
+  ],
+  [
+   "chícara",
+   "diacrítico í"
+  ],
+  [
+   "cláudio",
+   "diacrítico á"
+  ],
+  [
+   "clélia",
+   "diacrítico é"
+  ],
+  [
+   "colégio",
+   "diacrítico é"
+  ],
+  [
+   "comunhaodo",
+   "dígrafo 'nh'"
+  ],
+  [
+   "confessado",
+   "dígrafo 'ss'"
+  ],
+  [
+   "confessadore",
+   "dígrafo 'ss'"
+  ],
+  [
+   "confissãoji",
+   "diacrítico ã"
+  ],
+  [
+   "contrição",
+   "diacrítico ãç"
+  ],
+  [
+   "coqueiro",
+   "dígrafo 'qu'"
+  ],
+  [
+   "coração",
+   "diacrítico ãç"
+  ],
+  [
+   "corruptela",
+   "dígrafo 'rr'"
+  ],
+  [
+   "cozinheira",
+   "dígrafo 'nh'"
+  ],
+  [
+   "cozinheiro",
+   "dígrafo 'nh'"
+  ],
+  [
+   "cá",
+   "diacrítico á"
+  ],
+  [
+   "césar",
+   "diacrítico é"
+  ],
+  [
+   "córrego",
+   "diacrítico ó"
+  ],
+  [
+   "córrego-dos-índio",
+   "diacrítico íó"
+  ],
+  [
+   "córrego-dos-índios",
+   "diacrítico íó"
+  ],
+  [
+   "dotô",
+   "diacrítico ô"
+  ],
+  [
+   "dá",
+   "diacrítico á"
+  ],
+  [
+   "egídio",
+   "diacrítico í"
+  ],
+  [
+   "está",
+   "diacrítico á"
+  ],
+  [
+   "eugênio",
+   "diacrítico ê"
+  ],
+  [
+   "félix",
+   "diacrítico é"
+  ],
+  [
+   "garça",
+   "diacrítico ç"
+  ],
+  [
+   "garças",
+   "diacrítico ç"
+  ],
+  [
+   "graças",
+   "diacrítico ç"
+  ],
+  [
+   "guilherme",
+   "dígrafo 'lh'"
+  ],
+  [
+   "guricá",
+   "diacrítico á"
+  ],
+  [
+   "gurá",
+   "diacrítico á"
+  ],
+  [
+   "henrique",
+   "dígrafo 'qu'"
+  ],
+  [
+   "icá",
+   "diacrítico á"
+  ],
+  [
+   "ikujé",
+   "diacrítico é"
+  ],
+  [
+   "imadrinha",
+   "dígrafo 'nh'"
+  ],
+  [
+   "imitação",
+   "diacrítico ãç"
+  ],
+  [
+   "inhe",
+   "dígrafo 'nh'"
+  ],
+  [
+   "interessante",
+   "dígrafo 'ss'"
+  ],
+  [
+   "ipadrinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "ipá",
+   "diacrítico á"
+  ],
+  [
+   "irmãs",
+   "diacrítico ã"
+  ],
+  [
+   "isso",
+   "dígrafo 'ss'"
+  ],
+  [
+   "itaqurei",
+   "dígrafo 'qu'"
+  ],
+  [
+   "jibá",
+   "diacrítico á"
+  ],
+  [
+   "joelho",
+   "dígrafo 'lh'"
+  ],
+  [
+   "josé",
+   "diacrítico é"
+  ],
+  [
+   "joão",
+   "diacrítico ã"
+  ],
+  [
+   "já",
+   "diacrítico á"
+  ],
+  [
+   "kajá",
+   "diacrítico á"
+  ],
+  [
+   "kanajó",
+   "diacrítico ó"
+  ],
+  [
+   "karajánure",
+   "diacrítico á"
+  ],
+  [
+   "kodibá",
+   "diacrítico á"
+  ],
+  [
+   "krr",
+   "dígrafo 'rr'"
+  ],
+  [
+   "krrrr",
+   "dígrafo 'rr'"
+  ],
+  [
+   "kupé",
+   "diacrítico é"
+  ],
+  [
+   "kwarr",
+   "dígrafo 'rr'"
+  ],
+  [
+   "lá",
+   "diacrítico á"
+  ],
+  [
+   "mamão",
+   "diacrítico ã"
+  ],
+  [
+   "mané",
+   "diacrítico é"
+  ],
+  [
+   "maquina",
+   "dígrafo 'qu'"
+  ],
+  [
+   "matawé",
+   "diacrítico é"
+  ],
+  [
+   "merimã",
+   "diacrítico ã"
+  ],
+  [
+   "milho",
+   "dígrafo 'lh'"
+  ],
+  [
+   "minha",
+   "dígrafo 'nh'"
+  ],
+  [
+   "missa",
+   "dígrafo 'ss'"
+  ],
+  [
+   "missado",
+   "dígrafo 'ss'"
+  ],
+  [
+   "missare",
+   "dígrafo 'ss'"
+  ],
+  [
+   "missarogu",
+   "dígrafo 'ss'"
+  ],
+  [
+   "mulher",
+   "dígrafo 'lh'"
+  ],
+  [
+   "mulheres",
+   "dígrafo 'lh'"
+  ],
+  [
+   "máquina",
+   "diacrítico á"
+  ],
+  [
+   "mé",
+   "diacrítico é"
+  ],
+  [
+   "natálio",
+   "diacrítico á"
+  ],
+  [
+   "negócio",
+   "diacrítico ó"
+  ],
+  [
+   "nosso",
+   "dígrafo 'ss'"
+  ],
+  [
+   "não",
+   "diacrítico ã"
+  ],
+  [
+   "né",
+   "diacrítico é"
+  ],
+  [
+   "nós",
+   "diacrítico ó"
+  ],
+  [
+   "olha",
+   "dígrafo 'lh'"
+  ],
+  [
+   "pajão",
+   "diacrítico ã"
+  ],
+  [
+   "paredão",
+   "diacrítico ã"
+  ],
+  [
+   "paulinho",
+   "dígrafo 'nh'"
+  ],
+  [
+   "pejó",
+   "diacrítico ó"
+  ],
+  [
+   "pejô",
+   "diacrítico ô"
+  ],
+  [
+   "picolé",
+   "diacrítico é"
+  ],
+  [
+   "pojôrogu",
+   "diacrítico ô"
+  ],
+  [
+   "presbitério",
+   "diacrítico é"
+  ],
+  [
+   "providência",
+   "diacrítico ê"
+  ],
+  [
+   "pss",
+   "dígrafo 'ss'"
+  ],
+  [
+   "pá",
+   "diacrítico á"
+  ],
+  [
+   "páscoa",
+   "diacrítico á"
+  ],
+  [
+   "pátio",
+   "diacrítico á"
+  ],
+  [
+   "pão",
+   "diacrítico ã"
+  ],
+  [
+   "quase",
+   "dígrafo 'qu'"
+  ],
+  [
+   "que",
+   "dígrafo 'qu'"
+  ],
+  [
+   "quer",
+   "dígrafo 'qu'"
+  ],
+  [
+   "sabão",
+   "diacrítico ã"
+  ],
+  [
+   "senhor",
+   "dígrafo 'nh'"
+  ],
+  [
+   "senhora",
+   "dígrafo 'nh'"
+  ],
+  [
+   "simão",
+   "diacrítico ã"
+  ],
+  [
+   "simãoji",
+   "diacrítico ã"
+  ],
+  [
+   "somática",
+   "diacrítico á"
+  ],
+  [
+   "sábado",
+   "diacrítico á"
+  ],
+  [
+   "são",
+   "diacrítico ã"
+  ],
+  [
+   "taquerei",
+   "dígrafo 'qu'"
+  ],
+  [
+   "telha",
+   "dígrafo 'lh'"
+  ],
+  [
+   "teresinha",
+   "dígrafo 'nh'"
+  ],
+  [
+   "terçoji",
+   "diacrítico ç"
+  ],
+  [
+   "tinha",
+   "dígrafo 'nh'"
+  ],
+  [
+   "toalha",
+   "dígrafo 'lh'"
+  ],
+  [
+   "tododó",
+   "diacrítico ó"
+  ],
+  [
+   "tá",
+   "diacrítico á"
+  ],
+  [
+   "ukodó",
+   "diacrítico ó"
+  ],
+  [
+   "você",
+   "diacrítico ê"
+  ],
+  [
+   "vá",
+   "diacrítico á"
+  ],
+  [
+   "xícararogu",
+   "diacrítico í"
+  ],
+  [
+   "é",
+   "diacrítico é"
+  ],
+  [
+   "índio",
+   "diacrítico í"
+  ],
+  [
+   "índios",
+   "diacrítico í"
+  ],
+  [
+   "ônibus",
+   "diacrítico ô"
+  ],
+  [
+   "última",
+   "diacrítico ú"
+  ]
+ ],
+ "non_concatenative_confirmed": [
+  "amode",
+  "cenagore",
+  "emode",
+  "iere",
+  "imode",
+  "inago",
+  "inagokare",
+  "inagore",
+  "iorudukare",
+  "umode"
+ ],
+ "edge_punctuation_merged": {
+  "ref": 1,
+  "falou": 1,
+  "kuodaga": 1,
+  "irmãs": 1,
+  "farofa": 1,
+  "motor": 1,
+  "caminhão": 1,
+  "piga": 1,
+  "tai": 1,
+  "pa": 1,
+  "kakodoge": 1,
+  "itugira": 1,
+  "atugira": 1,
+  "utugira": 1,
+  "cedugira": 1,
+  "padugira": 1,
+  "tadugira": 1,
+  "etugira": 1,
+  "refl": 1,
+  "jetudo": 1
+ }
+}

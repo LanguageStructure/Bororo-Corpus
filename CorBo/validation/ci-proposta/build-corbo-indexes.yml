@@ -1,0 +1,51 @@
+name: Gerar índices do CorBo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'CorBo_vNext/texts/**/*.tsv'
+      - 'CorBo_vNext/annotations/**/*.tsv'
+      - 'CorBo/Corpus_Files/*.conllu'
+      - 'CorBo/Corpus_Files/**/*.conllu'
+      - 'scripts/build_corpus_indexes.py'
+      - 'scripts/split_gold_silver.py'
+      - 'scripts/build_annotation_inventory.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-indexes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gerar dados derivados
+        run: |
+          python scripts/build_corpus_indexes.py
+          python scripts/build_annotation_inventory.py
+          python scripts/split_gold_silver.py
+
+      - name: Registrar índices gerados
+        run: |
+          if git diff --quiet -- docs/data docs/ANNOTATION_INVENTORY.md CorBo/Corpus_Files/splits CorBo/validation/feature_inventory.json && [ -z "$(git ls-files --others --exclude-standard CorBo/Corpus_Files/splits)" ]; then
+            echo "Índices já estão atualizados."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data docs/ANNOTATION_INVENTORY.md CorBo/Corpus_Files/splits CorBo/validation/feature_inventory.json
+          git commit -m "Atualizar índices derivados do CorBo"
+          git pull --rebase origin main
+          git push origin HEAD:main

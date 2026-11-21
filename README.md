@@ -62,7 +62,7 @@ O componente atualmente usado para anotação morfossintática e visualização 
 CorBo/Corpus_Files/CorBo.conllu
 ```
 
-Este é o arquivo canônico unificado usado para anotação continuada, construção do índice UD atual, análise de formas e recursos morfológicos derivados associados ao gerador. Ele consolida as fontes CoNLL-U anteriormente mantidas separadamente, preservando a proveniência por meio de comentários  quando disponível.
+Este é o arquivo canônico unificado usado para anotação continuada, construção do índice UD atual, análise de formas e recursos morfológicos derivados associados ao gerador. Ele consolida as fontes CoNLL-U anteriormente mantidas separadamente, preservando a proveniência por meio de comentários `# source_conllu`, quando disponível.
 
 Arquivos CoNLL-U legados, incluindo versões enriquecidas com material bíblico como `Bororo_UD_enriched_v5_plus_scripture.conllu`, **não são a fonte do visualizador UD atual**. Textos bíblicos podem permanecer no corpus documental e em outros índices, mas não são projetados automaticamente no visualizador de dependências.
 
@@ -76,8 +76,13 @@ Os comentários CoNLL-U podem registrar, quando disponíveis:
 - `text`;
 - `text_por`;
 - `text_eng`.
+- `auto_annotation`, `auto_fields`, `auto_tokens`, `auto_note` — sentença com campos preenchidos automaticamente e ainda pendentes de revisão manual (no nível do token, `Auto=` no MISC indica quais campos);
+- `source_unit`, `section` — unidade e seção da fonte documental (Boe Ero);
+- `model_projection` — origem de uma projeção automática a partir de sentença gold.
 
-O CoNLL-U unificado preserva a origem dos componentes anteriores por meio de . Metadados documentais mais específicos ainda não estão disponíveis de maneira uniforme para todas as sentenças, de modo que alguns splits históricos por fonte podem não ser reconstruíveis apenas a partir do arquivo público atual.
+As convenções completas estão no [guia de anotação](docs/ANNOTATION_GUIDE.md).
+
+O CoNLL-U unificado preserva a origem dos componentes anteriores por meio de comentários `# source_conllu`. Metadados documentais mais específicos ainda não estão disponíveis de maneira uniforme para todas as sentenças, de modo que alguns splits históricos por fonte podem não ser reconstruíveis apenas a partir do arquivo público atual.
 
 Para novas incorporações e revisões, o objetivo é preservar também, quando conhecido:
 
@@ -87,6 +92,23 @@ Para novas incorporações e revisões, o objetivo é preservar também, quando 
 - relação entre a unidade documental e a sentença anotada.
 
 Isso permitirá futuros splits por fonte plenamente reproduzíveis sem inferir proveniência a partir do conteúdo.
+
+## Validação e camadas gold / silver
+
+O CoNLL-U canônico é verificado por `scripts/validate_conllu.py` (estrutura, rótulos UD, inventário de traços, coerência `# text` × formas). O relatório completo, com número de linha e `sent_id`, fica em `CorBo/validation/issues.tsv`; as contagens em `CorBo/validation/summary.json`. Correções automáticas sem ambiguidade linguística são feitas por `scripts/fix_conllu_safe.py`, que registra cada alteração em `CorBo/validation/safe_fixes.tsv`. Problemas que exigem decisão humana (ciclos, raízes múltiplas, texto divergente das formas, fragmentos sem `sent_id`) não são corrigidos automaticamente.
+
+`scripts/split_gold_silver.py` deriva, sem alterar o arquivo canônico:
+
+- `CorBo/Corpus_Files/splits/CorBo.gold.conllu` — anotação inteiramente manual, sintaxe completa e sem erros estruturais;
+- `CorBo/Corpus_Files/splits/CorBo.silver.conllu` — estruturalmente válida, com anotação automática (`Auto=`);
+- `CorBo/Corpus_Files/splits/review_sentences.tsv` — sentenças a revisar;
+- `docs/data/annotation-coverage.json` — números exibidos na página **Cobertura** do site.
+
+Estado em novembro de 2026 (após as correções seguras): 12.164 unidades no CoNLL-U, das quais 11.904 tokenizadas (79.272 tokens); **1.778 sentenças gold** (8.897 tokens), **7.264 silver** e 2.862 a revisar; 260 unidades aguardam tokenização. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
+
+Para impedir regressões, a linha de base `CorBo/validation/baseline.json` registra o número de erros por categoria; a validação em CI falha se alguma categoria aumentar. Ao corrigir erros, atualize-a com `cp CorBo/validation/summary.json CorBo/validation/baseline.json`.
+
+O inventário de UPOS, XPOS, DEPREL e FEATS efetivamente usados é gerado por `scripts/build_annotation_inventory.py` em [`docs/ANNOTATION_INVENTORY.md`](docs/ANNOTATION_INVENTORY.md).
 
 ## Anotação morfológica
 
@@ -219,7 +241,7 @@ Os principais formatos são:
 
 ## Estado da versão
 
-A versão 0.8.0 é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
+A versão 0.9.0 (publicada no Zenodo em 17 de outubro de 2026) é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
 
 A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de produzir artificialmente um corpus inteiramente normalizado.
 
@@ -241,7 +263,7 @@ A versão 0.8.0 consolida a expansão documental e editorial realizada após 0.7
 - exclusão de correspondências `confirmed` para impedir contagem duplicada de testemunhos;
 - manutenção de `CIR.001` fora do índice público enquanto a estrutura da fonte permanecer `unresolved`;
 - ampliação da busca por formas, lemas e morfemas;
-- camada CoNLL-U com **973 sentenças** e **3.765 tokens**, das quais **874** possuem análise de dependência com raiz sintática explicitamente anotada;
+- camada CoNLL-U com **973 sentenças** e **3.765 tokens** naquela versão, das quais **874** possuíam análise de dependência com raiz sintática explicitamente anotada (os números atuais estão na seção *Validação e camadas gold / silver*);
 - visualização UD restrita às sentenças efetivamente anotadas no CoNLL-U autoritativo;
 - melhorias no editor, na busca por morfemas, no visualizador UD e nas páginas de exploração do corpus;
 - atualização do guia **Como usar**, estatísticas, manifesto de fontes e documentação da metodologia de colação.
@@ -268,11 +290,23 @@ O tokenizador mantém análises linguísticas cadastradas separadas das hipótes
 
 **Estado de desenvolvimento (outubro de 2026).** O último modelo público verificado continha 74.255 ocorrências, 6.674 formas distintas, 236 famílias de lemas, 27 padrões entre famílias e 83 propostas de segmentação. Esses números descrevem o artefato verificado, não necessariamente o resultado do próximo treinamento. O código para atribuir graus de evidência já foi atualizado, mas a publicação de um JSON regenerado com esses campos ainda precisa ser confirmada. A avaliação com dados separados do treinamento e revisão linguística das propostas continuam pendentes.
 
+### Inventário v5 do tokenizador
+
+`scripts/build_tokenizer_v5.py` gera `docs/data/tokenizer-v5-site.json`, usado pela página do tokenizador (com recuo automático para o v4). Ele não altera análises; acrescenta pré-tokenização (pontuação, números e citações de afixos deixam de ser formas lexicais), suspeita de português ou empréstimo (`lang_suspect`, com a evidência gráfica), estado de revisão explícito (`confirmed`, `proposed`, `proposed_low_support`, `unanalysed`), suporte da família lexical e a distinção entre `surface_segments` (fatias da grafia) e `underlying_morphemes` (representação morfológica, p. ex. `amode → a + modu + re`). O relatório fica em `CorBo/validation/tokenizer_v5_report.json`. O papel de cada arquivo do tokenizador está em [`docs/TOKENIZER.md`](docs/TOKENIZER.md).
+
+Para a avaliação independente, `scripts/prepare_tokenizer_gold_worksheet.py` gerou `CorBo_vNext/annotations/tokenizer_gold_worksheet_v1.tsv`: 400 formas estratificadas por frequência e estado, com divisão train/test fixa e um exemplo do corpus para cada uma, **sem** mostrar a análise do modelo. Depois de anotada, ela é lida diretamente por `scripts/evaluate_tokenizer_gold.py --gold …` (linhas ainda vazias são ignoradas).
+
+## Ética e governança dos dados
+
+Consentimento, papel da comunidade Boe, direitos sobre os materiais e restrições de acesso estão em [`docs/ETICA_E_GOVERNANCA.md`](docs/ETICA_E_GOVERNANCA.md).
+
 ## Licença e citação
 
 O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23187959.svg)](https://doi.org/10.5281/zenodo.23187959)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441622.svg)](https://doi.org/10.5281/zenodo.23441622)
+
+Versão anterior (v0.8.0): [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959).
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
 ## Autor
