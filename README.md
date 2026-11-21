@@ -8,6 +8,18 @@ O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 
 
 A arquitetura atual distingue explicitamente **fonte documental**, **revisão editorial**, **anotação linguística**, **dados derivados** e **recursos experimentais de geração**. O texto das fontes é preservado; correções, normalizações e análises são registradas em camadas separadas e não substituem silenciosamente a evidência documental.
 
+### Documentação
+
+| Documento | Conteúdo |
+|---|---|
+| [Guia de anotação](docs/ANNOTATION_GUIDE.md) | convenções do CoNLL-U, decisões de anotação, marcas de anotação automática |
+| [Inventário de rótulos](docs/ANNOTATION_INVENTORY.md) | UPOS, XPOS, DEPREL e FEATS em uso, com contagens (gerado automaticamente) |
+| [Anotação morfológica](docs/MORPHOLOGY_ANNOTATION.md) | segmentação explícita no MISC (`Morph=`) |
+| [Tokenizador](docs/TOKENIZER.md) | papel de cada arquivo do tokenizador, estados de revisão e avaliação |
+| [Ética e governança](docs/ETICA_E_GOVERNANCA.md) | comunidades, parcerias, consentimento, origem dos materiais |
+| [Validação](CorBo/validation/README.md) | relatórios de erros, logs de correção e decisões, proveniência das sentenças |
+| [Diretrizes editoriais](CorBo_vNext/schema/EDITORIAL_GUIDELINES.md) | camadas documentais, unidades, identificadores |
+
 ## Princípio documental
 
 O fluxo editorial básico é:
@@ -123,7 +135,7 @@ Os recursos derivados distinguem:
 - morfemas explicitamente analisados;
 - relações de dependência.
 
-A busca por morfema usa segmentação/anotação explícita, não correspondência arbitrária de substring. A página **Análise de formas** também se baseia em anotações explícitas.
+A busca por morfema usa segmentação/anotação explícita, não correspondência arbitrária de substring. A segmentação está no MISC como `Morph=` (12.478 tokens; `-` marca fronteira afixal, `=` clítica e `0` o morfema zero); o build lê `Morph=` e `MORPH=` como equivalentes. A página **Análise de formas** também se baseia em anotações explícitas.
 
 ## Interface digital
 
@@ -252,6 +264,16 @@ A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de
 - **Família:** Bororoan
 - **Região:** Mato Grosso, Brasil
 
+## Novidades após a v0.9.0 (em desenvolvimento, novembro de 2026)
+
+- **Validação do CoNLL-U** com relatório por linha e linha de base em CI (`.github/workflows/validate-conllu.yml`); 7.179 correções automáticas sem ambiguidade (erros de 4.893 para 3.706).
+- **Camadas gold e silver** derivadas do arquivo canônico e painel correspondente na página Cobertura.
+- **Decisões de anotação** (21/11/2026): `Boe` = "os Bororo" → PROPN plural, demais acepções → NOUN singular; sufixo *-go* = `Voice=CauInc`; `Aspect=IncProg`; `Number=Sgtv` = singulativo; `dukeje` = SCONJ (`mark`) ou ADV (`advmod`); complementos oracionais de `ako` = `ccomp`, orações citadas independentes = `parataxis`. Registro em `CorBo/validation/decisions_20261121.tsv`.
+- **Busca por morfema** passa a usar as segmentações `Morph=` do CoNLL-U (de 29 para 28.604 ocorrências).
+- **Tokenizador v5**: pré-tokenização, estado de revisão explícito, suporte baixo, superfície × subjacente e suspeita de português/empréstimo; planilha de 400 formas para o gold de avaliação.
+- **Documentação**: guia de anotação, inventário de rótulos, ética e governança, proveniência dos grupos de sentenças (`CorBo/validation/sent_id_groups.tsv`).
+- Pendências: valores raros de `Mood`, `Number=Col` e `Voice=CPass`; proveniência das sentenças de ID numérico e `dic_`.
+
 ## Novidades da versão 0.8.0
 
 A versão 0.8.0 consolida a expansão documental e editorial realizada após 0.7.1.
@@ -309,8 +331,11 @@ O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercia
 Versão anterior (v0.8.0): [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959).
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
-## Autor
+## Autoria, parcerias e comunidades
 
-- **Fabrício Ferraz Gerardi**
+- **Fabrício Ferraz Gerardi** — organização, trabalho de campo (`FFG-FW`), revisão editorial, anotação manual e correções do CoNLL-U.
+- **Parceiros:** Mariel Kujibo Ekureu, Fernando Kudoro e a Missão Salesiana. Os autores do Boe Ero (*Vida Bororo*) e de outros materiais do corpus são missionários salesianos que viveram em Meruri.
+- **Comunidades:** Aldeia Meruri (TI Meruri), Tadarimana e Córrego Grande.
+- Narrativas de Jussila, coletadas por Fabrício Ferraz Gerardi.
 
 O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
