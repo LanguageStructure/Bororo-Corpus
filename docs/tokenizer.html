@@ -8,7 +8,7 @@ header{background:white;border-bottom:1px solid var(--line)}.bar{max-width:1100p
 main{max-width:1000px;margin:auto;padding:35px 24px 80px}h1{font:600 clamp(36px,5vw,55px)/1.1 Georgia,serif;margin:8px 0 14px}.muted{color:var(--muted)}
 textarea{width:100%;min-height:160px;resize:vertical;border:1px solid var(--line);border-radius:10px;padding:18px;font:19px/1.6 Georgia,serif;background:white;color:var(--ink)}
 .panel{background:white;border:1px solid var(--line);border-radius:10px;padding:20px;margin:20px 0}.render{white-space:pre-wrap;overflow-wrap:anywhere;font:23px/2 Georgia,serif;min-height:75px}
-.token{display:inline;border:0;border-radius:4px;padding:3px 4px;color:#17201d;font:inherit;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone}.token:focus-visible{outline:3px solid #202624;outline-offset:2px}
+.token.st-confirmed{text-decoration:underline 2px solid #25613d;text-underline-offset:4px}.token.st-proposed{text-decoration:underline 2px dashed #8a5a00;text-underline-offset:4px}.token.st-unanalysed{text-decoration:none}.tok-legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:#4b5450;margin:6px 0 0}.tok-legend span{padding:0 2px}.token{display:inline;border:0;margin-right:1px;border-radius:4px;padding:3px 4px;color:#17201d;font:inherit;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone}.token:focus-visible{outline:3px solid #202624;outline-offset:2px}
 .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:14px 0}.controls button{border:1px solid var(--accent);background:white;color:var(--accent);border-radius:7px;padding:9px 14px;cursor:pointer}
 #info{border-left:3px solid var(--accent);padding:10px 15px;background:#eef3f1;min-height:45px}
 </style><script src="site-header.js" defer></script></head><body>
@@ -16,7 +16,7 @@ textarea{width:100%;min-height:160px;resize:vertical;border:1px solid var(--line
 <main><div class="muted">FERRAMENTAS · VERSÃO EXPERIMENTAL</div><h1>Tokenizador bororo</h1>
 <p class="muted">Digite ou cole um texto em bororo. Cada token recebe uma cor de fundo diferente. A grafia e os espaços do texto são preservados.</p>
 <label for="input"><strong>Texto de entrada</strong></label><textarea id="input" spellcheck="false" placeholder="Digite um texto em bororo…"></textarea>
-<div class="controls"><label for="mode">Modo: <select id="mode"><option value="ling">Linguístico (experimental)</option><option value="orth">Ortográfico</option></select></label><strong id="count" aria-live="polite">0 tokens</strong><span id="diagnostic" class="muted"></span><button id="copy" type="button">Copiar tokens</button><button id="clear" type="button">Limpar</button></div>
+<div class="controls"><label for="mode">Modo: <select id="mode"><option value="ling">Linguístico (experimental)</option><option value="orth">Ortográfico</option></select></label><strong id="count" aria-live="polite">0 tokens</strong><span id="diagnostic" class="muted"></span><button id="copy" type="button">Copiar tokens</button><button id="exportTsv" type="button">Exportar TSV</button><button id="exportJson" type="button">JSON</button><button id="exportConllu" type="button">CoNLL-U</button><button id="clear" type="button">Limpar</button></div><p class="tok-legend" aria-label="Legenda"><span class="token st-confirmed">confirmada</span><span class="token st-proposed">proposta</span><span class="token st-unanalysed">sem análise</span><span>As cores só separam tokens vizinhos; o estado é indicado pelo sublinhado.</span></p>
 <section class="panel"><strong>Resultado</strong><div id="tokens" class="render" aria-label="Tokens identificados"></div></section>
 <div id="info" aria-live="polite">Selecione um token para ver sua posição e, quando disponível, uma análise.</div>
 <p class="muted">O modo linguístico apresenta análises confirmadas e hipóteses geradas a partir de bases documentadas no corpus; palavras sem análise permanecem inteiras. <i>Kururogu</i> mantém a ligação gráfica e pode ser analisado como <i>kuru + rogu</i>. O modo ortográfico preserva as palavras. A ferramenta não corrige o texto.</p>
@@ -417,7 +417,7 @@ function trainedEvidence(form){
     (patterns?"; padrões: "+patterns:"")+
     ". Não equivale a validação linguística.";
 }
-function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+(m.analysis?' Análise morfológica: '+m.analysis+'. ':'')+trainedEvidence(m.whole||m.form)+analysis(m.form)+' '+grammaticalInfo(m.whole||m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
+function render(){const text=input.value;output.replaceChildren();let last=0;const ts=selectedTokens(text);ts.forEach((m,i)=>{output.append(document.createTextNode(text.slice(last,m.start)));const b=document.createElement('button');b.type='button';b.className='token st-'+(m.status||'unanalysed');b.dataset.status=m.status||'unanalysed';b.style.backgroundColor=colors[i%colors.length];b.textContent=m.form;b.setAttribute('aria-label','Token '+(i+1)+': '+m.form);b.addEventListener('click',()=>{info.textContent='Token '+(i+1)+' · '+m.form+' · caracteres '+m.start+'–'+m.end+' · '+(m.status==='proposed'?'análise proposta':m.status==='confirmed'?'análise confirmada':'sem análise')+'. '+segmentationExplanation(m)+(m.analysis?' Análise morfológica: '+m.analysis+'. ':'')+trainedEvidence(m.whole||m.form)+analysis(m.form)+' '+grammaticalInfo(m.whole||m.form)+' '+corpusInfo(m.form)});output.append(b);last=m.end;});output.append(document.createTextNode(text.slice(last)));count.textContent=ts.length+' token'+(ts.length===1?'':'s');const d=document.getElementById('diagnostic');d.textContent=tokenizationAudit(text).counts.proposed+' palavras com análise proposta · '+tokenizationAudit(text).counts.unanalysed+' palavras sem segmentação';}
 const auditButton=document.createElement("button");
 auditButton.type="button";auditButton.textContent="Auditar texto";
 auditButton.title="Resumo de análises cadastradas, propostas e formas sem segmentação";
@@ -429,4 +429,18 @@ runTokenizerChecks();loadCorpusForms();loadTrainedModel();loadGrammaticalIndex()
 loadV2();input.addEventListener('input',render);document.getElementById('mode').addEventListener('change',render);render();
 
 loadCorboV4();
+</script><script>
+/* Exportação do resultado do tokenizador (TSV, JSON, CoNLL-U). */
+(()=>{const words=()=>{const ts=selectedTokens(input.value),out=[];for(const t of ts){const w=t.whole||t.form;const last=out[out.length-1];
+if(last&&t.whole&&last.form===t.whole&&last.end===t.start){last.segments.push(t.form);last.end=t.end;last.status=t.status||last.status;}
+else out.push({form:w,start:t.start,end:t.end,segments:t.whole?[t.form]:[],status:t.status||'unanalysed',analysis:t.analysis||''});}return out};
+const save=(name,type,text)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+const mode=()=>document.getElementById('mode').value;
+document.getElementById('exportTsv').onclick=()=>{const rows=words().map((w,i)=>[i+1,w.form,w.segments.join('+'),w.status,w.analysis].join('\t'));save('corbo-tokens.tsv','text/tab-separated-values','id\tform\tsegments\tstatus\tanalysis\n'+rows.join('\n')+'\n')};
+document.getElementById('exportJson').onclick=()=>save('corbo-tokens.json','application/json',JSON.stringify({mode:mode(),text:input.value,tokens:words()},null,2));
+document.getElementById('exportConllu').onclick=()=>{const ws=words().filter(w=>/\p{L}/u.test(w.form)||/[^\s]/.test(w.form));
+const lines=['# generator = CorBo tokenizer ('+mode()+')','# text = '+input.value.replace(/\s+/g,' ').trim()];
+ws.forEach((w,i)=>{const punct=!/\p{L}/u.test(w.form);const misc=[];if(w.segments.length>1)misc.push('Seg='+w.segments.join('+'),'SegStatus='+w.status);
+lines.push([i+1,w.form,'_',punct?'PUNCT':'_','_','_','_','_','_',misc.length?misc.join('|'):'_'].join('\t'))});
+save('corbo-tokens.conllu','text/plain',lines.join('\n')+'\n\n')};})();
 </script></body></html>

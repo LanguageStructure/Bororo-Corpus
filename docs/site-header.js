@@ -11,6 +11,7 @@
       ['catalogo.html#biblicos', 'Textos bíblicos'],
       ['dicionario.html', 'Dicionário'],
       ['vocabulario-tematico.html', 'Vocabulário temático'],
+      ['downloads.html', 'Downloads'],
     ]],
     ['Ferramentas', [
       ['search.html', 'Busca e concordância'],
@@ -49,6 +50,7 @@
   .cb-nav > a:hover,.cb-group > button:hover,.cb-group.open > button{background:#eef3f1}
   .cb-nav .cb-current{color:#527066;font-weight:600}
   .cb-group{position:relative}
+  .cb-nav > a.cb-lang{border:1px solid #c9d6cf;font-size:13px;font-weight:600;padding:5px 10px;margin-left:8px;color:#527066}
   .cb-group > button::after{content:"▾";font-size:11px;margin-left:5px;opacity:.6}
   .cb-menu{display:none;position:absolute;right:0;top:calc(100% + 6px);min-width:230px;background:#fff;border:1px solid #e3e7e4;border-radius:10px;box-shadow:0 12px 28px rgba(0,0,0,.1);padding:6px}
   .cb-group.open .cb-menu{display:block}
@@ -63,8 +65,22 @@
   // elemento que contém palavras clicáveis (.word) e ao que estiver marcado com lang="bor".
   const FONT_CSS = `
   :is(p,div,span,li,td,blockquote,h3):has(> .word),[lang="bor"],.word{font-family:"Gentium Book Plus","Charis SIL",Georgia,serif}`;
+  // Versão em inglês: páginas equivalentes e rótulos do menu.
+  const PAIRS = {'index.html': 'en.html', 'about.html': 'about-en.html', 'como-usar.html': 'how-to-use.html', 'downloads.html': 'downloads-en.html'};
+  const TO_PT = Object.fromEntries(Object.entries(PAIRS).map(([a, b]) => [b, a]));
+  const EN = {'Corpus': 'Corpus', 'Ferramentas': 'Tools', 'Estatísticas': 'Statistics', 'Aprender': 'Learn', 'Sobre': 'About',
+    'Catálogo de textos': 'Text catalogue', 'Textos bíblicos': 'Biblical texts', 'Dicionário': 'Dictionary',
+    'Vocabulário temático': 'Thematic vocabulary', 'Busca e concordância': 'Search and concordance', 'Busca de palavras': 'Word search',
+    'Análise de formas': 'Form analysis', 'Morfemas': 'Morphemes', 'Índice morfológico': 'Morphological index',
+    'Relações linguísticas': 'Linguistic relations', 'Paradigmas revisados': 'Reviewed paradigms', 'Visualizador CoNLL-U': 'CoNLL-U viewer',
+    'Tokenizador': 'Tokenizer', 'Gerador': 'Generator', 'Estatísticas e n-grams': 'Statistics and n-grams',
+    'Cobertura da anotação': 'Annotation coverage', 'Palavras-chave': 'Keywords', 'Crescimento lexical': 'Lexical growth',
+    'Aprendizagem': 'Learning', 'Exercícios': 'Exercises', 'Como usar o site': 'How to use the site', 'Corpus da Língua Bororo': 'Bororo Language Corpus'};
   const page = (location.pathname.split('/').pop() || 'index.html');
-  const isCur = href => href.split('#')[0] === page;
+  const isEn = document.documentElement.lang.startsWith('en');
+  const L = t => isEn ? (EN[t] || t) : t;
+  const H = h => isEn ? (PAIRS[h.split('#')[0]] || h) : h;
+  const isCur = href => H(href).split('#')[0] === page;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
   function build() {
@@ -72,6 +88,12 @@
     const style = document.createElement('style');
     style.textContent = css + FONT_CSS;
     document.head.append(style);
+    if (!document.querySelector('script[data-cb-unit]')) {
+      const u = document.createElement('script');
+      u.src = 'unit-tools.js';
+      u.dataset.cbUnit = '1';
+      document.head.append(u);
+    }
     if (!document.querySelector('link[data-cb-font]')) {
       const f = document.createElement('link');
       f.rel = 'stylesheet';
@@ -84,15 +106,17 @@
     let nav = '';
     for (const item of MENU) {
       if (typeof item[1] === 'string') {
-        nav += `<a href="${item[0]}"${isCur(item[0]) ? ' class="cb-current" aria-current="page"' : ''}>${esc(item[1])}</a>`;
+        nav += `<a href="${H(item[0])}"${isCur(item[0]) ? ' class="cb-current" aria-current="page"' : ''}>${esc(L(item[1]))}</a>`;
       } else {
         const cur = item[1].some(([h]) => isCur(h));
-        nav += `<div class="cb-group"><button type="button" aria-expanded="false"${cur ? ' class="cb-current"' : ''}>${esc(item[0])}</button><div class="cb-menu">` +
-          item[1].map(([h, t]) => `<a href="${h}"${isCur(h) ? ' class="cb-current" aria-current="page"' : ''}>${esc(t)}</a>`).join('') + '</div></div>';
+        nav += `<div class="cb-group"><button type="button" aria-expanded="false"${cur ? ' class="cb-current"' : ''}>${esc(L(item[0]))}</button><div class="cb-menu">` +
+          item[1].map(([h, t]) => `<a href="${H(h)}"${isCur(h) ? ' class="cb-current" aria-current="page"' : ''}>${esc(L(t))}</a>`).join('') + '</div></div>';
       }
     }
-    header.innerHTML = `<div class="cb-bar"><a class="cb-brand" href="./"><b>CorBo</b><small>Corpus da Língua Bororo</small></a>` +
-      `<button class="cb-toggle" type="button" aria-label="Abrir menu">☰</button><nav class="cb-nav" aria-label="Navegação principal">${nav}</nav></div>`;
+    const other = isEn ? (TO_PT[page] || 'index.html') : (PAIRS[page] || 'en.html');
+    nav += `<a class="cb-lang" href="${other}" hreflang="${isEn ? 'pt-BR' : 'en'}" title="${isEn ? 'Versão em português' : 'English version'}">${isEn ? 'PT' : 'EN'}</a>`;
+    header.innerHTML = `<div class="cb-bar"><a class="cb-brand" href="${isEn ? 'en.html' : './'}"><b>CorBo</b><small>${L('Corpus da Língua Bororo')}</small></a>` +
+      `<button class="cb-toggle" type="button" aria-label="${isEn ? 'Open menu' : 'Abrir menu'}">☰</button><nav class="cb-nav" aria-label="${isEn ? 'Main navigation' : 'Navegação principal'}">${nav}</nav></div>`;
     const old = document.body.querySelector(':scope > header');
     if (old) old.replaceWith(header); else document.body.prepend(header);
 

@@ -1,0 +1,42 @@
+# Registro de mudanças
+
+Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/). As versões publicadas
+têm DOI próprio no Zenodo; cite sempre a versão consultada.
+
+## [Não publicado]
+
+### Corpus e anotação
+- Validação do CoNLL-U (`scripts/validate_conllu.py`) com relatório por linha e linha de base em CI.
+- 7.179 correções automáticas sem ambiguidade (`CorBo/validation/safe_fixes.tsv`); erros de 4.893 para 3.706.
+- Decisões de anotação de 21/11/2026: `Boe` (PROPN plural × NOUN singular), sufixo *-go* = `Voice=CauInc`,
+  `Aspect=IncProg`, `Number=Sgtv` (singulativo), `dukeje` (SCONJ/`mark` × ADV/`advmod`), citações com `ako`
+  (`ccomp` × `parataxis`); XPOS `conj` unificado em `cconj`.
+- Camadas derivadas gold (1.778 sentenças) e silver (7.264), lista de revisão e painel de cobertura.
+- Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
+
+### Tokenizador
+- Inventário v5: pré-tokenização, estado de revisão, suporte baixo, superfície × subjacente, suspeita de português.
+- Planilha estratificada de 400 formas para o gold de avaliação; `scripts/compare_segmenters.py`
+  (Morfessor, SentencePiece) pronto para quando o gold estiver anotado.
+- Pacote Python `corbo-tokenizer` (pasta `python/`) e exportação TSV/JSON/CoNLL-U na página do tokenizador.
+- Estado das análises indicado também por sublinhado (não só por cor).
+
+### Site
+- Painel lexical único (análise, segmentação, dicionário, exemplos, distribuição), com índice pré-calculado.
+- Cabeçalho comum a todas as páginas; versão em inglês (início, sobre, como usar, downloads).
+- Página de downloads; link permanente e "sugerir correção" em cada unidade dos leitores.
+- Fonte Gentium Book Plus para o texto Bororo; estatísticas com visão geral pré-calculada e composição por tipo de material.
+- Árvores UD exportáveis em SVG.
+- schema.org/Dataset, `sitemap.xml`, `robots.txt` e registro OLAC (`docs/olac.xml`).
+
+### Documentação
+- Guia de anotação, inventário de rótulos, mapa do tokenizador, ética e governança, proveniência das sentenças.
+
+## [0.9.0] — 2026-10-17 · DOI [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622)
+- Atualização do CoNLL-U a partir do arquivo de trabalho de 17/10/2026.
+- Reconstrução dos índices públicos, do modelo lexical do tokenizador e do índice gramatical (ver `docs/RELEASE_NOTES_v0.9.0.md`).
+
+## [0.8.0] — 2026-10-06 · DOI [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959)
+- Índice público ampliado para 10.268 unidades, 242.229 tokens e 17.026 formas.
+- Integração de Pemo–Coqueiro (261 unidades), Archive additions (226) e Archive parallel witnesses (305) após colação.
+- Visualização UD restrita às sentenças anotadas no CoNLL-U autoritativo.

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmlns="http://www.openarchives.org/OAI/2.0/static-repository"
+  xmlns:oai="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/static-repository http://www.language-archives.org/OAI/2.0/static-repository.xsd">
+ <Identify>
+  <oai:repositoryName>CorBo: Corpus da Língua Bororo</oai:repositoryName>
+  <oai:baseURL>http://www.language-archives.org/register/static/languagestructure.github.io/Bororo-Corpus/olac.xml</oai:baseURL>
+  <oai:protocolVersion>2.0</oai:protocolVersion>
+  <oai:adminEmail>A_PREENCHER@example.org</oai:adminEmail>
+  <oai:earliestDatestamp>2026-01-01</oai:earliestDatestamp>
+  <oai:deletedRecord>no</oai:deletedRecord>
+  <oai:granularity>YYYY-MM-DD</oai:granularity>
+  <oai:description>
+   <olac-archive xmlns="http://www.language-archives.org/OLAC/1.1/olac-archive" type="institutional"
+     currentAsOf="2026-11-21" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/olac-archive http://www.language-archives.org/OLAC/1.1/olac-archive.xsd">
+    <archiveURL>https://languagestructure.github.io/Bororo-Corpus/</archiveURL>
+    <participant name="Fabrício Ferraz Gerardi" role="Curator" email="A_PREENCHER@example.org"/>
+    <institution>Boe eno moto</institution>
+    <shortLocation>Mato Grosso, Brazil</shortLocation>
+    <synopsis>Documentary and annotated corpus of Bororo (bor).</synopsis>
+    <access>Open access under CC BY-NC-SA 4.0.</access>
+   </olac-archive>
+  </oai:description>
+ </Identify>
+ <ListMetadataFormats>
+  <oai:metadataFormat><oai:metadataPrefix>olac</oai:metadataPrefix>
+   <oai:schema>http://www.language-archives.org/OLAC/1.1/olac.xsd</oai:schema>
+   <oai:metadataNamespace>http://www.language-archives.org/OLAC/1.1/</oai:metadataNamespace></oai:metadataFormat>
+ </ListMetadataFormats>
+ <ListRecords metadataPrefix="olac">
+  <oai:record><oai:header><oai:identifier>oai:languagestructure.github.io:Bororo-Corpus</oai:identifier><oai:datestamp>2026-11-21</oai:datestamp></oai:header>
+   <oai:metadata>
+    <olac:olac xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+      xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ http://www.language-archives.org/OLAC/1.1/olac.xsd">
+     <dc:title>CorBo: Corpus da Língua Bororo</dc:title>
+     <dc:creator>Ferraz Gerardi, Fabrício</dc:creator>
+     <dc:subject xsi:type="olac:language" olac:code="bor"/>
+     <dc:language xsi:type="olac:language" olac:code="bor"/>
+     <dc:language xsi:type="olac:language" olac:code="por"/>
+     <dc:type xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+     <dc:type xsi:type="olac:linguistic-type" olac:code="language_description"/>
+     <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+     <dc:description>Documentary corpus of Bororo (Boe, ISO 639-3 bor), Mato Grosso, Brazil: oral narratives, archival and fieldwork texts, songs, biblical translations and dictionary materials, with Portuguese translations and CoNLL-U annotation following Universal Dependencies. 11,207 documentary units, 262,209 tokens.</dc:description>
+     <dc:identifier>https://doi.org/10.5281/zenodo.23441622</dc:identifier>
+     <dc:identifier>https://languagestructure.github.io/Bororo-Corpus/</dc:identifier>
+     <dcterms:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</dcterms:license>
+     <dcterms:spatial>Mato Grosso, Brazil</dcterms:spatial>
+    </olac:olac>
+   </oai:metadata></oai:record>
+ </ListRecords>
+</Repository>

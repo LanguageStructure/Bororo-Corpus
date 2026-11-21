@@ -35,6 +35,18 @@
   if (rest.length) collRows.push([`Outras (${rest.length})`, rest.reduce((n, x) => n + x[2], 0), `${fmt(rest.reduce((n, x) => n + x[1], 0))} unidades`]);
   const uposTotal = d.upos.reduce((n, x) => n + x[1], 0);
 
+  // Composição por tipo de material (grupo do índice documental), com a fatia bíblica explícita.
+  function groupCard() {
+    if (!Array.isArray(d.groups) || !d.groups.length) return '';
+    const BIB = ['Novo Testamento', 'Antigo Testamento', 'Textos bíblicos'];
+    const total = d.groups.reduce((n, g) => n + g[2], 0) || 1;
+    const bib = d.groups.filter(g => BIB.includes(g[0])).reduce((n, g) => n + g[2], 0);
+    return `<section class="ov-card" style="margin-top:16px"><h2>Composição por tipo de material</h2>` +
+      `<p class="muted">Textos bíblicos (traduções) somam ${(100 * bib / total).toFixed(1).replace('.', ',')}% dos tokens; ` +
+      `considere isso ao comparar frequências ou treinar modelos.</p>` +
+      bars(d.groups.map(([g, u, t]) => [g, t, `${fmt(u)} unidades · ${(100 * t / total).toFixed(1).replace('.', ',')}%`]), 'tokens') +
+      table(['Tipo de material', 'Unidades', 'Tokens'], d.groups) + '</section>';
+  }
   box.innerHTML =
     '<div class="ov-tiles">' + tiles.map(([l, v]) => `<div class="ov-tile"><div class="ov-num">${fmt(v)}</div><div class="ov-lab">${esc(l)}</div></div>`).join('') + '</div>' +
     '<div class="ov-grid">' +
@@ -44,5 +56,5 @@
         bars(d.upos.slice(0, 12).map(([u, n]) => [UPOS[u] || u, n, `${(100 * n / uposTotal).toFixed(1).replace('.', ',')}%`]), 'tokens') +
         table(['Classe (UPOS)', 'Tokens'], d.upos.map(([u, n]) => [`${UPOS[u] || u} (${u})`, n])) +
         '<p class="muted" style="margin-top:10px"><a href="coverage.html">Gold, silver e cobertura da anotação →</a></p></section>' +
-    '</div>' + `<p class="muted ov-note">Resumo pré-calculado em ${esc(d.generated)}.</p>`;
+    '</div>' + groupCard() + `<p class="muted ov-note">Resumo pré-calculado em ${esc(d.generated)}.</p>`;
 })();

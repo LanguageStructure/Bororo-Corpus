@@ -19,6 +19,9 @@ A arquitetura atual distingue explicitamente **fonte documental**, **revisão ed
 | [Ética e governança](docs/ETICA_E_GOVERNANCA.md) | comunidades, parcerias, consentimento, origem dos materiais |
 | [Validação](CorBo/validation/README.md) | relatórios de erros, logs de correção e decisões, proveniência das sentenças |
 | [Diretrizes editoriais](CorBo_vNext/schema/EDITORIAL_GUIDELINES.md) | camadas documentais, unidades, identificadores |
+| [Registro de mudanças](CHANGELOG.md) | o que mudou em cada versão |
+| [Downloads](https://languagestructure.github.io/Bororo-Corpus/downloads.html) · [English](https://languagestructure.github.io/Bororo-Corpus/en.html) | arquivos para download; versão do site em inglês |
+| [Pacote Python](python/README.md) | `corbo-tokenizer`: o tokenizador fora do navegador |
 
 ## Princípio documental
 
@@ -272,6 +275,7 @@ A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de
 - **Busca por morfema** passa a usar as segmentações `Morph=` do CoNLL-U (de 29 para 28.604 ocorrências).
 - **Tokenizador v5**: pré-tokenização, estado de revisão explícito, suporte baixo, superfície × subjacente e suspeita de português/empréstimo; planilha de 400 formas para o gold de avaliação.
 - **Documentação**: guia de anotação, inventário de rótulos, ética e governança, proveniência dos grupos de sentenças (`CorBo/validation/sent_id_groups.tsv`).
+- **Site**: painel lexical único, cabeçalho comum, versão em inglês, página de downloads, link permanente e "sugerir correção" por unidade, árvores UD exportáveis em SVG (e corrigidas: nenhuma árvore aparecia), estatísticas pré-calculadas, schema.org/sitemap/OLAC.
 - Pendências: valores raros de `Mood`, `Number=Col` e `Voice=CPass`; proveniência das sentenças de ID numérico e `dic_`.
 
 ## Novidades da versão 0.8.0

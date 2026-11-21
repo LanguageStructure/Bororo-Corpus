@@ -1,0 +1,128 @@
+{
+ "generated": "2026-11-21",
+ "license": "CC BY-NC-SA 4.0",
+ "doi": "10.5281/zenodo.23441622",
+ "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
+ "files": [
+  {
+   "group": "textos",
+   "name": "corbo-parallel.tsv",
+   "path": "docs/downloads/corbo-parallel.tsv",
+   "url": "downloads/corbo-parallel.tsv",
+   "format": "TSV (UTF-8)",
+   "bytes": 2852265,
+   "pt": "Todas as unidades documentais publicadas, com coleção, estado editorial, texto Bororo e tradução portuguesa quando existe.",
+   "en": "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
+   "counts_pt": "11.207 unidades · 2.247 com tradução",
+   "counts_en": "11,207 units · 2,247 with translation"
+  },
+  {
+   "group": "anotacao",
+   "name": "CorBo.conllu",
+   "path": "CorBo/Corpus_Files/CorBo.conllu",
+   "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/CorBo.conllu",
+   "format": "CoNLL-U",
+   "bytes": 7343232,
+   "pt": "Arquivo canônico de anotação (lemas, classes, traços, dependências), incluindo anotação automática marcada com Auto=.",
+   "en": "Canonical annotation file (lemmas, POS, features, dependencies), including automatic annotation marked with Auto=.",
+   "counts_pt": "11.922 sentenças · 79.272 tokens",
+   "counts_en": "11,922 sentences · 79,272 tokens"
+  },
+  {
+   "group": "anotacao",
+   "name": "CorBo.gold.conllu",
+   "path": "CorBo/Corpus_Files/splits/CorBo.gold.conllu",
+   "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/CorBo.gold.conllu",
+   "format": "CoNLL-U",
+   "bytes": 641578,
+   "pt": "Camada gold: só anotação manual, sintaxe completa, sem erros estruturais.",
+   "en": "Gold layer: manual annotation only, complete syntax, no structural errors.",
+   "counts_pt": "1.778 sentenças · 8.897 tokens",
+   "counts_en": "1,778 sentences · 8,897 tokens"
+  },
+  {
+   "group": "anotacao",
+   "name": "CorBo.silver.conllu",
+   "path": "CorBo/Corpus_Files/splits/CorBo.silver.conllu",
+   "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/CorBo.silver.conllu",
+   "format": "CoNLL-U",
+   "bytes": 4766900,
+   "pt": "Camada silver: estruturalmente válida, com anotação automática.",
+   "en": "Silver layer: structurally valid, includes automatic annotation.",
+   "counts_pt": "7.264 sentenças · 48.802 tokens",
+   "counts_en": "7,264 sentences · 48,802 tokens"
+  },
+  {
+   "group": "anotacao",
+   "name": "review_sentences.tsv",
+   "path": "CorBo/Corpus_Files/splits/review_sentences.tsv",
+   "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/review_sentences.tsv",
+   "format": "TSV",
+   "bytes": 176239,
+   "pt": "Sentenças que aguardam revisão, com o motivo.",
+   "en": "Sentences awaiting review, with the reason.",
+   "counts_pt": "",
+   "counts_en": ""
+  },
+  {
+   "group": "lexico",
+   "name": "dicionario-bororo-publico.json",
+   "path": "docs/data/dicionario-bororo-publico.json",
+   "url": "data/dicionario-bororo-publico.json",
+   "format": "JSON",
+   "bytes": 1083533,
+   "pt": "Entradas publicadas do Dicionário Bororo (forma, IPA, classe, definição, exemplo).",
+   "en": "Published Bororo Dictionary entries (form, IPA, class, definition, example).",
+   "counts_pt": "",
+   "counts_en": ""
+  },
+  {
+   "group": "lexico",
+   "name": "tokenizer-v5-site.json",
+   "path": "docs/data/tokenizer-v5-site.json",
+   "url": "data/tokenizer-v5-site.json",
+   "format": "JSON",
+   "bytes": 1369570,
+   "pt": "Inventário do tokenizador: segmentações confirmadas e propostas, estado de revisão, superfície e representação subjacente.",
+   "en": "Tokenizer inventory: confirmed and proposed segmentations, review status, surface and underlying representation.",
+   "counts_pt": "",
+   "counts_en": ""
+  },
+  {
+   "group": "lexico",
+   "name": "statistics-summary.json",
+   "path": "docs/data/statistics-summary.json",
+   "url": "data/statistics-summary.json",
+   "format": "JSON",
+   "bytes": 2642,
+   "pt": "Resumo estatístico: tokens por coleção, classes gramaticais, totais.",
+   "en": "Statistical summary: tokens per collection, parts of speech, totals.",
+   "counts_pt": "",
+   "counts_en": ""
+  },
+  {
+   "group": "documentacao",
+   "name": "ANNOTATION_GUIDE.md",
+   "path": "docs/ANNOTATION_GUIDE.md",
+   "url": "https://github.com/LanguageStructure/Bororo-Corpus/blob/main/docs/ANNOTATION_GUIDE.md",
+   "format": "Markdown",
+   "bytes": 8253,
+   "pt": "Guia de anotação do CoNLL-U.",
+   "en": "CoNLL-U annotation guide (Portuguese).",
+   "counts_pt": "",
+   "counts_en": ""
+  },
+  {
+   "group": "documentacao",
+   "name": "citation.bib",
+   "path": "docs/citation.bib",
+   "url": "citation.bib",
+   "format": "BibTeX",
+   "bytes": 387,
+   "pt": "Referência para citação.",
+   "en": "Citation reference.",
+   "counts_pt": "",
+   "counts_en": ""
+  }
+ ]
+}

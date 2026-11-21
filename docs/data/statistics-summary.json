@@ -180,6 +180,48 @@
    149
   ]
  ],
+ "groups": [
+  [
+   "Novo Testamento",
+   7874,
+   156125
+  ],
+  [
+   "Documentary texts",
+   1448,
+   59997
+  ],
+  [
+   "Antigo Testamento",
+   911,
+   18790
+  ],
+  [
+   "Archive parallel witnesses",
+   305,
+   12045
+  ],
+  [
+   "Archive additions",
+   226,
+   7790
+  ],
+  [
+   "Pemo–Coqueiro",
+   261,
+   3277
+  ],
+  [
+   "Etnobotânica",
+   134,
+   2645
+  ],
+  [
+   "Textos bíblicos",
+   48,
+   1481
+  ]
+ ],
  "conllu": {
   "sentences": 11904,
   "tokens": 79272,

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corbo-tokenizer"
+version = "0.5.0"
+description = "Tokenizador e segmentador morfológico do Bororo (CorBo), baseado no inventário v5 do corpus"
+readme = "README.md"
+license = {text = "CC-BY-NC-SA-4.0"}
+authors = [{name = "Fabrício Ferraz Gerardi"}]
+requires-python = ">=3.9"
+
+[project.scripts]
+corbo-tokenize = "corbo_tokenizer.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

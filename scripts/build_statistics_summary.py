@@ -22,6 +22,7 @@ WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)?")
 def main():
     units = json.loads((DATA / "corbo-units.json").read_text(encoding="utf-8"))
     coll = collections.defaultdict(lambda: [0, 0])
+    grp = collections.defaultdict(lambda: [0, 0])
     types, tokens = set(), 0
     for u in units:
         ws = [w.casefold() for w in WORD.findall(u.get("b") or "")]
@@ -30,6 +31,9 @@ def main():
         c = coll[u.get("collection") or "Sem coleção"]
         c[0] += 1
         c[1] += len(ws)
+        g = grp[u.get("group") or "Outros"]
+        g[0] += 1
+        g[1] += len(ws)
     upos = collections.Counter()
     for line in (ROOT / "CorBo/Corpus_Files/CorBo.conllu").read_text(encoding="utf-8").split("\n"):
         f = line.split("\t")
@@ -46,6 +50,7 @@ def main():
         "generated": date.today().isoformat(),
         "units": st.get("units", len(units)), "tokens": st.get("tokens", tokens), "types": st.get("types", len(types)),
         "collections": sorted(([k, v[0], v[1]] for k, v in coll.items()), key=lambda x: -x[2]),
+        "groups": sorted(([k, v[0], v[1]] for k, v in grp.items()), key=lambda x: -x[2]),
         "conllu": {k: cov.get(k) for k in ("sentences", "tokens", "gold_sentences", "silver_sentences",
                                            "review_sentences", "pending_tokenization", "pct_tokens_automatic")},
         "upos": upos.most_common(),
