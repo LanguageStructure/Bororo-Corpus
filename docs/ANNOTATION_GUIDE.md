@@ -70,7 +70,7 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | `x`, `onom` | X | `onom` = onomatopeia |
 | `punct` | PUNCT | |
 
-Casos abertos: `dukeje` aparece como ADV (100) e SCONJ (86) conforme o XPOS atribuído — **[DECIDIR]** se há duas funções ou uma só.
+`dukeje` tem duas funções (decidido em 21/11/2026): **SCONJ** com `DEPREL=mark` quando introduz oração subordinada; **ADV** com `DEPREL=advmod` nos demais casos. 317 tokens já seguem a regra; 67 combinações incoerentes (64 automáticas), como SCONJ+obl ou ADV+parataxis, estão listadas em `CorBo/validation/dukeje_review.tsv` para revisão.
 
 ## 4. DEPREL
 

@@ -11,29 +11,31 @@
 O Boe-Bororo (ISO 639-3 `bor`) é falado pelo povo Boe em Mato Grosso, Brasil. O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**.
 
 - Comunidades envolvidas: Aldeia Meruri (TI Meruri), Tadarimana e Córrego Grande.
-- Pessoas Boe envolvidas: Mariel Kujibo Ekureu e Fernando Kudoro. Papel de cada um no projeto (consultor, coautor, revisor, transcritor, tradutor): **[A PREENCHER]**
+- Parceiros Boe do projeto: Mariel Kujibo Ekureu e Fernando Kudoro (parceiros, não autores dos materiais).
 - Associações, lideranças ou escolas com que o projeto se relaciona: **[A PREENCHER]**
 - Como a comunidade é informada sobre o uso e a publicação dos dados: **[A PREENCHER]**
 
 ## 2. Origem dos materiais e base de publicação
 
+Os autores do Boe Ero (*Vida Bororo*) e de outros materiais do corpus são missionários salesianos que viveram em Meruri. A **Missão Salesiana é parceira do projeto**. Não há restrições de circulação para os materiais do corpus.
+
 A coluna "O que o repositório registra" foi preenchida a partir de `CorBo_vNext/metadata/collections.tsv`, `CorBo_vNext/source-manifest/` e do README; as demais colunas dependem do responsável pelo projeto.
 
 | Material | O que o repositório registra | Base para publicação | Restrições |
 |---|---|---|---|
-| Bakarudoge | coleção narrativa; Frederico Coqueiro; Meruri; ca. 1982–1984 | **[A PREENCHER]** | **[A PREENCHER]** |
-| Coqueiro | compilação Bororo–Português autobiográfica/histórica, 34 seções (`CorBo/Corpus_Files/biografia/`) | **[A PREENCHER]** | **[A PREENCHER]** |
-| Boe Ero – *Vida Bororo* | obra publicada; 8 textos, 276 registros paralelos | **[A PREENCHER: autorização dos titulares / uso acadêmico]** | **[A PREENCHER]** |
-| História Mítica, Adugo Biri, Marigudu, Kleber–Tiago | textos narrativos e de discurso, com testemunhos paralelos | **[A PREENCHER]** | **[A PREENCHER]** |
-| Materiais de arquivo (Pemo–Coqueiro, Archive additions, Archive parallel witnesses) | 18 arquivos TXT de um arquivo Bororo local, triados em `archive_source_triage.tsv` | **[A PREENCHER: acervo de origem, autorização ou domínio público]** | **[A PREENCHER]** |
-| Textos bíblicos e Bakaru Maiwu (NT) | arquivos `*_2-orthophon.txt` em `CorBo/Corpus_Files/bíblia/` | **[A PREENCHER: titular dos direitos e autorização]** | **[A PREENCHER]** |
-| Cantos rituais: Roia Kurirewu, Ekeroia, Oieigo | Ekeroia: 627 cantos preparados, **publicação retida** até revisão humana | **[A PREENCHER]** | **[A PREENCHER: há cantos de circulação restrita?]** |
+| Bakarudoge | coleção narrativa; Frederico Coqueiro; Meruri; ca. 1982–1984 | **[A PREENCHER]** | nenhuma |
+| Coqueiro | compilação Bororo–Português autobiográfica/histórica, 34 seções (`CorBo/Corpus_Files/biografia/`) | **[A PREENCHER]** | nenhuma |
+| Boe Ero – *Vida Bororo* | obra publicada de autoria de missionários salesianos que viveram em Meruri; 8 textos, 276 registros paralelos | parceria com a Missão Salesiana | nenhuma |
+| História Mítica, Adugo Biri, Marigudu, Kleber–Tiago | textos narrativos e de discurso, com testemunhos paralelos | **[A PREENCHER]** | nenhuma |
+| Materiais de arquivo (Pemo–Coqueiro, Archive additions, Archive parallel witnesses) | 18 arquivos TXT de um arquivo Bororo local, triados em `archive_source_triage.tsv` | **[A PREENCHER: acervo de origem, autorização ou domínio público]** | nenhuma |
+| Textos bíblicos e Bakaru Maiwu (NT) | arquivos `*_2-orthophon.txt` em `CorBo/Corpus_Files/bíblia/` | **[A PREENCHER: titular dos direitos e autorização]** | nenhuma |
+| Cantos rituais: Roia Kurirewu, Ekeroia, Oieigo | Ekeroia: 627 cantos preparados, **publicação retida** até revisão humana | **[A PREENCHER]** | nenhuma |
 | Etnobotânica e fauna | vocabulário temático só publica entradas expressamente autorizadas, com planilha fora do repositório (`docs/VOCABULARIO_TEMATICO.md`) | **[A PREENCHER]** | conforme autorização por entrada |
-| Sentenças anotadas sem coleção identificada (10.554 com ID numérico, 971 `dic_`, 52 `Jussila`) | origem não registrada no repositório (ver `CorBo/validation/sent_id_groups.tsv`) | **[A PREENCHER]** | **[A PREENCHER]** |
+| Sentenças anotadas sem coleção identificada (10.554 com ID numérico, 971 `dic_`, 52 `Jussila`) | origem não registrada no repositório (ver `CorBo/validation/sent_id_groups.tsv`) | **[A PREENCHER]** | nenhuma |
 
 ## 3. Consentimento
 
-- Procedimento de consentimento usado no trabalho de campo: **[A PREENCHER: oral/escrito, idioma, quem registrou, onde está arquivado]**
+- Procedimento de consentimento usado no trabalho de campo: consentimento **oral**. Está prevista a obtenção de consentimento por escrito. **[A PREENCHER: idioma, quem registrou e onde o registro fica arquivado]**
 - Aprovação ética institucional, se houver (comitê, número do parecer, instituição): **[A PREENCHER ou "não se aplica", com justificativa]**
 - Autorizações de órgãos competentes, se aplicável: **[A PREENCHER]**
 - Identificação de falantes: **[A PREENCHER: nomes publicados com autorização / pseudônimos / anonimização]**
@@ -55,12 +57,13 @@ Práticas já adotadas no repositório:
 
 ## 5. Licença e usos
 
-Dados e conteúdos sob **CC BY-NC-SA 4.0**, salvo indicação específica. **[A PREENCHER: a comunidade foi consultada sobre a licença? Há itens com licença diferente ou acesso restrito? Usos que o projeto pede que não sejam feitos, p. ex. treinamento de modelos comerciais, uso de cantos fora de contexto.]**
+Dados e conteúdos sob **CC BY-NC-SA 4.0**, salvo indicação específica. Não há itens de acesso restrito. **[A PREENCHER: a comunidade foi consultada sobre a licença? Há usos que o projeto pede que não sejam feitos?]**
 
 ## 6. Créditos
 
-- Mariel Kujibo Ekureu — **[A PREENCHER: papel e forma de crédito autorizada]**
-- Fernando Kudoro — **[A PREENCHER: papel e forma de crédito autorizada]**
+- Mariel Kujibo Ekureu — parceiro do projeto
+- Fernando Kudoro — parceiro do projeto
+- Missão Salesiana — parceira do projeto; missionários salesianos que viveram em Meruri são autores do Boe Ero (*Vida Bororo*) e de outros materiais
 - Outros falantes, consultores, transcritores e tradutores: **[A PREENCHER]**
 
 ## 7. Contato
