@@ -60,7 +60,7 @@
 6	bari	bari	NOUN	n	_	5	obl	_	_
 7	ce	ce	ADP	posp	_	6	case	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
-9	boere	boe	NOUN	n	Number=Plur	10	nsubj	_	Auto=deprel
+9	boere	boe	PROPN	propn	Number=Plur	10	nsubj	_	Auto=deprel
 10	tonaregedu	onarege	NOUN	n	Person=3|Reflex=Yes	11	obj	_	Auto=deprel
 11	pagududo	pagudu	VERB	vt	Number=Sing|Person=3|Voice=Cau	5	parataxis	_	_
 12	bari	bari	NOUN	n	_	11	obl	_	_
@@ -176,7 +176,7 @@
 3	bare	ba	ADV	adv	_	8	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
 5	icare	icare	ADV	adv	_	8	advmod	_	Auto=deprel+head
-6	boere	boe	NOUN	n	Number=Plur	7	nmod	_	Auto=deprel+head
+6	boere	boe	PROPN	propn	Number=Plur	7	nmod	_	Auto=deprel+head
 7	o	o	NOUN	n	_	8	nsubj	_	Auto=lemma+upos+xpos+deprel+head
 8	bado	ba	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
@@ -538,7 +538,7 @@
 35	pegare	pega	NOUN	n	Mood=Ind	29	conj	_	_
 36	,	,	PUNCT	punct	_	35	punct	_	Auto=head
 37	oinore	oino	ADV	adv	Mood=Ind	29	advmod	_	Morph=oino=re|Auto=lemma+upos+xpos+feats+morph+deprel+head
-38	boere	boe	NOUN	n	Number=Plur	12	parataxis	_	Auto=deprel+head
+38	boere	boe	PROPN	propn	Number=Plur	12	parataxis	_	Auto=deprel+head
 39	,	,	PUNCT	punct	_	38	punct	_	Auto=head
 40	ica	ica	ADV	adv	_	38	advmod	_	Auto=lemma+upos+xpos+deprel+head
 41	.	.	PUNCT	punct	_	38	punct	_	Auto=head
@@ -646,7 +646,7 @@
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
 6	rere	re	ADV	adv	Mood=Ind	11	advmod	_	_
 7	;	;	PUNCT	punct	_	6	punct	_	Auto=lemma+upos+xpos+deprel+head
-8	boere	boe	NOUN	n	Number=Plur	11	nsubj	_	Auto=deprel+head
+8	boere	boe	PROPN	propn	Number=Plur	11	nsubj	_	Auto=deprel+head
 9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
 10	ucere	uce	PRON	bi	Mood=Ind|Number=Sing|Person=3	11	nsubj	_	AutoLowConf=Yes
 11	pagududo	pagudu	VERB	vt	Clusivity=In|Number=Plur|Person=1|Voice=Cau	4	parataxis	_	_
@@ -885,7 +885,7 @@
 3	Boere	Boe	PROPN	propn	Mood=Ind	7	nsubj	_	Auto=head
 4	makai	makai	ADP	posp	Number=Sing|Person=3	3	obl	_	AutoLowConf=Yes
 5	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-6	boere	boe	NOUN	n	Number=Plur	7	obj	_	Auto=deprel+head
+6	boere	boe	PROPN	propn	Number=Plur	7	obj	_	Auto=deprel+head
 7	okogedo	okogedo	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 8	.	.	PUNCT	punct	_	7	punct	_	Auto=head
 
@@ -899,10 +899,10 @@
 # auto_tokens = 15/15
 1	Ica	ica	ADV	adv	_	4	advmod	_	Auto=head
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-3	boere	boe	NOUN	n	Number=Plur	4	nsubj	_	Auto=deprel+head
+3	boere	boe	PROPN	propn	Number=Plur	4	nsubj	_	Auto=deprel+head
 4	omeado	omea	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-6	boere	boe	NOUN	n	Number=Plur	9	nsubj	_	Auto=deprel+head
+6	boere	boe	PROPN	propn	Number=Plur	9	nsubj	_	Auto=deprel+head
 7	,	,	PUNCT	punct	_	6	punct	_	Auto=head
 8	ucere	uce	PRON	bi	Mood=Ind|Number=Sing|Person=3	9	nsubj	_	AutoLowConf=Yes
 9	omeado	omea	VERB	v	Number=Sing|Person=3|Voice=Cau	4	parataxis	_	AutoLowConf=Yes
@@ -1115,7 +1115,7 @@
 4	amago	amago	NOUN	n	Person=2	5	nsubj	_	AutoLowConf=Yes
 5	jetorodo	jetoro	VERB	v	Voice=Cau	2	parataxis	_	AutoLowConf=Yes
 6	,	,	PUNCT	punct	_	5	punct	_	Auto=head
-7	boe	boe	NOUN	n	Number=Plur	8	nsubj	_	_
+7	boe	boe	PROPN	propn	Number=Plur	8	nsubj	_	_
 8	emearutoruwo	emmearudu	VERB	v	Mood=Sub|Number=Plur|Person=3	2	parataxis	_	AutoLowConf=Yes
 9	ai	ji	ADP	posp	Number=Sing|Person=2	8	obl	_	Auto=deprel+head
 10	,	,	PUNCT	punct	_	8	punct	_	Auto=head
@@ -1123,7 +1123,7 @@
 12	ataiduwo	ataidu	VERB	v	Mood=Sub|Number=Sing|Person=3	2	parataxis	_	AutoLowConf=Yes
 13	ai	ji	ADP	posp	Number=Sing|Person=2	12	obl	_	Auto=deprel+head
 14	,	,	PUNCT	punct	_	12	punct	_	Auto=head
-15	boe	boe	NOUN	n	Number=Plur	16	nsubj	_	_
+15	boe	boe	PROPN	propn	Number=Plur	16	nsubj	_	_
 16	emoduduwo	ekudu	VERB	v	Mood=Sub|Number=Plur|Person=3	12	parataxis	_	AutoLowConf=Yes
 17	ai	ji	ADP	posp	Number=Sing|Person=2	16	obl	_	Auto=deprel+head
 18	.	.	PUNCT	punct	_	16	punct	_	Auto=head
@@ -1162,7 +1162,7 @@
 3	kagirimode	kagiri	NOUN	n	Mood=Ind|Status=Irr	0	root	_	AutoLowConf=Yes
 4	ai	ji	ADP	posp	Number=Sing|Person=2	3	obl	_	Auto=deprel+head
 5	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-6	boe	boe	NOUN	n	Number=Plur	7	nsubj	_	_
+6	boe	boe	PROPN	propn	Number=Plur	7	nsubj	_	_
 7	epegamode	epega	VERB	v	Mood=Ind|Number=Plur|Person=3|Status=Irr	3	parataxis	_	AutoLowConf=Yes
 8	ai	ji	ADP	posp	Number=Sing|Person=2	7	obl	_	Auto=deprel+head
 9	.	.	PUNCT	punct	_	7	punct	_	Auto=head
@@ -1184,7 +1184,7 @@
 9	pemegamode	pemega	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	3	parataxis	_	_
 10	dukeje	dukeje	SCONJ	sconj	_	9	mark	_	Auto=upos+xpos+deprel+head
 11	,	,	PUNCT	punct	_	9	punct	_	Auto=head
-12	boe	boe	NOUN	n	Number=Plur	13	nsubj	_	_
+12	boe	boe	PROPN	propn	Number=Plur	13	nsubj	_	_
 13	epemegamode	epemega	VERB	v	Mood=Ind|Number=Plur|Person=3|Status=Irr	3	parataxis	_	AutoLowConf=Yes
 14	ai	ji	ADP	posp	Number=Sing|Person=2	13	obl	_	Auto=deprel+head
 15	.	.	PUNCT	punct	_	13	punct	_	Auto=head
@@ -1261,12 +1261,12 @@
 3	oino	oino	ADV	adv	_	2	advmod	_	Auto=head
 4	ai	ji	ADP	posp	Number=Sing|Person=2	2	obl	_	Auto=deprel+head
 5	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-6	boe	boe	NOUN	n	Number=Plur	7	nsubj	_	_
+6	boe	boe	PROPN	propn	Number=Plur	7	nsubj	_	_
 7	etaiduwo	aidu	VERB	v	Mood=Sub|Number=Plur|Person=3	2	parataxis	_	AutoLowConf=Yes
 8	ai	ji	ADP	posp	Number=Sing|Person=2	7	obl	_	Auto=deprel+head
 9	rugadu	rugadu	ADV	adv	_	7	advmod	_	Auto=head
 10	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-11	boe	boe	NOUN	n	Number=Plur	12	nsubj	_	_
+11	boe	boe	PROPN	propn	Number=Plur	12	nsubj	_	_
 12	emearutoruwo	emmearudu	VERB	v	Mood=Sub|Number=Plur|Person=3	7	parataxis	_	AutoLowConf=Yes
 13	ai	ji	ADP	posp	Number=Sing|Person=2	12	obl	_	Auto=deprel+head
 14	rugadu	rugadu	ADV	adv	_	12	advmod	_	Auto=head
@@ -1965,11 +1965,11 @@
 31	meiaoborireuji	meiaobor	NOUN	n	_	28	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 32	,	,	PUNCT	punct	_	31	punct	_	Auto=head
 33	mare	mare	CCONJ	cconj	_	35	cc	_	Auto=lemma+upos+xpos+deprel+head
-34	boere	boe	NOUN	n	Number=Plur	35	nsubj	_	Auto=deprel+head
+34	boere	boe	PROPN	propn	Number=Plur	35	nsubj	_	Auto=deprel+head
 35	tawuje	tawuje	VERB	vt	Number=Sing|Person=3	28	conj	_	Auto=deprel+head
 36	rugadu	rugadu	ADV	adv	_	35	advmod	_	Auto=head
 37	,	,	PUNCT	punct	_	35	punct	_	Auto=head
-38	boere	boe	NOUN	n	Number=Plur	39	nsubj	_	Auto=deprel+head
+38	boere	boe	PROPN	propn	Number=Plur	39	nsubj	_	Auto=deprel+head
 39	arego	arego	VERB	v	Mood=Imp|Number=Sing|Person=3	28	parataxis	_	_
 40	rugadu	rugadu	ADV	adv	_	39	advmod	_	Auto=head
 41	.	.	PUNCT	punct	_	39	punct	_	Auto=head
@@ -2156,7 +2156,7 @@
 1	Uh	uh	INTJ	intj	_	5	discourse	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 2	!	!	PUNCT	punct	_	1	punct	_	Auto=lemma+upos+xpos+deprel+head
 3	Oinore	oino	ADV	adv	Mood=Ind	5	advmod	_	Morph=oino=re|Auto=feats+head
-4	boe	boe	NOUN	n	Number=Plur	5	nsubj	_	_
+4	boe	boe	PROPN	propn	Number=Plur	5	nsubj	_	_
 5	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 7	Aredurogu	are	NOUN	n	Degree=Dim	9	obl	_	_
@@ -2294,7 +2294,7 @@
 5	rogu	rogu	X	x	_	3	flat	_	Auto=lemma+upos+xpos+deprel+head
 6	boe	boe	NOUN	n	_	5	flat	_	Auto=lemma+upos+xpos+deprel+head
 7	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-8	boere	boe	NOUN	n	Number=Plur	9	nsubj	_	Auto=head
+8	boere	boe	PROPN	propn	Number=Plur	9	nsubj	_	Auto=head
 9	maku	maku	VERB	v	Number=Sing|Person=3	2	ccomp	_	Morph=0-maku|Auto=deprel+head
 10	toro	toro	ADV	adv	_	9	advmod	_	Auto=head
 11	baito	baito	NOUN	n	_	9	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -2328,7 +2328,7 @@
 10	boe	boe	NOUN	n	Number=Sing	8	obl	_	_
 11	eedaji	rekodaji	ADP	posp	Number=Plur|Person=3	10	case	_	AutoLowConf=Yes
 12	,	,	PUNCT	punct	_	8	punct	_	Auto=head
-13	boe	boe	NOUN	n	Number=Plur	8	conj	_	_
+13	boe	boe	PROPN	propn	Number=Plur	8	conj	_	_
 14	emugaji	emugaji	ADP	posp	Number=Plur|Person=3	13	case	_	AutoLowConf=Yes
 15	,	,	PUNCT	punct	_	13	punct	_	Auto=head
 16	boe	boe	NOUN	n	Number=Sing	17	nmod	_	_
@@ -3228,7 +3228,7 @@
 5	jorududo	jorudu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	Auto=deprel+head|AutoLowConf=Yes
 6	aijeji	aijeji	ADP	posp	Number=Sing|Person=2	5	obl	_	AutoLowConf=Yes
 7	,	,	PUNCT	punct	_	5	punct	_	Auto=head
-8	boere	boe	NOUN	n	Number=Plur	9	nmod	_	Auto=deprel+head
+8	boere	boe	PROPN	propn	Number=Plur	9	nmod	_	Auto=deprel+head
 9	o	o	NOUN	n	_	10	nsubj	_	Auto=lemma+upos+xpos+deprel+head
 10	baado	baado	VERB	v	Number=Sing|Person=3|Voice=Cau	5	parataxis	_	_
 11	.	.	PUNCT	punct	_	10	punct	_	Auto=head
@@ -3378,7 +3378,7 @@
 7	amanamage	amana	NOUN	n	Number=Plur|Person=2	3	obl	_	AutoLowConf=Yes
 8	enogwaji	rekodaji	ADP	posp	Number=Plur|Person=3	7	case	_	AutoLowConf=Yes
 9	;	;	PUNCT	punct	_	3	punct	_	Auto=lemma+upos+xpos+deprel+head
-10	boe	boe	NOUN	n	Number=Plur	11	dep	_	_
+10	boe	boe	PROPN	propn	Number=Plur	11	dep	_	_
 11	jokodu	jokodu	NOUN	n	_	13	obl	_	Auto=lemma+upos+xpos+deprel+head
 12	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	11	case	_	_
 13	egoino	egoino	VERB	v	Number=Plur|Person=3	3	parataxis	_	AutoLowConf=Yes
@@ -3426,22 +3426,22 @@
 3	pu	pu	NOUN	n	_	4	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	reore	reo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-6	boe	boe	NOUN	n	Number=Plur	7	dep	_	_
+6	boe	boe	PROPN	propn	Number=Plur	7	dep	_	_
 7	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	8	nsubj	_	_
 8	turugadu	rugadu	VERB	v	Person=3|Reflex=Yes	4	parataxis	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
 10	Pemegare	pemega	NOUN	n	Mood=Ind	11	nmod	_	_
-11	boere	boe	NOUN	n	Number=Plur	14	nmod	_	Auto=deprel+head
+11	boere	boe	PROPN	propn	Number=Plur	14	nmod	_	Auto=deprel+head
 12	,	,	PUNCT	punct	_	11	punct	_	Auto=head
 13	pegare	pega	NOUN	n	Mood=Ind	11	conj	_	_
-14	boere	boe	NOUN	n	Number=Plur	21	nsubj	_	Auto=deprel+head
+14	boere	boe	PROPN	propn	Number=Plur	21	nsubj	_	Auto=deprel+head
 15	.	.	PUNCT	punct	_	14	punct	_	Auto=head
 16	Mearutorureu	mearutorureu	PROPN	propn	_	14	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
-17	boere	boe	NOUN	n	Number=Plur	16	flat	_	Auto=deprel+head
+17	boere	boe	PROPN	propn	Number=Plur	16	flat	_	Auto=deprel+head
 18	,	,	PUNCT	punct	_	16	punct	_	Auto=head
 19	mearutoru	mearutoru	NOUN	n	_	20	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 20	bokwarewu	bokwa	NOUN	n	Mood=Ind|Nomzr=Rel	21	nmod	_	AutoLowConf=Yes
-21	boere	boe	NOUN	n	Number=Plur	4	parataxis	_	Auto=deprel+head
+21	boere	boe	PROPN	propn	Number=Plur	4	parataxis	_	Auto=deprel+head
 22	.	.	PUNCT	punct	_	21	punct	_	Auto=head
 
 # sent_id = boe_ero_07_22
@@ -3863,7 +3863,7 @@
 # auto_tokens = 18/18
 1	Iwimode	iwi	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	AutoLowConf=Yes
 2	toro	toro	ADV	adv	_	1	advmod	_	Auto=head
-3	mare	mare	CCONJ	conj	_	5	cc	_	Auto=lemma+upos+xpos+deprel+head
+3	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=lemma+upos+xpos+deprel+head
 4	itonaregedu	onarege	NOUN	n	Number=Sgtv	5	nsubj	_	AutoLowConf=Yes
 5	akurumode	akuru	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	1	conj	_	AutoLowConf=Yes
 6	imugato	imugato	NOUN	n	Number=Sing|Person=1	5	obl	_	AutoLowConf=Yes
@@ -3877,7 +3877,7 @@
 14	pugeje	pugeje	ADV	adv	_	13	advmod	_	Auto=head
 15	.	.	PUNCT	punct	_	13	punct	_	Auto=head
 16	Ainore	aino	ADV	adv	_	5	advmod	_	Auto=lemma+upos+xpos+deprel+head
-17	boere	boe	NOUN	n	Number=Plur	5	obl	_	Auto=deprel+head
+17	boere	boe	PROPN	propn	Number=Plur	5	obl	_	Auto=deprel+head
 18	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
 # sent_id = boe_ero_07_42
@@ -3993,7 +3993,7 @@
 12	okwado	okwa	VERB	v	Number=Sing|Person=3|Voice=Cau	5	parataxis	_	AutoLowConf=Yes
 13	,	,	PUNCT	punct	_	12	punct	_	Auto=head
 14	awu	awu	DET	dem	Deixis=Prox	15	det	_	_
-15	boe	boe	NOUN	n	Number=Plur	16	nmod	_	_
+15	boe	boe	PROPN	propn	Number=Plur	16	nmod	_	_
 16	ero	ro	NOUN	n	Number=Plur|Person=3	17	nsubj	_	_
 17	okwado	okwa	VERB	v	Number=Sing|Person=3|Voice=Cau	5	parataxis	_	AutoLowConf=Yes
 18	.	.	PUNCT	punct	_	17	punct	_	Auto=head
@@ -4324,7 +4324,7 @@
 # auto_tokens = 4/4
 1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	_
-3	boe	boe	NOUN	n	Number=Plur	4	nsubj	_	_
+3	boe	boe	PROPN	propn	Number=Plur	4	nsubj	_	_
 4	egomode	ego	VERB	v	Mood=Ind|Number=Plur|Person=3|Status=Irr	0	root	_	AutoLowConf=Yes
 
 # sent_id = boe_ero_07_66
@@ -4374,7 +4374,7 @@
 1	Kodire	kodi	ADV	adv	Mood=Ind	7	advmod	_	Auto=head
 2	ikare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	4	nsubj	_	_
 3	awu	awu	DET	dem	Deixis=Prox	4	det	_	_
-4	boe	boe	NOUN	n	Number=Plur	7	nsubj	_	_
+4	boe	boe	PROPN	propn	Number=Plur	7	nsubj	_	_
 5	erudu	erudu	NOUN	n	Number=Plur|Person=3	4	flat	_	AutoLowConf=Yes
 6	,	,	PUNCT	punct	_	4	punct	_	Auto=head
 7	erududo	jorudu	VERB	v	Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
@@ -4666,7 +4666,7 @@
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
 3	aduruwo	aduru	VERB	v	Mood=Sub|Number=Sing|Person=3	1	parataxis	_	AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	boere	boe	NOUN	n	Number=Plur	6	nmod	_	Auto=deprel+head
+5	boere	boe	PROPN	propn	Number=Plur	6	nmod	_	Auto=deprel+head
 6	aki	aki	PRON	pron	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 7	kodi	kodi	SCONJ	sconj	_	1	parataxis	_	Auto=lemma+upos+xpos+deprel+head
 8	.	.	PUNCT	punct	_	7	punct	_	Auto=head
@@ -4702,7 +4702,7 @@
 2	enoe	enoe	NOUN	n	Number=Plur|Person=3	3	nsubj	_	AutoLowConf=Yes
 3	bitodure	bito	VERB	v	Mood=Ind|Number=Sing|Person=3|Voice=Pass	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	boe	boe	NOUN	n	Number=Plur	6	nmod	_	_
+5	boe	boe	PROPN	propn	Number=Plur	6	nmod	_	_
 6	enoe	enoe	NOUN	n	Number=Plur|Person=3	7	nsubj	_	AutoLowConf=Yes
 7	bitodure	bito	VERB	v	Mood=Ind|Number=Sing|Person=3	3	parataxis	_	_
 8	jamedu	jamedu	ADV	adv	_	7	advmod	_	Auto=lemma+upos+xpos+deprel+head
@@ -4778,7 +4778,7 @@
 # auto_tokens = 9/9
 1	Akado	ado	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	_
-3	boe	boe	NOUN	n	Number=Plur	4	nsubj	_	_
+3	boe	boe	PROPN	propn	Number=Plur	4	nsubj	_	_
 4	ero	ro	VERB	v	Number=Plur|Person=3	1	ccomp	_	_
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
 6	arodo	ro	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head
@@ -6862,7 +6862,7 @@
 2	bokware	bokwa	AUX	aux	Polarity=Neg	1	nsubj	_	_
 3	jamedu	jamedu	ADV	adv	_	1	advmod	_	Auto=head
 4	,	,	PUNCT	punct	_	1	punct	_	_
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	aragoje	aragoje	VERB	v	Mood=Ind|Number=Sing|Person=3	1	nsubj	_	Auto=lemma+upos+xpos|AutoLowConf=Yes
 7	paga	paga	ADV	adv	_	6	nsubj	_	Auto=lemma+upos+xpos
 8	rugadu	rugadu	ADV	adv	_	6	advmod	_	Auto=head
@@ -7086,7 +7086,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats
 # auto_tokens = 3/5
-1	Mare	mare	CCONJ	conj	_	0	root	_	Auto=lemma+upos+xpos
+1	Mare	mare	CCONJ	cconj	_	0	root	_	Auto=lemma+upos+xpos
 2	iegare	iegare	NOUN	n	_	1	flat	_	Auto=lemma+upos+xpos
 3	jokodukare	jokodu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	1	appos	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	obl	_	Morph=0-ji
@@ -7433,7 +7433,7 @@
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
 2	woere	woe	ADV	adv	Mood=Ind	1	advmod	_	Auto=feats+head
 3	icare	icare	ADV	adv	_	1	advmod	_	Auto=head
-4	boere	boe	NOUN	n	Mood=Ind|Number=Plur	1	obl	_	Auto=deprel+head
+4	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	1	obl	_	Auto=deprel+head
 5	tuginoi	tuginoi	ADP	posp	Person=3	4	case	_	AutoLowConf=Yes
 6	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
@@ -7502,7 +7502,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 12/13
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
-2	mare	mare	CCONJ	conj	_	3	cc	_	Auto=deprel+head
+2	mare	mare	CCONJ	cconj	_	3	cc	_	Auto=deprel+head
 3	akaidumodukare	aidu	VERB	v	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	1	ccomp	_	Auto=upos+xpos+feats+deprel+head|AutoLowConf=Yes
 4	jitu	jitu	ADP	posp	Number=Sing	3	obl	_	Auto=feats+deprel+head|AutoLowConf=Yes
 5	keje	keje	ADP	posp	Number=Sing|Person=3	3	obl	_	Morph=0-keje|Auto=deprel+head
@@ -8002,7 +8002,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 3/3
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 3	!	!	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -8317,7 +8317,7 @@
 1	betu	betu	NOUN	n	Number=Sing	0	root	_	AutoLowConf=Yes
 2	bokware	bokwa	AUX	aux	Polarity=Neg	1	aux	_	Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 5	nowure	nowu	NOUN	n	_	6	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	pemegare	pemega	NOUN	n	Mood=Ind	1	conj	_	_
 7	ii	ji	ADP	posp	Number=Sing|Person=1	6	obl	_	Morph=i=ji|Auto=deprel+head
@@ -8651,7 +8651,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 3/3
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -8929,7 +8929,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 11/11
 1	Cewu	cewu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
 3	oino	oino	ADV	adv	_	2	advmod	_	Auto=head
 4	,	,	PUNCT	punct	_	2	punct	_	Auto=head
 5	oino	oino	ADV	adv	_	2	advmod	_	Auto=head
@@ -9509,7 +9509,7 @@
 # orig_ids = 1 3 4 5
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	Inoba	inoba	PRON	pron	PronType=Int	3	nsubj	_	Auto=deprel+head
-3	boere	boe	NOUN	n	Mood=Ind|Number=Plur	1	ccomp	_	Auto=deprel+head
+3	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	1	ccomp	_	Auto=deprel+head
 4	?	?	PUNCT	punct	_	1	punct	_	Auto=head
 
 # sent_id = 151-8
@@ -10464,7 +10464,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 3/3
 1	Oinore	oino	ADV	adv	Mood=Ind	2	advmod	_	Morph=oino=re|Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 164-6
@@ -11583,7 +11583,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	Auto=deprel+head
 3	merimaodoge	merimao	NOUN	n	Number=Plur	4	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	eedukare	eedu	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
@@ -11667,7 +11667,7 @@
 1	Ipera	ipera	NOUN	n	Number=Sing	2	nsubj	_	AutoLowConf=Yes
 2	kedore	kedo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	ipogurukare	ipo	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	parataxis	_	AutoLowConf=Yes
 6	:	:	PUNCT	punct	_	5	punct	_	Auto=lemma+upos+xpos+deprel+head
 7	ikidagodure	kiari	VERB	v	Mood=Ind	2	parataxis	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -11683,7 +11683,7 @@
 1	Etaiwore	etaiwo	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
 2	ii	ji	ADP	posp	Number=Sing|Person=1	1	obl	_	Morph=i=ji|Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	ipogurukare	ipo	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	1	parataxis	_	AutoLowConf=Yes
 6	;	;	PUNCT	punct	_	5	punct	_	Auto=lemma+upos+xpos+deprel+head
 
@@ -11710,7 +11710,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ino	o	NOUN	n	Number=Sing|Person=1	3	nsubj	_	Auto=deprel+head
 3	bare	ba	NOUN	n	Number=Sing	0	root	_	AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -11738,7 +11738,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	emearudukare	emea	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
 4	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Auto=deprel+head
@@ -13783,7 +13783,7 @@
 # auto_tokens = 7/7
 1	Dukeje	dukeje	ADV	adv	_	5	advmod	_	Auto=head
 2	Icare	icare	ADV	adv	_	5	advmod	_	Auto=head
-3	Boere	Boe	NOUN	n	Number=Plur	5	nsubj	_	Auto=deprel+head
+3	Boere	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 4	aroe	aroe	NOUN	n	Number=Plur	5	obj	_	Auto=deprel+head
 5	emerudo	meru	VERB	v	Number=Plur|Person=3|Voice=Cau	0	root	_	_
 6	pugeje	pugeje	ADV	adv	_	5	advmod	_	Auto=head
@@ -14417,7 +14417,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/7
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ipaga	ipaga	NOUN	n	Number=Sing	3	nsubj	_	AutoLowConf=Yes
 3	rumode	ru	VERB	v	Mood=Ind|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	tawogai	bogai	ADP	posp	Number=Plur|Person=2	3	obl	_	Auto=deprel+head
@@ -14910,7 +14910,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 4/4
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
 3	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -16386,13 +16386,13 @@
 2	meri	meri	NOUN	n	_	3	nsubj	_	Auto=deprel+head
 3	ruture	rutu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	Boe	Boe	PROPN	propn	Number=Plur	7	dep	_	Auto=deprel+head
 7	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	9	nsubj	_	Auto=head
 8	togwa	okwa	NOUN	n	Person=3|Reflex=Yes	9	obj	_	Auto=deprel+head
 9	rawuje	rawuje	VERB	vt	Number=Sing|Person=3	3	parataxis	_	_
 10	,	,	PUNCT	punct	_	9	punct	_	Auto=head
-11	Boere	Boe	NOUN	n	Number=Plur	12	nsubj	_	Auto=deprel+head
+11	Boere	Boe	PROPN	propn	Number=Plur	12	nsubj	_	Auto=deprel+head
 12	akedudo	akedu	VERB	v	Number=Sing|Person=3|Voice=Cau	9	parataxis	_	Auto=deprel+head
 13	rugadu	rugadu	ADV	adv	_	12	advmod	_	Auto=head
 14	.	.	PUNCT	punct	_	12	punct	_	Auto=head
@@ -16880,7 +16880,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	pariko	pariko	NOUN	n	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
 3	pagawu	pa	NOUN	n	Person=1	0	root	_	AutoLowConf=Yes
 4	karega	karega	AUX	aux	Polarity=Neg	3	aux	_	Auto=deprel+head
@@ -18043,7 +18043,7 @@
 # auto_tokens = 7/7
 1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	ekiarigodure	kiarigodu	VERB	v	Mood=Ind	5	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
-3	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+3	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 4	Boe	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 5	etoragudukare	etora	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 6	pugeje	pugeje	ADV	adv	_	5	advmod	_	Auto=head
@@ -19070,7 +19070,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
 1	Eiamedu	jamedu	PRON	pron	Number=Sgtv|Person=3|PronType=Tot	4	nsubj	_	_
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	3	nmod	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	3	nmod	_	Auto=deprel+head
 3	pagera	pagera	NOUN	n	Number=Plur|Person=1	4	nsubj	_	AutoLowConf=Yes
 4	awubodure	awubodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 5	ma	ma	X	x	_	4	dep	_	Auto=lemma+upos+xpos+deprel+head
@@ -19900,7 +19900,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ceerudu	joruduwa	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
 3	pemegakare	pemega	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	ccomp	_	Auto=deprel+head|AutoLowConf=Yes
 4	roi	roi	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -20155,7 +20155,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ioruduiwakare	joruduwa	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 3	etui	etui	NOUN	n	Number=Plur|Person=3	2	obl	_	AutoLowConf=Yes
 4	bogai	bogai	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-bogai|Auto=deprel+head
@@ -20379,7 +20379,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	det	_	Auto=deprel+head
 3	burudui	burudui	NOUN	n	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	rakojemode	rakoje	VERB	v	Mood=Ind|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -20780,7 +20780,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 9/9
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku|Auto=deprel+head
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
 5	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	8	nsubj	_	Morph=e=re|Auto=head
@@ -21730,7 +21730,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	itura	itura	NOUN	n	_	4	nsubj	_	Auto=deprel+head
 4	rugadure	rugadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
@@ -21768,7 +21768,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
 3	more	More	VERB	v	Number=Sing|Person=3	2	ccomp	_	_
 4	oino	oino	ADV	adv	_	3	advmod	_	Auto=head
@@ -22307,7 +22307,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 3/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	boe	boe	NOUN	n	Number=Sing	3	dep	_	Auto=deprel+head
 3	jokodu	jokodu	NOUN	n	_	0	root	_	_
 4	!	!	PUNCT	punct	_	1	punct	_	Auto=head
@@ -22884,7 +22884,7 @@
 4	etaora	etaora	NOUN	n	Number=Plur|Person=3	3	obl	_	AutoLowConf=Yes
 5	kajeje	kajeje	ADP	posp	Number=Sing|Person=3	4	case	_	Auto=deprel+head
 6	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	ewikare	ewi	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	3	parataxis	_	AutoLowConf=Yes
 9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
 10	etaora	etaora	NOUN	n	Number=Plur|Person=3	11	nsubj	_	AutoLowConf=Yes
@@ -23815,7 +23815,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	kodure	kodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
 3	mai	mai	ADV	adv	_	2	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -24072,7 +24072,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ewudu	ewudu	NOUN	n	Number=Plur|Person=3	3	nsubj	_	AutoLowConf=Yes
 3	kadunure	kadu	VERB	v	Aspect=Prog|Mood=Ind	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -24431,7 +24431,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/8
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	aire	ai	ADP	posp	Number=Sing|Person=2	1	case	_	AutoLowConf=Yes
 3	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	4	nsubj	_	Morph=ce=re|Auto=head
 4	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	0	root	_	Auto=deprel+head|AutoLowConf=Yes
@@ -24935,7 +24935,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 17/17
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 3	boe	boe	NOUN	n	Number=Sing	4	nmod	_	Auto=deprel+head
 4	kodiboe	kodiboe	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -28024,7 +28024,7 @@
 2	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	3	nsubj	_	Morph=e=re|Auto=head
 3	oiko	oiko	VERB	v	Number=Sing|Person=3	8	parataxis	_	Auto=lemma+upos+xpos+feats+head|AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 6	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	8	nsubj	_	Auto=head
 7	oiko	oiko	NOUN	n	_	8	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 8	jokodu	jokodu	NOUN	n	_	0	root	_	_
@@ -28107,13 +28107,13 @@
 18	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	19	nsubj	_	Morph=e=re|Auto=head
 19	tudaria	tudaria	NOUN	n	Reflex=Yes	13	parataxis	_	AutoLowConf=Yes
 20	,	,	PUNCT	punct	_	19	punct	_	Auto=head
-21	boere	boe	NOUN	n	Mood=Ind|Number=Plur	22	nmod	_	Auto=deprel+head
+21	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	22	nmod	_	Auto=deprel+head
 22	turuwobo	turuwobo	NOUN	n	_	19	parataxis	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 23	,	,	PUNCT	punct	_	22	punct	_	Auto=head
-24	boere	boe	NOUN	n	Mood=Ind|Number=Plur	25	nmod	_	Auto=deprel+head
+24	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	25	nmod	_	Auto=deprel+head
 25	tubori	tubori	NOUN	n	_	19	parataxis	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 26	,	,	PUNCT	punct	_	25	punct	_	Auto=head
-27	boere	boe	NOUN	n	Mood=Ind|Number=Plur	28	nmod	_	Auto=deprel+head
+27	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	28	nmod	_	Auto=deprel+head
 28	tuborigabo	tuboapo	NOUN	n	Person=3|Reflex=Yes	29	nmod	_	AutoLowConf=Yes
 29	oto	oto	NOUN	n	_	19	parataxis	_	Auto=lemma+upos+xpos+deprel+head
 30	kabi	kabi	ADP	posp	Number=Sing|Person=3	29	case	_	AutoLowConf=Yes
@@ -28375,7 +28375,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 21/21
-1	Mare	mare	CCONJ	conj	_	6	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	6	cc	_	Auto=head
 2	kuredogedu	kuredogedu	NOUN	n	Number=Sgtv	6	nsubj	_	AutoLowConf=Yes
 3	imedu	imedu	NOUN	n	Number=Sgtv	2	nmod	_	Auto=deprel+head
 4	emare	ema	PRON	pron	Mood=Ind|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
@@ -28427,7 +28427,7 @@
 5	pobo	pobo	NOUN	n	_	3	obl	_	Auto=deprel+head
 6	tabo	tabo	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-tabo|Auto=deprel+head
 7	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-8	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+8	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 9	roiwakare	roiwa	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	3	conj	_	AutoLowConf=Yes
 10	,	,	PUNCT	punct	_	9	punct	_	Auto=head
 11	kugudure	kugudu	VERB	v	Mood=Ind|Number=Sing|Person=3	9	parataxis	_	AutoLowConf=Yes
@@ -28482,7 +28482,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 14/14
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	marenaru	marenaru	NOUN	n	_	4	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 3	kare	karo	NOUN	n	Number=Plur	4	nmod	_	Auto=deprel+head
 4	emawu	emawu	NOUN	n	Number=Plur|Person=3	5	nmod	_	AutoLowConf=Yes
@@ -28545,7 +28545,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	marenarure	marena	VERB	v	Mood=Ind|Person=3	0	root	_	AutoLowConf=Yes
 3	emawu	emawu	PRON	pron	Person=3|PronType=Prs	2	obl	_	AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -28635,7 +28635,7 @@
 10	Aredu	aredu	NOUN	n	Number=Sing	18	nmod	_	Auto=deprel+head
 11	reo	reo	AUX	aux	_	10	aux	_	Auto=head
 12	,	,	PUNCT	punct	_	10	punct	_	Auto=head
-13	mare	mare	CCONJ	conj	_	14	cc	_	Auto=deprel+head
+13	mare	mare	CCONJ	cconj	_	14	cc	_	Auto=deprel+head
 14	jordiwakare	jordiwa	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	10	conj	_	AutoLowConf=Yes
 15	tuwuri	tuwuri	NOUN	n	Reflex=Yes	10	obl	_	AutoLowConf=Yes
 16	bogai	bogai	ADP	posp	Number=Sing|Person=3	15	case	_	Morph=0-bogai|Auto=deprel+head
@@ -28645,7 +28645,7 @@
 20	tu	tu	ADV	adv	_	19	advmod	_	Auto=head
 21	jokorai	jokorai	ADP	posp	Number=Sing|Person=3	19	obl	_	AutoLowConf=Yes
 22	,	,	PUNCT	punct	_	19	punct	_	Auto=head
-23	mare	mare	CCONJ	conj	_	24	cc	_	Auto=deprel+head
+23	mare	mare	CCONJ	cconj	_	24	cc	_	Auto=deprel+head
 24	jordiwakare	jordiwa	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	6	conj	_	AutoLowConf=Yes
 25	ji	ji	ADP	posp	Number=Sing|Person=3	24	obl	_	Morph=0-ji|Auto=head
 26	.	.	PUNCT	punct	_	24	punct	_	Auto=head
@@ -28677,7 +28677,7 @@
 2	mugure	mugu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
 3	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
 4	jokorai	jokorai	ADP	posp	Number=Sing|Person=3	2	obl	_	AutoLowConf=Yes
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	jordiwakare	jordiwa	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	conj	_	AutoLowConf=Yes
 7	ji	ji	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ji|Auto=head
 8	,	,	PUNCT	punct	_	6	punct	_	Auto=head
@@ -28861,7 +28861,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	imearudae	mearudae	NOUN	n	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
 3	pegakare	pega	NOUN	n	Mood=Ind|Polarity=Neg	0	root	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	obl	_	Morph=0-ji|Auto=head
@@ -29306,7 +29306,7 @@
 9	jiboe	jiboe	NOUN	n	Number=Sing	7	obl	_	AutoLowConf=Yes
 10	ji	ji	ADP	posp	Number=Sing|Person=3	9	obl	_	Morph=0-ji|Auto=head
 11	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-12	mare	mare	CCONJ	conj	_	14	cc	_	Auto=deprel+head
+12	mare	mare	CCONJ	cconj	_	14	cc	_	Auto=deprel+head
 13	iedawu	iedawu	NOUN	n	Number=Sing	14	nsubj	_	AutoLowConf=Yes
 14	okorire	okori	VERB	v	Mood=Ind|Number=Sing|Person=3	7	conj	_	_
 15	.	.	PUNCT	punct	_	14	punct	_	Auto=head
@@ -30182,7 +30182,7 @@
 # auto_fields = lemma,head,deprel
 # auto_tokens = 3/4
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
-2	mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+2	mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 3	tabagudukaba	tabagudu	VERB	v	Mood=Imp|Number=Plur|Person=2	1	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	!	!	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -30401,7 +30401,7 @@
 11	meriri	meriri	NOUN	n	_	9	obl	_	Auto=deprel+head
 12	to	to	ADP	posp	Number=Sing|Person=3	11	case	_	Morph=0-to|Auto=deprel+head
 13	,	,	PUNCT	punct	_	9	punct	_	Auto=head
-14	mare	mare	CCONJ	conj	_	16	cc	_	Auto=deprel+head
+14	mare	mare	CCONJ	cconj	_	16	cc	_	Auto=deprel+head
 15	urerogu	ure	NOUN	n	Degree=Dim	16	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 16	biegado	biega	VERB	v	Number=Sing|Person=3|Voice=Cau	1	conj	_	AutoLowConf=Yes
 17	tu	tu	ADV	adv	_	16	advmod	_	Auto=head
@@ -31621,7 +31621,7 @@
 7	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	8	nsubj	_	Auto=deprel+head
 8	turugadu	urugadu	VERB	v	Reflex=Yes	2	parataxis	_	Auto=deprel+head
 9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
-10	mare	mare	CCONJ	conj	_	11	cc	_	Auto=deprel+head
+10	mare	mare	CCONJ	cconj	_	11	cc	_	Auto=deprel+head
 11	metuwo	metu	VERB	v	Mood=Sub|Number=Sing|Person=3	2	parataxis	_	AutoLowConf=Yes
 12	tu	tu	ADV	adv	_	11	advmod	_	Auto=head
 13	ai	ji	ADP	posp	Number=Sing|Person=3	11	obl	_	Auto=deprel+head
@@ -32349,7 +32349,7 @@
 3	kugaru	kugaru	NOUN	n	_	4	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	itodudo	itodu	VERB	v	Number=Sing|Person=1|Voice=Cau	1	ccomp	_	AutoLowConf=Yes
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-6	mare	mare	CCONJ	conj	_	11	cc	_	Auto=deprel+head
+6	mare	mare	CCONJ	cconj	_	11	cc	_	Auto=deprel+head
 7	,	,	PUNCT	punct	_	6	punct	_	Auto=head
 8	imedu	imedu	NOUN	n	Number=Sgtv	6	parataxis	_	Auto=deprel+head
 9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
@@ -32690,7 +32690,7 @@
 6	iwe	iwe	NOUN	n	Number=Sing|Person=1	7	nsubj	_	AutoLowConf=Yes
 7	ekodure	kodu	VERB	v	Mood=Ind|Number=Plur|Person=3	3	parataxis	_	Auto=deprel+head
 8	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-9	mare	mare	CCONJ	conj	_	10	cc	_	Auto=deprel+head
+9	mare	mare	CCONJ	cconj	_	10	cc	_	Auto=deprel+head
 10	inogwarodaere	inookwage	VERB	v	Mood=Ind|Number=Sing|Person=3	3	parataxis	_	AutoLowConf=Yes
 11	bokware	bokwa	AUX	aux	Polarity=Neg	10	aux	_	Auto=deprel+head
 12	.	.	PUNCT	punct	_	10	punct	_	Auto=head
@@ -33278,7 +33278,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 16/16
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	maigodure	maigodu	VERB	v	Mood=Ind	0	root	_	Auto=deprel+head|AutoLowConf=Yes
 3	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	2	parataxis	_	Morph=0=are=godu=re|Auto=deprel+head
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -33757,7 +33757,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 23/23
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
 3	ioruduiwado	joruduiwa	VERB	v	Number=Sing|Person=1|Voice=Cau	0	root	_	Auto=deprel+head
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	obl	_	Morph=0-ji|Auto=head
@@ -34691,7 +34691,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	imearutorukare	immearudu	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -35173,7 +35173,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	tamode	ta	PRON	bi	Number=Plur|Person=2	5	nsubj	_	Auto=deprel+head
 3	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 4	karo	karo	NOUN	n	Number=Sing	5	obj	_	Auto=deprel+head
@@ -35269,7 +35269,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/9
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	bo	bo	NOUN	n	_	4	obj	_	Auto=lemma+upos+xpos+deprel+head
 3	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	4	nsubj	_	Morph=e=re|Auto=head
 4	ko	ko	VERB	v	Number=Sing|Person=3	8	parataxis	_	Auto=feats+head
@@ -36292,7 +36292,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	piga	piga	NOUN	n	_	0	root	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -36435,7 +36435,7 @@
 4	pobo	pobo	NOUN	n	_	1	obl	_	Auto=deprel+head
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	obl	_	Morph=0-ji|Auto=head
 6	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	puredure	puredu	VERB	v	Mood=Ind|Person=3	1	conj	_	AutoLowConf=Yes
 9	pobo	pobo	NOUN	n	_	8	obl	_	Auto=deprel+head
 10	ji	ji	ADP	posp	Number=Sing|Person=3	9	obl	_	Morph=0-ji|Auto=head
@@ -37446,7 +37446,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 20/20
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ike	ke	NOUN	n	Number=Sing|Person=1	13	nsubj	_	Auto=deprel+head
 3	kuricigore	kuricigo	ADV	adv	Mood=Ind	4	advmod	_	_
 4	:	:	PUNCT	punct	_	2	punct	_	Auto=lemma+upos+xpos+deprel+head
@@ -37460,7 +37460,7 @@
 12	ike	ke	NOUN	n	Number=Sing|Person=1	2	conj	_	Auto=deprel+head
 13	padurare	padura	VERB	vi	Mood=Ind|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
 14	,	,	PUNCT	punct	_	13	punct	_	Auto=head
-15	mare	mare	CCONJ	conj	_	16	cc	_	Auto=deprel+head
+15	mare	mare	CCONJ	cconj	_	16	cc	_	Auto=deprel+head
 16	ike	ke	NOUN	n	Number=Sing|Person=1	17	nmod	_	Auto=deprel+head
 17	barae	barae	NOUN	n	Number=Plur	18	nmod	_	Auto=deprel+head
 18	eno	o	NOUN	n	Number=Plur|Person=3	19	nsubj	_	_
@@ -38467,7 +38467,7 @@
 # auto_tokens = 5/5
 1	Nonore	nono	ADV	adv	Mood=Ind	4	advmod	_	Auto=head
 2	icare	icare	ADV	adv	_	4	advmod	_	Auto=head
-3	boere	boe	NOUN	n	Mood=Ind|Number=Plur	4	nsubj	_	Auto=deprel+head
+3	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	4	nsubj	_	Auto=deprel+head
 4	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
@@ -39625,7 +39625,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 15/15
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	iragojemode	ragoje	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	Auto=lemma+deprel+head
 3	biegatu	biegatu	ADV	adv	_	2	advmod	_	Auto=lemma+upos+xpos+deprel+head
 4	woe	woe	ADV	adv	_	2	advmod	_	Auto=head
@@ -39679,7 +39679,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 11/11
-1	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	imaragodure	maragodu	VERB	v	Mood=Ind	7	nsubj	_	Auto=lemma+deprel+head
 4	aiwu	ai	DET	dem	_	5	det	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -41436,7 +41436,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	amode	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Status=Irr	5	nsubj	_	Auto=deprel+head
 3	iage	ia	DET	det	Definite=Ind|Number=Plur|PronType=Art	5	obj	_	Auto=deprel+head
 4	kugure	kugu	NOUN	n	Mood=Ind	5	nsubj	_	Auto=deprel+head
@@ -41463,7 +41463,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 11/11
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	tubore	tubo	NOUN	n	Mood=Ind	4	nsubj	_	AutoLowConf=Yes
 4	ekuricigore	ekkuri	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
@@ -42051,7 +42051,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	kuro	kuro	NOUN	n	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
 3	kurire	kuri	NOUN	n	Mood=Ind	0	root	_	Auto=deprel+head
 4	nono	nono	ADV	adv	_	3	advmod	_	Auto=head
@@ -42642,7 +42642,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 # orig_ids = 1 2 3 5 6
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	tawia	tawia	NOUN	n	Person=2	3	nsubj	_	AutoLowConf=Yes
 3	pagakaba	paga	VERB	v	Number=Sing|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 4	ipiji	piji	ADP	posp	Number=Sing|Person=1	3	obl	_	Auto=deprel+head
@@ -42897,7 +42897,7 @@
 2	meriri	meriri	NOUN	n	_	3	nmod	_	Auto=deprel+head
 3	rerewu	rerewu	NOUN	n	Mood=Ind|Nomzr=Rel	1	obl	_	AutoLowConf=Yes
 4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-tabo|Auto=deprel+head
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	awara	awara	NOUN	n	_	7	nsubj	_	Auto=deprel+head
 7	pegare	pega	NOUN	v	Mood=Ind	1	parataxis	_	Auto=deprel+head
 8	,	,	PUNCT	punct	_	7	punct	_	Auto=head
@@ -43179,7 +43179,7 @@
 1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
 2	cenuduiagu	cenudu	VERB	v	Mood=Quot	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	cenudukare	cenudu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	2	parataxis	_	AutoLowConf=Yes
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -43239,7 +43239,7 @@
 6	makore	mako	VERB	v	Mood=Ind|Number=Sing|Person=3	2	parataxis	_	Morph=0-mako=re
 7	ii	ji	ADP	posp	Number=Sing|Person=1	6	obl	_	Morph=i=ji|Auto=deprel+head
 8	,	,	PUNCT	punct	_	6	punct	_	Auto=head
-9	mare	mare	CCONJ	conj	_	10	cc	_	Auto=deprel+head
+9	mare	mare	CCONJ	cconj	_	10	cc	_	Auto=deprel+head
 10	ioruduiwakare	joruduiwa	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	2	parataxis	_	Auto=deprel+head
 11	bataru	bataru	NOUN	n	_	10	obl	_	Auto=deprel+head
 12	to	to	ADP	posp	Number=Sing|Person=3	11	punct	_	Morph=0-to|Auto=head
@@ -43369,7 +43369,7 @@
 3	ii	ji	ADP	posp	Number=Sing|Person=1	2	obl	_	Morph=i=ji|Auto=deprel+head
 4	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
 5	...	...	PUNCT	punct	_	2	punct	_	Auto=head
-6	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+6	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 7	ipagudure	pagudu	VERB	v	Mood=Ind|Number=Sing|Person=3	2	conj	_	_
 8	.	.	PUNCT	punct	_	7	punct	_	Auto=head
 
@@ -43394,7 +43394,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
 3	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 4	ei	ji	ADP	posp	Number=Plur|Person=3	3	obl	_	Morph=e=ji|Auto=deprel+head
@@ -43678,7 +43678,7 @@
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	Auto=deprel+head
 3	jorubo	jorubo	NOUN	n	_	4	nmod	_	Auto=deprel+head
 4	kuru	kuru	NOUN	n	_	5	nmod	_	Auto=deprel+head
-5	boere	boe	NOUN	n	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
+5	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
 # sent_id = 559-8
@@ -43996,7 +43996,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 25/25
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	ika	ika	NOUN	n	Number=Sing	4	nsubj	_	Auto=deprel+head
 4	jetorododure	jetoro	VERB	v	Mood=Ind|Person=3	0	root	_	AutoLowConf=Yes
@@ -44672,7 +44672,7 @@
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	Morph=u=re|Auto=head
 2	ewido	bi	VERB	vt	Number=Plur|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	2	obl	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	2	obl	_	Auto=deprel+head
 5	cekare	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	6	nsubj	_	_
 6	cegeragu	eragu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	2	parataxis	_	_
 7	ei	ji	ADP	posp	Number=Plur|Person=3	6	obl	_	Morph=e=ji|Auto=deprel+head
@@ -45023,7 +45023,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 16/16
-1	Mare	mare	CCONJ	conj	_	6	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	6	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	ceno	o	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	4	nmod	_	_
 4	motordoge	motor	NOUN	n	Number=Plur	5	nmod	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -46153,7 +46153,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	boe	boe	NOUN	n	Number=Sing	3	nmod	_	Auto=deprel+head
 3	arudugodurewu	arudugodu	NOUN	n	Mood=Ind|Nomzr=Rel	0	root	_	AutoLowConf=Yes
 4	bokware	bokwa	AUX	aux	Polarity=Neg	3	aux	_	Auto=deprel+head
@@ -46296,7 +46296,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	det	_	Auto=deprel+head
 3	pobo	pobo	NOUN	n	_	0	root	_	Auto=deprel+head
 4	aturigirewu	aturigi	NOUN	n	Mood=Ind|Nomzr=Rel	3	nmod	_	AutoLowConf=Yes
@@ -46432,7 +46432,7 @@
 2	jaemode	jae	VERB	v	Mood=Ind|Status=Irr	1	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 3	toro	toro	ADV	adv	_	2	advmod	_	Auto=head
 4	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	aregodumode	aregodu	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	2	conj	_	Auto=lemma+deprel+head
 7	nono	nono	ADV	adv	_	6	advmod	_	Auto=head
 8	rugadu	rugadu	ADV	adv	_	6	advmod	_	Auto=head
@@ -47888,7 +47888,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 11/12
 # orig_ids = 1 2 3 4 5 6 8 9 10 11 12 13
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ceerudiwakare	cejoruduwa	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	7	parataxis	_	Auto=lemma+upos+xpos+feats+head|AutoLowConf=Yes
 3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 4	bataru	bataru	NOUN	n	Number=Sing	2	obl	_	Auto=deprel+head
@@ -48704,7 +48704,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cemearudukare	cemea	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	okwa	okwa	NOUN	n	Number=Sing|Person=3	2	obl	_	Auto=deprel+head
 4	baturaji	baturaji	ADP	posp	Number=Sing|Person=3	3	case	_	AutoLowConf=Yes
@@ -48743,7 +48743,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	jepara	jepara	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head
 3	tabore	tabo	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	_
 4	cemaragodumode	maragodu	VERB	v	Mood=Ind|Number=Plur|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -49456,7 +49456,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cemearudukare	cemea	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	okwa	okwa	NOUN	n	Number=Sing|Person=3	4	nmod	_	Auto=deprel+head
 4	bataru	bataru	NOUN	n	Number=Sing	2	obl	_	Auto=deprel+head
@@ -49608,7 +49608,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 12/13
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	utukare	tu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
 3	toro	toro	ADV	adv	_	2	advmod	_	Auto=head
 4	etae	ae	ADP	posp	Number=Plur|Person=3	2	obl	_	Auto=deprel+head
@@ -50755,7 +50755,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	kowuje	kowuje	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-kowuje|Auto=deprel+head
 3	du	du	X	x	_	4	dep	_	Auto=head
 4	pemegare	pemega	NOUN	n	Mood=Ind	2	parataxis	_	_
@@ -50785,7 +50785,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ukare	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg	3	nsubj	_	Auto=deprel+head
 3	ko	ko	VERB	v	Number=Sing|Person=3	0	root	_	Auto=feats+deprel+head
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -51404,7 +51404,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	enogwagekare	okwage	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	Auto=deprel+head|AutoLowConf=Yes
 3	dukeje	dukeje	SCONJ	sconj	_	4	advmod	_	Auto=xpos+deprel+head+upos
 4	etukare	etu	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	2	parataxis	_	AutoLowConf=Yes
@@ -51610,7 +51610,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	Auto=deprel+head
 3	boe	boe	NOUN	n	Number=Sing	4	nsubj	_	Auto=deprel+head
 4	oino	oino	ADV	adv	_	6	advmod	_	Auto=head
@@ -52492,7 +52492,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	cekare	ce	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	4	nsubj	_	_
 3	kare	karo	NOUN	n	Number=Plur	4	obj	_	Auto=deprel+head
 4	erego	reko	VERB	vt	Number=Plur|Person=3	0	root	_	_
@@ -53296,7 +53296,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	paroiwa	paroiwa	NOUN	n	_	3	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 3	modukare	modu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -54624,7 +54624,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 19/19
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	3	nsubj	_	Auto=head
 3	kowuje	kowuje	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-kowuje|Auto=deprel+head
 4	paga	paga	NOUN	n	Clusivity=In|Person=1	3	obl	_	_
@@ -54839,7 +54839,7 @@
 # auto_tokens = 6/6
 1	nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
 2	pega	pega	NOUN	n	_	0	root	_	Auto=deprel+head
-3	boere	boe	NOUN	n	Mood=Ind|Number=Plur	2	nmod	_	Auto=deprel+head
+3	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	2	nmod	_	Auto=deprel+head
 4	pemegare	pemega	NOUN	n	Mood=Ind	2	nmod	_	_
 5	enogwaji	rekodaji	ADP	posp	Number=Plur|Person=3	2	case	_	AutoLowConf=Yes
 6	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -55476,7 +55476,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	tamode	ta	PRON	bi	Number=Plur|Person=2	3	nsubj	_	Auto=deprel+head
 3	reko	reko	VERB	vt	Number=Sing|Person=1	0	root	_	Auto=deprel+head
 4	tagidoru	tagidoru	NOUN	n	Person=2	3	obl	_	AutoLowConf=Yes
@@ -55506,7 +55506,7 @@
 # auto_tokens = 7/7
 1	Rakare	raka	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-3	mare	mare	CCONJ	conj	_	4	cc	_	Auto=deprel+head
+3	mare	mare	CCONJ	cconj	_	4	cc	_	Auto=deprel+head
 4	mori	mori	NOUN	n	_	1	conj	_	Auto=deprel+head
 5	bokware	bokwa	AUX	aux	Polarity=Neg	4	aux	_	Auto=deprel+head
 6	cenai	ai	ADP	posp	Clusivity=Ex|Number=Plur|Person=1	4	obl	_	_
@@ -56243,7 +56243,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	cedamu	cedamu	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	3	nsubj	_	AutoLowConf=Yes
 3	modukare	modu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -56444,7 +56444,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cenogwagere	okwage	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 3	pemegaguragare	pemega	ADV	adv	Mood=Ind	2	advmod	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -56783,7 +56783,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	cewadaru	cbataru	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	3	nsubj	_	AutoLowConf=Yes
 3	keadunure	keadu	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -57633,7 +57633,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cegiarigodu	arigodu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
 3	epaere	epae	ADV	adv	Mood=Ind	2	advmod	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -57748,7 +57748,7 @@
 5	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	2	ccomp	_	Auto=deprel+head
 6	pugeje	pugeje	ADV	adv	_	5	advmod	_	Auto=head
 7	,	,	PUNCT	punct	_	5	punct	_	Auto=head
-8	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+8	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 9	nowuie	nowuie	VERB	v	Number=Sing|Person=3	2	parataxis	_	AutoLowConf=Yes
 10	icare	icare	ADV	adv	_	11	advmod	_	Auto=head
 11	kurimode	kuri	VERB	v	Mood=Ind|Number=Sing|Status=Irr	9	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -58410,7 +58410,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/8
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	pawudugurumode	pawudugu	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	0	root	_	AutoLowConf=Yes
 3	padu	tu	NOUN	n	Clusivity=In|Number=Plur|Person=1	4	nsubj	_	Auto=deprel+head
 4	pemegawo	pemega	VERB	v	Mood=Sub|Number=Sing|Person=3	2	ccomp	_	Auto=deprel+head|AutoLowConf=Yes
@@ -60120,7 +60120,7 @@
 1	Jeture	jetu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 2	cei	ji	ADP	posp	Clusivity=Ex|Number=Plur|Person=1	1	obl	_	Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	cemeartorukare	cemear	VERB	v	Clusivity=Ex|Number=Plur|Person=1	1	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	ji	ji	ADP	posp	Number=Sing|Person=3	5	obl	_	Morph=0-ji|Auto=head
 7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
@@ -60227,7 +60227,7 @@
 4	korigodure	korigodu	VERB	v	Mood=Ind	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 5	cei	ji	ADP	posp	Clusivity=Ex|Number=Plur|Person=1	4	obl	_	Auto=deprel+head
 6	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	makokare	mako	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	4	conj	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
 
@@ -60409,7 +60409,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	imadadure	maragodu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	AutoLowConf=Yes
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -60877,7 +60877,7 @@
 # orig_ids = 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21
 1	Iorudiwakare	jorudiwa	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-3	mare	mare	CCONJ	conj	_	4	cc	_	Auto=deprel+head
+3	mare	mare	CCONJ	cconj	_	4	cc	_	Auto=deprel+head
 4	‘motor	‘motor	VERB	v	Number=Sing|Person=3	1	parataxis	_	AutoLowConf=Yes
 5	jaruru	jaruru	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	5	case	_	Auto=deprel+head
@@ -60957,7 +60957,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	6	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	6	cc	_	Auto=head
 2	awu	awu	DET	dem	Deixis=Prox	4	det	_	Auto=deprel+head
 3	Pao	o	NOUN	n	Clusivity=In|Number=Plur|Person=1	4	nmod	_	Auto=deprel+head
 4	Pemo	Pemo	PROPN	propn	_	6	nsubj	_	Auto=deprel+head
@@ -61372,7 +61372,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/5
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
 3	rugadu	rugadu	ADV	adv	_	2	advmod	_	Auto=head
 4	inodobiji	inopiji	ADP	posp	Number=Sing|Person=1	2	obl	_	AutoLowConf=Yes
@@ -61492,7 +61492,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	amodukare	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Status=Irr	3	nsubj	_	_
 3	akeragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 4	ii	ji	ADP	posp	Number=Sing|Person=1	3	obl	_	Morph=i=ji|Auto=deprel+head
@@ -61711,7 +61711,7 @@
 1	Mugu	mugu	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 2	cegujei	kudu	ADP	posp	Clusivity=Ex|Number=Plur|Person=1	1	obl	_	AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	mugu	mugu	VERB	v	Number=Sing|Person=3	1	conj	_	AutoLowConf=Yes
 6	jaere	jae	ADV	adv	Mood=Ind	5	advmod	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
@@ -61928,7 +61928,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	imadukare	i	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	itabo	apo	ADP	posp	Number=Sing|Person=1	2	obl	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -62201,7 +62201,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	6	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	6	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 3	ime	ime	NOUN	n	Number=Plur	4	nmod	_	_
 4	enoe	enoe	NOUN	n	Number=Plur|Person=3	6	obl	_	AutoLowConf=Yes
@@ -62233,7 +62233,7 @@
 5	enoeji	enoeji	ADP	posp	Number=Plur|Person=3	4	case	_	AutoLowConf=Yes
 6	jamedu	jamedu	ADV	adv	_	2	advmod	_	Auto=head
 7	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-8	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+8	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 9	ewoadure	ewoadu	VERB	v	Mood=Ind|Number=Plur|Person=3	2	conj	_	AutoLowConf=Yes
 10	jao	jao	ADV	adv	_	9	advmod	_	Auto=lemma+upos+xpos+deprel+head
 11	,	,	PUNCT	punct	_	9	punct	_	Auto=head
@@ -62946,7 +62946,7 @@
 # auto_tokens = 2/6
 1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
 2	awu	awu	DET	dem	Deixis=Prox	4	det	_	_
-3	Boe	Boe	PROPN	pron	Number=Sing	4	nmod	_	_
+3	Boe	Boe	NOUN	pron	Number=Sing	4	nmod	_	_
 4	emaragodae	maragodae	NOUN	n	Number=Plur|Person=3	1	ccomp	_	Auto=deprel+head
 5	reo	reo	AUX	aux	_	4	aux	_	Auto=lemma+head
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -63000,7 +63000,7 @@
 1	Korigodure	korigodu	VERB	v	Mood=Ind	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 2	pai	ji	ADP	posp	Clusivity=In|Number=Plur|Person=1	1	obl	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	tagorigodukaba	tagorigodu	VERB	v	Mood=Imp|Number=Plur|Person=2	1	conj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 6	!	!	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -63126,7 +63126,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head
 # auto_tokens = 2/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	eegarere	egare	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -63460,7 +63460,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ukare	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg	3	nsubj	_	Auto=deprel+head
 3	missado	missa	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 4	paga	paga	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head
@@ -63510,7 +63510,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cemagokare	mako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -63524,7 +63524,7 @@
 # orig_ids = 1 2 5 6 8
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	ei	ji	ADP	posp	Number=Plur|Person=3	1	obl	_	Morph=e=ji|Auto=deprel+head
-3	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+3	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 4	tamagokaba	tamako	VERB	v	Mood=Imp|Number=Plur|Person=2	1	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 5	!	!	PUNCT	punct	_	4	punct	_	Auto=head
 
@@ -63625,7 +63625,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 15/15
-1	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 2	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	7	nsubj	_	Morph=ce=re|Auto=head
 3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 4	Pao	o	NOUN	n	Clusivity=In|Number=Plur|Person=1	5	nmod	_	Auto=deprel+head
@@ -64137,7 +64137,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	pawimodukare	pawi	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	page	page	NOUN	n	Clusivity=In|Number=Plur	4	nmod	_	AutoLowConf=Yes
 4	boi	boi	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head
@@ -64156,7 +64156,7 @@
 3	koiare	koia	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	Auto=deprel+head
 4	pawimode	bi	VERB	v	Mood=Ind|Number=Plur|Person=1|Status=Irr	0	root	_	Auto=lemma+deprel+head
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-6	mare	mare	CCONJ	conj	_	7	cc	_	Auto=deprel+head
+6	mare	mare	CCONJ	cconj	_	7	cc	_	Auto=deprel+head
 7	page	page	NOUN	n	Number=Plur	8	nmod	_	AutoLowConf=Yes
 8	boi	boi	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head
 9	koia	koia	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-koia|Auto=deprel+head
@@ -64512,7 +64512,7 @@
 1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
 2	paregodure	pare	VERB	v	Mood=Ind	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	boe	boe	NOUN	n	Number=Sing	6	nmod	_	Auto=deprel+head
 6	pegamodukare	pega	NOUN	n	Mood=Ind|Polarity=Neg	2	obl	_	AutoLowConf=Yes
 7	pai	ji	ADP	posp	Clusivity=In|Number=Plur|Person=1	6	case	_	_
@@ -65985,7 +65985,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 3	soldadodoge	soldado	NOUN	n	Number=Plur	4	nmod	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	eno	o	NOUN	n	Number=Plur|Person=3	5	nmod	_	_
@@ -66919,7 +66919,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ipe	pe	NOUN	n	_	3	nsubj	_	Auto=lemma+upos+xpos+deprel+head
 3	okorire	okori	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 4	ii	ji	ADP	posp	Number=Sing|Person=1	3	obl	_	Morph=i=ji|Auto=deprel+head
@@ -67624,7 +67624,7 @@
 1	Cenagore	ako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=ako=re|Auto=deprel+head
 2	tu	tu	ADV	adv	_	1	advmod	_	Auto=head
 3	...	...	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 5	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1	6	nsubj	_	Auto=head
 6	cenagoino	cako	VERB	v	Clusivity=Ex|Number=Plur|Person=1	1	parataxis	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 7	,	,	PUNCT	punct	_	6	punct	_	Auto=head
@@ -67892,7 +67892,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	boe	boe	NOUN	n	Number=Sing	4	nsubj	_	Auto=deprel+head
 3	jamedu	jamedu	ADV	adv	_	2	advmod	_	Auto=head
 4	jeture	jetu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
@@ -68104,7 +68104,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	iigoia	iigoia	NOUN	n	Person=1	0	root	_	AutoLowConf=Yes
 3	karega	karega	AUX	aux	Polarity=Neg	2	aux	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -68116,7 +68116,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	woere	woe	ADV	adv	Mood=Ind	4	advmod	_	Auto=head
 3	icare	icare	ADV	adv	_	4	advmod	_	Auto=head
 4	inagomode	ako	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -68642,7 +68642,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	barae	barae	NOUN	n	Number=Plur	3	nmod	_	Auto=deprel+head
 3	ekuru	ekuru	NOUN	n	Person=3	4	nsubj	_	AutoLowConf=Yes
 4	kimore	kimo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
@@ -69014,7 +69014,7 @@
 1	Inspetor	inspetor	NOUN	n	_	0	root	_	Auto=lemma+upos+xpos+deprel+head
 2	ae	ae	ADP	posp	Number=Sing|Person=3	1	case	_	Morph=0-ae|Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	iwaripore	barugodu	VERB	v	Mood=Ind|Number=Sing|Person=1	1	conj	_	AutoLowConf=Yes
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -69224,7 +69224,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 11/11
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
 3	tubujodo	tubujo	VERB	v	Person=3|Reflex=Yes|Voice=Cau	0	root	_	AutoLowConf=Yes
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	obl	_	Morph=0-ji|Auto=head
@@ -69408,7 +69408,7 @@
 1	Kudukarewuge	kuduka	NOUN	n	Mood=Ind|Nomzr=Rel|Number=Plur	2	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 2	ewikare	ewi	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 5	kudurewuge	kudu	NOUN	n	Mood=Ind|Nomzr=Rel|Number=Plur	6	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 6	ewire	bi	VERB	v	Mood=Ind|Number=Plur|Person=3	2	conj	_	Auto=deprel+head|AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	6	punct	_	Auto=head
@@ -69745,7 +69745,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	idurure	turu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 3	iwo	a	PRON	bi	Mood=Sub|Number=Sing|Person=1	5	nsubj	_	Auto=deprel+head
 4	ika	ika	NOUN	n	Number=Sing	5	nmod	_	Auto=deprel+head
@@ -69764,13 +69764,13 @@
 2	ika	ika	NOUN	n	Number=Sing	1	obl	_	Auto=deprel+head
 3	piji	piji	ADP	posp	Number=Sing|Person=3	2	obl	_	Morph=0-piji|Auto=head
 4	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	7	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	7	cc	_	Auto=deprel+head
 6	ewudu	ewudu	NOUN	n	Number=Plur|Person=3	7	nsubj	_	AutoLowConf=Yes
 7	ewudure	ewudu	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	AutoLowConf=Yes
 8	pobo	pobo	NOUN	n	_	7	obl	_	Auto=deprel+head
 9	to	to	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-to|Auto=deprel+head
 10	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-11	mare	mare	CCONJ	conj	_	12	cc	_	Auto=deprel+head
+11	mare	mare	CCONJ	cconj	_	12	cc	_	Auto=deprel+head
 12	pobo	pobo	NOUN	n	_	13	obj	_	Auto=deprel+head
 13	kokare	ko	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	1	parataxis	_	AutoLowConf=Yes
 14	,	,	PUNCT	punct	_	13	punct	_	Auto=head
@@ -71137,7 +71137,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 15/15
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	5	nsubj	_	Morph=e=re|Auto=head
 3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 4	caminhão	caminhão	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head
@@ -71571,7 +71571,7 @@
 6	co	co	X	x	_	5	dep	_	Auto=lemma+upos+xpos+deprel+head
 7	toro	toro	ADV	adv	_	5	advmod	_	Auto=head
 8	,	,	PUNCT	punct	_	5	punct	_	Auto=head
-9	mare	mare	CCONJ	conj	_	10	cc	_	Auto=deprel+head
+9	mare	mare	CCONJ	cconj	_	10	cc	_	Auto=deprel+head
 10	jetadukare	je	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	2	conj	_	AutoLowConf=Yes
 11	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	12	nsubj	_	Morph=u=re|Auto=head
 12	.	.	PUNCT	punct	_	10	punct	_	Auto=head
@@ -72626,7 +72626,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	parudo	paru	VERB	vt	Number=Plur|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -72774,7 +72774,7 @@
 8	bokware	bokwa	AUX	aux	Polarity=Neg	7	aux	_	Auto=deprel+head
 9	jamedu	jamedu	ADV	adv	_	7	advmod	_	Auto=head
 10	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-11	mare	mare	CCONJ	conj	_	12	cc	_	Auto=deprel+head
+11	mare	mare	CCONJ	cconj	_	12	cc	_	Auto=deprel+head
 12	ikodumode	kodu	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	4	conj	_	Auto=lemma+deprel+head
 13	.	.	PUNCT	punct	_	12	punct	_	Auto=head
 
@@ -72835,7 +72835,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ioruduiware	joruduiwa	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Auto=deprel+head|AutoLowConf=Yes
 3	iromodeduji	iromro	ADP	posp	Number=Sing|Person=1	2	obl	_	AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	2	punct	_	Auto=head
@@ -73512,7 +73512,7 @@
 2	tuie	ja	NOUN	n	Person=3|Reflex=Yes	3	obj	_	_
 3	jodo	jodo	VERB	v	Number=Sing|Person=3	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	butugu	butugu	NOUN	n	_	3	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 7	tabo	tabo	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-tabo|Auto=deprel+head
 8	karega	karega	AUX	aux	Polarity=Neg	3	aux	_	Auto=deprel+head
@@ -73819,7 +73819,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	emagare	maka	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Auto=deprel+head
 3	rugadu	rugadu	ADV	adv	_	2	advmod	_	Auto=head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -74148,7 +74148,7 @@
 3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 4	kabidukarewu	kabiduka	NOUN	n	Mood=Ind|Nomzr=Rel	5	nmod	_	AutoLowConf=Yes
 5	icare	icare	ADV	adv	_	9	advmod	_	Auto=head
-6	boere	boe	NOUN	n	Mood=Ind|Number=Plur	7	nmod	_	Auto=deprel+head
+6	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	7	nmod	_	Auto=deprel+head
 7	ko	ko	VERB	v	Number=Sing|Person=3	9	nsubj	_	Auto=feats+deprel+head
 8	du	du	X	x	_	9	dep	_	Auto=head
 9	pemegado	pemega	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
@@ -74427,7 +74427,7 @@
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 5/5
 1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	0	root	_	Auto=deprel+head
 3	jii	jii	ADV	adv	_	2	advmod	_	Auto=head
 4	je	je	ADV	adv	_	2	advmod	_	Auto=lemma+upos+xpos+deprel+head
 5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -74505,7 +74505,7 @@
 3	erego	reko	NOUN	n	Number=Plur|Person=3	0	root	_	_
 4	jamedu	jamedu	ADV	adv	_	3	advmod	_	Auto=head
 5	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-6	mare	mare	CCONJ	conj	_	7	dep	_	Auto=deprel+head
+6	mare	mare	CCONJ	cconj	_	7	dep	_	Auto=deprel+head
 7	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	8	nsubj	_	Auto=head
 8	ewarigu	barigu	VERB	vt	Number=Plur|Person=3	3	parataxis	_	Auto=head|AutoLowConf=Yes
 9	pobo	pobo	NOUN	n	_	8	obl	_	Auto=deprel+head
@@ -74684,7 +74684,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 2	karedo	kare	NOUN	n	Number=Plur	3	obj	_	AutoLowConf=Yes
 3	mito	mito	NUM	num	_	0	root	_	Auto=deprel+head
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -75733,7 +75733,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ero	ro	VERB	v	Number=Plur|Person=3	0	root	_	_
 3	rakakare	rakaka	VERB	v	Mood=Ind|Polarity=Neg	2	ccomp	_	AutoLowConf=Yes
 4	ii	ji	ADP	posp	Number=Sing|Person=1	3	obl	_	Morph=i=ji|Auto=deprel+head
@@ -76236,7 +76236,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 12/12
-1	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 2	oinore	oino	ADV	adv	Mood=Ind	4	advmod	_	Morph=oino=re|Auto=head
 3	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 4	boitore	boito	NOUN	n	Mood=Ind	6	nmod	_	AutoLowConf=Yes
@@ -76686,7 +76686,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	betu	betu	NOUN	n	_	0	root	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 3	bokware	bokwa	AUX	aux	Polarity=Neg	2	aux	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -78490,7 +78490,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	cemagokare	mako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	_
 3	cege	ke	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	4	nmod	_	_
 4	boi	boi	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head
@@ -78729,7 +78729,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
 1	Icare	icare	ADV	adv	_	5	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	5	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 3	boe	boe	NOUN	n	Number=Sing	4	nmod	_	Auto=deprel+head
 4	kugu	kugu	NOUN	n	_	5	obj	_	Auto=deprel+head
 5	parudo	paru	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
@@ -78799,7 +78799,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 3/3
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	iogwarido	iogwari	VERB	vt	Number=Sing|Person=3	0	root	_	Auto=deprel+head
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -79403,7 +79403,7 @@
 # auto_tokens = 8/8
 1	Cebagudure	pagudu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-3	mare	mare	CCONJ	conj	_	4	cc	_	Auto=deprel+head
+3	mare	mare	CCONJ	cconj	_	4	cc	_	Auto=deprel+head
 4	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	Morph=e=ako=re|Auto=deprel+head
 5	cebagudu	pagudu	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	6	nsubj	_	AutoLowConf=Yes
 6	kaiagu	ka	VERB	v	Mood=Quot	4	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -79431,7 +79431,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	du	du	X	x	_	8	dep	_	Auto=head
 3	inodu	inodu	NOUN	n	_	8	obl	_	Auto=lemma+upos+xpos+deprel+head
 4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-tabo|Auto=deprel+head
@@ -79759,7 +79759,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ipagudure	pagudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 3	ece	ce	ADP	posp	Number=Plur|Person=3	2	obl	_	_
 4	jamedu	jamedu	ADV	adv	_	2	advmod	_	Auto=head
@@ -80119,7 +80119,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	uru	uru	NOUN	n	Number=Sing|Person=3	3	nsubj	_	AutoLowConf=Yes
 3	bitukare	bitu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -80213,7 +80213,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	etoki	oki	NOUN	n	Number=Plur|Person=3	3	nsubj	_	_
 3	pagakare	paga	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -81266,7 +81266,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	emugu	mugu	VERB	v	Number=Plur|Person=3	0	root	_	_
 3	puredumoduie	puredu	ADV	adv	Status=Irr	2	advmod	_	AutoLowConf=Yes
 4	pegaie	pega	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -81370,7 +81370,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 19/19
 # orig_ids = 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	emugu	mugu	VERB	v	Number=Plur|Person=3	0	root	_	_
 3	puredumoduie	puredu	ADV	adv	Status=Irr	6	advmod	_	AutoLowConf=Yes
 4	Boei	boei	PROPN	propn	_	6	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -81555,7 +81555,7 @@
 12	eremaemoduie	eremae	VERB	v	Number=Plur|Person=3|Status=Irr	9	parataxis	_	AutoLowConf=Yes
 13	woe	woe	ADV	adv	_	12	advmod	_	Auto=head
 14	,	,	PUNCT	punct	_	12	punct	_	Auto=head
-15	mare	mare	CCONJ	conj	_	17	cc	_	Auto=deprel+head
+15	mare	mare	CCONJ	cconj	_	17	cc	_	Auto=deprel+head
 16	nowu	nowu	DET	dem	Deixis=Med	17	det	_	Auto=deprel+head
 17	emuguie	mugu	VERB	v	Number=Plur|Person=3	1	obl	_	AutoLowConf=Yes
 18	toro	toro	ADV	adv	_	17	advmod	_	Auto=head
@@ -82169,7 +82169,7 @@
 9	gori	gori	NOUN	n	_	10	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 10	codo	codo	VERB	v	Number=Sing|Person=3	7	parataxis	_	AutoLowConf=Yes
 11	,	,	PUNCT	punct	_	10	punct	_	Auto=head
-12	mare	mare	CCONJ	conj	_	13	cc	_	Auto=deprel+head
+12	mare	mare	CCONJ	cconj	_	13	cc	_	Auto=deprel+head
 13	Pe	pe	NOUN	n	_	7	conj	_	Auto=lemma+upos+xpos+deprel+head
 14	.	.	PUNCT	punct	_	13	punct	_	Auto=head
 
@@ -82418,7 +82418,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	icare	icare	ADV	adv	_	3	advmod	_	Auto=head
 3	rakojere	rakoje	VERB	v	Mood=Ind	0	root	_	_
 4	woe	woe	ADV	adv	_	3	advmod	_	Auto=head
@@ -82488,7 +82488,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 4/4
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
 3	ewido	bi	VERB	vt	Number=Plur|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -82861,7 +82861,7 @@
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	Morph=ce=re|Auto=head
 2	iado	ia	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	2	nsubj	_	Morph=ce=re|Auto=head
 6	ia	ia	DET	det	Definite=Ind|PronType=Art	5	obl	_	Auto=deprel+head
 7	to	to	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-to|Auto=deprel+head
@@ -82893,7 +82893,7 @@
 4	avião	avião	NOUN	n	_	3	obl	_	Auto=lemma+upos+xpos+deprel+head
 5	tabo	tabo	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-tabo|Auto=deprel+head
 6	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	ikodukare	ikkodu	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	3	conj	_	AutoLowConf=Yes
 9	ebo	apo	ADP	posp	Number=Plur|Person=3	8	obl	_	Auto=deprel+head
 10	.	.	PUNCT	punct	_	8	punct	_	Auto=head
@@ -82951,7 +82951,7 @@
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 7/8
 1	Etaregodure	aregodu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-2	mare	mare	CCONJ	conj	_	3	cc	_	Auto=deprel+head
+2	mare	mare	CCONJ	cconj	_	3	cc	_	Auto=deprel+head
 3	ewinure	ewi	VERB	v	Aspect=Prog|Mood=Ind	1	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	tu	tu	ADV	adv	_	3	advmod	_	Auto=head
 5	boe	boe	NOUN	n	Number=Sing	3	obl	_	Auto=deprel+head
@@ -82987,7 +82987,7 @@
 5	cewu	cewu	DET	dem	Deixis=Med	6	det	_	Auto=deprel+head
 6	enoroeji	enoroe	ADP	posp	Number=Plur|Person=3	4	obl	_	AutoLowConf=Yes
 7	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-8	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+8	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 9	pegare	pega	NOUN	v	Mood=Ind	4	conj	_	Auto=deprel+head
 10	,	,	PUNCT	punct	_	9	punct	_	Auto=head
 11	eroiwakare	eroiwa	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	4	parataxis	_	AutoLowConf=Yes
@@ -83063,7 +83063,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 14/15
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 3	padre	padre	NOUN	n	_	4	nmod	_	Auto=deprel+head
 4	Bruno	Bruno	PROPN	propn	_	5	nsubj	_	Auto=deprel+head
@@ -83497,7 +83497,7 @@
 2	emode	ce	PRON	bi	Mood=Ind|Number=Plur|Person=3|Status=Irr	9	nsubj	_	Auto=deprel+head
 3	50	root	X	x	_	9	discourse	_	Auto=upos+xpos+deprel+head|AutoLowConf=Yes
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 6	baraedu	barae	NOUN	n	Number=Sgtv	9	nsubj	_	Auto=deprel+head
 7	o	o	NOUN	n	_	8	nmod	_	Auto=lemma+upos+xpos+deprel+head
 8	duru	duru	NOUN	n	_	9	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -83657,7 +83657,7 @@
 3	ekera	era	NOUN	n	Number=Plur|Person=3	4	nsubj	_	AutoLowConf=Yes
 4	kiarimode	kiari	VERB	v	Mood=Ind|Number=Sing|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-6	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+6	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 7	umode	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Status=Irr	9	nsubj	_	Auto=deprel+head
 8	iera	era	NOUN	n	Number=Sing	9	obj	_	_
 9	aidudo	aidu	VERB	v	Number=Sing|Person=3|Voice=Cau	4	parataxis	_	_
@@ -84322,7 +84322,7 @@
 7	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	2	parataxis	_	Auto=deprel+head
 8	ji	ji	ADP	posp	Number=Sing|Person=3	7	obl	_	Morph=0-ji|Auto=head
 9	,	,	PUNCT	punct	_	7	punct	_	Auto=head
-10	mare	mare	CCONJ	conj	_	12	cc	_	Auto=deprel+head
+10	mare	mare	CCONJ	cconj	_	12	cc	_	Auto=deprel+head
 11	jetu	jetu	ADV	adv	_	12	advmod	_	Auto=lemma+upos+xpos+deprel+head
 12	puredukare	pu	VERB	v	Mood=Ind|Polarity=Neg	2	parataxis	_	AutoLowConf=Yes
 13	jiwuge	jiwu	ADP	posp	Nomzr=Rel|Number=Plur	12	obl	_	AutoLowConf=Yes
@@ -84426,7 +84426,7 @@
 12	emagado	maka	VERB	v	Number=Plur|Person=3|Voice=Cau	8	parataxis	_	AutoLowConf=Yes
 13	rugadu	rugadu	ADV	adv	_	12	advmod	_	Auto=head
 14	,	,	PUNCT	punct	_	12	punct	_	Auto=head
-15	mare	mare	CCONJ	conj	_	16	cc	_	Auto=deprel+head
+15	mare	mare	CCONJ	cconj	_	16	cc	_	Auto=deprel+head
 16	aidukare	aidu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	12	conj	_	Auto=deprel+head|AutoLowConf=Yes
 17	,	,	PUNCT	punct	_	16	punct	_	Auto=head
 18	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	20	nsubj	_	Morph=u=re|Auto=head
@@ -84699,7 +84699,7 @@
 1	O	o	NOUN	n	_	2	nsubj	_	Auto=lemma+upos+xpos+deprel+head
 2	compadrere	compadre	NOUN	n	Mood=Ind	0	root	_	AutoLowConf=Yes
 3	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Auto=deprel+head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	kodo	kodo	NOUN	n	_	6	nmod	_	Auto=lemma+upos+xpos+deprel+head
 6	kagirire	kagiri	NOUN	n	Mood=Ind	2	obl	_	_
 7	ii	ji	ADP	posp	Number=Sing|Person=1	6	case	_	Morph=i=ji|Auto=deprel+head
@@ -85916,7 +85916,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	7	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	7	cc	_	Auto=head
 2	awu	awu	DET	dem	Deixis=Prox	3	det	_	Auto=deprel+head
 3	Mestre	mestre	PROPN	propn	_	7	obl	_	Auto=lemma+upos+xpos+deprel+head
 4	koiare	koia	ADP	posp	Mood=Ind|Number=Sing|Person=3	3	case	_	Auto=deprel+head
@@ -85960,7 +85960,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	3	nsubj	_	Auto=deprel+head
 3	tuiodo	tuio	VERB	vt	Person=3|Reflex=Yes	0	root	_	AutoLowConf=Yes
 4	boe	boe	NOUN	n	Number=Sing	3	obl	_	Auto=deprel+head
 5	keje	keje	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-keje|Auto=deprel+head
@@ -85973,7 +85973,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 10/10
-1	Boere	Boe	NOUN	n	Number=Plur	2	nmod	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nmod	_	Auto=deprel+head
 2	jepara	jepara	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head
 3	to	to	ADP	posp	Number=Sing|Person=3	2	case	_	Morph=0-to|Auto=deprel+head
 4	pa	pa	NOUN	n	_	5	nmod	_	Auto=lemma+upos+xpos+deprel+head
@@ -86697,7 +86697,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	togorido	togori	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 3	jepara	jepara	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head
 4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-tabo|Auto=deprel+head
@@ -86710,12 +86710,12 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	togorido	togori	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 3	paro	paro	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head
 4	tabo	tabo	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-tabo|Auto=deprel+head
 5	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-6	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+6	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 7	Boe	Boe	PROPN	propn	Number=Plur	8	nsubj	_	Auto=deprel+head
 8	ekorigodukare	ekori	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	2	parataxis	_	AutoLowConf=Yes
 9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
@@ -86918,7 +86918,7 @@
 1	Tagia	tagia	NOUN	n	Number=Plur|Person=2	2	nsubj	_	AutoLowConf=Yes
 2	tagowagere	okwage	VERB	v	Mood=Ind|Number=Plur|Person=2	0	root	_	AutoLowConf=Yes
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	tarore	taro	VERB	v	Mood=Ind|Number=Plur|Person=3	2	conj	_	AutoLowConf=Yes
 6	oino	oino	ADV	adv	_	5	advmod	_	Auto=head
 7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
@@ -86942,7 +86942,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 6/6
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	3	nmod	_	Auto=deprel+head
 3	imeduia	imedu	NOUN	n	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	konoriginure	konorigi	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
@@ -87439,7 +87439,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	Boe	Boe	PROPN	propn	Number=Plur	3	nmod	_	Auto=deprel+head
 3	ekera	era	NOUN	n	Number=Plur|Person=3	4	nsubj	_	AutoLowConf=Yes
 4	rere	re	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
@@ -88222,7 +88222,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	pao	o	NOUN	n	Clusivity=In|Number=Plur|Person=1	3	nsubj	_	_
 3	kodure	kodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
 4	pagabo	apo	ADP	posp	Clusivity=In|Number=Plur|Person=1	3	obl	_	_
@@ -88541,7 +88541,7 @@
 2	kuricigore	kuricigo	ADV	adv	Mood=Ind	1	advmod	_	_
 3	woe	woe	ADV	adv	_	2	advmod	_	Auto=head
 4	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	iwuge	buke	NOUN	n	Number=Sing	1	conj	_	_
 7	bokware	bokwa	AUX	aux	Polarity=Neg	6	aux	_	Auto=deprel+head
 8	.	.	PUNCT	punct	_	1	punct	_	Auto=head
@@ -89366,7 +89366,7 @@
 4	tuduwo	tudu	VERB	v	Mood=Sub|Number=Sing|Person=3	1	parataxis	_	AutoLowConf=Yes
 5	rugadu	rugadu	ADV	adv	_	4	advmod	_	Auto=head
 6	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 8	Mestre	mestre	PROPN	propn	_	9	nsubj	_	Auto=lemma+upos+xpos+deprel+head
 9	aidure	aidu	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	Auto=deprel+head
 10	enogwagewo	okwage	VERB	v	Mood=Sub|Number=Plur|Person=3	9	ccomp	_	_
@@ -89513,7 +89513,7 @@
 4	ko	ko	VERB	v	Number=Sing	5	obj	_	Auto=feats+deprel+head
 5	ko	ko	VERB	v	Number=Sing|Person=3	0	root	_	Auto=feats+deprel+head
 6	,	,	PUNCT	punct	_	5	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	ia	ia	DET	det	Definite=Ind|PronType=Art	9	det	_	Auto=deprel+head
 9	pugejewu	pugejewu	ADV	adv	Nomzr=Rel	11	obl	_	AutoLowConf=Yes
 10	tabore	tabo	ADP	posp	Mood=Ind|Number=Plur|Person=2	9	case	_	_
@@ -89711,7 +89711,7 @@
 1	Rokare	ro	ADV	adv	Mood=Ind	0	root	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
 2	pugeje	pugeje	ADV	adv	_	1	advmod	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
-4	mare	mare	CCONJ	conj	_	5	cc	_	_
+4	mare	mare	CCONJ	cconj	_	5	cc	_	_
 5	pegakare	pega	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	1	conj	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -90579,7 +90579,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	ikare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	3	nsubj	_	Auto=deprel+head
 3	bie	bie	VERB	vt	Number=Sing|Person=1	0	root	_	_
 
@@ -92902,7 +92902,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 20/20
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	akoe	akoe	NOUN	n	Number=Sing	4	nmod	_	AutoLowConf=Yes
 4	kodu	kodu	NOUN	n	_	5	nsubj	_	Auto=deprel+head
@@ -93584,7 +93584,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	taredo	tare	VERB	v	Number=Plur|Person=2	0	root	_	_
 3	pobo	pobo	NOUN	n	_	2	obl	_	Auto=deprel+head
 4	to	to	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-to|Auto=deprel+head
@@ -94019,7 +94019,7 @@
 1	Ikedu	edu	VERB	v	Number=Sing|Person=1	2	nsubj	_	_
 2	rakamode	raka	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	0	root	_	Auto=lemma+deprel+head
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 5	nori	nori	NOUN	n	_	6	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	korimode	kori	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	2	parataxis	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 7	ioku	joku	NOUN	n	Number=Sing|Person=1	6	obl	_	_
@@ -94186,9 +94186,9 @@
 # auto_fields = upos,xpos
 # auto_tokens = 1/5
 1	Cenagore	ako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=ako=re
-2	tagudugo	kudu	VERB	v	Mood=Imp|Number=Plur|Person=2|Voice=IncCau	1	ccomp	_	_
+2	tagudugo	kudu	VERB	v	Mood=Imp|Number=Plur|Person=2|Voice=CauInc	1	ccomp	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	_
-4	tagudugo	kudu	VERB	v	Mood=Imp|Number=Plur|Person=2|Voice=IncCau	2	conj	_	Auto=upos+xpos|AutoLowConf=Yes
+4	tagudugo	kudu	VERB	v	Mood=Imp|Number=Plur|Person=2|Voice=CauInc	2	conj	_	Auto=upos+xpos|AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 894-21
@@ -94528,7 +94528,7 @@
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	Morph=ce=re|Auto=head
 2	iage	ia	DET	det	Definite=Ind|Number=Plur|PronType=Art	3	obj	_	Auto=deprel+head
 3	ewarigu	barigu	VERB	vt	Number=Plur|Person=3	0	root	_	_
-4	mare	mare	CCONJ	conj	_	5	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	5	cc	_	Auto=deprel+head
 5	woje	woje	ADV	adv	_	6	advmod	_	Auto=lemma+upos+xpos+deprel+head
 6	cegurito	kudu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	3	ccomp	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	6	punct	_	Auto=head
@@ -94624,7 +94624,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 1	Icare	icare	ADV	adv	_	4	advmod	_	Auto=head
-2	boere	boe	NOUN	n	Mood=Ind|Number=Plur	3	nmod	_	Auto=deprel+head
+2	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	3	nmod	_	Auto=deprel+head
 3	kare	karo	NOUN	n	Number=Plur	4	nsubj	_	Auto=deprel+head
 4	atagagirido	atagagiri	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -94636,7 +94636,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 10/10
-1	Boere	Boe	NOUN	n	Number=Plur	4	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	4	nsubj	_	Auto=deprel+head
 2	aria	aria	NOUN	n	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
 3	meriri	meriri	NOUN	n	_	4	obj	_	Auto=deprel+head
 4	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
@@ -94655,7 +94655,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
 1	Dukejere	dukeje	ADV	adv	Mood=Ind	5	advmod	_	Morph=du=keje=re|Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	4	nmod	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	4	nmod	_	Auto=deprel+head
 3	karo	karo	NOUN	n	Number=Sing	4	nmod	_	Auto=deprel+head
 4	kodu	kodu	NOUN	n	_	5	nsubj	_	Auto=deprel+head
 5	kogudo	kogu	VERB	vt	Number=Sing|Person=3	0	root	_	_
@@ -94670,7 +94670,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 2	kodokora	kodokora	NOUN	n	_	3	obj	_	Auto=lemma+upos+xpos+deprel+head
 3	towuje	towuje	VERB	vt	Number=Sing|Person=3	0	root	_	Auto=deprel+head
 4	tuwo	tu	NOUN	n	Mood=Sub|Person=3	6	nmod	_	_
@@ -94686,7 +94686,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
-1	Boere	Boe	NOUN	n	Number=Plur	5	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	det	_	Auto=deprel+head
 3	kodokora	kodokora	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head
 4	biegarewu	biega	NOUN	n	Mood=Ind|Nomzr=Rel	3	nmod	_	_
@@ -94758,7 +94758,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	makudumode	makudu	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 4	baitowu	baitowu	NOUN	n	_	5	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 5	bu	bu	VERB	vt	Number=Sing|Person=3	3	parataxis	_	Morph=0-bu|Auto=deprel+head
@@ -94776,7 +94776,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 1	Oinore	oino	ADV	adv	Mood=Ind	4	advmod	_	Morph=oino=re|Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nmod	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nmod	_	Auto=deprel+head
 3	ao	ao	NOUN	n	Number=Sing|Person=3	4	nsubj	_	Auto=deprel+head
 4	otodo	oto	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -94788,7 +94788,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 6/6
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	bu	bu	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-bu|Auto=deprel+head
 3	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
 4	bai	bai	NOUN	n	Number=Sing	2	obl	_	Auto=deprel+head
@@ -94803,7 +94803,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 13/13
 1	Icare	icare	ADV	adv	_	5	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	5	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 3	cewu	cewu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
 4	kodokora	kodokora	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head
 5	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku|Auto=deprel+head
@@ -95760,7 +95760,7 @@
 1	Imagomode	mako	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	Auto=lemma+deprel+head
 2	ei	ji	ADP	posp	Number=Plur|Person=3	1	obl	_	Morph=e=ji|Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	1	parataxis	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	1	parataxis	_	Auto=deprel+head
 5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
 6	kajá	kajá	X	x	_	4	dep	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 7	!	!	PUNCT	punct	_	4	punct	_	Auto=head
@@ -95976,7 +95976,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 14/14
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	Auto=deprel+head
 3	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 4	aria	aria	NOUN	n	_	5	nmod	_	Auto=lemma+upos+xpos+deprel+head
@@ -96115,7 +96115,7 @@
 # auto_tokens = 5/5
 # orig_ids = 1 4 5 6 7
 1	Cenagore	ako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=ako=re|Auto=deprel+head
-2	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+2	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 3	cewoguwo	cewogu	VERB	v	Clusivity=Ex|Mood=Sub|Number=Plur|Person=1	1	ccomp	_	AutoLowConf=Yes
 4	woe	woe	ADV	adv	_	3	advmod	_	Auto=head
 5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -96388,7 +96388,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 18/18
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	cewu	cewu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	marido	marido	NOUN	n	_	4	nmod	_	Auto=lemma+upos+xpos+deprel+head
 4	itoboguru	itoboguru	NOUN	n	_	5	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -96847,7 +96847,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 12/12
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	pobo	pobo	NOUN	n	_	3	nsubj	_	Auto=deprel+head
 3	kore	ko	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 4	oinodu	oinodu	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
@@ -97546,7 +97546,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 3/3
-1	Boere	Boe	NOUN	n	Number=Plur	2	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	2	nsubj	_	Auto=deprel+head
 2	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -98426,7 +98426,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
-1	Mare	mare	CCONJ	conj	_	4	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	4	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	poboe	poboe	NOUN	n	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	enogore	enogo	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
@@ -99167,7 +99167,7 @@
 # auto_tokens = 7/7
 1	Aroebo	aroebo	NOUN	n	_	5	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 2	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-3	Boere	Boe	NOUN	n	Number=Plur	5	nsubj	_	Auto=deprel+head
+3	Boere	Boe	PROPN	propn	Number=Plur	5	nsubj	_	Auto=deprel+head
 4	kaidaga	kaidaga	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 5	bu	bu	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-bu|Auto=deprel+head
 6	keje	keje	ADP	posp	Number=Sing|Person=3	5	obl	_	Morph=0-keje|Auto=deprel+head
@@ -99180,7 +99180,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	boere	boe	NOUN	n	Mood=Ind|Number=Plur	2	nmod	_	Auto=deprel+head
+1	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	2	nmod	_	Auto=deprel+head
 2	je	je	NOUN	n	Number=Sing	3	nsubj	_	_
 3	codo	codo	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
 4	;	;	PUNCT	punct	_	3	punct	_	Auto=lemma+upos+xpos+deprel+head
@@ -99192,7 +99192,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
-1	boere	boe	NOUN	n	Mood=Ind|Number=Plur	2	nsubj	_	Auto=deprel+head
+1	boere	boe	PROPN	propn	Mood=Ind|Number=Plur	2	nsubj	_	Auto=deprel+head
 2	aroedo	aroe	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 3	ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	2	advmod	_	Morph=ema|Auto=deprel+head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
@@ -99257,7 +99257,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 37/37
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	tawuje	tawuje	VERB	vt	Number=Sing|Person=3	0	root	_	Auto=deprel+head
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
 5	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	6	nsubj	_	Morph=e=re|Auto=head
@@ -99455,7 +99455,7 @@
 12	,	,	PUNCT	punct	_	11	punct	_	Auto=head
 13	rakaie	raka	NOUN	n	_	1	parataxis	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 14	,	,	PUNCT	punct	_	13	punct	_	Auto=head
-15	mare	mare	CCONJ	conj	_	17	cc	_	Auto=deprel+head
+15	mare	mare	CCONJ	cconj	_	17	cc	_	Auto=deprel+head
 16	nowu	nowu	DET	dem	Deixis=Med	17	det	_	Auto=deprel+head
 17	sal	sal	NOUN	n	_	18	dep	_	Auto=lemma+upos+xpos+deprel+head
 18	bokware	bokwa	AUX	aux	Polarity=Neg	20	nmod	_	Auto=deprel+head
@@ -99539,7 +99539,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	iorudiwakare	jorudiwa	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -99753,7 +99753,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	3	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	3	cc	_	Auto=head
 2	Boe	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	emagokare	mako	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	0	root	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -99842,7 +99842,7 @@
 4	rakojere	rakoje	VERB	v	Mood=Ind	1	ccomp	_	_
 5	nono	nono	ADV	adv	_	4	advmod	_	Auto=head
 6	,	,	PUNCT	punct	_	4	punct	_	Auto=head
-7	mare	mare	CCONJ	conj	_	8	cc	_	Auto=deprel+head
+7	mare	mare	CCONJ	cconj	_	8	cc	_	Auto=deprel+head
 8	makokare	mako	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	4	conj	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
 
@@ -100126,7 +100126,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 15/15
-1	Mare	mare	CCONJ	conj	_	5	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	5	cc	_	Auto=head
 2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
 3	meriri	meriri	NOUN	n	_	1	nmod	_	Auto=deprel+head
 4	pemegarewu	pemega	NOUN	n	Mood=Ind|Nomzr=Rel	3	nmod	_	Auto=deprel+head
@@ -100216,7 +100216,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
 1	Nono	nono	ADV	adv	_	3	advmod	_	Auto=head
-2	Boedoge	boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+2	Boedoge	boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
 4	tago	tago	NOUN	n	Number=Plur	5	nsubj	_	AutoLowConf=Yes
 5	ureore	ureo	VERB	v	Mood=Ind|Number=Sing|Person=3	3	ccomp	_	AutoLowConf=Yes
@@ -100849,7 +100849,7 @@
 7	apanela	panela	NOUN	n	Number=Sing|Person=2	8	obj	_	_
 8	okorawu	okorawu	VERB	v	Number=Sing|Person=3	1	ccomp	_	_
 9	,	,	PUNCT	punct	_	8	punct	_	_
-10	mare	mare	CCONJ	conj	_	15	cc	_	_
+10	mare	mare	CCONJ	cconj	_	15	cc	_	_
 11	aragodumodukare	rakodu	VERB	v	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	15	advcl	_	_
 12	dukeje	dukeje	SCONJ	sconj	_	11	mark	_	Auto=xpos
 13	,	,	PUNCT	punct	_	11	punct	_	Auto=head
@@ -100931,7 +100931,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 4/4
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	0	root	_	Morph=ema|Auto=deprel+head
 3	pa	pa	ADV	adv	_	2	advmod	_	Auto=lemma+upos+xpos+deprel+head
 4	?	?	PUNCT	punct	_	2	punct	_	Auto=head
@@ -101105,7 +101105,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 10/10
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	aragodumode	rakodu	VERB	v	Mood=Ind|Number=Sing|Person=2|Status=Irr	0	root	_	Auto=lemma
 3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
 4	imode	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Status=Irr	7	nsubj	_	Auto=deprel+head
@@ -101123,7 +101123,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 8/8
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	aragodumodukare	aragodu	VERB	v	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	0	root	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
 3	amode	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Status=Irr	4	nsubj	_	Auto=deprel+head
 4	akirimi	akirimi	VERB	v	Number=Sing|Person=2	2	ccomp	_	AutoLowConf=Yes
@@ -102623,7 +102623,7 @@
 1	Taerdumodukare	taerdu	VERB	v	Mood=Ind|Number=Plur|Person=2|Polarity=Neg	0	root	_	AutoLowConf=Yes
 2	ii	ji	ADP	posp	Number=Sing|Person=1	1	obl	_	Morph=i=ji|Auto=deprel+head
 3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
-4	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+4	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 5	awu	awu	DET	dem	Deixis=Prox	7	det	_	Auto=deprel+head
 6	ike	ke	NOUN	n	Number=Sing|Person=1	7	nmod	_	Auto=deprel+head
 7	boe	boe	NOUN	n	Number=Sing	9	obl	_	Auto=deprel+head
@@ -103231,7 +103231,7 @@
 5	eragodure	ragodu	VERB	v	Number=Plur|Person=3	1	parataxis	_	Auto=deprel+head
 6	boeco	boeco	NOUN	n	_	5	obl	_	Auto=lemma+upos+xpos+deprel+head
 7	ji	ji	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ji|Auto=head
-8	mare	mare	CCONJ	conj	_	9	cc	_	Auto=deprel+head
+8	mare	mare	CCONJ	cconj	_	9	cc	_	Auto=deprel+head
 9	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 10	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -103920,7 +103920,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
-1	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+1	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 2	era	era	NOUN	n	Number=Plur|Person=3	3	nsubj	_	AutoLowConf=Yes
 3	kujagudo	kujagu	VERB	v	_	0	root	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	nono	nono	ADV	adv	_	3	advmod	_	Auto=head
@@ -103959,7 +103959,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 4/4
 1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
-2	Boere	Boe	NOUN	n	Number=Plur	3	nsubj	_	Auto=deprel+head
+2	Boere	Boe	PROPN	propn	Number=Plur	3	nsubj	_	Auto=deprel+head
 3	akedudo	akedu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -104224,7 +104224,7 @@
 # auto_annotation = pendente de revisão manual
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 3/3
-1	Mare	mare	CCONJ	conj	_	2	cc	_	Auto=head
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	Auto=head
 2	itukare	aidu	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
@@ -106466,7 +106466,7 @@
 # auto_tokens = 6/6
 1	Du	du	ADV	adv	_	4	advmod	_	Auto=lemma+upos+xpos+deprel+head
 2	kode	kode	ADV	adv	_	4	advmod	_	Auto=lemma+upos+xpos+deprel+head
-3	Boere	Boe	NOUN	n	Number=Plur	4	nsubj	_	Auto=deprel+head
+3	Boere	Boe	PROPN	propn	Number=Plur	4	nsubj	_	Auto=deprel+head
 4	turugadu	urugadu	VERB	v	Reflex=Yes	0	root	_	Auto=deprel+head
 5	rugadu	rugadu	ADV	adv	_	4	advmod	_	Auto=head
 6	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -106818,7 +106818,7 @@
 2	ukare	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg	3	nsubj	_	_
 3	turugadu	rugadu	VERB	v	Person=3|Reflex=Yes	1	ccomp	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
-5	mare	mare	CCONJ	conj	_	6	cc	_	Auto=deprel+head
+5	mare	mare	CCONJ	cconj	_	6	cc	_	Auto=deprel+head
 6	urugadu	rugadu	VERB	v	Number=Sing|Person=3	3	parataxis	_	Auto=feats
 7	oinono	oinono	ADV	adv	_	6	advmod	_	_
 8	.	.	PUNCT	punct	_	6	punct	_	_

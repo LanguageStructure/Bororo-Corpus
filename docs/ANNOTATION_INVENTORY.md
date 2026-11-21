@@ -10,11 +10,11 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 |---|---|---:|
 | `PUNCT` | pontuação | 18244 |
 | `VERB` | verbo | 15489 |
-| `NOUN` | substantivo | 13779 |
+| `NOUN` | substantivo | 13660 |
 | `ADV` | advérbio | 10273 |
 | `ADP` | posposição | 7078 |
 | `PRON` | pronome | 5393 |
-| `PROPN` | nome próprio | 2755 |
+| `PROPN` | nome próprio | 2874 |
 | `DET` | determinante/artigo/demonstrativo | 2559 |
 | `X` | outro / não classificado | 1429 |
 | `PART` | partícula | 560 |
@@ -32,27 +32,26 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | XPOS | UPOS observados |
 |---|---|
 | `punct` | `PUNCT` (18244) |
-| `n` | `NOUN` (13732), `VERB` (10), `PROPN` (9), `ADV` (6), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
+| `n` | `NOUN` (13614), `VERB` (10), `PROPN` (9), `ADV` (6), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
 | `v` | `VERB` (12027), `NOUN` (43), `ADV` (8) |
 | `adv` | `ADV` (10228), `NOUN` (1), `PRON` (1) |
 | `posp` | `ADP` (7072), `ADV` (2), `VERB` (1), `NOUN` (1) |
 | `bi` | `PRON` (4615), `PROPN` (1) |
-| `propn` | `PROPN` (2742), `NOUN` (2) |
+| `propn` | `PROPN` (2862) |
 | `vt` | `VERB` (2025) |
 | `dem` | `DET` (2000) |
 | `x` | `X` (1422), `AUX` (8) |
 | `vi` | `VERB` (1424) |
-| `pron` | `PRON` (769), `PROPN` (3) |
+| `pron` | `PRON` (769), `PROPN` (2), `NOUN` (1) |
 | `prcl` | `PART` (560) |
 | `aux` | `AUX` (506) |
 | `det` | `DET` (464) |
 | `intj` | `INTJ` (427) |
 | `_` | `_` (342), `ADV` (1), `dukeje` (1) |
-| `conj` | `CCONJ` (225) |
+| `cconj` | `CCONJ` (275) |
 | `sconj` | `SCONJ` (167) |
 | `art` | `DET` (94) |
 | `num` | `NUM` (80) |
-| `cconj` | `CCONJ` (50) |
 | `advm` | `ADV` (26) |
 | `onom` | `X` (6) |
 | `adp` | `ADP` (4) |
@@ -135,7 +134,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Nomzr` | `Rel` | CorBo | nominalização relativa (a confirmar) | 632 |
 | `Number` | `Col` | CorBo | coletivo (a confirmar; o UD usa `Coll`) | 3 |
 | `Number` | `Plur` | UD | plural | 11140 |
-| `Number` | `Sgtv` | UD | singulativo (a confirmar) | 256 |
+| `Number` | `Sgtv` | CorBo | singulativo (formas em -du/-edu: baraedu, imedu, onaregedu) | 256 |
 | `Number` | `Sing` | UD | singular | 21207 |
 | `Number[psor]` | `Plur` | UD | possuidor plural | 17 |
 | `Number[psor]` | `Sing` | UD | possuidor singular | 36 |
@@ -161,6 +160,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `VerbForm` | `Ger` | UD | gerúndio/forma adverbial (a confirmar) | 149 |
 | `Voice` | `CPass` | CorBo | (sem descrição) | 3 |
 | `Voice` | `Cau` | UD | causativo | 1913 |
+| `Voice` | `CauInc` | CorBo | causativo-incoativo, sufixo -go (ex.: epemegago, itaidugo) | 5 |
 | `Voice` | `CauPass` | CorBo | causativo-passivo (a confirmar) | 11 |
 | `Voice` | `Pass` | UD | passivo | 71 |
 
@@ -182,6 +182,3 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Plur` | `3` | 1 |
 | `PronType` | `Adv` | 1 |
 | `PronType` | `Med` | 1 |
-| `Voice` | `CauI` | 2 |
-| `Voice` | `CauInc` | 1 |
-| `Voice` | `IncCau` | 2 |

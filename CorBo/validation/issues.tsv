@@ -3707,7 +3707,6 @@ line	sent_id	severity	category	detail
 94749	652-15	error	upos_not_ud	'reo'
 7237	criação-013	warning	feat_undocumented	Mood=Qot
 10747	16-5	warning	feat_undocumented	Mood=Qot
-11125	24-1	warning	feat_undocumented	Voice=CauInc
 11631	34-3	warning	feat_undocumented	Person=21
 13989	79-3	warning	feat_undocumented	Mod=Imp
 38303	336-4	warning	feat_undocumented	Mod=Imp
@@ -3718,12 +3717,8 @@ line	sent_id	severity	category	detail
 107420	712-9	warning	feat_undocumented	Plur=3
 138652	873-9	warning	feat_undocumented	Mood=In
 139033	876-4	warning	feat_undocumented	Mod=Ind
-143836	894-16	warning	feat_undocumented	Voice=IncCau
-143838	894-16	warning	feat_undocumented	Voice=IncCau
-164199	dic_0580	warning	feat_undocumented	Voice=CauI
 165083	dic_0743	warning	feat_undocumented	Person=S
 168374	dic_0091	warning	feat_undocumented	Aspect=IProg
-168382	dic_0092	warning	feat_undocumented	Voice=CauI
 322	boe_ero_01_14-2	warning	head_deprel_mismatch	HEAD=2 DEPREL=_
 329	boe_ero_01_14-2	warning	head_deprel_mismatch	HEAD=2 DEPREL=_
 983		warning	head_deprel_mismatch	HEAD=_ DEPREL=punct

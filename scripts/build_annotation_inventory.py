@@ -23,14 +23,15 @@ MIN_COUNT = 3
 # (descrição, origem): "UD" = valor universal; "CorBo" = extensão específica do Bororo.
 DESCRIPTIONS = {
     "Number": {"Sing": ("singular", "UD"), "Plur": ("plural", "UD"),
-               "Sgtv": ("singulativo (a confirmar)", "UD"), "Col": ("coletivo (a confirmar; o UD usa `Coll`)", "CorBo")},
+               "Sgtv": ("singulativo (formas em -du/-edu: baraedu, imedu, onaregedu)", "CorBo"), "Col": ("coletivo (a confirmar; o UD usa `Coll`)", "CorBo")},
     "Person": {"1": ("primeira pessoa", "UD"), "2": ("segunda pessoa", "UD"), "3": ("terceira pessoa", "UD")},
     "Mood": {"Ind": ("indicativo", "UD"), "Sub": ("subjuntivo/dependente (a confirmar)", "UD"),
              "Imp": ("imperativo", "UD"), "Quot": ("quotativo (a confirmar)", "UD"),
              "Opt": ("optativo", "UD")},
     "Clusivity": {"In": ("inclusivo", "UD"), "Ex": ("exclusivo", "UD")},
     "Voice": {"Cau": ("causativo", "UD"), "Pass": ("passivo", "UD"),
-              "CauPass": ("causativo-passivo (a confirmar)", "CorBo")},
+              "CauPass": ("causativo-passivo (a confirmar)", "CorBo"),
+              "CauInc": ("causativo-incoativo, sufixo -go (ex.: epemegago, itaidugo)", "CorBo")},
     "Deixis": {"Prox": ("proximal", "UD"), "Med": ("medial", "UD"), "Dist": ("distal", "UD"),
                "Remt": ("remoto (a confirmar)", "UD")},
     "Reflex": {"Yes": ("reflexivo / correferente com o sujeito (prefixo t-) (a confirmar)", "UD")},

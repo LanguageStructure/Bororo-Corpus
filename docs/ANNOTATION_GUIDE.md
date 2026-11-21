@@ -54,7 +54,7 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | XPOS (projeto) | UPOS | Observação |
 |---|---|---|
 | `n` | NOUN | |
-| `propn` | PROPN | **[DECIDIR]** o lema `Boe` aparece como NOUN (1.123) e PROPN (682) |
+| `propn` | PROPN | `Boe` = "os Bororo" → PROPN, `Number=Plur`; outras acepções → NOUN, `Number=Sing` (decidido em 21/11/2026) |
 | `v`, `vt`, `vi` | VERB | `vt`/`vi` marcam transitividade |
 | `aux` | AUX | |
 | `adv`, `advm` | ADV | |
@@ -63,7 +63,7 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | `pron` | PRON | |
 | `dem`, `det`, `art` | DET | |
 | `prcl` | PART | partículas |
-| `conj` / `cconj` | CCONJ | **[DECIDIR]** unificar em um só XPOS |
+| `cconj` | CCONJ | `conj` foi unificado em `cconj` em 21/11/2026 |
 | `sconj` | SCONJ | |
 | `num` | NUM | |
 | `intj` | INTJ | |
@@ -77,7 +77,7 @@ Casos abertos: `dukeje` aparece como ADV (100) e SCONJ (86) conforme o XPOS atri
 Relações universais, sem subtipos por enquanto. Usos específicos do projeto:
 
 - **posposições**: a posposição é `case` dependente do seu complemento nominal (`kugure ← ji`);
-- **discurso citado**: com o verbo de dizer `ako` e o citativo `oino` (anotado como ADV) — **[DECIDIR]** `ccomp` ou `parataxis` para a citação; hoje ambos ocorrem no corpus (`ccomp` 2.633, `parataxis` 3.764, nem todos em citações);
+- **discurso citado** (decidido em 21/11/2026): os complementos oracionais de `ako` ('dizer') são `ccomp`; quando a oração citada tem seu próprio verbo principal, como frase independente, a relação é `parataxis`. A regra exige leitura caso a caso e não foi aplicada automaticamente (hoje: 2.128 `ccomp` e 448 `parataxis` dependentes de `ako`);
 - **`dep`** (823 tokens) deve ser tratado como pendência, não como análise final.
 
 ## 5. FEATS
@@ -88,15 +88,15 @@ Traços universais conforme o UD; os específicos do Bororo estão marcados como
 |---|---|---|
 | `Person`, `Number` | 1/2/3; Sing/Plur | concordância e índices pessoais |
 | `Clusivity` | In/Ex | 1ª pessoa do plural inclusiva/exclusiva |
-| `Number=Sgtv` | — | **[DECIDIR]** confirmar valor e definição (singulativo?) |
-| `Number=Col` | — | o UD usa `Coll`; **[DECIDIR]** renomear |
-| `Mood` | Ind, Sub, Imp, Quot, Opt | `Qop`, `Qot`, `Imd`, `In` aparecem 1–3 vezes: prováveis erros |
+| `Number=Sgtv` | — | singulativo (formas em *-du/-edu*: *baraedu*, *imedu*, *onaregedu*) |
+| `Number=Col` | — | 3 tokens; o UD usa `Coll` — **[DECIDIR]** (pendente com os valores raros) |
+| `Mood` | Ind, Sub, Imp, Quot, Opt | **[DECIDIR]** `Qop`, `Qot`, `Imd`, `In` (1–3 tokens cada) — em resolução pelo anotador |
 | `Status=Irr` | — | irrealis (*CorBo*) |
 | `Nomzr` | Rel, Loc | nominalizador (*CorBo*) |
 | `Reflex=Yes` | — | prefixo correferente *t-* |
 | `Deixis` | Prox, Med, Dist, Remt | |
-| `Voice` | Cau, Pass, CauPass | `CPass`, `CauI`, `CauInc`, `IncCau`: **[DECIDIR]** |
-| `Aspect` | Prog, Inc | `IncProg`, `IProg`: **[DECIDIR]** |
+| `Voice` | Cau, Pass, CauPass, CauInc | `CauInc` = causativo-incoativo, sufixo *-go* (`CauI` e `IncCau` unificados em 21/11/2026); **[DECIDIR]** `CPass` (3 tokens) |
+| `Aspect` | Prog, Inc | **[DECIDIR]** `IncProg`, `IProg` (4 tokens) — em resolução pelo anotador |
 | `Speech` | Ind, Quo, IndTrans | `Speech=Quo` licencia a evidência de *-iagu* (ver MORPHOLOGY_ANNOTATION.md) |
 | `Person[psor]`, `Number[psor]` | — | traços do possuidor (camada `[psor]`, formato UD) |
 
@@ -116,7 +116,7 @@ Ao revisar um token, **remova** a marca correspondente. Uma sentença só entra 
 
 | Chave | Uso |
 |---|---|
-| `Morph=` | segmentação explícita (`-` afixo, `=` clítico). **[DECIDIR]** O guia de morfologia prevê `MORPH=`, mas o arquivo usa `Morph=` em 12.478 tokens: escolher uma grafia e documentá-la |
+| `Morph=` | segmentação explícita (`-` afixo, `=` clítico; `0` = morfema zero). Grafia usada no arquivo (12.478 tokens); o build aceita `MORPH=` e `Morph=` e alimenta a busca por morfema do site |
 | `Gloss=` | glosa (o campo foi criado para glosas soltas que estavam sem chave) |
 | `Auto=`, `AutoLowConf=`, `PosMorphAnnot=` | ver §6 |
 

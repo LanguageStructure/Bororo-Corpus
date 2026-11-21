@@ -30,7 +30,7 @@
     "upos_not_ud": 2
   },
   "warnings": {
-    "feat_undocumented": 19,
+    "feat_undocumented": 14,
     "head_deprel_mismatch": 2463,
     "misc_malformed": 2,
     "pending_tokenization": 259,

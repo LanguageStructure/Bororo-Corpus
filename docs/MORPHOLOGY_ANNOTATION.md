@@ -12,7 +12,7 @@ Esta nota define a representação mínima usada pelo CorBo para que evidência 
 
 ## MISC
 
-A partir desta convenção, a segmentação explícita deve ser registrada em `MISC` no campo `MORPH`. O build ainda aceita `GLOSS` como campo legado quando ele contém fronteiras explícitas, para preservar compatibilidade com anotações existentes.
+A partir desta convenção, a segmentação explícita deve ser registrada em `MISC` no campo `MORPH`. No `CorBo.conllu` o campo está grafado `Morph=` (12.478 tokens); o build aceita `MORPH=` e `Morph=` como equivalentes. O build ainda aceita `GLOSS` como campo legado quando ele contém fronteiras explícitas, para preservar compatibilidade com anotações existentes.
 
 Convenção de fronteiras:
 

@@ -190,8 +190,8 @@
         },
         "Sgtv": {
           "count": 256,
-          "description": "singulativo (a confirmar)",
-          "origin": "UD"
+          "description": "singulativo (formas em -du/-edu: baraedu, imedu, onaregedu)",
+          "origin": "CorBo"
         },
         "Sing": {
           "count": 21207,
@@ -357,6 +357,11 @@
           "count": 1913,
           "description": "causativo",
           "origin": "UD"
+        },
+        "CauInc": {
+          "count": 5,
+          "description": "causativo-incoativo, sufixo -go (ex.: epemegago, itaidugo)",
+          "origin": "CorBo"
         },
         "CauPass": {
           "count": 11,

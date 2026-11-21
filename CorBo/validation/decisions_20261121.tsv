@@ -1,0 +1,585 @@
+line	sent_id	form	column	before	after	rule
+25	boe_ero_01_02	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+52	boe_ero_01_04	boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+183	boe_ero_01_09	boere	UPOS	NOUN	PROPN	boe_plural_propn
+183	boe_ero_01_09	boere	XPOS	n	propn	boe_plural_propn
+241	boe_ero_01_11	boere	UPOS	NOUN	PROPN	boe_plural_propn
+241	boe_ero_01_11	boere	XPOS	n	propn	boe_plural_propn
+307	boe_ero_01_14	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+501	boe_ero_01_20-2	boere	UPOS	NOUN	PROPN	boe_plural_propn
+501	boe_ero_01_20-2	boere	XPOS	n	propn	boe_plural_propn
+551	boe_ero_01_21	boere	UPOS	NOUN	PROPN	boe_plural_propn
+551	boe_ero_01_21	boere	XPOS	n	propn	boe_plural_propn
+1275	boe_ero_01_41	boere	UPOS	NOUN	PROPN	boe_plural_propn
+1275	boe_ero_01_41	boere	XPOS	n	propn	boe_plural_propn
+1385	boe_ero_01_43	boere	UPOS	NOUN	PROPN	boe_plural_propn
+1385	boe_ero_01_43	boere	XPOS	n	propn	boe_plural_propn
+1658	boe_ero_02_14	boere	UPOS	NOUN	PROPN	boe_plural_propn
+1658	boe_ero_02_14	boere	XPOS	n	propn	boe_plural_propn
+1998	boe_ero_02_29	Boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+2001	boe_ero_02_29	boere	UPOS	NOUN	PROPN	boe_plural_propn
+2001	boe_ero_02_29	boere	XPOS	n	propn	boe_plural_propn
+2015	boe_ero_02_30	boere	UPOS	NOUN	PROPN	boe_plural_propn
+2015	boe_ero_02_30	boere	XPOS	n	propn	boe_plural_propn
+2018	boe_ero_02_30	boere	UPOS	NOUN	PROPN	boe_plural_propn
+2018	boe_ero_02_30	boere	XPOS	n	propn	boe_plural_propn
+2240	boe_ero_02_36	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2240	boe_ero_02_36	boe	XPOS	n	propn	boe_plural_propn
+2556	boe_ero_03_03	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2556	boe_ero_03_03	boe	XPOS	n	propn	boe_plural_propn
+2564	boe_ero_03_03	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2564	boe_ero_03_03	boe	XPOS	n	propn	boe_plural_propn
+2603	boe_ero_03_05	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2603	boe_ero_03_05	boe	XPOS	n	propn	boe_plural_propn
+2625	boe_ero_03_06	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2625	boe_ero_03_06	boe	XPOS	n	propn	boe_plural_propn
+2725	boe_ero_03_11	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2725	boe_ero_03_11	boe	XPOS	n	propn	boe_plural_propn
+2730	boe_ero_03_11	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2730	boe_ero_03_11	boe	XPOS	n	propn	boe_plural_propn
+2974	boe_ero_03_23	boe	UPOS	NOUN	PROPN	boe_plural_propn
+2974	boe_ero_03_23	boe	XPOS	n	propn	boe_plural_propn
+3231	boe_ero_03_33	boe	UPOS	NOUN	PROPN	boe_plural_propn
+3231	boe_ero_03_33	boe	XPOS	n	propn	boe_plural_propn
+3345	boe_ero_03_37	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+3349	boe_ero_03_37	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+3416	boe_ero_04_01	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+3440	boe_ero_04_02	boere	UPOS	NOUN	PROPN	boe_plural_propn
+3440	boe_ero_04_02	boere	XPOS	n	propn	boe_plural_propn
+3455	boe_ero_04_03	Boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+3591	boe_ero_04_08	boere	UPOS	NOUN	PROPN	boe_plural_propn
+3591	boe_ero_04_08	boere	XPOS	n	propn	boe_plural_propn
+3595	boe_ero_04_08	boere	UPOS	NOUN	PROPN	boe_plural_propn
+3595	boe_ero_04_08	boere	XPOS	n	propn	boe_plural_propn
+3772	boe_ero_04_12	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+3905	boe_ero_04_17	boe	UPOS	NOUN	PROPN	boe_plural_propn
+3905	boe_ero_04_17	boe	XPOS	n	propn	boe_plural_propn
+4013	boe_ero_04_19	boere	UPOS	NOUN	PROPN	boe_plural_propn
+4013	boe_ero_04_19	boere	XPOS	n	propn	boe_plural_propn
+4100	boe_ero_04_22	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+4102	boe_ero_04_22	boere	UPOS	NOUN	PROPN	boe_plural_propn
+4102	boe_ero_04_22	boere	XPOS	n	propn	boe_plural_propn
+4136	boe_ero_05_01	boe	UPOS	NOUN	PROPN	boe_plural_propn
+4136	boe_ero_05_01	boe	XPOS	n	propn	boe_plural_propn
+4207	boe_ero_05_03	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+4447	boe_ero_06_03	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+4829	boe_ero_07_03	Boekare	UPOS	PROPN	(revisar: sem Number)	boe_review
+5005	boe_ero_07_10	Boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+5094	boe_ero_07_12	Boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+5098	boe_ero_07_12	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5098	boe_ero_07_12	boere	XPOS	n	propn	boe_plural_propn
+5269	boe_ero_07_19	boe	UPOS	NOUN	PROPN	boe_plural_propn
+5269	boe_ero_07_19	boe	XPOS	n	propn	boe_plural_propn
+5317	boe_ero_07_21	boe	UPOS	NOUN	PROPN	boe_plural_propn
+5317	boe_ero_07_21	boe	XPOS	n	propn	boe_plural_propn
+5322	boe_ero_07_21	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5322	boe_ero_07_21	boere	XPOS	n	propn	boe_plural_propn
+5325	boe_ero_07_21	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5325	boe_ero_07_21	boere	XPOS	n	propn	boe_plural_propn
+5328	boe_ero_07_21	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5328	boe_ero_07_21	boere	XPOS	n	propn	boe_plural_propn
+5332	boe_ero_07_21	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5332	boe_ero_07_21	boere	XPOS	n	propn	boe_plural_propn
+5785	boe_ero_07_41	mare	XPOS	conj	cconj	xpos_cconj
+5799	boe_ero_07_41	boere	UPOS	NOUN	PROPN	boe_plural_propn
+5799	boe_ero_07_41	boere	XPOS	n	propn	boe_plural_propn
+5915	boe_ero_07_46	boe	UPOS	NOUN	PROPN	boe_plural_propn
+5915	boe_ero_07_46	boe	XPOS	n	propn	boe_plural_propn
+6167	boe_ero_07_58	Boere	UPOS	PROPN	(revisar: sem Number)	boe_review
+6173	boe_ero_07_58	boere	UPOS	NOUN	PROPN	boe_plural_propn
+6173	boe_ero_07_58	boere	XPOS	n	propn	boe_plural_propn
+6312	boe_ero_07_65	boe	UPOS	NOUN	PROPN	boe_plural_propn
+6312	boe_ero_07_65	boe	XPOS	n	propn	boe_plural_propn
+6362	boe_ero_07_68	boe	UPOS	NOUN	PROPN	boe_plural_propn
+6362	boe_ero_07_68	boe	XPOS	n	propn	boe_plural_propn
+6387	boe_ero_07_69	boe	UPOS	NOUN	PROPN	boe_plural_propn
+6387	boe_ero_07_69	boe	XPOS	n	propn	boe_plural_propn
+6439	boe_ero_08_04	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+6829	boe_ero_08_26	boere	UPOS	NOUN	PROPN	boe_plural_propn
+6829	boe_ero_08_26	boere	XPOS	n	propn	boe_plural_propn
+6865	boe_ero_08_28	boe	UPOS	NOUN	PROPN	boe_plural_propn
+6865	boe_ero_08_28	boe	XPOS	n	propn	boe_plural_propn
+6941	boe_ero_08_32	boe	UPOS	NOUN	PROPN	boe_plural_propn
+6941	boe_ero_08_32	boe	XPOS	n	propn	boe_plural_propn
+7080	criação-005	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7084	criação-005	Boe	UPOS	NOUN	PROPN	boe_plural_propn
+7084	criação-005	Boe	XPOS	n	propn	boe_plural_propn
+7145	criação-008	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7148	criação-008	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7240	criação-013	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+7243	criação-013	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7249	criação-013	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7254	criação-013	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7322	criação-016	boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+7359	criação-017	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7427	criação-020	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+7694	Jussila-1	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+8068	Jussila-24	Boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+8072	Jussila-24	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+8177	Jussila-1#4	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+8191	Jussila-1#5	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+8573	AdugoBiri-2.1	Boere	UPOS	NOUN	(revisar: sem Number)	boe_review
+8880	AdugoBiri-2.10	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+9465	AdugoBiri-2.10	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+9469	AdugoBiri-2.10	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+10186	5-6	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+10493	12-3	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+11732	37-2	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+12551	53-5	boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+12766	57-4	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+12909	59-6	Boe	UPOS	NOUN	PROPN	boe_plural_propn
+14174	83-1	Boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+14779	92-6	Boe	UPOS	NOUN	PROPN	boe_plural_propn
+14919	94-6	Boe	UPOS	NOUN	PROPN	boe_plural_propn
+14919	94-6	Boe	XPOS	n	propn	boe_plural_propn
+14969	95-5	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+15022	96-6	Boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+15666	104-8	mare	XPOS	conj	cconj	xpos_cconj
+16090	111-2	Mare	XPOS	conj	cconj	xpos_cconj
+16336	113-5	Mare	XPOS	conj	cconj	xpos_cconj
+16462	115-3	Mare	XPOS	conj	cconj	xpos_cconj
+16472	115-3	mare	XPOS	conj	cconj	xpos_cconj
+16800	120-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+16800	120-1	boere	XPOS	n	propn	boe_plural_propn
+16946	122-5	mare	XPOS	conj	cconj	xpos_cconj
+17137	124-2	mare	XPOS	conj	cconj	xpos_cconj
+17708	129-4	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+17708	129-4	Boere	XPOS	n	propn	boe_plural_propn
+18341	135-5	mare	XPOS	conj	cconj	xpos_cconj
+18386	136-1	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+19039	142-8	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+19039	142-8	Boere	XPOS	n	propn	boe_plural_propn
+19463	145-9	boere	UPOS	NOUN	PROPN	boe_plural_propn
+19463	145-9	boere	XPOS	n	propn	boe_plural_propn
+19535	146-4	boere	UPOS	NOUN	PROPN	boe_plural_propn
+19535	146-4	boere	XPOS	n	propn	boe_plural_propn
+19613	146-9	boere	UPOS	NOUN	PROPN	boe_plural_propn
+19613	146-9	boere	XPOS	n	propn	boe_plural_propn
+20322	151-6	boere	UPOS	NOUN	PROPN	boe_plural_propn
+20322	151-6	boere	XPOS	n	propn	boe_plural_propn
+20480	152-1	mare	XPOS	conj	cconj	xpos_cconj
+20705	153-15	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+21161	158-7	mare	XPOS	conj	cconj	xpos_cconj
+21970	164-5	boere	UPOS	NOUN	PROPN	boe_plural_propn
+21970	164-5	boere	XPOS	n	propn	boe_plural_propn
+23489	174-4	Mare	XPOS	conj	cconj	xpos_cconj
+23596	175-2	mare	XPOS	conj	cconj	xpos_cconj
+23612	175-3	mare	XPOS	conj	cconj	xpos_cconj
+23639	175-5	Mare	XPOS	conj	cconj	xpos_cconj
+23667	176-2	Mare	XPOS	conj	cconj	xpos_cconj
+24899	187-3	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+24899	187-3	Boere	XPOS	n	propn	boe_plural_propn
+26251	201-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+26251	201-1	boere	XPOS	n	propn	boe_plural_propn
+27020	206-2	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+27020	206-2	Boere	XPOS	n	propn	boe_plural_propn
+27517	210-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+27517	210-1	boere	XPOS	n	propn	boe_plural_propn
+27534	210-2	mare	XPOS	conj	cconj	xpos_cconj
+27921	213-12	Mare	XPOS	conj	cconj	xpos_cconj
+28525	220-3	boere	UPOS	NOUN	PROPN	boe_plural_propn
+28525	220-3	boere	XPOS	n	propn	boe_plural_propn
+29872	237-3	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+29872	237-3	Boere	XPOS	n	propn	boe_plural_propn
+29891	237-4	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+29891	237-4	Boere	XPOS	n	propn	boe_plural_propn
+29895	237-4	boere	UPOS	NOUN	PROPN	boe_plural_propn
+29895	237-4	boere	XPOS	n	propn	boe_plural_propn
+29914	238-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+29914	238-1	Boere	XPOS	n	propn	boe_plural_propn
+30047	239-4	Mare	XPOS	conj	cconj	xpos_cconj
+31123	256-1	mare	XPOS	conj	cconj	xpos_cconj
+31129	256-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+31129	256-1	Boere	XPOS	n	propn	boe_plural_propn
+31937	263-9	Mare	XPOS	conj	cconj	xpos_cconj
+32599	269-2	Boekare	UPOS	PROPN	(revisar: sem Number)	boe_review
+34430	294-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+34430	294-1	Boere	XPOS	n	propn	boe_plural_propn
+34476	294-4	mare	XPOS	conj	cconj	xpos_cconj
+34651	296-5	mare	XPOS	conj	cconj	xpos_cconj
+35011	300-5	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+35623	306-14	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+35658	307-2	boere	UPOS	NOUN	(revisar: sem Number)	boe_review
+36331	313-3	boere	UPOS	NOUN	PROPN	boe_plural_propn
+36331	313-3	boere	XPOS	n	propn	boe_plural_propn
+37544	327-5	Mare	XPOS	conj	cconj	xpos_cconj
+37841	329-3	Mare	XPOS	conj	cconj	xpos_cconj
+38327	336-6	Mare	XPOS	conj	cconj	xpos_cconj
+39003	344-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+39003	344-1	Boere	XPOS	n	propn	boe_plural_propn
+39127	347-2	Mare	XPOS	conj	cconj	xpos_cconj
+39400	350-7	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+40439	360-10	Mare	XPOS	conj	cconj	xpos_cconj
+40543	361-7	Mare	XPOS	conj	cconj	xpos_cconj
+40581	361-9	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+40581	361-9	Boere	XPOS	n	propn	boe_plural_propn
+40730	363-2	mare	XPOS	conj	cconj	xpos_cconj
+40920	364-10	boe	UPOS	NOUN	PROPN	boe_plural_propn
+40920	364-10	boe	XPOS	n	propn	boe_plural_propn
+41219	369-4	Boe	UPOS	PROPN	NOUN	boe_singular_noun
+41219	369-4	Boe	XPOS	propn	n	boe_singular_noun
+42164	379-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+42164	379-1	boere	XPOS	n	propn	boe_plural_propn
+42384	380-8	Mare	XPOS	conj	cconj	xpos_cconj
+43388	388-5	mare	XPOS	conj	cconj	xpos_cconj
+43690	390-10	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+44608	396-7	Mare	XPOS	conj	cconj	xpos_cconj
+45001	398-17	Mare	XPOS	conj	cconj	xpos_cconj
+45448	402-6	Mare	XPOS	conj	cconj	xpos_cconj
+45889	405-4	Boere	UPOS	NOUN	(revisar: sem Number)	boe_review
+46138	406-14	Mare	XPOS	conj	cconj	xpos_cconj
+50171	434-6	boere	UPOS	NOUN	PROPN	boe_plural_propn
+50171	434-6	boere	XPOS	n	propn	boe_plural_propn
+51163	441-7	mare	XPOS	conj	cconj	xpos_cconj
+51284	442-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+51284	442-1	boere	XPOS	n	propn	boe_plural_propn
+51287	442-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+51287	442-1	boere	XPOS	n	propn	boe_plural_propn
+51290	442-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+51290	442-1	boere	XPOS	n	propn	boe_plural_propn
+51576	444-3	Mare	XPOS	conj	cconj	xpos_cconj
+51638	444-6	mare	XPOS	conj	cconj	xpos_cconj
+51693	445-1	Mare	XPOS	conj	cconj	xpos_cconj
+51772	445-6	Mare	XPOS	conj	cconj	xpos_cconj
+51804	446-1	boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+51875	447-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+51875	447-1	boere	XPOS	n	propn	boe_plural_propn
+51996	448-3	mare	XPOS	conj	cconj	xpos_cconj
+52006	448-3	mare	XPOS	conj	cconj	xpos_cconj
+52038	448-5	mare	XPOS	conj	cconj	xpos_cconj
+52200	450-4	mare	XPOS	conj	cconj	xpos_cconj
+52393	450-16	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+52459	451-2	Mare	XPOS	conj	cconj	xpos_cconj
+52941	452-2	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+53114	452-14	mare	XPOS	conj	cconj	xpos_cconj
+54308	458-5	boere	UPOS	NOUN	PROPN	boe_plural_propn
+54308	458-5	boere	XPOS	n	propn	boe_plural_propn
+54439	458-17	mare	XPOS	conj	cconj	xpos_cconj
+54829	461-4	mare	XPOS	conj	cconj	xpos_cconj
+54931	462-6	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+56848	470-1	mare	XPOS	conj	cconj	xpos_cconj
+57675	475-11	boe	UPOS	NOUN	(revisar: sem Number)	boe_review
+58181	479-4	mare	XPOS	conj	cconj	xpos_cconj
+58679	482-3	mare	XPOS	conj	cconj	xpos_cconj
+58699	482-5	mare	XPOS	conj	cconj	xpos_cconj
+59040	483-13	Mare	XPOS	conj	cconj	xpos_cconj
+59285	484-8	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+59719	486-10	Mare	XPOS	conj	cconj	xpos_cconj
+60018	488-3	Mare	XPOS	conj	cconj	xpos_cconj
+60451	490-10	Mare	XPOS	conj	cconj	xpos_cconj
+60680	491-8	mare	XPOS	conj	cconj	xpos_cconj
+61093	493-16	Mare	XPOS	conj	cconj	xpos_cconj
+61775	496-11	Mare	XPOS	conj	cconj	xpos_cconj
+62349	498-8	Mare	XPOS	conj	cconj	xpos_cconj
+62503	498-19	Mare	XPOS	conj	cconj	xpos_cconj
+63734	503-8	mare	XPOS	conj	cconj	xpos_cconj
+63820	504-3	Mare	XPOS	conj	cconj	xpos_cconj
+63990	504-14	mare	XPOS	conj	cconj	xpos_cconj
+65451	511-3	Mare	XPOS	conj	cconj	xpos_cconj
+65465	511-3	mare	XPOS	conj	cconj	xpos_cconj
+67002	519-2	boere	UPOS	NOUN	PROPN	boe_plural_propn
+67002	519-2	boere	XPOS	n	propn	boe_plural_propn
+68720	528-4	Mare	XPOS	conj	cconj	xpos_cconj
+68729	528-4	boerogu	UPOS	NOUN	(revisar: sem Number)	boe_review
+68808	529-3	Mare	XPOS	conj	cconj	xpos_cconj
+68992	530-10	boere	UPOS	NOUN	PROPN	boe_plural_propn
+68992	530-10	boere	XPOS	n	propn	boe_plural_propn
+70150	536-22	mare	XPOS	conj	cconj	xpos_cconj
+71599	544-6	Mare	XPOS	conj	cconj	xpos_cconj
+71626	544-9	Mare	XPOS	conj	cconj	xpos_cconj
+71757	545-5	mare	XPOS	conj	cconj	xpos_cconj
+72403	548-19	Mare	XPOS	conj	cconj	xpos_cconj
+73164	551-28	Mare	XPOS	conj	cconj	xpos_cconj
+73527	553-11	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+73562	553-14	mare	XPOS	conj	cconj	xpos_cconj
+73999	555-17	mare	XPOS	conj	cconj	xpos_cconj
+74161	556-11	mare	XPOS	conj	cconj	xpos_cconj
+74413	557-14	Mare	XPOS	conj	cconj	xpos_cconj
+74438	557-16	Mare	XPOS	conj	cconj	xpos_cconj
+74758	559-7	boere	UPOS	NOUN	PROPN	boe_plural_propn
+74758	559-7	boere	XPOS	n	propn	boe_plural_propn
+75247	561-10	Mare	XPOS	conj	cconj	xpos_cconj
+75318	561-14	mare	XPOS	conj	cconj	xpos_cconj
+76225	566-4	mare	XPOS	conj	cconj	xpos_cconj
+76610	567-10	Mare	XPOS	conj	cconj	xpos_cconj
+78121	573-7	Mare	XPOS	conj	cconj	xpos_cconj
+78282	573-17	Mare	XPOS	conj	cconj	xpos_cconj
+78474	574-10	mare	XPOS	conj	cconj	xpos_cconj
+79440	578-2	boere	UPOS	NOUN	PROPN	boe_plural_propn
+79440	578-2	boere	XPOS	n	propn	boe_plural_propn
+79723	580-1	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+79786	580-8	Mare	XPOS	conj	cconj	xpos_cconj
+79808	580-10	mare	XPOS	conj	cconj	xpos_cconj
+79943	582-1	Mare	XPOS	conj	cconj	xpos_cconj
+80684	586-13	Mare	XPOS	conj	cconj	xpos_cconj
+81630	590-10	Mare	XPOS	conj	cconj	xpos_cconj
+81669	591-1	Mare	XPOS	conj	cconj	xpos_cconj
+82645	595-17	Mare	XPOS	conj	cconj	xpos_cconj
+82843	596-13	Mare	XPOS	conj	cconj	xpos_cconj
+84455	602-18	Mare	XPOS	conj	cconj	xpos_cconj
+84496	602-21	Mare	XPOS	conj	cconj	xpos_cconj
+85419	606-16	Mare	XPOS	conj	cconj	xpos_cconj
+85799	608-14	Mare	XPOS	conj	cconj	xpos_cconj
+86984	615-4	Mare	XPOS	conj	cconj	xpos_cconj
+88029	619-7	Mare	XPOS	conj	cconj	xpos_cconj
+88177	619-19	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+88896	623-4	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+89564	626-1	boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+89777	627-2	Mare	XPOS	conj	cconj	xpos_cconj
+90035	628-6	boere	UPOS	NOUN	PROPN	boe_plural_propn
+90035	628-6	boere	XPOS	n	propn	boe_plural_propn
+90308	630-12	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+90632	632-3	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+90799	633-3	Mare	XPOS	conj	cconj	xpos_cconj
+90845	633-6	mare	XPOS	conj	cconj	xpos_cconj
+91347	635-11	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+91853	637-12	Mare	XPOS	conj	cconj	xpos_cconj
+92028	638-10	Mare	XPOS	conj	cconj	xpos_cconj
+92093	639-3	Mare	XPOS	conj	cconj	xpos_cconj
+92460	641-3	Mare	XPOS	conj	cconj	xpos_cconj
+93642	647-16	Mare	XPOS	conj	cconj	xpos_cconj
+93780	648-8	mare	XPOS	conj	cconj	xpos_cconj
+94673	652-7	mare	XPOS	conj	cconj	xpos_cconj
+94929	653-19	Mare	XPOS	conj	cconj	xpos_cconj
+94946	653-20	Mare	XPOS	conj	cconj	xpos_cconj
+95128	654-12	Mare	XPOS	conj	cconj	xpos_cconj
+95841	657-14	boe	UPOS	NOUN	PROPN	boe_plural_propn
+95841	657-14	boe	XPOS	n	propn	boe_plural_propn
+97069	663-6	mare	XPOS	conj	cconj	xpos_cconj
+97129	663-10	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+97357	664-7	mare	XPOS	conj	cconj	xpos_cconj
+97490	665-4	mare	XPOS	conj	cconj	xpos_cconj
+97799	666-16	Mare	XPOS	conj	cconj	xpos_cconj
+98338	669-12	mare	XPOS	conj	cconj	xpos_cconj
+98431	670-5	Mare	XPOS	conj	cconj	xpos_cconj
+98552	670-12	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+99080	673-7	Mare	XPOS	conj	cconj	xpos_cconj
+99330	674-9	Mare	XPOS	conj	cconj	xpos_cconj
+99403	674-15	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+99681	675-16	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+99707	675-18	mare	XPOS	conj	cconj	xpos_cconj
+100108	677-9	Mare	XPOS	conj	cconj	xpos_cconj
+100492	679-5	Mare	XPOS	conj	cconj	xpos_cconj
+100524	679-7	mare	XPOS	conj	cconj	xpos_cconj
+101096	681-14	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+101295	682-4	Boe	UPOS	PROPN	NOUN	boe_singular_noun
+101326	682-8	boe	UPOS	NOUN	PROPN	boe_plural_propn
+101326	682-8	boe	XPOS	n	propn	boe_plural_propn
+101404	683-3	mare	XPOS	conj	cconj	xpos_cconj
+101557	683-15	Mare	XPOS	conj	cconj	xpos_cconj
+102103	686-8	Mare	XPOS	conj	cconj	xpos_cconj
+102170	686-13	Mare	XPOS	conj	cconj	xpos_cconj
+102184	686-14	Mare	XPOS	conj	cconj	xpos_cconj
+102285	687-3	Mare	XPOS	conj	cconj	xpos_cconj
+102845	689-12	Mare	XPOS	conj	cconj	xpos_cconj
+102864	689-13	mare	XPOS	conj	cconj	xpos_cconj
+103256	691-10	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+103312	691-14	mare	XPOS	conj	cconj	xpos_cconj
+105231	701-15	Mare	XPOS	conj	cconj	xpos_cconj
+106482	708-7	Mare	XPOS	conj	cconj	xpos_cconj
+107088	710-13	mare	XPOS	conj	cconj	xpos_cconj
+107590	713-6	mare	XPOS	conj	cconj	xpos_cconj
+107894	714-11	Mare	XPOS	conj	cconj	xpos_cconj
+108278	716-7	Mare	XPOS	conj	cconj	xpos_cconj
+108302	716-9	Mare	XPOS	conj	cconj	xpos_cconj
+109091	721-4	Mare	XPOS	conj	cconj	xpos_cconj
+109488	722-18	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+109691	724-4	mare	XPOS	conj	cconj	xpos_cconj
+109747	724-7	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+109929	725-10	Mare	XPOS	conj	cconj	xpos_cconj
+109948	725-11	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+110148	726-9	mare	XPOS	conj	cconj	xpos_cconj
+110400	728-2	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+110544	728-12	Mare	XPOS	conj	cconj	xpos_cconj
+110577	728-14	mare	XPOS	conj	cconj	xpos_cconj
+110583	728-14	mare	XPOS	conj	cconj	xpos_cconj
+110906	730-1	boe	UPOS	PROPN	(revisar: sem Number)	boe_review
+110915	730-3	boere	UPOS	NOUN	(revisar: sem Number)	boe_review
+111472	732-3	mare	XPOS	conj	cconj	xpos_cconj
+112172	735-9	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+112412	736-8	Mare	XPOS	conj	cconj	xpos_cconj
+112586	737-7	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+112625	737-10	mare	XPOS	conj	cconj	xpos_cconj
+113063	739-2	mare	XPOS	conj	cconj	xpos_cconj
+113614	741-20	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+113974	744-9	Boekare	UPOS	PROPN	(revisar: sem Number)	boe_review
+114089	744-17	mare	XPOS	conj	cconj	xpos_cconj
+114170	745-6	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+114564	747-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+114564	747-1	Boere	XPOS	n	propn	boe_plural_propn
+114759	747-13	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+114769	747-13	mare	XPOS	conj	cconj	xpos_cconj
+114830	747-18	Mare	XPOS	conj	cconj	xpos_cconj
+115833	752-9	mare	XPOS	conj	cconj	xpos_cconj
+116293	754-8	Mare	XPOS	conj	cconj	xpos_cconj
+116426	756-2	boedo	UPOS	PROPN	(revisar: sem Number)	boe_review
+116669	757-8	boere	UPOS	NOUN	PROPN	boe_plural_propn
+116669	757-8	boere	XPOS	n	propn	boe_plural_propn
+117152	760-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+117152	760-1	boere	XPOS	n	propn	boe_plural_propn
+117230	760-6	mare	XPOS	conj	cconj	xpos_cconj
+117248	760-7	boere	UPOS	NOUN	PROPN	boe_plural_propn
+117248	760-7	boere	XPOS	n	propn	boe_plural_propn
+117486	762-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+117486	762-1	Boere	XPOS	n	propn	boe_plural_propn
+118110	764-10	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+118877	768-7	Mare	XPOS	conj	cconj	xpos_cconj
+118976	769-6	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+119627	772-1	Mare	XPOS	conj	cconj	xpos_cconj
+119817	773-1	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+120076	774-4	Mare	XPOS	conj	cconj	xpos_cconj
+120284	774-21	Mare	XPOS	conj	cconj	xpos_cconj
+121877	781-8	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+122588	784-9	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+122840	786-3	mare	XPOS	conj	cconj	xpos_cconj
+123014	787-2	Mare	XPOS	conj	cconj	xpos_cconj
+123253	788-7	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+123253	788-7	Boere	XPOS	n	propn	boe_plural_propn
+123350	788-15	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+123350	788-15	Boere	XPOS	n	propn	boe_plural_propn
+123964	791-4	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+123964	791-4	Boere	XPOS	n	propn	boe_plural_propn
+123973	791-4	Boekare	UPOS	PROPN	(revisar: sem Number)	boe_review
+124216	792-5	mare	XPOS	conj	cconj	xpos_cconj
+124261	792-8	Mare	XPOS	conj	cconj	xpos_cconj
+124642	794-12	Mare	XPOS	conj	cconj	xpos_cconj
+125047	797-4	Mare	XPOS	conj	cconj	xpos_cconj
+125163	798-4	Mare	XPOS	conj	cconj	xpos_cconj
+125971	801-7	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+126546	803-8	Mare	XPOS	conj	cconj	xpos_cconj
+126650	803-15	Mare	XPOS	conj	cconj	xpos_cconj
+126835	804-3	mare	XPOS	conj	cconj	xpos_cconj
+127150	806-3	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+127206	806-6	Boedo	UPOS	PROPN	(revisar: sem Number)	boe_review
+127211	806-6	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127216	806-6	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127226	806-6	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127231	806-6	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127236	806-6	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127256	806-7	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+127528	807-6	mare	XPOS	conj	cconj	xpos_cconj
+127845	807-24	Mare	XPOS	conj	cconj	xpos_cconj
+127928	808-5	boere	UPOS	NOUN	PROPN	boe_plural_propn
+127928	808-5	boere	XPOS	n	propn	boe_plural_propn
+128202	809-4	boedo	UPOS	NOUN	(revisar: sem Number)	boe_review
+128334	809-11	mare	XPOS	conj	cconj	xpos_cconj
+128366	810-1	mare	XPOS	conj	cconj	xpos_cconj
+128424	810-5	mare	XPOS	conj	cconj	xpos_cconj
+128460	810-7	mare	XPOS	conj	cconj	xpos_cconj
+128516	810-10	mare	XPOS	conj	cconj	xpos_cconj
+128566	810-13	Mare	XPOS	conj	cconj	xpos_cconj
+128954	813-3	Mare	XPOS	conj	cconj	xpos_cconj
+129039	813-8	mare	XPOS	conj	cconj	xpos_cconj
+129085	813-11	mare	XPOS	conj	cconj	xpos_cconj
+129278	816-1	mare	XPOS	conj	cconj	xpos_cconj
+130250	824-10	mare	XPOS	conj	cconj	xpos_cconj
+130418	825-3	mare	XPOS	conj	cconj	xpos_cconj
+130768	827-13	mare	XPOS	conj	cconj	xpos_cconj
+132485	838-11	Mare	XPOS	conj	cconj	xpos_cconj
+132553	839-1	boere	UPOS	NOUN	PROPN	boe_plural_propn
+132553	839-1	boere	XPOS	n	propn	boe_plural_propn
+132566	839-2	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+132566	839-2	Boere	XPOS	n	propn	boe_plural_propn
+132645	839-8	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+132779	840-1	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+132779	840-1	Boere	XPOS	n	propn	boe_plural_propn
+133505	844-2	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+133505	844-2	Boere	XPOS	n	propn	boe_plural_propn
+133518	844-3	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+133518	844-3	Boere	XPOS	n	propn	boe_plural_propn
+133523	844-3	mare	XPOS	conj	cconj	xpos_cconj
+133777	845-5	mare	XPOS	conj	cconj	xpos_cconj
+133801	845-7	Mare	XPOS	conj	cconj	xpos_cconj
+134460	849-2	Boedo	UPOS	PROPN	(revisar: sem Number)	boe_review
+134475	849-3	Boedo	UPOS	PROPN	(revisar: sem Number)	boe_review
+134495	849-4	Mare	XPOS	conj	cconj	xpos_cconj
+134860	851-6	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+134860	851-6	Boere	XPOS	n	propn	boe_plural_propn
+135427	855-3	Mare	XPOS	conj	cconj	xpos_cconj
+135864	857-2	mare	XPOS	conj	cconj	xpos_cconj
+137143	864-6	mare	XPOS	conj	cconj	xpos_cconj
+137186	864-8	mare	XPOS	conj	cconj	xpos_cconj
+137305	865-5	Mare	XPOS	conj	cconj	xpos_cconj
+137542	867-4	mare	XPOS	conj	cconj	xpos_cconj
+137750	867-18	mare	XPOS	conj	cconj	xpos_cconj
+138583	873-1	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+139215	877-9	Mare	XPOS	conj	cconj	xpos_cconj
+140281	883-8	Mare	XPOS	conj	cconj	xpos_cconj
+141270	885-6	Boekare	UPOS	NOUN	(revisar: sem Number)	boe_review
+142135	888-11	Mare	XPOS	conj	cconj	xpos_cconj
+143078	891-4	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+143078	891-4	Boere	XPOS	n	propn	boe_plural_propn
+143605	893-7	mare	XPOS	conj	cconj	xpos_cconj
+143755	894-6	Boe	UPOS	NOUN	PROPN	boe_plural_propn
+143755	894-6	Boe	XPOS	n	propn	boe_plural_propn
+143758	894-6	boe	UPOS	NOUN	PROPN	boe_plural_propn
+143758	894-6	boe	XPOS	n	propn	boe_plural_propn
+143836	894-16	tagudugo	FEATS	Mood=Imp|Number=Plur|Person=2|Voice=IncCau	Mood=Imp|Number=Plur|Person=2|Voice=CauInc	go_cauinc
+143838	894-16	tagudugo	FEATS	Mood=Imp|Number=Plur|Person=2|Voice=IncCau	Mood=Imp|Number=Plur|Person=2|Voice=CauInc	go_cauinc
+144536	898-7	mare	XPOS	conj	cconj	xpos_cconj
+144709	899-3	boere	UPOS	NOUN	PROPN	boe_plural_propn
+144709	899-3	boere	XPOS	n	propn	boe_plural_propn
+144721	899-4	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144721	899-4	Boere	XPOS	n	propn	boe_plural_propn
+144740	899-5	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144740	899-5	Boere	XPOS	n	propn	boe_plural_propn
+144755	899-6	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144755	899-6	Boere	XPOS	n	propn	boe_plural_propn
+144771	899-7	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144771	899-7	Boere	XPOS	n	propn	boe_plural_propn
+144843	899-11	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144843	899-11	Boere	XPOS	n	propn	boe_plural_propn
+144861	899-12	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144861	899-12	Boere	XPOS	n	propn	boe_plural_propn
+144889	899-14	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144889	899-14	Boere	XPOS	n	propn	boe_plural_propn
+144904	899-15	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+144904	899-15	Boere	XPOS	n	propn	boe_plural_propn
+146201	906-14	mare	XPOS	conj	cconj	xpos_cconj
+146490	907-16	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+146490	907-16	Boere	XPOS	n	propn	boe_plural_propn
+146680	908-11	Mare	XPOS	conj	cconj	xpos_cconj
+147027	910-7	Mare	XPOS	conj	cconj	xpos_cconj
+147657	913-12	Mare	XPOS	conj	cconj	xpos_cconj
+148524	917-19	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+148524	917-19	Boere	XPOS	n	propn	boe_plural_propn
+149322	921-12	mare	XPOS	conj	cconj	xpos_cconj
+149839	923-6	Mare	XPOS	conj	cconj	xpos_cconj
+150537	925-21	Boekare	UPOS	PROPN	(revisar: sem Number)	boe_review
+150849	927-7	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+150849	927-7	Boere	XPOS	n	propn	boe_plural_propn
+150862	927-8	boere	UPOS	NOUN	PROPN	boe_plural_propn
+150862	927-8	boere	XPOS	n	propn	boe_plural_propn
+150874	927-9	boere	UPOS	NOUN	PROPN	boe_plural_propn
+150874	927-9	boere	XPOS	n	propn	boe_plural_propn
+150917	927-12	Boedo	UPOS	PROPN	(revisar: sem Number)	boe_review
+150939	927-13	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+150939	927-13	Boere	XPOS	n	propn	boe_plural_propn
+151170	928-11	mare	XPOS	conj	cconj	xpos_cconj
+151298	929-5	Mare	XPOS	conj	cconj	xpos_cconj
+151616	930-4	Mare	XPOS	conj	cconj	xpos_cconj
+151728	930-13	mare	XPOS	conj	cconj	xpos_cconj
+152310	934-8	Mare	XPOS	conj	cconj	xpos_cconj
+152507	935-3	Boedoge	UPOS	NOUN	PROPN	boe_plural_propn
+152507	935-3	Boedoge	XPOS	n	propn	boe_plural_propn
+153337	939-2.1	mare	XPOS	conj	cconj	xpos_cconj
+153446	939-11	Mare	XPOS	conj	cconj	xpos_cconj
+153632	940-6	Mare	XPOS	conj	cconj	xpos_cconj
+153650	940-7	Mare	XPOS	conj	cconj	xpos_cconj
+155820	951-8	mare	XPOS	conj	cconj	xpos_cconj
+156718	956-6	mare	XPOS	conj	cconj	xpos_cconj
+157902	961-10	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+157902	961-10	Boere	XPOS	n	propn	boe_plural_propn
+157932	961-12	Mare	XPOS	conj	cconj	xpos_cconj
+157970	962-3	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+157970	962-3	Boere	XPOS	n	propn	boe_plural_propn
+158283	963-10	Mare	XPOS	conj	cconj	xpos_cconj
+161612	981-3	Boere	UPOS	NOUN	PROPN	boe_plural_propn
+161612	981-3	Boere	XPOS	n	propn	boe_plural_propn
+162471	986-14	mare	XPOS	conj	cconj	xpos_cconj
+164199	dic_0580	epemegago	FEATS	Number=Plur|Person=3|Voice=CauI	Number=Plur|Person=3|Voice=CauInc	go_cauinc
+168382	dic_0092	akego	FEATS	Number=Sing|Person=3|Voice=CauI	Number=Sing|Person=3|Voice=CauInc	go_cauinc
+169078	dic_0236	boere	UPOS	NOUN	(revisar: sem Number)	boe_review
+169619	dic_0492	boe	UPOS	NOUN	PROPN	boe_plural_propn
+169619	dic_0492	boe	XPOS	n	propn	boe_plural_propn
+170233	dic_0873	boe	UPOS	NOUN	(revisar: sem Number)	boe_review

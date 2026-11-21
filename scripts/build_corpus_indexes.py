@@ -77,7 +77,7 @@ def conllu_morphemes(path):
    if not line or line[0]=='#' or line.isspace():continue
    cols=line.rstrip('\n').split('\t')
    if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():continue
-   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('MORPH') or md.get('GLOSS')
+   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('MORPH') or md.get('Morph') or md.get('GLOSS')  # Morph= é a grafia usada no CorBo.conllu
    if not seg or seg=='_' or not re.search(r'[-=]',seg):continue
    parts=[p for p in re.split(r'[-=]',seg) if p]
    if len(parts)<2:continue
@@ -254,7 +254,7 @@ def morpheme_token_data(path, namespace=""):
  for sent in conllu_sentences(path, namespace=namespace):
   sid=sent.get('sent_id','')
   for t in sent.get('tokens',[]):
-   md=t.get('misc') or {};seg=md.get('MORPH') or md.get('GLOSS') or '';seg_source='MISC/MORPH' if md.get('MORPH') else 'MISC/GLOSS';form=t.get('form') or ''
+   md=t.get('misc') or {};seg=md.get('MORPH') or md.get('Morph') or md.get('GLOSS') or '';seg_source='MISC/MORPH' if (md.get('MORPH') or md.get('Morph')) else 'MISC/GLOSS';form=t.get('form') or ''
    if seg and seg!='_' and re.search(r'[-=]',seg):
     parts=[p for p in re.split(r'[-=]',seg) if p]
     for i,m in enumerate(parts):
