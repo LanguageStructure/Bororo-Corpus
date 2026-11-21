@@ -16,14 +16,19 @@ O Boe-Bororo (ISO 639-3 `bor`) é falado pelo povo Boe em Mato Grosso, Brasil. O
 
 ## 2. Origem dos materiais e base de publicação
 
-| Tipo de material | Coleções | Base para publicação | Restrições |
+A coluna "O que o repositório registra" foi preenchida a partir de `CorBo_vNext/metadata/collections.tsv`, `CorBo_vNext/source-manifest/` e do README; as demais colunas dependem do responsável pelo projeto.
+
+| Material | O que o repositório registra | Base para publicação | Restrições |
 |---|---|---|---|
-| Gravações e transcrições de campo | **[A PREENCHER]** | **[A PREENCHER: consentimento livre, prévio e informado; forma de registro]** | **[A PREENCHER]** |
-| Materiais de arquivo (ex.: Pemo–Coqueiro, Archive additions, Archive parallel witnesses) | | **[A PREENCHER: acervo, autorização ou domínio público]** | |
-| Obras publicadas (ex.: *Vida Bororo* / Boe Ero) | Boe Ero | **[A PREENCHER: autorização dos titulares / uso acadêmico]** | |
-| Traduções bíblicas (Bakaru Maiwu e AT) | Textos bíblicos | **[A PREENCHER: titular dos direitos e autorização]** | |
-| Cantos e conhecimento ritual (Oiegos, Roia Kurirewu, Ekeroia) | | **[A PREENCHER]** | **[A PREENCHER: há cantos ou conhecimentos de circulação restrita?]** |
-| Conhecimento etnobotânico e de fauna | Etnobotânica | **[A PREENCHER]** | O vocabulário temático só publica entradas expressamente autorizadas (ver `docs/VOCABULARIO_TEMATICO.md`) |
+| Bakarudoge | coleção narrativa; Frederico Coqueiro; Meruri; ca. 1982–1984 | **[A PREENCHER]** | **[A PREENCHER]** |
+| Coqueiro | compilação Bororo–Português autobiográfica/histórica, 34 seções (`CorBo/Corpus_Files/biografia/`) | **[A PREENCHER]** | **[A PREENCHER]** |
+| Boe Ero – *Vida Bororo* | obra publicada; 8 textos, 276 registros paralelos | **[A PREENCHER: autorização dos titulares / uso acadêmico]** | **[A PREENCHER]** |
+| História Mítica, Adugo Biri, Marigudu, Kleber–Tiago | textos narrativos e de discurso, com testemunhos paralelos | **[A PREENCHER]** | **[A PREENCHER]** |
+| Materiais de arquivo (Pemo–Coqueiro, Archive additions, Archive parallel witnesses) | 18 arquivos TXT de um arquivo Bororo local, triados em `archive_source_triage.tsv` | **[A PREENCHER: acervo de origem, autorização ou domínio público]** | **[A PREENCHER]** |
+| Textos bíblicos e Bakaru Maiwu (NT) | arquivos `*_2-orthophon.txt` em `CorBo/Corpus_Files/bíblia/` | **[A PREENCHER: titular dos direitos e autorização]** | **[A PREENCHER]** |
+| Cantos rituais: Roia Kurirewu, Ekeroia, Oieigo | Ekeroia: 627 cantos preparados, **publicação retida** até revisão humana | **[A PREENCHER]** | **[A PREENCHER: há cantos de circulação restrita?]** |
+| Etnobotânica e fauna | vocabulário temático só publica entradas expressamente autorizadas, com planilha fora do repositório (`docs/VOCABULARIO_TEMATICO.md`) | **[A PREENCHER]** | conforme autorização por entrada |
+| Sentenças anotadas sem coleção identificada (10.554 com ID numérico, 971 `dic_`, 52 `Jussila`) | origem não registrada no repositório (ver `CorBo/validation/sent_id_groups.tsv`) | **[A PREENCHER]** | **[A PREENCHER]** |
 
 ## 3. Consentimento
 
