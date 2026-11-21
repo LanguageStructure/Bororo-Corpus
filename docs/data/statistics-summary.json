@@ -1,0 +1,258 @@
+{
+ "generated": "2026-11-21",
+ "units": 11207,
+ "tokens": 262209,
+ "types": 17756,
+ "collections": [
+  [
+   "Bakaru Maiwu",
+   7874,
+   156125
+  ],
+  [
+   "Coqueiro",
+   872,
+   49815
+  ],
+  [
+   "História Mítica",
+   192,
+   5531
+  ],
+  [
+   "1 Reis",
+   319,
+   4871
+  ],
+  [
+   "Primeiras Andanças",
+   109,
+   3998
+  ],
+  [
+   "Boe Ero",
+   276,
+   3408
+  ],
+  [
+   "Pemo–Coqueiro",
+   261,
+   3277
+  ],
+  [
+   "1 Samuel",
+   153,
+   3233
+  ],
+  [
+   "2 Reis",
+   125,
+   3027
+  ],
+  [
+   "2 Samuel",
+   120,
+   2787
+  ],
+  [
+   "Jakomea Jiwu",
+   70,
+   2678
+  ],
+  [
+   "Etnobotânica",
+   134,
+   2645
+  ],
+  [
+   "Bakororodoge",
+   64,
+   2304
+  ],
+  [
+   "Ipare Ewororo",
+   60,
+   2271
+  ],
+  [
+   "Façanha Bakororogode",
+   41,
+   2260
+  ],
+  [
+   "Josué",
+   53,
+   1199
+  ],
+  [
+   "Gêmeos Bakororodoge",
+   47,
+   1188
+  ],
+  [
+   "Juízes",
+   50,
+   1184
+  ],
+  [
+   "Parijura mata o monstro Butoriku",
+   29,
+   1122
+  ],
+  [
+   "Barujauwo",
+   33,
+   1119
+  ],
+  [
+   "Aroeceba",
+   44,
+   1089
+  ],
+  [
+   "Cirilo Discurso",
+   9,
+   1013
+  ],
+  [
+   "Jonas",
+   32,
+   877
+  ],
+  [
+   "Adugo Biri",
+   80,
+   839
+  ],
+  [
+   "1–2 Crônicas",
+   34,
+   803
+  ],
+  [
+   "Esdras",
+   20,
+   631
+  ],
+  [
+   "Rute",
+   20,
+   523
+  ],
+  [
+   "Marigudu",
+   28,
+   404
+  ],
+  [
+   "Ester",
+   13,
+   383
+  ],
+  [
+   "Aijedoge",
+   8,
+   363
+  ],
+  [
+   "Ageu",
+   5,
+   359
+  ],
+  [
+   "Cântico dos Cânticos",
+   11,
+   245
+  ],
+  [
+   "Arua Bororo II",
+   8,
+   244
+  ],
+  [
+   "Arua Bororo",
+   9,
+   186
+  ],
+  [
+   "Judite",
+   4,
+   149
+  ]
+ ],
+ "conllu": {
+  "sentences": 11904,
+  "tokens": 79272,
+  "gold_sentences": 1778,
+  "silver_sentences": 7264,
+  "review_sentences": 2862,
+  "pending_tokenization": 260,
+  "pct_tokens_automatic": 70.1
+ },
+ "upos": [
+  [
+   "VERB",
+   15488
+  ],
+  [
+   "NOUN",
+   13660
+  ],
+  [
+   "ADV",
+   10273
+  ],
+  [
+   "ADP",
+   7071
+  ],
+  [
+   "PRON",
+   5392
+  ],
+  [
+   "PROPN",
+   2874
+  ],
+  [
+   "DET",
+   2559
+  ],
+  [
+   "X",
+   1429
+  ],
+  [
+   "PART",
+   560
+  ],
+  [
+   "AUX",
+   514
+  ],
+  [
+   "INTJ",
+   427
+  ],
+  [
+   "CCONJ",
+   275
+  ],
+  [
+   "SCONJ",
+   167
+  ],
+  [
+   "NUM",
+   81
+  ],
+  [
+   "dukeje",
+   1
+  ],
+  [
+   "reo",
+   1
+  ]
+ ]
+}

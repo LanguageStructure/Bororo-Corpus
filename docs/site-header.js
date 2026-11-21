@@ -59,6 +59,10 @@
     .cb-toggle{display:block}.cb-nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid #e3e7e4;flex-direction:column;align-items:stretch;padding:8px 16px 14px}
     .cb-header.open .cb-nav{display:flex}.cb-menu{position:static;box-shadow:none;border:0;padding:0 0 0 12px}.cb-group > button{width:100%;text-align:left}
   }`;
+  // Texto Bororo: serifada feita para línguas documentadas (diacríticos, IPA). Aplica-se a todo
+  // elemento que contém palavras clicáveis (.word) e ao que estiver marcado com lang="bor".
+  const FONT_CSS = `
+  :is(p,div,span,li,td,blockquote,h3):has(> .word),[lang="bor"],.word{font-family:"Gentium Book Plus","Charis SIL",Georgia,serif}`;
   const page = (location.pathname.split('/').pop() || 'index.html');
   const isCur = href => href.split('#')[0] === page;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -66,8 +70,15 @@
   function build() {
     if (document.querySelector('.cb-header')) return;
     const style = document.createElement('style');
-    style.textContent = css;
+    style.textContent = css + FONT_CSS;
     document.head.append(style);
+    if (!document.querySelector('link[data-cb-font]')) {
+      const f = document.createElement('link');
+      f.rel = 'stylesheet';
+      f.dataset.cbFont = '1';
+      f.href = 'https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&display=swap';
+      document.head.append(f);
+    }
     const header = document.createElement('header');
     header.className = 'cb-header';
     let nav = '';
