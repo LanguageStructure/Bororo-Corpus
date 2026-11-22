@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 BASE = "https://languagestructure.github.io/Bororo-Corpus/"
-DOI = "10.5281/zenodo.23441622"
+DOI = "10.5281/zenodo.12110451"  # DOI conceitual: resolve sempre para a versão mais recente
 TODAY = date.today().isoformat()
 
 
@@ -33,8 +33,8 @@ def dataset():
                         "CoNLL-U annotation following Universal Dependencies. "
                         + (f"{stats.get('units', 0):,} documentary units, {stats.get('tokens', 0):,} tokens." if stats else "")),
         "url": BASE, "sameAs": [f"https://doi.org/{DOI}", "https://github.com/LanguageStructure/Bororo-Corpus"],
-        "identifier": f"https://doi.org/{DOI}", "version": "0.9.0",
-        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "identifier": f"https://doi.org/{DOI}", "version": "0.10.0",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {"@type": "Person", "name": "Fabrício Ferraz Gerardi", "identifier": "https://orcid.org/0000-0002-1438-7336"},
         "inLanguage": ["bor", "pt"],
         "keywords": ["Bororo", "Boe", "Bororoan", "Macro-Jê", "language documentation", "parallel corpus", "CoNLL-U",
@@ -89,7 +89,7 @@ def main():
     <institution>Boe eno moto</institution>
     <shortLocation>Mato Grosso, Brazil</shortLocation>
     <synopsis>Documentary and annotated corpus of Bororo (bor).</synopsis>
-    <access>Open access under CC BY-NC-SA 4.0.</access>
+    <access>Open access under CC BY 4.0.</access>
    </olac-archive>
   </oai:description>
  </Identify>
@@ -114,7 +114,7 @@ def main():
      <dc:description>{data['description']}</dc:description>
      <dc:identifier>https://doi.org/{DOI}</dc:identifier>
      <dc:identifier>{BASE}</dc:identifier>
-     <dcterms:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</dcterms:license>
+     <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
      <dcterms:spatial>Mato Grosso, Brazil</dcterms:spatial>
     </olac:olac>
    </oai:metadata></oai:record>

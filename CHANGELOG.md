@@ -3,7 +3,12 @@
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/). As versões publicadas
 têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
-## [Não publicado]
+## [0.10.0] — 2026-11-22
+
+### Licença e publicação
+- Licença unificada em **CC BY 4.0** (README, site, CITATION.cff, OLAC e Zenodo). Até a v0.9.0 o README indicava CC BY-NC-SA 4.0 e o Zenodo, CC BY 4.0.
+- `.zenodo.json`: registro do Zenodo passa a ser do tipo *dataset*; arquivo `LICENSE` adicionado.
+- DOI conceitual (todas as versões) usado no site e no README: 10.5281/zenodo.12110451.
 
 ### Corpus e anotação
 - Validação do CoNLL-U (`scripts/validate_conllu.py`) com relatório por linha e linha de base em CI.

@@ -87,7 +87,7 @@ def main():
         "Guia de anotação do CoNLL-U.", "CoNLL-U annotation guide (Portuguese).")
     add("documentacao", "docs/citation.bib", "citation.bib", "BibTeX", "Referência para citação.", "Citation reference.")
 
-    manifest = {"generated": date.today().isoformat(), "license": "CC BY-NC-SA 4.0",
+    manifest = {"generated": date.today().isoformat(), "license": "CC BY 4.0",
                 "doi": "10.5281/zenodo.23441622",
                 "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
                 "files": items}

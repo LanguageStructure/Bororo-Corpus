@@ -1,8 +1,8 @@
-# CorBo — Corpus da Língua Bororo (v0.9.0)
+# CorBo — Corpus da Língua Bororo (v0.10.0)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
-> **DOI:** https://doi.org/10.5281/zenodo.23441622  
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441622.svg)](https://doi.org/10.5281/zenodo.23441622)
+> **DOI (todas as versões, resolve para a mais recente):** https://doi.org/10.5281/zenodo.12110451  
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais para pesquisa, documentação, ensino e desenvolvimento de tecnologia linguística.
 
@@ -13,6 +13,7 @@ A arquitetura atual distingue explicitamente **fonte documental**, **revisão ed
 | Documento | Conteúdo |
 |---|---|
 | [Guia de anotação](docs/ANNOTATION_GUIDE.md) | convenções do CoNLL-U, decisões de anotação, marcas de anotação automática |
+| [Notas da v0.10.0](docs/RELEASE_NOTES_v0.10.0.md) · [Critérios para a 1.0](docs/ROADMAP_1.0.md) | o que mudou nesta versão e o que falta para a 1.0 |
 | [Ortografia e normalização](docs/ORTOGRAFIA.md) | grafia das fontes, diacríticos, caixa, pontuação, camada normalizada (rascunho) |
 | [Inventário de rótulos](docs/ANNOTATION_INVENTORY.md) | UPOS, XPOS, DEPREL e FEATS em uso, com contagens (gerado automaticamente) |
 | [Anotação morfológica](docs/MORPHOLOGY_ANNOTATION.md) | segmentação explícita no MISC (`Morph=`) |
@@ -120,7 +121,7 @@ O CoNLL-U canônico é verificado por `scripts/validate_conllu.py` (estrutura, r
 - `CorBo/Corpus_Files/splits/review_sentences.tsv` — sentenças a revisar;
 - `docs/data/annotation-coverage.json` — números exibidos na página **Cobertura** do site.
 
-Estado em 22 de novembro de 2026 (após as correções seguras, estruturais, de alinhamento texto × tokens e de árvores): 12.020 unidades no CoNLL-U, das quais 11.760 tokenizadas (79.272 tokens); **1.888 sentenças gold** (9.715 tokens), **8.882 silver** e 990 a revisar; 260 unidades aguardam tokenização; 835 erros de validação restantes. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
+Estado na v0.10.0 (22 de novembro de 2026): 12.020 unidades no CoNLL-U, das quais 11.760 tokenizadas (79.521 tokens); **1.900 sentenças gold** (9.802 tokens), **8.980 silver** e 880 a revisar; 260 unidades aguardam tokenização; 706 erros de validação restantes. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
 
 Para impedir regressões, a linha de base `CorBo/validation/baseline.json` registra o número de erros por categoria; a validação em CI falha se alguma categoria aumentar. Ao corrigir erros, atualize-a com `cp CorBo/validation/summary.json CorBo/validation/baseline.json`.
 
@@ -257,7 +258,7 @@ Os principais formatos são:
 
 ## Estado da versão
 
-A versão 0.9.0 (publicada no Zenodo em 17 de outubro de 2026) é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
+A versão 0.10.0 (publicada no Zenodo em 22 de novembro de 2026) é uma **versão de pesquisa em desenvolvimento**. Parte das traduções em português está desalinhada e em revisão manual; a camada silver é anotação automática. Os critérios para a versão 1.0 estão em [`docs/ROADMAP_1.0.md`](docs/ROADMAP_1.0.md). Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
 
 A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de produzir artificialmente um corpus inteiramente normalizado.
 
@@ -268,7 +269,7 @@ A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de
 - **Família:** Bororoan
 - **Região:** Mato Grosso, Brasil
 
-## Novidades após a v0.9.0 (em desenvolvimento, novembro de 2026)
+## Novidades da v0.10.0 (novembro de 2026)
 
 - **Validação do CoNLL-U** com relatório por linha e linha de base em CI (`.github/workflows/validate-conllu.yml`); 7.179 correções automáticas sem ambiguidade (erros de 4.893 para 3.706).
 - **Camadas gold e silver** derivadas do arquivo canônico e painel correspondente na página Cobertura.
@@ -329,11 +330,11 @@ Consentimento, papel da comunidade Boe, direitos sobre os materiais e restriçõ
 
 ## Licença e citação
 
-O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
+O corpus é disponibilizado sob **CC BY 4.0** (Atribuição).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441622.svg)](https://doi.org/10.5281/zenodo.23441622)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
-Versão anterior (v0.8.0): [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959).
+DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Versões anteriores: v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
 ## Autoria, parcerias e comunidades

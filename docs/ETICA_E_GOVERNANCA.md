@@ -57,7 +57,7 @@ Práticas já adotadas no repositório:
 
 ## 5. Licença e usos
 
-Dados e conteúdos sob **CC BY-NC-SA 4.0**, salvo indicação específica. Não há itens de acesso restrito. **[A PREENCHER: a comunidade foi consultada sobre a licença? Há usos que o projeto pede que não sejam feitos?]**
+Dados e conteúdos sob **CC BY 4.0**, salvo indicação específica. Não há itens de acesso restrito. **[A PREENCHER: a comunidade foi consultada sobre a licença? Há usos que o projeto pede que não sejam feitos?]**
 
 ## 6. Créditos
 
