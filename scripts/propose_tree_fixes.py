@@ -12,10 +12,15 @@ Tipos de proposta:
                 token é verbo ou a frase tem até duas palavras ("Ca !").
   reroot        o token com HEAD=0 não é verbo, e um verbo depende dele: o
                 verbo vira a raiz e o token antigo passa a depender do verbo.
+  selfloop_punct  pontuação com HEAD igual ao próprio ID passa a depender da raiz.
+  selfloop_subj pronome sujeito com HEAD igual ao próprio ID passa a depender do
+                verbo seguinte mais próximo (confiança média).
+  form_from_text FORM que só difere do # text na caixa, ou "_" onde o texto
+                tem "-", passa a reproduzir o texto.
   fill_upos     UPOS "_" é preenchido quando a mesma forma tem um UPOS
                 dominante (>= 90%, >= 3 ocorrências) no resto do corpus;
                 o token recebe Auto=upos no MISC.
-Problemas sem correção automática (ciclos, traços malformados, etc.) vão para
+Problemas sem correção automática (ciclos restantes, traços malformados, etc.) vão para
 CorBo/validation/manual_review.tsv.
 
   python3 scripts/propose_tree_fixes.py                 # gera as propostas
@@ -117,6 +122,45 @@ def upos_table(blocks):
     return tab
 
 
+def selfloop_plan(toks):
+    """Tokens cujo HEAD é o próprio ID. PUNCT passa a depender da raiz (alta);
+    pronome sujeito passa a depender do verbo seguinte mais próximo (média)."""
+    out = []
+    root = next((c[0] for _, c in toks if c[6] == "0"), None)
+    for pos, (_, c) in enumerate(toks):
+        if c[6] != c[0]:
+            continue
+        if c[3] == "PUNCT" and root and root != c[0]:
+            out.append(("selfloop_punct", "alta", pos, root, f"token {pos + 1} {c[1]}: HEAD {c[6]} (ele mesmo) → {root} (raiz)"))
+        elif c[3] == "PRON" and c[7] == "nsubj":
+            v = next((q for q in range(pos + 1, len(toks)) if toks[q][1][3] == "VERB"), None)
+            if v is not None:
+                out.append(("selfloop_subj", "média", pos, toks[v][1][0],
+                            f"token {pos + 1} {c[1]}: HEAD {c[6]} (ele mesmo) → {toks[v][1][0]} ({toks[v][1][1]})"))
+    return out
+
+
+def form_plan(text, toks):
+    """FORM que difere do # text só na caixa, ou "_" onde o texto tem "-"."""
+    out = []
+    pos = 0
+    for k, (_, c) in enumerate(toks):
+        f = c[1]
+        if f == "_":
+            j = text.find("-", pos)
+            if j >= 0 and not re.search(r"\w", text[pos:j]):
+                out.append((k, "-"))
+                pos = j + 1
+            continue
+        j = text.lower().find(f.lower(), pos)
+        if j < 0 or re.search(r"\w", text[pos:j]):
+            continue  # não alinha: fica para revisão manual
+        if text[j:j + len(f)] != f:
+            out.append((k, text[j:j + len(f)]))
+        pos = j + len(f)
+    return out
+
+
 def propose():
     blocks = read_blocks()
     tab = upos_table(blocks)
@@ -141,6 +185,10 @@ def propose():
             rt = root_plan(toks)
             if rt:
                 add(sid, rt["kind"], rt["conf"], rt["proposal"], text[:120])
+        for kind, conf, pos, head, prop in selfloop_plan(toks):
+            add(sid, kind, conf, prop, text[:120])
+        for k, new in form_plan(text, toks):
+            add(sid, "form_from_text", "alta", f"token {k + 1} {toks[k][1][1]}: FORM → {new}", text[:120])
         for pos, (_, c) in enumerate(toks):
             if c[3] == "_" and c[1] not in ("_",):
                 dist = tab.get(c[1].lower())  # "token N" = N-ésimo token da frase
@@ -150,6 +198,11 @@ def propose():
                     if tot >= 3 and k / tot >= 0.9:
                         add(sid, "fill_upos", "alta" if k / tot >= 0.97 and tot >= 5 else "média",
                             f"token {pos + 1} {c[1]}: UPOS _ → {up}", f"{k}/{tot} ocorrências como {up}")
+    if OUT.exists():  # aprovações já marcadas sobrevivem a uma nova geração
+        with OUT.open(encoding="utf-8") as fh:
+            prev = {(r["sent_id"], r["kind"], r["proposal"]): r["approve"] for r in csv.DictReader(fh, delimiter="\t")}
+        for r in rows:
+            r["approve"] = prev.get((r["sent_id"], r["kind"], r["proposal"]), "")
     with OUT.open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=FIELDS, delimiter="\t")
         w.writeheader()
@@ -219,6 +272,25 @@ def apply(alta):
                     c[6], c[7] = v[0], OLD_TO_NEW_DEPREL.get(c[3], c[7])
                     v[6], v[7] = "0", "root"
                     lines[i], lines[j] = "\t".join(c), "\t".join(v)
+            elif k in ("selfloop_punct", "selfloop_subj"):
+                m = re.match(r"token (\d+) ", r["proposal"])
+                for kind, conf, pos, head, prop in selfloop_plan(toks):
+                    if kind == k and m and pos + 1 == int(m.group(1)):
+                        i, c = toks[pos]
+                        c = list(c)
+                        c[6] = head
+                        lines[i] = "\t".join(c)
+            elif k == "form_from_text":
+                m = re.match(r"token (\d+) (.+): FORM → (.+)$", r["proposal"])
+                for pos, (i, c) in enumerate(toks):
+                    if m and pos + 1 == int(m.group(1)) and c[1] == m.group(2):
+                        c = list(c)
+                        if c[2] == c[1] or c[2] == "_":
+                            c[2] = m.group(3) if c[1] == "_" else c[2]
+                        c[1] = m.group(3)
+                        if c[3] == "_" and c[1] == "-":
+                            c[3], c[4] = "PUNCT", "punct"
+                        lines[i] = "\t".join(c)
             elif k == "fill_upos":
                 m = re.match(r"token (\d+) (.+): UPOS _ → (\S+)$", r["proposal"])
                 for pos, (i, c) in enumerate(toks):

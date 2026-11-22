@@ -17,6 +17,10 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   (lista de revisão em `CorBo/validation/acentos_revisao.tsv`); tokens de pontos reproduzem o `# text`
   (`..`, `...`, `.. .` = `..` + `.`; 408 sentenças); a forma decide `Boe` (PROPN, Plur) × `boe` (NOUN, Sing),
   111 tokens ajustados. Registro em `CorBo/validation/orthography_fixes_20261122.tsv`.
+- Terceira rodada (22/11/2026): 15 pontuações com HEAD apontando para si mesmas passam a depender da raiz;
+  86 FORMs alinhados ao `# text` (caixa e `_` → `-`). Erros de 824 para 792; gold 1.893 sentenças.
+  As 202 sentenças em que texto e tokens divergem de fato estão em `CorBo/validation/texto_tokens_revisao.tsv`
+  (`scripts/text_token_worksheet.py`), com coluna de decisão.
 - Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
 
 ### Tokenizador

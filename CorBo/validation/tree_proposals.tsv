@@ -1,151 +1,165 @@
 prop_id	sent_id	kind	confidence	proposal	detail	approve
-T0001	boe_ero_01_14-2	renumber_ids	média	renumerar 1..n; 2 ID(s) repetido(s); 3 HEAD(s) ambíguo(s) viram _	Boe egore kugu , oino , Boe egore umode toedo ai , oino , Boe egore umode tododo ai , oino Boe egore .	
-T0002	boe_ero_01_40	fill_upos	média	token 4 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0003	boe_ero_01_40	fill_upos	média	token 12 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0004	boe_ero_01_40	fill_upos	média	token 18 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0005	boe_ero_02_22	set_root	média	DEPREL de Ica (token 1): advmod → root	Ica, nonore Icare ure... ure kodokora rogu to. Ucere roiwado, ucere jorduiwado.	
-T0006	boe_ero_02_33-2	set_root	média	DEPREL de ema (token 4): nsubj → root	Icare boe etujere ema pugeje.	
-T0007	boe_ero_02_38	fill_upos	média	token 4 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0008	boe_ero_02_38	fill_upos	média	token 12 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0009	boe_ero_02_38	fill_upos	média	token 20 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0010	boe_ero_02_38	fill_upos	média	token 28 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0011	boe_ero_02_38	fill_upos	média	token 36 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0012	boe_ero_02_38	fill_upos	média	token 42 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0013	boe_ero_02_38	fill_upos	média	token 50 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
-T0014	boe_ero_02_42	fill_upos	média	token 13 tabiji: UPOS _ → ADP	4/4 ocorrências como ADP	
-T0015	boe_ero_02_42	fill_upos	média	token 17 apiji: UPOS _ → ADP	3/3 ocorrências como ADP	
-T0016	boe_ero_03_01	fill_upos	média	token 11 aroiwado: UPOS _ → VERB	3/3 ocorrências como VERB	
-T0017	boe_ero_03_33	reroot	média	erduwakare (token 5) vira raiz; Mare (token 1) passa a cc de erduwakare	Mare ukare oino, erduwakare boe ero bogai, erduwakare brae ero bogai jamedu.	
-T0018	boe_ero_04_09	fill_upos	média	token 21 Akado: UPOS _ → VERB	27/30 ocorrências como VERB	
-T0019	boe_ero_04_09	fill_upos	média	token 24 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
-T0020	boe_ero_04_09	fill_upos	média	token 27 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
-T0021	boe_ero_04_09	fill_upos	média	token 39 beto: UPOS _ → NOUN	3/3 ocorrências como NOUN	
-T0022	boe_ero_04_09	fill_upos	média	token 40 to: UPOS _ → ADP	494/546 ocorrências como ADP	
-T0023	boe_ero_04_09	fill_upos	média	token 57 to: UPOS _ → ADP	494/546 ocorrências como ADP	
-T0024	boe_ero_04_09	fill_upos	média	token 62 to: UPOS _ → ADP	494/546 ocorrências como ADP	
-T0025	boe_ero_04_09	fill_upos	média	token 67 to: UPOS _ → ADP	494/546 ocorrências como ADP	
-T0026	boe_ero_04_09	fill_upos	média	token 72 to: UPOS _ → ADP	494/546 ocorrências como ADP	
-T0027	boe_ero_04_09	fill_upos	média	token 89 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0028	boe_ero_07_69	reroot	média	egore (token 7) vira raiz; Oino (token 3) passa a advmod de egore	Oh! Oino. Ainore Boe egore, boe erore.	
-T0029	85-5	renumber_ids	média	renumerar 1..n; 1 ID(s) repetido(s); 1 HEAD(s) ambíguo(s) viram _	Inorogu iao !	
-T0030	92-6	reroot	média	bowuje (token 7) vira raiz; kimo (token 2) passa a advmod de bowuje	Boe kimo , inure iruwo rugadu bowuje .	
-T0031	146-7	reroot	média	pemegakare (token 5) vira raiz; Woe (token 1) passa a advmod de pemegakare	Woe rema...boe pemegakare woe !	
-T0032	149-4	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu marigu .	
-T0033	197-8	set_root	média	DEPREL de Nono (token 1): advmod → root	Nono tuwoadu tabo, tuiegare tabo .	
-T0034	200-11	fill_upos	média	token 8 eiogi: UPOS _ → ADP	3/3 ocorrências como ADP	
-T0035	212-4	set_root	média	DEPREL de rugadu (token 2): advmod → root	Boe rugadu, boe rugadu !	
-T0036	217-3	set_root	média	DEPREL de Toro (token 1): advmod → root	Toro, toro, toro !	
-T0037	229-5	fill_upos	média	token 2 iedaga: UPOS _ → NOUN	34/37 ocorrências como NOUN	
-T0038	237-4	fill_upos	média	token 14 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0039	239-4#2	fill_upos	média	token 1 Bako: UPOS _ → NOUN	3/3 ocorrências como NOUN	
-T0040	240-1	fill_upos	média	token 24 emaragodu: UPOS _ → VERB	3/3 ocorrências como VERB	
-T0041	240-1#2	fill_upos	média	token 1 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0042	240-1#2	fill_upos	média	token 2 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0043	240-1#2	fill_upos	média	token 3 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0044	240-1#2	fill_upos	média	token 4 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0045	240-1#2	fill_upos	média	token 5 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0046	240-1#2	fill_upos	média	token 6 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0047	265-4	fill_upos	média	token 12 ewororo: UPOS _ → NOUN	3/3 ocorrências como NOUN	
-T0048	270-1	fill_upos	média	token 7 Bororoto: UPOS _ → NOUN	4/4 ocorrências como NOUN	
-T0049	276-2	fill_upos	média	token 9 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
-T0050	276-2	fill_upos	média	token 11 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
-T0051	276-2#4	fill_upos	média	token 1 Bako: UPOS _ → NOUN	3/3 ocorrências como NOUN	
-T0052	291-1	fill_upos	média	token 18 bororo: UPOS _ → NOUN	26/28 ocorrências como NOUN	
-T0053	291-1#8	fill_upos	média	token 1 rega: UPOS _ → AUX	3/3 ocorrências como AUX	
-T0054	291-4#4	fill_upos	média	token 1 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0055	291-4#5	fill_upos	média	token 1 tuia: UPOS _ → NOUN	4/4 ocorrências como NOUN	
-T0056	291-4#6	fill_upos	média	token 1 rega: UPOS _ → AUX	3/3 ocorrências como AUX	
-T0057	300-4	fill_upos	média	token 9 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
-T0058	301-5	fill_upos	média	token 11 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
-T0059	301-5	fill_upos	média	token 15 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
-T0060	301-5	fill_upos	média	token 19 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
-T0061	308-6	fill_upos	média	token 15 erego: UPOS _ → VERB	18/19 ocorrências como VERB	
-T0062	337-14	reroot	média	padure (token 2) vira raiz; Emare (token 1) passa a nsubj de padure	Emare padure oino .	
-T0063	339-4	reroot	média	amagadu (token 5) vira raiz; dukodire (token 2) passa a advmod de amagadu	Nowu dukodire, akera amagadumodukare ji .	
-T0064	360-5	reroot	média	kodure (token 2) vira raiz; Emare (token 1) passa a nsubj de kodure	Emare kodure itododai, emare jordiware boe ji kodi .	
-T0065	360-10	fill_upos	média	token 19 jiwu: UPOS _ → ADP	34/36 ocorrências como ADP	
-T0066	362-2	fill_upos	média	token 9 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0067	391-1	set_root	média	DEPREL de jice (token 3): advmod → root	Ikodo gu jice tori kudu kae .	
-T0068	402-7	set_root	média	DEPREL de marigudu (token 3): advmod → root	Dukodire cegare marigudu apiji .	
-T0069	407-6	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu .	
-T0070	433-12	fill_upos	média	token 11 Tagaregodu: UPOS _ → VERB	4/4 ocorrências como VERB	
-T0071	433-12	fill_upos	média	token 21 kowu: UPOS _ → VERB	12/13 ocorrências como VERB	
-T0072	440-2	fill_upos	média	token 11 Tadari: UPOS _ → NOUN	3/3 ocorrências como NOUN	
-T0073	440-2	fill_upos	média	token 13 Apeo: UPOS _ → NOUN	4/4 ocorrências como NOUN	
-T0074	441-10	fill_upos	média	token 17 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0075	453-15	fill_upos	média	token 8 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0076	459-2	set_root	média	DEPREL de woe (token 3): advmod → root	Oinore ure woe marigudu .	
-T0077	459-3	set_root	média	DEPREL de jamedu (token 2): advmod → root	Boe jamedu jire Missare barogwa kododu tabo, maragodurewuge etai .	
-T0078	464-18	fill_upos	média	token 5 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
-T0079	492-8	set_root	média	DEPREL de woe (token 3): advmod → root	Ere edo woe ia bai tada .	
-T0080	492-11	renumber_ids	média	renumerar 1..n; 2 ID(s) repetido(s); 3 HEAD(s) ambíguo(s) viram _	Ewogaire iro oino .	
-T0081	493-16	reroot	média	jerimagadure (token 6) vira raiz; Mare (token 1) passa a cc de jerimagadure	Mare, nonore ure, jerimagadure .	
-T0082	496-19	set_root	média	DEPREL de kimo (token 2): advmod → root	Boe kimo rema poboe etawadu rabodu .	
-T0083	502-15	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu .	
-T0084	502-19	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu !	
-T0085	510-10	fill_upos	média	token 9 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0086	511-5	set_root	média	DEPREL de jamedu (token 5): advmod → root	Ire cewu ike aroe jamedu makai tu je .	
-T0087	517-7	set_root	média	DEPREL de Barogwa (token 1): nsubj → root	Barogwa kododu, barogwa kododu !	
-T0088	517-15	set_root	média	DEPREL de jamedu (token 4): advmod → root	Nono icare awubowu jamedu okware .	
-T0089	518-3	renumber_ids	média	renumerar 1..n; 1 ID(s) repetido(s); 1 HEAD(s) ambíguo(s) viram _	Icare cedaregodure nonogo jao to .	
-T0090	538-2	reroot	média	mugure (token 2) vira raiz; Emare (token 1) passa a nsubj de mugure	Emare mugure toro Kieria paru keje .	
-T0091	541-11	reroot	média	kodure (token 6) vira raiz; Barogwa (token 1) passa a nsubj de kodure	Barogwa kododukeje, Kiege Barege kodure .	
-T0092	544-12	set_root	média	DEPREL de kimo (token 4): advmod → root	Dukodire, boe kimo .	
-T0093	579-5	fill_upos	média	token 4 Kare: UPOS _ → NOUN	142/147 ocorrências como NOUN	
-T0094	585-3	set_root	média	DEPREL de ire (token 3): nsubj → root	Dukejere icare ire cewu ure peguru tawujewuge ire ewu nowu ino iporogu ji tu tu tu .	
-T0095	585-12	set_root	média	DEPREL de Ire (token 1): nsubj → root	Ire nowu ure peguru tawujewuge ire ewu pugeje nowu tumedage epaji .	
-T0096	590-3	set_root	média	DEPREL de Ure (token 1): nsubj → root	Ure nowu roko oiko .	
-T0097	591-4	reroot	média	kodure (token 2) vira raiz; Emare (token 1) passa a nsubj de kodure	Emare kodure oino woje, ikodure oino woje pumegi .	
-T0098	600-17	set_root	média	DEPREL de Tu (token 1): advmod → root	Tu tu tu boe jamedu ji .	
-T0099	616-15	set_root	média	DEPREL de jamedu (token 2): advmod → root	Cegi jamedu, ceegarere ji jamedu .	
-T0100	623-10	set_root	média	DEPREL de Icare (token 1): advmod → root	Icare pabaru kejewudo .	
-T0101	636-5	reroot	média	jordiware (token 2) vira raiz; Emare (token 1) passa a nsubj de jordiware	Emare jordiware nowu padredoge emagore jiboe ji .	
-T0102	636-7	reroot	média	makore (token 2) vira raiz; Emare (token 1) passa a nsubj de makore	Emare makore awu Pao Pemoji cebaru tabo, cenudumode dukeje tu tu .	
-T0103	647-1	set_root	média	DEPREL de Care (token 1): advmod → root	Care je pado ta .	
-T0104	649-9	fill_upos	média	token 11 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0105	650-11	set_root	média	DEPREL de woe (token 4): advmod → root	Inoba uwirerewuge tare woe ?	
-T0106	654-12	fill_upos	média	token 11 cekare: UPOS _ → PRON	19/21 ocorrências como PRON	
-T0107	672-13	fill_upos	média	token 10 iregodaji: UPOS _ → ADP	3/3 ocorrências como ADP	
-T0108	673-1	set_root	média	DEPREL de Dukejere (token 1): advmod → root	Dukejere icare iaboe pegarewure ure pugeje.Awu bai inodu ureore pobore pugeje oino woe pobo oiagi .	
-T0109	678-8	set_root	média	DEPREL de pagare (token 3): nsubj → root	Icare ceedu pagare .	
-T0110	705-3	set_root	média	DEPREL de udo (token 3): nsubj → root	Oinore ure udo tuwugeje !	
-T0111	712-8	reroot	média	mugure (token 2) vira raiz; Emare (token 1) passa a nsubj de mugure	Emare mugure nono boetoji .	
-T0112	720-8	set_root	média	DEPREL de baruto (token 5): obl → root	Ire ie towubo tabo baruto .	
-T0113	722-9	set_root	média	DEPREL de baruto (token 5): obl → root	Pugeje ire ie towubo baruto taci .	
-T0114	726-2	set_root	média	DEPREL de pagare (token 2): nsubj → root	Itao pagare tu je .	
-T0115	735-4	set_root	média	DEPREL de ure (token 3): nsubj → root	Jeredudu reorere ure .	
-T0116	747-6	set_root	média	DEPREL de jamedu (token 2): advmod → root	Imi jamedu iegare pagare tu ii rugadu .	
-T0117	756-5	set_root	média	DEPREL de edo (token 2): nsubj → root	Ukare edo kabi jamedu .	
-T0118	756-7	set_root	média	DEPREL de edo (token 3): nsubj → root	Icare ure edo iage kabi .	
-T0119	770-18	set_root	média	DEPREL de baruto (token 4): obl → root	Ire ietowubo tabo baruto .	
-T0120	785-8	fill_upos	média	token 14 etaregodo: UPOS _ → VERB	3/3 ocorrências como VERB	
-T0121	797-5	set_root	média	DEPREL de cere (token 2): nsubj → root	Uru cere rugadu .	
-T0122	799-5	set_root	média	DEPREL de oino (token 1): advmod → root	oino mato etae .	
-T0123	799-13	set_root	média	DEPREL de jice (token 2): advmod → root	Rakojere jice oino jice .	
-T0124	813-3	reroot	média	mugudodure (token 7) vira raiz; Mare (token 1) passa a cc de mugudodure	Mare boe eie tabo karega boe mugudodure, pemegadodure .	
-T0125	818-2	set_root	média	DEPREL de Emare (token 1): nsubj → root	Emare nogwaredurogu kimo rema .	
-T0126	818-3	reroot	média	towuje (token 5) vira raiz; Emare (token 1) passa a nsubj de towuje	Emare ure boe kugu towuje boe etai .	
-T0127	832-4	set_root	média	DEPREL de jamedu (token 2): advmod → root	Pu jamedu bie toro .	
-T0128	847-5	set_root	média	DEPREL de jamedu (token 3): advmod → root	Nonore ire jamedu .	
-T0129	847-6	fill_upos	média	token 7 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0130	847-9	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu !	
-T0131	848-3	reroot	média	padu (token 3) vira raiz; Emare (token 1) passa a nsubj de padu	Emare ie padu padure nowu boepa keje .	
-T0132	856-11	set_root	média	DEPREL de tado (token 3): nsubj → root	Icare ure tado bogai .	
-T0133	865-11	set_root	média	DEPREL de Mariguduboe (token 1): advmod → root	Mariguduboe epada nowa , nono nowu Córrego dos Índios uta keje .	
-T0134	885-9	set_root	média	DEPREL de Oinore (token 1): advmod → root	Oinore rugadure ure !	
-T0135	888-8	set_root	média	DEPREL de Ire (token 2): nsubj → root	Akire are akeno to co akeroguto to .	
-T0136	891-12	set_root	média	DEPREL de Oinore (token 1): advmod → root	Oinore karo kodu ao otore tumugui .	
-T0137	917-4	reroot	média	cenagore (token 4) vira raiz; Care (token 1) passa a advmod de cenagore	Care, oinore cenagore woe !	
-T0138	922-4	set_root	média	DEPREL de ure (token 5): nsubj → root	Dukeje icare Joku kurirewu ure !	
-T0139	929-17	fill_upos	média	token 18 tumegido: UPOS _ → VERB	3/3 ocorrências como VERB	
-T0140	929-17#2	fill_upos	média	token 2 tonajire: UPOS _ → ADP	3/3 ocorrências como ADP	
-T0141	943-6	reroot	média	Akore (token 4) vira raiz; emagere (token 5) passa a nsubj de Akore	duru ruru.Akore emagere ekodo oinono !	
-T0142	943-8	reroot	média	ekodo (token 2) vira raiz; Emagere (token 1) passa a nsubj de ekodo	Emagere ekodo oinono .	
-T0143	945-6	fill_upos	média	token 12 je: UPOS _ → ADV	295/307 ocorrências como ADV	
-T0144	960-11	set_root	média	DEPREL de Icare (token 1): advmod → root	Icare kuru pado ekajeje .	
-T0145	961-12	set_root	média	DEPREL de Mare (token 1): cc → root	Mare boepa tabore .	
-T0146	964-7	set_root	média	DEPREL de woe (token 5): advmod → root	Inagu cochiworodoge kugure edo woe, ere pobe .	
-T0147	974-6	set_root	média	DEPREL de Ierimaga (token 1): _ → root	Ierimaga bokware, betu bokware, jiri bokware .	
-T0148	984-7	reroot	média	aremo (token 6) vira raiz; rugadu (token 2) passa a advmod de aremo	Ema rugadu.Aremo, aremo, aremo !	
-T0149	dic_0557	renumber_ids	média	renumerar 1..n; 1 ID(s) repetido(s); 1 HEAD(s) ambíguo(s) viram _	ure ceru kabi ra boe ji .	
-T0150	dic_0968	set_root	média	DEPREL de ure (token 3): nsubj → root	itoki karega ure tai .	
+T0001	boe_ero_01_40	fill_upos	média	token 4 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0002	boe_ero_01_40	fill_upos	média	token 12 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0003	boe_ero_01_40	fill_upos	média	token 18 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0004	boe_ero_02_22	set_root	média	DEPREL de Ica (token 1): advmod → root	Ica, nonore Icare ure... ure kodokora rogu to. Ucere roiwado, ucere jorduiwado.	
+T0005	boe_ero_02_33-2	set_root	média	DEPREL de ema (token 4): nsubj → root	Icare boe etujere ema pugeje.	
+T0006	boe_ero_02_38	fill_upos	média	token 4 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0007	boe_ero_02_38	fill_upos	média	token 12 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0008	boe_ero_02_38	fill_upos	média	token 20 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0009	boe_ero_02_38	fill_upos	média	token 28 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0010	boe_ero_02_38	fill_upos	média	token 36 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0011	boe_ero_02_38	fill_upos	média	token 42 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0012	boe_ero_02_38	fill_upos	média	token 50 pega: UPOS _ → NOUN	73/78 ocorrências como NOUN	
+T0013	boe_ero_02_42	fill_upos	média	token 13 tabiji: UPOS _ → ADP	4/4 ocorrências como ADP	
+T0014	boe_ero_02_42	fill_upos	média	token 17 apiji: UPOS _ → ADP	3/3 ocorrências como ADP	
+T0015	boe_ero_03_01	fill_upos	média	token 11 aroiwado: UPOS _ → VERB	3/3 ocorrências como VERB	
+T0016	boe_ero_03_33	reroot	média	erduwakare (token 5) vira raiz; Mare (token 1) passa a cc de erduwakare	Mare ukare oino, erduwakare boe ero bogai, erduwakare brae ero bogai jamedu.	
+T0017	boe_ero_04_09	fill_upos	média	token 21 Akado: UPOS _ → VERB	27/30 ocorrências como VERB	
+T0018	boe_ero_04_09	fill_upos	média	token 24 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
+T0019	boe_ero_04_09	fill_upos	média	token 27 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
+T0020	boe_ero_04_09	fill_upos	média	token 39 beto: UPOS _ → NOUN	3/3 ocorrências como NOUN	
+T0021	boe_ero_04_09	fill_upos	média	token 40 to: UPOS _ → ADP	494/546 ocorrências como ADP	
+T0022	boe_ero_04_09	fill_upos	média	token 57 to: UPOS _ → ADP	494/546 ocorrências como ADP	
+T0023	boe_ero_04_09	fill_upos	média	token 62 to: UPOS _ → ADP	494/546 ocorrências como ADP	
+T0024	boe_ero_04_09	fill_upos	média	token 67 to: UPOS _ → ADP	494/546 ocorrências como ADP	
+T0025	boe_ero_04_09	fill_upos	média	token 72 to: UPOS _ → ADP	494/546 ocorrências como ADP	
+T0026	boe_ero_04_09	fill_upos	média	token 89 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0027	boe_ero_07_69	reroot	média	egore (token 7) vira raiz; Oino (token 3) passa a advmod de egore	Oh! Oino. Ainore Boe egore, boe erore.	
+T0028	19-3	selfloop_subj	média	token 6 ure: HEAD 6 (ele mesmo) → 14 (bu)	Ere mearogu maku ai , ure togwa to ji mito tu , ure bu , bu baku keje .	
+T0029	19-3	selfloop_subj	média	token 13 ure: HEAD 13 (ele mesmo) → 14 (bu)	Ere mearogu maku ai , ure togwa to ji mito tu , ure bu , bu baku keje .	
+T0030	85-5	renumber_ids	média	renumerar 1..n; 1 ID(s) repetido(s); 1 HEAD(s) ambíguo(s) viram _	Inorogu iao !	
+T0031	90-9	selfloop_subj	média	token 1 Inure: HEAD 1 (ele mesmo) → 2 (gorido)	Inure gorido .	
+T0032	92-6	reroot	média	bowuje (token 7) vira raiz; kimo (token 2) passa a advmod de bowuje	Boe kimo , inure iruwo rugadu bowuje .	
+T0033	146-7	reroot	média	pemegakare (token 5) vira raiz; Woe (token 1) passa a advmod de pemegakare	Woe rema...boe pemegakare woe !	
+T0034	149-4	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu marigu .	
+T0035	197-8	set_root	média	DEPREL de Nono (token 1): advmod → root	Nono tuwoadu tabo, tuiegare tabo .	
+T0036	200-11	fill_upos	média	token 8 eiogi: UPOS _ → ADP	3/3 ocorrências como ADP	
+T0037	212-4	set_root	média	DEPREL de rugadu (token 2): advmod → root	Boe rugadu, boe rugadu !	
+T0038	217-3	set_root	média	DEPREL de Toro (token 1): advmod → root	Toro, toro, toro !	
+T0039	229-5	fill_upos	média	token 2 iedaga: UPOS _ → NOUN	34/37 ocorrências como NOUN	
+T0040	237-4	fill_upos	média	token 14 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0041	239-4#2	fill_upos	média	token 1 Bako: UPOS _ → NOUN	3/3 ocorrências como NOUN	
+T0042	240-1	fill_upos	média	token 24 emaragodu: UPOS _ → VERB	3/3 ocorrências como VERB	
+T0043	240-1#2	fill_upos	média	token 1 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0044	240-1#2	fill_upos	média	token 2 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0045	240-1#2	fill_upos	média	token 3 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0046	240-1#2	fill_upos	média	token 4 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0047	240-1#2	fill_upos	média	token 5 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0048	240-1#2	fill_upos	média	token 6 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0049	265-4	fill_upos	média	token 12 ewororo: UPOS _ → NOUN	3/3 ocorrências como NOUN	
+T0050	270-1	fill_upos	média	token 7 Bororoto: UPOS _ → NOUN	4/4 ocorrências como NOUN	
+T0051	276-2	fill_upos	média	token 9 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
+T0052	276-2	fill_upos	média	token 11 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
+T0053	276-2#4	fill_upos	média	token 1 Bako: UPOS _ → NOUN	3/3 ocorrências como NOUN	
+T0054	278-6	selfloop_subj	média	token 2 ere: HEAD 2 (ele mesmo) → 3 (tumugudo)	Icare ere tumugudo .	
+T0055	291-1	fill_upos	média	token 18 bororo: UPOS _ → NOUN	26/28 ocorrências como NOUN	
+T0056	291-1#8	fill_upos	média	token 1 rega: UPOS _ → AUX	3/3 ocorrências como AUX	
+T0057	291-4#4	fill_upos	média	token 1 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0058	291-4#5	fill_upos	média	token 1 tuia: UPOS _ → NOUN	4/4 ocorrências como NOUN	
+T0059	291-4#6	fill_upos	média	token 1 rega: UPOS _ → AUX	3/3 ocorrências como AUX	
+T0060	300-4	fill_upos	média	token 9 ro: UPOS _ → VERB	49/51 ocorrências como VERB	
+T0061	301-5	fill_upos	média	token 11 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
+T0062	301-5	fill_upos	média	token 15 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
+T0063	301-5	fill_upos	média	token 19 ju: UPOS _ → NOUN	46/50 ocorrências como NOUN	
+T0064	308-6	fill_upos	média	token 15 erego: UPOS _ → VERB	18/19 ocorrências como VERB	
+T0065	337-14	reroot	média	padure (token 2) vira raiz; Emare (token 1) passa a nsubj de padure	Emare padure oino .	
+T0066	339-4	reroot	média	amagadu (token 5) vira raiz; dukodire (token 2) passa a advmod de amagadu	Nowu dukodire, akera amagadumodukare ji .	
+T0067	360-5	reroot	média	kodure (token 2) vira raiz; Emare (token 1) passa a nsubj de kodure	Emare kodure itododai, emare jordiware boe ji kodi .	
+T0068	360-10	fill_upos	média	token 19 jiwu: UPOS _ → ADP	34/36 ocorrências como ADP	
+T0069	362-2	fill_upos	média	token 9 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0070	374-9	selfloop_subj	média	token 2 ure: HEAD 2 (ele mesmo) → 3 (tawuje)	Icare ure tawuje .	
+T0071	391-1	set_root	média	DEPREL de jice (token 3): advmod → root	Ikodo gu jice tori kudu kae .	
+T0072	402-7	set_root	média	DEPREL de marigudu (token 3): advmod → root	Dukodire cegare marigudu apiji .	
+T0073	407-6	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu .	
+T0074	433-12	fill_upos	média	token 11 Tagaregodu: UPOS _ → VERB	4/4 ocorrências como VERB	
+T0075	433-12	fill_upos	média	token 21 kowu: UPOS _ → VERB	12/13 ocorrências como VERB	
+T0076	440-2	fill_upos	média	token 11 Tadari: UPOS _ → NOUN	3/3 ocorrências como NOUN	
+T0077	440-2	fill_upos	média	token 13 Apeo: UPOS _ → NOUN	4/4 ocorrências como NOUN	
+T0078	441-10	fill_upos	média	token 17 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0079	453-15	fill_upos	média	token 8 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0080	459-2	set_root	média	DEPREL de woe (token 3): advmod → root	Oinore ure woe marigudu .	
+T0081	459-3	set_root	média	DEPREL de jamedu (token 2): advmod → root	Boe jamedu jire Missare barogwa kododu tabo, maragodurewuge etai .	
+T0082	464-18	fill_upos	média	token 5 inodu: UPOS _ → NOUN	31/32 ocorrências como NOUN	
+T0083	492-8	set_root	média	DEPREL de woe (token 3): advmod → root	Ere edo woe ia bai tada .	
+T0084	493-16	reroot	média	jerimagadure (token 6) vira raiz; Mare (token 1) passa a cc de jerimagadure	Mare, nonore ure, jerimagadure .	
+T0085	496-19	set_root	média	DEPREL de kimo (token 2): advmod → root	Boe kimo rema poboe etawadu rabodu .	
+T0086	502-15	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu .	
+T0087	502-19	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu !	
+T0088	510-10	fill_upos	média	token 9 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0089	511-5	set_root	média	DEPREL de jamedu (token 5): advmod → root	Ire cewu ike aroe jamedu makai tu je .	
+T0090	517-7	set_root	média	DEPREL de Barogwa (token 1): nsubj → root	Barogwa kododu, barogwa kododu !	
+T0091	517-15	set_root	média	DEPREL de jamedu (token 4): advmod → root	Nono icare awubowu jamedu okware .	
+T0092	538-2	reroot	média	mugure (token 2) vira raiz; Emare (token 1) passa a nsubj de mugure	Emare mugure toro Kieria paru keje .	
+T0093	541-11	reroot	média	kodure (token 6) vira raiz; Barogwa (token 1) passa a nsubj de kodure	Barogwa kododukeje, Kiege Barege kodure .	
+T0094	544-12	set_root	média	DEPREL de kimo (token 4): advmod → root	Dukodire, boe kimo .	
+T0095	579-5	fill_upos	média	token 4 Kare: UPOS _ → NOUN	142/147 ocorrências como NOUN	
+T0096	585-3	set_root	média	DEPREL de ire (token 3): nsubj → root	Dukejere icare ire cewu ure peguru tawujewuge ire ewu nowu ino iporogu ji tu tu tu .	
+T0097	585-12	set_root	média	DEPREL de Ire (token 1): nsubj → root	Ire nowu ure peguru tawujewuge ire ewu pugeje nowu tumedage epaji .	
+T0098	590-3	set_root	média	DEPREL de Ure (token 1): nsubj → root	Ure nowu roko oiko .	
+T0099	591-4	reroot	média	kodure (token 2) vira raiz; Emare (token 1) passa a nsubj de kodure	Emare kodure oino woje, ikodure oino woje pumegi .	
+T0100	600-17	set_root	média	DEPREL de Tu (token 1): advmod → root	Tu tu tu boe jamedu ji .	
+T0101	616-15	set_root	média	DEPREL de jamedu (token 2): advmod → root	Cegi jamedu, ceegarere ji jamedu .	
+T0102	623-10	set_root	média	DEPREL de Icare (token 1): advmod → root	Icare pabaru kejewudo .	
+T0103	636-5	reroot	média	jordiware (token 2) vira raiz; Emare (token 1) passa a nsubj de jordiware	Emare jordiware nowu padredoge emagore jiboe ji .	
+T0104	636-7	reroot	média	makore (token 2) vira raiz; Emare (token 1) passa a nsubj de makore	Emare makore awu Pao Pemoji cebaru tabo, cenudumode dukeje tu tu .	
+T0105	647-1	set_root	média	DEPREL de Care (token 1): advmod → root	Care je pado ta .	
+T0106	649-9	fill_upos	média	token 11 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0107	650-11	set_root	média	DEPREL de woe (token 4): advmod → root	Inoba uwirerewuge tare woe ?	
+T0108	654-12	fill_upos	média	token 11 cekare: UPOS _ → PRON	19/21 ocorrências como PRON	
+T0109	672-13	fill_upos	média	token 10 iregodaji: UPOS _ → ADP	3/3 ocorrências como ADP	
+T0110	673-1	set_root	média	DEPREL de Dukejere (token 1): advmod → root	Dukejere icare iaboe pegarewure ure pugeje.Awu bai inodu ureore pobore pugeje oino woe pobo oiagi .	
+T0111	678-8	set_root	média	DEPREL de pagare (token 3): nsubj → root	Icare ceedu pagare .	
+T0112	701-6	selfloop_subj	média	token 4 inure: HEAD 4 (ele mesmo) → 5 (taerudiwado)	Inure tawie, inure taerudiwado .	
+T0113	705-3	set_root	média	DEPREL de udo (token 3): nsubj → root	Oinore ure udo tuwugeje !	
+T0114	712-8	reroot	média	mugure (token 2) vira raiz; Emare (token 1) passa a nsubj de mugure	Emare mugure nono boetoji .	
+T0115	720-8	set_root	média	DEPREL de baruto (token 5): obl → root	Ire ie towubo tabo baruto .	
+T0116	722-9	set_root	média	DEPREL de baruto (token 5): obl → root	Pugeje ire ie towubo baruto taci .	
+T0117	726-2	set_root	média	DEPREL de pagare (token 2): nsubj → root	Itao pagare tu je .	
+T0118	735-4	set_root	média	DEPREL de ure (token 3): nsubj → root	Jeredudu reorere ure .	
+T0119	747-6	set_root	média	DEPREL de jamedu (token 2): advmod → root	Imi jamedu iegare pagare tu ii rugadu .	
+T0120	756-5	set_root	média	DEPREL de edo (token 2): nsubj → root	Ukare edo kabi jamedu .	
+T0121	756-7	set_root	média	DEPREL de edo (token 3): nsubj → root	Icare ure edo iage kabi .	
+T0122	770-18	set_root	média	DEPREL de baruto (token 4): obl → root	Ire ietowubo tabo baruto .	
+T0123	785-8	fill_upos	média	token 14 etaregodo: UPOS _ → VERB	3/3 ocorrências como VERB	
+T0124	797-5	set_root	média	DEPREL de cere (token 2): nsubj → root	Uru cere rugadu .	
+T0125	799-5	set_root	média	DEPREL de oino (token 1): advmod → root	oino mato etae .	
+T0126	799-13	set_root	média	DEPREL de jice (token 2): advmod → root	Rakojere jice oino jice .	
+T0127	813-3	reroot	média	mugudodure (token 7) vira raiz; Mare (token 1) passa a cc de mugudodure	Mare boe eie tabo karega boe mugudodure, pemegadodure .	
+T0128	818-2	set_root	média	DEPREL de Emare (token 1): nsubj → root	Emare nogwaredurogu kimo rema .	
+T0129	818-3	reroot	média	towuje (token 5) vira raiz; Emare (token 1) passa a nsubj de towuje	Emare ure boe kugu towuje boe etai .	
+T0130	832-4	set_root	média	DEPREL de jamedu (token 2): advmod → root	Pu jamedu bie toro .	
+T0131	847-5	set_root	média	DEPREL de jamedu (token 3): advmod → root	Nonore ire jamedu .	
+T0132	847-6	fill_upos	média	token 7 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0133	847-9	set_root	média	DEPREL de Marigu (token 1): advmod → root	Marigu, marigu, marigu !	
+T0134	848-3	reroot	média	padu (token 3) vira raiz; Emare (token 1) passa a nsubj de padu	Emare ie padu padure nowu boepa keje .	
+T0135	856-11	set_root	média	DEPREL de tado (token 3): nsubj → root	Icare ure tado bogai .	
+T0136	865-11	set_root	média	DEPREL de Mariguduboe (token 1): advmod → root	Mariguduboe epada nowa , nono nowu Córrego dos Índios uta keje .	
+T0137	885-9	set_root	média	DEPREL de Oinore (token 1): advmod → root	Oinore rugadure ure !	
+T0138	888-8	set_root	média	DEPREL de Ire (token 2): nsubj → root	Akire are akeno to co akeroguto to .	
+T0139	891-12	set_root	média	DEPREL de Oinore (token 1): advmod → root	Oinore karo kodu ao otore tumugui .	
+T0140	917-4	reroot	média	cenagore (token 4) vira raiz; Care (token 1) passa a advmod de cenagore	Care, oinore cenagore woe !	
+T0141	922-4	set_root	média	DEPREL de ure (token 5): nsubj → root	Dukeje icare Joku kurirewu ure !	
+T0142	929-17	fill_upos	média	token 18 tumegido: UPOS _ → VERB	3/3 ocorrências como VERB	
+T0143	929-17#2	fill_upos	média	token 2 tonajire: UPOS _ → ADP	3/3 ocorrências como ADP	
+T0144	932-1	selfloop_subj	média	token 13 ure: HEAD 13 (ele mesmo) → 14 (maku)	Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to, ure maku inai , akore aragodumode mestre joki rigadu ?	
+T0145	943-6	reroot	média	Akore (token 4) vira raiz; emagere (token 5) passa a nsubj de Akore	duru ruru.Akore emagere ekodo oinono !	
+T0146	943-8	reroot	média	ekodo (token 2) vira raiz; Emagere (token 1) passa a nsubj de ekodo	Emagere ekodo oinono .	
+T0147	945-6	fill_upos	média	token 12 je: UPOS _ → ADV	295/307 ocorrências como ADV	
+T0148	960-11	set_root	média	DEPREL de Icare (token 1): advmod → root	Icare kuru pado ekajeje .	
+T0149	961-12	set_root	média	DEPREL de Mare (token 1): cc → root	Mare boepa tabore .	
+T0150	964-7	set_root	média	DEPREL de woe (token 5): advmod → root	Inagu cochiworodoge kugure edo woe, ere pobe .	
+T0151	974-6	set_root	média	DEPREL de Ierimaga (token 1): _ → root	Ierimaga bokware, betu bokware, jiri bokware .	
+T0152	984-7	reroot	média	aremo (token 6) vira raiz; rugadu (token 2) passa a advmod de aremo	Ema rugadu.Aremo, aremo, aremo !	
+T0153	dic_0352	selfloop_subj	média	token 1 ceiagu: HEAD 1 (ele mesmo) → 2 (cemagu)	ceiagu cemagu .	
+T0154	dic_0491	selfloop_subj	média	token 1 ere: HEAD 1 (ele mesmo) → 2 (tuiekudure)	ere tuiekudure jiwu kare erego .	
+T0155	dic_0702	selfloop_subj	média	token 3 are: HEAD 3 (ele mesmo) → 4 (ewido)	inoba jugodogeba are ewido ?	
+T0156	dic_0769	selfloop_subj	média	token 1 ure: HEAD 1 (ele mesmo) → 2 (tuiwodo)	ure tuiwodo .	
+T0157	dic_0968	set_root	média	DEPREL de ure (token 3): nsubj → root	itoki karega ure tai .	
+T0158	dic_1082	selfloop_subj	média	token 1 parade: HEAD 1 (ele mesmo) → 2 (pamagu)	(v.rejl.) parade pamagu .	
+T0159	dic_1140	selfloop_subj	média	token 1 ure: HEAD 1 (ele mesmo) → 2 (turiago)	ure turiago .	
+T0160	dic_1306	selfloop_subj	média	token 1 ui: HEAD 1 (ele mesmo) → 2 (tugeragu)	ui tugeragu boe ji .	
+T0161	dic_0150	selfloop_subj	média	token 1 anure: HEAD 1 (ele mesmo) → 2 (amagu)	anure amagu .	
+T0162	dic_0151	selfloop_subj	média	token 1 anure: HEAD 1 (ele mesmo) → 2 (akeragu)	anure akeragu boe ji .	
+T0163	dic_0729	selfloop_subj	média	token 1 irade: HEAD 1 (ele mesmo) → 2 (imagu)	irade imagu .	
+T0164	dic_1333	selfloop_subj	média	token 1 ukare: HEAD 1 (ele mesmo) → 2 (tumagu)	ukare tumagu .	

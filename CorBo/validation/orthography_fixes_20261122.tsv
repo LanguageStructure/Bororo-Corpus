@@ -518,38 +518,54 @@ dic_1016	1	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
 dic_0106	1	boe	"Boe	boe	PROPN	propn	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
 dic_0492	2	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
 dic_0873	2	boe	"boe	boe	NOUN	n	PronType=Tot"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_02_35	4	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_02_35	28	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_04_19	29	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+334-1		reticencias	. .	...
+940-13	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
 AdugoBiri-2.10#54	16	boe_lema_divergente	"Boe	ako	VERB	v	Mood=Ind|Number=Plur|Person=3"	
 133-4		reticencias_sem_alinhamento	Bure...aia, paia parokagado ji !	
 145-9		reticencias_sem_alinhamento	Inagore O!..inoba boere pugeje ?	
 167-7		reticencias_sem_alinhamento	Ia akore Hm!..Imodukare nowu utudo .	
+169-3		reticencias_sem_alinhamento	boe motunure!..Cere pagado pagarogu boe kajeje tai tai tai jii .. .	
 178-3		reticencias_sem_alinhamento	Iedure nowu aroiaji oino tu...,akore Cewu akudawurogu reo .	
+190-1		reticencias_sem_alinhamento	Eegarenure!..Icare ere parudo ta...jii ...Oinore egore roiaoji jii .. .	
 204-12		reticencias_sem_alinhamento	Inagore E!..kaba koiaba umode togududo itabo?...M!..Oino .	
 207-7		reticencias_sem_alinhamento	kae, kae, wo!..kae kae kae kae !	
+209-1		reticencias_sem_alinhamento	Icare uture tabo bai to, kodo tabo...ure turemo tabo bai to . Akore icá !	
 230-1		reticencias_sem_alinhamento	Akore ecerae cedagaru akirowo cereru butuiare ceiekorire cegudawu aewere bukorire No...no no no hu..	
 239-4		reticencias_sem_alinhamento	Mare ekare tawujedu pagado: Badojeba Bakorokudu mugure tu, taiwo tabo ei moto ra piji duji. Akore o.	
 240-1		reticencias_sem_alinhamento	Icare ere tawuje.Akore je je je je je je...je je je je je je...nowu ei tawuje dukeje, ei tugera kabi	
+241-6		reticencias_sem_alinhamento	Egore no...no no...hu...hu hu... !	
 242-2		reticencias_sem_alinhamento	Egore orowaribo piji.. .	
 249-2		reticencias_sem_alinhamento	Jo...ho...O	
 264-3		reticencias_sem_alinhamento	Ere togwa tugu to jii ...je .	
 268-10		reticencias_sem_alinhamento	Uwie akore Iba...i !	
 268-13		reticencias_sem_alinhamento	132,Omu...Omu...m o m .	
 268-15		reticencias_sem_alinhamento	Joku karaiwa Boko kuwa O...mu...O...mu .	
+269-1		reticencias_sem_alinhamento	Dukejere icare aroe eture Egore m...Wa!! !	
 269-4		reticencias_sem_alinhamento	Ia akore U...akaiwodo ii ka !	
 276-2		reticencias_sem_alinhamento	Icare akedure, dukeje icare akore Iro...atu...goia...Bako...ho...ro.ro O Icai tudui toro ji kodi .	
+291-1		reticencias_sem_alinhamento	Icare uture tabo, akore Marena...ruie...e marena...ruie ei...goia...mai...dodo jetuia...rega... Akor	
 291-4		reticencias_sem_alinhamento	Akore ei...goia...mai...do o...je...tuia...rega...ha a. .	
+300-2		reticencias_sem_alinhamento	Ire ikeragu iaji ta, itaiwore ji tu...itugugodure ji...inagore A!..Cewu boe egore Birikigadurewu, Bi	
+300-4		reticencias_sem_alinhamento	Ire ikeno pagado ji tu...ha ha...ro perigodunure ikenoto .	
 308-6		reticencias_sem_alinhamento	Ure taredo pobo to pao, taora tugu to...Itaiwore rekodaji, Inagore Wo!..Icare amode kare erego iwuod	
 318-4		reticencias_sem_alinhamento	Inagore Wo!..Itaidure pawo etugu woe ikuduwo kuruce .	
 331-9		reticencias_sem_alinhamento	Icare aomage ere ake okwa, ake rie, ake kurubeguru, ake makao, ere kireru butudo awugeje toro...ere 	
-334-1		reticencias_sem_alinhamento	Akedure icare Barege ewugejewu Roia Gigudu Mere...mere...arowe,O!..Mere mere o !	
 357-9		reticencias_sem_alinhamento	HO...o.. .	
 381-10		reticencias_sem_alinhamento	Iedaga, toro!...Iedaga reko, arududo, arududo !	
 382-13		reticencias_sem_alinhamento	Emode inogwa boro akodo pi...awuge ekugure ewogai !	
 397-2		reticencias_sem_alinhamento	Inagore Wo!..Kaiba awu kodumode ?	
 423-2		reticencias_sem_alinhamento	Icare ure tudugu kuda, kodo tabo kuri, ure bu tu... Akore ca, itore, mato tagerogu kae, itore mato t	
 432-15		reticencias_sem_alinhamento	Ikimadure apo pugeje, inagore No...no no hu...hu hu... !	
+435-7		reticencias_sem_alinhamento	Ca!..Aroe ere kowuje tu...Care aroe eture pugeje: O!! !	
 440-2		reticencias_sem_alinhamento	Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo ci	
 441-3		reticencias_sem_alinhamento	M...m.. .	
+451-7		reticencias_sem_alinhamento	Inagore M!..m!..ie!.ie!..Kaiba akagoino ji?.. .	
 452-5		reticencias_sem_alinhamento	Inagore Ie!..Icare ipadu pegare iedawu okori koia .	
+453-15		reticencias_sem_alinhamento	Kogodure, rore oino u...u...je .	
+463-17		reticencias_sem_alinhamento	Kodire inagoino tagai!..Icare itumode !	
 469-8		reticencias_sem_alinhamento	Inagore Wo!..icare kogorigadoge egogodure !	
 497-21		reticencias_sem_alinhamento	Icare cere jorugo toro tu...Icare barogwa kododure ja tuku .	
 500-5		reticencias_sem_alinhamento	Ere buke okwa to pui...pao !	
@@ -564,11 +580,15 @@ AdugoBiri-2.10#54	16	boe_lema_divergente	"Boe	ako	VERB	v	Mood=Ind|Number=Plur|Pe
 555-7		reticencias_sem_alinhamento	Egore ra...ra...ra...ra.. .	
 558-10		reticencias_sem_alinhamento	Icare inudure rugadu Krai jii ...je .	
 564-5		reticencias_sem_alinhamento	Cere nowu ika bu tu...cere cedawuje piji .	
+568-8		reticencias_sem_alinhamento	Uu!..Padre akore Tagaba tageragu ei, tagaba tageragu ei !	
 573-2		reticencias_sem_alinhamento	Cere cedaredo nowu ikato jo...Icare cedure .	
 574-1		reticencias_sem_alinhamento	Cegodo jii, cedaore kuri...cedododai, nowu kugaru kurirewu kae .	
 575-15		reticencias_sem_alinhamento	Ire imugudo keje tu...ku !	
 579-5		reticencias_sem_alinhamento	Ha ha!..Kare tu je Icare cere buke bu .	
 585-5		reticencias_sem_alinhamento	Eka kurire kode egonure juh...joruto .	
+598-6		reticencias_sem_alinhamento	Icare cedaore pobo to tu...Uu!..Oinore awu akurara cerewu, oecerewuge, kare kigadurewuge, oinore ere	
+598-11		reticencias_sem_alinhamento	Inagore Wo!..Boei tuiedui toro...Korogedu Paru keje. .	
+598-14		reticencias_sem_alinhamento	Inagore Wo!..Tadarimana kejewugei tuiedui toro.. .	
 601-25		reticencias_sem_alinhamento	Egore wo!..Ioguduba okwagemode ei ?	
 601-26		reticencias_sem_alinhamento	Inagore aró!..Kaiamo !	
 611-2		reticencias_sem_alinhamento	Inagore,Atugo aregoduio.. .	
@@ -590,7 +610,10 @@ AdugoBiri-2.10#54	16	boe_lema_divergente	"Boe	ako	VERB	v	Mood=Ind|Number=Plur|Pe
 903-13		reticencias_sem_alinhamento	Nowu aroe ure turagojedo ta...Ure tugera bu oino, ime etao keje oino woe .	
 910-1		reticencias_sem_alinhamento	Icare inagore A!..Imode itaredo awu pobo to .	
 918-5		reticencias_sem_alinhamento	Dukeje icare aije akogodure tb!..tb...tb.. .	
+924-2		reticencias_sem_alinhamento	Cegodure jii ...Aroe ekudure...Boe eegarere !	
 929-6		reticencias_sem_alinhamento	Akore gripe rakudu...Ia ikogodae .	
 929-17		reticencias_sem_alinhamento	Icare ure tugerako jodo nowu jorubo kuru bukeje gu...du tonajire akore hm...Ure nowu agulha ta piji,	
 934-7		reticencias_sem_alinhamento	Ipuredugodukejere icare meriri kudure kuri...kuri...kur i.. .	
+941-14		reticencias_sem_alinhamento	Inagore Kodire inogoinooo...itore iwage tawogai torooo... !	
+944-2		reticencias_sem_alinhamento	Inagore m..m...m...m...m!! !	
 964-5		reticencias_sem_alinhamento	Imagokare Itaiwore tu.. .	

@@ -67,3 +67,14 @@ Tipos: `renumber_ids` (IDs repetidos → 1..n, HEADs remapeados), `set_root` (ú
 Em 22/11/2026 as 506 propostas de confiança alta foram aplicadas (erros de 1.341 para 835); registro em
 `tree_applied_20261122.tsv`. As 150 de confiança média continuam em `tree_proposals.tsv` para revisão.
 `manual_review.tsv` lista os erros sem correção automática (ciclos, texto ≠ tokens, traços malformados…).
+
+### Terceira rodada e planilha texto × tokens
+
+`propose_tree_fixes.py` também propõe `selfloop_punct` (pontuação com HEAD = ela mesma → raiz),
+`selfloop_subj` (pronome sujeito com HEAD = ele mesmo → verbo seguinte; média) e `form_from_text`
+(FORM difere do texto só na caixa, ou `_` onde o texto tem `-`). Aprovações já marcadas na coluna
+`approve` são preservadas quando as propostas são geradas de novo.
+
+`scripts/text_token_worksheet.py` gera `texto_tokens_revisao.tsv`: uma linha por sentença em que o
+`# text` e os tokens divergem, com as diferenças no formato `[tokens]→[texto]` e as colunas `decisao`
+(texto | tokens | ok) e `observacao`. Decisões já preenchidas são preservadas.

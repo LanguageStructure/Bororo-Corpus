@@ -4,7 +4,7 @@
     "blocks": 12020,
     "sentences": 11760,
     "manual_sentences": 2153,
-    "tokens": 79449,
+    "tokens": 79448,
     "sentences_with_full_syntax": 11171,
     "auto_sentences": 9607,
     "auto_tokens": 49494,
@@ -15,7 +15,7 @@
     "bad_head": 3,
     "bad_token_id": 25,
     "block_without_tokens": 1,
-    "cycle": 69,
+    "cycle": 60,
     "deprel_not_ud": 5,
     "feat_malformed": 18,
     "fragment_without_sent_id": 3,
@@ -24,17 +24,17 @@
     "private_use_character": 18,
     "root_count": 11,
     "root_mismatch": 140,
-    "text_form_mismatch": 224,
+    "text_form_mismatch": 202,
     "token_ids_not_sequential": 4,
-    "upos_missing": 299,
+    "upos_missing": 298,
     "upos_not_ud": 2
   },
   "warnings": {
     "feat_undocumented": 13,
-    "head_deprel_mismatch": 2431,
+    "head_deprel_mismatch": 2430,
     "misc_malformed": 2,
     "pending_tokenization": 259,
-    "text_punct_mismatch": 397
+    "text_punct_mismatch": 400
   },
-  "error_total": 824
+  "error_total": 792
 }

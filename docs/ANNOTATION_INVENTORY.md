@@ -10,17 +10,17 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 |---|---|---:|
 | `PUNCT` | pontuação | 18357 |
 | `VERB` | verbo | 15503 |
-| `NOUN` | substantivo | 13703 |
+| `NOUN` | substantivo | 13701 |
 | `ADV` | advérbio | 10275 |
 | `ADP` | posposição | 7079 |
 | `PRON` | pronome | 5383 |
-| `PROPN` | nome próprio | 2859 |
+| `PROPN` | nome próprio | 2861 |
 | `DET` | determinante/artigo/demonstrativo | 2560 |
 | `X` | outro / não classificado | 1430 |
 | `PART` | partícula | 560 |
 | `AUX` | auxiliar | 514 |
 | `INTJ` | interjeição | 427 |
-| `_` | **fora do UD — revisar** | 299 |
+| `_` | **fora do UD — revisar** | 298 |
 | `CCONJ` | conjunção coordenativa | 275 |
 | `SCONJ` | conjunção subordinativa | 167 |
 | `NUM` | numeral | 81 |
@@ -32,12 +32,12 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | XPOS | UPOS observados |
 |---|---|
 | `punct` | `PUNCT` (18355) |
-| `n` | `NOUN` (13642), `VERB` (10), `ADV` (6), `PROPN` (5), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
+| `n` | `NOUN` (13640), `VERB` (10), `ADV` (6), `PROPN` (5), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
 | `v` | `VERB` (12026), `NOUN` (43), `ADV` (8) |
 | `adv` | `ADV` (10228), `NOUN` (1), `PRON` (1) |
 | `posp` | `ADP` (7070), `ADV` (2), `VERB` (1), `NOUN` (1) |
 | `bi` | `PRON` (4614), `PROPN` (1) |
-| `propn` | `PROPN` (2850) |
+| `propn` | `PROPN` (2852) |
 | `vt` | `VERB` (2025) |
 | `dem` | `DET` (2000) |
 | `x` | `X` (1422), `AUX` (8) |
@@ -47,7 +47,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `aux` | `AUX` (506) |
 | `det` | `DET` (464) |
 | `intj` | `INTJ` (427) |
-| `_` | `_` (299), `NOUN` (16), `VERB` (15), `ADV` (3), `ADP` (3), `PUNCT` (2), `DET` (1), `dukeje` (1), `X` (1), `PRON` (1), `PROPN` (1) |
+| `_` | `_` (298), `NOUN` (16), `VERB` (15), `ADV` (3), `ADP` (3), `PUNCT` (2), `DET` (1), `dukeje` (1), `X` (1), `PRON` (1), `PROPN` (1) |
 | `cconj` | `CCONJ` (275) |
 | `sconj` | `SCONJ` (167) |
 | `art` | `DET` (94) |
@@ -68,7 +68,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 
 | DEPREL | Tokens |
 |---|---:|
-| `punct` | 18337 |
+| `punct` | 18336 |
 | `root` | 11399 |
 | `advmod` | 9477 |
 | `nsubj` | 8619 |
@@ -133,9 +133,9 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Nomzr` | `Loc` | CorBo | nominalização locativa (a confirmar) | 10 |
 | `Nomzr` | `Rel` | CorBo | nominalização relativa (a confirmar) | 632 |
 | `Number` | `Col` | CorBo | coletivo (a confirmar; o UD usa `Coll`) | 3 |
-| `Number` | `Plur` | UD | plural | 11124 |
+| `Number` | `Plur` | UD | plural | 11126 |
 | `Number` | `Sgtv` | CorBo | singulativo (formas em -du/-edu: baraedu, imedu, onaregedu) | 256 |
-| `Number` | `Sing` | UD | singular | 21260 |
+| `Number` | `Sing` | UD | singular | 21258 |
 | `Number[psor]` | `Plur` | UD | possuidor plural | 17 |
 | `Number[psor]` | `Sing` | UD | possuidor singular | 36 |
 | `Person` | `1` | UD | primeira pessoa | 8944 |

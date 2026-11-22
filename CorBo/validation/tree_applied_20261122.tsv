@@ -506,3 +506,104 @@ T0653	dic_0579	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvor
 T0654	dic_0628	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
 T0656	dic_1273	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
 M0001	boe_ero_01_04	swap	alta	ji (15) recebe 14/case; vírgula (16) passa a 14/punct
+T0004	boe_ero_02_02	selfloop_punct	alta	token 5 ,: HEAD 5 (ele mesmo) → 4 (raiz)
+T0007	boe_ero_02_35	form_from_text	alta	token 4 boe: FORM → Boe
+T0008	boe_ero_02_35	form_from_text	alta	token 28 boe: FORM → Boe
+T0030	boe_ero_04_19	form_from_text	alta	token 29 boe: FORM → Boe
+T0032	ritual-onca-1-02	form_from_text	alta	token 4 Ceraedure: FORM → ceraedure
+T0033	AdugoBiri-2.10#54	selfloop_punct	alta	token 7 ,: HEAD 7 (ele mesmo) → 3 (raiz)
+T0034	AdugoBiri-2.10#54	selfloop_punct	alta	token 17 ,: HEAD 17 (ele mesmo) → 3 (raiz)
+T0035	AdugoBiri-2.10#54	selfloop_punct	alta	token 21 .: HEAD 21 (ele mesmo) → 3 (raiz)
+T0038	44-5	selfloop_punct	alta	token 2 .: HEAD 2 (ele mesmo) → 1 (raiz)
+T0039	51-1	selfloop_punct	alta	token 2 ,: HEAD 2 (ele mesmo) → 3 (raiz)
+T0041	85-5	selfloop_punct	alta	token 3 !: HEAD 2 (ele mesmo) → 1 (raiz)
+T0044	100-2	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 1 (raiz)
+T0045	101-1	form_from_text	alta	token 1 Akore: FORM → akore
+T0046	137-1	form_from_text	alta	token 16 _: FORM → -
+T0047	137-3	form_from_text	alta	token 1 _: FORM → -
+T0048	137-4	form_from_text	alta	token 1 _: FORM → -
+T0049	139-3	form_from_text	alta	token 1 Akore: FORM → akore
+T0052	185-12	selfloop_punct	alta	token 7 .: HEAD 7 (ele mesmo) → 1 (raiz)
+T0054	199-1	form_from_text	alta	token 7 Ba: FORM → ba
+T0059	230-1	form_from_text	alta	token 2 Ecerae: FORM → ecerae
+T0062	240-1	form_from_text	alta	token 5 akore: FORM → Akore
+T0071	267-1	form_from_text	alta	token 10 hu: FORM → Hu
+T0072	269-2	form_from_text	alta	token 2 Tagera: FORM → tagera
+T0087	306-3	form_from_text	alta	token 2 Awu: FORM → awu
+T0089	334-1	form_from_text	alta	token 5 roia: FORM → Roia
+T0090	334-1	form_from_text	alta	token 10 Mere: FORM → mere
+T0093	353-9	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0097	365-8	selfloop_punct	alta	token 6 .: HEAD 6 (ele mesmo) → 1 (raiz)
+T0100	397-4	form_from_text	alta	token 1 _: FORM → -
+T0103	409-3	form_from_text	alta	token 1 _: FORM → -
+T0104	409-3	form_from_text	alta	token 2 uu: FORM → Uu
+T0105	428-9	form_from_text	alta	token 1 _: FORM → -
+T0108	434-6	form_from_text	alta	token 2 Woere: FORM → woere
+T0109	438-3	form_from_text	alta	token 1 _: FORM → -
+T0110	438-6	form_from_text	alta	token 1 _: FORM → -
+T0111	438-7	form_from_text	alta	token 1 _: FORM → -
+T0115	447-1	form_from_text	alta	token 13 _: FORM → -
+T0116	447-1	form_from_text	alta	token 15 _: FORM → -
+T0117	447-1	form_from_text	alta	token 17 _: FORM → -
+T0118	447-1	form_from_text	alta	token 19 _: FORM → -
+T0119	447-1	form_from_text	alta	token 21 _: FORM → -
+T0120	447-1	form_from_text	alta	token 23 _: FORM → -
+T0121	447-1	form_from_text	alta	token 25 _: FORM → -
+T0122	447-1	form_from_text	alta	token 27 _: FORM → -
+T0123	447-1	form_from_text	alta	token 29 _: FORM → -
+T0124	447-1	form_from_text	alta	token 31 _: FORM → -
+T0125	447-1	form_from_text	alta	token 33 _: FORM → -
+T0126	447-1	form_from_text	alta	token 35 _: FORM → -
+T0127	447-1	form_from_text	alta	token 37 _: FORM → -
+T0128	447-1	form_from_text	alta	token 39 _: FORM → -
+T0129	447-1	form_from_text	alta	token 41 _: FORM → -
+T0130	447-1	form_from_text	alta	token 43 _: FORM → -
+T0131	447-1	form_from_text	alta	token 45 _: FORM → -
+T0133	458-6	form_from_text	alta	token 2 Itonaregedu: FORM → itonaregedu
+T0136	461-2	form_from_text	alta	token 17 Tadu: FORM → tadu
+T0137	462-13	form_from_text	alta	token 2 Kodiba: FORM → kodiba
+T0138	463-10	form_from_text	alta	token 4 nowu: FORM → Nowu
+T0140	469-7	form_from_text	alta	token 1 jii: FORM → Jii
+T0141	469-7	form_from_text	alta	token 14 _: FORM → -
+T0142	486-8	form_from_text	alta	token 16 Ioguduba: FORM → ioguduba
+T0143	491-3	form_from_text	alta	token 1 _: FORM → -
+T0144	491-4	form_from_text	alta	token 1 _: FORM → -
+T0145	491-4	form_from_text	alta	token 5 _: FORM → -
+T0146	491-5	form_from_text	alta	token 1 _: FORM → -
+T0147	491-7	form_from_text	alta	token 1 _: FORM → -
+T0148	491-7	form_from_text	alta	token 2 uu: FORM → Uu
+T0152	499-8	form_from_text	alta	token 1 _: FORM → -
+T0153	499-8	form_from_text	alta	token 2 uu: FORM → Uu
+T0156	507-31	form_from_text	alta	token 1 _: FORM → -
+T0157	507-32	form_from_text	alta	token 2 _: FORM → -
+T0162	526-5	form_from_text	alta	token 5 _: FORM → -
+T0163	526-5	form_from_text	alta	token 11 akore: FORM → Akore
+T0164	538-1	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0167	542-4	form_from_text	alta	token 3 _: FORM → -
+T0168	542-4	form_from_text	alta	token 6 _: FORM → -
+T0176	612-8	form_from_text	alta	token 1 _: FORM → -
+T0184	653-8	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0189	679-2	form_from_text	alta	token 2 Ire: FORM → ire
+T0192	705-10	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0194	714-15	selfloop_punct	alta	token 5 .: HEAD 5 (ele mesmo) → 1 (raiz)
+T0196	721-7	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0200	738-1	form_from_text	alta	token 2 Ire: FORM → ire
+T0201	744-17	form_from_text	alta	token 2 Aerdiware: FORM → aerdiware
+T0203	748-7	form_from_text	alta	token 2 _: FORM → -
+T0206	767-12	form_from_text	alta	token 2 Ire: FORM → ire
+T0207	767-12	form_from_text	alta	token 6 Ire: FORM → ire
+T0208	767-12	form_from_text	alta	token 10 Ire: FORM → ire
+T0210	773-11	form_from_text	alta	token 2 Icare: FORM → icare
+T0213	798-7	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0214	798-11	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0221	843-2	form_from_text	alta	token 1 _: FORM → -
+T0222	843-2	form_from_text	alta	token 7 Ino: FORM → ino
+T0232	894-3	form_from_text	alta	token 9 ma: FORM → Ma
+T0233	897-7	form_from_text	alta	token 2 Ikera: FORM → ikera
+T0239	940-13	form_from_text	alta	token 2 Boe: FORM → boe
+T0246	969-2	form_from_text	alta	token 9 Itore: FORM → itore
+T0248	980-2	form_from_text	alta	token 6 Kodire: FORM → kodire
+T0249	982-11	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0259	dic_1341	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0262	dic_0376	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0264	dic_1220	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)

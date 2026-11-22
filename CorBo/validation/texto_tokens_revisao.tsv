@@ -1,0 +1,203 @@
+sent_id	tipo	diferencas_tokens_para_texto	text	tokens	decisao	observacao
+109-4	fusao_ou_divisao	[Barogwatore]→[barogwa tore]	Akore barogwa tore ature mato , awo awu kagarigadoge eia iborarogu pemegado .	Akore Barogwatore ature mato , awo awu kagarigadoge eia iborarogu pemegado .		
+284-2	fusao_ou_divisao	[Bakorokudure]→[Bakoro Kudure]	Bakoro Kudure ako oino ji .	Bakorokudure ako oino ji .		
+303-2	fusao_ou_divisao	[? ,]→[?,]; [Barogwato]→[barogwa to]	Inagore  A?,Akore barogwa to imode ado oecerewu bito .	Inagore A ? , Akore Barogwato imode ado oecerewu bito .		
+489-6	fusao_ou_divisao	[bato]→[ba to]; [Atudo]→[atudo]	Icare cedure ba to . Akore atudo mato barogwa to pugeje .	Icare cedure bato . Akore Atudo mato barogwa to pugeje .		
+512-5	fusao_ou_divisao	[Barogwato]→[barogwa to]	Egore barogwa to pawugeruru mode pagerogu bogai .	Egore Barogwato pawugeruru mode pagerogu bogai .		
+617-9	fusao_ou_divisao	[Barogwato]→[barogwa to]	Akore barogwa to tamode awara akudo jii jice colchete kae .	Akore Barogwato tamode awara akudo jii jice colchete kae .		
+652-1	fusao_ou_divisao	[areduji]→[aredu ji]; [? , akore Ikoge]→[?, Akore ikoge]	Icare akore nowu aredu ji, akore Akogere?,Akore ikoge bokwa .	Icare akore nowu areduji , akore Akogere ? , akore Ikoge bokwa .		
+656-3	fusao_ou_divisao	[Barogwato]→[barogwa to]	Akore barogwa to tamode tagujagudo, tamode taejiwudo .	Akore Barogwato tamode tagujagudo , tamode taejiwudo .		
+884-42	fusao_ou_divisao	[Barogwato]→[barogwa to]	Icare Boe enogwagere nowu akuraraji.Akore barogwa to pamode iage etugu .	Icare Boe enogwagere nowu akuraraji . Akore Barogwato pamode iage etugu .		
+894-3	fusao_ou_divisao	[Mariamode]→[Maria mode]; [Ma]→[ma]	Pawo cruz bu pawugeje , Ave Maria mode pobe ma awu metuia bokware .	Pawo cruz bu pawugeje , Ave Mariamode pobe Ma awu metuia bokware .		
+101-1	fusao_ou_divisao+grafia_diferente	[aroino]→[aro oino]; [. ,]→[.,]	akore Bororo bokwa, jipa bokwa, pagare aro oino, pagare akagoino.,Atukare mato marigudu, akaregodukare mato marigudu .	akore Bororo bokwa , jipa bokwa , pagare aroino , pagare akagoino . , Atukare mato marigudu , akaregodukare mato marigudu .		
+183-10	fusao_ou_divisao+grafia_diferente	[porekuduji]→[porekudu ji]; [Ire]→[ire]; [.]→[to ...]	Ire ikeragu tu porekudu ji taci , ire to moto to ...	Ire ikeragu tu porekuduji taci , Ire to moto .		
+190-1	fusao_ou_divisao+grafia_diferente	[! ..]→[!..]; [.]→[... jii ...]	Eegarenure!..Icare ere parudo ta...jii ...Oinore egore roiaoji jii .. .	Eegarenure ! .. Icare ere parudo ta . Oinore egore roiaoji jii .. .		
+269-2	fusao_ou_divisao+grafia_diferente	[Baadojeba]→[Badojeba]; [egore Boekare]→[Egore boekare]	Egore tagera bu Badojeba aogeje Egore boekare !	Egore tagera bu Baadojeba aogeje egore Boekare !		
+345-3	fusao_ou_divisao+grafia_diferente	[Baadojeba]→[Badojeba]; [Uwo]→[uwo]	Icare eture apo, toro bato Ere bapo maku Badojeba Bakoro Kudu ai, uwo Bakororo ika bu nowu barogo biri keje .	Icare eture apo , toro bato Ere bapo maku Baadojeba Bakoro Kudu ai , Uwo Bakororo ika bu nowu barogo biri keje .		
+723-1	fusao_ou_divisao+grafia_diferente	[peganure]→[paganure]; [uu]→[Uu]	Imugu paganure rugadu tu...Uu !	Imugu peganure rugadu tu ... uu !		
+840-1	fusao_ou_divisao+grafia_diferente	[! ..]→[!..]; [turoino]→[turo oino]	A!..Boere nowu turo oino jiwu akedudo taci, icare Boe eture .	A ! .. Boere nowu turoino jiwu akedudo taci , icare Boe eture .		
+840-6	fusao_ou_divisao+grafia_diferente	[kigodure : -Tamagodo]→[kigodureTamagodo]; [Uwo]→[uwo]	Kodire Boe ego kigodureTamagodo Mestreji uwo pamaragodudo .	Kodire Boe ego kigodure : -Tamagodo Mestreji Uwo pamaragodudo .		
+888-8	fusao_ou_divisao+grafia_diferente	[Ire]→[are]; [ake roguto]→[akeroguto]	Akire are akeno to co akeroguto to .	Akire Ire akeno to co ake roguto to .		
+ritual-onca-1-02	fusao_ou_divisao+grafia_diferente	[ro oino]→[roino]; [ro oino]→[roino]; [kurirewu]→[Kurirewu]; [ro oino]→[roino]; [ro oino]→[roino]; [ro oino]→[roino]	Boe egore cewu ceraedure roino ji , cewu Baadojebare roino ji , Aroia Kurirewu mori cere roino ji , Tadugio mori cere roino ji , Jakomea Kurirewu mori cere roino ji .	Boe egore cewu ceraedure ro oino ji , cewu Baadojebare ro oino ji , Aroia kurirewu mori cere ro oino ji , Tadugio mori cere ro oino ji , Jakomea Kurirewu mori cere ro oino ji .		
+642-3	fusao_ou_divisao+grafia_diferente+texto_tem_mais	[ceroino]→[cero oino]; [. ,]→[.,]; []→[pugeje .]	Cere nowu cero oino jiwu akedudo.,Awubowure cemode pemegado barogwa to pugeje .	Cere nowu ceroino jiwu akedudo . , Awubowure cemode pemegado barogwa to		
+199-1	fusao_ou_divisao+grafia_diferente+tokens_tem_mais	[bato]→[ba to]; [ba]→[Ba !!]; [!]→[]	Icare etaregodure ba to .Areme ekudugodure Ba!! !	Icare etaregodure bato . Areme ekudugodure ba ! !		
+boe_ero_02_15	fusao_ou_divisao+texto_tem_mais	[]→[: Are]; [atu kaba]→[atukaba]; []→[.]	"Akore: ""Are, atukaba toro. Are, mato""."	Akore , atu kaba toro . Are , mato		
+102-2	grafia_diferente	[iroino]→[iro oino]; [iroino]→[iro oino]	Itaregodu ioruduwo kuruie eno jipa jire iro oino, ioruduwo kuruie eno jiwuda jire iro oino. Akore uu !	Itaregodu ioruduwo kuruie eno jipa jire iroino , ioruduwo kuruie eno jiwuda jire iroino . Akore uu !		
+103-7	grafia_diferente	[Apogurukaba]→[Apoguru]	Apoguru amagoi jituji .	Apogurukaba amagoi jituji .		
+104-3	grafia_diferente	[iroino]→[iro oino]	Imagore Iorduwo aire iro oino .	Imagore Iorduwo aire iroino .		
+113-1	grafia_diferente	[akore mato]→[Mato]	Inagore Mato ia pagoroerogu tabo !	Inagore akore mato ia pagoroerogu tabo !		
+113-2	grafia_diferente	[inago oino]→[inagoino]	Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire inagoino .	Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire inago oino .		
+122-3	grafia_diferente	[imetuia]→[imedage]	Nowu imedage egore oinore icare , padumode kuiada kuru kae .	Nowu imetuia egore oinore icare , padumode kuiada kuru kae .		
+134-2	grafia_diferente	[imetuia]→[imedage]	Cewu imedage egore Iareo pugeje .	Cewu imetuia egore Iareo pugeje .		
+136-2	grafia_diferente	[imetuia]→[imedage]	Cewu imedage egore Pawo pagerogu to pui, pagogwa amogoduwo .	Cewu imetuia egore Pawo pagerogu to pui , pagogwa amogoduwo .		
+139-3	grafia_diferente	[Ire]→[are]	akore Inoba are udo ?	akore Inoba Ire udo ?		
+149-12	grafia_diferente	[Ire]→[are]	Kodi icare are ipogurudo .	Kodi icare Ire ipogurudo .		
+154-4	grafia_diferente	[.]→[.***]	Egore emarice pado oino .***	Egore emarice pado oino .		
+154-5	grafia_diferente	[.]→[.***]	Oinore akodure bai oino .***	Oinore akodure bai oino .		
+154-7	grafia_diferente	[.]→[.***]	Icare ikodo bai oino, nowu enogwa kodaji.***	Icare ikodo bai oino , nowu enogwa kodaji .		
+177-3	grafia_diferente	[akore mato]→[mato]	Icare ia bararedo kurirewudo, boe egore juretora, juretora oino, akore mato !	Icare ia bararedo kurirewudo , boe egore juretora , juretora oino , akore akore mato !		
+197-6	grafia_diferente	[akoino]→[ako oino]; [aki]→[akire]	Pagare ako oino, akire aro rakaguragare .	Pagare akoino , aki aro rakaguragare .		
+204-12	grafia_diferente	[!]→[!..]; [. .]→[?... M !..]	Inagore E!..kaba koiaba umode togududo itabo?...M!..Oino .	Inagore E ! kaba koiaba umode togududo itabo . . Oino .		
+222-5	grafia_diferente	[Ire]→[are]	Akire are iwara pagado bogai .	Akire Ire iwara pagado bogai .		
+228-4	grafia_diferente	[akore mato]→[mato]	Egore mato, mato mato !	Egore akore mato , mato mato !		
+23-2	grafia_diferente	[moturewuge ji]→[moturewugei]	Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia ime moturewugei , aeruduwo ia areme moturewuge ji .	Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia ime moturewuge ji , aeruduwo ia areme moturewuge ji .		
+230-1	grafia_diferente	[.]→[... no no no hu ...]; [. ! ,]→[...!]	Akore ecerae cedagaru akirowo cereru butuiare ceiekorire cegudawu aewere bukorire No...no no no hu...hu hu...!	Akore ecerae cedagaru akirowo cereru butuiare ceiekorire cegudawu aewere bukorire No . hu hu . ! ,		
+239-4	grafia_diferente	[Baadojeba]→[Badojeba]; [O .]→[o ... Bako ... roro ... kaire , kaire Iroia wa wo !]	Mare ekare tawujedu pagado: Badojeba Bakorokudu mugure tu, taiwo tabo ei moto ra piji duji. Akore o...Bako...roro...kaire, kaire Iroia wa wo !	Mare ekare tawujedu pagado : Baadojeba Bakorokudu mugure tu , taiwo tabo ei moto ra piji duji . Akore O .		
+240-1	grafia_diferente	[.]→[... je je je je je je ...]	Icare ere tawuje.Akore je je je je je je...je je je je je je...nowu ei tawuje dukeje, ei tugera kabi jitu keje, emaragodu butuguuuwo ji, ekera butuguuuwo ji .	Icare ere tawuje . Akore je je je je je je . nowu ei tawuje dukeje , ei tugera kabi jitu keje , emaragodu butuguuuwo ji , ekera butuguuuwo ji .		
+261-9	grafia_diferente	[inagoino]→[inago oino]	Tamearudae tugu inago oino jiboe ji .	Tamearudae tugu inagoino jiboe ji .		
+266-1	grafia_diferente	[ako]→[iko]	Icare ere nowu ika iko akedudo .	Icare ere nowu ika ako akedudo .		
+267-1	grafia_diferente	[oino : -Hu Hu]→[oinoHu hu]	Ca, nowu akedukeje icare egore oinoHu hu u.. .	Ca , nowu akedukeje icare egore oino : -Hu Hu u .. .		
+276-2	grafia_diferente	[.]→[... atu ... goia ... Bako ... ho ...]	Icare akedure, dukeje icare akore Iro...atu...goia...Bako...ho...ro.ro O Icai tudui toro ji kodi .	Icare akedure , dukeje icare akore Iro . ro . ro O Icai tudui toro ji kodi .		
+289-1	grafia_diferente	[aki]→[akire]; [.]→[.,]	Akedure, dukeje icare Boe egore Ca, akire akonagodure Juredogei.,Akire amode kodo cedo marenaruie tabo .	Akedure , dukeje icare Boe egore Ca , aki akonagodure Juredogei . Akire amode kodo cedo marenaruie tabo .		
+291-1	grafia_diferente	[. , akore]→[... ruie ... e marena ... ruie ei ... goia ... mai ... dodo jetuia ... rega ... Akore]	Icare uture tabo, akore Marena...ruie...e marena...ruie ei...goia...mai...dodo jetuia...rega... Akore, ecewu kodo tabo toro bato, kodure bororo ji jii .. .	Icare uture tabo , akore Marena . , akore , ecewu kodo tabo toro bato , kodure bororo ji jii .. .		
+291-4	grafia_diferente	[.]→[... mai ... do o ... je ... tuia ... rega ...]	Akore ei...goia...mai...do o...je...tuia...rega...ha a. .	Akore ei ... goia . ha a . .		
+296-2	grafia_diferente	[tagaaregodure]→[tagaregodure]	Icare tagaregodure !	Icare tagaaregodure !		
+300-2	grafia_diferente	[. .]→[... itugugodure ji ... inagore A !..]; [..]→[?..]	Ire ikeragu iaji ta, itaiwore ji tu...itugugodure ji...inagore A!..Cewu boe egore Birikigadurewu, Birikigadurewu ino jiboe kana?.. .	Ire ikeragu iaji ta , itaiwore ji tu . . Cewu boe egore Birikigadurewu , Birikigadurewu ino jiboe kana .. .		
+306-3	grafia_diferente	[Ire]→[are]	Akore awu jire are buodo barigu awuji jicegodu .	Akore awu jire Ire buodo barigu awuji jicegodu .		
+308-6	grafia_diferente	[. .]→[... Itaiwore rekodaji , Inagore Wo !..]	Ure taredo pobo to pao, taora tugu to...Itaiwore rekodaji, Inagore Wo!..Icare amode kare erego iwuodo piji !	Ure taredo pobo to pao , taora tugu to . . Icare amode kare erego iwuodo piji !		
+336-2	grafia_diferente	[aki]→[akire]	Icare egore imedu, akire akonagodure ji .	Icare egore imedu , aki akonagodure ji .		
+339-7	grafia_diferente	[_ uu]→[149 - Uu]	149 - Uu !	_ uu !		
+353-10	grafia_diferente	[Ire]→[are]; [Ire]→[are]; [Ire]→[are]; [Ire]→[are]	Inodu jire are acebado boeruce, are acebado pobo boice, are acebado awure korice, apogora korice, are acebado ake boice, akuroroce, nowu pega inoduji, nowu mono inoduji du reno .	Inodu jire Ire acebado boeruce , Ire acebado pobo boice , Ire acebado awure korice , apogora korice , Ire acebado ake boice , akuroroce , nowu pega inoduji , nowu mono inoduji du reno .		
+353-9	grafia_diferente	[aroino]→[aro oino]	Nowu pega, nowu pega, nowu mono, nowu arodu, nowu okwarigudu inodu aro oino, inodu jire akagoino .	Nowu pega , nowu pega , nowu mono , nowu arodu , nowu okwarigudu inodu aroino , inodu jire akagoino .		
+360-8	grafia_diferente	[itododae]→[itododai]; [Boe]→[, boe]	Kodumodukare itododai dukeje , iragojemode boe tada , kodumodukare itododae dukeje itaregodumodukare , boe etae .	Kodumodukare itododae dukeje , iragojemode boe tada , kodumodukare itododae dukeje itaregodumodukare Boe etae .		
+361-11	grafia_diferente	[egoino]→[ego oino]	Dukodire ego oino ji .	Dukodire egoino ji .		
+400-1	grafia_diferente	[imetuia]→[imedage]	Icare imedage etaregodure .	Icare imetuia etaregodure .		
+402-14	grafia_diferente	[aroino]→[aro oino]	Inogwa akemore nowu aro oino jiboe ji .	Inogwa akemore nowu aroino jiboe ji .		
+413-11	grafia_diferente	[ceroino]→[cero oino]	Cege boe bogaire cero oino jice woje, jice woje .	Cege boe bogaire ceroino jice woje , jice woje .		
+432-15	grafia_diferente	[.]→[... no no hu ... hu hu ... !]	Ikimadure apo pugeje, inagore No...no no hu...hu hu... !	Ikimadure apo pugeje , inagore No .		
+438-4	grafia_diferente	[_]→[171 -]	171 - Ituie, akerogu reo !	_ Ituie , akerogu reo !		
+451-10	grafia_diferente	[.]→[., Aiwore toro pobo to , akore Wao !]	Itaiwore tu je ma, rakojere nowu pobo okwai.,Aiwore toro pobo to, akore Wao !	Itaiwore tu je ma , rakojere nowu pobo okwai .		
+451-23	grafia_diferente	[iroino]→[iro oino]	Boe pega tabore iro oino ai !	Boe pega tabore iroino ai !		
+451-7	grafia_diferente	[!]→[!..]; [. .]→[!.. ie !. ie !..]; [..]→[?..]	Inagore M!..m!..ie!.ie!..Kaiba akagoino ji?.. .	Inagore M ! m . . Kaiba akagoino ji .. .		
+457-1	grafia_diferente	[eroino]→[ero oino]	Aregodure woe, ure nowu tugo makai, akore Padre, akaiwodo Boe emaragodaeji, inagu tapira pagudu bokwarewu jire ero oino .	Aregodure woe , ure nowu tugo makai , akore Padre , akaiwodo Boe emaragodaeji , inagu tapira pagudu bokwarewu jire eroino .		
+457-2	grafia_diferente	[eroino]→[ero oino]	Ire mokuro kuru tawuje tawuje itore kugure ekeje, duwu tapira jire ero oino .	Ire mokuro kuru tawuje tawuje itore kugure ekeje , duwu tapira jire eroino .		
+458-7	grafia_diferente	[aki]→[akire]	Iaboe bokwa akujegajeje, aporugajeje, akire atugore awoigare amidodu tabo .	Iaboe bokwa akujegajeje , aporugajeje , aki atugore awoigare amidodu tabo .		
+462-13	grafia_diferente	[aroino]→[aro oino]	Akore kodiba aro oino ji ?	Akore kodiba aroino ji ?		
+462-14	grafia_diferente	[iroino]→[iro oino]	Inagore Padre, akado oinore ure turemo ino aroe kae, dukodire iro oino ji .	Inagore Padre , akado oinore ure turemo ino aroe kae , dukodire iroino ji .		
+463-10	grafia_diferente	[Ire]→[are]	Nonore egore ii Nowu are pemegado kuiada, aroe, ere maku tapira morice .	Nonore egore ii Nowu Ire pemegado kuiada , aroe , ere maku tapira morice .		
+464-17	grafia_diferente	[ako oino]→[akoino]	Inagore kodiba akoino iwogai ?	Inagore kodiba ako oino iwogai ?		
+474-11	grafia_diferente	[Benção]→[Bênção]	Icare inagore Bênção , imadrinha !	Icare inagore Benção , imadrinha !		
+474-6	grafia_diferente	[Ire]→[are]	Icare are itaru boe pegarewu piji. Akore akeragu apadrinho iera ji, akagodo Bênção, oino .	Icare Ire itaru boe pegarewu piji . Akore akeragu apadrinho iera ji , akagodo Bênção , oino .		
+476-11	grafia_diferente	[akoino]→[ako oino]	Imearudaere aroe kugu jie ako oino .	Imearudaere aroe kugu jie akoino .		
+483-7	grafia_diferente	[iroino]→[iro oino]	Inagore Ju boi koiare iro oino awogai .	Inagore Ju boi koiare iroino awogai .		
+491-8	grafia_diferente	[Brae]→[barae]; [eroino]→[ero oino]	Egore barae enure petado, mare bogai rugadure ero oino, aregoduwo nowu peta kae ma, tuwo bito nono du bogai .	Egore Brae enure petado , mare bogai rugadure eroino , aregoduwo nowu peta kae ma , tuwo bito nono du bogai .		
+507-20	grafia_diferente	[Ire]→[are]	Inoba are morido ?	Inoba Ire morido ?		
+508-4	grafia_diferente	[imetuia]→[imedage]	Itaiwore itododai , oinore imedage erore tuwarudu tabo .	Itaiwore itododai , oinore imetuia erore tuwarudu tabo .		
+51-3	grafia_diferente	[ce]→[cei]	Dukejere bubuture cei .	Dukejere bubuture ce .		
+511-1	grafia_diferente	[iroino]→[iro oino]	Dukeje ia baraedu aregodure, akore Ia aroerogu bogaire iro oino ikeje .	Dukeje ia baraedu aregodure , akore Ia aroerogu bogaire iroino ikeje .		
+529-4	grafia_diferente	[iroino]→[iro oino]	dukodire iro oino ji .	dukodire iroino ji .		
+53-5	grafia_diferente	[Wo]→[Woe]	Woe , boe motunure !	Wo , boe motunure !		
+538-1	grafia_diferente	[ceroino]→[cero oino]	Nowu cero oino bogaiwu boe eimejera iere Tiago .	Nowu ceroino bogaiwu boe eimejera iere Tiago .		
+546-8	grafia_diferente	[pobo]→[Ppobo]	Inagore Ppobo boire ii pugeje .	Inagore pobo boire ii pugeje .		
+551-19	grafia_diferente	[aroino]→[aro oino]	Icare aro oino .	Icare aroino .		
+553-20	grafia_diferente	[boekaguru]→[boekagururogu]	Icare cere cegeragu cegerogu ji: Aroerogu, pejorogu, boekagururogu, jukudurogu, carogu, joru kuru .	Icare cere cegeragu cegerogu ji : Aroerogu , pejorogu , boekaguru , jukudurogu , carogu , joru kuru .		
+555-2-2	grafia_diferente	[parugajejeje]→[parugajeje]	Icare cegodo ia tori parugajeje .	Icare cegodo ia tori parugajejeje .		
+556-13	grafia_diferente	[ae]→[ai]	Icare ire cewu karameru maku ai .	Icare ire cewu karameru maku ae .		
+556-2	grafia_diferente	[kaiamodoge ji]→[kaiamodogei]	Ceerudure kaiamodogei nono , icare cebagudure ece .	Ceerudure kaiamodoge ji nono , icare cebagudure ece .		
+569-12	grafia_diferente	[tagaaregodure]→[tagaregodure]	Macare tagaregodure .	Macare tagaaregodure .		
+569-17	grafia_diferente	[ceroino]→[cero oino]	Awu kuruga keje cero oino ei .	Awu kuruga keje ceroino ei .		
+599-10	grafia_diferente	[turoino]→[turo oino]	Unure cewido cebagudu koia, nowu turo oino duji .	Unure cewido cebagudu koia , nowu turoino duji .		
+601-15	grafia_diferente	[imetuia]→[imedage]	Icare iture toro imedage etae .	Icare iture toro imetuia etae .		
+621-9	grafia_diferente	[ceroino]→[cero oino]	Inagore Jure pijire cero oino kaiamodoge ewogai .	Inagore Jure pijire ceroino kaiamodoge ewogai .		
+633-9	grafia_diferente	[ceroino]→[cero oino]	Colégio bai jire cero oino .	Colégio bai jire ceroino .		
+653-8	grafia_diferente	[imetuia]→[imedage]	Nowu imedage ekorigodure ii jamedu .	Nowu imetuia ekorigodure ii jamedu .		
+654-2	grafia_diferente	[ceroino]→[cero oino]	Cere bai tugu nowu cero oino jiwuji .	Cere bai tugu nowu ceroino jiwuji .		
+655-16	grafia_diferente	[Ire]→[are]	Cenagore Iage egorido, dukeje are iage etugu .	Cenagore Iage egorido , dukeje Ire iage etugu .		
+665-3	grafia_diferente	[ceroino]→[cero oino]	Dutabore cero oino .	Dutabore ceroino .		
+666-11	grafia_diferente	[imetuia]→[imedage]	Ire iemaedo cewu imedage ewogai .	Ire iemaedo cewu imetuia ewogai .		
+668-4	grafia_diferente	[imetuia]→[imedage]	Itaiwore Iorudure imedage ewureaji .	Itaiwore Iorudure imetuia ewureaji .		
+679-2	grafia_diferente	[imetuia]→[imedage]	Icare ire nowu imedage ewie, inagore Kaiamodoge ere tuwoaduiagu paegai .	Icare ire nowu imetuia ewie , inagore Kaiamodoge ere tuwoaduiagu paegai .		
+693-12	grafia_diferente	[peganure]→[paganure]	Cedao paganure ji tu.. .	Cedao peganure ji tu .. .		
+705-10	grafia_diferente	[imetuia]→[imedage]	Nowu imedage ekare turawuje .	Nowu imetuia ekare turawuje .		
+706-8	grafia_diferente	[imetuia]→[imedage]	Ire ia maku tu nowu imedage etai .	Ire ia maku tu nowu imetuia etai .		
+716-8	grafia_diferente	[taroino]→[taro oino]	Tamearudaerogu jire taro oino .	Tamearudaerogu jire taroino .		
+721-7	grafia_diferente	[imetuia]→[imedage]	Nowu imedage ekudure nono rugadu !	Nowu imetuia ekudure nono rugadu !		
+731-2	grafia_diferente	[imetuia]→[imedage]	Dukejere nowu imedage egore Akie, akie !	Dukejere nowu imetuia egore Akie , akie !		
+733-4	grafia_diferente	[imetuia]→[imedage]	Icare ipuredugodure nowu imedage etae .	Icare ipuredugodure nowu imetuia etae .		
+734-1	grafia_diferente	[imetuia]→[imedage]	Icare inagore imedage etae: Inagore Taiagu tagera pemegado tagoroeji paduwo .	Icare inagore imetuia etae : Inagore Taiagu tagera pemegado tagoroeji paduwo .		
+738-1	grafia_diferente	[imetuia]→[imedage]	Dukejere ire ia tugu nowu embornalto, nowu amirewu, mokuro kuru ri nowu imedage ekeje .	Dukejere ire ia tugu nowu embornalto , nowu amirewu , mokuro kuru ri nowu imetuia ekeje .		
+738-9	grafia_diferente	[imetuia]→[imedage]	Imagore nowu imedage ewogai toro .	Imagore nowu imetuia ewogai toro .		
+744-17	grafia_diferente	[Ire]→[are]	Inagore aerdiware, mare are amagu, aerdiware inodu tabo !	Inagore aerdiware , mare Ire amagu , aerdiware inodu tabo !		
+753-12	grafia_diferente	[aroino]→[aro oino]	Kaba jiba aro oino ?	Kaba jiba aroino ?		
+767-12	grafia_diferente	[imetuia]→[imedage]	Imire ire ipo kado, ire bai kado, ire reko toro nowu imedage etae .	Imire ire ipo kado , ire bai kado , ire reko toro nowu imetuia etae .		
+771-6	grafia_diferente	[kuruce . Inogwagewo]→[jorubo kuru ce , inogwagewo]	Ikuduwo ike jorubo kuru ce , inogwagewo , inogwage pemegawo .	Ikuduwo ike kuruce . Inogwagewo , inogwage pemegawo .		
+773-11	grafia_diferente	[Ire]→[are]	Akore icare are akaimo .	Akore icare Ire akaimo .		
+792-6	grafia_diferente	[eroino]→[ero oino]	Eiure tuiagu tumagu Boe etai, kodie ero oino .	Eiure tuiagu tumagu Boe etai , kodie eroino .		
+798-11	grafia_diferente	[imetuia]→[imedage]	Nowu imedage ekare tumearudu kiogwado .	Nowu imetuia ekare tumearudu kiogwado .		
+798-7	grafia_diferente	[imetuia]→[imedage]	Nowu imedage eregodure ipiji .	Nowu imetuia eregodure ipiji .		
+806-11	grafia_diferente	[tugemod]→[tugemode]	Ere nowu tugemode emaboe tugu taidu reore, taidu tabo;	Ere nowu tugemod emaboe tugu taidu reore , taidu tabo ;		
+810-10	grafia_diferente	[eroinodu]→[ero oinodu]	Cewu boe egore aijedoge oino jiboe, ere reko, mare areme erdukaree ei, dukodire, nowu ero oinodu mori kuricigore .	Cewu boe egore aijedoge oino jiboe , ere reko , mare areme erdukaree ei , dukodire , nowu eroinodu mori kuricigore .		
+822-2	grafia_diferente	[ceroino]→[cero oino]	Aroe parogu bogaire cero oino .	Aroe parogu bogaire ceroino .		
+838-15	grafia_diferente	[oino oino]→[oino]	Boe jokodu jire ego oino .	Boe jokodu jire ego oino oino .		
+861-4	grafia_diferente	[ceerudure]→[eerudure]	Icare cedure , cegodure , eerudure iage ji .	Icare cedure , cegodure , ceerudure iage ji .		
+865-4	grafia_diferente	[Córrego-dos-índio]→[Córrego dos Índios]	Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Córrego dos Índios kae .	Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Córrego-dos-índio kae .		
+872-8.1	grafia_diferente	[arego]→[aregodu]	Akore aregodu mato !	Akore arego mato !		
+873-5	grafia_diferente	[?]→[?, Akore okwaru !]	Inoba akagore?,Akore okwaru !	Inoba akagore ?		
+887-7	grafia_diferente	[Ire]→[are]	Akire are akowarudo, imirema ikare itowarudo .	Akire Ire akowarudo , imirema ikare itowarudo .		
+890-7	grafia_diferente	[peganure]→[paganure]	Eedu paganure !	Eedu peganure !		
+897-7	grafia_diferente	[peganure]→[paganure]	Akore ikera jo paganure co co ike boi koia .	Akore ikera jo peganure co co ike boi koia .		
+925-14	grafia_diferente	[Ire]→[are]	Kodire are aekurido inagoi oinoduji .	Kodire Ire aekurido inagoi oinoduji .		
+929-17	grafia_diferente	[.]→[... du tonajire akore hm ...]	Icare ure tugerako jodo nowu jorubo kuru bukeje gu...du tonajire akore hm...Ure nowu agulha ta piji, ure tumegido paci toro piji, uture piji rugadu .	Icare ure tugerako jodo nowu jorubo kuru bukeje gu . Ure nowu agulha ta piji , ure tumegido paci toro piji , uture piji rugadu .		
+932-1	grafia_diferente	[rugadu]→[rigadu]	Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to, ure maku inai , akore aragodumode mestre joki rigadu ?	Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to , ure maku inai , akore aragodumode mestre joki rugadu ?		
+937-5	grafia_diferente	[peganure]→[paganure]	Emago paga paganure .	Emago paga peganure .		
+938-12	grafia_diferente	[peganure]→[paganure]	Itao paganure tu...akoi ii duji .	Itao peganure tu ... akoi ii duji .		
+939-8	grafia_diferente	[parugajejej]→[parugajeje]	Akore iturare kodure oino jiice Meruri parugajeje .	Akore iturare kodure oino jiice Meruri parugajejej .		
+940-13	grafia_diferente	[akagoino]→[akago oino]	Akore boe jokodu jina akago oino ?	Akore boe jokodu jina akagoino ?		
+950-12	grafia_diferente	[ceroino]→[cero oino]	Awogaire cero oino .	Awogaire ceroino .		
+950-8	grafia_diferente	[taroino]→[taro oino]	Inagore Kaba bogaiba taro oino ?	Inagore Kaba bogaiba taroino ?		
+951-11	grafia_diferente	[iroinowo]→[iro oinowo]	Ipuredugodu rumode nowu iro oinowo kae .	Ipuredugodu rumode nowu iroinowo kae .		
+96-6	grafia_diferente	[ino]→[oino]	Akore awu jire Boe egore Marido , Marido , oino .	Akore awu jire Boe egore Marido , Marido , ino .		
+962-15	grafia_diferente	[peganure]→[paganure]	Imugu paganure toro ebo .	Imugu peganure toro ebo .		
+969-2	grafia_diferente	[tagaaregodure]→[tagaregodure]	Icare ure kodo mato cedae mato.Akore itore tagaregodure ?	Icare ure kodo mato cedae mato . Akore itore tagaaregodure ?		
+97-3	grafia_diferente	[kejere]→[gejere]	Akore jewu boe ao gejere aerudumode Meruri ji .	Akore jewu boe ao kejere aerudumode Meruri ji .		
+973-16	grafia_diferente	[aroino]→[aro oino]	Oinodukodire aro oino .	Oinodukodire aroino .		
+975-9	grafia_diferente	[ceroino]→[cero oino]	Padre bogaire cero oino .	Padre bogaire ceroino .		
+980-2	grafia_diferente	[iroino]→[iro oino]	Inagore Boe bokwa.Akore kodire iro oino aregodaji .	Inagore Boe bokwa . Akore kodire iroino aregodaji .		
+985-4	grafia_diferente	[care]→[Icare]	Icare kiarigodure , akore ioguduba koiaba ure aruduiwado , awo enfeite mori tawuje oino ?	care kiarigodure , akore ioguduba koiaba ure aruduiwado , awo enfeite mori tawuje oino ?		
+Jussila-10	grafia_diferente	[idaga]→[iedaga]	Egore iedaga Kigaio , iedaga Aroe Kigaio .	Egore iedaga Kigaio , idaga Aroe Kigaio .		
+Jussila-6	grafia_diferente	[kodurogu]→[ko durogu pijire rogu]	Ca Iroere koge ure rogu ko durogu pijire rogu bire .	Ca Iroere koge ure rogu kodurogu bire .		
+boe_ero_01_15	grafia_diferente	[kado]→[kad]	Bari , Boe egore Barimode awia porodo , oino , Barimode awaga kad , oino .	Bari , Boe egore Barimode awia porodo , oino , Barimode awaga kado , oino .		
+dic_0009	grafia_diferente	[tumugumodewo]→[tumugumodewu]	Aregodure tumugumodewu kae .	Aregodure tumugumodewo kae .		
+dic_0247	grafia_diferente	[ii]→[li]	biakure li .	biakure ii .		
+dic_0930	grafia_diferente	[na woe]→[nao]	aki nao ?	aki na woe ?		
+440-2	grafia_diferente+texto_tem_mais	[]→[...]; [.]→[... ruia Cireruia ...]	Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo cireruia Ca, ema rugadu reno .	Pobo ... dori cire . cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo cireruia Ca , ema rugadu reno .		
+709-14	grafia_diferente+texto_tem_mais	[imetuia]→[imedage]; []→[.. .]	Iture epiji nowu imedage ewogai.. .	Iture epiji nowu imetuia ewogai		
+boe_ero_01_38	grafia_diferente+texto_tem_mais	[akoino]→[ako oino]; []→[:]	"Imedu pega otowure ako oino ji , otowure akore: ""Imedupega"", oino ji. Ia boe enodowure ema. Boe egore Inodowu pega"", oino. ""Inodowu pega"", oino. ""Ioga pega"", oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu..."	Imedu pega otowure akoino ji , otowure akore Imedupega , oino ji . Ia boe enodowure ema . Boe egore Inodowu pega , oino . Inodowu pega , oino . Ioga pega , oino gu , gu , gu ... Icare roiwa bokagodure pudabo , Icare rokare nono turore pugeje , Icare ukare karo bito , ukare barogo bito pugeje ; icare merukare pugeje , meru jaegirikare pugeje gu , gu , gu ...		
+37-6	grafia_diferente+tokens_tem_mais	[,]→[]; [tagae]→[tagai]	Meri rekodu tabo tadure mato iwo iarogu maku tagai pugeje .	Meri rekodu tabo tadure mato , iwo iarogu maku tagae pugeje .		
+458-6	grafia_diferente+tokens_tem_mais	[Ire]→[are]; [,]→[]	Egore itonaregedu, imedu, iorubodare, icare are ipagudugo! Aki rugadu .	Egore itonaregedu , imedu , iorubodare , icare Ire ipagudugo ! , Aki rugadu .		
+101-7	texto_tem_mais	[]→[to]	Boe akurugudu baruto, moto to .	Boe akurugudu baruto , moto .		
+268-13	texto_tem_mais	[]→[132]; []→[... m o m]	132,Omu...Omu...m o m .	, Omu ... Omu .		
+331-9	texto_tem_mais	[]→[... ere kireru butudo awure keje toro ... ere kireru butudo akera bukeje toro ... ere kireru butudo akogwa bukeje toro ... Icare are maku mato pugeje , jorubore are barigu toro cebegi , Wo !.]	Icare aomage ere ake okwa, ake rie, ake kurubeguru, ake makao, ere kireru butudo awugeje toro...ere kireru butudo awure keje toro...ere kireru butudo akera bukeje toro...ere kireru butudo akogwa bukeje toro...Icare are maku mato pugeje, jorubore are barigu toro cebegi, Wo!. .	Icare aomage ere ake okwa , ake rie , ake kurubeguru , ake makao , ere kireru butudo awugeje toro .		
+334-1	texto_tem_mais	[]→[... arowe , O !.. Mere]	Akedure icare Barege ewugejewu Roia Gigudu Mere...mere...arowe,O!..Mere mere o !	Akedure icare Barege ewugejewu Roia Gigudu Mere ... mere mere o !		
+364-7	texto_tem_mais	[]→[Imerure tu apo dukeje ure ido awu barege kugure ewido tu , ewido tu je .]	Awurogu koiare ure iokurogu roto pa , roto pa , je .Imerure tu apo dukeje ure ido awu barege kugure ewido tu, ewido tu je .	Awurogu koiare ure iokurogu roto pa , roto pa , je .		
+422-6	texto_tem_mais	[]→[167]	Iwuri, Imedurogu ,Are Ioga, Imuga, Iedaga, Ioga pega, Imuga pega Imarugo pega Iedaga pega 167 Iwuri pega	Iwuri , Imedurogu , Are Ioga , Imuga , Iedaga , Ioga pega , Imuga pega Imarugo pega Iedaga pega Iwuri pega		
+434-6	texto_tem_mais	[]→[to]	Egore woere boere kaiamodoge eno aroe etugu woe moto to .	Egore woere boere kaiamodoge eno aroe etugu woe moto .		
+478-4	texto_tem_mais	[]→[:]; []→[Akore icá .]	Ure nowu ipanela kurido, ure okorawu awu pemegarewurogu boe tabo: kogorigadoge ekodurogu, jurogu, tomate, ure tugu to. Akore icá .	Ure nowu ipanela kurido , ure okorawu awu pemegarewurogu boe tabo kogorigadoge ekodurogu , jurogu , tomate , ure tugu to .		
+482-9	texto_tem_mais	[]→[Era longe .]	Inagore Iregoduwo awu apogo apo, cewu boe egore Gabriel, Gabriel, Era longe. oino jiwu baraedu bogai .	Inagore Iregoduwo awu apogo apo , cewu boe egore Gabriel , Gabriel , oino jiwu baraedu bogai .		
+486-11	texto_tem_mais	[]→[to]	Cegirema ceerudiware boe ji woe, kodire cemodukare joru tugu awu moto to .	Cegirema ceerudiware boe ji woe , kodire cemodukare joru tugu awu moto .		
+486-8	texto_tem_mais	[]→[to]	Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu cidugoduwo ii. Akore ioguduba ure joru tugu awu moto to ?	Unure baigatu udo nono nono borore tugajeje : Iceba baiga atu cidugoduwo ii . Akore ioguduba ure joru tugu awu moto ?		
+58-4	texto_tem_mais	[]→[imi karega ,]	Icare nowu iorubodarege egore imi karega , imi karega , imi karega , iregodumoduka , ipagudure .	Icare nowu iorubodarege egore imi karega , imi karega , iregodumoduka , ipagudure .		
+607-1	texto_tem_mais	[]→[Akore barogwa to tamode tagujagudo , tamode Taeku bu ra , tamode taejiwudo , tamode nonogo tugu tagao to kuri rugadu , tamode nonogo kurido tagao ji .]	Care nowu Padre Pedro aregodure cedae mato.Akore barogwa to tamode tagujagudo, tamode Taeku bu ra, tamode taejiwudo, tamode nonogo tugu tagao to kuri rugadu, tamode nonogo kurido tagao ji .	Care nowu Padre Pedro aregodure cedae mato .		
+655-14	texto_tem_mais	[]→[n]	Cegiarigodu remawunure n .	Cegiarigodu remawunure .		
+812-4	texto_tem_mais	[]→[to]	Icare cewaigodure moto to .	Icare cewaigodure moto .		
+868-2	texto_tem_mais	[]→[Mestre]; []→[Pe]	Icare Boe emagurure pugeje Mestre Rocco apo , Pe Bruno apo .	Icare Boe emagurure pugeje Rocco apo , Bruno apo .		
+961-9	texto_tem_mais	[]→[to]	Boe ere birewuge etugu moto to nono .	Boe ere birewuge etugu moto nono .		
+Jussila-13	texto_tem_mais	[]→[Mare emagokare .]	Tadumode kaboba bogaiba taro oino ? Mare emagokare .	Tadumode kaboba bogaiba taro oino ?		
+Jussila-17	texto_tem_mais	[]→[du erore ino]	Nono ure erawuje makore ei tamode tagirimi dukeje tamagore iwogai du erore ino .	Nono ure erawuje makore ei tamode tagirimi dukeje tamagore iwogai .		
+boe_ero_02_10	texto_tem_mais	[]→[. Ah ! Aregodure , akore : Imirewu , itaregodu .]	"Akore ah , akore mato , mato , mato , mato . Ah! Aregodure, akore: ""Imirewu, itaregodu""."	Akore ah , akore mato , mato , mato , mato		
+boe_ero_02_33	texto_tem_mais	[]→[Icare boe etujere ema pugeje .]	Icare aredure ema rugadu, Icare orere, onaregedure, orere pobe, pobe ma metia bokware, orere pobe puibiji, ia onaregedure mito tu je, orere pobe tu je nono. Icare boe etujere ema pugeje.	Icare aredure ema rugadu , Icare orere , onaregedure , orere pobe , pobe ma metia bokware , orere pobe puibiji , ia onaregedure mito tu je , orere pobe tu je nono .		
+boe_ero_07_31	texto_tem_mais	[]→[: Arokagado]	"Inagore: ""Arokagado. Awiremode. Mare kajao, akodo mai."""	Inagore . Awiremode . Mare kajao , akodo mai .		
+dic_0465	texto_tem_mais	[]→[moto to]	ure tuiejodo moto to .	ure tuiejodo .		
+dic_0529	texto_tem_mais	[]→[refl .)]	refl.) erade tumagu .	erade tumagu .		
+dic_0661	texto_tem_mais	[]→[ref )]	ref) akore iie ikeragu .	akore iie ikeragu .		
+dic_0684	texto_tem_mais	[]→[ref )]	ref) ikawo ikeragu .	ikawo ikeragu .		
+dic_1082	texto_tem_mais	[]→[( v . rejl .)]	(v.rejl.) parade pamagu .	parade pamagu .		
+dic_1319	texto_tem_mais	[]→[( v . re . fl .)]	(v.re.fl.) akore uie tumagu .	akore uie tumagu .		
+dic_1338	texto_tem_mais	[]→[ref )]	ref) ukawo tugeragu boe ji .	ukawo tugeragu boe ji .		
+dic_1348	texto_tem_mais	[]→[ref )]	ref) umodukare tugeragu boe ji .	umodukare tugeragu boe ji .		
+268-15	texto_tem_mais+tokens_tem_mais	[]→[... mu ... O ...]; [mu .]→[]	Joku karaiwa Boko kuwa O...mu...O...mu .	Joku karaiwa Boko kuwa O mu . mu .		
+229-5	tokens_tem_mais	[Akore iedaga , pago aroe reo .]→[]		Akore iedaga , pago aroe reo .		
+461-2	tokens_tem_mais	[,]→[]; [kaba]→[]	Itore kugure, imedumage kugure, ioga pegamage kugure, imuga pegamage kugure! Akore tadu pubiji, taedo rugadu nono jao .	Itore kugure , imedumage kugure , ioga pegamage kugure , imuga pegamage kugure ! , Akore tadu kaba pubiji , taedo rugadu nono jao .		
+552-12	tokens_tem_mais	[Pe .]→[]		Pe .		
+861-10	tokens_tem_mais	[jii]→[]	Icare cedure gu , dukeje ceerudure iage ji pugeje .	Icare cedure gu , dukeje ceerudure iage ji jii pugeje .		
+dic_0781	tokens_tem_mais	[jagunure]→[]	pegajagunure .	pegajagunure jagunure .		
