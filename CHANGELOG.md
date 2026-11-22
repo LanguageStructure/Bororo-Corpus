@@ -28,6 +28,8 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 - Fonte Gentium Book Plus para o texto Bororo; estatísticas com visão geral pré-calculada e composição por tipo de material.
 - Árvores UD exportáveis em SVG.
 - schema.org/Dataset, `sitemap.xml`, `robots.txt` e registro OLAC (`docs/olac.xml`).
+- Busca por padrão na Concordância: curingas `*` e `?`, expressões regulares `/…/` e lacunas `[]`/`[]{m,n}`; sequências destacadas inteiras.
+- Correções: o status do visualizador UD ficava em "Carregando…"; dez leitores bíblicos (Salmos, Amós, Joel etc.) interrompiam o script por causa de um painel antigo inexistente.
 
 ### Documentação
 - Guia de anotação, inventário de rótulos, mapa do tokenizador, ética e governança, proveniência das sentenças.
