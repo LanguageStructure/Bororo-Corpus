@@ -21,6 +21,10 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   86 FORMs alinhados ao `# text` (caixa e `_` → `-`). Erros de 824 para 792; gold 1.893 sentenças.
   As 202 sentenças em que texto e tokens divergem de fato estão em `CorBo/validation/texto_tokens_revisao.tsv`
   (`scripts/text_token_worksheet.py`), com coluna de decisão.
+- Decisões de FFG sobre texto × tokens (22/11/2026, `scripts/apply_text_token_decisions.py`): *imedage* é o plural
+  de *metuia* (21 tokens, `Number=Plur`); segue-se o texto em *paganure* (7); as formas com *oino* separadas são
+  as corretas: 43 tokens fundidos divididos (*iroino* → *iro* + *oino*) e 7 textos fundidos separados
+  (original em `# text_source`). Erros de 792 para 724; gold 1.894 sentenças.
 - Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
 
 ### Tokenizador

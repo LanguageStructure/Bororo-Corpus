@@ -1,715 +1,647 @@
 line	sent_id	severity	category	detail
-52333	449-5	error	bad_head	obl
-80070	581-4.1	error	bad_head	case
-136959	862-5	error	bad_head	case
-6642	boe_ero_08_19	error	bad_token_id	
-15495	101-7	error	bad_token_id	X
-18624	136-7	error	bad_token_id	X
-19588	145-4	error	bad_token_id	X
-24658	183-10	error	bad_token_id	X
-24761	184-5	error	bad_token_id	X
-38163	331-8	error	bad_token_id	X
-43386	386-4	error	bad_token_id	X
-45122	398-11	error	bad_token_id	X
-49690	431-21	error	bad_token_id	X
-59957	486-11	error	bad_token_id	X
-78520	573-20	error	bad_token_id	X
-78589	574-5	error	bad_token_id	X
-78992	575-18	error	bad_token_id	X
-99701	675-3	error	bad_token_id	X
-101226	681-9	error	bad_token_id	X
-102207	686-1	error	bad_token_id	X
-103472	691-11	error	bad_token_id	X
-105183	700-8	error	bad_token_id	X
-107163	709-14	error	bad_token_id	X
-129044	812-4	error	bad_token_id	X
-146274	906-3	error	bad_token_id	X
-154638	944-3	error	bad_token_id	X
-156537	954-6	error	bad_token_id	X
-158109	961-9	error	bad_token_id	X
-15563		error	block_without_tokens	bloco só com comentários, sem sent_id
-6467	boe_ero_08_10	error	cycle	ciclo envolvendo o token 4
-10206	4-5	error	cycle	ciclo envolvendo o token 9
-11031	19-3	error	cycle	ciclo envolvendo o token 6
-12170	44-1	error	cycle	ciclo envolvendo o token 2
-12652	53-2	error	cycle	ciclo envolvendo o token 2
-14767	90-9	error	cycle	ciclo envolvendo o token 1
-15361	100-2	error	cycle	ciclo envolvendo o token 2
-16245	111-4	error	cycle	ciclo envolvendo o token 3
-33589	278-6	error	cycle	ciclo envolvendo o token 2
-41458	370-5	error	cycle	ciclo envolvendo o token 5
-41687	373-6	error	cycle	ciclo envolvendo o token 1
-41851	374-9	error	cycle	ciclo envolvendo o token 2
-41909	374-18	error	cycle	ciclo envolvendo o token 3
-48761	426-4	error	cycle	ciclo envolvendo o token 2
-51140	439-10	error	cycle	ciclo envolvendo o token 2
-55704	464-15	error	cycle	ciclo envolvendo o token 1
-67022	518-6	error	cycle	ciclo envolvendo o token 1
-79983	580-9	error	cycle	ciclo envolvendo o token 1
-80039	581-4	error	cycle	ciclo envolvendo o token 2
-105310	701-6	error	cycle	ciclo envolvendo o token 4
-107217	710-5	error	cycle	ciclo envolvendo o token 2
-116956	758-7	error	cycle	ciclo envolvendo o token 1
-116971	758-9	error	cycle	ciclo envolvendo o token 3
-120230	773-18	error	cycle	ciclo envolvendo o token 5
-136931	862-3	error	cycle	ciclo envolvendo o token 4
-137524	865-6	error	cycle	ciclo envolvendo o token 2
-137678	866-11	error	cycle	ciclo envolvendo o token 3
-138704	872-4	error	cycle	ciclo envolvendo o token 2
-138900	873-13	error	cycle	ciclo envolvendo o token 1
-144170	895-4	error	cycle	ciclo envolvendo o token 2
-152343	933-5	error	cycle	ciclo envolvendo o token 2
-162022	982-8	error	cycle	ciclo envolvendo o token 9
-162642	986-4	error	cycle	ciclo envolvendo o token 5
-163206	dic_0352	error	cycle	ciclo envolvendo o token 1
-163850	dic_0470	error	cycle	ciclo envolvendo o token 4
-163971	dic_0491	error	cycle	ciclo envolvendo o token 1
-164010	dic_0503	error	cycle	ciclo envolvendo o token 4
-164240	dic_0548	error	cycle	ciclo envolvendo o token 2
-164289	dic_0555	error	cycle	ciclo envolvendo o token 3
-164383	dic_0578	error	cycle	ciclo envolvendo o token 1
-164420	dic_0581	error	cycle	ciclo envolvendo o token 1
-164492	dic_0590	error	cycle	ciclo envolvendo o token 2
-165116	dic_0686	error	cycle	ciclo envolvendo o token 3
-165173	dic_0702	error	cycle	ciclo envolvendo o token 3
-165253	dic_0736	error	cycle	ciclo envolvendo o token 3
-165341	dic_0769	error	cycle	ciclo envolvendo o token 1
-165349	dic_0772	error	cycle	ciclo envolvendo o token 4
-166073	dic_0994	error	cycle	ciclo envolvendo o token 2
-166576	dic_1082	error	cycle	ciclo envolvendo o token 1
-166765	dic_1140	error	cycle	ciclo envolvendo o token 1
-167773	dic_1306	error	cycle	ciclo envolvendo o token 1
-168021	dic_0006	error	cycle	ciclo envolvendo o token 2
-168086	dic_0021	error	cycle	ciclo envolvendo o token 3
-168927	dic_0150	error	cycle	ciclo envolvendo o token 1
-168935	dic_0151	error	cycle	ciclo envolvendo o token 1
-169201	dic_0207	error	cycle	ciclo envolvendo o token 2
-169527	dic_0290	error	cycle	ciclo envolvendo o token 1
-170266	dic_0729	error	cycle	ciclo envolvendo o token 1
-171350	dic_1319	error	cycle	ciclo envolvendo o token 2
-171412	dic_1333	error	cycle	ciclo envolvendo o token 1
-17038	122-1	error	deprel_not_ud	comp
-52333	449-5	error	deprel_not_ud	15
-80070	581-4.1	error	deprel_not_ud	6
-108861	718-7	error	deprel_not_ud	cae
-136959	862-5	error	deprel_not_ud	5
-7277	criação-016	error	feat_malformed	'Polarity'
-10358	6-3	error	feat_malformed	'=Sing'
-20712	152-9	error	feat_malformed	'Int'
-21686	162-5	error	feat_malformed	'Cƒ'
-38422	335-4	error	feat_malformed	' '
-51808	444-4	error	feat_malformed	'Int'
-55224	462-13	error	feat_malformed	'Int'
-69146	530-7	error	feat_malformed	'Int'
-85865	608-3	error	feat_malformed	'Int'
-85928	608-8	error	feat_malformed	'Int'
-89828	626-6	error	feat_malformed	'Int'
-118737	767-2	error	feat_malformed	'Number=≈'
-121339	778-12	error	feat_malformed	'Int'
-121361	778-13	error	feat_malformed	'Int'
-126221	801-10	error	feat_malformed	'Int'
-163497	dic_0393	error	feat_malformed	'Reflex'
-163505	dic_0394	error	feat_malformed	'Reflex'
-165778	dic_0895	error	feat_malformed	'1'
-38195		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
-38203		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
-38211		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
-107412	711-8	error	head_out_of_range	3→9
-55735	464-18	error	missing_text	sem # text
-1928	boe_ero_02_27	error	private_use_character	FORM='\uf087'
-1928	boe_ero_02_27	error	private_use_character	LEMMA='\uf087'
-2163	boe_ero_02_35	error	private_use_character	FORM='\uf087'
-2163	boe_ero_02_35	error	private_use_character	LEMMA='\uf087'
-3578	boe_ero_04_09	error	private_use_character	FORM='\uf086'
-3578	boe_ero_04_09	error	private_use_character	LEMMA='\uf086'
-3712	boe_ero_04_11	error	private_use_character	FORM='\uf086'
-3712	boe_ero_04_11	error	private_use_character	LEMMA='\uf086'
-3938	boe_ero_04_19	error	private_use_character	FORM='\uf063'
-3938	boe_ero_04_19	error	private_use_character	LEMMA='\uf063'
-5030	boe_ero_07_11	error	private_use_character	FORM='\uf087'
-5030	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
-5033	boe_ero_07_11	error	private_use_character	FORM='\uf087'
-5033	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
-5036	boe_ero_07_11	error	private_use_character	FORM='\uf087'
-5036	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
-6171	boe_ero_07_60	error	private_use_character	FORM='\uf087'
-6171	boe_ero_07_60	error	private_use_character	LEMMA='\uf087'
-15481	101-7	error	root_count	3 raízes
-24951	185-12	error	root_count	2 raízes
-47358	414-3	error	root_count	2 raízes
-137592	866-1	error	root_count	2 raízes
-164066	dic_0511	error	root_count	2 raízes
-164265	dic_0551	error	root_count	2 raízes
-164938	dic_0657	error	root_count	2 raízes
-164956	dic_0663	error	root_count	2 raízes
-165116	dic_0686	error	root_count	0 raízes
-166463	dic_1063	error	root_count	2 raízes
-168392	dic_0064	error	root_count	2 raízes
-10120	3-3	error	root_mismatch	HEAD=3 DEPREL=root
-10582	11-6	error	root_mismatch	HEAD=1 DEPREL=root
-11992	40-2	error	root_mismatch	HEAD=2 DEPREL=root
-12101	42-1	error	root_mismatch	HEAD=2 DEPREL=root
-12118	42-2	error	root_mismatch	HEAD=2 DEPREL=root
-12343	47-1	error	root_mismatch	HEAD=4 DEPREL=root
-12427	49-4	error	root_mismatch	HEAD=1 DEPREL=root
-12617	52-4	error	root_mismatch	HEAD=9 DEPREL=root
-12734	54-3	error	root_mismatch	HEAD=4 DEPREL=root
-12807	55-7	error	root_mismatch	HEAD=2 DEPREL=root
-12865	57-1	error	root_mismatch	HEAD=3 DEPREL=root
-12956	58-2	error	root_mismatch	HEAD=4 DEPREL=root
-13020	59-2	error	root_mismatch	HEAD=2 DEPREL=root
-13025	59-2	error	root_mismatch	HEAD=10 DEPREL=root
-13028	59-2	error	root_mismatch	HEAD=4 DEPREL=root
-13408	67-1	error	root_mismatch	HEAD=4 DEPREL=root
-13515	68-4	error	root_mismatch	HEAD=4 DEPREL=root
-13890	75-11	error	root_mismatch	HEAD=2 DEPREL=root
-14321	83-2	error	root_mismatch	HEAD=2 DEPREL=root
-14682	90-2	error	root_mismatch	HEAD=2 DEPREL=root
-14900	92-5	error	root_mismatch	HEAD=2 DEPREL=root
-14960	93-2	error	root_mismatch	HEAD=5 DEPREL=root
-14961	93-2	error	root_mismatch	HEAD=6 DEPREL=root
-15127	96-1	error	root_mismatch	HEAD=6 DEPREL=root
-15351	100-1	error	root_mismatch	HEAD=9 DEPREL=root
-15490	101-7	error	root_mismatch	HEAD=2 DEPREL=root
-15494	101-7	error	root_mismatch	HEAD=0 DEPREL=nmod
-15496	101-7	error	root_mismatch	HEAD=0 DEPREL=punct
-15639	103-5	error	root_mismatch	HEAD=2 DEPREL=root
-15765	104-6	error	root_mismatch	HEAD=2 DEPREL=root
-15766	104-6	error	root_mismatch	HEAD=0 DEPREL=punct
-15838	105-2	error	root_mismatch	HEAD=3 DEPREL=root
-15924	106-3	error	root_mismatch	HEAD=2 DEPREL=root
-16124	110-2	error	root_mismatch	HEAD=3 DEPREL=root
-16297	111-9	error	root_mismatch	HEAD=0 DEPREL=punct
-21400	159-7	error	root_mismatch	HEAD=0 DEPREL=punct
-24657	183-10	error	root_mismatch	HEAD=0 DEPREL=nmod
-38469	336-1	error	root_mismatch	HEAD=0 DEPREL=punct
-39271	345-1	error	root_mismatch	HEAD=0 DEPREL=punct
-43266	385-1	error	root_mismatch	HEAD=0 DEPREL=obl
-47364	414-3	error	root_mismatch	HEAD=0 DEPREL=flat
-50385	434-6	error	root_mismatch	HEAD=0 DEPREL=nmod
-59886	486-8	error	root_mismatch	HEAD=0 DEPREL=nmod
-59956	486-11	error	root_mismatch	HEAD=0 DEPREL=nmod
-65099	508-16	error	root_mismatch	HEAD=0 DEPREL=nsubj
-82125	592-1	error	root_mismatch	HEAD=0 DEPREL=punct
-84051	601-1	error	root_mismatch	HEAD=0 DEPREL=punct
-87138	615-1	error	root_mismatch	HEAD=0 DEPREL=punct
-96002	657-12	error	root_mismatch	HEAD=0 DEPREL=nsubj
-115467	750-4	error	root_mismatch	HEAD=0 DEPREL=punct
-118912	767-13	error	root_mismatch	HEAD=0 DEPREL=nsubj
-120527	775-1	error	root_mismatch	HEAD=0 DEPREL=punct
-121193	778-1	error	root_mismatch	HEAD=0 DEPREL=punct
-122267	782-1	error	root_mismatch	HEAD=0 DEPREL=punct
-124150	791-2	error	root_mismatch	HEAD=0 DEPREL=punct
-129043	812-4	error	root_mismatch	HEAD=0 DEPREL=nmod
-132992	840-1	error	root_mismatch	HEAD=0 DEPREL=punct
-154021	941-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
-156858	956-1	error	root_mismatch	HEAD=0 DEPREL=punct
-157278	957-1	error	root_mismatch	HEAD=0 DEPREL=punct
-158108	961-9	error	root_mismatch	HEAD=0 DEPREL=nmod
-164944	dic_0657	error	root_mismatch	HEAD=0 DEPREL=punct
-165122	dic_0686	error	root_mismatch	HEAD=3 DEPREL=root
+52346	449-5	error	bad_head	obl
+80097	581-4.1	error	bad_head	case
+136998	862-5	error	bad_head	case
+6643	boe_ero_08_19	error	bad_token_id	
+15498	101-7	error	bad_token_id	X
+18631	136-7	error	bad_token_id	X
+19595	145-4	error	bad_token_id	X
+24665	183-10	error	bad_token_id	X
+24768	184-5	error	bad_token_id	X
+38172	331-8	error	bad_token_id	X
+43397	386-4	error	bad_token_id	X
+45133	398-11	error	bad_token_id	X
+49703	431-21	error	bad_token_id	X
+59978	486-11	error	bad_token_id	X
+78547	573-20	error	bad_token_id	X
+78616	574-5	error	bad_token_id	X
+79019	575-18	error	bad_token_id	X
+99734	675-3	error	bad_token_id	X
+101259	681-9	error	bad_token_id	X
+102240	686-1	error	bad_token_id	X
+103505	691-11	error	bad_token_id	X
+105216	700-8	error	bad_token_id	X
+107196	709-14	error	bad_token_id	X
+129081	812-4	error	bad_token_id	X
+146313	906-3	error	bad_token_id	X
+154678	944-3	error	bad_token_id	X
+156580	954-6	error	bad_token_id	X
+158152	961-9	error	bad_token_id	X
+15568		error	block_without_tokens	bloco só com comentários, sem sent_id
+6468	boe_ero_08_10	error	cycle	ciclo envolvendo o token 4
+10208	4-5	error	cycle	ciclo envolvendo o token 9
+11033	19-3	error	cycle	ciclo envolvendo o token 6
+12172	44-1	error	cycle	ciclo envolvendo o token 2
+12654	53-2	error	cycle	ciclo envolvendo o token 2
+14769	90-9	error	cycle	ciclo envolvendo o token 1
+15363	100-2	error	cycle	ciclo envolvendo o token 2
+16251	111-4	error	cycle	ciclo envolvendo o token 3
+33598	278-6	error	cycle	ciclo envolvendo o token 2
+41469	370-5	error	cycle	ciclo envolvendo o token 5
+41698	373-6	error	cycle	ciclo envolvendo o token 1
+41862	374-9	error	cycle	ciclo envolvendo o token 2
+41920	374-18	error	cycle	ciclo envolvendo o token 3
+48774	426-4	error	cycle	ciclo envolvendo o token 2
+51153	439-10	error	cycle	ciclo envolvendo o token 2
+55722	464-15	error	cycle	ciclo envolvendo o token 1
+67045	518-6	error	cycle	ciclo envolvendo o token 1
+80010	580-9	error	cycle	ciclo envolvendo o token 1
+80066	581-4	error	cycle	ciclo envolvendo o token 2
+105343	701-6	error	cycle	ciclo envolvendo o token 4
+107250	710-5	error	cycle	ciclo envolvendo o token 2
+116991	758-7	error	cycle	ciclo envolvendo o token 1
+117006	758-9	error	cycle	ciclo envolvendo o token 3
+120265	773-18	error	cycle	ciclo envolvendo o token 5
+136970	862-3	error	cycle	ciclo envolvendo o token 4
+137563	865-6	error	cycle	ciclo envolvendo o token 2
+137717	866-11	error	cycle	ciclo envolvendo o token 3
+138743	872-4	error	cycle	ciclo envolvendo o token 2
+138939	873-13	error	cycle	ciclo envolvendo o token 1
+144209	895-4	error	cycle	ciclo envolvendo o token 2
+152382	933-5	error	cycle	ciclo envolvendo o token 2
+162068	982-8	error	cycle	ciclo envolvendo o token 9
+162688	986-4	error	cycle	ciclo envolvendo o token 5
+163252	dic_0352	error	cycle	ciclo envolvendo o token 1
+163896	dic_0470	error	cycle	ciclo envolvendo o token 4
+164017	dic_0491	error	cycle	ciclo envolvendo o token 1
+164056	dic_0503	error	cycle	ciclo envolvendo o token 4
+164286	dic_0548	error	cycle	ciclo envolvendo o token 2
+164335	dic_0555	error	cycle	ciclo envolvendo o token 3
+164429	dic_0578	error	cycle	ciclo envolvendo o token 1
+164466	dic_0581	error	cycle	ciclo envolvendo o token 1
+164538	dic_0590	error	cycle	ciclo envolvendo o token 2
+165162	dic_0686	error	cycle	ciclo envolvendo o token 3
+165219	dic_0702	error	cycle	ciclo envolvendo o token 3
+165299	dic_0736	error	cycle	ciclo envolvendo o token 3
+165387	dic_0769	error	cycle	ciclo envolvendo o token 1
+165395	dic_0772	error	cycle	ciclo envolvendo o token 4
+166119	dic_0994	error	cycle	ciclo envolvendo o token 2
+166622	dic_1082	error	cycle	ciclo envolvendo o token 1
+166811	dic_1140	error	cycle	ciclo envolvendo o token 1
+167819	dic_1306	error	cycle	ciclo envolvendo o token 1
+168067	dic_0006	error	cycle	ciclo envolvendo o token 2
+168132	dic_0021	error	cycle	ciclo envolvendo o token 3
+168973	dic_0150	error	cycle	ciclo envolvendo o token 1
+168981	dic_0151	error	cycle	ciclo envolvendo o token 1
+169247	dic_0207	error	cycle	ciclo envolvendo o token 2
+169573	dic_0290	error	cycle	ciclo envolvendo o token 1
+170312	dic_0729	error	cycle	ciclo envolvendo o token 1
+171396	dic_1319	error	cycle	ciclo envolvendo o token 2
+171458	dic_1333	error	cycle	ciclo envolvendo o token 1
+17045	122-1	error	deprel_not_ud	comp
+52346	449-5	error	deprel_not_ud	15
+80097	581-4.1	error	deprel_not_ud	6
+108895	718-7	error	deprel_not_ud	cae
+136998	862-5	error	deprel_not_ud	5
+7278	criação-016	error	feat_malformed	'Polarity'
+10360	6-3	error	feat_malformed	'=Sing'
+20719	152-9	error	feat_malformed	'Int'
+21693	162-5	error	feat_malformed	'Cƒ'
+38431	335-4	error	feat_malformed	' '
+51821	444-4	error	feat_malformed	'Int'
+55240	462-13	error	feat_malformed	'Int'
+69170	530-7	error	feat_malformed	'Int'
+85893	608-3	error	feat_malformed	'Int'
+85956	608-8	error	feat_malformed	'Int'
+89857	626-6	error	feat_malformed	'Int'
+118772	767-2	error	feat_malformed	'Number=≈'
+121374	778-12	error	feat_malformed	'Int'
+121396	778-13	error	feat_malformed	'Int'
+126257	801-10	error	feat_malformed	'Int'
+163543	dic_0393	error	feat_malformed	'Reflex'
+163551	dic_0394	error	feat_malformed	'Reflex'
+165824	dic_0895	error	feat_malformed	'1'
+38204		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
+38212		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
+38220		error	fragment_without_sent_id	bloco sem comentários separado por linha em branco (provável continuação da sentença anterior)
+107445	711-8	error	head_out_of_range	3→9
+55754	464-18	error	missing_text	sem # text
+1929	boe_ero_02_27	error	private_use_character	FORM='\uf087'
+1929	boe_ero_02_27	error	private_use_character	LEMMA='\uf087'
+2164	boe_ero_02_35	error	private_use_character	FORM='\uf087'
+2164	boe_ero_02_35	error	private_use_character	LEMMA='\uf087'
+3579	boe_ero_04_09	error	private_use_character	FORM='\uf086'
+3579	boe_ero_04_09	error	private_use_character	LEMMA='\uf086'
+3713	boe_ero_04_11	error	private_use_character	FORM='\uf086'
+3713	boe_ero_04_11	error	private_use_character	LEMMA='\uf086'
+3939	boe_ero_04_19	error	private_use_character	FORM='\uf063'
+3939	boe_ero_04_19	error	private_use_character	LEMMA='\uf063'
+5031	boe_ero_07_11	error	private_use_character	FORM='\uf087'
+5031	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
+5034	boe_ero_07_11	error	private_use_character	FORM='\uf087'
+5034	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
+5037	boe_ero_07_11	error	private_use_character	FORM='\uf087'
+5037	boe_ero_07_11	error	private_use_character	LEMMA='\uf087'
+6172	boe_ero_07_60	error	private_use_character	FORM='\uf087'
+6172	boe_ero_07_60	error	private_use_character	LEMMA='\uf087'
+15484	101-7	error	root_count	3 raízes
+24958	185-12	error	root_count	2 raízes
+47371	414-3	error	root_count	2 raízes
+137631	866-1	error	root_count	2 raízes
+164112	dic_0511	error	root_count	2 raízes
+164311	dic_0551	error	root_count	2 raízes
+164984	dic_0657	error	root_count	2 raízes
+165002	dic_0663	error	root_count	2 raízes
+165162	dic_0686	error	root_count	0 raízes
+166509	dic_1063	error	root_count	2 raízes
+168438	dic_0064	error	root_count	2 raízes
+10122	3-3	error	root_mismatch	HEAD=3 DEPREL=root
+10584	11-6	error	root_mismatch	HEAD=1 DEPREL=root
+11994	40-2	error	root_mismatch	HEAD=2 DEPREL=root
+12103	42-1	error	root_mismatch	HEAD=2 DEPREL=root
+12120	42-2	error	root_mismatch	HEAD=2 DEPREL=root
+12345	47-1	error	root_mismatch	HEAD=4 DEPREL=root
+12429	49-4	error	root_mismatch	HEAD=1 DEPREL=root
+12619	52-4	error	root_mismatch	HEAD=9 DEPREL=root
+12736	54-3	error	root_mismatch	HEAD=4 DEPREL=root
+12809	55-7	error	root_mismatch	HEAD=2 DEPREL=root
+12867	57-1	error	root_mismatch	HEAD=3 DEPREL=root
+12958	58-2	error	root_mismatch	HEAD=4 DEPREL=root
+13022	59-2	error	root_mismatch	HEAD=2 DEPREL=root
+13027	59-2	error	root_mismatch	HEAD=10 DEPREL=root
+13030	59-2	error	root_mismatch	HEAD=4 DEPREL=root
+13410	67-1	error	root_mismatch	HEAD=4 DEPREL=root
+13517	68-4	error	root_mismatch	HEAD=4 DEPREL=root
+13892	75-11	error	root_mismatch	HEAD=2 DEPREL=root
+14323	83-2	error	root_mismatch	HEAD=2 DEPREL=root
+14684	90-2	error	root_mismatch	HEAD=2 DEPREL=root
+14902	92-5	error	root_mismatch	HEAD=2 DEPREL=root
+14962	93-2	error	root_mismatch	HEAD=5 DEPREL=root
+14963	93-2	error	root_mismatch	HEAD=6 DEPREL=root
+15129	96-1	error	root_mismatch	HEAD=6 DEPREL=root
+15353	100-1	error	root_mismatch	HEAD=9 DEPREL=root
+15493	101-7	error	root_mismatch	HEAD=2 DEPREL=root
+15497	101-7	error	root_mismatch	HEAD=0 DEPREL=nmod
+15499	101-7	error	root_mismatch	HEAD=0 DEPREL=punct
+15644	103-5	error	root_mismatch	HEAD=2 DEPREL=root
+15771	104-6	error	root_mismatch	HEAD=2 DEPREL=root
+15772	104-6	error	root_mismatch	HEAD=0 DEPREL=punct
+15844	105-2	error	root_mismatch	HEAD=3 DEPREL=root
+15930	106-3	error	root_mismatch	HEAD=2 DEPREL=root
+16130	110-2	error	root_mismatch	HEAD=3 DEPREL=root
+16303	111-9	error	root_mismatch	HEAD=0 DEPREL=punct
+21407	159-7	error	root_mismatch	HEAD=0 DEPREL=punct
+24664	183-10	error	root_mismatch	HEAD=0 DEPREL=nmod
+38478	336-1	error	root_mismatch	HEAD=0 DEPREL=punct
+39280	345-1	error	root_mismatch	HEAD=0 DEPREL=punct
+43277	385-1	error	root_mismatch	HEAD=0 DEPREL=obl
+47377	414-3	error	root_mismatch	HEAD=0 DEPREL=flat
+50398	434-6	error	root_mismatch	HEAD=0 DEPREL=nmod
+59907	486-8	error	root_mismatch	HEAD=0 DEPREL=nmod
+59977	486-11	error	root_mismatch	HEAD=0 DEPREL=nmod
+65121	508-16	error	root_mismatch	HEAD=0 DEPREL=nsubj
+82152	592-1	error	root_mismatch	HEAD=0 DEPREL=punct
+84079	601-1	error	root_mismatch	HEAD=0 DEPREL=punct
+87166	615-1	error	root_mismatch	HEAD=0 DEPREL=punct
+96034	657-12	error	root_mismatch	HEAD=0 DEPREL=nsubj
+115501	750-4	error	root_mismatch	HEAD=0 DEPREL=punct
+118947	767-13	error	root_mismatch	HEAD=0 DEPREL=nsubj
+120562	775-1	error	root_mismatch	HEAD=0 DEPREL=punct
+121228	778-1	error	root_mismatch	HEAD=0 DEPREL=punct
+122302	782-1	error	root_mismatch	HEAD=0 DEPREL=punct
+124185	791-2	error	root_mismatch	HEAD=0 DEPREL=punct
+129080	812-4	error	root_mismatch	HEAD=0 DEPREL=nmod
+133030	840-1	error	root_mismatch	HEAD=0 DEPREL=punct
+154061	941-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
+156901	956-1	error	root_mismatch	HEAD=0 DEPREL=punct
+157321	957-1	error	root_mismatch	HEAD=0 DEPREL=punct
+158151	961-9	error	root_mismatch	HEAD=0 DEPREL=nmod
+164990	dic_0657	error	root_mismatch	HEAD=0 DEPREL=punct
+165168	dic_0686	error	root_mismatch	HEAD=3 DEPREL=root
 348	boe_ero_01_15	error	text_form_mismatch	text='Bari , Boe egore Barimode awia porodo , oino , Barimode awag' | forms='Bari , Boe egore Barimode awia porodo , oino , Barimode awag'
-1109	boe_ero_01_38	error	text_form_mismatch	"text='Imedu pega otowure ako oino ji , otowure akore: ""Imedupega"",' | forms='Imedu pega otowure akoino ji , otowure akore Imedupega , oin'"
-1547	boe_ero_02_10	error	text_form_mismatch	text='Akore ah , akore mato , mato , mato , mato . Ah! Aregodure, ' | forms='Akore ah , akore mato , mato , mato , mato'
-1645	boe_ero_02_15	error	text_form_mismatch	"text='Akore: ""Are, atukaba toro. Are, mato"".' | forms='Akore , atu kaba toro . Are , mato'"
-2073	boe_ero_02_33	error	text_form_mismatch	text='Icare aredure ema rugadu, Icare orere, onaregedure, orere po' | forms='Icare aredure ema rugadu , Icare orere , onaregedure , orere'
-5505	boe_ero_07_31	error	text_form_mismatch	"text='Inagore: ""Arokagado. Awiremode. Mare kajao, akodo mai.""' | forms='Inagore . Awiremode . Mare kajao , akodo mai .'"
-7737	Jussila-6	error	text_form_mismatch	text='Ca Iroere koge ure rogu ko durogu pijire rogu bire .' | forms='Ca Iroere koge ure rogu kodurogu bire .'
-7801	Jussila-10	error	text_form_mismatch	text='Egore iedaga Kigaio , iedaga Aroe Kigaio .' | forms='Egore iedaga Kigaio , idaga Aroe Kigaio .'
-7854	Jussila-13	error	text_form_mismatch	text='Tadumode kaboba bogaiba taro oino ? Mare emagokare .' | forms='Tadumode kaboba bogaiba taro oino ?'
-7920	Jussila-17	error	text_form_mismatch	text='Nono ure erawuje makore ei tamode tagirimi dukeje tamagore i' | forms='Nono ure erawuje makore ei tamode tagirimi dukeje tamagore i'
-8294	ritual-onca-1-02	error	text_form_mismatch	text='Boe egore cewu ceraedure roino ji , cewu Baadojebare roino j' | forms='Boe egore cewu ceraedure ro oino ji , cewu Baadojebare ro oi'
-11157	23-2	error	text_form_mismatch	text='Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia i' | forms='Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia i'
-11887	37-6	error	text_form_mismatch	text='Meri rekodu tabo tadure mato iwo iarogu maku tagai pugeje .' | forms='Meri rekodu tabo tadure mato , iwo iarogu maku tagae pugeje '
-12514	51-3	error	text_form_mismatch	text='Dukejere bubuture cei .' | forms='Dukejere bubuture ce .'
-12672	53-5	error	text_form_mismatch	text='Woe , boe motunure !' | forms='Wo , boe motunure !'
-12983	58-4	error	text_form_mismatch	text='Icare nowu iorubodarege egore imi karega , imi karega , imi ' | forms='Icare nowu iorubodarege egore imi karega , imi karega , ireg'
-15153	96-6	error	text_form_mismatch	text='Akore awu jire Boe egore Marido , Marido , oino .' | forms='Akore awu jire Boe egore Marido , Marido , ino .'
-15177	97-3	error	text_form_mismatch	text='Akore jewu boe ao gejere aerudumode Meruri ji .' | forms='Akore jewu boe ao kejere aerudumode Meruri ji .'
-15370	101-1	error	text_form_mismatch	text='akore Bororo bokwa, jipa bokwa, pagare aro oino, pagare akag' | forms='akore Bororo bokwa , jipa bokwa , pagare aroino , pagare aka'
-15483	101-7	error	text_form_mismatch	text='Boe akurugudu baruto, moto to .' | forms='Boe akurugudu baruto , moto .'
-15515	102-2	error	text_form_mismatch	text='Itaregodu ioruduwo kuruie eno jipa jire iro oino, ioruduwo k' | forms='Itaregodu ioruduwo kuruie eno jipa jire iroino , ioruduwo ku'
-15671	103-7	error	text_form_mismatch	text='Apoguru amagoi jituji .' | forms='Apogurukaba amagoi jituji .'
-15716	104-3	error	text_form_mismatch	text='Imagore Iorduwo aire iro oino .' | forms='Imagore Iorduwo aire iroino .'
-16083	109-4	error	text_form_mismatch	text='Akore barogwa tore ature mato , awo awu kagarigadoge eia ibo' | forms='Akore Barogwatore ature mato , awo awu kagarigadoge eia ibor'
-16383	113-1	error	text_form_mismatch	text='Inagore Mato ia pagoroerogu tabo !' | forms='Inagore akore mato ia pagoroerogu tabo !'
-16398	113-2	error	text_form_mismatch	text='Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire ina' | forms='Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire ina'
-17051	122-3	error	text_form_mismatch	text='Nowu imedage egore oinore icare , padumode kuiada kuru kae .' | forms='Nowu imetuia egore oinore icare , padumode kuiada kuru kae .'
-18367	134-2	error	text_form_mismatch	text='Cewu imedage egore Iareo pugeje .' | forms='Cewu imetuia egore Iareo pugeje .'
-18528	136-2	error	text_form_mismatch	text='Cewu imedage egore Pawo pagerogu to pui, pagogwa amogoduwo .' | forms='Cewu imetuia egore Pawo pagerogu to pui , pagogwa amogoduwo '
-18846	139-3	error	text_form_mismatch	text='akore Inoba are udo ?' | forms='akore Inoba Ire udo ?'
-20198	149-12	error	text_form_mismatch	text='Kodi icare are ipogurudo .' | forms='Kodi icare Ire ipogurudo .'
-20886	154-4	error	text_form_mismatch	text='Egore emarice pado oino .***' | forms='Egore emarice pado oino .'
-20896	154-5	error	text_form_mismatch	text='Oinore akodure bai oino .***' | forms='Oinore akodure bai oino .'
-20909	154-7	error	text_form_mismatch	text='Icare ikodo bai oino, nowu enogwa kodaji.***' | forms='Icare ikodo bai oino , nowu enogwa kodaji .'
-23915	177-3	error	text_form_mismatch	text='Icare ia bararedo kurirewudo, boe egore juretora, juretora o' | forms='Icare ia bararedo kurirewudo , boe egore juretora , juretora'
-24642	183-10	error	text_form_mismatch	text='Ire ikeragu tu porekudu ji taci , ire to moto to ...' | forms='Ire ikeragu tu porekuduji taci , Ire to moto .'
-25263	190-1	error	text_form_mismatch	text='Eegarenure!..Icare ere parudo ta...jii ...Oinore egore roiao' | forms='Eegarenure ! .. Icare ere parudo ta . Oinore egore roiaoji j'
-25952	197-6	error	text_form_mismatch	text='Pagare ako oino, akire aro rakaguragare .' | forms='Pagare akoino , aki aro rakaguragare .'
-26134	199-1	error	text_form_mismatch	text='Icare etaregodure ba to .Areme ekudugodure Ba!! !' | forms='Icare etaregodure bato . Areme ekudugodure ba ! !'
-26957	204-12	error	text_form_mismatch	text='Inagore E!..kaba koiaba umode togududo itabo?...M!..Oino .' | forms='Inagore E ! kaba koiaba umode togududo itabo . . Oino .'
-28938	222-5	error	text_form_mismatch	text='Akire are iwara pagado bogai .' | forms='Akire Ire iwara pagado bogai .'
-29531	228-4	error	text_form_mismatch	text='Egore mato, mato mato !' | forms='Egore akore mato , mato mato !'
-29659	229-5	error	text_form_mismatch	text='' | forms='Akore iedaga , pago aroe reo .'
-29685	230-1	error	text_form_mismatch	text='Akore ecerae cedagaru akirowo cereru butuiare ceiekorire ceg' | forms='Akore ecerae cedagaru akirowo cereru butuiare ceiekorire ceg'
-30183	239-4	error	text_form_mismatch	text='Mare ekare tawujedu pagado: Badojeba Bakorokudu mugure tu, t' | forms='Mare ekare tawujedu pagado : Baadojeba Bakorokudu mugure tu '
-30284	240-1	error	text_form_mismatch	text='Icare ere tawuje.Akore je je je je je je...je je je je je je' | forms='Icare ere tawuje . Akore je je je je je je . nowu ei tawuje '
-31855	261-9	error	text_form_mismatch	text='Tamearudae tugu inago oino jiboe ji .' | forms='Tamearudae tugu inagoino jiboe ji .'
-32300	266-1	error	text_form_mismatch	text='Icare ere nowu ika iko akedudo .' | forms='Icare ere nowu ika ako akedudo .'
-32360	267-1	error	text_form_mismatch	text='Ca, nowu akedukeje icare egore oinoHu hu u.. .' | forms='Ca , nowu akedukeje icare egore oino : -Hu Hu u .. .'
-32663	268-13	error	text_form_mismatch	text='132,Omu...Omu...m o m .' | forms=', Omu ... Omu .'
-32698	268-15	error	text_form_mismatch	text='Joku karaiwa Boko kuwa O...mu...O...mu .' | forms='Joku karaiwa Boko kuwa O mu . mu .'
-32740	269-2	error	text_form_mismatch	text='Egore tagera bu Badojeba aogeje Egore boekare !' | forms='Egore tagera bu Baadojeba aogeje egore Boekare !'
-33431	276-2	error	text_form_mismatch	text='Icare akedure, dukeje icare akore Iro...atu...goia...Bako...' | forms='Icare akedure , dukeje icare akore Iro . ro . ro O Icai tudu'
-33874	284-2	error	text_form_mismatch	text='Bakoro Kudure ako oino ji .' | forms='Bakorokudure ako oino ji .'
-34122	289-1	error	text_form_mismatch	text='Akedure, dukeje icare Boe egore Ca, akire akonagodure Juredo' | forms='Akedure , dukeje icare Boe egore Ca , aki akonagodure Juredo'
-34301	291-1	error	text_form_mismatch	text='Icare uture tabo, akore Marena...ruie...e marena...ruie ei..' | forms='Icare uture tabo , akore Marena . , akore , ecewu kodo tabo '
-34408	291-4	error	text_form_mismatch	text='Akore ei...goia...mai...do o...je...tuia...rega...ha a. .' | forms='Akore ei ... goia . ha a . .'
-34806	296-2	error	text_form_mismatch	text='Icare tagaregodure !' | forms='Icare tagaaregodure !'
-35126	300-2	error	text_form_mismatch	text='Ire ikeragu iaji ta, itaiwore ji tu...itugugodure ji...inago' | forms='Ire ikeragu iaji ta , itaiwore ji tu . . Cewu boe egore Biri'
-35398	303-2	error	text_form_mismatch	text='Inagore  A?,Akore barogwa to imode ado oecerewu bito .' | forms='Inagore A ? , Akore Barogwato imode ado oecerewu bito .'
-35669	306-3	error	text_form_mismatch	text='Akore awu jire are buodo barigu awuji jicegodu .' | forms='Akore awu jire Ire buodo barigu awuji jicegodu .'
-36028	308-6	error	text_form_mismatch	text='Ure taredo pobo to pao, taora tugu to...Itaiwore rekodaji, I' | forms='Ure taredo pobo to pao , taora tugu to . . Icare amode kare '
-38166	331-9	error	text_form_mismatch	text='Icare aomage ere ake okwa, ake rie, ake kurubeguru, ake maka' | forms='Icare aomage ere ake okwa , ake rie , ake kurubeguru , ake m'
-38348	334-1	error	text_form_mismatch	text='Akedure icare Barege ewugejewu Roia Gigudu Mere...mere...aro' | forms='Akedure icare Barege ewugejewu Roia Gigudu Mere ... mere mer'
-38472	336-2	error	text_form_mismatch	text='Icare egore imedu, akire akonagodure ji .' | forms='Icare egore imedu , aki akonagodure ji .'
-38941	339-7	error	text_form_mismatch	text='149 - Uu !' | forms='_ uu !'
-39290	345-3	error	text_form_mismatch	text='Icare eture apo, toro bato Ere bapo maku Badojeba Bakoro Kud' | forms='Icare eture apo , toro bato Ere bapo maku Baadojeba Bakoro K'
-39906	353-9	error	text_form_mismatch	text='Nowu pega, nowu pega, nowu mono, nowu arodu, nowu okwarigudu' | forms='Nowu pega , nowu pega , nowu mono , nowu arodu , nowu okwari'
-39935	353-10	error	text_form_mismatch	text='Inodu jire are acebado boeruce, are acebado pobo boice, are ' | forms='Inodu jire Ire acebado boeruce , Ire acebado pobo boice , Ir'
-40604	360-8	error	text_form_mismatch	text='Kodumodukare itododai dukeje , iragojemode boe tada , kodumo' | forms='Kodumodukare itododae dukeje , iragojemode boe tada , kodumo'
-40819	361-11	error	text_form_mismatch	text='Dukodire ego oino ji .' | forms='Dukodire egoino ji .'
-41060	364-7	error	text_form_mismatch	text='Awurogu koiare ure iokurogu roto pa , roto pa , je .Imerure ' | forms='Awurogu koiare ure iokurogu roto pa , roto pa , je .'
-45373	400-1	error	text_form_mismatch	text='Icare imedage etaregodure .' | forms='Icare imetuia etaregodure .'
-45737	402-14	error	text_form_mismatch	text='Inogwa akemore nowu aro oino jiboe ji .' | forms='Inogwa akemore nowu aroino jiboe ji .'
-47284	413-11	error	text_form_mismatch	text='Cege boe bogaire cero oino jice woje, jice woje .' | forms='Cege boe bogaire ceroino jice woje , jice woje .'
-48314	422-6	error	text_form_mismatch	text='Iwuri, Imedurogu ,Are Ioga, Imuga, Iedaga, Ioga pega, Imuga ' | forms='Iwuri , Imedurogu , Are Ioga , Imuga , Iedaga , Ioga pega , '
-49973	432-15	error	text_form_mismatch	text='Ikimadure apo pugeje, inagore No...no no hu...hu hu... !' | forms='Ikimadure apo pugeje , inagore No .'
-50370	434-6	error	text_form_mismatch	text='Egore woere boere kaiamodoge eno aroe etugu woe moto to .' | forms='Egore woere boere kaiamodoge eno aroe etugu woe moto .'
-50945	438-4	error	text_form_mismatch	text='171 - Ituie, akerogu reo !' | forms='_ Ituie , akerogu reo !'
-51193	440-2	error	text_form_mismatch	text='Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cirer' | forms='Pobo ... dori cire . cireruia Pogodawu cireruia Oko cireruia'
-52723	451-7	error	text_form_mismatch	text='Inagore M!..m!..ie!.ie!..Kaiba akagoino ji?.. .' | forms='Inagore M ! m . . Kaiba akagoino ji .. .'
-52793	451-10	error	text_form_mismatch	text='Itaiwore tu je ma, rakojere nowu pobo okwai.,Aiwore toro pob' | forms='Itaiwore tu je ma , rakojere nowu pobo okwai .'
-52994	451-23	error	text_form_mismatch	text='Boe pega tabore iro oino ai !' | forms='Boe pega tabore iroino ai !'
-54319	457-1	error	text_form_mismatch	text='Aregodure woe, ure nowu tugo makai, akore Padre, akaiwodo Bo' | forms='Aregodure woe , ure nowu tugo makai , akore Padre , akaiwodo'
-54350	457-2	error	text_form_mismatch	text='Ire mokuro kuru tawuje tawuje itore kugure ekeje, duwu tapir' | forms='Ire mokuro kuru tawuje tawuje itore kugure ekeje , duwu tapi'
-54518	458-6	error	text_form_mismatch	text='Egore itonaregedu, imedu, iorubodare, icare are ipagudugo! A' | forms='Egore itonaregedu , imedu , iorubodare , icare Ire ipagudugo'
-54542	458-7	error	text_form_mismatch	text='Iaboe bokwa akujegajeje, aporugajeje, akire atugore awoigare' | forms='Iaboe bokwa akujegajeje , aporugajeje , aki atugore awoigare'
-54958	461-2	error	text_form_mismatch	text='Itore kugure, imedumage kugure, ioga pegamage kugure, imuga ' | forms='Itore kugure , imedumage kugure , ioga pegamage kugure , imu'
-55216	462-13	error	text_form_mismatch	text='Akore kodiba aro oino ji ?' | forms='Akore kodiba aroino ji ?'
-55230	462-14	error	text_form_mismatch	text='Inagore Padre, akado oinore ure turemo ino aroe kae, dukodir' | forms='Inagore Padre , akado oinore ure turemo ino aroe kae , dukod'
-55411	463-10	error	text_form_mismatch	text='Nonore egore ii Nowu are pemegado kuiada, aroe, ere maku tap' | forms='Nonore egore ii Nowu Ire pemegado kuiada , aroe , ere maku t'
-55722	464-17	error	text_form_mismatch	text='Inagore kodiba akoino iwogai ?' | forms='Inagore kodiba ako oino iwogai ?'
-57704	474-6	error	text_form_mismatch	text='Icare are itaru boe pegarewu piji. Akore akeragu apadrinho i' | forms='Icare Ire itaru boe pegarewu piji . Akore akeragu apadrinho '
-57777	474-11	error	text_form_mismatch	text='Icare inagore Bênção , imadrinha !' | forms='Icare inagore Benção , imadrinha !'
-58028	476-11	error	text_form_mismatch	text='Imearudaere aroe kugu jie ako oino .' | forms='Imearudaere aroe kugu jie akoino .'
-58213	478-4	error	text_form_mismatch	text='Ure nowu ipanela kurido, ure okorawu awu pemegarewurogu boe ' | forms='Ure nowu ipanela kurido , ure okorawu awu pemegarewurogu boe'
-58934	482-9	error	text_form_mismatch	text='Inagore Iregoduwo awu apogo apo, cewu boe egore Gabriel, Gab' | forms='Inagore Iregoduwo awu apogo apo , cewu boe egore Gabriel , G'
-59160	483-7	error	text_form_mismatch	text='Inagore Ju boi koiare iro oino awogai .' | forms='Inagore Ju boi koiare iroino awogai .'
-59859	486-8	error	text_form_mismatch	text='Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu' | forms='Unure baigatu udo nono nono borore tugajeje : Iceba baiga at'
-59938	486-11	error	text_form_mismatch	text='Cegirema ceerudiware boe ji woe, kodire cemodukare joru tugu' | forms='Cegirema ceerudiware boe ji woe , kodire cemodukare joru tug'
-60454	489-6	error	text_form_mismatch	text='Icare cedure ba to . Akore atudo mato barogwa to pugeje .' | forms='Icare cedure bato . Akore Atudo mato barogwa to pugeje .'
-60868	491-8	error	text_form_mismatch	text='Egore barae enure petado, mare bogai rugadure ero oino, areg' | forms='Egore Brae enure petado , mare bogai rugadure eroino , arego'
-64711	507-20	error	text_form_mismatch	text='Inoba are morido ?' | forms='Inoba Ire morido ?'
-64950	508-4	error	text_form_mismatch	text='Itaiwore itododai , oinore imedage erore tuwarudu tabo .' | forms='Itaiwore itododai , oinore imetuia erore tuwarudu tabo .'
-65611	511-1	error	text_form_mismatch	text='Dukeje ia baraedu aregodure, akore Ia aroerogu bogaire iro o' | forms='Dukeje ia baraedu aregodure , akore Ia aroerogu bogaire iroi'
-65910	512-5	error	text_form_mismatch	text='Egore barogwa to pawugeruru mode pagerogu bogai .' | forms='Egore Barogwato pawugeruru mode pagerogu bogai .'
-69016	529-4	error	text_form_mismatch	text='dukodire iro oino ji .' | forms='dukodire iroino ji .'
-70678	538-1	error	text_form_mismatch	text='Nowu cero oino bogaiwu boe eimejera iere Tiago .' | forms='Nowu ceroino bogaiwu boe eimejera iere Tiago .'
-72128	546-8	error	text_form_mismatch	text='Inagore Ppobo boire ii pugeje .' | forms='Inagore pobo boire ii pugeje .'
-73234	551-19	error	text_form_mismatch	text='Icare aro oino .' | forms='Icare aroino .'
-73536	552-12	error	text_form_mismatch	text='' | forms='Pe .'
-73804	553-20	error	text_form_mismatch	text='Icare cere cegeragu cegerogu ji: Aroerogu, pejorogu, boekagu' | forms='Icare cere cegeragu cegerogu ji : Aroerogu , pejorogu , boek'
-73989	555-2-2	error	text_form_mismatch	text='Icare cegodo ia tori parugajeje .' | forms='Icare cegodo ia tori parugajejeje .'
-74242	556-2	error	text_form_mismatch	text='Ceerudure kaiamodogei nono , icare cebagudure ece .' | forms='Ceerudure kaiamodoge ji nono , icare cebagudure ece .'
-74361	556-13	error	text_form_mismatch	text='Icare ire cewu karameru maku ai .' | forms='Icare ire cewu karameru maku ae .'
-77223	569-12	error	text_form_mismatch	text='Macare tagaregodure .' | forms='Macare tagaaregodure .'
-77299	569-17	error	text_form_mismatch	text='Awu kuruga keje cero oino ei .' | forms='Awu kuruga keje ceroino ei .'
-83694	599-10	error	text_form_mismatch	text='Unure cewido cebagudu koia, nowu turo oino duji .' | forms='Unure cewido cebagudu koia , nowu turoino duji .'
-84247	601-15	error	text_form_mismatch	text='Icare iture toro imedage etae .' | forms='Icare iture toro imetuia etae .'
-85674	607-1	error	text_form_mismatch	text='Care nowu Padre Pedro aregodure cedae mato.Akore barogwa to ' | forms='Care nowu Padre Pedro aregodure cedae mato .'
-87801	617-9	error	text_form_mismatch	text='Akore barogwa to tamode awara akudo jii jice colchete kae .' | forms='Akore Barogwato tamode awara akudo jii jice colchete kae .'
-88752	621-9	error	text_form_mismatch	text='Inagore Jure pijire cero oino kaiamodoge ewogai .' | forms='Inagore Jure pijire ceroino kaiamodoge ewogai .'
-91070	633-9	error	text_form_mismatch	text='Colégio bai jire cero oino .' | forms='Colégio bai jire ceroino .'
-92740	642-3	error	text_form_mismatch	text='Cere nowu cero oino jiwu akedudo.,Awubowure cemode pemegado ' | forms='Cere nowu ceroino jiwu akedudo . , Awubowure cemode pemegado'
-94774	652-1	error	text_form_mismatch	text='Icare akore nowu aredu ji, akore Akogere?,Akore ikoge bokwa ' | forms='Icare akore nowu areduji , akore Akogere ? , akore Ikoge bok'
-95017	653-8	error	text_form_mismatch	text='Nowu imedage ekorigodure ii jamedu .' | forms='Nowu imetuia ekorigodure ii jamedu .'
-95171	654-2	error	text_form_mismatch	text='Cere bai tugu nowu cero oino jiwuji .' | forms='Cere bai tugu nowu ceroino jiwuji .'
-95531	655-14	error	text_form_mismatch	text='Cegiarigodu remawunure n .' | forms='Cegiarigodu remawunure .'
-95552	655-16	error	text_form_mismatch	text='Cenagore Iage egorido, dukeje are iage etugu .' | forms='Cenagore Iage egorido , dukeje Ire iage etugu .'
-95674	656-3	error	text_form_mismatch	text='Akore barogwa to tamode tagujagudo, tamode taejiwudo .' | forms='Akore Barogwato tamode tagujagudo , tamode taejiwudo .'
-97662	665-3	error	text_form_mismatch	text='Dutabore cero oino .' | forms='Dutabore ceroino .'
-97934	666-11	error	text_form_mismatch	text='Ire iemaedo cewu imedage ewogai .' | forms='Ire iemaedo cewu imetuia ewogai .'
-98185	668-4	error	text_form_mismatch	text='Itaiwore Iorudure imedage ewureaji .' | forms='Itaiwore Iorudure imetuia ewureaji .'
-100644	679-2	error	text_form_mismatch	text='Icare ire nowu imedage ewie, inagore Kaiamodoge ere tuwoadui' | forms='Icare ire nowu imetuia ewie , inagore Kaiamodoge ere tuwoadu'
-103960	693-12	error	text_form_mismatch	text='Cedao paganure ji tu.. .' | forms='Cedao peganure ji tu .. .'
-106188	705-10	error	text_form_mismatch	text='Nowu imedage ekare turawuje .' | forms='Nowu imetuia ekare turawuje .'
-106340	706-8	error	text_form_mismatch	text='Ire ia maku tu nowu imedage etai .' | forms='Ire ia maku tu nowu imetuia etai .'
-107155	709-14	error	text_form_mismatch	text='Iture epiji nowu imedage ewogai.. .' | forms='Iture epiji nowu imetuia ewogai'
-108488	716-8	error	text_form_mismatch	text='Tamearudaerogu jire taro oino .' | forms='Tamearudaerogu jire taroino .'
-109357	721-7	error	text_form_mismatch	text='Nowu imedage ekudure nono rugadu !' | forms='Nowu imetuia ekudure nono rugadu !'
-109712	723-1	error	text_form_mismatch	text='Imugu paganure rugadu tu...Uu !' | forms='Imugu peganure rugadu tu ... uu !'
-111318	731-2	error	text_form_mismatch	text='Dukejere nowu imedage egore Akie, akie !' | forms='Dukejere nowu imetuia egore Akie , akie !'
-112009	733-4	error	text_form_mismatch	text='Icare ipuredugodure nowu imedage etae .' | forms='Icare ipuredugodure nowu imetuia etae .'
-112103	734-1	error	text_form_mismatch	text='Icare inagore imedage etae: Inagore Taiagu tagera pemegado t' | forms='Icare inagore imetuia etae : Inagore Taiagu tagera pemegado '
-112863	738-1	error	text_form_mismatch	text='Dukejere ire ia tugu nowu embornalto, nowu amirewu, mokuro k' | forms='Dukejere ire ia tugu nowu embornalto , nowu amirewu , mokuro'
-113005	738-9	error	text_form_mismatch	text='Imagore nowu imedage ewogai toro .' | forms='Imagore nowu imetuia ewogai toro .'
-114284	744-17	error	text_form_mismatch	text='Inagore aerdiware, mare are amagu, aerdiware inodu tabo !' | forms='Inagore aerdiware , mare Ire amagu , aerdiware inodu tabo !'
-116354	753-12	error	text_form_mismatch	text='Kaba jiba aro oino ?' | forms='Kaba jiba aroino ?'
-118881	767-12	error	text_form_mismatch	text='Imire ire ipo kado, ire bai kado, ire reko toro nowu imedage' | forms='Imire ire ipo kado , ire bai kado , ire reko toro nowu imetu'
-119684	771-6	error	text_form_mismatch	text='Ikuduwo ike jorubo kuru ce , inogwagewo , inogwage pemegawo ' | forms='Ikuduwo ike kuruce . Inogwagewo , inogwage pemegawo .'
-120159	773-11	error	text_form_mismatch	text='Akore icare are akaimo .' | forms='Akore icare Ire akaimo .'
-124434	792-6	error	text_form_mismatch	text='Eiure tuiagu tumagu Boe etai, kodie ero oino .' | forms='Eiure tuiagu tumagu Boe etai , kodie eroino .'
-125401	798-7	error	text_form_mismatch	text='Nowu imedage eregodure ipiji .' | forms='Nowu imetuia eregodure ipiji .'
-125459	798-11	error	text_form_mismatch	text='Nowu imedage ekare tumearudu kiogwado .' | forms='Nowu imetuia ekare tumearudu kiogwado .'
-127531	806-11	error	text_form_mismatch	text='Ere nowu tugemode emaboe tugu taidu reore, taidu tabo;' | forms='Ere nowu tugemod emaboe tugu taidu reore , taidu tabo ;'
-128710	810-10	error	text_form_mismatch	text='Cewu boe egore aijedoge oino jiboe, ere reko, mare areme erd' | forms='Cewu boe egore aijedoge oino jiboe , ere reko , mare areme e'
-129034	812-4	error	text_form_mismatch	text='Icare cewaigodure moto to .' | forms='Icare cewaigodure moto .'
-130150	822-2	error	text_form_mismatch	text='Aroe parogu bogaire cero oino .' | forms='Aroe parogu bogaire ceroino .'
-132748	838-15	error	text_form_mismatch	text='Boe jokodu jire ego oino .' | forms='Boe jokodu jire ego oino oino .'
-132984	840-1	error	text_form_mismatch	text='A!..Boere nowu turo oino jiwu akedudo taci, icare Boe eture ' | forms='A ! .. Boere nowu turoino jiwu akedudo taci , icare Boe etur'
-133072	840-6	error	text_form_mismatch	text='Kodire Boe ego kigodureTamagodo Mestreji uwo pamaragodudo .' | forms='Kodire Boe ego kigodure : -Tamagodo Mestreji Uwo pamaragodud'
-136811	861-4	error	text_form_mismatch	text='Icare cedure , cegodure , eerudure iage ji .' | forms='Icare cedure , cegodure , ceerudure iage ji .'
-136852	861-10	error	text_form_mismatch	text='Icare cedure gu , dukeje ceerudure iage ji pugeje .' | forms='Icare cedure gu , dukeje ceerudure iage ji jii pugeje .'
-137497	865-4	error	text_form_mismatch	text='Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Có' | forms='Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Có'
-137988	868-2	error	text_form_mismatch	text='Icare Boe emagurure pugeje Mestre Rocco apo , Pe Bruno apo .' | forms='Icare Boe emagurure pugeje Rocco apo , Bruno apo .'
-138773	872-8.1	error	text_form_mismatch	text='Akore aregodu mato !' | forms='Akore arego mato !'
-138828	873-5	error	text_form_mismatch	text='Inoba akagore?,Akore okwaru !' | forms='Inoba akagore ?'
-141376	884-42	error	text_form_mismatch	text='Icare Boe enogwagere nowu akuraraji.Akore barogwa to pamode ' | forms='Icare Boe enogwagere nowu akuraraji . Akore Barogwato pamode'
-141982	887-7	error	text_form_mismatch	text='Akire are akowarudo, imirema ikare itowarudo .' | forms='Akire Ire akowarudo , imirema ikare itowarudo .'
-142300	888-8	error	text_form_mismatch	text='Akire are akeno to co akeroguto to .' | forms='Akire Ire akeno to co ake roguto to .'
-142999	890-7	error	text_form_mismatch	text='Eedu paganure !' | forms='Eedu peganure !'
-143942	894-3	error	text_form_mismatch	text='Pawo cruz bu pawugeje , Ave Maria mode pobe ma awu metuia bo' | forms='Pawo cruz bu pawugeje , Ave Mariamode pobe Ma awu metuia bok'
-144557	897-7	error	text_form_mismatch	text='Akore ikera jo paganure co co ike boi koia .' | forms='Akore ikera jo peganure co co ike boi koia .'
-150644	925-14	error	text_form_mismatch	text='Kodire are aekurido inagoi oinoduji .' | forms='Kodire Ire aekurido inagoi oinoduji .'
-151708	929-17	error	text_form_mismatch	text='Icare ure tugerako jodo nowu jorubo kuru bukeje gu...du tona' | forms='Icare ure tugerako jodo nowu jorubo kuru bukeje gu . Ure now'
-152118	932-1	error	text_form_mismatch	text='Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to, ure' | forms='Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to , ur'
-153209	937-5	error	text_form_mismatch	text='Emago paga paganure .' | forms='Emago paga peganure .'
-153504	938-12	error	text_form_mismatch	text='Itao paganure tu...akoi ii duji .' | forms='Itao peganure tu ... akoi ii duji .'
-153619	939-8	error	text_form_mismatch	text='Akore iturare kodure oino jiice Meruri parugajeje .' | forms='Akore iturare kodure oino jiice Meruri parugajejej .'
-153930	940-13	error	text_form_mismatch	text='Akore boe jokodu jina akago oino ?' | forms='Akore boe jokodu jina akagoino ?'
-155778	950-8	error	text_form_mismatch	text='Inagore Kaba bogaiba taro oino ?' | forms='Inagore Kaba bogaiba taroino ?'
-155827	950-12	error	text_form_mismatch	text='Awogaire cero oino .' | forms='Awogaire ceroino .'
-156075	951-11	error	text_form_mismatch	text='Ipuredugodu rumode nowu iro oinowo kae .' | forms='Ipuredugodu rumode nowu iroinowo kae .'
-158097	961-9	error	text_form_mismatch	text='Boe ere birewuge etugu moto to nono .' | forms='Boe ere birewuge etugu moto nono .'
-158345	962-15	error	text_form_mismatch	text='Imugu paganure toro ebo .' | forms='Imugu peganure toro ebo .'
-159532	969-2	error	text_form_mismatch	text='Icare ure kodo mato cedae mato.Akore itore tagaregodure ?' | forms='Icare ure kodo mato cedae mato . Akore itore tagaaregodure ?'
-160426	973-16	error	text_form_mismatch	text='Oinodukodire aro oino .' | forms='Oinodukodire aroino .'
-160832	975-9	error	text_form_mismatch	text='Padre bogaire cero oino .' | forms='Padre bogaire ceroino .'
-161634	980-2	error	text_form_mismatch	text='Inagore Boe bokwa.Akore kodire iro oino aregodaji .' | forms='Inagore Boe bokwa . Akore kodire iroino aregodaji .'
-162540	985-4	error	text_form_mismatch	text='Icare kiarigodure , akore ioguduba koiaba ure aruduiwado , a' | forms='care kiarigodure , akore ioguduba koiaba ure aruduiwado , aw'
-163812	dic_0465	error	text_form_mismatch	text='ure tuiejodo moto to .' | forms='ure tuiejodo .'
-164155	dic_0529	error	text_form_mismatch	text='refl.) erade tumagu .' | forms='erade tumagu .'
-165100	dic_0684	error	text_form_mismatch	text='ref) ikawo ikeragu .' | forms='ikawo ikeragu .'
-165379	dic_0781	error	text_form_mismatch	text='pegajagunure .' | forms='pegajagunure jagunure .'
-165845	dic_0930	error	text_form_mismatch	text='aki nao ?' | forms='aki na woe ?'
-166577	dic_1082	error	text_form_mismatch	text='(v.rejl.) parade pamagu .' | forms='parade pamagu .'
-168040	dic_0009	error	text_form_mismatch	text='Aregodure tumugumodewu kae .' | forms='Aregodure tumugumodewo kae .'
-169366	dic_0247	error	text_form_mismatch	text='biakure li .' | forms='biakure ii .'
-170148	dic_0661	error	text_form_mismatch	text='ref) akore iie ikeragu .' | forms='akore iie ikeragu .'
-171351	dic_1319	error	text_form_mismatch	text='(v.re.fl.) akore uie tumagu .' | forms='akore uie tumagu .'
-171456	dic_1338	error	text_form_mismatch	text='ref) ukawo tugeragu boe ji .' | forms='ukawo tugeragu boe ji .'
-171500	dic_1348	error	text_form_mismatch	text='ref) umodukare tugeragu boe ji .' | forms='umodukare tugeragu boe ji .'
-38195		error	token_ids_not_sequential	24 25 26 27 28 29 6
-38203		error	token_ids_not_sequential	33 34 35 36 37 38 6
-38211		error	token_ids_not_sequential	42 43 44 45 46 47 6
+1548	boe_ero_02_10	error	text_form_mismatch	text='Akore ah , akore mato , mato , mato , mato . Ah! Aregodure, ' | forms='Akore ah , akore mato , mato , mato , mato'
+1646	boe_ero_02_15	error	text_form_mismatch	"text='Akore: ""Are, atukaba toro. Are, mato"".' | forms='Akore , atu kaba toro . Are , mato'"
+2074	boe_ero_02_33	error	text_form_mismatch	text='Icare aredure ema rugadu, Icare orere, onaregedure, orere po' | forms='Icare aredure ema rugadu , Icare orere , onaregedure , orere'
+5506	boe_ero_07_31	error	text_form_mismatch	"text='Inagore: ""Arokagado. Awiremode. Mare kajao, akodo mai.""' | forms='Inagore . Awiremode . Mare kajao , akodo mai .'"
+7738	Jussila-6	error	text_form_mismatch	text='Ca Iroere koge ure rogu ko durogu pijire rogu bire .' | forms='Ca Iroere koge ure rogu kodurogu bire .'
+7802	Jussila-10	error	text_form_mismatch	text='Egore iedaga Kigaio , iedaga Aroe Kigaio .' | forms='Egore iedaga Kigaio , idaga Aroe Kigaio .'
+7855	Jussila-13	error	text_form_mismatch	text='Tadumode kaboba bogaiba taro oino ? Mare emagokare .' | forms='Tadumode kaboba bogaiba taro oino ?'
+7921	Jussila-17	error	text_form_mismatch	text='Nono ure erawuje makore ei tamode tagirimi dukeje tamagore i' | forms='Nono ure erawuje makore ei tamode tagirimi dukeje tamagore i'
+8295	ritual-onca-1-02	error	text_form_mismatch	text='Boe egore cewu ceraedure ro oino ji , cewu Baadojebare ro oi' | forms='Boe egore cewu ceraedure ro oino ji , cewu Baadojebare ro oi'
+11159	23-2	error	text_form_mismatch	text='Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia i' | forms='Awu Pao Pemore itudo mato , akore atudo woje , aeruduwo ia i'
+11889	37-6	error	text_form_mismatch	text='Meri rekodu tabo tadure mato iwo iarogu maku tagai pugeje .' | forms='Meri rekodu tabo tadure mato , iwo iarogu maku tagae pugeje '
+12516	51-3	error	text_form_mismatch	text='Dukejere bubuture cei .' | forms='Dukejere bubuture ce .'
+12674	53-5	error	text_form_mismatch	text='Woe , boe motunure !' | forms='Wo , boe motunure !'
+12985	58-4	error	text_form_mismatch	text='Icare nowu iorubodarege egore imi karega , imi karega , imi ' | forms='Icare nowu iorubodarege egore imi karega , imi karega , ireg'
+15155	96-6	error	text_form_mismatch	text='Akore awu jire Boe egore Marido , Marido , oino .' | forms='Akore awu jire Boe egore Marido , Marido , ino .'
+15179	97-3	error	text_form_mismatch	text='Akore jewu boe ao gejere aerudumode Meruri ji .' | forms='Akore jewu boe ao kejere aerudumode Meruri ji .'
+15486	101-7	error	text_form_mismatch	text='Boe akurugudu baruto, moto to .' | forms='Boe akurugudu baruto , moto .'
+15676	103-7	error	text_form_mismatch	text='Apoguru amagoi jituji .' | forms='Apogurukaba amagoi jituji .'
+16089	109-4	error	text_form_mismatch	text='Akore barogwa tore ature mato , awo awu kagarigadoge eia ibo' | forms='Akore Barogwatore ature mato , awo awu kagarigadoge eia ibor'
+16389	113-1	error	text_form_mismatch	text='Inagore Mato ia pagoroerogu tabo !' | forms='Inagore akore mato ia pagoroerogu tabo !'
+18853	139-3	error	text_form_mismatch	text='akore Inoba are udo ?' | forms='akore Inoba Ire udo ?'
+20205	149-12	error	text_form_mismatch	text='Kodi icare are ipogurudo .' | forms='Kodi icare Ire ipogurudo .'
+20893	154-4	error	text_form_mismatch	text='Egore emarice pado oino .***' | forms='Egore emarice pado oino .'
+20903	154-5	error	text_form_mismatch	text='Oinore akodure bai oino .***' | forms='Oinore akodure bai oino .'
+20916	154-7	error	text_form_mismatch	text='Icare ikodo bai oino, nowu enogwa kodaji.***' | forms='Icare ikodo bai oino , nowu enogwa kodaji .'
+23922	177-3	error	text_form_mismatch	text='Icare ia bararedo kurirewudo, boe egore juretora, juretora o' | forms='Icare ia bararedo kurirewudo , boe egore juretora , juretora'
+24649	183-10	error	text_form_mismatch	text='Ire ikeragu tu porekudu ji taci , ire to moto to ...' | forms='Ire ikeragu tu porekuduji taci , Ire to moto .'
+25270	190-1	error	text_form_mismatch	text='Eegarenure!..Icare ere parudo ta...jii ...Oinore egore roiao' | forms='Eegarenure ! .. Icare ere parudo ta . Oinore egore roiaoji j'
+25959	197-6	error	text_form_mismatch	text='Pagare ako oino, akire aro rakaguragare .' | forms='Pagare ako oino , aki aro rakaguragare .'
+26142	199-1	error	text_form_mismatch	text='Icare etaregodure ba to .Areme ekudugodure Ba!! !' | forms='Icare etaregodure bato . Areme ekudugodure ba ! !'
+26965	204-12	error	text_form_mismatch	text='Inagore E!..kaba koiaba umode togududo itabo?...M!..Oino .' | forms='Inagore E ! kaba koiaba umode togududo itabo . . Oino .'
+28946	222-5	error	text_form_mismatch	text='Akire are iwara pagado bogai .' | forms='Akire Ire iwara pagado bogai .'
+29539	228-4	error	text_form_mismatch	text='Egore mato, mato mato !' | forms='Egore akore mato , mato mato !'
+29667	229-5	error	text_form_mismatch	text='' | forms='Akore iedaga , pago aroe reo .'
+29693	230-1	error	text_form_mismatch	text='Akore ecerae cedagaru akirowo cereru butuiare ceiekorire ceg' | forms='Akore ecerae cedagaru akirowo cereru butuiare ceiekorire ceg'
+30191	239-4	error	text_form_mismatch	text='Mare ekare tawujedu pagado: Badojeba Bakorokudu mugure tu, t' | forms='Mare ekare tawujedu pagado : Baadojeba Bakorokudu mugure tu '
+30292	240-1	error	text_form_mismatch	text='Icare ere tawuje.Akore je je je je je je...je je je je je je' | forms='Icare ere tawuje . Akore je je je je je je . nowu ei tawuje '
+32309	266-1	error	text_form_mismatch	text='Icare ere nowu ika iko akedudo .' | forms='Icare ere nowu ika ako akedudo .'
+32369	267-1	error	text_form_mismatch	text='Ca, nowu akedukeje icare egore oinoHu hu u.. .' | forms='Ca , nowu akedukeje icare egore oino : -Hu Hu u .. .'
+32672	268-13	error	text_form_mismatch	text='132,Omu...Omu...m o m .' | forms=', Omu ... Omu .'
+32707	268-15	error	text_form_mismatch	text='Joku karaiwa Boko kuwa O...mu...O...mu .' | forms='Joku karaiwa Boko kuwa O mu . mu .'
+32749	269-2	error	text_form_mismatch	text='Egore tagera bu Badojeba aogeje Egore boekare !' | forms='Egore tagera bu Baadojeba aogeje egore Boekare !'
+33440	276-2	error	text_form_mismatch	text='Icare akedure, dukeje icare akore Iro...atu...goia...Bako...' | forms='Icare akedure , dukeje icare akore Iro . ro . ro O Icai tudu'
+33883	284-2	error	text_form_mismatch	text='Bakoro Kudure ako oino ji .' | forms='Bakorokudure ako oino ji .'
+34131	289-1	error	text_form_mismatch	text='Akedure, dukeje icare Boe egore Ca, akire akonagodure Juredo' | forms='Akedure , dukeje icare Boe egore Ca , aki akonagodure Juredo'
+34310	291-1	error	text_form_mismatch	text='Icare uture tabo, akore Marena...ruie...e marena...ruie ei..' | forms='Icare uture tabo , akore Marena . , akore , ecewu kodo tabo '
+34417	291-4	error	text_form_mismatch	text='Akore ei...goia...mai...do o...je...tuia...rega...ha a. .' | forms='Akore ei ... goia . ha a . .'
+34815	296-2	error	text_form_mismatch	text='Icare tagaregodure !' | forms='Icare tagaaregodure !'
+35135	300-2	error	text_form_mismatch	text='Ire ikeragu iaji ta, itaiwore ji tu...itugugodure ji...inago' | forms='Ire ikeragu iaji ta , itaiwore ji tu . . Cewu boe egore Biri'
+35407	303-2	error	text_form_mismatch	text='Inagore  A?,Akore barogwa to imode ado oecerewu bito .' | forms='Inagore A ? , Akore Barogwato imode ado oecerewu bito .'
+35678	306-3	error	text_form_mismatch	text='Akore awu jire are buodo barigu awuji jicegodu .' | forms='Akore awu jire Ire buodo barigu awuji jicegodu .'
+36037	308-6	error	text_form_mismatch	text='Ure taredo pobo to pao, taora tugu to...Itaiwore rekodaji, I' | forms='Ure taredo pobo to pao , taora tugu to . . Icare amode kare '
+38175	331-9	error	text_form_mismatch	text='Icare aomage ere ake okwa, ake rie, ake kurubeguru, ake maka' | forms='Icare aomage ere ake okwa , ake rie , ake kurubeguru , ake m'
+38357	334-1	error	text_form_mismatch	text='Akedure icare Barege ewugejewu Roia Gigudu Mere...mere...aro' | forms='Akedure icare Barege ewugejewu Roia Gigudu Mere ... mere mer'
+38481	336-2	error	text_form_mismatch	text='Icare egore imedu, akire akonagodure ji .' | forms='Icare egore imedu , aki akonagodure ji .'
+38950	339-7	error	text_form_mismatch	text='149 - Uu !' | forms='_ uu !'
+39299	345-3	error	text_form_mismatch	text='Icare eture apo, toro bato Ere bapo maku Badojeba Bakoro Kud' | forms='Icare eture apo , toro bato Ere bapo maku Baadojeba Bakoro K'
+39945	353-10	error	text_form_mismatch	text='Inodu jire are acebado boeruce, are acebado pobo boice, are ' | forms='Inodu jire Ire acebado boeruce , Ire acebado pobo boice , Ir'
+40614	360-8	error	text_form_mismatch	text='Kodumodukare itododai dukeje , iragojemode boe tada , kodumo' | forms='Kodumodukare itododae dukeje , iragojemode boe tada , kodumo'
+41071	364-7	error	text_form_mismatch	text='Awurogu koiare ure iokurogu roto pa , roto pa , je .Imerure ' | forms='Awurogu koiare ure iokurogu roto pa , roto pa , je .'
+48327	422-6	error	text_form_mismatch	text='Iwuri, Imedurogu ,Are Ioga, Imuga, Iedaga, Ioga pega, Imuga ' | forms='Iwuri , Imedurogu , Are Ioga , Imuga , Iedaga , Ioga pega , '
+49986	432-15	error	text_form_mismatch	text='Ikimadure apo pugeje, inagore No...no no hu...hu hu... !' | forms='Ikimadure apo pugeje , inagore No .'
+50383	434-6	error	text_form_mismatch	text='Egore woere boere kaiamodoge eno aroe etugu woe moto to .' | forms='Egore woere boere kaiamodoge eno aroe etugu woe moto .'
+50958	438-4	error	text_form_mismatch	text='171 - Ituie, akerogu reo !' | forms='_ Ituie , akerogu reo !'
+51206	440-2	error	text_form_mismatch	text='Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cirer' | forms='Pobo ... dori cire . cireruia Pogodawu cireruia Oko cireruia'
+52736	451-7	error	text_form_mismatch	text='Inagore M!..m!..ie!.ie!..Kaiba akagoino ji?.. .' | forms='Inagore M ! m . . Kaiba akagoino ji .. .'
+52806	451-10	error	text_form_mismatch	text='Itaiwore tu je ma, rakojere nowu pobo okwai.,Aiwore toro pob' | forms='Itaiwore tu je ma , rakojere nowu pobo okwai .'
+54534	458-6	error	text_form_mismatch	text='Egore itonaregedu, imedu, iorubodare, icare are ipagudugo! A' | forms='Egore itonaregedu , imedu , iorubodare , icare Ire ipagudugo'
+54558	458-7	error	text_form_mismatch	text='Iaboe bokwa akujegajeje, aporugajeje, akire atugore awoigare' | forms='Iaboe bokwa akujegajeje , aporugajeje , aki atugore awoigare'
+54974	461-2	error	text_form_mismatch	text='Itore kugure, imedumage kugure, ioga pegamage kugure, imuga ' | forms='Itore kugure , imedumage kugure , ioga pegamage kugure , imu'
+55429	463-10	error	text_form_mismatch	text='Nonore egore ii Nowu are pemegado kuiada, aroe, ere maku tap' | forms='Nonore egore ii Nowu Ire pemegado kuiada , aroe , ere maku t'
+57723	474-6	error	text_form_mismatch	text='Icare are itaru boe pegarewu piji. Akore akeragu apadrinho i' | forms='Icare Ire itaru boe pegarewu piji . Akore akeragu apadrinho '
+57796	474-11	error	text_form_mismatch	text='Icare inagore Bênção , imadrinha !' | forms='Icare inagore Benção , imadrinha !'
+58233	478-4	error	text_form_mismatch	text='Ure nowu ipanela kurido, ure okorawu awu pemegarewurogu boe ' | forms='Ure nowu ipanela kurido , ure okorawu awu pemegarewurogu boe'
+58954	482-9	error	text_form_mismatch	text='Inagore Iregoduwo awu apogo apo, cewu boe egore Gabriel, Gab' | forms='Inagore Iregoduwo awu apogo apo , cewu boe egore Gabriel , G'
+59880	486-8	error	text_form_mismatch	text='Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu' | forms='Unure baigatu udo nono nono borore tugajeje : Iceba baiga at'
+59959	486-11	error	text_form_mismatch	text='Cegirema ceerudiware boe ji woe, kodire cemodukare joru tugu' | forms='Cegirema ceerudiware boe ji woe , kodire cemodukare joru tug'
+60475	489-6	error	text_form_mismatch	text='Icare cedure ba to . Akore atudo mato barogwa to pugeje .' | forms='Icare cedure bato . Akore Atudo mato barogwa to pugeje .'
+60889	491-8	error	text_form_mismatch	text='Egore barae enure petado, mare bogai rugadure ero oino, areg' | forms='Egore Brae enure petado , mare bogai rugadure ero oino , are'
+64733	507-20	error	text_form_mismatch	text='Inoba are morido ?' | forms='Inoba Ire morido ?'
+65933	512-5	error	text_form_mismatch	text='Egore barogwa to pawugeruru mode pagerogu bogai .' | forms='Egore Barogwato pawugeruru mode pagerogu bogai .'
+72153	546-8	error	text_form_mismatch	text='Inagore Ppobo boire ii pugeje .' | forms='Inagore pobo boire ii pugeje .'
+73562	552-12	error	text_form_mismatch	text='' | forms='Pe .'
+73830	553-20	error	text_form_mismatch	text='Icare cere cegeragu cegerogu ji: Aroerogu, pejorogu, boekagu' | forms='Icare cere cegeragu cegerogu ji : Aroerogu , pejorogu , boek'
+74015	555-2-2	error	text_form_mismatch	text='Icare cegodo ia tori parugajeje .' | forms='Icare cegodo ia tori parugajejeje .'
+74268	556-2	error	text_form_mismatch	text='Ceerudure kaiamodogei nono , icare cebagudure ece .' | forms='Ceerudure kaiamodoge ji nono , icare cebagudure ece .'
+74387	556-13	error	text_form_mismatch	text='Icare ire cewu karameru maku ai .' | forms='Icare ire cewu karameru maku ae .'
+77249	569-12	error	text_form_mismatch	text='Macare tagaregodure .' | forms='Macare tagaaregodure .'
+85702	607-1	error	text_form_mismatch	text='Care nowu Padre Pedro aregodure cedae mato.Akore barogwa to ' | forms='Care nowu Padre Pedro aregodure cedae mato .'
+87829	617-9	error	text_form_mismatch	text='Akore barogwa to tamode awara akudo jii jice colchete kae .' | forms='Akore Barogwato tamode awara akudo jii jice colchete kae .'
+92770	642-3	error	text_form_mismatch	text='Cere nowu cero oino jiwu akedudo.,Awubowure cemode pemegado ' | forms='Cere nowu cero oino jiwu akedudo . , Awubowure cemode pemega'
+94805	652-1	error	text_form_mismatch	text='Icare akore nowu aredu ji, akore Akogere?,Akore ikoge bokwa ' | forms='Icare akore nowu areduji , akore Akogere ? , akore Ikoge bok'
+95563	655-14	error	text_form_mismatch	text='Cegiarigodu remawunure n .' | forms='Cegiarigodu remawunure .'
+95584	655-16	error	text_form_mismatch	text='Cenagore Iage egorido, dukeje are iage etugu .' | forms='Cenagore Iage egorido , dukeje Ire iage etugu .'
+95706	656-3	error	text_form_mismatch	text='Akore barogwa to tamode tagujagudo, tamode taejiwudo .' | forms='Akore Barogwato tamode tagujagudo , tamode taejiwudo .'
+107188	709-14	error	text_form_mismatch	text='Iture epiji nowu imedage ewogai.. .' | forms='Iture epiji nowu imetuia ewogai'
+109746	723-1	error	text_form_mismatch	text='Imugu paganure rugadu tu...Uu !' | forms='Imugu paganure rugadu tu ... uu !'
+114318	744-17	error	text_form_mismatch	text='Inagore aerdiware, mare are amagu, aerdiware inodu tabo !' | forms='Inagore aerdiware , mare Ire amagu , aerdiware inodu tabo !'
+119719	771-6	error	text_form_mismatch	text='Ikuduwo ike jorubo kuru ce , inogwagewo , inogwage pemegawo ' | forms='Ikuduwo ike kuruce . Inogwagewo , inogwage pemegawo .'
+120194	773-11	error	text_form_mismatch	text='Akore icare are akaimo .' | forms='Akore icare Ire akaimo .'
+127567	806-11	error	text_form_mismatch	text='Ere nowu tugemode emaboe tugu taidu reore, taidu tabo;' | forms='Ere nowu tugemod emaboe tugu taidu reore , taidu tabo ;'
+129071	812-4	error	text_form_mismatch	text='Icare cewaigodure moto to .' | forms='Icare cewaigodure moto .'
+132786	838-15	error	text_form_mismatch	text='Boe jokodu jire ego oino .' | forms='Boe jokodu jire ego oino oino .'
+133111	840-6	error	text_form_mismatch	text='Kodire Boe ego kigodureTamagodo Mestreji uwo pamaragodudo .' | forms='Kodire Boe ego kigodure : -Tamagodo Mestreji Uwo pamaragodud'
+136850	861-4	error	text_form_mismatch	text='Icare cedure , cegodure , eerudure iage ji .' | forms='Icare cedure , cegodure , ceerudure iage ji .'
+136891	861-10	error	text_form_mismatch	text='Icare cedure gu , dukeje ceerudure iage ji pugeje .' | forms='Icare cedure gu , dukeje ceerudure iage ji jii pugeje .'
+137536	865-4	error	text_form_mismatch	text='Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Có' | forms='Icare Boe emagurure pugeje caminhão tabo pugeje toro nowu Có'
+138027	868-2	error	text_form_mismatch	text='Icare Boe emagurure pugeje Mestre Rocco apo , Pe Bruno apo .' | forms='Icare Boe emagurure pugeje Rocco apo , Bruno apo .'
+138812	872-8.1	error	text_form_mismatch	text='Akore aregodu mato !' | forms='Akore arego mato !'
+138867	873-5	error	text_form_mismatch	text='Inoba akagore?,Akore okwaru !' | forms='Inoba akagore ?'
+141415	884-42	error	text_form_mismatch	text='Icare Boe enogwagere nowu akuraraji.Akore barogwa to pamode ' | forms='Icare Boe enogwagere nowu akuraraji . Akore Barogwato pamode'
+142021	887-7	error	text_form_mismatch	text='Akire are akowarudo, imirema ikare itowarudo .' | forms='Akire Ire akowarudo , imirema ikare itowarudo .'
+142339	888-8	error	text_form_mismatch	text='Akire are akeno to co akeroguto to .' | forms='Akire Ire akeno to co ake roguto to .'
+143981	894-3	error	text_form_mismatch	text='Pawo cruz bu pawugeje , Ave Maria mode pobe ma awu metuia bo' | forms='Pawo cruz bu pawugeje , Ave Mariamode pobe Ma awu metuia bok'
+150683	925-14	error	text_form_mismatch	text='Kodire are aekurido inagoi oinoduji .' | forms='Kodire Ire aekurido inagoi oinoduji .'
+151747	929-17	error	text_form_mismatch	text='Icare ure tugerako jodo nowu jorubo kuru bukeje gu...du tona' | forms='Icare ure tugerako jodo nowu jorubo kuru bukeje gu . Ure now'
+152157	932-1	error	text_form_mismatch	text='Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to, ure' | forms='Emare ure tugeragu ipanela ji , ure kuiada kuru tugu to , ur'
+153658	939-8	error	text_form_mismatch	text='Akore iturare kodure oino jiice Meruri parugajeje .' | forms='Akore iturare kodure oino jiice Meruri parugajejej .'
+158140	961-9	error	text_form_mismatch	text='Boe ere birewuge etugu moto to nono .' | forms='Boe ere birewuge etugu moto nono .'
+159575	969-2	error	text_form_mismatch	text='Icare ure kodo mato cedae mato.Akore itore tagaregodure ?' | forms='Icare ure kodo mato cedae mato . Akore itore tagaaregodure ?'
+162586	985-4	error	text_form_mismatch	text='Icare kiarigodure , akore ioguduba koiaba ure aruduiwado , a' | forms='care kiarigodure , akore ioguduba koiaba ure aruduiwado , aw'
+163858	dic_0465	error	text_form_mismatch	text='ure tuiejodo moto to .' | forms='ure tuiejodo .'
+164201	dic_0529	error	text_form_mismatch	text='refl.) erade tumagu .' | forms='erade tumagu .'
+165146	dic_0684	error	text_form_mismatch	text='ref) ikawo ikeragu .' | forms='ikawo ikeragu .'
+165425	dic_0781	error	text_form_mismatch	text='pegajagunure .' | forms='pegajagunure jagunure .'
+165891	dic_0930	error	text_form_mismatch	text='aki nao ?' | forms='aki na woe ?'
+166623	dic_1082	error	text_form_mismatch	text='(v.rejl.) parade pamagu .' | forms='parade pamagu .'
+168086	dic_0009	error	text_form_mismatch	text='Aregodure tumugumodewu kae .' | forms='Aregodure tumugumodewo kae .'
+169412	dic_0247	error	text_form_mismatch	text='biakure li .' | forms='biakure ii .'
+170194	dic_0661	error	text_form_mismatch	text='ref) akore iie ikeragu .' | forms='akore iie ikeragu .'
+171397	dic_1319	error	text_form_mismatch	text='(v.re.fl.) akore uie tumagu .' | forms='akore uie tumagu .'
+171502	dic_1338	error	text_form_mismatch	text='ref) ukawo tugeragu boe ji .' | forms='ukawo tugeragu boe ji .'
+171546	dic_1348	error	text_form_mismatch	text='ref) umodukare tugeragu boe ji .' | forms='umodukare tugeragu boe ji .'
+38204		error	token_ids_not_sequential	24 25 26 27 28 29 6
+38212		error	token_ids_not_sequential	33 34 35 36 37 38 6
+38220		error	token_ids_not_sequential	42 43 44 45 46 47 6
 975	boe_ero_01_34	error	upos_missing	'_'
-1225	boe_ero_01_40	error	upos_missing	'_'
 1226	boe_ero_01_40	error	upos_missing	'_'
-1232	boe_ero_01_40	error	upos_missing	'_'
+1227	boe_ero_01_40	error	upos_missing	'_'
 1233	boe_ero_01_40	error	upos_missing	'_'
 1234	boe_ero_01_40	error	upos_missing	'_'
-1238	boe_ero_01_40	error	upos_missing	'_'
+1235	boe_ero_01_40	error	upos_missing	'_'
 1239	boe_ero_01_40	error	upos_missing	'_'
-1241	boe_ero_01_40	error	upos_missing	'_'
-1243	boe_ero_01_40	error	upos_missing	'_'
-1245	boe_ero_01_40	error	upos_missing	'_'
-1789	boe_ero_02_21	error	upos_missing	'_'
-2142	boe_ero_02_34	error	upos_missing	'_'
-2149	boe_ero_02_34	error	upos_missing	'_'
-2250	boe_ero_02_38	error	upos_missing	'_'
-2257	boe_ero_02_38	error	upos_missing	'_'
+1240	boe_ero_01_40	error	upos_missing	'_'
+1242	boe_ero_01_40	error	upos_missing	'_'
+1244	boe_ero_01_40	error	upos_missing	'_'
+1246	boe_ero_01_40	error	upos_missing	'_'
+1790	boe_ero_02_21	error	upos_missing	'_'
+2143	boe_ero_02_34	error	upos_missing	'_'
+2150	boe_ero_02_34	error	upos_missing	'_'
+2251	boe_ero_02_38	error	upos_missing	'_'
 2258	boe_ero_02_38	error	upos_missing	'_'
-2265	boe_ero_02_38	error	upos_missing	'_'
+2259	boe_ero_02_38	error	upos_missing	'_'
 2266	boe_ero_02_38	error	upos_missing	'_'
-2273	boe_ero_02_38	error	upos_missing	'_'
+2267	boe_ero_02_38	error	upos_missing	'_'
 2274	boe_ero_02_38	error	upos_missing	'_'
-2277	boe_ero_02_38	error	upos_missing	'_'
-2281	boe_ero_02_38	error	upos_missing	'_'
+2275	boe_ero_02_38	error	upos_missing	'_'
+2278	boe_ero_02_38	error	upos_missing	'_'
 2282	boe_ero_02_38	error	upos_missing	'_'
-2287	boe_ero_02_38	error	upos_missing	'_'
+2283	boe_ero_02_38	error	upos_missing	'_'
 2288	boe_ero_02_38	error	upos_missing	'_'
-2296	boe_ero_02_38	error	upos_missing	'_'
-2423	boe_ero_02_42	error	upos_missing	'_'
+2289	boe_ero_02_38	error	upos_missing	'_'
+2297	boe_ero_02_38	error	upos_missing	'_'
 2424	boe_ero_02_42	error	upos_missing	'_'
-2428	boe_ero_02_42	error	upos_missing	'_'
+2425	boe_ero_02_42	error	upos_missing	'_'
 2429	boe_ero_02_42	error	upos_missing	'_'
-2431	boe_ero_02_42	error	upos_missing	'_'
+2430	boe_ero_02_42	error	upos_missing	'_'
 2432	boe_ero_02_42	error	upos_missing	'_'
 2433	boe_ero_02_42	error	upos_missing	'_'
-2435	boe_ero_02_42	error	upos_missing	'_'
+2434	boe_ero_02_42	error	upos_missing	'_'
 2436	boe_ero_02_42	error	upos_missing	'_'
 2437	boe_ero_02_42	error	upos_missing	'_'
-2440	boe_ero_02_42	error	upos_missing	'_'
-2443	boe_ero_02_42	error	upos_missing	'_'
-2489	boe_ero_03_01	error	upos_missing	'_'
-2491	boe_ero_03_01	error	upos_missing	'_'
-2493	boe_ero_03_01	error	upos_missing	'_'
-3596	boe_ero_04_09	error	upos_missing	'_'
-3598	boe_ero_04_09	error	upos_missing	'_'
-3600	boe_ero_04_09	error	upos_missing	'_'
+2438	boe_ero_02_42	error	upos_missing	'_'
+2441	boe_ero_02_42	error	upos_missing	'_'
+2444	boe_ero_02_42	error	upos_missing	'_'
+2490	boe_ero_03_01	error	upos_missing	'_'
+2492	boe_ero_03_01	error	upos_missing	'_'
+2494	boe_ero_03_01	error	upos_missing	'_'
+3597	boe_ero_04_09	error	upos_missing	'_'
+3599	boe_ero_04_09	error	upos_missing	'_'
 3601	boe_ero_04_09	error	upos_missing	'_'
-3603	boe_ero_04_09	error	upos_missing	'_'
+3602	boe_ero_04_09	error	upos_missing	'_'
 3604	boe_ero_04_09	error	upos_missing	'_'
-3609	boe_ero_04_09	error	upos_missing	'_'
+3605	boe_ero_04_09	error	upos_missing	'_'
 3610	boe_ero_04_09	error	upos_missing	'_'
-3613	boe_ero_04_09	error	upos_missing	'_'
-3616	boe_ero_04_09	error	upos_missing	'_'
+3611	boe_ero_04_09	error	upos_missing	'_'
+3614	boe_ero_04_09	error	upos_missing	'_'
 3617	boe_ero_04_09	error	upos_missing	'_'
-3620	boe_ero_04_09	error	upos_missing	'_'
-3631	boe_ero_04_09	error	upos_missing	'_'
+3618	boe_ero_04_09	error	upos_missing	'_'
+3621	boe_ero_04_09	error	upos_missing	'_'
 3632	boe_ero_04_09	error	upos_missing	'_'
-3634	boe_ero_04_09	error	upos_missing	'_'
-3636	boe_ero_04_09	error	upos_missing	'_'
+3633	boe_ero_04_09	error	upos_missing	'_'
+3635	boe_ero_04_09	error	upos_missing	'_'
 3637	boe_ero_04_09	error	upos_missing	'_'
-3639	boe_ero_04_09	error	upos_missing	'_'
-3642	boe_ero_04_09	error	upos_missing	'_'
-3644	boe_ero_04_09	error	upos_missing	'_'
-3646	boe_ero_04_09	error	upos_missing	'_'
+3638	boe_ero_04_09	error	upos_missing	'_'
+3640	boe_ero_04_09	error	upos_missing	'_'
+3643	boe_ero_04_09	error	upos_missing	'_'
+3645	boe_ero_04_09	error	upos_missing	'_'
 3647	boe_ero_04_09	error	upos_missing	'_'
-3649	boe_ero_04_09	error	upos_missing	'_'
-3657	boe_ero_04_09	error	upos_missing	'_'
-3663	boe_ero_04_09	error	upos_missing	'_'
-3666	boe_ero_04_09	error	upos_missing	'_'
-25280	190-1	error	upos_missing	'_'
-26360	200-11	error	upos_missing	'_'
-26981	204-12#2	error	upos_missing	'_'
-29068	223-3	error	upos_missing	'_'
-29663	229-5	error	upos_missing	'_'
-29665	229-5	error	upos_missing	'_'
-29713	230-1#2	error	upos_missing	'_'
-29714	230-1#2	error	upos_missing	'_'
-29715	230-1#2	error	upos_missing	'_'
-30046	237-4	error	upos_missing	'_'
-30215	239-4#2	error	upos_missing	'_'
-30221	239-4#3	error	upos_missing	'_'
-30227	239-4#4	error	upos_missing	'_'
-30229	239-4#4	error	upos_missing	'_'
-30230	239-4#4	error	upos_missing	'_'
-30231	239-4#4	error	upos_missing	'_'
-30232	239-4#4	error	upos_missing	'_'
-30310	240-1	error	upos_missing	'_'
-30314	240-1	error	upos_missing	'_'
-30315	240-1	error	upos_missing	'_'
-30319	240-1	error	upos_missing	'_'
-30326	240-1#2	error	upos_missing	'_'
-30327	240-1#2	error	upos_missing	'_'
-30328	240-1#2	error	upos_missing	'_'
-30329	240-1#2	error	upos_missing	'_'
-30330	240-1#2	error	upos_missing	'_'
-30331	240-1#2	error	upos_missing	'_'
-32260	265-3	error	upos_missing	'_'
-32278	265-4	error	upos_missing	'_'
-32279	265-4	error	upos_missing	'_'
-32280	265-4	error	upos_missing	'_'
-32281	265-4	error	upos_missing	'_'
-32282	265-4	error	upos_missing	'_'
-32283	265-4	error	upos_missing	'_'
-32284	265-4	error	upos_missing	'_'
-32286	265-4	error	upos_missing	'_'
+3648	boe_ero_04_09	error	upos_missing	'_'
+3650	boe_ero_04_09	error	upos_missing	'_'
+3658	boe_ero_04_09	error	upos_missing	'_'
+3664	boe_ero_04_09	error	upos_missing	'_'
+3667	boe_ero_04_09	error	upos_missing	'_'
+25287	190-1	error	upos_missing	'_'
+26368	200-11	error	upos_missing	'_'
+26989	204-12#2	error	upos_missing	'_'
+29076	223-3	error	upos_missing	'_'
+29671	229-5	error	upos_missing	'_'
+29673	229-5	error	upos_missing	'_'
+29721	230-1#2	error	upos_missing	'_'
+29722	230-1#2	error	upos_missing	'_'
+29723	230-1#2	error	upos_missing	'_'
+30054	237-4	error	upos_missing	'_'
+30223	239-4#2	error	upos_missing	'_'
+30229	239-4#3	error	upos_missing	'_'
+30235	239-4#4	error	upos_missing	'_'
+30237	239-4#4	error	upos_missing	'_'
+30238	239-4#4	error	upos_missing	'_'
+30239	239-4#4	error	upos_missing	'_'
+30240	239-4#4	error	upos_missing	'_'
+30318	240-1	error	upos_missing	'_'
+30322	240-1	error	upos_missing	'_'
+30323	240-1	error	upos_missing	'_'
+30327	240-1	error	upos_missing	'_'
+30334	240-1#2	error	upos_missing	'_'
+30335	240-1#2	error	upos_missing	'_'
+30336	240-1#2	error	upos_missing	'_'
+30337	240-1#2	error	upos_missing	'_'
+30338	240-1#2	error	upos_missing	'_'
+30339	240-1#2	error	upos_missing	'_'
+32269	265-3	error	upos_missing	'_'
+32287	265-4	error	upos_missing	'_'
 32288	265-4	error	upos_missing	'_'
 32289	265-4	error	upos_missing	'_'
 32290	265-4	error	upos_missing	'_'
+32291	265-4	error	upos_missing	'_'
 32292	265-4	error	upos_missing	'_'
-32679	268-13#2	error	upos_missing	'_'
-32680	268-13#2	error	upos_missing	'_'
-32681	268-13#2	error	upos_missing	'_'
-32712	268-15	error	upos_missing	'_'
-32718	268-15#2	error	upos_missing	'_'
-32736	269-1	error	upos_missing	'_'
-32846	270-1	error	upos_missing	'_'
-33446	276-2	error	upos_missing	'_'
-33448	276-2	error	upos_missing	'_'
-33449	276-2	error	upos_missing	'_'
-33450	276-2	error	upos_missing	'_'
-33451	276-2	error	upos_missing	'_'
-33454	276-2	error	upos_missing	'_'
-33460	276-2#2	error	upos_missing	'_'
-33466	276-2#3	error	upos_missing	'_'
-33472	276-2#4	error	upos_missing	'_'
-33478	276-2#5	error	upos_missing	'_'
-33959	285-6	error	upos_missing	'_'
-34318	291-1	error	upos_missing	'_'
-34319	291-1	error	upos_missing	'_'
-34322	291-1	error	upos_missing	'_'
-34325	291-1	error	upos_missing	'_'
-34334	291-1#2	error	upos_missing	'_'
-34340	291-1#3	error	upos_missing	'_'
-34341	291-1#3	error	upos_missing	'_'
-34347	291-1#4	error	upos_missing	'_'
-34354	291-1#5	error	upos_missing	'_'
-34360	291-1#6	error	upos_missing	'_'
-34366	291-1#7	error	upos_missing	'_'
-34367	291-1#7	error	upos_missing	'_'
-34373	291-1#8	error	upos_missing	'_'
-34421	291-4	error	upos_missing	'_'
-34428	291-4#2	error	upos_missing	'_'
-34434	291-4#3	error	upos_missing	'_'
-34435	291-4#3	error	upos_missing	'_'
-34441	291-4#4	error	upos_missing	'_'
-34447	291-4#5	error	upos_missing	'_'
-34453	291-4#6	error	upos_missing	'_'
-34537	293-2	error	upos_missing	'_'
-34539	293-2	error	upos_missing	'_'
+32293	265-4	error	upos_missing	'_'
+32295	265-4	error	upos_missing	'_'
+32297	265-4	error	upos_missing	'_'
+32298	265-4	error	upos_missing	'_'
+32299	265-4	error	upos_missing	'_'
+32301	265-4	error	upos_missing	'_'
+32688	268-13#2	error	upos_missing	'_'
+32689	268-13#2	error	upos_missing	'_'
+32690	268-13#2	error	upos_missing	'_'
+32721	268-15	error	upos_missing	'_'
+32727	268-15#2	error	upos_missing	'_'
+32745	269-1	error	upos_missing	'_'
+32855	270-1	error	upos_missing	'_'
+33455	276-2	error	upos_missing	'_'
+33457	276-2	error	upos_missing	'_'
+33458	276-2	error	upos_missing	'_'
+33459	276-2	error	upos_missing	'_'
+33460	276-2	error	upos_missing	'_'
+33463	276-2	error	upos_missing	'_'
+33469	276-2#2	error	upos_missing	'_'
+33475	276-2#3	error	upos_missing	'_'
+33481	276-2#4	error	upos_missing	'_'
+33487	276-2#5	error	upos_missing	'_'
+33968	285-6	error	upos_missing	'_'
+34327	291-1	error	upos_missing	'_'
+34328	291-1	error	upos_missing	'_'
+34331	291-1	error	upos_missing	'_'
+34334	291-1	error	upos_missing	'_'
+34343	291-1#2	error	upos_missing	'_'
+34349	291-1#3	error	upos_missing	'_'
+34350	291-1#3	error	upos_missing	'_'
+34356	291-1#4	error	upos_missing	'_'
+34363	291-1#5	error	upos_missing	'_'
+34369	291-1#6	error	upos_missing	'_'
+34375	291-1#7	error	upos_missing	'_'
+34376	291-1#7	error	upos_missing	'_'
+34382	291-1#8	error	upos_missing	'_'
+34430	291-4	error	upos_missing	'_'
+34437	291-4#2	error	upos_missing	'_'
+34443	291-4#3	error	upos_missing	'_'
+34444	291-4#3	error	upos_missing	'_'
+34450	291-4#4	error	upos_missing	'_'
+34456	291-4#5	error	upos_missing	'_'
+34462	291-4#6	error	upos_missing	'_'
 34546	293-2	error	upos_missing	'_'
-34547	293-2	error	upos_missing	'_'
 34548	293-2	error	upos_missing	'_'
 34555	293-2	error	upos_missing	'_'
 34556	293-2	error	upos_missing	'_'
 34557	293-2	error	upos_missing	'_'
-34559	293-2	error	upos_missing	'_'
-34563	293-2	error	upos_missing	'_'
 34564	293-2	error	upos_missing	'_'
 34565	293-2	error	upos_missing	'_'
-34567	293-2	error	upos_missing	'_'
-35146	300-2	error	upos_missing	'_'
-35148	300-2	error	upos_missing	'_'
-35150	300-2	error	upos_missing	'_'
-35151	300-2	error	upos_missing	'_'
-35166	300-2#3	error	upos_missing	'_'
-35201	300-4	error	upos_missing	'_'
-35203	300-4	error	upos_missing	'_'
-35312	301-5	error	upos_missing	'_'
-35316	301-5	error	upos_missing	'_'
-35320	301-5	error	upos_missing	'_'
-36049	308-6	error	upos_missing	'_'
-36050	308-6	error	upos_missing	'_'
-36061	308-6#2	error	upos_missing	'_'
-36274	310-1	error	upos_missing	'_'
-36279	310-1	error	upos_missing	'_'
-37121	318-8	error	upos_missing	'_'
-37191	319-5	error	upos_missing	'_'
-38196		error	upos_missing	'_'
-38204		error	upos_missing	'_'
-38206		error	upos_missing	'_'
-38212		error	upos_missing	'_'
-38214		error	upos_missing	'_'
-38228	331-9#2	error	upos_missing	'_'
-38234	331-9#2	error	upos_missing	'_'
-38363	334-1	error	upos_missing	'_'
-38364	334-1	error	upos_missing	'_'
-38365	334-1	error	upos_missing	'_'
-38371	334-1#2	error	upos_missing	'_'
-38377	334-1#3	error	upos_missing	'_'
-38379	334-1#3	error	upos_missing	'_'
-39386	348-3	error	upos_missing	'_'
-40664	360-10	error	upos_missing	'_'
-40846	362-2	error	upos_missing	'_'
-43273	385-1	error	upos_missing	'_'
-43491	387-5	error	upos_missing	'_'
-43494	387-5	error	upos_missing	'_'
-47021	411-9	error	upos_missing	'_'
-49291	430-11	error	upos_missing	'_'
-49761	431-28	error	upos_missing	'_'
-50184	433-12	error	upos_missing	'_'
-50185	433-12	error	upos_missing	'_'
-50188	433-12	error	upos_missing	'_'
-50193	433-12	error	upos_missing	'_'
-50194	433-12	error	upos_missing	'_'
-50533	435-7	error	upos_missing	'_'
-51188	440-1	error	upos_missing	'_'
-51205	440-2	error	upos_missing	'_'
-51206	440-2	error	upos_missing	'_'
-51207	440-2	error	upos_missing	'_'
-51208	440-2	error	upos_missing	'_'
-51209	440-2	error	upos_missing	'_'
-51210	440-2	error	upos_missing	'_'
-51211	440-2	error	upos_missing	'_'
-51212	440-2	error	upos_missing	'_'
-51213	440-2	error	upos_missing	'_'
-51224	440-2#2	error	upos_missing	'_'
-51225	440-2#2	error	upos_missing	'_'
-51442	441-10	error	upos_missing	'_'
-51445	441-10	error	upos_missing	'_'
-51448	441-10	error	upos_missing	'_'
-51452	441-10	error	upos_missing	'_'
-51453	441-10	error	upos_missing	'_'
+34566	293-2	error	upos_missing	'_'
+34568	293-2	error	upos_missing	'_'
+34572	293-2	error	upos_missing	'_'
+34573	293-2	error	upos_missing	'_'
+34574	293-2	error	upos_missing	'_'
+34576	293-2	error	upos_missing	'_'
+35155	300-2	error	upos_missing	'_'
+35157	300-2	error	upos_missing	'_'
+35159	300-2	error	upos_missing	'_'
+35160	300-2	error	upos_missing	'_'
+35175	300-2#3	error	upos_missing	'_'
+35210	300-4	error	upos_missing	'_'
+35212	300-4	error	upos_missing	'_'
+35321	301-5	error	upos_missing	'_'
+35325	301-5	error	upos_missing	'_'
+35329	301-5	error	upos_missing	'_'
+36058	308-6	error	upos_missing	'_'
+36059	308-6	error	upos_missing	'_'
+36070	308-6#2	error	upos_missing	'_'
+36283	310-1	error	upos_missing	'_'
+36288	310-1	error	upos_missing	'_'
+37130	318-8	error	upos_missing	'_'
+37200	319-5	error	upos_missing	'_'
+38205		error	upos_missing	'_'
+38213		error	upos_missing	'_'
+38215		error	upos_missing	'_'
+38221		error	upos_missing	'_'
+38223		error	upos_missing	'_'
+38237	331-9#2	error	upos_missing	'_'
+38243	331-9#2	error	upos_missing	'_'
+38372	334-1	error	upos_missing	'_'
+38373	334-1	error	upos_missing	'_'
+38374	334-1	error	upos_missing	'_'
+38380	334-1#2	error	upos_missing	'_'
+38386	334-1#3	error	upos_missing	'_'
+38388	334-1#3	error	upos_missing	'_'
+39395	348-3	error	upos_missing	'_'
+40674	360-10	error	upos_missing	'_'
+40857	362-2	error	upos_missing	'_'
+43284	385-1	error	upos_missing	'_'
+43502	387-5	error	upos_missing	'_'
+43505	387-5	error	upos_missing	'_'
+47033	411-9	error	upos_missing	'_'
+49304	430-11	error	upos_missing	'_'
+49774	431-28	error	upos_missing	'_'
+50197	433-12	error	upos_missing	'_'
+50198	433-12	error	upos_missing	'_'
+50201	433-12	error	upos_missing	'_'
+50206	433-12	error	upos_missing	'_'
+50207	433-12	error	upos_missing	'_'
+50546	435-7	error	upos_missing	'_'
+51201	440-1	error	upos_missing	'_'
+51218	440-2	error	upos_missing	'_'
+51219	440-2	error	upos_missing	'_'
+51220	440-2	error	upos_missing	'_'
+51221	440-2	error	upos_missing	'_'
+51222	440-2	error	upos_missing	'_'
+51223	440-2	error	upos_missing	'_'
+51224	440-2	error	upos_missing	'_'
+51225	440-2	error	upos_missing	'_'
+51226	440-2	error	upos_missing	'_'
+51237	440-2#2	error	upos_missing	'_'
+51238	440-2#2	error	upos_missing	'_'
+51455	441-10	error	upos_missing	'_'
 51458	441-10	error	upos_missing	'_'
-51518	442-2	error	upos_missing	'_'
-51520	442-2	error	upos_missing	'_'
-53032	451-25	error	upos_missing	'_'
-53586	453-15	error	upos_missing	'_'
-55742	464-18	error	upos_missing	'_'
-55746	464-18	error	upos_missing	'_'
-56797	469-7	error	upos_missing	'_'
-61722	495-9	error	upos_missing	'_'
-65551	510-10	error	upos_missing	'_'
-65554	510-10	error	upos_missing	'_'
-66483	515-2	error	upos_missing	'_'
-66484	515-2	error	upos_missing	'_'
-68431	526-6	error	upos_missing	'_'
-68433	526-6	error	upos_missing	'_'
-69572	532-9	error	upos_missing	'_'
-73539	552-12	error	upos_missing	'_'
-74078	555-7	error	upos_missing	'_'
-74080	555-7	error	upos_missing	'_'
-76244	565-5	error	upos_missing	'_'
-76245	565-5	error	upos_missing	'_'
-76247	565-5	error	upos_missing	'_'
-79831	579-5	error	upos_missing	'_'
-83307	597-14	error	upos_missing	'_'
-83394	598-6	error	upos_missing	'_'
-83395	598-6	error	upos_missing	'_'
-83405	598-6	error	upos_missing	'_'
-83479	598-11	error	upos_missing	'_'
-83480	598-11	error	upos_missing	'_'
-85358	605-16	error	upos_missing	'_'
-86622	611-7	error	upos_missing	'_'
-88426	619-23	error	upos_missing	'_'
-88427	619-23	error	upos_missing	'_'
-88429	619-23	error	upos_missing	'_'
-88596	620-11	error	upos_missing	'_'
-88598	620-11	error	upos_missing	'_'
-89997	627-3	error	upos_missing	'_'
-94305	649-9	error	upos_missing	'_'
-95321	654-12	error	upos_missing	'_'
-95323	654-12	error	upos_missing	'_'
-98706	670-9	error	upos_missing	'_'
-99104	672-13	error	upos_missing	'_'
-101792	683-17	error	upos_missing	'_'
-101801	683-17	error	upos_missing	'_'
-101804	683-17	error	upos_missing	'_'
-101808	683-17	error	upos_missing	'_'
-106136	705-5	error	upos_missing	'_'
-115239	748-14	error	upos_missing	'_'
-118366	764-13	error	upos_missing	'_'
-118368	764-13	error	upos_missing	'_'
-118369	764-13	error	upos_missing	'_'
-122233	781-17	error	upos_missing	'_'
-122939	785-8	error	upos_missing	'_'
-132440	837-4	error	upos_missing	'_'
-132944	839-14	error	upos_missing	'_'
-132946	839-14	error	upos_missing	'_'
-134357	847-6	error	upos_missing	'_'
-136157	857-8	error	upos_missing	'_'
-145793	903-18	error	upos_missing	'_'
-148903	918-5	error	upos_missing	'_'
-148905	918-5	error	upos_missing	'_'
-150956	926-15	error	upos_missing	'_'
-150958	926-15	error	upos_missing	'_'
-151727	929-17	error	upos_missing	'_'
-151728	929-17	error	upos_missing	'_'
-151732	929-17	error	upos_missing	'_'
-151733	929-17	error	upos_missing	'_'
-151746	929-17#2	error	upos_missing	'_'
-151748	929-17#2	error	upos_missing	'_'
-152516	934-7	error	upos_missing	'_'
-152517	934-7	error	upos_missing	'_'
-154622	944-2	error	upos_missing	'_'
-154624	944-2	error	upos_missing	'_'
-154935	945-6	error	upos_missing	'_'
-154936	945-6	error	upos_missing	'_'
-154938	945-6	error	upos_missing	'_'
-159227	967-5	error	upos_missing	'_'
-30306	240-1	error	upos_not_ud	'dukeje'
-94942	652-15	error	upos_not_ud	'reo'
+51461	441-10	error	upos_missing	'_'
+51465	441-10	error	upos_missing	'_'
+51466	441-10	error	upos_missing	'_'
+51471	441-10	error	upos_missing	'_'
+51531	442-2	error	upos_missing	'_'
+51533	442-2	error	upos_missing	'_'
+53046	451-25	error	upos_missing	'_'
+53600	453-15	error	upos_missing	'_'
+55761	464-18	error	upos_missing	'_'
+55765	464-18	error	upos_missing	'_'
+56816	469-7	error	upos_missing	'_'
+61744	495-9	error	upos_missing	'_'
+65573	510-10	error	upos_missing	'_'
+65576	510-10	error	upos_missing	'_'
+66506	515-2	error	upos_missing	'_'
+66507	515-2	error	upos_missing	'_'
+68454	526-6	error	upos_missing	'_'
+68456	526-6	error	upos_missing	'_'
+69596	532-9	error	upos_missing	'_'
+73565	552-12	error	upos_missing	'_'
+74104	555-7	error	upos_missing	'_'
+74106	555-7	error	upos_missing	'_'
+76270	565-5	error	upos_missing	'_'
+76271	565-5	error	upos_missing	'_'
+76273	565-5	error	upos_missing	'_'
+79858	579-5	error	upos_missing	'_'
+83334	597-14	error	upos_missing	'_'
+83421	598-6	error	upos_missing	'_'
+83422	598-6	error	upos_missing	'_'
+83432	598-6	error	upos_missing	'_'
+83506	598-11	error	upos_missing	'_'
+83507	598-11	error	upos_missing	'_'
+85386	605-16	error	upos_missing	'_'
+86650	611-7	error	upos_missing	'_'
+88454	619-23	error	upos_missing	'_'
+88455	619-23	error	upos_missing	'_'
+88457	619-23	error	upos_missing	'_'
+88624	620-11	error	upos_missing	'_'
+88626	620-11	error	upos_missing	'_'
+90026	627-3	error	upos_missing	'_'
+94336	649-9	error	upos_missing	'_'
+95353	654-12	error	upos_missing	'_'
+95355	654-12	error	upos_missing	'_'
+98739	670-9	error	upos_missing	'_'
+99137	672-13	error	upos_missing	'_'
+101825	683-17	error	upos_missing	'_'
+101834	683-17	error	upos_missing	'_'
+101837	683-17	error	upos_missing	'_'
+101841	683-17	error	upos_missing	'_'
+106169	705-5	error	upos_missing	'_'
+115273	748-14	error	upos_missing	'_'
+118401	764-13	error	upos_missing	'_'
+118403	764-13	error	upos_missing	'_'
+118404	764-13	error	upos_missing	'_'
+122268	781-17	error	upos_missing	'_'
+122974	785-8	error	upos_missing	'_'
+132478	837-4	error	upos_missing	'_'
+132982	839-14	error	upos_missing	'_'
+132984	839-14	error	upos_missing	'_'
+134396	847-6	error	upos_missing	'_'
+136196	857-8	error	upos_missing	'_'
+145832	903-18	error	upos_missing	'_'
+148942	918-5	error	upos_missing	'_'
+148944	918-5	error	upos_missing	'_'
+150995	926-15	error	upos_missing	'_'
+150997	926-15	error	upos_missing	'_'
+151766	929-17	error	upos_missing	'_'
+151767	929-17	error	upos_missing	'_'
+151771	929-17	error	upos_missing	'_'
+151772	929-17	error	upos_missing	'_'
+151785	929-17#2	error	upos_missing	'_'
+151787	929-17#2	error	upos_missing	'_'
+152555	934-7	error	upos_missing	'_'
+152556	934-7	error	upos_missing	'_'
+154662	944-2	error	upos_missing	'_'
+154664	944-2	error	upos_missing	'_'
+154975	945-6	error	upos_missing	'_'
+154976	945-6	error	upos_missing	'_'
+154978	945-6	error	upos_missing	'_'
+159270	967-5	error	upos_missing	'_'
+30314	240-1	error	upos_not_ud	'dukeje'
+94973	652-15	error	upos_not_ud	'reo'

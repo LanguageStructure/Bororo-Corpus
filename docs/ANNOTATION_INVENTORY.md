@@ -11,7 +11,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `PUNCT` | pontuação | 18357 |
 | `VERB` | verbo | 15503 |
 | `NOUN` | substantivo | 13701 |
-| `ADV` | advérbio | 10275 |
+| `ADV` | advérbio | 10318 |
 | `ADP` | posposição | 7079 |
 | `PRON` | pronome | 5383 |
 | `PROPN` | nome próprio | 2861 |
@@ -34,7 +34,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `punct` | `PUNCT` (18355) |
 | `n` | `NOUN` (13640), `VERB` (10), `ADV` (6), `PROPN` (5), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
 | `v` | `VERB` (12026), `NOUN` (43), `ADV` (8) |
-| `adv` | `ADV` (10228), `NOUN` (1), `PRON` (1) |
+| `adv` | `ADV` (10271), `NOUN` (1), `PRON` (1) |
 | `posp` | `ADP` (7070), `ADV` (2), `VERB` (1), `NOUN` (1) |
 | `bi` | `PRON` (4614), `PROPN` (1) |
 | `propn` | `PROPN` (2852) |
@@ -70,7 +70,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 |---|---:|
 | `punct` | 18336 |
 | `root` | 11399 |
-| `advmod` | 9477 |
+| `advmod` | 9520 |
 | `nsubj` | 8619 |
 | `obl` | 6905 |
 | `parataxis` | 3764 |
@@ -133,9 +133,9 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Nomzr` | `Loc` | CorBo | nominalização locativa (a confirmar) | 10 |
 | `Nomzr` | `Rel` | CorBo | nominalização relativa (a confirmar) | 632 |
 | `Number` | `Col` | CorBo | coletivo (a confirmar; o UD usa `Coll`) | 3 |
-| `Number` | `Plur` | UD | plural | 11126 |
+| `Number` | `Plur` | UD | plural | 11147 |
 | `Number` | `Sgtv` | CorBo | singulativo (formas em -du/-edu: baraedu, imedu, onaregedu) | 256 |
-| `Number` | `Sing` | UD | singular | 21258 |
+| `Number` | `Sing` | UD | singular | 21237 |
 | `Number[psor]` | `Plur` | UD | possuidor plural | 17 |
 | `Number[psor]` | `Sing` | UD | possuidor singular | 36 |
 | `Person` | `1` | UD | primeira pessoa | 8944 |

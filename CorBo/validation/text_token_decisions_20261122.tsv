@@ -1,0 +1,79 @@
+sent_id	token	kind	before	after
+boe_ero_01_38	4	dividir_oino	akoino	ako + oino
+ritual-onca-1-02		texto_separar_oino	roino	ro oino
+ritual-onca-1-02		texto_separar_oino	roino	ro oino
+ritual-onca-1-02		texto_separar_oino	roino	ro oino
+ritual-onca-1-02		texto_separar_oino	roino	ro oino
+ritual-onca-1-02		texto_separar_oino	roino	ro oino
+101-1	9	dividir_oino	aroino	aro + oino
+102-2	7	dividir_oino	iroino	iro + oino
+102-2	14	dividir_oino	iroino	iro + oino
+104-3	4	dividir_oino	iroino	iro + oino
+113-2		texto_separar_oino	inagoino	inago oino
+122-3	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+134-2	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+136-2	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+197-6	2	dividir_oino	akoino	ako + oino
+261-9	3	dividir_oino	inagoino	inago + oino
+353-9	16	dividir_oino	aroino	aro + oino
+361-11	2	dividir_oino	egoino	ego + oino
+400-1	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+402-14	4	dividir_oino	aroino	aro + oino
+413-11	4	dividir_oino	ceroino	cero + oino
+451-23	4	dividir_oino	iroino	iro + oino
+457-1	21	dividir_oino	eroino	ero + oino
+457-2	13	dividir_oino	eroino	ero + oino
+462-13	3	dividir_oino	aroino	aro + oino
+462-14	13	dividir_oino	iroino	iro + oino
+464-17		texto_separar_oino	akoino	ako oino
+476-11	5	dividir_oino	akoino	ako + oino
+483-7	5	dividir_oino	iroino	iro + oino
+491-8	9	dividir_oino	eroino	ero + oino
+508-4	5	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+511-1	10	dividir_oino	iroino	iro + oino
+529-4	2	dividir_oino	iroino	iro + oino
+538-1	2	dividir_oino	ceroino	cero + oino
+551-19	2	dividir_oino	aroino	aro + oino
+569-17	4	dividir_oino	ceroino	cero + oino
+599-10	7	dividir_oino	turoino	turo + oino
+601-15	4	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+621-9	4	dividir_oino	ceroino	cero + oino
+633-9	4	dividir_oino	ceroino	cero + oino
+642-3	3	dividir_oino	ceroino	cero + oino
+653-8	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+654-2	5	dividir_oino	ceroino	cero + oino
+665-3	2	dividir_oino	ceroino	cero + oino
+666-11	4	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+668-4	3	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+679-2	4	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+693-12	2	paganure	peganure	paganure
+705-10	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+706-8	6	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+716-8	3	dividir_oino	taroino	taro + oino
+721-7	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+723-1	2	paganure	peganure	paganure
+731-2	3	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+733-4	4	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+734-1	3	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+738-1	15	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+738-9	3	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+753-12	3	dividir_oino	aroino	aro + oino
+767-12	14	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+792-6	8	dividir_oino	eroino	ero + oino
+798-7	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+798-11	2	imedage	"imetuia	metuia	NOUN	n	Number=Sing|Person=1"	"imedage	metuia	NOUN	n	Number=Plur|Person=1"
+810-10	19	dividir_oino	eroinodu	ero + oinodu
+822-2	4	dividir_oino	ceroino	cero + oino
+840-1	6	dividir_oino	turoino	turo + oino
+890-7	2	paganure	peganure	paganure
+897-7	4	paganure	peganure	paganure
+937-5	3	paganure	peganure	paganure
+938-12	2	paganure	peganure	paganure
+940-13	5	dividir_oino	akagoino	akago + oino
+950-8	4	dividir_oino	taroino	taro + oino
+950-12	2	dividir_oino	ceroino	cero + oino
+951-11	4	dividir_oino	iroinowo	iro + oinowo
+962-15	2	paganure	peganure	paganure
+973-16	2	dividir_oino	aroino	aro + oino
+975-9	3	dividir_oino	ceroino	cero + oino
+980-2	7	dividir_oino	iroino	iro + oino

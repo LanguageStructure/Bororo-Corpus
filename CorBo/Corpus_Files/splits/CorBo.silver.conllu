@@ -784,6 +784,89 @@
 38	oino	oino	ADV	adv	_	36	advmod	_	Auto=head
 39	.	.	PUNCT	punct	_	36	punct	_	Auto=head
 
+# sent_id = boe_ero_01_38
+# text = Imedu pega otowure ako oino ji , otowure akore: "Imedupega", oino ji. Ia boe enodowure ema. Boe egore Inodowu pega", oino. "Inodowu pega", oino. "Ioga pega", oino gu, gu, gu... Icare roiwa bokagodure pudabo, Icare rokare nono turore pugeje, Icare ukare karo bito, ukare barogo bito pugeje; icare merukare pugeje, meru jaegirikare pugeje gu, gu, gu...
+# text_por = O seu cunhado o chama de homem velho, ele é cunhado de algumas pessoas, os bororo chamam ele de cunhado velho, meu padrinho velho.
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 76/76
+# orig_ids = 1 2 3 4 5 6 7 8 11 13 14 15 16 17 18 19 20 21 22 23 26 27 29 30 31 33 34 36 37 38 40 41 43 44 45 46 47 48 49 50 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88
+1	Imedu	ime	NOUN	n	Number=Sgtv	2	nmod	_	Auto=deprel+head
+2	pega	pega	NOUN	n	_	3	nsubj	_	Auto=lemma+upos+xpos+deprel+head
+3	otowure	otowu	NOUN	n	Mood=Ind	4	nmod	_	AutoLowConf=Yes
+4	ako	ako	NOUN	n	_	9	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji|Auto=head
+7	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+8	otowure	otowu	NOUN	n	Mood=Ind	9	nsubj	_	AutoLowConf=Yes
+9	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re|Auto=deprel+head
+10	Imedupega	imedupega	PROPN	propn	Polarity=Neg	9	ccomp	_	AutoLowConf=Yes
+11	,	,	PUNCT	punct	_	10	punct	_	Auto=head
+12	oino	oino	ADV	adv	_	10	advmod	_	Auto=head
+13	ji	ji	ADP	posp	Number=Sing|Person=3	10	case	_	Morph=0-ji|Auto=head
+14	.	.	PUNCT	punct	_	10	punct	_	Auto=head
+15	Ia	ia	DET	det	Definite=Ind|PronType=Art	16	det	_	_
+16	boe	boe	NOUN	n	Number=Sing	17	nmod	_	_
+17	enodowure	enodo	NOUN	n	Mood=Ind|Number=Plur|Person=3	10	parataxis	_	AutoLowConf=Yes
+18	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	17	parataxis	_	Auto=deprel+head
+19	.	.	PUNCT	punct	_	18	punct	_	Auto=head
+20	Boe	Boe	PROPN	propn	Number=Plur	21	nsubj	_	Auto=deprel+head
+21	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	17	parataxis	_	Morph=e=ako=re|Auto=deprel+head
+22	Inodowu	inodowu	PROPN	propn	_	21	ccomp	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+23	pega	pega	NOUN	n	_	22	flat	_	Auto=lemma+upos+xpos+deprel+head
+24	,	,	PUNCT	punct	_	21	punct	_	Auto=head
+25	oino	oino	ADV	adv	_	21	advmod	_	Auto=head
+26	.	.	PUNCT	punct	_	21	punct	_	Auto=head
+27	Inodowu	inodowu	PROPN	propn	_	44	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+28	pega	pega	NOUN	n	_	27	flat	_	Auto=lemma+upos+xpos+deprel+head
+29	,	,	PUNCT	punct	_	27	punct	_	Auto=head
+30	oino	oino	ADV	adv	_	27	advmod	_	Auto=head
+31	.	.	PUNCT	punct	_	27	punct	_	Auto=head
+32	Ioga	oga	PROPN	propn	Person=1	27	flat	_	_
+33	pega	pega	NOUN	n	_	32	flat	_	Auto=lemma+upos+xpos+deprel+head
+34	,	,	PUNCT	punct	_	27	punct	_	Auto=head
+35	oino	oino	ADV	adv	_	27	advmod	_	Auto=head
+36	gu	gu	X	x	_	27	discourse	_	Auto=head
+37	,	,	PUNCT	punct	_	27	punct	_	Auto=head
+38	gu	gu	X	x	_	27	discourse	_	Auto=head
+39	,	,	PUNCT	punct	_	38	punct	_	Auto=head
+40	gu	gu	X	x	_	27	discourse	_	Auto=head
+41	...	...	PUNCT	punct	_	27	punct	_	Auto=head
+42	Icare	icare	ADV	adv	_	44	advmod	_	Auto=head
+43	roiwa	roiwa	NOUN	n	_	44	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+44	bokagodure	bokagodu	VERB	v	Mood=Ind|Number=Sing|Person=3	21	parataxis	_	AutoLowConf=Yes
+45	pudabo	pudabo	ADV	adv	_	50	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+46	,	,	PUNCT	punct	_	45	punct	_	Auto=head
+47	Icare	icare	ADV	adv	_	50	advmod	_	Auto=head
+48	rokare	ro	ADV	adv	Mood=Ind	50	advmod	_	AutoLowConf=Yes
+49	nono	nono	ADV	adv	_	50	advmod	_	Auto=head
+50	turore	turo	VERB	v	Mood=Ind|Person=3	44	parataxis	_	AutoLowConf=Yes
+51	pugeje	pugeje	ADV	adv	_	50	advmod	_	Auto=head
+52	,	,	PUNCT	punct	_	50	punct	_	Auto=head
+53	Icare	icare	ADV	adv	_	56	advmod	_	Auto=head
+54	ukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	56	nsubj	_	_
+55	karo	karo	NOUN	n	Number=Sing	56	obj	_	Auto=deprel+head
+56	bito	bito	VERB	vt	Number=Sing|Person=3	50	parataxis	_	Auto=deprel+head
+57	,	,	PUNCT	punct	_	56	punct	_	Auto=head
+58	ukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	60	nsubj	_	_
+59	barogo	barogo	NOUN	n	Number=Sing	60	obj	_	Auto=deprel+head
+60	bito	bito	VERB	vt	Number=Sing|Person=3	56	parataxis	_	Auto=deprel+head
+61	pugeje	pugeje	ADV	adv	_	60	advmod	_	Auto=head
+62	;	;	PUNCT	punct	_	60	punct	_	Auto=lemma+upos+xpos+deprel+head
+63	icare	icare	ADV	adv	_	64	advmod	_	Auto=deprel+head
+64	merukare	meru	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	60	parataxis	_	AutoLowConf=Yes
+65	pugeje	pugeje	ADV	adv	_	64	advmod	_	Auto=head
+66	,	,	PUNCT	punct	_	64	punct	_	Auto=head
+67	meru	meru	NOUN	n	_	68	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+68	jaegirikare	jaegiri	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	64	parataxis	_	AutoLowConf=Yes
+69	pugeje	pugeje	ADV	adv	_	68	advmod	_	Auto=head
+70	gu	gu	X	x	_	68	discourse	_	Auto=head
+71	,	,	PUNCT	punct	_	68	punct	_	Auto=head
+72	gu	gu	X	x	_	68	discourse	_	Auto=head
+73	,	,	PUNCT	punct	_	72	punct	_	Auto=head
+74	gu	gu	X	x	_	68	discourse	_	Auto=head
+75	...	...	PUNCT	punct	_	74	punct	_	Auto=head
+
 # sent_id = boe_ero_01_39
 # text = Icare uiodore, uiodore goro, goro, guricá, guricá, guricá je.
 # text_por = Então ele está bem velho, usando bastão, andando devagarinho e mancando.
@@ -7999,6 +8082,38 @@
 3	..	..	PUNCT	punct	_	2	punct	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 101-1
+# text = akore Bororo bokwa, jipa bokwa, pagare aro oino, pagare akagoino.,Atukare mato marigudu, akaregodukare mato marigudu .
+# text_por = Ele disse: Não tem pátio, não tem lugar de espera, à toa você veio.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 11/22
+# orig_ids = 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	Bororo	bororo	NOUN	n	_	1	ccomp	_	Auto=deprel+head
+3	bokwa	bokwa	AUX	aux	Polarity=Neg	2	aux	_	Auto=deprel+head
+4	,	,	PUNCT	punct	_	1	punct	_	Auto=head
+5	jipa	jipa	NOUN	n	_	1	advmod	_	Auto=lemma+upos+xpos
+6	bokwa	bokwa	AUX	aux	Polarity=Neg	8	nmod	_	_
+7	,	,	PUNCT	punct	_	5	punct	_	Auto=head
+8	pagare	pa	NOUN	n	Number=Sing	5	appos	_	Auto=lemma+upos+xpos
+9	aro	aro	NOUN	n	Number=Sing|Person=3	8	obl	_	Auto=lemma+upos+xpos|AutoLowConf=Yes
+10	oino	oino	ADV	adv	_	9	advmod	_	_
+11	,	,	PUNCT	punct	_	1	punct	_	_
+12	pagare	pa	PRON	bi	Clusivity=In|Mood=Ind|Number=Plur|Person=1	13	nsubj	_	Auto=head
+13	akagoino	akao	VERB	v	Number=Sing|Person=2	1	obl	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+14	.	.	PUNCT	punct	Number=Sing|Person=3	13	punct	_	_
+15	,	,	PUNCT	punct	_	13	punct	_	_
+16	Atukare	tu	VERB	vi	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	1	parataxis	_	AutoLowConf=Yes
+17	mato	mato	ADV	adv	Number=Sing|Person=1	1	advmod	_	_
+18	marigudu	marigudu	ADV	adv	Number=Sing|Person=3	17	case	_	_
+19	,	,	PUNCT	punct	_	17	punct	_	_
+20	akaregodukare	akare	VERB	v	Mood=Ind|Number=Sing|Person=2|Polarity=Neg	1	parataxis	_	AutoLowConf=Yes
+21	mato	mato	ADV	adv	Number=Sing|Person=1	17	advmod	_	_
+22	marigudu	marigudu	ADV	adv	Number=Sing|Person=3	21	case	_	_
+23	.	.	PUNCT	punct	_	21	punct	_	_
+
 # sent_id = 101-2
 # text = Dukodi icare boe etagedure .
 # text_por = Você não veio antes, você não chegou antes.
@@ -8076,6 +8191,36 @@
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku
 5	inai	ai	ADP	posp	Number=Sing|Person=1	4	iobj	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# model_projection = gold_sent_index:9 similarity:0.32
+# sent_id = 102-2
+# text = Itaregodu ioruduwo kuruie eno jipa jire iro oino, ioruduwo kuruie eno jiwuda jire iro oino. Akore uu !
+# text_por = Eu estou chegando para ver o lugar de espera da rapaziada.Ele disse Sim!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 14/18
+# orig_ids = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 20 21
+1	Itaregodu	aregodu	VERB	v	Number=Sing|Person=1	2	nsubj	_	Auto=deprel+head
+2	ioruduwo	jorudu	VERB	v	Mood=Sub|Number=Sing|Person=1	6	parataxis	_	Auto=lemma+upos+xpos+feats+head
+3	kuruie	Kuruie	NOUN	n	_	4	nmod	_	Auto=lemma+upos+xpos+deprel+head
+4	eno	o	NOUN	n	Number=Plur|Person=3	7	obl	_	_
+5	jipa	jipa	NOUN	n	_	4	appos	_	Auto=lemma+upos+xpos+deprel+head
+6	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	0	root	_	Auto=lemma+upos+xpos
+7	iro	iro	VERB	v	Number=Sing|Person=1	6	nsubj	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+8	oino	oino	ADV	adv	_	7	advmod	_	_
+9	,	,	PUNCT	punct	_	6	punct	_	_
+10	ioruduwo	jorudu	VERB	v	Mood=Sub|Number=Sing|Person=1	7	parataxis	_	_
+11	kuruie	Kuruie	NOUN	n	_	15	nmod	_	Auto=lemma+upos+xpos+deprel+head
+12	eno	o	PRON	bi	Number=Plur|Person=3	15	nsubj	_	_
+13	jiwuda	jiwuda	NOUN	n	_	15	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+14	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	6	nsubj	_	Auto=lemma+upos+xpos
+15	iro	iro	VERB	v	Number=Sing|Person=1	14	nsubj	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+16	oino	oino	ADV	adv	_	15	advmod	_	_
+17	.	.	PUNCT	punct	_	15	punct	_	Auto=head
+18	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	6	parataxis	_	Morph=0-ako=re
+19	uu	uu	PART	prcl	_	18	nsubj	_	_
+20	!	!	PUNCT	punct	_	19	punct	_	_
 
 # model_projection = gold_sent_index:4273 similarity:0.67
 # sent_id = 102-3
@@ -8206,6 +8351,22 @@
 5	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	Morph=0-ako=re|Auto=deprel+head
 6	Hm	hm	X	x	_	5	nmod	_	Auto=lemma+upos+xpos
 7	!	!	PUNCT	punct	_	5	punct	_	_
+
+# model_projection = gold_sent_index:10 similarity:0.62
+# sent_id = 104-3
+# text = Imagore Iorduwo aire iro oino .
+# text_por = Por isso eu cansei para ver você.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats
+# auto_tokens = 4/5
+# orig_ids = 1 4 5 6 7
+1	Imagore	mako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Auto=lemma+upos+xpos+feats
+2	Iorduwo	jorudu	PROPN	propn	Mood=Sub|Number=Plur|Person=1	1	flat	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+3	aire	ai	ADP	posp	Number=Sing|Person=3	1	appos	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+4	iro	iro	VERB	v	Number=Sing|Person=1	3	nmod	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # model_projection = gold_sent_index:12 similarity:0.50
 # sent_id = 104-4
@@ -8483,6 +8644,28 @@
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	O	o	INTJ	intj	_	1	ccomp	_	Auto=lemma+upos+xpos
 3	!	!	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 113-2
+# text = Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire inago oino .
+# text_source = Cewu boe egore Aije Paradago , ino jiwudo onaregedu jire inagoino .
+# text_por = Eu estava falando para a filha de aije Paradago.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = feats,head,deprel
+# auto_tokens = 4/13
+1	Cewu	cewu	PRON	pron	Deixis=Med|PronType=Dem	3	dislocated	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	nsubj	_	_
+3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+4	Aije	Aije	PROPN	propn	_	3	ccomp	_	_
+5	Paradago	Paradago	PROPN	propn	_	4	flat	_	_
+6	,	,	PUNCT	punct	_	3	punct	_	_
+7	ino	o	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
+8	jiwudo	ji	ADP	posp	Gender=Fem|Nomzr=Rel	7	case	_	Auto=deprel+head|AutoLowConf=Yes
+9	onaregedu	onarege	NOUN	n	Number=Sgtv	11	obl	_	Auto=deprel+head
+10	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	9	case	_	Auto=deprel+head
+11	inago	ako	VERB	v	Number=Sing|Person=1	3	parataxis	_	Auto=feats
+12	oino	ako	ADV	adv	_	11	advmod	_	_
+13	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 113-2.1
 # text = Nawudo apore itaregodure woe , du bogaire inagoino ia meririrogu bogai .
@@ -10063,6 +10246,20 @@
 15	pugeje	pugeje	ADV	adv	_	11	advmod	_	Auto=head
 16	.	.	PUNCT	punct	_	11	punct	_	Auto=head
 
+# sent_id = 134-2
+# text = Cewu imedage egore Iareo pugeje .
+# text_por = Eu disse M!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,head,deprel
+# auto_tokens = 6/6
+1	Cewu	cewu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	Auto=deprel+head
+3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
+4	Iareo	iareo	PROPN	propn	_	3	ccomp	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+5	pugeje	pugeje	ADV	adv	_	3	advmod	_	Auto=head
+6	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 134-3
 # text = Inagore M !
 # text_por = Eles disseram Vão nos dar farinha doce, o que os brancos chama de jacuba.
@@ -10180,6 +10377,26 @@
 # auto_tokens = 2/2
 1	Boekare	boe	NOUN	n	Mood=Ind|Polarity=Neg	0	root	_	_
 2	!	!	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 136-2
+# text = Cewu imedage egore Pawo pagerogu to pui, pagogwa amogoduwo .
+# text_por = É verdade!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 11/11
+# orig_ids = 1 2 3 6 7 8 9 10 11 12 13
+1	Cewu	cewu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	Auto=deprel+head
+3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
+4	Pawo	pa	PRON	bi	Clusivity=In|Mood=Sub|Number=Plur|Person=1	3	advmod	_	Auto=deprel+head
+5	pagerogu	page	NOUN	n	Degree=Dim	3	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+6	to	to	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-to|Auto=deprel+head
+7	pui	pui	PRON	pron	PronType=Rcp	3	obl	_	Auto=deprel+head
+8	,	,	PUNCT	punct	_	3	punct	_	Auto=head
+9	pagogwa	pagogwa	NOUN	n	Clusivity=In|Number=Plur|Person=1	10	nsubj	_	AutoLowConf=Yes
+10	amogoduwo	rakodu	VERB	v	Mood=Sub|Number=Sing|Person=2	3	parataxis	_	AutoLowConf=Yes
+11	.	.	PUNCT	punct	_	10	punct	_	Auto=head
 
 # sent_id = 136-3
 # text = Inagore uu !
@@ -21139,6 +21356,21 @@
 1	Inobure	ino	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	AutoLowConf=Yes
 2	?	?	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 261-9
+# text = Tamearudae tugu inago oino jiboe ji .
+# text_por = Ponham atenção à minha palavra.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/6
+1	Tamearudae	mearudae	VERB	v	Number=Plur|Person=2	2	parataxis	_	Auto=head|AutoLowConf=Yes
+2	tugu	tugu	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-tugu
+3	inago	ako	VERB	v	Number=Sing|Person=1	2	xcomp	_	AutoLowConf=Yes
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	jiboe	jiboe	NOUN	n	Number=Sing	3	obl	_	AutoLowConf=Yes
+6	ji	ji	ADP	posp	Number=Sing|Person=3	5	obl	_	Morph=0-ji|Auto=head
+7	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 261-10
 # text = Tawiapagado tu inogwa ji .
 # text_por = Eu não fico sossegado.
@@ -27131,6 +27363,36 @@
 11	ji	ji	ADP	posp	Number=Sing|Person=3	10	obl	_	Morph=0-ji|Auto=head
 12	.	.	PUNCT	punct	_	10	punct	_	Auto=head
 
+# sent_id = 353-9
+# text = Nowu pega, nowu pega, nowu mono, nowu arodu, nowu okwarigudu inodu aro oino, inodu jire akagoino .
+# text_por = Não dê mais para mim, não me entregue de novo, não as deixe para mim de novo.,Aceite, é coisa sua, aceite, aceite, aceite!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 21/21
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	pega	pega	NOUN	n	_	21	nsubj	_	Auto=deprel+head
+3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
+4	nowu	nowu	DET	dem	Deixis=Med	5	det	_	Auto=deprel+head
+5	pega	pega	NOUN	n	_	2	conj	_	Auto=deprel+head
+6	,	,	PUNCT	punct	_	5	punct	_	Auto=head
+7	nowu	nowu	DET	dem	Deixis=Med	8	det	_	Auto=deprel+head
+8	mono	mono	NOUN	n	_	2	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
+10	nowu	nowu	DET	dem	Deixis=Med	11	det	_	Auto=deprel+head
+11	arodu	arodu	NOUN	n	_	2	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+12	,	,	PUNCT	punct	_	11	punct	_	Auto=head
+13	nowu	nowu	DET	dem	Deixis=Med	14	det	_	Auto=deprel+head
+14	okwarigudu	okwarigudu	NOUN	n	_	15	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+15	inodu	inodu	NOUN	n	_	16	nmod	_	Auto=lemma+upos+xpos+deprel+head
+16	aro	aro	NOUN	n	_	2	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+17	oino	oino	ADV	adv	_	16	advmod	_	_
+18	,	,	PUNCT	punct	_	16	punct	_	Auto=head
+19	inodu	inodu	NOUN	n	_	2	conj	_	Auto=lemma+upos+xpos+deprel+head
+20	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	19	case	_	Auto=deprel+head
+21	akagoino	akao	VERB	v	Number=Sing|Person=2	0	root	_	AutoLowConf=Yes
+22	.	.	PUNCT	punct	_	21	punct	_	Auto=head
+
 # sent_id = 353-11
 # text = Emareno, emareno .
 # text_por =
@@ -27706,6 +27968,19 @@
 14	oia	oia	NOUN	n	_	7	obl	_	Auto=lemma+upos+xpos+deprel+head
 15	keje	keje	ADP	posp	Number=Sing|Person=3	14	case	_	Morph=0-keje|Auto=deprel+head
 16	.	.	PUNCT	punct	_	7	punct	_	Auto=head
+
+# sent_id = 361-11
+# text = Dukodire ego oino ji .
+# text_por = Por isso a chama assim.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	Dukodire	dukodi	ADV	adv	Mood=Ind	2	advmod	_	_
+2	ego	ego	VERB	v	Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	Morph=0-ji|Auto=head
+5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 362-3
 # text = Cedaregodure ia paga ko rairewu kae, ibora padure aoji. Akore awu jire Boe egore Paga Ko Rairewu, Paga Ko Rairewu ino, emareo, emareo .
@@ -30884,6 +31159,18 @@
 2	iegarere	egare	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 3	!	!	PUNCT	punct	_	2	punct	_	Auto=head
 
+# sent_id = 400-1
+# text = Icare imedage etaregodure .
+# text_por = Depois chegaram os meus companheiros.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = head,deprel
+# auto_tokens = 4/4
+1	Icare	icare	ADV	adv	_	3	advmod	_	Auto=head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	Auto=deprel+head
+3	etaregodure	aregodu	VERB	vi	Mood=Ind|Number=Plur|Person=3	0	root	_	Auto=deprel+head
+4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 400-2
 # text = Ere nowu kuide ewido, ere nowu nabure ewido .
 # text_por = Tinham matado araras amarelas e araras vermelhas.Aí falaram Amanhã vamos embora.
@@ -31222,6 +31509,22 @@
 # auto_tokens = 2/2
 1	Kana	kana	ADV	adv	_	0	root	_	Auto=lemma+upos+xpos+deprel+head
 2	?	?	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 402-14
+# text = Inogwa akemore nowu aro oino jiboe ji .
+# text_por = Elas responderam;
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 7/7
+1	Inogwa	okwa	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
+2	akemore	akemo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
+3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
+4	aro	aro	NOUN	n	_	6	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	jiboe	jiboe	NOUN	n	Number=Sing	2	obl	_	AutoLowConf=Yes
+7	ji	ji	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ji|Auto=head
+8	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 402-15
 # text = Inagore Boe enogwa akemo bokwa moduka .
@@ -32539,6 +32842,25 @@
 3	tugu	tugu	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-tugu
 4	roga	roga	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head
 5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
+# sent_id = 413-11
+# text = Cege boe bogaire cero oino jice woje, jice woje .
+# text_por = Nós dissemos Nós não.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 10/10
+1	Cege	ke	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	2	nmod	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	nsubj	_	Auto=deprel+head
+3	bogaire	bogai	VERB	v	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	AutoLowConf=Yes
+4	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	jice	jice	ADV	adv	_	4	advmod	_	Auto=head
+7	woje	woje	ADV	adv	_	4	advmod	_	Auto=lemma+upos+xpos+deprel+head
+8	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+9	jice	jice	ADV	adv	_	4	advmod	_	Auto=head
+10	woje	woje	ADV	adv	_	9	flat	_	Auto=lemma+upos+xpos+deprel+head
+11	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
 # sent_id = 413-12
 # text = Cenagore Cegirema karega .
@@ -37113,6 +37435,21 @@
 3	ipiji	piji	ADP	posp	Number=Sing|Person=1	2	obl	_	Auto=deprel+head
 4	!	!	PUNCT	punct	_	2	punct	_	Auto=head
 
+# sent_id = 451-23
+# text = Boe pega tabore iro oino ai !
+# text_por = Calma!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nmod	_	Auto=deprel+head
+2	pega	pega	NOUN	n	_	4	obl	_	Auto=deprel+head
+3	tabore	tabo	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	_
+4	iro	iro	VERB	v	Number=Sing|Person=1	0	root	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	ai	ji	ADP	posp	Number=Sing|Person=3	4	obl	_	Auto=deprel+head
+7	!	!	PUNCT	punct	_	4	punct	_	Auto=head
+
 # sent_id = 451-28
 # text = Ceboere !
 # text_por = Quê bom!
@@ -38185,6 +38522,61 @@
 2	bogai	bogai	ADP	posp	Number=Sing|Person=3	1	case	_	Morph=0-bogai|Auto=deprel+head
 3	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 457-1
+# text = Aregodure woe, ure nowu tugo makai, akore Padre, akaiwodo Boe emaragodaeji, inagu tapira pagudu bokwarewu jire ero oino .
+# text_por = Chegou aqui, entregou as flechas para ele e disse Padre, olhe o serviço dos Bororos, fizeram isto com minha vaca mansa.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,morph,head,deprel
+# auto_tokens = 22/22
+# orig_ids = 1 2 3 4 5 6 7 8 9 12 13 14 15 16 17 18 19 20 21 22 23 24
+1	Aregodure	aregodu	VERB	v	Mood=Ind	0	root	_	Morph=0=are=godu=re|Auto=lemma+morph+deprel+head
+2	woe	woe	ADV	adv	_	1	advmod	_	Auto=head
+3	,	,	PUNCT	punct	_	1	punct	_	Auto=head
+4	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	5	nsubj	_	Morph=u=re|Auto=head
+5	nowu	nowu	DET	dem	Deixis=Med	6	det	_	Auto=deprel+head
+6	tugo	tugo	NOUN	n	_	1	obl	_	Auto=lemma+upos+xpos+deprel+head
+7	makai	makai	ADP	posp	Number=Sing|Person=3	6	case	_	AutoLowConf=Yes
+8	,	,	PUNCT	punct	_	6	punct	_	Auto=head
+9	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	Morph=0-ako=re|Auto=deprel+head
+10	Padre	padre	PROPN	propn	_	12	nsubj	_	Auto=lemma+upos+xpos+deprel+head
+11	,	,	PUNCT	punct	_	10	punct	_	Auto=head
+12	akaiwodo	aiwo	VERB	v	Mood=Imp|Number=Sing|Person=2	9	ccomp	_	Morph=a=aiwo=do|Auto=lemma+upos+xpos+feats+morph+deprel+head
+13	Boe	Boe	PROPN	propn	Number=Plur	21	nsubj	_	Auto=deprel+head
+14	emaragodaeji	emaragodu	ADP	posp	Number=Plur|Person=3	13	case	_	AutoLowConf=Yes
+15	,	,	PUNCT	punct	_	13	punct	_	Auto=head
+16	inagu	aku	NOUN	n	Number=Sing|Person=1	17	nmod	_	_
+17	tapira	tapira	NOUN	n	Number=Sing	18	nmod	_	Auto=deprel+head
+18	pagudu	pagudu	NOUN	n	Number=Plur|Person=1	21	obj	_	AutoLowConf=Yes
+19	bokwarewu	bokwa	NOUN	n	Mood=Ind|Nomzr=Rel	18	nmod	_	AutoLowConf=Yes
+20	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	18	obl	_	Auto=deprel+head
+21	ero	ero	VERB	v	Number=Plur|Person=3	12	parataxis	_	AutoLowConf=Yes
+22	oino	oino	ADV	adv	_	21	advmod	_	_
+23	.	.	PUNCT	punct	_	21	punct	_	Auto=head
+
+# sent_id = 457-2
+# text = Ire mokuro kuru tawuje tawuje itore kugure ekeje, duwu tapira jire ero oino .
+# text_por = Fizeram isso com a vaca da qual eu sempre tiro leite para os meus filhos.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 14/14
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	4	nsubj	_	Morph=i=re|Auto=head
+2	mokuro	mokuro	NOUN	n	_	3	nmod	_	Auto=deprel+head
+3	kuru	kuru	NOUN	n	_	4	obj	_	Auto=deprel+head
+4	tawuje	tawuje	VERB	vt	Number=Sing|Person=3	0	root	_	Auto=deprel+head
+5	tawuje	tawuje	VERB	vt	Number=Sing|Person=3	4	punct	_	Auto=deprel+head
+6	itore	itore	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	7	nmod	_	Auto=deprel+head
+7	kugure	kugu	NOUN	n	Mood=Ind	4	obl	_	Auto=deprel+head
+8	ekeje	keje	ADP	posp	Number=Plur|Person=3	7	case	_	Auto=deprel+head
+9	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+10	duwu	duwu	X	x	_	13	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+11	tapira	tapira	NOUN	n	Number=Sing	13	obl	_	Auto=deprel+head
+12	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	11	case	_	Auto=deprel+head
+13	ero	ero	VERB	v	Number=Plur|Person=3	4	parataxis	_	AutoLowConf=Yes
+14	oino	oino	ADV	adv	_	13	advmod	_	_
+15	.	.	PUNCT	punct	_	13	punct	_	Auto=head
+
 # sent_id = 457-3
 # text = Epa tugo reo .
 # text_por = Aqui as flechas que a feriram.,Aí o padre ficou zangado e perguntou Quem fez isso?
@@ -38807,6 +39199,31 @@
 9	reno	reno	AUX	aux	_	4	aux	_	Auto=head
 10	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 462-14
+# text = Inagore Padre, akado oinore ure turemo ino aroe kae, dukodire iro oino ji .
+# text_por = Você é muito ruim, você não tem cabeça.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 14/15
+# orig_ids = 1 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Padre	padre	PROPN	propn	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head
+3	,	,	PUNCT	punct	_	2	punct	_	Auto=head
+4	akado	ado	VERB	v	Number=Sing|Person=2	1	ccomp	_	_
+5	oinore	oino	ADV	adv	Mood=Ind	7	advmod	_	Morph=oino=re|Auto=head
+6	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	7	nsubj	_	Morph=u=re|Auto=head
+7	turemo	remo	VERB	v	Person=3|Reflex=Yes	4	parataxis	_	Auto=deprel+head
+8	ino	o	NOUN	n	Number=Sing|Person=1	9	nmod	_	Auto=deprel+head
+9	aroe	aroe	NOUN	n	Number=Plur	7	obl	_	Auto=deprel+head
+10	kae	kae	ADP	posp	Number=Sing|Person=3	9	case	_	Morph=0-kae|Auto=deprel+head
+11	,	,	PUNCT	punct	_	7	punct	_	Auto=head
+12	dukodire	dukodi	ADV	adv	Mood=Ind	13	advmod	_	Auto=feats+head
+13	iro	iro	VERB	v	Number=Sing|Person=1	1	ccomp	_	AutoLowConf=Yes
+14	oino	oino	ADV	adv	_	13	advmod	_	_
+15	ji	ji	ADP	posp	Number=Sing|Person=3	13	obl	_	Morph=0-ji|Auto=head
+16	.	.	PUNCT	punct	_	13	punct	_	Auto=head
+
 # sent_id = 462-15
 # text = Akore a !
 # text_por =
@@ -39168,6 +39585,21 @@
 5	Padre	padre	PROPN	propn	_	0	root	_	Auto=lemma+upos+xpos+deprel+head
 6	iegi	iegi	ADP	posp	Number=Sing|Person=1	5	obl	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
+
+# sent_id = 464-17
+# text = Inagore kodiba ako oino iwogai ?
+# text_source = Inagore kodiba akoino iwogai ?
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = feats,head,deprel
+# auto_tokens = 3/6
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	kodiba	kodiba	ADV	adv	_	3	advmod	_	Auto=deprel+head
+3	ako	ako	VERB	v	Number=Sing|Person=3	1	ccomp	_	Auto=feats+deprel+head
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	iwogai	bogai	ADP	posp	Number=Sing|Person=1	3	obl	_	Auto=head
+6	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 465-5
 # text = Rakojere je tu ...
@@ -41044,6 +41476,21 @@
 1	Iordiwakare	joruduwa	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	AutoLowConf=Yes
 2	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 476-11
+# text = Imearudaere aroe kugu jie ako oino .
+# text_por = Eu disse Sim!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Imearudaere	mearudu	NOUN	n	Mood=Ind|Number=Plur	5	nsubj	_	AutoLowConf=Yes
+2	aroe	aroe	NOUN	n	Number=Plur	3	nmod	_	Auto=deprel+head
+3	kugu	kugu	NOUN	n	_	4	nmod	_	Auto=deprel+head
+4	jie	j	NOUN	n	_	5	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+5	ako	ako	VERB	v	Number=Sing|Person=3	0	root	_	AutoLowConf=Yes
+6	oino	oino	ADV	adv	_	5	advmod	_	_
+7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
+
 # sent_id = 477-1
 # text = Makore, uwadodure Pao bataru ji, boe eeruduwo, boe iegarewo tuiamedu tabo baru tada .
 # text_por = Ele falou, explicou a palavra de Deus, para o povo ir para o céu, para todo mundo ficar alegre no céu.
@@ -41847,6 +42294,23 @@
 # auto_tokens = 2/2
 1	m	m	X	x	_	0	root	_	Auto=lemma+upos+xpos+deprel+head
 2	!	!	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 483-7
+# text = Inagore Ju boi koiare iro oino awogai .
+# text_por = Eu não tenho mandioca.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/7
+# orig_ids = 1 4 5 6 7 8 9
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Ju	ju	PROPN	propn	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
+3	boi	boi	NOUN	n	_	1	obl	_	Auto=lemma+upos+xpos+deprel+head
+4	koiare	koia	ADP	posp	Mood=Ind|Number=Sing|Person=3	3	case	_	Auto=deprel+head
+5	iro	iro	VERB	v	Number=Sing|Person=1	1	ccomp	_	AutoLowConf=Yes
+6	oino	oino	ADV	adv	_	5	advmod	_	_
+7	awogai	bogai	ADP	posp	Number=Sing|Person=2	5	obl	_	Auto=deprel+head
+8	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
 # sent_id = 483-8
 # text = Akore uu !
@@ -46934,6 +47398,23 @@
 7	kae	kae	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-kae|Auto=deprel+head
 8	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 508-4
+# text = Itaiwore itododai , oinore imedage erore tuwarudu tabo .
+# text_por = Olhei na minha frente e vi que os meus companheiros estavam indo embora.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats
+# auto_tokens = 1/9
+1	Itaiwore	aiwo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	itododai	otodai	ADP	posp	Number=Sing|Person=1	1	obl	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	oinore	oino	ADV	adv	Mood=Ind	6	advmod	_	Morph=oino=re
+5	imedage	metuia	NOUN	n	Number=Plur|Person=1	6	nsubj	_	_
+6	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	_
+7	tuwarudu	mearudu	NOUN	n	Reflex=Yes	6	obl	_	Auto=lemma+upos+xpos+feats|AutoLowConf=Yes
+8	tabo	tabo	ADP	posp	Number=Sing|Person=3	7	case	_	Morph=0-tabo
+9	.	.	PUNCT	punct	_	6	punct	_	_
+
 # sent_id = 508-6
 # text = Taduradu ipiji !
 # text_por = Vocês foram embora de mim!
@@ -47512,6 +47993,28 @@
 3	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
 4	je	je	ADV	adv	_	3	flat	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
+# sent_id = 511-1
+# text = Dukeje ia baraedu aregodure, akore Ia aroerogu bogaire iro oino ikeje .
+# text_por = Aí chegou um branco e disse Eu vim procurar um arrozinho para comer.Então eu fiquei com dor dele.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 12/12
+# orig_ids = 1 2 3 4 5 6 9 10 11 12 13 14
+1	Dukeje	dukeje	ADV	adv	_	4	advmod	_	Auto=head
+2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	det	_	Auto=deprel+head
+3	baraedu	barae	NOUN	n	Number=Sgtv	4	nsubj	_	Auto=deprel+head
+4	aregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0=are=godu=re|Auto=deprel+head
+5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	4	parataxis	_	Morph=0-ako=re|Auto=deprel+head
+7	Ia	ia	DET	det	Definite=Ind|PronType=Art	8	det	_	Auto=deprel+head
+8	aroerogu	ake	NOUN	n	Degree=Dim	9	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+9	bogaire	bogai	NOUN	n	Mood=Ind	10	nsubj	_	AutoLowConf=Yes
+10	iro	iro	VERB	v	Number=Sing|Person=1	4	parataxis	_	AutoLowConf=Yes
+11	oino	oino	ADV	adv	_	10	advmod	_	_
+12	ikeje	keje	ADP	posp	Number=Sing|Person=1	10	obl	_	_
+13	.	.	PUNCT	punct	_	10	punct	_	Auto=head
 
 # sent_id = 511-2
 # text = Icare inogudure apo .
@@ -50338,6 +50841,19 @@
 10	rugadu	rugadu	ADV	adv	_	8	advmod	_	Auto=head
 11	.	.	PUNCT	punct	_	8	punct	_	Auto=head
 
+# sent_id = 529-4
+# text = dukodire iro oino ji .
+# text_por = Por isso que quase eu matei a criancinha.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	dukodire	dukodi	ADV	adv	Mood=Ind	2	advmod	_	Auto=feats+head
+2	iro	iro	VERB	v	Number=Sing|Person=1	0	root	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	Morph=0-ji|Auto=head
+5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 529-5
 # text = Kocare ire iiagurogu bito .
 # text_por = Aí ficou sem mamar quatro dias.
@@ -51730,6 +52246,23 @@
 9	paru	paru	NOUN	n	_	4	obl	_	Auto=deprel+head
 10	kae	kae	ADP	posp	Number=Sing|Person=3	9	case	_	Morph=0-kae|Auto=deprel+head
 11	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
+# sent_id = 538-1
+# text = Nowu cero oino bogaiwu boe eimejera iere Tiago .
+# text_por = O chefe ao qual estávamos nos dirigindo chamava-se Tiago.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 8/8
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	cero	cero	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	4	nmod	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	bogaiwu	bogaiwu	NOUN	n	Nomzr=Rel	5	nmod	_	AutoLowConf=Yes
+5	boe	boe	NOUN	n	Number=Sing	6	nmod	_	Auto=deprel+head
+6	eimejera	imejera	NOUN	n	Number=Plur|Person=3	7	nmod	_	_
+7	iere	ie	NOUN	n	Number=Sing|Person=3	8	nsubj	_	Auto=deprel+head
+8	Tiago	tiago	PROPN	propn	_	0	root	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+9	.	.	PUNCT	punct	_	8	punct	_	Auto=head
 
 # sent_id = 538-3
 # text = Icare imagore ji .
@@ -53916,6 +54449,18 @@
 6	boi	boi	NOUN	n	_	3	obl	_	Auto=lemma+upos+xpos+deprel+head
 7	koia	koia	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-koia|Auto=deprel+head
 8	.	.	PUNCT	punct	_	6	punct	_	Auto=head
+
+# sent_id = 551-19
+# text = Icare aro oino .
+# text_por = Outros diziam Ora!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 3/3
+1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
+2	aro	aro	VERB	v	Number=Sing|Person=2	0	root	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 551-20
 # text = Kodi icare amode ioku tawuje oino .
@@ -57376,6 +57921,21 @@
 18	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	19	nsubj	_	Auto=head|AutoLowConf=Yes
 19	pobe	pobe	NUM	num	_	15	ccomp	_	Auto=deprel+head
 20	.	.	PUNCT	punct	_	15	punct	_	Auto=head
+
+# sent_id = 569-17
+# text = Awu kuruga keje cero oino ei .
+# text_por = Foi nesta lagoa que os pegamos.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Awu	awu	DET	dem	Deixis=Prox	2	det	_	Auto=deprel+head
+2	kuruga	kuruga	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+3	keje	keje	ADP	posp	Number=Sing|Person=3	2	case	_	Morph=0-keje|Auto=deprel+head
+4	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	ei	ji	ADP	posp	Number=Plur|Person=3	4	obl	_	Morph=e=ji|Auto=deprel+head
+7	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
 # sent_id = 569-18
 # text = Icare Pe .
@@ -62794,6 +63354,24 @@
 15	ewogai	bogai	ADP	posp	Number=Plur|Person=3	14	case	_	Auto=deprel+head
 16	.	.	PUNCT	punct	_	6	punct	_	Auto=head
 
+# sent_id = 599-10
+# text = Unure cewido cebagudu koia, nowu turo oino duji .
+# text_por = Andava dando voltas e olhando para um lado e outro a procura de seus companheiros.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 9/9
+1	Unure	u	VERB	v	Aspect=Prog|Mood=Ind	2	nsubj	_	Auto=lemma+deprel+head
+2	cewido	cewi	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+3	cebagudu	pagudu	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	2	obl	_	AutoLowConf=Yes
+4	koia	koia	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-koia|Auto=deprel+head
+5	,	,	PUNCT	punct	_	2	punct	_	Auto=head
+6	nowu	nowu	DET	dem	Deixis=Med	7	det	_	Auto=deprel+head
+7	turo	turo	NOUN	n	Reflex=Yes	2	obl	_	AutoLowConf=Yes
+8	oino	oino	ADV	adv	_	7	advmod	_	_
+9	duji	duji	X	x	_	7	dep	_	Auto=head
+10	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 599-12
 # text = Jice, cedu jaedo pudui oino jice tubagudu koia tumedage erugodumode ceiduji .
 # text_por = Fomos andando e ele ia lá na frente longe de nós por medo que seus companheiros brigassem conosco.
@@ -63296,6 +63874,20 @@
 4	ekowuje	kowuje	VERB	v	Number=Plur|Person=3	1	ccomp	_	Auto=deprel+head|AutoLowConf=Yes
 5	bakujei	bakujei	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
+# sent_id = 601-15
+# text = Icare iture toro imedage etae .
+# text_por = 106 Eles diziam: Hm!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = head,deprel
+# auto_tokens = 5/6
+1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
+3	toro	toro	ADV	adv	_	2	advmod	_	Auto=head
+4	imedage	metuia	NOUN	n	Number=Plur|Person=1	2	obl	_	Auto=deprel+head
+5	etae	ae	ADP	posp	Number=Plur|Person=3	4	case	_	Auto=deprel+head
+6	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 601-16
 # text = Ire eedadudo .
@@ -67145,6 +67737,23 @@
 3	foi	foi	ADP	posp	Number=Sing|Person=3	2	case	_	AutoLowConf=Yes
 4	?	?	PUNCT	punct	_	2	punct	_	Auto=head
 
+# sent_id = 621-9
+# text = Inagore Jure pijire cero oino kaiamodoge ewogai .
+# text_por = Eu respondi Está lá.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/7
+# orig_ids = 1 4 5 6 7 8 9
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Jure	ju	PROPN	propn	_	1	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+3	pijire	piji	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	_
+4	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	1	ccomp	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	kaiamodoge	kaiamo	NOUN	n	Number=Plur	4	obl	_	Auto=lemma+deprel+head
+7	ewogai	bogai	ADP	posp	Number=Plur|Person=3	6	case	_	Auto=deprel+head
+8	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
 # sent_id = 621-10
 # text = Icare akore Ema pa ?
 # text_por = É muito grande.
@@ -69217,6 +69826,20 @@
 6	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	7	nsubj	_	Morph=ce=re|Auto=head
 7	akedudo	akedu	VERB	v	Number=Sing|Person=3|Voice=Cau	3	parataxis	_	Auto=deprel+head
 8	.	.	PUNCT	punct	_	7	punct	_	Auto=head
+
+# sent_id = 633-9
+# text = Colégio bai jire cero oino .
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/5
+1	Colégio	colégio	NOUN	n	_	2	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+2	bai	bai	NOUN	n	Number=Sing	4	obl	_	Auto=deprel+head
+3	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	2	case	_	Auto=deprel+head
+4	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
 # sent_id = 633-10
 # text = Cere bure tugudurewu ipo pa doge, cere awu pado ja tadawu cere kado .
@@ -72793,6 +73416,20 @@
 16	ipagudugodure	pagudu	VERB	v	Aspect=Inc|Mood=Ind|Number=Sing|Person=1	7	parataxis	_	_
 17	.	.	PUNCT	punct	_	16	punct	_	_
 
+# sent_id = 653-8
+# text = Nowu imedage ekorigodure ii jamedu .
+# text_por = Os meus companheiros zangaram comigo também.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma
+# auto_tokens = 1/6
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	_
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	_
+3	ekorigodure	ekorkodu	VERB	v	Mood=Ind	0	root	_	Auto=lemma|AutoLowConf=Yes
+4	ii	ji	ADP	posp	Number=Sing|Person=1	3	obl	_	Morph=i=ji
+5	jamedu	jamedu	ADV	adv	_	3	advmod	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
+
 # sent_id = 653-9
 # text = Egore akire akagoiwamode ji, macare amagokare !
 # text_por = dizendo Você que podia falar, mas não falou!
@@ -72859,6 +73496,22 @@
 2	barogwa	barogwa	NOUN	n	Mood=Ind|Number=Plur|Person=3	3	nsubj	_	Auto=feats+head
 3	kododure	kodo	VERB	v	Mood=Ind|Number=Sing|Person=3|Voice=Pass	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
+# sent_id = 654-2
+# text = Cere bai tugu nowu cero oino jiwuji .
+# text_por = De tarde colocamos palha na outra casa, para acabarmos as duas juntas.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/7
+1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	Morph=ce=re|Auto=head
+2	bai	bai	NOUN	n	Number=Sing	3	obj	_	Auto=deprel+head
+3	tugu	tugu	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-tugu
+4	nowu	nowu	DET	dem	Deixis=Med	5	det	_	Auto=deprel+head
+5	cero	cero	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	3	obl	_	AutoLowConf=Yes
+6	oino	oino	ADV	adv	_	5	advmod	_	_
+7	jiwuji	jiwuji	ADP	posp	Number=Sing|Person=3	5	case	_	AutoLowConf=Yes
+8	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
 # sent_id = 654-3
 # text = Meri rekodu tabo cere nowu bai metuia pemegado tu tu tu je, cewo akedudo pudonaji du bogai .
@@ -75112,6 +75765,18 @@
 4	remawunure	rema	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing	0	root	_	Auto=lemma+deprel+head
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 665-3
+# text = Dutabore cero oino .
+# text_por = Foi conosco até que chegamos ao porto.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,head,deprel
+# auto_tokens = 3/3
+1	Dutabore	dutabo	ADV	adv	Mood=Ind	2	advmod	_	Auto=head
+2	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 665-4
 # text = Kodire, Padre korigodure cei, mare makokare .
 # text_por = Levamos para cima a nossa bagagem e a nossa comida.
@@ -75354,6 +76019,20 @@
 4	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 666-11
+# text = Ire iemaedo cewu imedage ewogai .
+# text_por = E você?
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	Morph=i=re|Auto=head
+2	iemaedo	emaedo	VERB	v	Number=Sing|Person=1	0	root	_	Auto=lemma+upos+xpos+feats
+3	cewu	cewu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
+4	imedage	metuia	NOUN	n	Number=Plur|Person=1	2	obl	_	Auto=deprel+head
+5	ewogai	bogai	ADP	posp	Number=Plur|Person=3	4	case	_	Auto=deprel+head
+6	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 666-12
 # text = Iorudukare ei .
 # text_por = Eu disse – Sim!
@@ -75590,6 +76269,20 @@
 3	tai	ai	ADP	posp	Number=Plur|Person=2	1	obl	_	_
 4	rugadu	rugadu	ADV	adv	_	1	advmod	_	Auto=head
 5	.	.	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 668-4
+# text = Itaiwore Iorudure imedage ewureaji .
+# text_por = Eu estava correndo ao trote tai tai tai!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/5
+# orig_ids = 1 4 5 6 7
+1	Itaiwore	aiwo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	Iorudure	jorudu	VERB	v	Mood=Ind|Number=Sing|Person=1	1	parataxis	_	_
+3	imedage	metuia	NOUN	n	Number=Plur|Person=1	2	obl	_	Auto=deprel+head
+4	ewureaji	rekodaji	ADP	posp	Number=Plur|Person=3	3	case	_	AutoLowConf=Yes
+5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 668-5
 # text = Ewurea rere rugadu .
@@ -77851,6 +78544,27 @@
 3	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	4	nsubj	_	Morph=e=re|Auto=head
 4	tuwoaduiagu	tuwoadu	VERB	v	Mood=Quot	1	ccomp	_	Auto=lemma+deprel+head|AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
+# sent_id = 679-2
+# text = Icare ire nowu imedage ewie, inagore Kaiamodoge ere tuwoaduiagu paegai .
+# text_por = Aí eles brincaram.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 12/12
+# orig_ids = 1 2 3 4 5 6 7 10 11 12 13 14
+1	Icare	icare	ADV	adv	_	7	advmod	_	Auto=head
+2	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	7	nsubj	_	Morph=i=re|Auto=head
+3	nowu	nowu	DET	dem	Deixis=Med	5	det	_	Auto=deprel+head
+4	imedage	metuia	NOUN	n	Number=Plur|Person=1	5	nmod	_	Auto=deprel+head
+5	ewie	ewie	NOUN	n	Number=Plur|Person=3	7	obj	_	AutoLowConf=Yes
+6	,	,	PUNCT	punct	_	5	punct	_	Auto=head
+7	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re|Auto=deprel+head
+8	Kaiamodoge	kaiamo	NOUN	n	Number=Plur	9	dep	_	Auto=lemma+deprel+head
+9	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	10	nsubj	_	Morph=e=re|Auto=head
+10	tuwoaduiagu	tuwoadu	VERB	v	Mood=Quot	7	parataxis	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+11	paegai	pae	ADP	posp	Clusivity=In|Number=Plur|Person=1	10	obl	_	AutoLowConf=Yes
+12	.	.	PUNCT	punct	_	10	punct	_	Auto=head
 
 # sent_id = 679-3
 # text = Uu !
@@ -80883,6 +81597,20 @@
 1	ino	o	NOUN	n	Number=Sing|Person=1	0	root	_	Auto=deprel+head
 2	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 693-12
+# text = Cedao paganure ji tu.. .
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/5
+1	Cedao	ao	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	2	nsubj	_	_
+2	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
+3	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	Morph=0-ji|Auto=head
+4	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
+5	..	..	PUNCT	punct	_	2	punct	_	Auto=head
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = 693-13
 # text = Icare ure nowu ika bu nowu awara paru keje .
 # text_por =
@@ -82879,6 +83607,19 @@
 4	parawuje	rawuje	VERB	v	_	0	root	_	Auto=lemma+upos+xpos+deprel+head
 5	!	!	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 705-10
+# text = Nowu imedage ekare turawuje .
+# text_por = Os meus companheiros não desceram.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = head,deprel
+# auto_tokens = 5/5
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	4	nsubj	_	Auto=deprel+head
+3	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	4	nsubj	_	Auto=head
+4	turawuje	rawuje	VERB	v	Person=3|Reflex=Yes	0	root	_	Auto=deprel+head
+5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
 # sent_id = 705-11
 # text = Epagudunure nowu padrece .
 # text_por = Estavam com medo do padre.
@@ -83017,6 +83758,22 @@
 2	tabo	tabo	ADP	posp	Number=Sing|Person=3	1	obl	_	Morph=0-tabo|Auto=deprel+head
 3	rugadu	rugadu	ADV	adv	_	1	advmod	_	Auto=head
 4	.	.	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 706-8
+# text = Ire ia maku tu nowu imedage etai .
+# text_por = Aí eles comeram.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = head,deprel
+# auto_tokens = 8/8
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	3	nsubj	_	Morph=i=re|Auto=head
+2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	obj	_	Auto=deprel+head
+3	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku|Auto=deprel+head
+4	tu	tu	ADV	adv	_	3	advmod	_	Auto=head
+5	nowu	nowu	DET	dem	Deixis=Med	6	det	_	Auto=deprel+head
+6	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	obl	_	Auto=deprel+head
+7	etai	ai	ADP	posp	Number=Plur|Person=3	6	case	_	Auto=deprel+head
+8	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
 # sent_id = 706-9
 # text = Inagore Kowuje, tabagudukaba .
@@ -84761,6 +85518,19 @@
 3	karega	karega	AUX	aux	Polarity=Neg	2	aux	_	Auto=deprel+head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
+# sent_id = 716-8
+# text = Tamearudaerogu jire taro oino .
+# text_por = Eu disse Não bebam pinga um do outro.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	Tamearudaerogu	tmearudu	NOUN	n	Degree=Dim	3	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+2	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	1	case	_	Auto=deprel+head
+3	taro	taro	VERB	v	Number=Plur|Person=2	0	root	_	AutoLowConf=Yes
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 716-9
 # text = Mare woere icare inagomode tai .
 # text_por = Não fale um para outro com vontade de beber pinga.
@@ -85479,6 +86249,20 @@
 22	,	,	PUNCT	punct	_	2	punct	_	Auto=head
 23	A	a	INTJ	intj	_	2	conj	_	Auto=lemma+upos+xpos+deprel+head
 24	!	!	PUNCT	punct	_	23	punct	_	Auto=head
+
+# sent_id = 721-7
+# text = Nowu imedage ekudure nono rugadu !
+# text_por = A!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	Auto=deprel+head
+3	ekudure	kudu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+4	nono	nono	ADV	adv	_	3	advmod	_	Auto=head
+5	rugadu	rugadu	ADV	adv	_	3	advmod	_	Auto=head
+6	!	!	PUNCT	punct	_	3	punct	_	Auto=head
 
 # sent_id = 721-8
 # text = Eno diierore, kode ps !
@@ -87276,6 +88060,23 @@
 3	je	je	ADV	adv	_	2	flat	_	Auto=lemma+upos+xpos+deprel+head
 4	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 731-2
+# text = Dukejere nowu imedage egore Akie, akie !
+# text_por = Eu vou lá.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 8/8
+# orig_ids = 1 2 3 4 7 8 9 10
+1	Dukejere	dukeje	ADV	adv	Mood=Ind	4	advmod	_	Morph=du=keje=re|Auto=head
+2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
+3	imedage	metuia	NOUN	n	Number=Plur|Person=1	4	nsubj	_	Auto=deprel+head
+4	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
+5	Akie	a	PROPN	propn	_	4	ccomp	_	Auto=lemma+upos+xpos+deprel+head
+6	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+7	akie	a	NOUN	n	Number=Sing	4	parataxis	_	_
+8	!	!	PUNCT	punct	_	7	punct	_	Auto=head
+
 # sent_id = 731-3
 # text = Inagore uu !
 # text_por = Aí vi que era o Pe.
@@ -87925,6 +88726,20 @@
 19	koia	koia	ADP	posp	Number=Sing|Person=3	17	case	_	Morph=0-koia|Auto=deprel+head
 20	.	.	PUNCT	punct	_	16	punct	_	Auto=head
 
+# sent_id = 733-4
+# text = Icare ipuredugodure nowu imedage etae .
+# text_por = Parecia de noite, e assim mesmo, de raiva, ele quer que vamos embora.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,head,deprel
+# auto_tokens = 6/6
+1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
+2	ipuredugodure	ipuredu	VERB	v	Mood=Ind	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
+4	imedage	metuia	NOUN	n	Number=Plur|Person=1	2	obl	_	Auto=deprel+head
+5	etae	ae	ADP	posp	Number=Plur|Person=3	4	case	_	Auto=deprel+head
+6	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 733-5
 # text = Dukejere iwiapagare ure tu...toro iiageje .
 # text_por = Estava -me aproximando dos meus colegas.
@@ -88004,6 +88819,27 @@
 2	barigu	barigu	VERB	vt	Number=Sing|Person=3	1	ccomp	_	Auto=deprel+head
 3	toro	toro	ADV	adv	_	2	advmod	_	Auto=head
 4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
+# sent_id = 734-1
+# text = Icare inagore imedage etae: Inagore Taiagu tagera pemegado tagoroeji paduwo .
+# text_por = ???
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 11/12
+# orig_ids = 1 2 3 4 5 6 9 10 11 12 13 14
+1	Icare	icare	ADV	adv	_	2	advmod	_	Auto=head
+2	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+3	imedage	metuia	NOUN	n	Number=Plur|Person=1	2	obl	_	Auto=deprel+head
+4	etae	ae	ADP	posp	Number=Plur|Person=3	3	case	_	Auto=deprel+head
+5	:	:	PUNCT	punct	_	2	punct	_	Auto=lemma+upos+xpos+deprel+head
+6	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	2	parataxis	_	Morph=i=ako=re|Auto=deprel+head
+7	Taiagu	ta	VERB	v	Mood=Quot	9	nsubj	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+8	tagera	tagera	NOUN	n	Person=2	9	obj	_	AutoLowConf=Yes
+9	pemegado	pemega	VERB	v	Number=Sing|Person=3|Voice=Cau	6	ccomp	_	Auto=deprel+head
+10	tagoroeji	okwage	ADP	posp	Number=Plur|Person=2	9	obl	_	AutoLowConf=Yes
+11	paduwo	tu	VERB	vi	Clusivity=In|Mood=Sub|Number=Plur|Person=1	9	xcomp	_	Auto=deprel+head
+12	.	.	PUNCT	punct	_	11	punct	_	Auto=head
 
 # sent_id = 734-2
 # text = Etaiwore mato nowu cemeduia barigudui caminhão to du kae .A !
@@ -88676,6 +89512,31 @@
 6	keje	keje	ADP	posp	Number=Sing|Person=3	5	obl	_	Morph=0-keje|Auto=deprel+head
 7	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
+# sent_id = 738-1
+# text = Dukejere ire ia tugu nowu embornalto, nowu amirewu, mokuro kuru ri nowu imedage ekeje .
+# text_por = Depois pus um pouco de bolo e pão no meu embornal para os meus companheiros.Depois continuei comendo, comendo, até encher a barriga.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 16/17
+1	Dukejere	dukeje	ADV	adv	Mood=Ind	4	advmod	_	Morph=du=keje=re|Auto=head
+2	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	4	nsubj	_	Morph=i=re|Auto=head
+3	ia	ia	DET	det	Definite=Ind|PronType=Art	4	obj	_	Auto=deprel+head
+4	tugu	tugu	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-tugu
+5	nowu	nowu	DET	dem	Deixis=Med	6	det	_	Auto=deprel+head
+6	embornalto	maragodu	VERB	v	Number=Plur|Person=3	4	ccomp	_	AutoLowConf=Yes
+7	,	,	PUNCT	punct	_	6	punct	_	Auto=head
+8	nowu	nowu	DET	dem	Deixis=Med	9	det	_	Auto=deprel+head
+9	amirewu	amirewu	NOUN	n	_	12	nmod	_	Auto=deprel+head
+10	,	,	PUNCT	punct	_	9	punct	_	Auto=head
+11	mokuro	mokuro	NOUN	n	_	9	conj	_	Auto=deprel+head
+12	kuru	kuru	NOUN	n	_	13	nmod	_	Auto=deprel+head
+13	ri	ri	NOUN	n	_	15	nmod	_	Auto=deprel+head
+14	nowu	nowu	DET	dem	Deixis=Med	13	case	_	Auto=deprel+head
+15	imedage	metuia	NOUN	n	Number=Plur|Person=1	4	obl	_	Auto=deprel+head
+16	ekeje	keje	ADP	posp	Number=Plur|Person=3	15	case	_	Auto=deprel+head
+17	.	.	PUNCT	punct	_	4	punct	_	Auto=head
+
 # sent_id = 738-2
 # text = Icare inogwagere, inogwagere, icare ikuredure .
 # text_por = Depois ele trouxe um doce: aquele que parece mingau.
@@ -88792,6 +89653,20 @@
 5	caminhao	caminhao	NOUN	n	_	2	obl	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 6	kae	kae	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-kae|Auto=head
 7	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
+# sent_id = 738-9
+# text = Imagore nowu imedage ewogai toro .
+# text_por = Os motoristas também entraram.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Imagore	mako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	nowu	nowu	DET	dem	Deixis=Med	3	det	_	Auto=deprel+head
+3	imedage	metuia	NOUN	n	Number=Plur|Person=1	1	obl	_	Auto=deprel+head
+4	ewogai	bogai	ADP	posp	Number=Plur|Person=3	3	case	_	Auto=deprel+head
+5	toro	toro	ADV	adv	_	1	advmod	_	Auto=head
+6	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
 # sent_id = 738-10
 # text = InagoreTagera aogado lona okwa tabo .
@@ -91833,6 +92708,19 @@
 3	Uu	uu	PART	prcl	_	2	ccomp	_	Auto=deprel+head
 4	!	!	PUNCT	punct	_	2	punct	_	Auto=head
 
+# sent_id = 753-12
+# text = Kaba jiba aro oino ?
+# text_por = Outros diziam Façam de pressa com os peixes.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	Kaba	kaba	PRON	pron	PronType=Int	3	nsubj	_	_
+2	jiba	ji	ADV	adv	Int=Yes	1	advmod	_	_
+3	aro	aro	VERB	v	Number=Sing|Person=2	0	root	_	AutoLowConf=Yes
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	?	?	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 753-13
 # text = Amara tabo !
 # text_por =
@@ -94111,6 +94999,30 @@
 13	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	11	xcomp	_	Auto=deprel+head
 14	pudai	pudai	ADP	posp	Number=Sing|Person=3	13	obl	_	AutoLowConf=Yes
 15	.	.	PUNCT	punct	_	11	punct	_	Auto=head
+
+# sent_id = 767-12
+# text = Imire ire ipo kado, ire bai kado, ire reko toro nowu imedage etae .
+# text_por = Acabei logo.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 16/16
+1	Imire	imi	PRON	pron	Mood=Ind|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Auto=deprel+head
+2	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	4	nsubj	_	Morph=i=re|Auto=head
+3	ipo	ipo	NOUN	n	_	4	obj	_	Auto=deprel+head
+4	kado	kado	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	Auto=head
+6	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	8	nsubj	_	Morph=i=re|Auto=head
+7	bai	bai	NOUN	n	Number=Sing	8	obj	_	Auto=deprel+head
+8	kado	kado	VERB	v	Number=Sing|Person=3|Voice=Cau	4	parataxis	_	_
+9	,	,	PUNCT	punct	_	8	punct	_	Auto=head
+10	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	11	nsubj	_	Morph=i=re|Auto=head
+11	reko	reko	VERB	vt	Number=Sing|Person=1	8	parataxis	_	Auto=deprel+head
+12	toro	toro	ADV	adv	_	11	advmod	_	Auto=head
+13	nowu	nowu	DET	dem	Deixis=Med	14	det	_	Auto=deprel+head
+14	imedage	metuia	NOUN	n	Number=Plur|Person=1	11	obl	_	Auto=deprel+head
+15	etae	ae	ADP	posp	Number=Plur|Person=3	14	case	_	Auto=deprel+head
+16	.	.	PUNCT	punct	_	11	punct	_	Auto=head
 
 # sent_id = 767-14
 # text = Ire reko reko reko, nowu bai boetoji .
@@ -99150,6 +100062,24 @@
 7	ece	ce	ADP	posp	Number=Plur|Person=3	4	obl	_	_
 8	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 792-6
+# text = Eiure tuiagu tumagu Boe etai, kodie ero oino .
+# text_por = Que eles estavam chegando era para se entregar ao s Bororo.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 9/9
+1	Eiure	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	2	nsubj	_	_
+2	tuiagu	tu	VERB	v	Mood=Quot	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	2	ccomp	_	_
+4	Boe	Boe	PROPN	propn	Number=Plur	3	obl	_	Auto=deprel+head
+5	etai	ai	ADP	posp	Number=Plur|Person=3	4	case	_	Auto=deprel+head
+6	,	,	PUNCT	punct	_	3	punct	_	Auto=head
+7	kodie	kodie	NOUN	n	_	8	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+8	ero	ero	VERB	v	Number=Plur|Person=3	3	parataxis	_	AutoLowConf=Yes
+9	oino	oino	ADV	adv	_	8	advmod	_	_
+10	.	.	PUNCT	punct	_	8	punct	_	Auto=head
+
 # sent_id = 792-7
 # text = Kodie boe epagudu kaiagu ece .
 # text_por = Que por isso não era para ficar com medo.
@@ -100072,6 +101002,19 @@
 1	Ca	ca	ADV	adv	_	0	root	_	Auto=head
 2	!	!	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 798-7
+# text = Nowu imedage eregodure ipiji .
+# text_por = Vocês são muito ruins.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,head,deprel
+# auto_tokens = 5/5
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	nsubj	_	Auto=deprel+head
+3	eregodure	rekodu	VERB	v	Mood=Ind	0	root	_	Auto=lemma+deprel+head
+4	ipiji	piji	ADP	posp	Number=Sing|Person=1	3	obl	_	Auto=deprel+head
+5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 798-8
 # text = Imire icare iragojere toro ebo .
 # text_por = Os meus colegas não ficaram escutando.
@@ -100116,6 +101059,20 @@
 1	Tabega	tabega	NOUN	n	_	2	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 2	remawunure	rema	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing	0	root	_	Auto=lemma+deprel+head
 3	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
+# sent_id = 798-11
+# text = Nowu imedage ekare tumearudu kiogwado .
+# text_por = Aí eu comecei a ficar com medo.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	imedage	metuia	NOUN	n	Number=Plur|Person=1	3	dep	_	Auto=deprel+head
+3	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	5	nsubj	_	Auto=head
+4	tumearudu	mearudu	NOUN	n	Reflex=Yes	5	obj	_	AutoLowConf=Yes
+5	kiogwado	kiogwado	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
 # sent_id = 798-12
 # text = Kuri je eregodure ipiji, tubagudu koia .
@@ -103140,6 +104097,37 @@
 8	jamedu	jamedu	ADV	adv	_	5	advmod	_	Auto=head
 9	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
+# sent_id = 810-10
+# text = Cewu boe egore aijedoge oino jiboe, ere reko, mare areme erdukaree ei, dukodire, nowu ero oinodu mori kuricigore .
+# text_por = Era para os bororo que os brancos iam dar o dinheiro, mas o Pe.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 22/22
+1	Cewu	cewu	DET	dem	Deixis=Med	2	det	_	Auto=deprel+head
+2	boe	boe	NOUN	n	Number=Sing	3	nsubj	_	Auto=deprel+head
+3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re|Auto=deprel+head
+4	aijedoge	aije	NOUN	n	Number=Plur	9	obl	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	Auto=head
+6	jiboe	jiboe	NOUN	n	_	4	conj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+7	,	,	PUNCT	punct	_	6	punct	_	Auto=head
+8	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	9	nsubj	_	Morph=e=re|Auto=head
+9	reko	reko	VERB	vt	Number=Sing|Person=1	3	parataxis	_	Auto=deprel+head
+10	,	,	PUNCT	punct	_	9	punct	_	Auto=head
+11	mare	mare	CCONJ	cconj	_	13	cc	_	Auto=deprel+head
+12	areme	areme	NOUN	n	Number=Plur	13	nsubj	_	Auto=deprel+head
+13	erdukaree	erdukaree	VERB	v	Mood=Ind|Number=Plur|Person=3	3	parataxis	_	AutoLowConf=Yes
+14	ei	ji	ADP	posp	Number=Plur|Person=3	13	obl	_	Morph=e=ji|Auto=deprel+head
+15	,	,	PUNCT	punct	_	13	punct	_	Auto=head
+16	dukodire	dukodi	ADV	adv	_	13	advmod	_	Auto=head
+17	,	,	PUNCT	punct	_	13	punct	_	Auto=head
+18	nowu	nowu	DET	dem	Deixis=Med	19	det	_	Auto=deprel+head
+19	ero	ero	NOUN	n	Number=Plur	22	nsubj	_	AutoLowConf=Yes
+20	oinodu	oino	ADV	adv	_	19	advmod	_	AutoLowConf=Yes
+21	mori	mori	NOUN	n	_	19	nmod	_	Auto=deprel+head
+22	kuricigore	kuricigo	ADV	adv	Mood=Ind	3	parataxis	_	_
+23	.	.	PUNCT	punct	_	22	punct	_	Auto=head
+
 # sent_id = 810-11
 # text = Brae ere diiero makudu kuricigodo etai .
 # text_por = Bruno não quis.
@@ -104425,6 +105413,20 @@
 6	tugu	tugu	VERB	v	Number=Sing|Person=3	3	ccomp	_	Morph=0-tugu|Auto=deprel+head
 7	to	to	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-to|Auto=deprel+head
 8	.	.	PUNCT	punct	_	6	punct	_	Auto=head
+
+# sent_id = 822-2
+# text = Aroe parogu bogaire cero oino .
+# text_por = Estávamos fazendo uma roça de arroz.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/5
+1	Aroe	aroe	NOUN	n	Number=Plur	2	nmod	_	Auto=feats+deprel+head
+2	parogu	pa	NOUN	n	Degree=Dim	3	nmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+3	bogaire	bogai	NOUN	n	Mood=Ind	4	nsubj	_	AutoLowConf=Yes
+4	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
 # sent_id = 822-3
 # text = Kurire rugadu, raire;
@@ -115610,6 +116612,17 @@
 4	amagadudo	amagadu	VERB	v	Number=Sing|Person=2|Voice=Cau	1	ccomp	_	AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
+# sent_id = 890-7
+# text = Eedu paganure !
+# text_por = O!
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 3/3
+1	Eedu	eedu	VERB	v	Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
+2	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	1	ccomp	_	Auto=deprel+head
+3	!	!	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 890-8
 # text = Icare ere boe kado ei .
 # text_por = Eles desceram, desceram em quantidade.
@@ -116919,6 +117932,25 @@
 10	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	11	nsubj	_	Morph=e=re|Auto=head
 11	parijodudo	parijodu	VERB	v	Number=Plur|Person=1|Voice=Cau	3	parataxis	_	AutoLowConf=Yes
 12	.	.	PUNCT	punct	_	11	punct	_	Auto=head
+
+# sent_id = 897-7
+# text = Akore ikera jo paganure co co ike boi koia .
+# text_por = Não é de agora que você mora aqui.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,head,deprel
+# auto_tokens = 9/10
+# orig_ids = 1 4 5 6 7 8 9 10 11 12
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	ikera	era	NOUN	n	Number=Sing|Person=1	3	nmod	_	Auto=deprel+head
+3	jo	jo	NOUN	n	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head
+4	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	1	ccomp	_	Auto=deprel+head
+5	co	co	NOUN	n	_	6	nmod	_	Auto=lemma+upos+xpos+deprel+head
+6	co	co	NOUN	n	_	7	nmod	_	Auto=lemma+upos+xpos+deprel+head
+7	ike	ke	NOUN	n	Number=Sing|Person=1	8	nmod	_	Auto=deprel+head
+8	boi	boi	NOUN	n	_	4	obl	_	Auto=lemma+upos+xpos+deprel+head
+9	koia	koia	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-koia|Auto=deprel+head
+10	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
 # sent_id = 897-8
 # text = Akore akire akagore Ike rugadu, ike rugadu, oino akowageiagu tu je du ji ji .
@@ -124701,6 +125733,18 @@
 6	ji	ji	ADP	posp	Number=Sing|Person=3	5	obl	_	Morph=0-ji|Auto=head
 7	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
+# sent_id = 937-5
+# text = Emago paga paganure .
+# text_por = Outros diziam A Diretora diz que é para você vir logo.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	Emago	mako	VERB	v	Number=Plur|Person=3	3	nsubj	_	_
+2	paga	paga	ADV	adv	_	1	advmod	_	Auto=lemma+upos+xpos+deprel+head
+3	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
+4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
+
 # sent_id = 937-6
 # text = Iage egore Diretora akore aiagu amara tabo mato .
 # text_por = Um outro que ia perto de mim disse Ela está chamando você para cantar.
@@ -124983,6 +126027,23 @@
 # auto_tokens = 2/2
 1	Inagokare	ako	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 938-12
+# text = Itao paganure tu...akoi ii duji .
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 8/8
+# orig_ids = 1 2 3 6 7 8 9 10
+1	Itao	ao	NOUN	n	Number=Sing|Person=1	2	nsubj	_	_
+2	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	0	root	_	Auto=deprel+head
+3	tu	tu	ADV	adv	_	2	advmod	_	Auto=head
+4	...	...	PUNCT	punct	_	2	punct	_	Auto=head
+5	akoi	akoi	VERB	v	Number=Sing|Person=2|VerbForm=Ger	2	parataxis	_	AutoLowConf=Yes
+6	ii	ji	ADP	posp	Number=Sing|Person=1	5	obl	_	Morph=i=ji|Auto=deprel+head
+7	duji	duji	X	x	_	5	dep	_	Auto=head
+8	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
 # sent_id = 939-1
 # text = Akore aragodumode .
@@ -125358,6 +126419,22 @@
 # auto_tokens = 2/2
 1	Iragodumode	rakoje	VERB	v	Mood=Ind|Status=Irr	0	root	_	Auto=lemma|AutoLowConf=Yes
 2	.	.	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 940-13
+# text = Akore boe jokodu jina akago oino ?
+# text_por = Você vai cantar mesmo?
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/6
+# orig_ids = 1 4 5 6 7 8
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	boe	boe	NOUN	n	Number=Sing	3	dep	_	Auto=deprel+head
+3	jokodu	jokodu	NOUN	n	_	4	flat	_	Auto=head
+4	jina	jina	NOUN	n	_	5	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+5	akago	akao	VERB	v	Number=Sing|Person=2	1	ccomp	_	AutoLowConf=Yes
+6	oino	oino	ADV	adv	_	5	advmod	_	_
+7	?	?	PUNCT	punct	_	1	punct	_	Auto=head
 
 # sent_id = 940-14
 # text = Aragodumode rugadu ?
@@ -126963,6 +128040,21 @@
 1	Cedaregodu	aregodu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 950-8
+# text = Inagore Kaba bogaiba taro oino ?
+# text_por = Eu estou aqui.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/5
+# orig_ids = 1 4 5 6 7
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Kaba	kaba	PROPN	propn	_	3	nmod	_	Auto=lemma+upos+xpos+deprel+head
+3	bogaiba	bogaiba	NOUN	n	_	4	nsubj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
+4	taro	taro	VERB	v	Number=Plur|Person=2	1	ccomp	_	AutoLowConf=Yes
+5	oino	oino	ADV	adv	_	4	advmod	_	_
+6	?	?	PUNCT	punct	_	4	punct	_	Auto=head
+
 # sent_id = 950-9
 # text = Tabagudukare ?
 # text_por = O Padre disse que é para você voltar.
@@ -126997,6 +128089,18 @@
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
 2	uu	uu	PART	prcl	_	1	ccomp	_	Auto=deprel+head
 3	!	!	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 950-12
+# text = Awogaire cero oino .
+# text_por = Está bem.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 3/3
+1	Awogaire	bogai	ADP	posp	Mood=Ind|Number=Sing|Person=2	2	nsubj	_	_
+2	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 950-13
 # text = Inagore uu !
@@ -127226,6 +128330,21 @@
 6	toro	toro	ADV	adv	_	5	advmod	_	Auto=head
 7	marigudu	marigudu	ADV	adv	_	5	advmod	_	Auto=head
 8	.	.	PUNCT	punct	_	5	punct	_	Auto=head
+
+# sent_id = 951-11
+# text = Ipuredugodu rumode nowu iro oinowo kae .
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 6/6
+1	Ipuredugodu	pagudu	VERB	v	Number=Sing|Person=1	2	nsubj	_	AutoLowConf=Yes
+2	rumode	ru	VERB	v	Mood=Ind|Status=Irr	0	root	_	Auto=lemma+deprel+head|AutoLowConf=Yes
+3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	Auto=deprel+head
+4	iro	iroino	NOUN	n	Number=Sing|Person=1	2	obl	_	AutoLowConf=Yes
+5	oinowo	oino	ADV	adv	_	4	advmod	_	AutoLowConf=Yes
+6	kae	kae	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-kae|Auto=deprel+head
+7	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 951-12
 # text = Dukodi karega inagore Uu !
@@ -129019,6 +130138,19 @@
 5	inai	ai	ADP	posp	Number=Sing|Person=1	4	obl	_	Auto=deprel+head
 6	inoce	inoce	NOUN	n	Number=Sing	4	conj	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	6	punct	_	Auto=head
+
+# sent_id = 962-15
+# text = Imugu paganure toro ebo .
+# text_por =
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 5/5
+1	Imugu	mugu	VERB	v	Number=Sing|Person=1	0	root	_	_
+2	paganure	paga	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	1	ccomp	_	Auto=deprel+head
+3	toro	toro	ADV	adv	_	2	advmod	_	Auto=head
+4	ebo	apo	ADP	posp	Number=Plur|Person=3	2	obl	_	Auto=deprel+head
+5	.	.	PUNCT	punct	_	2	punct	_	Auto=head
 
 # sent_id = 963-1
 # text = Dukejere icare iture pugeje .
@@ -130864,6 +131996,18 @@
 2	a	a	INTJ	intj	_	1	ccomp	_	Auto=lemma+upos+xpos+deprel+head
 3	!	!	PUNCT	punct	_	1	punct	_	Auto=head
 
+# sent_id = 973-16
+# text = Oinodukodire aro oino .
+# text_por = É por isso que você está assim.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 3/3
+1	Oinodukodire	oinodukodi	ADV	adv	Mood=Ind	2	advmod	_	AutoLowConf=Yes
+2	aro	aro	VERB	v	Number=Sing|Person=2	0	root	_	AutoLowConf=Yes
+3	oino	oino	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	Auto=head
+
 # sent_id = 973-17
 # text = Akore pemegare ?
 # text_por = E perguntou Ele era bom?
@@ -131217,6 +132361,19 @@
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	uu	uu	PART	prcl	_	1	ccomp	_	Auto=deprel+head
 3	!	!	PUNCT	punct	_	1	punct	_	Auto=head
+
+# sent_id = 975-9
+# text = Padre bogaire cero oino .
+# text_por = Ele disse Faz pouco estava indo um para lá.
+# text_eng =
+# auto_annotation = pendente de revisão manual
+# auto_fields = lemma,upos,xpos,feats,head,deprel
+# auto_tokens = 4/4
+1	Padre	padre	NOUN	n	_	2	nmod	_	Auto=lemma+upos+xpos+deprel+head
+2	bogaire	bogai	NOUN	n	Mood=Ind	3	nsubj	_	AutoLowConf=Yes
+3	cero	cero	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
+4	oino	oino	ADV	adv	_	3	advmod	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
 # sent_id = 975-10
 # text = Akore ia uture maigodu toro .

@@ -37,6 +37,7 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | `text` | sim | texto da sentença; deve coincidir com a concatenação das formas, salvo espaços |
 | `text_por`, `text_eng` | não | traduções livres |
 | `source_conllu` | não | arquivo CoNLL-U de origem antes da unificação |
+| `text_source` | não | texto da fonte antes de uma correção decidida pelo autor (ex.: *roino* → *ro oino*, 22/11/2026) |
 | `source_unit`, `section` | não | unidade e seção na fonte documental (Boe Ero) |
 | `auto_annotation`, `auto_fields`, `auto_tokens`, `auto_note` | quando houver campos automáticos | ver §6 |
 | `model_projection` | não | sentença gold de onde a análise foi projetada e similaridade |
@@ -140,3 +141,9 @@ python3 scripts/build_annotation_inventory.py
 python3 scripts/split_gold_silver.py
 cp CorBo/validation/summary.json CorBo/validation/baseline.json   # depois de corrigir erros
 ```
+
+## Formas com *oino* (decisão de 22/11/2026)
+
+As formas separadas são as corretas: *iro oino*, *cero oino*, *ako oino*, e não *iroino*, *ceroino*, *akoino*.
+*oino* é um token próprio (ADV, `advmod`), mesmo quando a fonte escreve as duas palavras juntas com
+elisão do *o*. Nesse caso o `# text` recebe o espaço, e a grafia da fonte fica em `# text_source`.

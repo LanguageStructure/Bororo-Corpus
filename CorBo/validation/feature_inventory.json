@@ -184,7 +184,7 @@
           "origin": "CorBo"
         },
         "Plur": {
-          "count": 11126,
+          "count": 11147,
           "description": "plural",
           "origin": "UD"
         },
@@ -194,7 +194,7 @@
           "origin": "CorBo"
         },
         "Sing": {
-          "count": 21258,
+          "count": 21237,
           "description": "singular",
           "origin": "UD"
         }

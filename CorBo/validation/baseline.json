@@ -4,7 +4,7 @@
     "blocks": 12020,
     "sentences": 11760,
     "manual_sentences": 2153,
-    "tokens": 79448,
+    "tokens": 79491,
     "sentences_with_full_syntax": 11171,
     "auto_sentences": 9607,
     "auto_tokens": 49494,
@@ -24,7 +24,7 @@
     "private_use_character": 18,
     "root_count": 11,
     "root_mismatch": 140,
-    "text_form_mismatch": 202,
+    "text_form_mismatch": 134,
     "token_ids_not_sequential": 4,
     "upos_missing": 298,
     "upos_not_ud": 2
@@ -34,7 +34,7 @@
     "head_deprel_mismatch": 2430,
     "misc_malformed": 2,
     "pending_tokenization": 259,
-    "text_punct_mismatch": 400
+    "text_punct_mismatch": 401
   },
-  "error_total": 792
+  "error_total": 724
 }
