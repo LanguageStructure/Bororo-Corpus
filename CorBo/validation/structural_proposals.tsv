@@ -1,0 +1,404 @@
+prop_id	line	sent_id	kind	confidence	proposal	detail	approve
+P0001	982	boe_ero_01_34	merge	alta	unir à sentença boe_ero_01_34	Ioga , oino ji , gu , gu , gu . . .	
+P0002	1240	boe_ero_01_40	merge	alta	unir à sentença boe_ero_01_40	Pao pega aregodu , oino . Boe egore Ioga pega aregodu , oino . Ioga pega , amugudo , amugudo , amugudo ! .	
+P0003	1664	boe_ero_02_15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5 6 7 8 9 10 11 12	
+P0004	1812	boe_ero_02_21	merge	alta	unir à sentença boe_ero_02_21	Nogwaredu , oino ji .	
+P0005	2164	boe_ero_02_34	merge	alta	unir à sentença boe_ero_02_34	Imuga , oino ji . Icare iwororaere . Icare maragodure , Icare boe etujere ema .	
+P0006	2278	boe_ero_02_38	merge	alta	unir à sentença boe_ero_02_38	Imuga pega , oino ji . Boe egore Ituie pega , oino ji . Boe egore Paje pega , oino ji . Boe egore Pajarugo pega , oino j . Boe egore Parago pega , oino ji . Itu	
+P0007	2453	boe_ero_02_42	merge	alta	unir à sentença boe_ero_02_42	Iwigodu nure , oino , iwogagodu nure , iwoga nure tabiji , iwoga nure apiji . Oino tonaregeduji , oino torei .	
+P0008	2514	boe_ero_03_01	merge	alta	unir à sentença boe_ero_03_01	Imedu , oino . Imedu , arduwado , aroiwado , akagoiwado .	
+P0009	3620	boe_ero_04_09	merge	alta	unir à sentença boe_ero_04_09	. Icare ure oino rugadu . Dukeje ere kodo towuje Akado , jewu inodu , jewu inodu towuje , kodokora towuje akoredu kudawuce , uce kudawuce ; ure beto to , ure mi	
+P0010	5546	boe_ero_07_31	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5 6 7 8 9 10 11 12 13	
+P0011	8873	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#2 com # text = formas	Ure icare areme emearudure Boe ekudu ji .	
+P0012	8885	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#3 com # text = formas	Areme egore baaa , paobe ekudu aregodu , paobe ekudu aregodu !	
+P0013	8901	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#4 com # text = formas	A , areme eregodure toro , etaregodo etogi tu .	
+P0014	8915	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#5 com # text = formas	Ure ca , icare nowu ure bitowu , ure adugo bitowu uce , uwie , koiare ure tudugu nowu adugo biri ji .	
+P0015	8942	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#6 com # text = formas	Ca , Boe ekodure , Boe etaregodure baa to tu .	
+P0016	8957	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#7 com # text = formas	Ure ca , dukeje icare ure bureagurudo pugeje ; cewu epa ure bureagurudo pugeje nono , baa tada pugeje .	
+P0017	8984	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#8 com # text = formas	Ure bureagurudo ukudawu remawu ji pugeje tu , ca !	
+P0018	8998	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#9 com # text = formas	Ure ca , ure batarudo ji .	
+P0019	9012	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#10 com # text = formas	Ca , ure batarudodu akedudo , dukeje icare otowure tugeragu nowu adugo biri ji : nono huuu , huuu , huuu !	
+P0020	9041	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#11 com # text = formas	Ure ca , care ure cedo toro ba to , toro kae .	
+P0021	9061	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#12 com # text = formas	Ca , oreduje ure kodo baado , ca , ure adugo biri mugudo tu .	
+P0022	9080	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#13 com # text = formas	Ure care nowu ukudawu remawu aregodure mato tuwabo tabo , icare uragodure joki .	
+P0023	9101	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#14 com # text = formas	Ure uragodu akedure tu , ca , nono ere bapo maku maku pugeje .	
+P0024	9119	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#15 com # text = formas	Nonore icare boere bapo maku nowu Bakororo ika epa ai tu .	
+P0025	9138	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#16 com # text = formas	Ca , dukeje icare are Bakororo ika ko .	
+P0026	9151	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#17 com # text = formas	Ure dukeje icare Boe eregodure nowu ure adugo bitowu ae toro waaa , waaa !	
+P0027	9173	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#18 com # text = formas	Toro , mugure toro tuobe ebo dukae .	
+P0028	9188	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#19 com # text = formas	Ure Boe ero biri reo , Boe ero pemegarewu .	
+P0029	9202	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#20 com # text = formas	Boe eedui kimo tabo , boe enogwa padui kimo dutabo .	
+P0030	9220	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#21 com # text = formas	Ure ere Boe ero pemegado .	
+P0031	9230	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#22 com # text = formas	Boe ero moture , Boe ero kororogodure , Boe ero motudure .	
+P0032	9246	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#23 com # text = formas	Ure oino rema , oinore care Boe ero akedure , Boe ero bokware pugeje .	
+P0033	9265	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#24 com # text = formas	Ure ca , dukeje icare eregodure ae , marenaruie keje pugeje : marenaruie , marenaruie , eigoia ...	
+P0034	9287	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#25 com # text = formas	Eregodure toro ae , egore waaa , waaa , waaa ...	
+P0035	9305	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#26 com # text = formas	Ure ca , ere reko mato pugeje .	
+P0036	9320	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#27 com # text = formas	Ca , ere mugudo woe , nowu adugo biri keje tu .	
+P0037	9339	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#28 com # text = formas	Ure ca , dukeje icare ure biri porodo , ure biri porodo pugeje to to to to .	
+P0038	9364	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#29 com # text = formas	Ia metuiare tugera bararedo ji , nowu biri porodo duji , nowu Bakororo ika kuda , kidoguru paru kuda , marenaruie kuda .	
+P0039	9394	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#30 com # text = formas	Oinore Boe erore .	
+P0040	9402	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#31 com # text = formas	Ure mare awu inodu jire Kogure ako oino .	
+P0041	9415	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#32 com # text = formas	Imagonure tu oino , paga tu je .	
+P0042	9427	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#33 com # text = formas	Mare awu iwagedu Enawurewu makore , emare okeare , emare aidure .	
+P0043	9446	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#34 com # text = formas	Ure aidure paganure tu je , okearogu paganure tu je .	
+P0044	9461	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#35 com # text = formas	Awu boe etore eeruduwo , boe etore emearuduwo , mare egowo oino karega .	
+P0045	9479	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#36 com # text = formas	Ure awuge eeruduwamodukare Boe ero bogai , eeruduwamodukare Boe ewadaru bogai , eeruduwamodukare roia bogai .	
+P0046	9502	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#37 com # text = formas	Ure awu makaguragare , raicigo .	
+P0047	9516	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#38 com # text = formas	Baraedu tuwadaru jire eeruduware , baraedu tumago jire eeruduware , kode eragodumoduka , egomodukare .	
+P0048	9535	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#39 com # text = formas	Tamodukare kagado , tamodukare pemegado .	
+P0049	9548	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#40 com # text = formas	Ure a , oinore ure , oinore akore , oinore gravador akore , oinore meriri akore , inodumoduka .	
+P0050	9574	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#41 com # text = formas	Awu iwagedure aidure tu je , kodire inagore tu oino , awu inodurogu tu je .	
+P0051	9597	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#42 com # text = formas	Tamearudumode tu oino awu inodurogu ji tu je .	
+P0052	9610	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#43 com # text = formas	Awu ia ipare ekare turokagado tu oino nowu uragodure tu jiwuge eegai !	
+P0053	9630	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#44 com # text = formas	Ca , iwagedu Félix makore Cibae Tawadu bogai .	
+P0054	9646	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#45 com # text = formas	Ire Cibae Tawadu kagado biegai , mare akedukare .	
+P0055	9659	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#46 com # text = formas	Dukodire , imagonure tu oino Boe ereru ji , Boe ero ji , tu rugadu .	
+P0056	9679	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#47 com # text = formas	Ca , nono Boe egore , care ure biri porodo .	
+P0057	9697	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#48 com # text = formas	Ere biri porododu akedudo tu .	
+P0058	9707	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#49 com # text = formas	Ca , ca , nowu biri porododu akedure dukeje , care nowu uragodurewu akore barogo porododu kejewu reo .	
+P0059	9733	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#50 com # text = formas	Mare tamearudumode tu oino .	
+P0060	9742	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#51 com # text = formas	Ca , awu oto pa reo .	
+P0061	9756	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#52 com # text = formas	Awu akedu , barogo biri porododure oto pa reo .	
+P0062	9770	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#53 com # text = formas	Bitoduredu , etaregoduredu , oto pa reo .	
+P0063	9782	AdugoBiri-2.10	new_sentence	média	criar sentença AdugoBiri-2.10#54 com # text = formas	Awu Boe etaregodui apodu , bitoduredu , biri porododuredu oto pa reo , oinore Boe Boe , oinore Boe erore .	
+P0064	11534	31-3	new_sentence	média	criar sentença 31-3#2 com # text = formas	Cedure mato bakowu kae , cemeru tabo .	
+P0065	11603	34-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	
+P0066	11833	38-4	new_sentence	média	criar sentença 38-4#2 com # text = formas	Capitão iere José Maria .	
+P0067	12152	45-7	new_sentence	média	criar sentença 45-7#2 com # text = formas	Ikodumode rugadu .	
+P0068	12874	59-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 4 5 6 7 8	
+P0069	16187	112-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	
+P0070	17039	123-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 6 7 8	
+P0071	17170	124-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	
+P0072	17957	131-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0073	19450	145-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0074	19683	146-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 8 6	
+P0075	19698	146-15	merge	alta	unir à sentença 146-15	. Kocare !	
+P0076	20986	156-10	swapped_tokens	informativo	os tokens reproduzem o # text de 914-11	111 Inagore Kirabodu !	
+P0077	22528	167-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 8 9 10 11	
+P0078	22680	169-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 7 8 9 10 11 12 13 14 15 6	
+P0079	23905	178-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 12 13 14 15	
+P0080	24184	181-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 8 9 10 11 12 6	
+P0081	24337	182-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	
+P0082	25135	190-1	merge	média	unir à sentença 190-1 (o # text ainda tem tokens a mais no fim)	jii .	
+P0083	25138	190-1	merge	alta	unir à sentença 190-1	Oinore egore roiaoji jii .	
+P0084	25220	191-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0085	25236	191-2	merge	alta	unir à sentença 191-2	tu .	
+P0086	25724	196-4	merge	alta	unir à sentença 196-4	.	
+P0087	26009	199-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	
+P0088	26218	200-11	merge	alta	unir à sentença 200-11	jugodoge eiogi .	
+P0089	26345	202-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 6	
+P0090	26366	202-3	merge	alta	unir à sentença 202-3	?	
+P0091	26815	204-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 6	
+P0092	26834	204-12	merge	média	unir à sentença 204-12 (o # text ainda tem tokens a mais no fim)	. M .	
+P0093	26838	204-12	merge	alta	unir à sentença 204-12	. Oino .	
+P0094	27102	207-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0095	27133	207-7	merge	alta	unir à sentença 207-7	kae kae kae kae !	
+P0096	27597	211-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 8 11 12	
+P0097	28926	223-3	merge	alta	unir à sentença 223-3	akore Ps !	
+P0098	29138	225-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0099	29154	225-5	merge	alta	unir à sentença 225-5	.	
+P0100	29515	229-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9	
+P0101	29562	230-1	merge	média	unir à sentença 230-1 (o # text ainda tem tokens a mais no fim)	no no no hu .	
+P0102	29568	230-1	merge	alta	unir à sentença 230-1	hu hu .	
+P0103	29572	230-1	merge	alta	unir à sentença 230-1	! ,	
+P0104	29903	237-4	merge	alta	unir à sentença 237-4	je .	
+P0105	30069	239-4	new_sentence	média	criar sentença 239-4#2 com # text = formas	Bako .	
+P0106	30072	239-4	new_sentence	média	criar sentença 239-4#3 com # text = formas	roro .	
+P0107	30075	239-4	new_sentence	média	criar sentença 239-4#4 com # text = formas	kaire , kaire Iroia wa wo !	
+P0108	30129	240-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 6	
+P0109	30150	240-1	merge	média	unir à sentença 240-1 (o # text ainda tem tokens a mais no fim)	je je je je je je .	
+P0110	30158	240-1	merge	alta	unir à sentença 240-1	nowu ei tawuje dukeje , ei tugera kabi jitu keje , emaragodu butuguuuwo ji , ekera butuguuuwo ji .	
+P0111	30265	241-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 9 6	
+P0112	30280	241-6	merge	média	unir à sentença 241-6 (o # text ainda tem tokens a mais no fim)	hu .	
+P0113	30283	241-6	merge	alta	unir à sentença 241-6	hu hu .	
+P0114	30287	241-6	merge	alta	unir à sentença 241-6	!	
+P0115	30330	242-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0116	30742	246-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0117	30948	249-1	merge	alta	unir à sentença 249-1	hu .	
+P0118	30952	249-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5 9	
+P0119	31324	257-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	
+P0120	31405	257-16	merge	alta	unir à sentença 257-16	.	
+P0121	31434	258-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 6	
+P0122	31484	258-4	merge	alta	unir à sentença 258-4	toragudu tabo .	
+P0123	32012	264-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0124	32112	265-3	merge	alta	unir à sentença 265-3	iekori reno .	
+P0125	32131	265-4	merge	alta	unir à sentença 265-4	arowe koe ewudore kiadodu jetugae ewororo Paremodu Bororo bukorire , aio iogodurega kiadodu jeture gaje . , Oinore egore .	
+P0126	32471	268-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10	
+P0127	32498	268-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0128	32524	268-13	new_sentence	média	criar sentença 268-13#2 com # text = formas	m o m .	
+P0129	32542	268-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	
+P0130	32559	268-15	merge	média	unir à sentença 268-15 (o # text ainda tem tokens a mais no fim)	O .	
+P0131	32562	268-15	merge	alta	unir à sentença 268-15	mu .	
+P0132	32565	269-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0133	32581	269-1	merge	alta	unir à sentença 269-1	Wa .	
+P0134	32621	269-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10 11 12	
+P0135	32679	270-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 7 6	
+P0136	32694	270-1	merge	alta	unir à sentença 270-1	Bororoto .	
+P0137	32697	270-1	merge	alta	unir à sentença 270-1	!	
+P0138	33098	275-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0139	33114	275-1	merge	alta	unir à sentença 275-1	.	
+P0140	33296	276-2	merge	média	unir à sentença 276-2 (o # text ainda tem tokens a mais no fim)	atu .	
+P0141	33299	276-2	merge	média	unir à sentença 276-2 (o # text ainda tem tokens a mais no fim)	goia .	
+P0142	33302	276-2	merge	média	unir à sentença 276-2 (o # text ainda tem tokens a mais no fim)	Bako .	
+P0143	33305	276-2	merge	média	unir à sentença 276-2 (o # text ainda tem tokens a mais no fim)	ho .	
+P0144	33308	276-2	merge	alta	unir à sentença 276-2	ro . ro O Icai tudui toro ji kodi .	
+P0145	33794	285-6	merge	alta	unir à sentença 285-6	. io .	
+P0146	34135	291-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0147	34151	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	ruie .	
+P0148	34154	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	e marena .	
+P0149	34158	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	ruie ei .	
+P0150	34162	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	goia .	
+P0151	34165	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	mai .	
+P0152	34168	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	dodo jetuia .	
+P0153	34172	291-1	merge	média	unir à sentença 291-1 (o # text ainda tem tokens a mais no fim)	rega .	
+P0154	34175	291-1	merge	alta	unir à sentença 291-1	, akore , ecewu kodo tabo toro bato , kodure bororo ji jii .	
+P0155	34221	291-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 6	
+P0156	34235	291-4	merge	média	unir à sentença 291-4 (o # text ainda tem tokens a mais no fim)	mai .	
+P0157	34238	291-4	merge	média	unir à sentença 291-4 (o # text ainda tem tokens a mais no fim)	do o .	
+P0158	34242	291-4	merge	média	unir à sentença 291-4 (o # text ainda tem tokens a mais no fim)	je .	
+P0159	34245	291-4	merge	média	unir à sentença 291-4 (o # text ainda tem tokens a mais no fim)	tuia .	
+P0160	34248	291-4	merge	média	unir à sentença 291-4 (o # text ainda tem tokens a mais no fim)	rega .	
+P0161	34251	291-4	merge	alta	unir à sentença 291-4	ha a . .	
+P0162	34337	293-2	merge	alta	unir à sentença 293-2	toro icai boe etui ebo pobo to du kae , icai boei eiaoro tugu kuruga to du kae , icai boei eiaoro tugu manoto du kae , icai boei eiaoro tugu keoto du kae .	
+P0163	34943	300-2	merge	média	unir à sentença 300-2 (o # text ainda tem tokens a mais no fim)	itugugodure ji .	
+P0164	34947	300-2	merge	média	unir à sentença 300-2 (o # text ainda tem tokens a mais no fim)	inagore A .	
+P0165	34951	300-2	merge	alta	unir à sentença 300-2	. Cewu boe egore Birikigadurewu , Birikigadurewu ino jiboe kana .	
+P0166	34963	300-2	merge	alta	unir à sentença 300-2	.	
+P0167	34981	300-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 6	
+P0168	34999	300-4	merge	alta	unir à sentença 300-4	ro perigodunure ikenoto .	
+P0169	35109	301-5	merge	alta	unir à sentença 301-5	inure kowuje ju tabo , Ire ju bu keje , ju bu keje .	
+P0170	35841	308-6	merge	média	unir à sentença 308-6 (o # text ainda tem tokens a mais no fim)	Itaiwore rekodaji , Inagore Wo .	
+P0171	35848	308-6	merge	alta	unir à sentença 308-6	. Icare amode kare erego iwuodo piji !	
+P0172	36064	310-1	merge	alta	unir à sentença 310-1	Ire barigu kuci pobo to . Akore M !	
+P0173	36828	318-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15	
+P0174	36913	318-8	merge	alta	unir à sentença 318-8	tu ca .	
+P0175	36983	319-5	merge	alta	unir à sentença 319-5	cedaregodure nowu ceda kae uu !	
+P0176	37200	322-3	merge	alta	unir à sentença 322-3	. ia boe moturewu pugeje , ia boe moturewu pugeje !	
+P0177	37989	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo awure keje toro .	
+P0178	37997	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo akera bukeje toro .	
+P0179	38005	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo akogwa bukeje toro .	
+P0180	38013	331-9	new_sentence	média	criar sentença 331-9#2 com # text = formas	Icare Ire maku mato pugeje , jorubore Ire barigu toro cebegi , Wo .	
+P0181	38028	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	.	
+P0182	38061	332-2	merge	alta	unir à sentença 332-2	hu hu .	
+P0183	38157	334-1	merge	média	unir à sentença 334-1 (o # text ainda tem tokens a mais no fim)	mere .	
+P0184	38160	334-1	merge	média	unir à sentença 334-1 (o # text ainda tem tokens a mais no fim)	arowe , O .	
+P0185	38165	334-1	merge	alta	unir à sentença 334-1	. Mere mere o !	
+P0186	39176	348-3	merge	alta	unir à sentença 348-3	wo .	
+P0187	39179	348-3	merge	alta	unir à sentença 348-3	!	
+P0188	40139	357-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0189	40218	358-3	merge	alta	unir à sentença 358-3	.	
+P0190	40455	360-10	merge	alta	unir à sentença 360-10	toro nowu imaragodumode jiwu itura kae .	
+P0191	40641	362-2	merge	alta	unir à sentença 362-2	je .	
+P0192	41562	374-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0193	42253	379-6	merge	alta	unir à sentença 379-6	!	
+P0194	42565	381-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 6 9 10 11 12 13 14 15	
+P0195	42745	382-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0196	42769	382-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12	
+P0197	43066	385-1	merge	alta	unir à sentença 385-1	icare iture cewu nabure eke nowa kae .	
+P0198	43108	385-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	
+P0199	43125	385-4	merge	alta	unir à sentença 385-4	itaregodure tu .	
+P0200	43209	387-1	merge	alta	unir à sentença 387-1	!	
+P0201	43226	387-2	merge	alta	unir à sentença 387-2	!	
+P0202	43250	387-3	merge	alta	unir à sentença 387-3	. . Etaregodure !	
+P0203	43296	387-5	merge	média	unir à sentença 387-5 (o # text ainda tem tokens a mais no fim)	? a .	
+P0204	43300	387-5	merge	alta	unir à sentença 387-5	? a . .	
+P0205	43577	390-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0206	44638	397-1	merge	alta	unir à sentença 397-1	.	
+P0207	44640	397-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0208	44929	398-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0209	46640	410-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0210	46819	411-9	merge	alta	unir à sentença 411-9	A !	
+P0211	47529	417-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9 10 11 12	
+P0212	48583	426-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9	
+P0213	49080	430-11	merge	alta	unir à sentença 430-11	icare Ire ikeragu toriji . ta .	
+P0214	49088	430-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 6	
+P0215	49554	431-28	merge	alta	unir à sentença 431-28	tuku .	
+P0216	49764	432-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	
+P0217	49977	433-12	merge	alta	unir à sentença 433-12	Tagaregodu bato , epeguru ta , epeguru bowuje , ewu kowu .	
+P0218	50161	434-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9 10 11 12	
+P0219	50270	435-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	
+P0220	50282	435-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	
+P0221	50294	435-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	
+P0222	50323	435-7	merge	alta	unir à sentença 435-7	care aroe eture pugeje O .	
+P0223	50983	440-1	merge	alta	unir à sentença 440-1	cireruia .	
+P0224	51002	440-2	merge	média	unir à sentença 440-2 (o # text ainda tem tokens a mais no fim)	ruia Cireruia .	
+P0225	51006	440-2	merge	alta	unir à sentença 440-2	cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo cireruia Ca , ema rugadu reno .	
+P0226	51101	441-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0227	51125	441-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0228	51236	441-10	merge	alta	unir à sentença 441-10	ure oto kabi , ure mugu pemegado tu je , ure nowu atu kabi , ure tugu to miciguto .	
+P0229	51313	442-2	merge	alta	unir à sentença 442-2	Boe ere tudadu oto kabi .	
+P0230	52519	451-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 6	
+P0231	52534	451-7	merge	média	unir à sentença 451-7 (o # text ainda tem tokens a mais no fim)	. ie .	
+P0232	52538	451-7	merge	média	unir à sentença 451-7 (o # text ainda tem tokens a mais no fim)	ie .	
+P0233	52541	451-7	merge	alta	unir à sentença 451-7	. Kaiba akagoino ji .	
+P0234	52547	451-7	merge	alta	unir à sentença 451-7	.	
+P0235	52827	451-25	merge	alta	unir à sentença 451-25	ta !	
+P0236	52970	452-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15	
+P0237	53335	453-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0238	53368	453-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	
+P0239	53385	453-15	merge	alta	unir à sentença 453-15	je .	
+P0240	54007	456-6	merge	alta	unir à sentença 456-6	Ca !	
+P0241	54958	462-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0242	56459	468-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9	
+P0243	56592	469-7	merge	alta	unir à sentença 469-7	. ko _ go-ri-ga .	
+P0244	56599	469-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0245	59354	484-12	merge	alta	unir à sentença 484-12	Ca !	
+P0246	59656	486-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 7 8 9 10 11 12 13 14 16	
+P0247	60270	489-6	merge	alta	unir à sentença 489-6	pugeje .	
+P0248	61520	495-9	merge	alta	unir à sentença 495-9	cedaregodure nowu Jaruruto .	
+P0249	61572	495-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0250	62183	497-21	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14	
+P0251	62885	500-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0252	63449	502-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	
+P0253	65052	509-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14	
+P0254	65352	510-10	merge	alta	unir à sentença 510-10	je , nowu bubutuji .	
+P0255	66282	515-2	merge	alta	unir à sentença 515-2	cegodui ia baraedu o Tapera kae .	
+P0256	66450	516-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0257	67051	519-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0258	68178	526-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	
+P0259	68235	526-6	merge	média	unir à sentença 526-6 (o # text ainda tem tokens a mais no fim)	pr .	
+P0260	68238	526-6	merge	alta	unir à sentença 526-6	pr .	
+P0261	69058	530-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11	
+P0262	69377	532-9	merge	alta	unir à sentença 532-9	e .	
+P0263	69380	532-9	merge	alta	unir à sentença 532-9	!	
+P0264	69590	534-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13	
+P0265	70076	536-16	merge	alta	unir à sentença 536-16	cegeje .	
+P0266	70179	536-25	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 6	
+P0267	70197	536-25	merge	alta	unir à sentença 536-25	Itaregodure apo .	
+P0268	71104	540-6	merge	alta	unir à sentença 540-6	!	
+P0269	71156	540-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 9 10 6	
+P0270	71172	540-11	merge	alta	unir à sentença 540-11	hu hu .	
+P0271	71497	542-5	merge	alta	unir à sentença 542-5	.	
+P0272	71499	542-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 7 6	
+P0273	72969	551-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 6	
+P0274	73869	555-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 6	
+P0275	73883	555-7	merge	média	unir à sentença 555-7 (o # text ainda tem tokens a mais no fim)	ra .	
+P0276	73886	555-7	merge	alta	unir à sentença 555-7	ra .	
+P0277	74558	558-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0278	75662	563-3	merge	alta	unir à sentença 563-3	. Ure tugado rugadu !	
+P0279	75850	564-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12	
+P0280	76052	565-5	merge	alta	unir à sentença 565-5	cai turegodui cedabo kodi .	
+P0281	78044	573-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	
+P0282	78329	574-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14 15	
+P0283	78560	575-2	merge	alta	unir à sentença 575-2	!	
+P0284	78736	575-14	merge	alta	unir à sentença 575-14	!	
+P0285	79639	579-5	merge	alta	unir à sentença 579-5	Kare tu je Icare cere buke bu .	
+P0286	80325	585-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0287	80481	585-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 9 12 13	
+P0288	82198	593-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 7 8 9 10 11 12	
+P0289	83114	597-14	merge	alta	unir à sentença 597-14	inhe !	
+P0290	83184	598-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	
+P0291	83201	598-6	merge	alta	unir à sentença 598-6	. Oinore awu akurara cerewu , oecerewuge , kare kigadurewuge , oinore ere pobo aoji !	
+P0292	83274	598-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 6	
+P0293	83291	598-11	merge	alta	unir à sentença 598-11	Korogedu Paru keje . .	
+P0294	83313	598-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	
+P0295	83331	598-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 6	
+P0296	84177	601-25	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0297	84194	601-26	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	
+P0298	84783	604-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 7 8 9 10 11 12 13 14	
+P0299	84942	605-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0300	85167	605-16	merge	alta	unir à sentença 605-16	cedaregodure tabo oiado rugadu .	
+P0301	86348	611-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5	
+P0302	86398	611-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0303	86435	611-7	merge	alta	unir à sentença 611-7	Ukiga kae .	
+P0304	87545	617-4	swapped_tokens	informativo	os tokens reproduzem o # text de 435-1	111 Cedaregodure bato tu .	
+P0305	87957	619-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13	
+P0306	88235	619-23	merge	alta	unir à sentença 619-23	boe oto ure tuginoi ceegai , cegiarigodu koia .	
+P0307	88331	620-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 7 10 11	
+P0308	88392	620-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	
+P0309	88409	620-11	merge	alta	unir à sentença 620-11	arodureboe ure tumugui .	
+P0310	88700	622-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 6	
+P0311	89283	625-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 6 5 8 9 10 11 12 13	
+P0312	89809	627-3	merge	alta	unir à sentença 627-3	Barogwa kododu kae .	
+P0313	89970	628-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15 16 17 18 19 20	
+P0314	92569	642-3	new_sentence	média	criar sentença 642-3#2 com # text = formas	pugeje .	
+P0315	94112	649-9	merge	alta	unir à sentença 649-9	je .	
+P0316	95128	654-12	merge	alta	unir à sentença 654-12	Mare cekare ewido Buwodo ukare tugeragu ei .	
+P0317	97584	665-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 5 8 9 10 11 12 13	
+P0318	98511	670-9	merge	alta	unir à sentença 670-9	Korobadure rugadu .	
+P0319	98909	672-13	merge	alta	unir à sentença 672-13	mato iregodaji .	
+P0320	99199	673-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	
+P0321	101590	683-17	merge	alta	unir à sentença 683-17	Inure nowu cero boe , cemagore boe inure maku ai , cebaru tabo , butugugoduwo cei , Uwo cemeru pemegado .	
+P0322	105517	703-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0323	105911	705-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 7 10 6	
+P0324	105928	705-5	merge	alta	unir à sentença 705-5	. Icare iwo aidugirire !	
+P0325	109457	722-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	
+P0326	111951	734-3	merge	alta	unir à sentença 734-3	Ure tumugudo woe .	
+P0327	112286	735-16	merge	alta	unir à sentença 735-16	etae .	
+P0328	112908	738-16	swapped_tokens	informativo	os tokens reproduzem o # text de 692-5	147 Inagore Tamagokaba .	
+P0329	113159	739-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0330	113966	744-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 9 10 11 12 13 14 15 16 17 18	
+P0331	115009	748-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 14 15 17 20	
+P0332	115034	748-14	merge	alta	unir à sentença 748-14	ps .	
+P0333	115480	751-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	
+P0334	115565	751-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5	
+P0335	118161	764-13	merge	alta	unir à sentença 764-13	Inodoguru ronure jooo iogi ike boi koia .	
+P0336	121339	779-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 13 14 15	
+P0337	122022	781-17	merge	alta	unir à sentença 781-17	. awuge padu rakado !	
+P0338	122727	785-8	merge	alta	unir à sentença 785-8	Dukeje iage etaregodo pugeje .	
+P0339	127598	807-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	
+P0340	132225	837-4	merge	alta	unir à sentença 837-4	Ka ! . .	
+P0341	132710	839-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 6	
+P0342	132728	839-14	merge	alta	unir à sentença 839-14	. Tamearudu awadudo tai !	
+P0343	134144	847-6	merge	alta	unir à sentença 847-6	je .	
+P0344	134147	847-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10 12	
+P0345	135946	857-8	merge	alta	unir à sentença 857-8	O !	
+P0346	136567	861-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6	
+P0347	136639	861-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 6 7 8 9 10 11 12 13	
+P0348	136750	862-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9	
+P0349	138732	874-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 7 8	
+P0350	139193	877-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	
+P0351	141387	885-14	merge	alta	unir à sentença 885-14	kurire .	
+P0352	141390	885-14	merge	alta	unir à sentença 885-14	.	
+P0353	141510	885-23	merge	alta	unir à sentença 885-23	rekodaji .	
+P0354	142603	889-28	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 6 5 8 9	
+P0355	145492	903-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14 15 16 17 18	
+P0356	145579	903-18	merge	alta	unir à sentença 903-18	m !	
+P0357	147940	915-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6 7 8 11 12	
+P0358	148685	918-5	merge	média	unir à sentença 918-5 (o # text ainda tem tokens a mais no fim)	tb .	
+P0359	148688	918-5	merge	alta	unir à sentença 918-5	tb .	
+P0360	150039	924-2	merge	alta	unir à sentença 924-2	Boe eegarere ! .	
+P0361	150337	925-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6	
+P0362	150738	926-15	merge	média	unir à sentença 926-15 (o # text ainda tem tokens a mais no fim)	piii .	
+P0363	150741	926-15	merge	alta	unir à sentença 926-15	piii .	
+P0364	151302	929-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11	
+P0365	151510	929-17	merge	média	unir à sentença 929-17 (o # text ainda tem tokens a mais no fim)	du tonajire akore hm .	
+P0366	151516	929-17	merge	alta	unir à sentença 929-17	Ure nowu agulha ta piji , ure tumegido paci toro piji , uture piji rugadu .	
+P0367	152281	934-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	
+P0368	152298	934-7	merge	alta	unir à sentença 934-7	kur i .	
+P0369	153939	941-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 6	
+P0370	153957	941-14	merge	alta	unir à sentença 941-14	!	
+P0371	153976	941-15	new_sentence	média	criar sentença 941-15#2 com # text = formas	.	
+P0372	154404	944-2	merge	média	unir à sentença 944-2 (o # text ainda tem tokens a mais no fim)	m .	
+P0373	154407	944-2	merge	alta	unir à sentença 944-2	m .	
+P0374	154718	945-6	merge	alta	unir à sentença 945-6	Nonore icare kuri je ure Missa to .	
+P0375	155992	953-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0376	157221	958-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 9 10 11 12 13 14 15 16 7	
+P0377	158394	964-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0378	158576	965-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 7 10 11	
+P0379	159005	967-5	merge	alta	unir à sentença 967-5	toro , nowu Jarudori paru towu awara paru kae . .	
+P0380	159530	970-8	merge	alta	unir à sentença 970-8	Pemo bogai .	
+P0381	160122	973-8	merge	alta	unir à sentença 973-8	Akore ema rugadu .	
+P0382	162988	dic_0352	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0383	163359	dic_0417	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	
+P0384	163776	dic_0494	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5	
+P0385	164274	dic_0590	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 6	
+P0386	165491	dic_0861	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 6	
+P0387	165844	dic_0993	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 5 4 6	
+P0388	166358	dic_1082	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0389	166788	dic_1188	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	
+P0390	167555	dic_1306	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	
+P0391	167576	dic_1311	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0392	167821	dic_0009	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 44	
+P0393	168709	dic_0150	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0394	168717	dic_0151	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	
+P0395	169277	dic_0271	new_sentence	média	criar sentença dic_0271#2 com # text = formas	ire iwu .	
+P0396	169291	dic_0286	renumber	alta	renumerar IDs 1..n e remapear HEAD	81 2 3	
+P0397	170045	dic_0729	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0398	171166	dic_1329	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0399	171191	dic_1333	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0400	171234	dic_1338	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	
+P0401	171278	dic_1348	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	
+P0402	171305	dic_1351	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	
+P0403	171313	dic_1352	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	

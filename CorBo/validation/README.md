@@ -12,6 +12,7 @@ Arquivos gerados a partir de `CorBo/Corpus_Files/CorBo.conllu`. Veja também o [
 | `feature_inventory.json` | traços e valores documentados (o validador avisa sobre os demais) | `scripts/build_annotation_inventory.py` |
 | `sent_id_groups.tsv` | grupos de `sent_id` com contagens e colunas **a preencher** (coleção, fonte, gênero) | manual |
 | `tokenizer_v5_report.json` | relatório do inventário v5 do tokenizador | `scripts/build_tokenizer_v5.py` |
+| `structural_proposals.tsv` | propostas para fragmentos sem `sent_id`, IDs fora de sequência e tokens trocados; aprove com `sim` na coluna `approve` | `scripts/propose_structural_fixes.py` |
 | `ci-proposta/` | workflows do GitHub Actions propostos (ver abaixo) | — |
 
 ## Como usar `issues.tsv` na revisão
@@ -39,3 +40,16 @@ cp CorBo/validation/ci-proposta/build-corbo-indexes.yml .github/workflows/   # s
 
 - `validate-conllu.yml`: roda o validador contra a linha de base, exige a camada gold sem erros e roda o `validate.py` oficial do UD (nível 2) em modo informativo.
 - `build-corbo-indexes.yml`: igual ao atual, mais a geração do inventário e das camadas gold/silver.
+
+## Propostas estruturais
+
+```bash
+python3 scripts/propose_structural_fixes.py      # gera/atualiza a planilha
+# marque approve = sim nas linhas aceitas
+python3 scripts/apply_structural_fixes.py        # simulação
+python3 scripts/apply_structural_fixes.py --apply
+python3 scripts/validate_conllu.py CorBo/Corpus_Files/CorBo.conllu --summary CorBo/validation/summary.json
+cp CorBo/validation/summary.json CorBo/validation/baseline.json
+```
+
+Aprovando todas as propostas de alta e média confiança (400), os erros caem de 3.706 para 2.964: os 241 fragmentos somem, IDs fora de sequência caem de 633 para 289 e texto divergente de 1.939 para 1.853. Blocos não aprovados ficam idênticos.
