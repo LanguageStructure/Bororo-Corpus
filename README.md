@@ -119,7 +119,7 @@ O CoNLL-U canônico é verificado por `scripts/validate_conllu.py` (estrutura, r
 - `CorBo/Corpus_Files/splits/review_sentences.tsv` — sentenças a revisar;
 - `docs/data/annotation-coverage.json` — números exibidos na página **Cobertura** do site.
 
-Estado em 22 de novembro de 2026 (após as correções seguras, estruturais e de alinhamento texto × tokens): 12.020 unidades no CoNLL-U, das quais 11.760 tokenizadas (79.272 tokens); **1.875 sentenças gold** (9.639 tokens), **8.715 silver** e 1.170 a revisar; 260 unidades aguardam tokenização; 1.341 erros de validação restantes. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
+Estado em 22 de novembro de 2026 (após as correções seguras, estruturais, de alinhamento texto × tokens e de árvores): 12.020 unidades no CoNLL-U, das quais 11.760 tokenizadas (79.272 tokens); **1.888 sentenças gold** (9.715 tokens), **8.882 silver** e 990 a revisar; 260 unidades aguardam tokenização; 835 erros de validação restantes. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
 
 Para impedir regressões, a linha de base `CorBo/validation/baseline.json` registra o número de erros por categoria; a validação em CI falha se alguma categoria aumentar. Ao corrigir erros, atualize-a com `cp CorBo/validation/summary.json CorBo/validation/baseline.json`.
 

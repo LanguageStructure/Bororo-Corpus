@@ -8,19 +8,19 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 
 | UPOS | Descrição | Tokens |
 |---|---|---:|
-| `PUNCT` | pontuação | 18178 |
-| `VERB` | verbo | 15488 |
-| `NOUN` | substantivo | 13660 |
-| `ADV` | advérbio | 10273 |
-| `ADP` | posposição | 7076 |
-| `PRON` | pronome | 5392 |
-| `PROPN` | nome próprio | 2874 |
-| `DET` | determinante/artigo/demonstrativo | 2559 |
-| `X` | outro / não classificado | 1429 |
+| `PUNCT` | pontuação | 18180 |
+| `VERB` | verbo | 15503 |
+| `NOUN` | substantivo | 13676 |
+| `ADV` | advérbio | 10275 |
+| `ADP` | posposição | 7079 |
+| `PRON` | pronome | 5393 |
+| `PROPN` | nome próprio | 2875 |
+| `DET` | determinante/artigo/demonstrativo | 2560 |
+| `X` | outro / não classificado | 1430 |
 | `PART` | partícula | 560 |
 | `AUX` | auxiliar | 514 |
 | `INTJ` | interjeição | 427 |
-| `_` | **fora do UD — revisar** | 342 |
+| `_` | **fora do UD — revisar** | 300 |
 | `CCONJ` | conjunção coordenativa | 275 |
 | `SCONJ` | conjunção subordinativa | 167 |
 | `NUM` | numeral | 81 |
@@ -47,7 +47,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `aux` | `AUX` (506) |
 | `det` | `DET` (464) |
 | `intj` | `INTJ` (427) |
-| `_` | `_` (342), `ADV` (1), `dukeje` (1) |
+| `_` | `_` (300), `NOUN` (16), `VERB` (15), `ADV` (3), `ADP` (3), `PUNCT` (2), `DET` (1), `dukeje` (1), `X` (1), `PRON` (1), `PROPN` (1) |
 | `cconj` | `CCONJ` (275) |
 | `sconj` | `SCONJ` (167) |
 | `art` | `DET` (94) |
@@ -69,27 +69,27 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | DEPREL | Tokens |
 |---|---:|
 | `punct` | 18237 |
-| `root` | 11219 |
-| `advmod` | 9621 |
-| `nsubj` | 8630 |
-| `obl` | 6908 |
+| `root` | 11399 |
+| `advmod` | 9478 |
+| `nsubj` | 8619 |
+| `obl` | 6906 |
 | `parataxis` | 3764 |
 | `case` | 3648 |
 | `nmod` | 3480 |
-| `_` | 3054 |
-| `ccomp` | 2633 |
-| `det` | 2142 |
+| `_` | 3053 |
+| `ccomp` | 2624 |
+| `det` | 2141 |
 | `obj` | 2017 |
-| `flat` | 950 |
-| `dep` | 823 |
+| `flat` | 946 |
+| `dep` | 822 |
 | `conj` | 764 |
-| `aux` | 453 |
-| `discourse` | 312 |
+| `aux` | 451 |
+| `discourse` | 311 |
 | `cc` | 263 |
 | `xcomp` | 116 |
-| `mark` | 83 |
-| `appos` | 64 |
-| `advcl` | 55 |
+| `mark` | 82 |
+| `appos` | 61 |
+| `advcl` | 54 |
 | `dislocated` | 22 |
 | `vocative` | 13 |
 | `iobj` | 12 |

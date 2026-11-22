@@ -166,316 +166,136 @@ line	sent_id	severity	category	detail
 6370	boe_ero_07_69	error	root_mismatch	HEAD=0 DEPREL=advmod
 10154	3-3	error	root_mismatch	HEAD=3 DEPREL=root
 10615	11-6	error	root_mismatch	HEAD=1 DEPREL=root
-10665	13-2	error	root_mismatch	HEAD=0 DEPREL=discourse
-10699	13-4	error	root_mismatch	HEAD=0 DEPREL=advcl
-11842	36-2	error	root_mismatch	HEAD=0 DEPREL=ccomp
-12003	39-1	error	root_mismatch	HEAD=0 DEPREL=ccomp
 12024	40-2	error	root_mismatch	HEAD=2 DEPREL=root
-12025	40-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
 12133	42-1	error	root_mismatch	HEAD=2 DEPREL=root
 12150	42-2	error	root_mismatch	HEAD=2 DEPREL=root
-12193	43-5	error	root_mismatch	HEAD=0 DEPREL=nsubj
-12214	44-2	error	root_mismatch	HEAD=0 DEPREL=ccomp
 12375	47-1	error	root_mismatch	HEAD=4 DEPREL=root
-12424	48-1	error	root_mismatch	HEAD=0 DEPREL=mark
 12459	49-4	error	root_mismatch	HEAD=1 DEPREL=root
-12643	52-4	error	root_mismatch	HEAD=0 DEPREL=punct
 12648	52-4	error	root_mismatch	HEAD=9 DEPREL=root
 12764	54-3	error	root_mismatch	HEAD=4 DEPREL=root
-12767	54-3	error	root_mismatch	HEAD=0 DEPREL=appos
 12837	55-7	error	root_mismatch	HEAD=2 DEPREL=root
 12895	57-1	error	root_mismatch	HEAD=3 DEPREL=root
 12985	58-2	error	root_mismatch	HEAD=4 DEPREL=root
-12986	58-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
-13047	59-2	error	root_mismatch	HEAD=0 DEPREL=advmod
 13049	59-2	error	root_mismatch	HEAD=2 DEPREL=root
 13054	59-2	error	root_mismatch	HEAD=10 DEPREL=root
 13057	59-2	error	root_mismatch	HEAD=4 DEPREL=root
 13435	67-1	error	root_mismatch	HEAD=4 DEPREL=root
 13541	68-4	error	root_mismatch	HEAD=4 DEPREL=root
-13573	68-6	error	root_mismatch	HEAD=0 DEPREL=flat
-13637	70-1	error	root_mismatch	HEAD=0 DEPREL=nsubj
-13690	71-3	error	root_mismatch	HEAD=0 DEPREL=appos
-13891	75-4	error	root_mismatch	HEAD=0 DEPREL=appos
 13915	75-11	error	root_mismatch	HEAD=2 DEPREL=root
-13916	75-11	error	root_mismatch	HEAD=0 DEPREL=nsubj
 14345	83-2	error	root_mismatch	HEAD=2 DEPREL=root
-14385	84-1#2	error	root_mismatch	HEAD=0 DEPREL=det
 14704	90-2	error	root_mismatch	HEAD=2 DEPREL=root
-14911	92-4	error	root_mismatch	HEAD=0 DEPREL=flat
 14921	92-5	error	root_mismatch	HEAD=2 DEPREL=root
 14936	92-6	error	root_mismatch	HEAD=0 DEPREL=advmod
 14938	92-6	error	root_mismatch	HEAD=7 DEPREL=root
 14981	93-2	error	root_mismatch	HEAD=5 DEPREL=root
 14982	93-2	error	root_mismatch	HEAD=6 DEPREL=root
-14983	93-2	error	root_mismatch	HEAD=0 DEPREL=flat
-15007	93-4	error	root_mismatch	HEAD=0 DEPREL=flat
 15147	96-1	error	root_mismatch	HEAD=6 DEPREL=root
-15264	98-4	error	root_mismatch	HEAD=0 DEPREL=dep
-15275	98-6	error	root_mismatch	HEAD=0 DEPREL=ccomp
 15369	100-1	error	root_mismatch	HEAD=9 DEPREL=root
 15508	101-7	error	root_mismatch	HEAD=2 DEPREL=root
 15512	101-7	error	root_mismatch	HEAD=0 DEPREL=nmod
 15514	101-7	error	root_mismatch	HEAD=0 DEPREL=punct
-15567	102-3	error	root_mismatch	HEAD=0 DEPREL=ccomp
-15578	102-4	error	root_mismatch	HEAD=0 DEPREL=ccomp
 15659	103-5	error	root_mismatch	HEAD=2 DEPREL=root
 15784	104-6	error	root_mismatch	HEAD=2 DEPREL=root
 15785	104-6	error	root_mismatch	HEAD=0 DEPREL=punct
 15857	105-2	error	root_mismatch	HEAD=3 DEPREL=root
 15943	106-3	error	root_mismatch	HEAD=2 DEPREL=root
 16143	110-2	error	root_mismatch	HEAD=3 DEPREL=root
-16300	111-8	error	root_mismatch	HEAD=0 DEPREL=ccomp
 16315	111-9	error	root_mismatch	HEAD=0 DEPREL=punct
-17670	127-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-17805	128-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-18086	131-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-18701	137-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 19730	146-7	error	root_mismatch	HEAD=0 DEPREL=advmod
 20116	149-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-20960	154-9	error	root_mismatch	HEAD=0 DEPREL=nsubj
 21415	159-7	error	root_mismatch	HEAD=0 DEPREL=punct
-22812	168-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-23589	173-11	error	root_mismatch	HEAD=0 DEPREL=ccomp
-23919	177-2	error	root_mismatch	HEAD=0 DEPREL=advmod
-24389	181-4	error	root_mismatch	HEAD=0 DEPREL=obl
-24484	182-3	error	root_mismatch	HEAD=0 DEPREL=advmod
 24661	183-10	error	root_mismatch	HEAD=0 DEPREL=nmod
 25989	197-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-26541	202-6	error	root_mismatch	HEAD=0 DEPREL=nsubj
-27152	206-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-27357	208-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 27852	212-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 28413	217-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-28824	221-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-34563	293-4	error	root_mismatch	HEAD=0 DEPREL=aux
-35872	307-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-36469	312-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-37506	324-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 38436	336-1	error	root_mismatch	HEAD=0 DEPREL=punct
 38697	337-14	error	root_mismatch	HEAD=0 DEPREL=nsubj
 38870	339-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 39237	345-1	error	root_mismatch	HEAD=0 DEPREL=punct
-39527	350-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
 40523	360-5	error	root_mismatch	HEAD=0 DEPREL=nsubj
-42226	378-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-42663	381-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-42701	381-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-42711	381-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-42799	382-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 43230	385-1	error	root_mismatch	HEAD=0 DEPREL=obl
 43889	391-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-44109	391-17	error	root_mismatch	HEAD=0 DEPREL=advmod
-44380	394-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-44403	394-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-44721	396-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-45277	399-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-45369	400-3	error	root_mismatch	HEAD=0 DEPREL=advmod
 45620	402-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-46148	406-2	error	root_mismatch	HEAD=0 DEPREL=advmod
-46158	406-3	error	root_mismatch	HEAD=0 DEPREL=advmod
 46379	407-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-46404	407-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-46656	409-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-47055	412-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-47097	412-10	error	root_mismatch	HEAD=0 DEPREL=advmod
 47312	414-3	error	root_mismatch	HEAD=0 DEPREL=flat
 50326	434-6	error	root_mismatch	HEAD=0 DEPREL=nmod
-54328	457-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 54645	459-2	error	root_mismatch	HEAD=0 DEPREL=advmod
 54657	459-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-55000	462-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-55113	462-10	error	root_mismatch	HEAD=0 DEPREL=advmod
-59207	483-16	error	root_mismatch	HEAD=0 DEPREL=advmod
 59812	486-8	error	root_mismatch	HEAD=0 DEPREL=nmod
 59882	486-11	error	root_mismatch	HEAD=0 DEPREL=nmod
-60443	490-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-60606	490-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 60952	492-8	error	root_mismatch	HEAD=0 DEPREL=advmod
 61218	493-16	error	root_mismatch	HEAD=0 DEPREL=cc
 61985	496-19	error	root_mismatch	HEAD=0 DEPREL=advmod
-62248	497-16	error	root_mismatch	HEAD=0 DEPREL=nsubj
-62518	498-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 63666	502-15	error	root_mismatch	HEAD=0 DEPREL=advmod
 63721	502-19	error	root_mismatch	HEAD=0 DEPREL=advmod
-64437	507-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-64502	507-10	error	root_mismatch	HEAD=0 DEPREL=advmod
 65019	508-16	error	root_mismatch	HEAD=0 DEPREL=nsubj
-65035	508-17	error	root_mismatch	HEAD=0 DEPREL=advmod
 65615	511-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-66238	513-17	error	root_mismatch	HEAD=0 DEPREL=advmod
-66629	516-9	error	root_mismatch	HEAD=0 DEPREL=advmod
 66727	517-7	error	root_mismatch	HEAD=0 DEPREL=nsubj
 66858	517-15	error	root_mismatch	HEAD=0 DEPREL=advmod
-67431	520-2	error	root_mismatch	HEAD=0 DEPREL=advmod
-67621	520-15	error	root_mismatch	HEAD=0 DEPREL=advmod
-67680	521-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-68370	526-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-70492	537-5	error	root_mismatch	HEAD=0 DEPREL=advmod
 70606	538-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
-71168	540-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-71285	541-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 71434	541-11	error	root_mismatch	HEAD=0 DEPREL=nsubj
 71780	544-12	error	root_mismatch	HEAD=0 DEPREL=advmod
-72691	549-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-72746	550-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-73305	552-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-75392	561-12	error	root_mismatch	HEAD=0 DEPREL=advmod
-75820	563-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-75862	563-10	error	root_mismatch	HEAD=0 DEPREL=advmod
-75887	564-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-76101	565-2	error	root_mismatch	HEAD=0 DEPREL=advmod
-77823	572-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-78714	575-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-78872	575-17	error	root_mismatch	HEAD=0 DEPREL=nsubj
 80387	585-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
-80410	585-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 80510	585-12	error	root_mismatch	HEAD=0 DEPREL=nsubj
-81133	588-10	error	root_mismatch	HEAD=0 DEPREL=advmod
 81629	590-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
-81659	590-5	error	root_mismatch	HEAD=0 DEPREL=advmod
 81798	591-4	error	root_mismatch	HEAD=0 DEPREL=nsubj
 82019	592-1	error	root_mismatch	HEAD=0 DEPREL=punct
-83830	600-10	error	root_mismatch	HEAD=0 DEPREL=advmod
 83928	600-17	error	root_mismatch	HEAD=0 DEPREL=advmod
 83944	601-1	error	root_mismatch	HEAD=0 DEPREL=punct
-84959	604-11	error	root_mismatch	HEAD=0 DEPREL=ccomp
-84991	604-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-85199	605-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-86615	612-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-86764	613-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-86877	614-3	error	root_mismatch	HEAD=0 DEPREL=advmod
-86938	614-8	error	root_mismatch	HEAD=0 DEPREL=advmod
 87029	615-1	error	root_mismatch	HEAD=0 DEPREL=punct
-87038	615-2	error	root_mismatch	HEAD=0 DEPREL=advmod
 87476	616-15	error	root_mismatch	HEAD=0 DEPREL=advmod
-89046	623-9	error	root_mismatch	HEAD=0 DEPREL=advmod
 89056	623-10	error	root_mismatch	HEAD=0 DEPREL=advmod
-89281	624-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-89597	625-21	error	root_mismatch	HEAD=0 DEPREL=advmod
-90727	632-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-91492	636-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-91512	636-3	error	root_mismatch	HEAD=0 DEPREL=advmod
 91535	636-5	error	root_mismatch	HEAD=0 DEPREL=nsubj
 91569	636-7	error	root_mismatch	HEAD=0 DEPREL=nsubj
-91915	637-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 93521	647-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 94413	650-11	error	root_mismatch	HEAD=0 DEPREL=advmod
-95381	655-11	error	root_mismatch	HEAD=0 DEPREL=advmod
-95457	655-17	error	root_mismatch	HEAD=0 DEPREL=advmod
 95884	657-12	error	root_mismatch	HEAD=0 DEPREL=nsubj
-95927	657-15	error	root_mismatch	HEAD=0 DEPREL=advmod
-97747	666-6	error	root_mismatch	HEAD=0 DEPREL=advmod
 99053	673-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-99347	674-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-99444	674-12	error	root_mismatch	HEAD=0 DEPREL=advmod
-100270	677-16	error	root_mismatch	HEAD=0 DEPREL=advmod
 100499	678-8	error	root_mismatch	HEAD=0 DEPREL=nsubj
-100639	679-10	error	root_mismatch	HEAD=0 DEPREL=advmod
-103156	690-9	error	root_mismatch	HEAD=0 DEPREL=advmod
-103247	691-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 105967	705-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
 107477	712-8	error	root_mismatch	HEAD=0 DEPREL=nsubj
-108544	717-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-108555	717-7	error	root_mismatch	HEAD=0 DEPREL=advmod
 109031	720-8	error	root_mismatch	HEAD=0 DEPREL=obl
-109076	720-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 109451	722-9	error	root_mismatch	HEAD=0 DEPREL=obl
-109524	722-15	error	root_mismatch	HEAD=0 DEPREL=advmod
 110114	726-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
-110239	726-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 112158	735-4	error	root_mismatch	HEAD=0 DEPREL=nsubj
-114171	745-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 114726	747-6	error	root_mismatch	HEAD=0 DEPREL=advmod
 115328	750-4	error	root_mismatch	HEAD=0 DEPREL=punct
-115750	751-15	error	root_mismatch	HEAD=0 DEPREL=advmod
-116079	753-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 116536	756-5	error	root_mismatch	HEAD=0 DEPREL=nsubj
 116572	756-7	error	root_mismatch	HEAD=0 DEPREL=nsubj
-117697	762-10	error	root_mismatch	HEAD=0 DEPREL=advmod
 118771	767-13	error	root_mismatch	HEAD=0 DEPREL=nsubj
-118980	769-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
 119433	770-18	error	root_mismatch	HEAD=0 DEPREL=obl
 120385	775-1	error	root_mismatch	HEAD=0 DEPREL=punct
-120438	775-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-120494	775-9	error	root_mismatch	HEAD=0 DEPREL=advmod
-120521	775-11	error	root_mismatch	HEAD=0 DEPREL=advmod
-120872	777-4	error	root_mismatch	HEAD=0 DEPREL=advmod
 121048	778-1	error	root_mismatch	HEAD=0 DEPREL=punct
 122122	782-1	error	root_mismatch	HEAD=0 DEPREL=punct
-123511	789-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-123605	789-8	error	root_mismatch	HEAD=0 DEPREL=advmod
 124002	791-2	error	root_mismatch	HEAD=0 DEPREL=punct
-125008	796-7	error	root_mismatch	HEAD=0 DEPREL=advmod
 125123	797-5	error	root_mismatch	HEAD=0 DEPREL=nsubj
-125194	798-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-125250	798-6	error	root_mismatch	HEAD=0 DEPREL=advmod
 125480	799-5	error	root_mismatch	HEAD=0 DEPREL=advmod
 125598	799-13	error	root_mismatch	HEAD=0 DEPREL=advmod
 128894	812-4	error	root_mismatch	HEAD=0 DEPREL=nmod
 129016	813-3	error	root_mismatch	HEAD=0 DEPREL=cc
 129552	818-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
 129565	818-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
-130069	822-7	error	root_mismatch	HEAD=0 DEPREL=advmod
 131502	832-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-131786	833-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-131852	834-5	error	root_mismatch	HEAD=0 DEPREL=advmod
 132838	840-1	error	root_mismatch	HEAD=0 DEPREL=punct
 134186	847-5	error	root_mismatch	HEAD=0 DEPREL=advmod
 134239	847-9	error	root_mismatch	HEAD=0 DEPREL=advmod
-134388	848-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 134422	848-3	error	root_mismatch	HEAD=0 DEPREL=nsubj
 135836	856-11	error	root_mismatch	HEAD=0 DEPREL=nsubj
-135988	857-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-136028	858-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-136153	859-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-136977	863-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-137014	863-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 137425	865-11	error	root_mismatch	HEAD=0 DEPREL=advmod
-137613	867-5	error	root_mismatch	HEAD=0 DEPREL=advmod
-137970	869-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-138297	870-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-141156	884-36	error	root_mismatch	HEAD=0 DEPREL=advmod
 141372	885-9	error	root_mismatch	HEAD=0 DEPREL=advmod
-141424	885-13	error	root_mismatch	HEAD=0 DEPREL=advmod
-141753	887-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 142148	888-8	error	root_mismatch	HEAD=0 DEPREL=nsubj
 143244	891-12	error	root_mismatch	HEAD=0 DEPREL=advmod
-144740	899-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-147069	910-6	error	root_mismatch	HEAD=0 DEPREL=advmod
-147872	914-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-148287	916-16	error	root_mismatch	HEAD=0 DEPREL=advmod
 148389	917-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-148630	917-24	error	root_mismatch	HEAD=0 DEPREL=advmod
-148660	917-27	error	root_mismatch	HEAD=0 DEPREL=advmod
-148774	918-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-149236	921-1	error	root_mismatch	HEAD=0 DEPREL=advmod
 149472	922-4	error	root_mismatch	HEAD=0 DEPREL=nsubj
-149569	922-11	error	root_mismatch	HEAD=0 DEPREL=advmod
-149651	922-18	error	root_mismatch	HEAD=0 DEPREL=advmod
-149783	922-28	error	root_mismatch	HEAD=0 DEPREL=advmod
-149916	923-8	error	root_mismatch	HEAD=0 DEPREL=advmod
-150402	925-9	error	root_mismatch	HEAD=0 DEPREL=obl
-150661	926-4	error	root_mismatch	HEAD=0 DEPREL=advmod
-152228	933-12	error	root_mismatch	HEAD=0 DEPREL=advmod
-153290	938-8	error	root_mismatch	HEAD=0 DEPREL=advmod
 153847	941-2	error	root_mismatch	HEAD=0 DEPREL=nsubj
-154066	942-3	error	root_mismatch	HEAD=0 DEPREL=advmod
 154256	943-6	error	root_mismatch	HEAD=0 DEPREL=nsubj
 154280	943-8	error	root_mismatch	HEAD=0 DEPREL=nsubj
-156163	953-10	error	root_mismatch	HEAD=0 DEPREL=advmod
-156503	955-1	error	root_mismatch	HEAD=0 DEPREL=advmod
-156637	955-12	error	root_mismatch	HEAD=0 DEPREL=advmod
 156683	956-1	error	root_mismatch	HEAD=0 DEPREL=punct
 157103	957-1	error	root_mismatch	HEAD=0 DEPREL=punct
-157483	959-9	error	root_mismatch	HEAD=0 DEPREL=advmod
 157734	960-11	error	root_mismatch	HEAD=0 DEPREL=advmod
 157933	961-9	error	root_mismatch	HEAD=0 DEPREL=nmod
 157975	961-12	error	root_mismatch	HEAD=0 DEPREL=cc
 158472	964-7	error	root_mismatch	HEAD=0 DEPREL=advmod
-159322	968-9	error	root_mismatch	HEAD=0 DEPREL=advmod
-159739	971-3	error	root_mismatch	HEAD=0 DEPREL=aux
-162163	983-21	error	root_mismatch	HEAD=0 DEPREL=advmod
 162246	984-7	error	root_mismatch	HEAD=0 DEPREL=advmod
 164768	dic_0657	error	root_mismatch	HEAD=0 DEPREL=punct
 164946	dic_0686	error	root_mismatch	HEAD=3 DEPREL=root
@@ -704,300 +524,15 @@ line	sent_id	severity	category	detail
 171175	dic_1319	error	text_form_mismatch	text='(v.re.fl.) akore uie tumagu .' | forms='akore uie tumagu .'
 171280	dic_1338	error	text_form_mismatch	text='ref) ukawo tugeragu boe ji .' | forms='ukawo tugeragu boe ji .'
 171324	dic_1348	error	text_form_mismatch	text='ref) umodukare tugeragu boe ji .' | forms='umodukare tugeragu boe ji .'
-44	boe_ero_01_04	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
 319	boe_ero_01_14-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-1613	boe_ero_02_13	error	token_ids_not_sequential	1 2 3 4 7 9 10 11 11 12 13 14 …
-6147	boe_ero_07_58	error	token_ids_not_sequential	1 2 3 3 4 5 6 7 8 3 9 10 …
-12481	49-8	error	token_ids_not_sequential	1 2 3 3
 14447	85-5	error	token_ids_not_sequential	1 1 2
-16610	115-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 10 11 11 12 …
-16960	120-2	error	token_ids_not_sequential	1 2 3 4 6 6 6
-17174	123-1	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13 14
-17978	130-2	error	token_ids_not_sequential	1 3 6 6 7 8 9 10
-18250	133-4	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11
-18610	136-6	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13 14 …
-18751	138-3	error	token_ids_not_sequential	1 2 3 4 5 6 6 6
-19229	142-11	error	token_ids_not_sequential	1 2 3 6 7 8 6
-19315	143-5	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13
-19621	145-10	error	token_ids_not_sequential	1 2 3 6 6 9 10 11 12 13 14 15 …
-20149	149-7	error	token_ids_not_sequential	1 4 5 6 6 9 11 12
-22363	165-3	error	token_ids_not_sequential	1 2 3 4 4 5
-24267	180-2	error	token_ids_not_sequential	1 2 3 4 5 6 6
-24308	180-5	error	token_ids_not_sequential	1 2 3 6 7 8 9 10 11 12 13 6
-24645	183-10	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 6
-24688	184-2	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 14 …
-24790	184-7	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 14 …
-25265	190-1	error	token_ids_not_sequential	1 2 3 8 5 6 7 8 9 10 11 12 …
-25485	192-10	error	token_ids_not_sequential	1 2 3 6 6 9 10 11 12 13
-25851	196-4	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11
-26089	198-7	error	token_ids_not_sequential	1 2 3 6 6 7
-26136	199-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 6 10
-26352	200-11	error	token_ids_not_sequential	1 2 3 6 5 6 7 8 9
-26386	201-1	error	token_ids_not_sequential	1 2 3 6 6 6
-26401	201-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 6 6 …
-27497	209-1	error	token_ids_not_sequential	1 2 3 6 6 6 6 7 6 11 12 13 …
-27623	210-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-27662	210-2	error	token_ids_not_sequential	1 2 3 6 6 6 6 7 8 9 10 11 …
-27691	210-3	error	token_ids_not_sequential	1 2 3 4 5 6 6 7 8
-29054	223-3	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12
-29401	226-3	error	token_ids_not_sequential	1 2 3 6 6 9
-29682	230-1	error	token_ids_not_sequential	1 2 3 12 5 6 7 8 9 10 11 12 …
-30023	237-4	error	token_ids_not_sequential	1 2 3 4 5 13 7 8 9 10 11 12 …
-30180	239-4	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-30233	239-5	error	token_ids_not_sequential	1 2 3 4 5 6 6
-30608	243-5	error	token_ids_not_sequential	1 2 3 6 6 7 8 9 10 11
-30726	244-4	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 6 6 …
-30941	247-3	error	token_ids_not_sequential	1 2 5 6 6 9 12 13
-31078	249-1	error	token_ids_not_sequential	1 2 3 9 5 6 7 8 9 10 11
-31111	250-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 11 12 13 14 …
-31512	257-15	error	token_ids_not_sequential	1 2 3 6 7 8 9 10 6
-31530	257-16	error	token_ids_not_sequential	1 2 3 9 5 6 7 8 9 10
-31607	258-4	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12
-31651	259-1	error	token_ids_not_sequential	1 2 3 6 6 6 6 7 8 9 10 11 …
-32226	265-3	error	token_ids_not_sequential	1 2 3 4 5 16 7 8 9 10 11 12 …
-32254	265-4	error	token_ids_not_sequential	1 2 3 6 5 6 7 8 9 10 11 12 …
-32349	267-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 6
-32645	268-13	error	token_ids_not_sequential	2 3 6 7 6
-32667	268-14	error	token_ids_not_sequential	1 6 5 6
-32862	270-4	error	token_ids_not_sequential	1 2 3 6 6
-32876	271-1	error	token_ids_not_sequential	1 2 3 4 5 6 6 6 6
-33413	276-2	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-33600	278-8	error	token_ids_not_sequential	11 2 3 4 5 6 7 8 9 10 11 12
-33919	285-6	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-33942	285-7	error	token_ids_not_sequential	1 2 3 6 6
-34496	293-2	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-34591	294-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 10 11
-35100	300-2	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12 …
-35269	301-5	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-35998	308-6	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12 …
-36222	310-1	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-37072	318-8	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11
-37147	319-5	error	token_ids_not_sequential	1 2 3 6 5 6 7 8 9 10 11 12
-37355	322-3	error	token_ids_not_sequential	1 2 3 4 5 10 10 8 9 10 11 12 …
-38087	331-3	error	token_ids_not_sequential	1 2 3 6 7 6
-38102	331-5	error	token_ids_not_sequential	1 2 3 6 7 6
-38132	331-9	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
 38162		error	token_ids_not_sequential	24 25 26 27 28 29 6
 38170		error	token_ids_not_sequential	33 34 35 36 37 38 6
 38178		error	token_ids_not_sequential	42 43 44 45 46 47 6
-38221	332-2	error	token_ids_not_sequential	1 6 3 6 5 6 7 8 9
-38313	334-1	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-39052	340-7	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 6
-39294	347-2	error	token_ids_not_sequential	1 2 3 4 7 6 11 6 15 18 19 20
-39337	348-3	error	token_ids_not_sequential	1 2 3 7 7 6 7 8 9 10
-40086	356-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 7 8 9 11 12 …
-40256	357-5	error	token_ids_not_sequential	1 6 4 5 6 7 8 9 10 11 12 13 …
-40336	358-3	error	token_ids_not_sequential	1 2 3 4 5 46 7 8 9 10 11 12 …
-40603	360-10	error	token_ids_not_sequential	1 2 3 4 5 15 7 8 9 10 11 12 …
-40795	362-2	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10
-40866	362-5	error	token_ids_not_sequential	1 2 3 6 6 10 11 12 13 14 15
-41024	364-7	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 6 15 6
-41081	364-10	error	token_ids_not_sequential	1 2 3 4 5 5 6
-41318	368-2	error	token_ids_not_sequential	1 2 3 6 6 10 11 12 13 14 15 16 …
-41700	373-13	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11
-42102	377-6	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 14 …
-42142	377-8	error	token_ids_not_sequential	1 6 5 6 7 8
-42404	379-6	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11
-42424	379-7	error	token_ids_not_sequential	1 6 6 7 8
-42802	382-2	error	token_ids_not_sequential	1 2 3 6 6 10 11
-43338	386-4	error	token_ids_not_sequential	1 6 5 9 10 11 12 6
-43356	387-1	error	token_ids_not_sequential	1 2 3 7 5 6 7 8
-43373	387-2	error	token_ids_not_sequential	1 2 3 6 5 6 7
-43389	387-3	error	token_ids_not_sequential	1 2 3 4 5 13 7 8 9 10 11 12 …
-43437	387-5	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12 …
-43957	391-7	error	token_ids_not_sequential	1 2 3 6 7 8 9 10 11 12 6
-44770	397-1	error	token_ids_not_sequential	1 2 3 4 5 16 16 8 9 10 11 12 …
-46089	405-10	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-46220	406-9	error	token_ids_not_sequential	1 4 5 6 7 8 6
-46953	411-9	error	token_ids_not_sequential	1 2 3 9 5 6 7 8 9 10 11
-47833	418-5	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 6
-48137	421-6	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-48306	423-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-48516	424-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 6 11 12 13 14
-49084	430-1	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12
-49118	430-3	error	token_ids_not_sequential	1 6 5 6 6 10 11
-49149	430-5	error	token_ids_not_sequential	1 6 5 6
-49212	430-11	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12 …
-49684	431-28	error	token_ids_not_sequential	1 2 3 11 5 6 7 8 9 10 11 12 …
-50108	433-12	error	token_ids_not_sequential	1 2 3 4 10 6 7 8 9 10 11 12 …
-50388	435-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 6 …
-50453	435-7	error	token_ids_not_sequential	1 2 3 8 5 6 7 8 9 10 11 12 …
-50727	437-1	error	token_ids_not_sequential	1 2 3 6 6 6 6 9 10 11 12 13 …
-51102	440-1	error	token_ids_not_sequential	1 2 3 17 5 6 7 8 9 10 11 12 …
-51130	440-2	error	token_ids_not_sequential	1 5 3 4 5 6 7 8 9 10 11 12 …
-51362	441-10	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-51438	442-2	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-52953	451-25	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12
-53046	451-34	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 10
-53159	452-8	error	token_ids_not_sequential	1 4 5 6 7 6 6 6
-53390	453-6	error	token_ids_not_sequential	1 2 3 4 5 8 9 10 11 12 13 14 …
-53986	455-13	error	token_ids_not_sequential	1 2 3 6 6 7 8 9 10 11 12 13 …
-54078	456-3	error	token_ids_not_sequential	1 2 3 4 5 6 6 9
-54122	456-6	error	token_ids_not_sequential	1 2 3 4 5 15 7 8 9 10 11 12 …
-54436	458-5	error	token_ids_not_sequential	1 2 3 4 5 6 6
-54592	458-19	error	token_ids_not_sequential	1 2 2
-54706	459-7	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 6
-54725	459-8	error	token_ids_not_sequential	1 2 3 6 7 8 6
-55496	464-3	error	token_ids_not_sequential	1 2 3 4 6 6 6
-55613	464-13	error	token_ids_not_sequential	2 3 4 5 6 7 8 9 10 10 11 12 …
-55735	465-6	error	token_ids_not_sequential	1 2 3 6 7 8 9 10 11 6
-56705	469-7	error	token_ids_not_sequential	1 12 3 12 5 6 7 8 9 10 11 12 …
-56919	469-21	error	token_ids_not_sequential	1 2 3 4 5 6 6
-58437	479-15	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-58926	482-12	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 6
-58980	482-15	error	token_ids_not_sequential	1 2 6 5 6 6 10 11 12 13 14 15 …
-59062	483-6	error	token_ids_not_sequential	1 2 3 4 5 6 7 6 10 13 14 15 …
-59442	484-11	error	token_ids_not_sequential	1 2 3 6 7 6 10 11 12 13 14 15
-59463	484-12	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-60326	489-3	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 6
-60346	489-4	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-60550	490-9	error	token_ids_not_sequential	1 4 5 6 7 8 10 11 11
-60822	491-9	error	token_ids_not_sequential	1 2 3 6 6 9 10 11 12 13 14 15 …
 60980	492-11	error	token_ids_not_sequential	1 6 6 6
-61634	495-9	error	token_ids_not_sequential	1 2 3 6 5 6 7 8 9 10
-62581	498-17	error	token_ids_not_sequential	1 2 3 4 5 6 7 6
-64222	506-1	error	token_ids_not_sequential	1 2 3 4 6 6 6
-64334	506-10	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 6
-65454	510-10	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-66368	515-1	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 14
-66389	515-2	error	token_ids_not_sequential	1 6 3 6 5 6 7 8 9 10 11 12 …
 66909	518-3	error	token_ids_not_sequential	1 2 3 4 5 5
-67325	519-17	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13
-67468	520-5	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 6 6 6
-67789	522-6	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 11 6
-68330	526-6	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12
-68681	527-8	error	token_ids_not_sequential	1 6 5 6 7 8 9
-69453	532-8	error	token_ids_not_sequential	1 2 3 4 5 6 6
-69469	532-9	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11
-69903	535-3	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13
-70163	536-16	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-70243	536-22	error	token_ids_not_sequential	1 4 5 6 7 8 9 10 10
-70626	538-4	error	token_ids_not_sequential	1 4 6 6 6
-71062	539-9	error	token_ids_not_sequential	1 2 2 5 6 7 8
-71171	540-5	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 12 6
-71191	540-6	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9
-71556	542-5	error	token_ids_not_sequential	1 2 3 4 33 6 7 8 9 10 11 12 …
-72835	550-10	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13 14 …
-73706	553-20	error	token_ids_not_sequential	1 2 3 4 4 5 6 8 9 11 12 14 …
-74682	558-12	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12
-75556	562-7	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12
-75575	562-8	error	token_ids_not_sequential	1 6 5 6
-75713	563-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 10 11 11
-75733	563-3	error	token_ids_not_sequential	1 2 3 4 5 16 7 8 9 10 11 12 …
-76129	565-5	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-77012	569-4	error	token_ids_not_sequential	1 2 5 6 6
-77860	572-10	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11
-78169	573-4	error	token_ids_not_sequential	1 6 5 6
-78273	573-11	error	token_ids_not_sequential	1 2 3 6 7 8 9 6
-78634	575-2	error	token_ids_not_sequential	1 2 3 8 5 6 7 8 9
-78809	575-14	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9
-79313	577-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 6
-79386	577-7	error	token_ids_not_sequential	1 2 3 4 5 6 6
-80053	582-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 9 10 11 …
-80534	585-14	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 6
-83187	597-14	error	token_ids_not_sequential	1 2 3 7 5 6 7 8 9
-84349	602-4	error	token_ids_not_sequential	1 2 6 5 6
-84781	603-13	error	token_ids_not_sequential	1 2 3 4 5 6 7 7 8
-85043	605-3	error	token_ids_not_sequential	1 4 5 6 7 7 8 9 10 11 12 14 …
-85230	605-16	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12 …
-85424	606-12	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 14 …
-86489	611-7	error	token_ids_not_sequential	1 2 3 4 5 16 7 8 9 10 11 12 …
-86704	612-14	error	token_ids_not_sequential	1 2 6 5 6 7
-87146	615-11	error	token_ids_not_sequential	1 2 3 4 5 6 7 6
-87315	616-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 6
-88295	619-23	error	token_ids_not_sequential	1 2 3 8 5 6 7 8 9 10 11 12 …
-88897	622-16	error	token_ids_not_sequential	1 6 4 5 6 7 8 9 10 11 12 13 …
-89166	624-5	error	token_ids_not_sequential	1 2 3 6 6 10 11
-89538	625-17	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 6
-90513	631-6	error	token_ids_not_sequential	1 2 5 6 7 6
-90892	633-5	error	token_ids_not_sequential	1 2 3 4 5 6 6
-92661	642-5	error	token_ids_not_sequential	1 2 3 6 6 9 10
-94170	649-9	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12
-95014	653-20	error	token_ids_not_sequential	1 2 2 3 4 5 6 7 8 9 10 11 …
-95186	654-12	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12 …
-95423	655-15	error	token_ids_not_sequential	1 2 3 3 4
-95965	658-2	error	token_ids_not_sequential	1 4 5 6 6 9 10 11 12 13 14
-96038	658-6	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-96410	660-3	error	token_ids_not_sequential	1 2 2
-96657	661-7	error	token_ids_not_sequential	1 2 3 3 4 5 6 7 8
-96701	661-10	error	token_ids_not_sequential	1 2 3 4 5 6 6 7 8 10 11 12 …
-98446	670-1	error	token_ids_not_sequential	1 6 5 6
-98566	670-9	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-98966	672-13	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11
-99984	676-9	error	token_ids_not_sequential	1 6 5 6 7 8 9 10
-100684	679-14	error	token_ids_not_sequential	1 2 3 4 7 8 9 9
-101646	683-17	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-105104	701-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 6
-105629	703-4	error	token_ids_not_sequential	1 6 5 6 7
-108671	718-4	error	token_ids_not_sequential	1 2 3 4 5 5 6 7 8 9 10 11 …
-109720	724-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 6
-110745	729-6	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13 14
-112005	734-3	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12
-112337	735-16	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12
-113209	739-8	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13
-113747	742-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-114912	748-2	error	token_ids_not_sequential	1 6 5 6 7 8 9 10 11 12 13 14
-114994	748-8	error	token_ids_not_sequential	1 2 3 6 6 6
-115211	749-9	error	token_ids_not_sequential	1 2 3 6 6 9 10
-120726	776-3	error	token_ids_not_sequential	1 2 3 4 5 6 6
-122063	781-17	error	token_ids_not_sequential	1 2 3 4 5 15 7 8 9 10 11 12 …
-122389	783-3	error	token_ids_not_sequential	1 2 6 7 8 9 10 11 12 12 13
-122775	785-8	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-122820	785-11	error	token_ids_not_sequential	1 2 3 4 5 6 7 6 10 11 12 13 …
-122891	786-3	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-122931	786-5	error	token_ids_not_sequential	1 2 3 6 7 8 9 10 11 6
-124019	791-4	error	token_ids_not_sequential	1 2 3 4 5 6 6 9 10 11 12 13 …
-124645	794-8	error	token_ids_not_sequential	1 6 4 5 6 7 8
-125864	800-2	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-127535	807-4	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 6 6 6
-127610	807-8	error	token_ids_not_sequential	1 2 6 6 6 5 6 7 8 9 10 11 …
-127633	807-9	error	token_ids_not_sequential	1 2 3 4 5 6 7 6
-129767	820-5	error	token_ids_not_sequential	1 6 5 6
-129885	821-1	error	token_ids_not_sequential	1 6 5 6 7
-132106	835-14	error	token_ids_not_sequential	1 2 3 4 5 6 6 7 8 9 10 11 …
-132317	837-7	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-133949	846-5	error	token_ids_not_sequential	1 2 3 4 5 6 6 7
-134189	847-6	error	token_ids_not_sequential	1 2 3 6 5 6 7 8
-135458	855-2	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13
-135864	856-14	error	token_ids_not_sequential	1 4 5 6 7 7
-135991	857-8	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10
-136293	859-12	error	token_ids_not_sequential	1 2 6 5 6 9 10 11 12
-137296	864-12	error	token_ids_not_sequential	1 2 3 6 7 8 9 6
-139460	879-2	error	token_ids_not_sequential	1 4 5 6 7 6 10 13 14
-141427	885-14	error	token_ids_not_sequential	1 2 3 4 5 9 7 8 9 10 11 12
-143051	890-24	error	token_ids_not_sequential	1 2 3 6 6 9 10 11 12 13 14 15 …
-144195	896-11	error	token_ids_not_sequential	1 2 3 4 5 6 6 10 11 12 13 16 …
-144920	899-13	error	token_ids_not_sequential	1 2 3 4 6 6 6
-145390	903-1	error	token_ids_not_sequential	1 2 3 6 6 6
-145613	903-18	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12
-145988	905-8	error	token_ids_not_sequential	1 6 5 6 6
-146047	906-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 10 11 12 13 …
-147531	913-1	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 10 11 11 12
-149919	923-9	error	token_ids_not_sequential	1 2 3 4 5 6 7 6 11 12 13 14
-150073	924-2	error	token_ids_not_sequential	1 2 3 6 5 6 7 8 9 10
-150454	925-13	error	token_ids_not_sequential	1 2 3 4 4 5 7 8 9 10
-150769	926-15	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12
-151535	929-17	error	token_ids_not_sequential	1 2 3 4 5 10 7 8 9 10 11 12 …
-154001	941-15	error	token_ids_not_sequential	2 3 4 5 6 7 8 6
-154433	944-2	error	token_ids_not_sequential	1 2 3 4 8 8 7 8 9 10 11 12
-154454	944-3	error	token_ids_not_sequential	1 6 5 9 6
-154748	945-6	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12 …
-154982	946-12	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 11 12 …
-156440	954-13	error	token_ids_not_sequential	1 6 5 6 7 8
-157324	958-5	error	token_ids_not_sequential	1 2 3 4 5 6 6 7 8 9 10
-159027	967-5	error	token_ids_not_sequential	1 2 3 4 5 11 7 8 9 10 11 12 …
-159133	967-11	error	token_ids_not_sequential	1 6 5 6 7 8 9 10
-159146	967-12	error	token_ids_not_sequential	1 2 3 4 5 7 8 7
-159555	970-8	error	token_ids_not_sequential	1 2 3 7 5 6 7 8 9 10
-160146	973-8	error	token_ids_not_sequential	1 2 3 4 5 8 7 8 9 10 11 12
-160998	977-6	error	token_ids_not_sequential	1 4 5 6 6 6
-161055	977-10	error	token_ids_not_sequential	1 4 5 6 6 6
 164136	dic_0557	error	token_ids_not_sequential	1 2 3 4 5 5 6
-164215	dic_0579	error	token_ids_not_sequential	1 2 3 4 5 6 7 8 9 10 10 11
-164553	dic_0628	error	token_ids_not_sequential	1 2 3 4 4
-167320	dic_1273	error	token_ids_not_sequential	1 2 3 4 5 5 6 7
 981	boe_ero_01_34	error	upos_missing	'_'
-1238	boe_ero_01_40	error	upos_missing	'_'
 1239	boe_ero_01_40	error	upos_missing	'_'
 1240	boe_ero_01_40	error	upos_missing	'_'
 1246	boe_ero_01_40	error	upos_missing	'_'
@@ -1008,10 +543,8 @@ line	sent_id	severity	category	detail
 1255	boe_ero_01_40	error	upos_missing	'_'
 1257	boe_ero_01_40	error	upos_missing	'_'
 1259	boe_ero_01_40	error	upos_missing	'_'
-1260	boe_ero_01_40	error	upos_missing	'_'
 1807	boe_ero_02_21	error	upos_missing	'_'
 2164	boe_ero_02_34	error	upos_missing	'_'
-2167	boe_ero_02_34	error	upos_missing	'_'
 2170	boe_ero_02_34	error	upos_missing	'_'
 2171	boe_ero_02_34	error	upos_missing	'_'
 2272	boe_ero_02_38	error	upos_missing	'_'
@@ -1043,46 +576,31 @@ line	sent_id	severity	category	detail
 2513	boe_ero_03_01	error	upos_missing	'_'
 2515	boe_ero_03_01	error	upos_missing	'_'
 3618	boe_ero_04_09	error	upos_missing	'_'
-3619	boe_ero_04_09	error	upos_missing	'_'
 3620	boe_ero_04_09	error	upos_missing	'_'
 3622	boe_ero_04_09	error	upos_missing	'_'
 3623	boe_ero_04_09	error	upos_missing	'_'
 3625	boe_ero_04_09	error	upos_missing	'_'
 3626	boe_ero_04_09	error	upos_missing	'_'
-3627	boe_ero_04_09	error	upos_missing	'_'
-3629	boe_ero_04_09	error	upos_missing	'_'
-3630	boe_ero_04_09	error	upos_missing	'_'
 3631	boe_ero_04_09	error	upos_missing	'_'
 3632	boe_ero_04_09	error	upos_missing	'_'
-3634	boe_ero_04_09	error	upos_missing	'_'
 3635	boe_ero_04_09	error	upos_missing	'_'
-3636	boe_ero_04_09	error	upos_missing	'_'
 3638	boe_ero_04_09	error	upos_missing	'_'
 3639	boe_ero_04_09	error	upos_missing	'_'
 3642	boe_ero_04_09	error	upos_missing	'_'
-3643	boe_ero_04_09	error	upos_missing	'_'
-3648	boe_ero_04_09	error	upos_missing	'_'
-3650	boe_ero_04_09	error	upos_missing	'_'
-3651	boe_ero_04_09	error	upos_missing	'_'
 3653	boe_ero_04_09	error	upos_missing	'_'
 3654	boe_ero_04_09	error	upos_missing	'_'
 3656	boe_ero_04_09	error	upos_missing	'_'
 3658	boe_ero_04_09	error	upos_missing	'_'
 3659	boe_ero_04_09	error	upos_missing	'_'
 3661	boe_ero_04_09	error	upos_missing	'_'
-3663	boe_ero_04_09	error	upos_missing	'_'
 3664	boe_ero_04_09	error	upos_missing	'_'
 3666	boe_ero_04_09	error	upos_missing	'_'
 3668	boe_ero_04_09	error	upos_missing	'_'
 3669	boe_ero_04_09	error	upos_missing	'_'
 3671	boe_ero_04_09	error	upos_missing	'_'
-3675	boe_ero_04_09	error	upos_missing	'_'
 3679	boe_ero_04_09	error	upos_missing	'_'
-3680	boe_ero_04_09	error	upos_missing	'_'
-3681	boe_ero_04_09	error	upos_missing	'_'
 3685	boe_ero_04_09	error	upos_missing	'_'
 3688	boe_ero_04_09	error	upos_missing	'_'
-19853	146-15	error	upos_missing	'_'
 25283	190-1	error	upos_missing	'_'
 26363	200-11	error	upos_missing	'_'
 26983	204-12#2	error	upos_missing	'_'
@@ -1103,7 +621,6 @@ line	sent_id	severity	category	detail
 30306	240-1	error	upos_missing	'_'
 30310	240-1	error	upos_missing	'_'
 30311	240-1	error	upos_missing	'_'
-30314	240-1	error	upos_missing	'_'
 30315	240-1	error	upos_missing	'_'
 30322	240-1#2	error	upos_missing	'_'
 30323	240-1#2	error	upos_missing	'_'
@@ -1111,7 +628,6 @@ line	sent_id	severity	category	detail
 30325	240-1#2	error	upos_missing	'_'
 30326	240-1#2	error	upos_missing	'_'
 30327	240-1#2	error	upos_missing	'_'
-31624	258-4	error	upos_missing	'_'
 32250	265-3	error	upos_missing	'_'
 32268	265-4	error	upos_missing	'_'
 32269	265-4	error	upos_missing	'_'
@@ -1124,7 +640,6 @@ line	sent_id	severity	category	detail
 32278	265-4	error	upos_missing	'_'
 32279	265-4	error	upos_missing	'_'
 32280	265-4	error	upos_missing	'_'
-32281	265-4	error	upos_missing	'_'
 32282	265-4	error	upos_missing	'_'
 32662	268-13#2	error	upos_missing	'_'
 32663	268-13#2	error	upos_missing	'_'
@@ -1157,7 +672,6 @@ line	sent_id	severity	category	detail
 34343	291-1#7	error	upos_missing	'_'
 34344	291-1#7	error	upos_missing	'_'
 34350	291-1#8	error	upos_missing	'_'
-34396	291-4	error	upos_missing	'_'
 34397	291-4	error	upos_missing	'_'
 34404	291-4#2	error	upos_missing	'_'
 34410	291-4#3	error	upos_missing	'_'
@@ -1170,7 +684,6 @@ line	sent_id	severity	category	detail
 34522	293-2	error	upos_missing	'_'
 34523	293-2	error	upos_missing	'_'
 34524	293-2	error	upos_missing	'_'
-34526	293-2	error	upos_missing	'_'
 34531	293-2	error	upos_missing	'_'
 34532	293-2	error	upos_missing	'_'
 34533	293-2	error	upos_missing	'_'
@@ -1191,21 +704,17 @@ line	sent_id	severity	category	detail
 35295	301-5	error	upos_missing	'_'
 36020	308-6	error	upos_missing	'_'
 36021	308-6	error	upos_missing	'_'
-36028	308-6#2	error	upos_missing	'_'
 36032	308-6#2	error	upos_missing	'_'
 36243	310-1	error	upos_missing	'_'
 36248	310-1	error	upos_missing	'_'
 37089	318-8	error	upos_missing	'_'
 37159	319-5	error	upos_missing	'_'
-37376	322-3	error	upos_missing	'_'
-37381	322-3	error	upos_missing	'_'
 38163		error	upos_missing	'_'
 38171		error	upos_missing	'_'
 38173		error	upos_missing	'_'
 38179		error	upos_missing	'_'
 38181		error	upos_missing	'_'
 38195	331-9#2	error	upos_missing	'_'
-38199	331-9#2	error	upos_missing	'_'
 38201	331-9#2	error	upos_missing	'_'
 38330	334-1	error	upos_missing	'_'
 38331	334-1	error	upos_missing	'_'
@@ -1220,14 +729,11 @@ line	sent_id	severity	category	detail
 43456	387-5	error	upos_missing	'_'
 43460	387-5	error	upos_missing	'_'
 46970	411-9	error	upos_missing	'_'
-49233	430-11	error	upos_missing	'_'
 49235	430-11	error	upos_missing	'_'
 49703	431-28	error	upos_missing	'_'
 50126	433-12	error	upos_missing	'_'
 50127	433-12	error	upos_missing	'_'
-50129	433-12	error	upos_missing	'_'
 50130	433-12	error	upos_missing	'_'
-50132	433-12	error	upos_missing	'_'
 50135	433-12	error	upos_missing	'_'
 50136	433-12	error	upos_missing	'_'
 50473	435-7	error	upos_missing	'_'
@@ -1243,7 +749,6 @@ line	sent_id	severity	category	detail
 51151	440-2	error	upos_missing	'_'
 51162	440-2#2	error	upos_missing	'_'
 51163	440-2#2	error	upos_missing	'_'
-51379	441-10	error	upos_missing	'_'
 51380	441-10	error	upos_missing	'_'
 51383	441-10	error	upos_missing	'_'
 51386	441-10	error	upos_missing	'_'
@@ -1251,9 +756,7 @@ line	sent_id	severity	category	detail
 51391	441-10	error	upos_missing	'_'
 51396	441-10	error	upos_missing	'_'
 51456	442-2	error	upos_missing	'_'
-51457	442-2	error	upos_missing	'_'
 51458	442-2	error	upos_missing	'_'
-52675	451-7	error	upos_missing	'_'
 52971	451-25	error	upos_missing	'_'
 53524	453-15	error	upos_missing	'_'
 55675	464-18	error	upos_missing	'_'
@@ -1263,17 +766,14 @@ line	sent_id	severity	category	detail
 61646	495-9	error	upos_missing	'_'
 65470	510-10	error	upos_missing	'_'
 65473	510-10	error	upos_missing	'_'
-66399	515-2	error	upos_missing	'_'
 66402	515-2	error	upos_missing	'_'
 66403	515-2	error	upos_missing	'_'
 68346	526-6	error	upos_missing	'_'
 68348	526-6	error	upos_missing	'_'
 69485	532-9	error	upos_missing	'_'
-70182	536-16	error	upos_missing	'_'
 73442	552-12	error	upos_missing	'_'
 73980	555-7	error	upos_missing	'_'
 73982	555-7	error	upos_missing	'_'
-75759	563-3	error	upos_missing	'_'
 76145	565-5	error	upos_missing	'_'
 76146	565-5	error	upos_missing	'_'
 76148	565-5	error	upos_missing	'_'
@@ -1286,7 +786,6 @@ line	sent_id	severity	category	detail
 83376	598-11	error	upos_missing	'_'
 85249	605-16	error	upos_missing	'_'
 86513	611-7	error	upos_missing	'_'
-88312	619-23	error	upos_missing	'_'
 88314	619-23	error	upos_missing	'_'
 88315	619-23	error	upos_missing	'_'
 88317	619-23	error	upos_missing	'_'
@@ -1303,18 +802,14 @@ line	sent_id	severity	category	detail
 101676	683-17	error	upos_missing	'_'
 101680	683-17	error	upos_missing	'_'
 106002	705-5	error	upos_missing	'_'
-112022	734-3	error	upos_missing	'_'
 115100	748-14	error	upos_missing	'_'
 118225	764-13	error	upos_missing	'_'
 118227	764-13	error	upos_missing	'_'
 118228	764-13	error	upos_missing	'_'
-118230	764-13	error	upos_missing	'_'
-122087	781-17	error	upos_missing	'_'
 122088	781-17	error	upos_missing	'_'
 122792	785-8	error	upos_missing	'_'
 132287	837-4	error	upos_missing	'_'
 132790	839-14	error	upos_missing	'_'
-132791	839-14	error	upos_missing	'_'
 132792	839-14	error	upos_missing	'_'
 134203	847-6	error	upos_missing	'_'
 136003	857-8	error	upos_missing	'_'
@@ -1336,7 +831,6 @@ line	sent_id	severity	category	detail
 154762	945-6	error	upos_missing	'_'
 154763	945-6	error	upos_missing	'_'
 154765	945-6	error	upos_missing	'_'
-159049	967-5	error	upos_missing	'_'
 159051	967-5	error	upos_missing	'_'
 30302	240-1	error	upos_not_ud	'dukeje'
 94825	652-15	error	upos_not_ud	'reo'

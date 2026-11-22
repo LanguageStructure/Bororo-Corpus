@@ -1,5 +1,4 @@
 sent_id	line	group	automatic	full_syntax	errors
-boe_ero_01_04	44	boe_ero	yes	no	token_ids_not_sequential
 boe_ero_01_14-2	319	boe_ero	no	no	token_ids_not_sequential
 boe_ero_01_15	347	boe_ero	no	yes	text_form_mismatch
 boe_ero_01_34	963	boe_ero	yes	no	upos_missing
@@ -7,7 +6,7 @@ boe_ero_01_38	1120	boe_ero	yes	yes	text_form_mismatch
 boe_ero_01_40	1228	boe_ero	yes	no	upos_missing
 boe_ero_02_02	1402	boe_ero	no	no	
 boe_ero_02_10	1564	boe_ero	no	yes	text_form_mismatch
-boe_ero_02_13	1613	boe_ero	yes	no	token_ids_not_sequential
+boe_ero_02_13	1613	boe_ero	yes	no	
 boe_ero_02_15	1662	boe_ero	yes	no	text_form_mismatch
 boe_ero_02_21	1797	boe_ero	yes	no	upos_missing
 boe_ero_02_22	1813	boe_ero	yes	yes	root_mismatch
@@ -25,7 +24,7 @@ boe_ero_04_11	3726	boe_ero	yes	yes	private_use_character
 boe_ero_04_19	3947	boe_ero	yes	no	private_use_character,text_form_mismatch
 boe_ero_07_11	5029	boe_ero	yes	yes	private_use_character
 boe_ero_07_31	5536	boe_ero	yes	no	text_form_mismatch
-boe_ero_07_58	6147	boe_ero	yes	no	token_ids_not_sequential
+boe_ero_07_58	6147	boe_ero	yes	no	
 boe_ero_07_60	6195	boe_ero	yes	yes	private_use_character
 boe_ero_07_69	6360	boe_ero	yes	yes	root_mismatch
 boe_ero_08_09	6487	boe_ero	yes	no	
@@ -44,25 +43,17 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 4-5	10240	numérico (NNN-N)	yes	yes	cycle
 6-3	10386	numérico (NNN-N)	no	yes	feat_malformed
 11-6	10607	numérico (NNN-N)	no	yes	root_mismatch
-13-2	10655	numérico (NNN-N)	yes	yes	root_mismatch
-13-4	10694	numérico (NNN-N)	no	yes	root_mismatch
 19-3	11064	numérico (NNN-N)	no	yes	cycle
 23-2	11189	numérico (NNN-N)	no	yes	text_form_mismatch
-36-2	11838	numérico (NNN-N)	no	yes	root_mismatch
 37-6	11918	numérico (NNN-N)	no	yes	text_form_mismatch
-39-1	11998	numérico (NNN-N)	no	yes	root_mismatch
 40-2	12017	numérico (NNN-N)	yes	yes	root_mismatch
 40-8	12065	numérico (NNN-N)	no	no	
 42-1	12127	numérico (NNN-N)	no	yes	root_mismatch
 42-2	12141	numérico (NNN-N)	no	yes	root_mismatch
-43-5	12185	numérico (NNN-N)	yes	yes	root_mismatch
 44-1	12202	numérico (NNN-N)	no	yes	cycle
-44-2	12210	numérico (NNN-N)	no	yes	root_mismatch
 44-5	12237	numérico (NNN-N)	no	yes	cycle
 47-1	12369	numérico (NNN-N)	no	no	root_mismatch
-48-1	12420	numérico (NNN-N)	no	yes	root_mismatch
 49-4	12454	numérico (NNN-N)	no	yes	root_mismatch
-49-8	12481	numérico (NNN-N)	no	yes	token_ids_not_sequential
 51-1	12526	numérico (NNN-N)	no	yes	cycle
 51-3	12545	numérico (NNN-N)	no	yes	text_form_mismatch
 52-4	12632	numérico (NNN-N)	yes	yes	root_mismatch
@@ -79,33 +70,22 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 61-8	13161	numérico (NNN-N)	no	yes	cycle
 67-1	13429	numérico (NNN-N)	no	yes	root_mismatch
 68-4	13535	numérico (NNN-N)	no	yes	root_mismatch
-68-6	13562	numérico (NNN-N)	yes	yes	root_mismatch
-70-1	13628	numérico (NNN-N)	yes	yes	root_mismatch
-71-3	13679	numérico (NNN-N)	yes	yes	root_mismatch
-75-4	13886	numérico (NNN-N)	no	yes	root_mismatch
 75-11	13908	numérico (NNN-N)	yes	yes	root_mismatch
 83-2	14341	numérico (NNN-N)	no	yes	root_mismatch
-84-1#2	14377	numérico (NNN-N)	yes	yes	root_mismatch
 85-5	14447	numérico (NNN-N)	no	yes	cycle,token_ids_not_sequential
 90-2	14700	numérico (NNN-N)	no	yes	root_mismatch
 90-9	14788	numérico (NNN-N)	no	yes	cycle
-92-4	14903	numérico (NNN-N)	yes	yes	root_mismatch
 92-5	14917	numérico (NNN-N)	no	yes	root_mismatch
 92-6	14928	numérico (NNN-N)	yes	yes	root_mismatch
 93-2	14971	numérico (NNN-N)	yes	yes	root_mismatch
-93-4	14998	numérico (NNN-N)	yes	yes	root_mismatch
 96-1	15139	numérico (NNN-N)	no	yes	root_mismatch
 96-6	15171	numérico (NNN-N)	no	yes	text_form_mismatch
 97-3	15195	numérico (NNN-N)	yes	yes	text_form_mismatch
-98-4	15255	numérico (NNN-N)	yes	yes	root_mismatch
-98-6	15268	numérico (NNN-N)	yes	yes	root_mismatch
 100-1	15355	numérico (NNN-N)	yes	yes	root_mismatch
 100-2	15379	numérico (NNN-N)	no	yes	cycle
 101-1	15387	numérico (NNN-N)	yes	yes	text_form_mismatch
 101-7	15499	numérico (NNN-N)	yes	yes	bad_token_id,root_count,root_mismatch,text_form_mismatch
 102-2	15531	numérico (NNN-N)	yes	yes	text_form_mismatch
-102-3	15559	numérico (NNN-N)	yes	yes	root_mismatch
-102-4	15570	numérico (NNN-N)	yes	yes	root_mismatch
 103-5	15651	numérico (NNN-N)	yes	yes	root_mismatch
 103-7	15689	numérico (NNN-N)	yes	yes	text_form_mismatch
 104-3	15733	numérico (NNN-N)	yes	yes	text_form_mismatch
@@ -116,43 +96,39 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 109-4	16101	numérico (NNN-N)	no	yes	text_form_mismatch
 110-2	16136	numérico (NNN-N)	yes	yes	root_mismatch
 111-4	16264	numérico (NNN-N)	no	yes	cycle
-111-8	16292	numérico (NNN-N)	yes	yes	root_mismatch
 111-9	16303	numérico (NNN-N)	yes	no	root_mismatch
 113-1	16400	numérico (NNN-N)	yes	yes	text_form_mismatch
 113-2	16415	numérico (NNN-N)	yes	yes	text_form_mismatch
-115-3	16610	numérico (NNN-N)	yes	no	token_ids_not_sequential
-120-2	16960	numérico (NNN-N)	yes	no	token_ids_not_sequential
+115-3	16610	numérico (NNN-N)	yes	no	
+120-2	16960	numérico (NNN-N)	yes	no	
 122-1	17050	numérico (NNN-N)	no	yes	deprel_not_ud
 122-3	17068	numérico (NNN-N)	no	yes	text_form_mismatch
-123-1	17174	numérico (NNN-N)	yes	no	token_ids_not_sequential
+123-1	17174	numérico (NNN-N)	yes	no	
 123-2	17195	numérico (NNN-N)	no	no	
-127-4	17663	numérico (NNN-N)	yes	yes	root_mismatch
-128-6	17798	numérico (NNN-N)	yes	yes	root_mismatch
-130-2	17978	numérico (NNN-N)	yes	no	token_ids_not_sequential
-131-7	18082	numérico (NNN-N)	no	yes	root_mismatch
-133-4	18250	numérico (NNN-N)	yes	no	token_ids_not_sequential
+130-2	17978	numérico (NNN-N)	yes	no	
+133-4	18250	numérico (NNN-N)	yes	no	
 134-2	18384	numérico (NNN-N)	yes	yes	text_form_mismatch
 135-3	18466	numérico (NNN-N)	yes	no	
 136-2	18545	numérico (NNN-N)	yes	yes	text_form_mismatch
-136-6	18610	numérico (NNN-N)	yes	no	token_ids_not_sequential
+136-6	18610	numérico (NNN-N)	yes	no	
 136-7	18633	numérico (NNN-N)	no	no	bad_token_id
 137-1	18644	numérico (NNN-N)	yes	yes	text_form_mismatch
 137-3	18680	numérico (NNN-N)	yes	yes	text_form_mismatch
-137-4	18693	numérico (NNN-N)	yes	yes	root_mismatch,text_form_mismatch
-138-3	18751	numérico (NNN-N)	yes	no	token_ids_not_sequential
+137-4	18693	numérico (NNN-N)	yes	yes	text_form_mismatch
+138-3	18751	numérico (NNN-N)	yes	no	
 139-3	18862	numérico (NNN-N)	yes	yes	text_form_mismatch
 140-8	19020	numérico (NNN-N)	no	no	
-142-11	19229	numérico (NNN-N)	yes	no	token_ids_not_sequential
-143-5	19315	numérico (NNN-N)	yes	no	token_ids_not_sequential
+142-11	19229	numérico (NNN-N)	yes	no	
+143-5	19315	numérico (NNN-N)	yes	no	
 144-7	19524	numérico (NNN-N)	no	no	
 145-4	19590	numérico (NNN-N)	yes	no	bad_token_id
 145-9	19605	numérico (NNN-N)	yes	no	
-145-10	19621	numérico (NNN-N)	yes	no	token_ids_not_sequential
+145-10	19621	numérico (NNN-N)	yes	no	
 146-7	19722	numérico (NNN-N)	yes	yes	root_mismatch
 146-8	19738	numérico (NNN-N)	yes	no	
-146-15	19838	numérico (NNN-N)	yes	no	upos_missing
+146-15	19838	numérico (NNN-N)	yes	no	
 149-4	20109	numérico (NNN-N)	yes	yes	root_mismatch
-149-7	20149	numérico (NNN-N)	yes	no	token_ids_not_sequential
+149-7	20149	numérico (NNN-N)	yes	no	
 149-12	20214	numérico (NNN-N)	yes	yes	text_form_mismatch
 151-10	20517	numérico (NNN-N)	yes	no	
 152-9	20725	numérico (NNN-N)	no	yes	feat_malformed
@@ -160,124 +136,112 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 154-4	20902	numérico (NNN-N)	no	yes	text_form_mismatch
 154-5	20912	numérico (NNN-N)	yes	yes	text_form_mismatch
 154-7	20925	numérico (NNN-N)	yes	yes	text_form_mismatch
-154-9	20952	numérico (NNN-N)	yes	yes	root_mismatch
 159-7	21406	numérico (NNN-N)	yes	yes	root_mismatch
 162-5	21694	numérico (NNN-N)	yes	yes	feat_malformed
-165-3	22363	numérico (NNN-N)	no	yes	token_ids_not_sequential
 167-7	22683	numérico (NNN-N)	yes	no	
-168-7	22805	numérico (NNN-N)	yes	yes	root_mismatch
 169-3	22834	numérico (NNN-N)	yes	no	
-173-11	23582	numérico (NNN-N)	yes	yes	root_mismatch
 174-2	23604	numérico (NNN-N)	yes	no	
-177-2	23912	numérico (NNN-N)	yes	yes	root_mismatch
 177-3	23924	numérico (NNN-N)	yes	yes	text_form_mismatch
 178-3	24058	numérico (NNN-N)	yes	no	
 180-1	24249	numérico (NNN-N)	yes	no	
-180-2	24267	numérico (NNN-N)	yes	no	token_ids_not_sequential
-180-5	24308	numérico (NNN-N)	yes	no	token_ids_not_sequential
+180-2	24267	numérico (NNN-N)	yes	no	
+180-5	24308	numérico (NNN-N)	yes	no	
 181-1	24335	numérico (NNN-N)	yes	no	
-181-4	24382	numérico (NNN-N)	yes	yes	root_mismatch
-182-3	24477	numérico (NNN-N)	yes	yes	root_mismatch
 182-4	24487	numérico (NNN-N)	yes	no	
-183-10	24645	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch,token_ids_not_sequential
-184-2	24688	numérico (NNN-N)	yes	no	token_ids_not_sequential
+183-10	24645	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
+184-2	24688	numérico (NNN-N)	yes	no	
 184-5	24752	numérico (NNN-N)	yes	no	bad_token_id
-184-7	24790	numérico (NNN-N)	yes	no	token_ids_not_sequential
+184-7	24790	numérico (NNN-N)	yes	no	
 185-12	24954	numérico (NNN-N)	no	yes	cycle,root_count
-190-1	25265	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+190-1	25265	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 190-1#2	25287	numérico (NNN-N)	no	no	
 191-2	25368	numérico (NNN-N)	yes	no	
-192-10	25485	numérico (NNN-N)	yes	no	token_ids_not_sequential
-196-4	25851	numérico (NNN-N)	yes	no	token_ids_not_sequential
+192-10	25485	numérico (NNN-N)	yes	no	
+196-4	25851	numérico (NNN-N)	yes	no	
 197-6	25954	numérico (NNN-N)	yes	yes	text_form_mismatch
 197-8	25982	numérico (NNN-N)	yes	yes	root_mismatch
-198-7	26089	numérico (NNN-N)	yes	no	token_ids_not_sequential
-199-1	26136	numérico (NNN-N)	yes	no	token_ids_not_sequential
+198-7	26089	numérico (NNN-N)	yes	no	
+199-1	26136	numérico (NNN-N)	yes	no	
 199-2	26154	numérico (NNN-N)	yes	no	
-200-11	26352	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
+200-11	26352	numérico (NNN-N)	no	no	upos_missing
 200-14	26379	numérico (NNN-N)	no	no	
-201-1	26386	numérico (NNN-N)	yes	no	token_ids_not_sequential
-201-2	26401	numérico (NNN-N)	yes	no	token_ids_not_sequential
+201-1	26386	numérico (NNN-N)	yes	no	
+201-2	26401	numérico (NNN-N)	yes	no	
 202-3	26489	numérico (NNN-N)	yes	no	
-202-6	26534	numérico (NNN-N)	yes	yes	root_mismatch
 204-12	26958	numérico (NNN-N)	yes	no	text_form_mismatch
 204-12#2	26979	numérico (NNN-N)	no	no	upos_missing
-206-1	27145	numérico (NNN-N)	yes	yes	root_mismatch
 207-6	27246	numérico (NNN-N)	yes	no	
 207-7	27262	numérico (NNN-N)	yes	no	
-208-1	27350	numérico (NNN-N)	yes	yes	root_mismatch
 208-6	27429	numérico (NNN-N)	yes	no	
-209-1	27497	numérico (NNN-N)	yes	no	token_ids_not_sequential
-210-1	27623	numérico (NNN-N)	yes	no	token_ids_not_sequential
-210-2	27662	numérico (NNN-N)	yes	no	token_ids_not_sequential
-210-3	27691	numérico (NNN-N)	yes	no	token_ids_not_sequential
+209-1	27497	numérico (NNN-N)	yes	no	
+210-1	27623	numérico (NNN-N)	yes	no	
+210-2	27662	numérico (NNN-N)	yes	no	
+210-3	27691	numérico (NNN-N)	yes	no	
 211-5	27739	numérico (NNN-N)	no	no	
 212-4	27844	numérico (NNN-N)	yes	yes	root_mismatch
 217-3	28406	numérico (NNN-N)	yes	yes	root_mismatch
 219-5	28624	numérico (NNN-N)	no	no	
-221-4	28817	numérico (NNN-N)	yes	yes	root_mismatch
 222-5	28937	numérico (NNN-N)	yes	yes	text_form_mismatch
-223-3	29054	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
+223-3	29054	numérico (NNN-N)	no	no	upos_missing
 225-5	29279	numérico (NNN-N)	yes	no	
-226-3	29401	numérico (NNN-N)	yes	no	token_ids_not_sequential
+226-3	29401	numérico (NNN-N)	yes	no	
 228-4	29529	numérico (NNN-N)	yes	yes	text_form_mismatch
 229-5	29656	numérico (NNN-N)	no	no	text_form_mismatch,upos_missing
-230-1	29682	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+230-1	29682	numérico (NNN-N)	yes	no	text_form_mismatch
 230-1#2	29708	numérico (NNN-N)	no	no	upos_missing
-237-4	30023	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-239-4	30180	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+237-4	30023	numérico (NNN-N)	yes	no	upos_missing
+239-4	30180	numérico (NNN-N)	yes	no	text_form_mismatch
 239-4#2	30210	numérico (NNN-N)	no	no	upos_missing
 239-4#3	30216	numérico (NNN-N)	no	no	upos_missing
 239-4#4	30222	numérico (NNN-N)	no	no	upos_missing
-239-5	30233	numérico (NNN-N)	yes	no	token_ids_not_sequential
+239-5	30233	numérico (NNN-N)	yes	no	
 240-1	30279	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing,upos_not_ud
 240-1#2	30319	numérico (NNN-N)	no	no	upos_missing
 241-6	30417	numérico (NNN-N)	yes	no	
 242-2	30479	numérico (NNN-N)	yes	no	
-243-5	30608	numérico (NNN-N)	yes	no	token_ids_not_sequential
-244-4	30726	numérico (NNN-N)	yes	no	token_ids_not_sequential
+243-5	30608	numérico (NNN-N)	yes	no	
+244-4	30726	numérico (NNN-N)	yes	no	
 246-4	30890	numérico (NNN-N)	yes	no	
-247-3	30941	numérico (NNN-N)	yes	no	token_ids_not_sequential
-249-1	31078	numérico (NNN-N)	yes	no	token_ids_not_sequential
+247-3	30941	numérico (NNN-N)	yes	no	
+249-1	31078	numérico (NNN-N)	yes	no	
 249-2	31098	numérico (NNN-N)	yes	no	
-250-1	31111	numérico (NNN-N)	yes	no	token_ids_not_sequential
+250-1	31111	numérico (NNN-N)	yes	no	
 257-12	31468	numérico (NNN-N)	yes	no	
-257-15	31512	numérico (NNN-N)	yes	no	token_ids_not_sequential
-257-16	31530	numérico (NNN-N)	yes	no	token_ids_not_sequential
+257-15	31512	numérico (NNN-N)	yes	no	
+257-16	31530	numérico (NNN-N)	yes	no	
 258-2	31576	numérico (NNN-N)	yes	no	
-258-4	31607	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-259-1	31651	numérico (NNN-N)	yes	no	token_ids_not_sequential
+258-4	31607	numérico (NNN-N)	yes	no	
+259-1	31651	numérico (NNN-N)	yes	no	
 261-9	31844	numérico (NNN-N)	yes	yes	text_form_mismatch
 263-7	32025	numérico (NNN-N)	yes	no	
 264-3	32152	numérico (NNN-N)	yes	no	
-265-3	32226	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-265-4	32254	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+265-3	32226	numérico (NNN-N)	yes	no	upos_missing
+265-4	32254	numérico (NNN-N)	yes	no	upos_missing
 266-1	32289	numérico (NNN-N)	yes	yes	text_form_mismatch
-267-1	32349	numérico (NNN-N)	yes	no	token_ids_not_sequential
+267-1	32349	numérico (NNN-N)	yes	no	
 268-10	32607	numérico (NNN-N)	yes	no	
 268-12	32633	numérico (NNN-N)	yes	no	
-268-13	32645	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+268-13	32645	numérico (NNN-N)	yes	no	text_form_mismatch
 268-13#2	32659	numérico (NNN-N)	no	no	upos_missing
-268-14	32667	numérico (NNN-N)	yes	no	token_ids_not_sequential
+268-14	32667	numérico (NNN-N)	yes	no	
 268-15	32680	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 268-15#2	32698	numérico (NNN-N)	no	no	upos_missing
 269-1	32704	numérico (NNN-N)	yes	no	upos_missing
 269-2	32722	numérico (NNN-N)	yes	yes	text_form_mismatch
 269-4	32758	numérico (NNN-N)	yes	no	
 270-1	32815	numérico (NNN-N)	yes	no	upos_missing
-270-4	32862	numérico (NNN-N)	yes	no	token_ids_not_sequential
-271-1	32876	numérico (NNN-N)	yes	no	token_ids_not_sequential
+270-4	32862	numérico (NNN-N)	yes	no	
+271-1	32876	numérico (NNN-N)	yes	no	
 275-1	33233	numérico (NNN-N)	yes	no	
-276-2	33413	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+276-2	33413	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 276-2#2	33440	numérico (NNN-N)	no	no	upos_missing
 276-2#3	33446	numérico (NNN-N)	no	no	upos_missing
 276-2#4	33452	numérico (NNN-N)	no	no	upos_missing
 276-2#5	33458	numérico (NNN-N)	no	no	upos_missing
 278-6	33572	numérico (NNN-N)	no	yes	cycle
-278-8	33600	numérico (NNN-N)	no	yes	token_ids_not_sequential
 284-2	33852	numérico (NNN-N)	no	yes	text_form_mismatch
-285-6	33919	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-285-7	33942	numérico (NNN-N)	yes	no	token_ids_not_sequential
+285-6	33919	numérico (NNN-N)	yes	no	upos_missing
+285-7	33942	numérico (NNN-N)	yes	no	
 289-1	34099	numérico (NNN-N)	yes	yes	text_form_mismatch
 291-1	34278	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 291-1#2	34308	numérico (NNN-N)	no	no	upos_missing
@@ -293,42 +257,38 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 291-4#4	34414	numérico (NNN-N)	no	no	upos_missing
 291-4#5	34420	numérico (NNN-N)	no	no	upos_missing
 291-4#6	34426	numérico (NNN-N)	no	no	upos_missing
-293-2	34496	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+293-2	34496	numérico (NNN-N)	yes	no	upos_missing
 293-3	34548	numérico (NNN-N)	no	no	
-293-4	34555	numérico (NNN-N)	yes	yes	root_mismatch
-294-1	34591	numérico (NNN-N)	yes	no	token_ids_not_sequential
+294-1	34591	numérico (NNN-N)	yes	no	
 296-1	34765	numérico (NNN-N)	yes	no	
 296-2	34781	numérico (NNN-N)	yes	yes	text_form_mismatch
-300-2	35100	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+300-2	35100	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 300-2#2	35130	numérico (NNN-N)	no	no	
 300-2#3	35137	numérico (NNN-N)	no	no	upos_missing
 300-4	35160	numérico (NNN-N)	yes	no	upos_missing
-301-5	35269	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+301-5	35269	numérico (NNN-N)	yes	no	upos_missing
 303-2	35372	numérico (NNN-N)	yes	no	text_form_mismatch
 306-3	35641	numérico (NNN-N)	yes	yes	text_form_mismatch
-307-5	35865	numérico (NNN-N)	yes	yes	root_mismatch
 308-2	35941	numérico (NNN-N)	yes	no	
-308-6	35998	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
-308-6#2	36025	numérico (NNN-N)	no	no	upos_missing
-310-1	36222	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+308-6	35998	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+308-6#2	36025	numérico (NNN-N)	yes	no	upos_missing
+310-1	36222	numérico (NNN-N)	yes	no	upos_missing
 312-3	36444	numérico (NNN-N)	yes	no	
-312-5	36462	numérico (NNN-N)	yes	yes	root_mismatch
 318-4	37005	numérico (NNN-N)	yes	no	
-318-8	37072	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-319-5	37147	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
-322-3	37355	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+318-8	37072	numérico (NNN-N)	yes	no	upos_missing
+319-5	37147	numérico (NNN-N)	no	no	upos_missing
+322-3	37355	numérico (NNN-N)	yes	no	
 323-2	37408	numérico (NNN-N)	yes	no	
-324-4	37499	numérico (NNN-N)	yes	yes	root_mismatch
-331-3	38087	numérico (NNN-N)	yes	no	token_ids_not_sequential
-331-5	38102	numérico (NNN-N)	yes	no	token_ids_not_sequential
+331-3	38087	numérico (NNN-N)	yes	no	
+331-5	38102	numérico (NNN-N)	yes	no	
 331-8	38117	numérico (NNN-N)	yes	no	bad_token_id
-331-9	38132	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+331-9	38132	numérico (NNN-N)	yes	no	text_form_mismatch
 	38162	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
 	38170	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
 	38178	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
-331-9#2	38186	numérico (NNN-N)	no	no	upos_missing
-332-2	38221	numérico (NNN-N)	yes	no	token_ids_not_sequential
-334-1	38313	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+331-9#2	38186	numérico (NNN-N)	yes	no	upos_missing
+332-2	38221	numérico (NNN-N)	yes	no	
+334-1	38313	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 334-1#2	38335	numérico (NNN-N)	no	no	upos_missing
 334-1#3	38341	numérico (NNN-N)	no	no	upos_missing
 335-4	38380	numérico (NNN-N)	yes	yes	feat_malformed
@@ -338,487 +298,406 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 339-4	38862	numérico (NNN-N)	yes	yes	root_mismatch
 339-5	38878	numérico (NNN-N)	yes	no	
 339-7	38907	numérico (NNN-N)	yes	yes	text_form_mismatch
-340-7	39052	numérico (NNN-N)	yes	no	token_ids_not_sequential
+340-7	39052	numérico (NNN-N)	yes	no	
 345-1	39229	numérico (NNN-N)	yes	yes	root_mismatch
 345-3	39255	numérico (NNN-N)	yes	yes	text_form_mismatch
-347-2	39294	numérico (NNN-N)	yes	no	token_ids_not_sequential
+347-2	39294	numérico (NNN-N)	yes	no	
 347-3	39315	numérico (NNN-N)	yes	no	
-348-3	39337	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-350-3	39519	numérico (NNN-N)	yes	yes	root_mismatch
+348-3	39337	numérico (NNN-N)	yes	no	upos_missing
 353-9	39871	numérico (NNN-N)	yes	yes	text_form_mismatch
 353-10	39900	numérico (NNN-N)	yes	yes	text_form_mismatch
-356-3	40086	numérico (NNN-N)	yes	no	token_ids_not_sequential
-357-5	40256	numérico (NNN-N)	yes	no	token_ids_not_sequential
+356-3	40086	numérico (NNN-N)	yes	no	
+357-5	40256	numérico (NNN-N)	yes	no	
 357-9	40313	numérico (NNN-N)	yes	no	
-358-3	40336	numérico (NNN-N)	yes	no	token_ids_not_sequential
+358-3	40336	numérico (NNN-N)	yes	no	
 360-5	40516	numérico (NNN-N)	yes	yes	root_mismatch
 360-8	40568	numérico (NNN-N)	no	yes	text_form_mismatch
-360-10	40603	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+360-10	40603	numérico (NNN-N)	yes	no	upos_missing
 361-11	40783	numérico (NNN-N)	yes	yes	text_form_mismatch
-362-2	40795	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-362-5	40866	numérico (NNN-N)	no	yes	token_ids_not_sequential
+362-2	40795	numérico (NNN-N)	yes	no	upos_missing
 364-2-2	40963	numérico (NNN-N)	yes	no	
-364-7	41024	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+364-7	41024	numérico (NNN-N)	yes	no	text_form_mismatch
 364-7-2	41045	numérico (NNN-N)	yes	no	
-364-10	41081	numérico (NNN-N)	yes	yes	token_ids_not_sequential
 365-8	41158	numérico (NNN-N)	yes	no	
 367-2	41235	numérico (NNN-N)	yes	no	
-368-2	41318	numérico (NNN-N)	yes	no	token_ids_not_sequential
+368-2	41318	numérico (NNN-N)	yes	no	
 370-5	41422	numérico (NNN-N)	no	yes	cycle
 373-6	41651	numérico (NNN-N)	no	yes	cycle
-373-13	41700	numérico (NNN-N)	yes	no	token_ids_not_sequential
+373-13	41700	numérico (NNN-N)	yes	no	
 374-9	41815	numérico (NNN-N)	no	yes	cycle
 374-18	41873	numérico (NNN-N)	no	yes	cycle
 377-2	42048	numérico (NNN-N)	no	no	
-377-6	42102	numérico (NNN-N)	yes	no	token_ids_not_sequential
-377-8	42142	numérico (NNN-N)	yes	no	token_ids_not_sequential
-378-1	42219	numérico (NNN-N)	yes	yes	root_mismatch
-379-6	42404	numérico (NNN-N)	yes	no	token_ids_not_sequential
-379-7	42424	numérico (NNN-N)	yes	no	token_ids_not_sequential
-381-3	42656	numérico (NNN-N)	yes	yes	root_mismatch
-381-6	42694	numérico (NNN-N)	yes	yes	root_mismatch
-381-7	42704	numérico (NNN-N)	yes	yes	root_mismatch
+377-6	42102	numérico (NNN-N)	yes	no	
+377-8	42142	numérico (NNN-N)	yes	no	
+379-6	42404	numérico (NNN-N)	yes	no	
+379-7	42424	numérico (NNN-N)	yes	no	
 381-10	42734	numérico (NNN-N)	yes	no	
-382-1	42792	numérico (NNN-N)	yes	yes	root_mismatch
-382-2	42802	numérico (NNN-N)	yes	no	token_ids_not_sequential
+382-2	42802	numérico (NNN-N)	yes	no	
 382-11	42913	numérico (NNN-N)	yes	no	
 382-13	42937	numérico (NNN-N)	yes	no	
 385-1	43221	numérico (NNN-N)	yes	no	root_mismatch,upos_missing
 385-4	43274	numérico (NNN-N)	yes	no	
-386-4	43338	numérico (NNN-N)	yes	no	bad_token_id,token_ids_not_sequential
-387-1	43356	numérico (NNN-N)	yes	no	token_ids_not_sequential
-387-2	43373	numérico (NNN-N)	yes	no	token_ids_not_sequential
-387-3	43389	numérico (NNN-N)	yes	no	token_ids_not_sequential
-387-5	43437	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+386-4	43338	numérico (NNN-N)	yes	no	bad_token_id
+387-1	43356	numérico (NNN-N)	yes	no	
+387-2	43373	numérico (NNN-N)	yes	no	
+387-3	43389	numérico (NNN-N)	yes	no	
+387-5	43437	numérico (NNN-N)	yes	no	upos_missing
 390-2	43735	numérico (NNN-N)	yes	no	
 391-1	43880	numérico (NNN-N)	yes	yes	root_mismatch
-391-7	43957	numérico (NNN-N)	yes	no	token_ids_not_sequential
-391-17	44102	numérico (NNN-N)	yes	yes	root_mismatch
-394-3	44373	numérico (NNN-N)	yes	yes	root_mismatch
-394-5	44395	numérico (NNN-N)	yes	yes	root_mismatch
-396-4	44714	numérico (NNN-N)	yes	yes	root_mismatch
-397-1	44770	numérico (NNN-N)	yes	no	token_ids_not_sequential
+391-7	43957	numérico (NNN-N)	yes	no	
+397-1	44770	numérico (NNN-N)	yes	no	
 397-2	44796	numérico (NNN-N)	yes	no	
 397-4	44826	numérico (NNN-N)	yes	yes	text_form_mismatch
 398-11	45069	numérico (NNN-N)	yes	no	bad_token_id
 398-12	45084	numérico (NNN-N)	yes	no	
-399-7	45270	numérico (NNN-N)	yes	yes	root_mismatch
 400-1	45332	numérico (NNN-N)	yes	yes	text_form_mismatch
-400-3	45362	numérico (NNN-N)	yes	yes	root_mismatch
 402-7	45611	numérico (NNN-N)	yes	yes	root_mismatch
 402-14	45696	numérico (NNN-N)	yes	yes	text_form_mismatch
-405-10	46089	numérico (NNN-N)	yes	no	token_ids_not_sequential
-406-2	46141	numérico (NNN-N)	yes	yes	root_mismatch
-406-3	46151	numérico (NNN-N)	yes	yes	root_mismatch
-406-9	46220	numérico (NNN-N)	yes	no	token_ids_not_sequential
+405-10	46089	numérico (NNN-N)	yes	no	
+406-9	46220	numérico (NNN-N)	yes	no	
 407-6	46372	numérico (NNN-N)	yes	yes	root_mismatch
-407-8	46397	numérico (NNN-N)	yes	yes	root_mismatch
 409-3	46627	numérico (NNN-N)	yes	yes	text_form_mismatch
-409-5	46649	numérico (NNN-N)	yes	yes	root_mismatch
 410-4	46792	numérico (NNN-N)	yes	no	
-411-9	46953	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-412-6	47047	numérico (NNN-N)	yes	yes	root_mismatch
-412-10	47090	numérico (NNN-N)	yes	yes	root_mismatch
+411-9	46953	numérico (NNN-N)	yes	no	upos_missing
 413-11	47231	numérico (NNN-N)	yes	yes	text_form_mismatch
 414-3	47306	numérico (NNN-N)	no	yes	root_count,root_mismatch
 417-2	47682	numérico (NNN-N)	no	no	
-418-5	47833	numérico (NNN-N)	yes	no	token_ids_not_sequential
+418-5	47833	numérico (NNN-N)	yes	no	
 421-2	48076	numérico (NNN-N)	yes	no	
-421-6	48137	numérico (NNN-N)	yes	no	token_ids_not_sequential
+421-6	48137	numérico (NNN-N)	yes	no	
 422-6	48258	numérico (NNN-N)	yes	yes	text_form_mismatch
-423-2	48306	numérico (NNN-N)	yes	no	token_ids_not_sequential
-424-3	48516	numérico (NNN-N)	yes	no	token_ids_not_sequential
+423-2	48306	numérico (NNN-N)	yes	no	
+424-3	48516	numérico (NNN-N)	yes	no	
 426-4	48706	numérico (NNN-N)	no	yes	cycle
 426-6	48734	numérico (NNN-N)	no	no	
 427-8	48802	numérico (NNN-N)	yes	no	
 428-9	48947	numérico (NNN-N)	yes	yes	text_form_mismatch
-430-1	49084	numérico (NNN-N)	yes	no	token_ids_not_sequential
-430-3	49118	numérico (NNN-N)	yes	no	token_ids_not_sequential
-430-5	49149	numérico (NNN-N)	yes	no	token_ids_not_sequential
-430-11	49212	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+430-1	49084	numérico (NNN-N)	yes	no	
+430-3	49118	numérico (NNN-N)	yes	no	
+430-5	49149	numérico (NNN-N)	yes	no	
+430-11	49212	numérico (NNN-N)	yes	no	upos_missing
 430-12	49238	numérico (NNN-N)	yes	no	
 431-21	49619	numérico (NNN-N)	yes	no	bad_token_id
-431-28	49684	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+431-28	49684	numérico (NNN-N)	yes	no	upos_missing
 432-15	49914	numérico (NNN-N)	yes	no	text_form_mismatch
 433-2	49947	numérico (NNN-N)	yes	no	
-433-12	50108	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+433-12	50108	numérico (NNN-N)	yes	no	upos_missing
 434-6	50310	numérico (NNN-N)	yes	no	root_mismatch,text_form_mismatch
-435-3	50388	numérico (NNN-N)	yes	no	token_ids_not_sequential
+435-3	50388	numérico (NNN-N)	yes	no	
 435-4	50417	numérico (NNN-N)	yes	no	
 435-5	50429	numérico (NNN-N)	yes	no	
 435-6	50441	numérico (NNN-N)	yes	no	
-435-7	50453	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-437-1	50727	numérico (NNN-N)	yes	no	token_ids_not_sequential
+435-7	50453	numérico (NNN-N)	yes	no	upos_missing
+437-1	50727	numérico (NNN-N)	yes	no	
 438-3	50868	numérico (NNN-N)	yes	yes	text_form_mismatch
 438-4	50883	numérico (NNN-N)	yes	yes	text_form_mismatch
 438-6	50912	numérico (NNN-N)	yes	yes	text_form_mismatch
 438-7	50927	numérico (NNN-N)	yes	yes	text_form_mismatch
 439-10	51079	numérico (NNN-N)	yes	yes	cycle
-440-1	51102	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-440-2	51130	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+440-1	51102	numérico (NNN-N)	yes	no	upos_missing
+440-2	51130	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 440-2#2	51159	numérico (NNN-N)	no	no	upos_missing
 441-3	51245	numérico (NNN-N)	yes	no	
 441-5	51268	numérico (NNN-N)	yes	no	
-441-10	51362	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-442-2	51438	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+441-10	51362	numérico (NNN-N)	yes	no	upos_missing
+442-2	51438	numérico (NNN-N)	yes	no	upos_missing
 444-4	51739	numérico (NNN-N)	yes	yes	feat_malformed
 446-1	51922	numérico (NNN-N)	yes	no	
 447-1	52006	numérico (NNN-N)	yes	yes	text_form_mismatch
 449-5	52252	numérico (NNN-N)	no	no	bad_head,deprel_not_ud
 450-6	52359	numérico (NNN-N)	no	no	
-451-7	52660	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+451-7	52660	numérico (NNN-N)	yes	no	text_form_mismatch
 451-7#2	52680	numérico (NNN-N)	no	no	
 451-7#3	52687	numérico (NNN-N)	no	no	
 451-10	52730	numérico (NNN-N)	yes	yes	text_form_mismatch
 451-23	52932	numérico (NNN-N)	yes	yes	text_form_mismatch
-451-25	52953	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-451-34	53046	numérico (NNN-N)	yes	no	token_ids_not_sequential
+451-25	52953	numérico (NNN-N)	yes	no	upos_missing
+451-34	53046	numérico (NNN-N)	yes	no	
 452-5	53114	numérico (NNN-N)	yes	no	
-452-8	53159	numérico (NNN-N)	yes	no	token_ids_not_sequential
-453-6	53390	numérico (NNN-N)	yes	no	token_ids_not_sequential
+452-8	53159	numérico (NNN-N)	yes	no	
+453-6	53390	numérico (NNN-N)	yes	no	
 453-11	53460	numérico (NNN-N)	yes	no	
 453-12	53477	numérico (NNN-N)	no	no	
 453-15	53509	numérico (NNN-N)	yes	no	upos_missing
-455-13	53986	numérico (NNN-N)	yes	no	token_ids_not_sequential
-456-3	54078	numérico (NNN-N)	yes	no	token_ids_not_sequential
-456-6	54122	numérico (NNN-N)	yes	no	token_ids_not_sequential
+455-13	53986	numérico (NNN-N)	yes	no	
+456-3	54078	numérico (NNN-N)	yes	no	
+456-6	54122	numérico (NNN-N)	yes	no	
 457-1	54256	numérico (NNN-N)	yes	yes	text_form_mismatch
 457-2	54287	numérico (NNN-N)	yes	yes	text_form_mismatch
-457-4	54321	numérico (NNN-N)	yes	yes	root_mismatch
-458-5	54436	numérico (NNN-N)	yes	no	token_ids_not_sequential
+458-5	54436	numérico (NNN-N)	yes	no	
 458-6	54452	numérico (NNN-N)	yes	yes	text_form_mismatch
 458-7	54476	numérico (NNN-N)	yes	yes	text_form_mismatch
-458-19	54592	numérico (NNN-N)	no	no	token_ids_not_sequential
+458-19	54592	numérico (NNN-N)	no	no	
 459-2	54636	numérico (NNN-N)	yes	yes	root_mismatch
 459-3	54649	numérico (NNN-N)	yes	yes	root_mismatch
-459-7	54706	numérico (NNN-N)	yes	no	token_ids_not_sequential
-459-8	54725	numérico (NNN-N)	yes	no	token_ids_not_sequential
+459-7	54706	numérico (NNN-N)	yes	no	
+459-8	54725	numérico (NNN-N)	yes	no	
 461-2	54890	numérico (NNN-N)	yes	yes	text_form_mismatch
-462-1	54993	numérico (NNN-N)	yes	yes	root_mismatch
 462-9	55094	numérico (NNN-N)	yes	no	
-462-10	55106	numérico (NNN-N)	yes	yes	root_mismatch
 462-13	55148	numérico (NNN-N)	yes	yes	feat_malformed,text_form_mismatch
 462-14	55162	numérico (NNN-N)	yes	yes	text_form_mismatch
 463-10	55343	numérico (NNN-N)	yes	yes	text_form_mismatch
-464-3	55496	numérico (NNN-N)	yes	no	token_ids_not_sequential
-464-13	55613	numérico (NNN-N)	yes	no	token_ids_not_sequential
+464-3	55496	numérico (NNN-N)	yes	no	
+464-13	55613	numérico (NNN-N)	yes	no	
 464-15	55637	numérico (NNN-N)	no	yes	cycle
 464-17	55654	numérico (NNN-N)	yes	yes	text_form_mismatch
 464-18	55668	numérico (NNN-N)	no	no	missing_text,upos_missing
-465-6	55735	numérico (NNN-N)	yes	no	token_ids_not_sequential
+465-6	55735	numérico (NNN-N)	yes	no	
 465-8	55765	numérico (NNN-N)	yes	no	
 468-11	56594	numérico (NNN-N)	yes	no	
-469-7	56705	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+469-7	56705	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 469-8	56731	numérico (NNN-N)	yes	no	
-469-21	56919	numérico (NNN-N)	yes	no	token_ids_not_sequential
+469-21	56919	numérico (NNN-N)	yes	no	
 474-6	57630	numérico (NNN-N)	yes	yes	text_form_mismatch
 474-11	57703	numérico (NNN-N)	no	yes	text_form_mismatch
 476-11	57954	numérico (NNN-N)	yes	yes	text_form_mismatch
 478-4	58139	numérico (NNN-N)	yes	yes	text_form_mismatch
 479-7	58352	numérico (NNN-N)	no	no	
-479-15	58437	numérico (NNN-N)	yes	no	token_ids_not_sequential
+479-15	58437	numérico (NNN-N)	yes	no	
 482-9	58859	numérico (NNN-N)	yes	yes	text_form_mismatch
-482-12	58926	numérico (NNN-N)	yes	no	token_ids_not_sequential
-482-15	58980	numérico (NNN-N)	yes	no	token_ids_not_sequential
-483-6	59062	numérico (NNN-N)	yes	no	token_ids_not_sequential
+482-12	58926	numérico (NNN-N)	yes	no	
+482-15	58980	numérico (NNN-N)	yes	no	
+483-6	59062	numérico (NNN-N)	yes	no	
 483-7	59084	numérico (NNN-N)	yes	yes	text_form_mismatch
-483-16	59200	numérico (NNN-N)	yes	yes	root_mismatch
-484-11	59442	numérico (NNN-N)	yes	no	token_ids_not_sequential
-484-12	59463	numérico (NNN-N)	yes	no	token_ids_not_sequential
+484-11	59442	numérico (NNN-N)	yes	no	
+484-12	59463	numérico (NNN-N)	yes	no	
 486-8	59784	numérico (NNN-N)	yes	no	root_mismatch,text_form_mismatch
 486-11	59863	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
-489-3	60326	numérico (NNN-N)	yes	no	token_ids_not_sequential
-489-4	60346	numérico (NNN-N)	no	no	token_ids_not_sequential
+489-3	60326	numérico (NNN-N)	yes	no	
+489-4	60346	numérico (NNN-N)	no	no	
 489-6	60377	numérico (NNN-N)	yes	no	text_form_mismatch
-490-1	60436	numérico (NNN-N)	yes	yes	root_mismatch
 490-3	60463	numérico (NNN-N)	yes	no	
-490-9	60550	numérico (NNN-N)	yes	no	token_ids_not_sequential
-490-11	60599	numérico (NNN-N)	yes	yes	root_mismatch
+490-9	60550	numérico (NNN-N)	yes	no	
 491-3	60717	numérico (NNN-N)	yes	yes	text_form_mismatch
 491-4	60728	numérico (NNN-N)	yes	yes	text_form_mismatch
 491-5	60743	numérico (NNN-N)	yes	yes	text_form_mismatch
 491-7	60780	numérico (NNN-N)	yes	yes	text_form_mismatch
 491-8	60791	numérico (NNN-N)	yes	yes	text_form_mismatch
-491-9	60822	numérico (NNN-N)	yes	no	token_ids_not_sequential
+491-9	60822	numérico (NNN-N)	yes	no	
 492-8	60943	numérico (NNN-N)	yes	yes	root_mismatch
 492-11	60980	numérico (NNN-N)	no	yes	head_out_of_range,root_count,token_ids_not_sequential
 493-16	61209	numérico (NNN-N)	yes	yes	root_mismatch
-495-9	61634	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
+495-9	61634	numérico (NNN-N)	no	no	upos_missing
 496-19	61977	numérico (NNN-N)	yes	yes	root_mismatch
-497-16	62241	numérico (NNN-N)	yes	yes	root_mismatch
 497-21	62307	numérico (NNN-N)	yes	no	
-498-11	62511	numérico (NNN-N)	yes	yes	root_mismatch
-498-17	62581	numérico (NNN-N)	yes	no	token_ids_not_sequential
+498-17	62581	numérico (NNN-N)	yes	no	
 499-8	62813	numérico (NNN-N)	yes	yes	text_form_mismatch
 500-5	63007	numérico (NNN-N)	yes	no	
 502-8	63570	numérico (NNN-N)	yes	no	
 502-15	63659	numérico (NNN-N)	yes	yes	root_mismatch
 502-19	63714	numérico (NNN-N)	yes	yes	root_mismatch
-506-1	64222	numérico (NNN-N)	no	no	token_ids_not_sequential
-506-10	64334	numérico (NNN-N)	yes	no	token_ids_not_sequential
-507-5	64430	numérico (NNN-N)	yes	yes	root_mismatch
-507-10	64495	numérico (NNN-N)	yes	yes	root_mismatch
+506-1	64222	numérico (NNN-N)	no	no	
+506-10	64334	numérico (NNN-N)	yes	no	
 507-16	64574	numérico (NNN-N)	yes	no	
 507-20	64630	numérico (NNN-N)	yes	yes	text_form_mismatch
 507-31	64769	numérico (NNN-N)	yes	yes	text_form_mismatch
 507-32	64782	numérico (NNN-N)	yes	yes	text_form_mismatch
 508-4	64869	numérico (NNN-N)	yes	yes	text_form_mismatch
 508-16	65015	numérico (NNN-N)	no	no	root_mismatch
-508-17	65028	numérico (NNN-N)	yes	yes	root_mismatch
 509-9	65172	numérico (NNN-N)	yes	no	
-510-10	65454	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+510-10	65454	numérico (NNN-N)	yes	no	upos_missing
 511-1	65529	numérico (NNN-N)	yes	yes	text_form_mismatch
 511-5	65604	numérico (NNN-N)	yes	yes	root_mismatch
 512-5	65828	numérico (NNN-N)	yes	yes	text_form_mismatch
-513-17	66231	numérico (NNN-N)	yes	yes	root_mismatch
-515-1	66368	numérico (NNN-N)	yes	no	token_ids_not_sequential
-515-2	66389	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
+515-1	66368	numérico (NNN-N)	yes	no	
+515-2	66389	numérico (NNN-N)	yes	no	upos_missing
 516-4	66567	numérico (NNN-N)	yes	no	
-516-9	66622	numérico (NNN-N)	yes	yes	root_mismatch
 517-7	66720	numérico (NNN-N)	yes	yes	root_mismatch
 517-15	66848	numérico (NNN-N)	yes	yes	root_mismatch
 518-3	66909	numérico (NNN-N)	no	yes	cycle,token_ids_not_sequential
 518-6	66941	numérico (NNN-N)	no	yes	cycle
 519-6	67167	numérico (NNN-N)	yes	no	
-519-17	67325	numérico (NNN-N)	no	no	token_ids_not_sequential
-520-2	67424	numérico (NNN-N)	yes	yes	root_mismatch
-520-5	67468	numérico (NNN-N)	yes	no	token_ids_not_sequential
-520-15	67614	numérico (NNN-N)	yes	yes	root_mismatch
-521-3	67673	numérico (NNN-N)	yes	yes	root_mismatch
-522-6	67789	numérico (NNN-N)	yes	no	token_ids_not_sequential
+519-17	67325	numérico (NNN-N)	no	no	
+520-5	67468	numérico (NNN-N)	yes	no	
+522-6	67789	numérico (NNN-N)	yes	no	
 526-4	68291	numérico (NNN-N)	yes	no	
 526-5	68308	numérico (NNN-N)	yes	yes	text_form_mismatch
-526-6	68330	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-526-8	68363	numérico (NNN-N)	yes	yes	root_mismatch
-527-8	68681	numérico (NNN-N)	no	no	token_ids_not_sequential
+526-6	68330	numérico (NNN-N)	yes	no	upos_missing
+527-8	68681	numérico (NNN-N)	no	no	
 529-4	68929	numérico (NNN-N)	yes	yes	text_form_mismatch
 530-7	69053	numérico (NNN-N)	yes	yes	feat_malformed
 530-16	69167	numérico (NNN-N)	yes	no	
-532-8	69453	numérico (NNN-N)	yes	no	token_ids_not_sequential
-532-9	69469	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+532-8	69453	numérico (NNN-N)	yes	no	
+532-9	69469	numérico (NNN-N)	yes	no	upos_missing
 534-4	69697	numérico (NNN-N)	yes	no	
-535-3	69903	numérico (NNN-N)	yes	no	token_ids_not_sequential
-536-16	70163	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-536-22	70243	numérico (NNN-N)	yes	no	token_ids_not_sequential
+535-3	69903	numérico (NNN-N)	yes	no	
+536-16	70163	numérico (NNN-N)	yes	no	
+536-22	70243	numérico (NNN-N)	yes	no	
 536-25	70285	numérico (NNN-N)	yes	no	
 537-1	70411	numérico (NNN-N)	yes	no	
-537-5	70485	numérico (NNN-N)	yes	yes	root_mismatch
 538-1	70583	numérico (NNN-N)	yes	yes	text_form_mismatch
 538-2	70599	numérico (NNN-N)	yes	yes	root_mismatch
-538-4	70626	numérico (NNN-N)	yes	no	token_ids_not_sequential
+538-4	70626	numérico (NNN-N)	yes	no	
 539-7	71030	numérico (NNN-N)	yes	no	
-539-9	71062	numérico (NNN-N)	yes	no	token_ids_not_sequential
-540-4	71161	numérico (NNN-N)	yes	yes	root_mismatch
-540-5	71171	numérico (NNN-N)	yes	no	token_ids_not_sequential
-540-6	71191	numérico (NNN-N)	yes	no	token_ids_not_sequential
+539-9	71062	numérico (NNN-N)	yes	no	
+540-5	71171	numérico (NNN-N)	yes	no	
+540-6	71191	numérico (NNN-N)	yes	no	
 540-11	71259	numérico (NNN-N)	yes	no	
-541-1	71278	numérico (NNN-N)	yes	yes	root_mismatch
 541-11	71427	numérico (NNN-N)	yes	yes	root_mismatch
 542-4	71539	numérico (NNN-N)	yes	yes	text_form_mismatch
-542-5	71556	numérico (NNN-N)	yes	no	token_ids_not_sequential
+542-5	71556	numérico (NNN-N)	yes	no	
 542-6	71599	numérico (NNN-N)	yes	no	
 544-12	71770	numérico (NNN-N)	yes	yes	root_mismatch
 545-11	71923	numérico (NNN-N)	yes	no	
 546-8	72032	numérico (NNN-N)	yes	yes	text_form_mismatch
 548-18	72488	numérico (NNN-N)	no	no	
-549-13	72684	numérico (NNN-N)	yes	yes	root_mismatch
-550-3	72739	numérico (NNN-N)	yes	yes	root_mismatch
-550-10	72835	numérico (NNN-N)	yes	no	token_ids_not_sequential
+550-10	72835	numérico (NNN-N)	yes	no	
 551-14	73069	numérico (NNN-N)	yes	no	
 551-19	73136	numérico (NNN-N)	yes	yes	text_form_mismatch
-552-1	73298	numérico (NNN-N)	yes	yes	root_mismatch
 552-9	73391	numérico (NNN-N)	yes	no	
 552-12	73438	numérico (NNN-N)	no	no	text_form_mismatch,upos_missing
-553-20	73706	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential
+553-20	73706	numérico (NNN-N)	yes	no	text_form_mismatch
 555-2-2	73890	numérico (NNN-N)	no	yes	text_form_mismatch
 555-7	73967	numérico (NNN-N)	yes	no	upos_missing
 556-2	74143	numérico (NNN-N)	no	yes	text_form_mismatch
 556-13	74262	numérico (NNN-N)	no	yes	text_form_mismatch
 558-10	74654	numérico (NNN-N)	yes	no	
-558-12	74682	numérico (NNN-N)	yes	no	token_ids_not_sequential
-561-12	75385	numérico (NNN-N)	yes	yes	root_mismatch
-562-7	75556	numérico (NNN-N)	yes	no	token_ids_not_sequential
-562-8	75575	numérico (NNN-N)	no	no	token_ids_not_sequential
-563-2	75713	numérico (NNN-N)	yes	no	token_ids_not_sequential
-563-3	75733	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-563-7	75813	numérico (NNN-N)	yes	yes	root_mismatch
-563-10	75855	numérico (NNN-N)	yes	yes	root_mismatch
-564-1	75880	numérico (NNN-N)	yes	yes	root_mismatch
+558-12	74682	numérico (NNN-N)	yes	no	
+562-7	75556	numérico (NNN-N)	yes	no	
+562-8	75575	numérico (NNN-N)	no	no	
+563-2	75713	numérico (NNN-N)	yes	no	
+563-3	75733	numérico (NNN-N)	yes	no	
 564-5	75945	numérico (NNN-N)	yes	no	
-565-2	76094	numérico (NNN-N)	yes	yes	root_mismatch
-565-5	76129	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-569-4	77012	numérico (NNN-N)	yes	no	token_ids_not_sequential
+565-5	76129	numérico (NNN-N)	yes	no	upos_missing
+569-4	77012	numérico (NNN-N)	yes	no	
 569-12	77123	numérico (NNN-N)	yes	yes	text_form_mismatch
 569-17	77199	numérico (NNN-N)	yes	yes	text_form_mismatch
-572-7	77816	numérico (NNN-N)	yes	yes	root_mismatch
-572-10	77860	numérico (NNN-N)	yes	no	token_ids_not_sequential
+572-10	77860	numérico (NNN-N)	yes	no	
 573-2	78138	numérico (NNN-N)	yes	no	
-573-4	78169	numérico (NNN-N)	no	no	token_ids_not_sequential
-573-11	78273	numérico (NNN-N)	yes	no	token_ids_not_sequential
+573-4	78169	numérico (NNN-N)	no	no	
+573-11	78273	numérico (NNN-N)	yes	no	
 573-20	78406	numérico (NNN-N)	yes	no	bad_token_id
 574-1	78421	numérico (NNN-N)	yes	no	
 574-5	78479	numérico (NNN-N)	no	no	bad_token_id
-575-2	78634	numérico (NNN-N)	yes	no	token_ids_not_sequential
-575-7	78707	numérico (NNN-N)	yes	yes	root_mismatch
-575-14	78809	numérico (NNN-N)	yes	no	token_ids_not_sequential
-575-17	78865	numérico (NNN-N)	yes	yes	root_mismatch
+575-2	78634	numérico (NNN-N)	yes	no	
+575-14	78809	numérico (NNN-N)	yes	no	
 575-18	78878	numérico (NNN-N)	yes	no	bad_token_id
-577-1	79313	numérico (NNN-N)	yes	no	token_ids_not_sequential
-577-7	79386	numérico (NNN-N)	yes	no	token_ids_not_sequential
+577-1	79313	numérico (NNN-N)	yes	no	
+577-7	79386	numérico (NNN-N)	yes	no	
 579-5	79716	numérico (NNN-N)	yes	no	upos_missing
 580-9	79879	numérico (NNN-N)	no	yes	cycle
 580-10	79888	numérico (NNN-N)	no	no	
 581-4	79935	numérico (NNN-N)	no	yes	cycle
 581-4.1	79952	numérico (NNN-N)	yes	no	bad_head,deprel_not_ud
-582-3	80053	numérico (NNN-N)	yes	no	token_ids_not_sequential
+582-3	80053	numérico (NNN-N)	yes	no	
 585-3	80378	numérico (NNN-N)	yes	yes	root_mismatch
-585-4	80403	numérico (NNN-N)	yes	yes	root_mismatch
 585-5	80413	numérico (NNN-N)	yes	no	
 585-12	80503	numérico (NNN-N)	yes	yes	root_mismatch
-585-14	80534	numérico (NNN-N)	yes	no	token_ids_not_sequential
+585-14	80534	numérico (NNN-N)	yes	no	
 585-16	80567	numérico (NNN-N)	no	no	
-588-10	81126	numérico (NNN-N)	yes	yes	root_mismatch
 590-3	81622	numérico (NNN-N)	yes	yes	root_mismatch
-590-5	81652	numérico (NNN-N)	yes	yes	root_mismatch
 591-4	81791	numérico (NNN-N)	yes	yes	root_mismatch
 592-1	82011	numérico (NNN-N)	yes	yes	root_mismatch
 593-7	82287	numérico (NNN-N)	yes	no	
-597-14	83187	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+597-14	83187	numérico (NNN-N)	yes	no	upos_missing
 598-6	83272	numérico (NNN-N)	yes	no	upos_missing
 598-11	83360	numérico (NNN-N)	yes	no	upos_missing
 598-13	83397	numérico (NNN-N)	yes	no	
 598-14	83414	numérico (NNN-N)	yes	no	
 599-10	83587	numérico (NNN-N)	yes	yes	text_form_mismatch
-600-10	83822	numérico (NNN-N)	yes	yes	root_mismatch
 600-17	83921	numérico (NNN-N)	yes	yes	root_mismatch
 601-1	83936	numérico (NNN-N)	yes	yes	root_mismatch
 601-15	84139	numérico (NNN-N)	yes	yes	text_form_mismatch
 601-25	84259	numérico (NNN-N)	yes	no	
 601-26	84275	numérico (NNN-N)	yes	no	
-602-4	84349	numérico (NNN-N)	yes	no	token_ids_not_sequential
-603-13	84781	numérico (NNN-N)	yes	no	token_ids_not_sequential
+602-4	84349	numérico (NNN-N)	yes	no	
+603-13	84781	numérico (NNN-N)	yes	no	
 604-5	84863	numérico (NNN-N)	yes	no	
-604-11	84952	numérico (NNN-N)	yes	yes	root_mismatch
-604-13	84984	numérico (NNN-N)	yes	yes	root_mismatch
 605-1	85022	numérico (NNN-N)	no	no	
-605-3	85043	numérico (NNN-N)	yes	no	token_ids_not_sequential
-605-13	85190	numérico (NNN-N)	yes	yes	root_mismatch
-605-16	85230	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+605-3	85043	numérico (NNN-N)	yes	no	
+605-16	85230	numérico (NNN-N)	yes	no	upos_missing
 606-7	85349	numérico (NNN-N)	yes	no	
-606-12	85424	numérico (NNN-N)	yes	no	token_ids_not_sequential
+606-12	85424	numérico (NNN-N)	yes	no	
 607-1	85564	numérico (NNN-N)	no	yes	text_form_mismatch
 608-3	85747	numérico (NNN-N)	yes	yes	feat_malformed
 608-8	85811	numérico (NNN-N)	yes	yes	feat_malformed
 611-2	86428	numérico (NNN-N)	yes	no	
 611-6	86477	numérico (NNN-N)	yes	no	
-611-7	86489	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-612-6	86608	numérico (NNN-N)	yes	yes	root_mismatch
+611-7	86489	numérico (NNN-N)	yes	no	upos_missing
 612-8	86631	numérico (NNN-N)	yes	yes	text_form_mismatch
-612-14	86704	numérico (NNN-N)	yes	no	token_ids_not_sequential
-613-3	86757	numérico (NNN-N)	yes	yes	root_mismatch
-614-3	86870	numérico (NNN-N)	yes	yes	root_mismatch
-614-8	86931	numérico (NNN-N)	yes	yes	root_mismatch
+612-14	86704	numérico (NNN-N)	yes	no	
 615-1	87021	numérico (NNN-N)	yes	yes	root_mismatch
-615-2	87031	numérico (NNN-N)	yes	yes	root_mismatch
-615-11	87146	numérico (NNN-N)	yes	no	token_ids_not_sequential
+615-11	87146	numérico (NNN-N)	yes	no	
 615-17	87239	numérico (NNN-N)	no	no	
 615-18	87248	numérico (NNN-N)	yes	no	
 615-19	87263	numérico (NNN-N)	yes	no	
-616-3	87315	numérico (NNN-N)	yes	no	token_ids_not_sequential
+616-3	87315	numérico (NNN-N)	yes	no	
 616-15	87468	numérico (NNN-N)	yes	yes	root_mismatch
 617-9	87688	numérico (NNN-N)	yes	yes	text_form_mismatch
 619-3	88035	numérico (NNN-N)	yes	no	
 619-16	88219	numérico (NNN-N)	no	no	
-619-23	88295	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+619-23	88295	numérico (NNN-N)	yes	no	upos_missing
 620-6	88407	numérico (NNN-N)	no	no	
 620-11	88468	numérico (NNN-N)	yes	no	upos_missing
 621-9	88639	numérico (NNN-N)	yes	yes	text_form_mismatch
 622-7	88775	numérico (NNN-N)	yes	no	
-622-16	88897	numérico (NNN-N)	yes	no	token_ids_not_sequential
-623-9	89039	numérico (NNN-N)	yes	yes	root_mismatch
+622-16	88897	numérico (NNN-N)	yes	no	
 623-10	89049	numérico (NNN-N)	yes	yes	root_mismatch
-624-5	89166	numérico (NNN-N)	yes	no	token_ids_not_sequential
-624-13	89273	numérico (NNN-N)	yes	yes	root_mismatch
+624-5	89166	numérico (NNN-N)	yes	no	
 625-5	89358	numérico (NNN-N)	yes	no	
-625-17	89538	numérico (NNN-N)	no	no	token_ids_not_sequential
-625-21	89590	numérico (NNN-N)	yes	yes	root_mismatch
+625-17	89538	numérico (NNN-N)	no	no	
 626-6	89697	numérico (NNN-N)	yes	yes	feat_malformed
 627-3	89871	numérico (NNN-N)	yes	no	upos_missing
 628-3	90043	numérico (NNN-N)	yes	no	
 630-7	90299	numérico (NNN-N)	yes	no	
-631-6	90513	numérico (NNN-N)	yes	no	token_ids_not_sequential
-632-5	90720	numérico (NNN-N)	yes	yes	root_mismatch
-633-5	90892	numérico (NNN-N)	yes	no	token_ids_not_sequential
+631-6	90513	numérico (NNN-N)	yes	no	
+633-5	90892	numérico (NNN-N)	yes	no	
 633-9	90952	numérico (NNN-N)	yes	yes	text_form_mismatch
 634-15	91255	numérico (NNN-N)	no	no	
-636-1	91485	numérico (NNN-N)	yes	yes	root_mismatch
-636-3	91505	numérico (NNN-N)	yes	yes	root_mismatch
 636-5	91528	numérico (NNN-N)	yes	yes	root_mismatch
 636-7	91562	numérico (NNN-N)	yes	yes	root_mismatch
-637-11	91908	numérico (NNN-N)	yes	yes	root_mismatch
 642-3	92622	numérico (NNN-N)	yes	yes	text_form_mismatch
 642-3#2	92642	numérico (NNN-N)	no	no	
-642-5	92661	numérico (NNN-N)	yes	no	token_ids_not_sequential
+642-5	92661	numérico (NNN-N)	yes	no	
 644-8	93146	numérico (NNN-N)	no	no	
 647-1	93514	numérico (NNN-N)	yes	yes	root_mismatch
-649-9	94170	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+649-9	94170	numérico (NNN-N)	yes	no	upos_missing
 650-11	94403	numérico (NNN-N)	yes	yes	root_mismatch
 651-2	94484	numérico (NNN-N)	yes	no	
 652-1	94656	numérico (NNN-N)	yes	yes	text_form_mismatch
 652-14	94798	numérico (NNN-N)	no	no	
 652-15	94808	numérico (NNN-N)	yes	yes	upos_not_ud
 653-8	94899	numérico (NNN-N)	yes	yes	text_form_mismatch
-653-20	95014	numérico (NNN-N)	yes	no	token_ids_not_sequential
+653-20	95014	numérico (NNN-N)	yes	no	
 654-2	95053	numérico (NNN-N)	yes	yes	text_form_mismatch
-654-12	95186	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-655-11	95374	numérico (NNN-N)	yes	yes	root_mismatch
+654-12	95186	numérico (NNN-N)	yes	no	upos_missing
 655-14	95412	numérico (NNN-N)	yes	yes	text_form_mismatch
-655-15	95423	numérico (NNN-N)	no	no	token_ids_not_sequential
+655-15	95423	numérico (NNN-N)	no	no	
 655-16	95433	numérico (NNN-N)	yes	yes	text_form_mismatch
-655-17	95450	numérico (NNN-N)	yes	yes	root_mismatch
 656-3	95555	numérico (NNN-N)	yes	yes	text_form_mismatch
 657-12	95876	numérico (NNN-N)	yes	no	root_mismatch
-657-15	95920	numérico (NNN-N)	yes	yes	root_mismatch
-658-2	95965	numérico (NNN-N)	yes	no	token_ids_not_sequential
-658-6	96038	numérico (NNN-N)	yes	no	token_ids_not_sequential
-660-3	96410	numérico (NNN-N)	no	yes	token_ids_not_sequential
-661-7	96657	numérico (NNN-N)	yes	no	token_ids_not_sequential
-661-10	96701	numérico (NNN-N)	yes	no	token_ids_not_sequential
+658-2	95965	numérico (NNN-N)	yes	no	
+658-6	96038	numérico (NNN-N)	yes	no	
+661-7	96657	numérico (NNN-N)	yes	no	
+661-10	96701	numérico (NNN-N)	yes	no	
 665-3	97541	numérico (NNN-N)	yes	yes	text_form_mismatch
 665-13	97658	numérico (NNN-N)	yes	no	
-666-6	97740	numérico (NNN-N)	yes	yes	root_mismatch
 666-11	97812	numérico (NNN-N)	yes	yes	text_form_mismatch
 668-4	98063	numérico (NNN-N)	yes	yes	text_form_mismatch
-670-1	98446	numérico (NNN-N)	yes	no	token_ids_not_sequential
-670-9	98566	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-672-13	98966	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+670-1	98446	numérico (NNN-N)	yes	no	
+670-9	98566	numérico (NNN-N)	yes	no	upos_missing
+672-13	98966	numérico (NNN-N)	yes	no	upos_missing
 673-1	99046	numérico (NNN-N)	yes	yes	root_mismatch
 673-16	99272	numérico (NNN-N)	yes	no	
-674-5	99340	numérico (NNN-N)	yes	yes	root_mismatch
-674-12	99437	numérico (NNN-N)	yes	yes	root_mismatch
 675-3	99566	numérico (NNN-N)	yes	no	bad_token_id
 676-5	99919	numérico (NNN-N)	yes	no	
-676-9	99984	numérico (NNN-N)	yes	no	token_ids_not_sequential
-677-16	100263	numérico (NNN-N)	yes	yes	root_mismatch
+676-9	99984	numérico (NNN-N)	yes	no	
 678-8	100490	numérico (NNN-N)	yes	yes	root_mismatch
 679-2	100516	numérico (NNN-N)	yes	yes	text_form_mismatch
-679-10	100632	numérico (NNN-N)	yes	yes	root_mismatch
-679-14	100684	numérico (NNN-N)	yes	no	token_ids_not_sequential
+679-14	100684	numérico (NNN-N)	yes	no	
 681-9	101086	numérico (NNN-N)	yes	no	bad_token_id
-683-17	101646	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+683-17	101646	numérico (NNN-N)	yes	no	upos_missing
 684-10	101783	numérico (NNN-N)	yes	no	
 686-1	102066	numérico (NNN-N)	yes	no	bad_token_id
-690-9	103149	numérico (NNN-N)	yes	yes	root_mismatch
-691-4	103240	numérico (NNN-N)	yes	yes	root_mismatch
 691-11	103331	numérico (NNN-N)	yes	no	bad_token_id
 693-12	103828	numérico (NNN-N)	yes	yes	text_form_mismatch
 696-1	104194	numérico (NNN-N)	yes	no	
 700-8	105040	numérico (NNN-N)	no	no	bad_token_id
-701-1	105104	numérico (NNN-N)	yes	no	token_ids_not_sequential
+701-1	105104	numérico (NNN-N)	yes	no	
 701-4	105154	numérico (NNN-N)	yes	no	
 701-6	105175	numérico (NNN-N)	no	yes	cycle
 703-1	105590	numérico (NNN-N)	yes	no	
-703-4	105629	numérico (NNN-N)	yes	no	token_ids_not_sequential
+703-4	105629	numérico (NNN-N)	yes	no	
 705-3	105958	numérico (NNN-N)	yes	yes	root_mismatch
 705-5	105983	numérico (NNN-N)	yes	no	upos_missing
 705-10	106053	numérico (NNN-N)	yes	yes	text_form_mismatch
@@ -830,105 +709,86 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 714-6	107895	numérico (NNN-N)	no	no	
 714-15	108030	numérico (NNN-N)	no	yes	cycle
 716-8	108354	numérico (NNN-N)	yes	yes	text_form_mismatch
-717-6	108537	numérico (NNN-N)	yes	yes	root_mismatch
-717-7	108548	numérico (NNN-N)	yes	yes	root_mismatch
-718-4	108671	numérico (NNN-N)	yes	no	token_ids_not_sequential
+718-4	108671	numérico (NNN-N)	yes	no	
 718-7	108716	numérico (NNN-N)	yes	yes	deprel_not_ud
 720-8	109020	numérico (NNN-N)	yes	yes	root_mismatch
-720-11	109069	numérico (NNN-N)	yes	yes	root_mismatch
 721-7	109222	numérico (NNN-N)	yes	yes	text_form_mismatch
 722-9	109440	numérico (NNN-N)	yes	yes	root_mismatch
-722-15	109517	numérico (NNN-N)	yes	yes	root_mismatch
 722-16	109528	numérico (NNN-N)	yes	no	
 723-1	109575	numérico (NNN-N)	yes	yes	text_form_mismatch
-724-2	109720	numérico (NNN-N)	yes	no	token_ids_not_sequential
+724-2	109720	numérico (NNN-N)	yes	no	
 726-2	110106	numérico (NNN-N)	yes	yes	root_mismatch
-726-11	110232	numérico (NNN-N)	yes	yes	root_mismatch
-729-6	110745	numérico (NNN-N)	yes	no	token_ids_not_sequential
+729-6	110745	numérico (NNN-N)	yes	no	
 731-2	111179	numérico (NNN-N)	yes	yes	text_form_mismatch
 731-17	111391	numérico (NNN-N)	yes	no	
 733-4	111870	numérico (NNN-N)	yes	yes	text_form_mismatch
 734-1	111964	numérico (NNN-N)	yes	yes	text_form_mismatch
-734-3	112005	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+734-3	112005	numérico (NNN-N)	yes	no	
 735-4	112149	numérico (NNN-N)	yes	yes	root_mismatch
-735-16	112337	numérico (NNN-N)	yes	no	token_ids_not_sequential
+735-16	112337	numérico (NNN-N)	yes	no	
 738-1	112724	numérico (NNN-N)	yes	yes	text_form_mismatch
 738-9	112866	numérico (NNN-N)	yes	yes	text_form_mismatch
-739-8	113209	numérico (NNN-N)	yes	no	token_ids_not_sequential
+739-8	113209	numérico (NNN-N)	yes	no	
 739-9	113229	numérico (NNN-N)	no	no	
 741-2	113441	numérico (NNN-N)	no	no	
-742-2	113747	numérico (NNN-N)	yes	no	token_ids_not_sequential
+742-2	113747	numérico (NNN-N)	yes	no	
 744-9	114033	numérico (NNN-N)	yes	no	
 744-17	114144	numérico (NNN-N)	yes	yes	text_form_mismatch
-745-1	114164	numérico (NNN-N)	yes	yes	root_mismatch
 747-6	114718	numérico (NNN-N)	yes	yes	root_mismatch
-748-2	114912	numérico (NNN-N)	yes	no	token_ids_not_sequential
+748-2	114912	numérico (NNN-N)	yes	no	
 748-7	114982	numérico (NNN-N)	yes	yes	text_form_mismatch
-748-8	114994	numérico (NNN-N)	yes	no	token_ids_not_sequential
+748-8	114994	numérico (NNN-N)	yes	no	
 748-14	115076	numérico (NNN-N)	yes	no	upos_missing
-749-9	115211	numérico (NNN-N)	yes	no	token_ids_not_sequential
+749-9	115211	numérico (NNN-N)	yes	no	
 750-4	115319	numérico (NNN-N)	yes	yes	root_mismatch
 751-2	115547	numérico (NNN-N)	yes	no	
 751-8	115631	numérico (NNN-N)	yes	no	
-751-15	115743	numérico (NNN-N)	yes	yes	root_mismatch
-753-1	116072	numérico (NNN-N)	yes	yes	root_mismatch
 753-12	116213	numérico (NNN-N)	yes	yes	text_form_mismatch
 756-5	116528	numérico (NNN-N)	yes	yes	root_mismatch
 756-7	116563	numérico (NNN-N)	yes	yes	root_mismatch
 758-7	116815	numérico (NNN-N)	no	yes	cycle
 758-9	116830	numérico (NNN-N)	no	yes	cycle
 758-12	116884	numérico (NNN-N)	yes	no	
-762-10	117690	numérico (NNN-N)	yes	yes	root_mismatch
 764-13	118213	numérico (NNN-N)	yes	no	upos_missing
 767-2	118586	numérico (NNN-N)	yes	yes	feat_malformed
 767-12	118739	numérico (NNN-N)	yes	yes	text_form_mismatch
 767-13	118763	numérico (NNN-N)	yes	no	root_mismatch
-769-3	118973	numérico (NNN-N)	yes	yes	root_mismatch
 770-5	119246	numérico (NNN-N)	yes	no	
 770-18	119423	numérico (NNN-N)	yes	yes	root_mismatch
 771-6	119541	numérico (NNN-N)	yes	yes	text_form_mismatch
 773-11	120016	numérico (NNN-N)	yes	yes	text_form_mismatch
 773-18	120088	numérico (NNN-N)	yes	yes	cycle
 775-1	120377	numérico (NNN-N)	yes	yes	root_mismatch
-775-5	120431	numérico (NNN-N)	yes	yes	root_mismatch
-775-9	120486	numérico (NNN-N)	yes	yes	root_mismatch
-775-11	120514	numérico (NNN-N)	yes	yes	root_mismatch
-776-3	120726	numérico (NNN-N)	no	no	token_ids_not_sequential
-777-4	120865	numérico (NNN-N)	yes	yes	root_mismatch
+776-3	120726	numérico (NNN-N)	no	no	
 778-1	121040	numérico (NNN-N)	yes	yes	root_mismatch
 778-12	121185	numérico (NNN-N)	yes	yes	feat_malformed
 778-13	121205	numérico (NNN-N)	yes	yes	feat_malformed
 779-3	121404	numérico (NNN-N)	yes	no	
 781-13	122008	numérico (NNN-N)	yes	no	
-781-17	122063	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+781-17	122063	numérico (NNN-N)	yes	no	upos_missing
 782-1	122114	numérico (NNN-N)	yes	yes	root_mismatch
-783-3	122389	numérico (NNN-N)	yes	no	token_ids_not_sequential
-785-8	122775	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
-785-11	122820	numérico (NNN-N)	yes	no	token_ids_not_sequential
-786-3	122891	numérico (NNN-N)	yes	no	token_ids_not_sequential
-786-5	122931	numérico (NNN-N)	yes	no	token_ids_not_sequential
-789-1	123504	numérico (NNN-N)	yes	yes	root_mismatch
-789-8	123598	numérico (NNN-N)	yes	yes	root_mismatch
+783-3	122389	numérico (NNN-N)	yes	no	
+785-8	122775	numérico (NNN-N)	no	no	upos_missing
+785-11	122820	numérico (NNN-N)	yes	no	
+786-3	122891	numérico (NNN-N)	yes	no	
+786-5	122931	numérico (NNN-N)	yes	no	
 791-2	123993	numérico (NNN-N)	yes	yes	root_mismatch
-791-4	124019	numérico (NNN-N)	yes	no	token_ids_not_sequential
+791-4	124019	numérico (NNN-N)	yes	no	
 791-13	124149	numérico (NNN-N)	yes	no	
 792-6	124286	numérico (NNN-N)	yes	yes	text_form_mismatch
-794-8	124645	numérico (NNN-N)	yes	no	token_ids_not_sequential
-796-7	125001	numérico (NNN-N)	yes	yes	root_mismatch
+794-8	124645	numérico (NNN-N)	yes	no	
 797-5	125115	numérico (NNN-N)	yes	yes	root_mismatch
-798-1	125187	numérico (NNN-N)	yes	yes	root_mismatch
-798-6	125243	numérico (NNN-N)	yes	yes	root_mismatch
 798-7	125253	numérico (NNN-N)	yes	yes	text_form_mismatch
 798-11	125311	numérico (NNN-N)	yes	yes	text_form_mismatch
 799-5	125473	numérico (NNN-N)	yes	yes	root_mismatch
 799-13	125590	numérico (NNN-N)	yes	yes	root_mismatch
-800-2	125864	numérico (NNN-N)	yes	no	token_ids_not_sequential
+800-2	125864	numérico (NNN-N)	yes	no	
 801-10	126064	numérico (NNN-N)	yes	yes	feat_malformed
 801-23	126255	numérico (NNN-N)	yes	no	
 806-11	127382	numérico (NNN-N)	yes	yes	text_form_mismatch
-807-4	127535	numérico (NNN-N)	yes	no	token_ids_not_sequential
-807-8	127610	numérico (NNN-N)	yes	no	token_ids_not_sequential
-807-9	127633	numérico (NNN-N)	yes	no	token_ids_not_sequential
+807-4	127535	numérico (NNN-N)	yes	no	
+807-8	127610	numérico (NNN-N)	yes	no	
+807-9	127633	numérico (NNN-N)	yes	no	
 807-11	127660	numérico (NNN-N)	yes	no	
 810-10	128560	numérico (NNN-N)	yes	yes	text_form_mismatch
 812-4	128884	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
@@ -936,53 +796,41 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 818-2	129545	numérico (NNN-N)	yes	yes	root_mismatch
 818-3	129558	numérico (NNN-N)	yes	yes	root_mismatch
 819-7	129711	numérico (NNN-N)	no	no	
-820-5	129767	numérico (NNN-N)	yes	no	token_ids_not_sequential
-821-1	129885	numérico (NNN-N)	yes	no	token_ids_not_sequential
+820-5	129767	numérico (NNN-N)	yes	no	
+821-1	129885	numérico (NNN-N)	yes	no	
 822-2	129999	numérico (NNN-N)	yes	yes	text_form_mismatch
-822-7	130062	numérico (NNN-N)	yes	yes	root_mismatch
 832-4	131494	numérico (NNN-N)	yes	yes	root_mismatch
-833-13	131779	numérico (NNN-N)	yes	yes	root_mismatch
-834-5	131845	numérico (NNN-N)	yes	yes	root_mismatch
-835-14	132106	numérico (NNN-N)	yes	no	token_ids_not_sequential
+835-14	132106	numérico (NNN-N)	yes	no	
 837-4	132276	numérico (NNN-N)	yes	no	upos_missing
-837-7	132317	numérico (NNN-N)	yes	no	token_ids_not_sequential
+837-7	132317	numérico (NNN-N)	yes	no	
 838-15	132592	numérico (NNN-N)	yes	yes	text_form_mismatch
 839-14	132772	numérico (NNN-N)	yes	no	upos_missing
 840-1	132829	numérico (NNN-N)	yes	yes	root_mismatch,text_form_mismatch
 840-6	132917	numérico (NNN-N)	yes	yes	text_form_mismatch
 843-2	133388	numérico (NNN-N)	yes	yes	text_form_mismatch
-846-5	133949	numérico (NNN-N)	yes	no	token_ids_not_sequential
+846-5	133949	numérico (NNN-N)	yes	no	
 847-5	134177	numérico (NNN-N)	yes	yes	root_mismatch
-847-6	134189	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+847-6	134189	numérico (NNN-N)	yes	no	upos_missing
 847-7	134206	numérico (NNN-N)	yes	no	
 847-9	134232	numérico (NNN-N)	yes	yes	root_mismatch
-848-1	134381	numérico (NNN-N)	yes	yes	root_mismatch
 848-3	134415	numérico (NNN-N)	yes	yes	root_mismatch
 851-6	134908	numérico (NNN-N)	yes	no	
-855-2	135458	numérico (NNN-N)	yes	no	token_ids_not_sequential
+855-2	135458	numérico (NNN-N)	yes	no	
 856-11	135827	numérico (NNN-N)	yes	yes	root_mismatch
-856-14	135864	numérico (NNN-N)	yes	no	token_ids_not_sequential
-857-7	135981	numérico (NNN-N)	yes	yes	root_mismatch
-857-8	135991	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
-858-1	136021	numérico (NNN-N)	yes	yes	root_mismatch
-859-1	136146	numérico (NNN-N)	yes	yes	root_mismatch
-859-12	136293	numérico (NNN-N)	yes	no	token_ids_not_sequential
+856-14	135864	numérico (NNN-N)	yes	no	
+857-8	135991	numérico (NNN-N)	no	no	upos_missing
+859-12	136293	numérico (NNN-N)	yes	no	
 861-4	136655	numérico (NNN-N)	no	yes	text_form_mismatch
 861-10	136696	numérico (NNN-N)	no	yes	text_form_mismatch
 862-3	136776	numérico (NNN-N)	no	yes	cycle
 862-5	136795	numérico (NNN-N)	no	yes	bad_head,deprel_not_ud
-863-8	136970	numérico (NNN-N)	yes	yes	root_mismatch
-863-11	137007	numérico (NNN-N)	yes	yes	root_mismatch
-864-12	137296	numérico (NNN-N)	yes	no	token_ids_not_sequential
+864-12	137296	numérico (NNN-N)	yes	no	
 865-4	137340	numérico (NNN-N)	no	yes	text_form_mismatch
 865-6	137368	numérico (NNN-N)	no	yes	cycle
 865-11	137418	numérico (NNN-N)	yes	yes	root_mismatch
 866-1	137436	numérico (NNN-N)	no	yes	root_count
 866-11	137522	numérico (NNN-N)	no	yes	cycle
-867-5	137606	numérico (NNN-N)	yes	yes	root_mismatch
 868-2	137831	numérico (NNN-N)	no	yes	text_form_mismatch
-869-1	137963	numérico (NNN-N)	yes	yes	root_mismatch
-870-8	138290	numérico (NNN-N)	yes	yes	root_mismatch
 872-4	138548	numérico (NNN-N)	no	yes	cycle
 872-8.1	138616	numérico (NNN-N)	no	yes	text_form_mismatch
 873-5	138671	numérico (NNN-N)	no	yes	text_form_mismatch
@@ -990,100 +838,76 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 877-3	139170	numérico (NNN-N)	yes	no	
 877-8	139250	numérico (NNN-N)	yes	no	
 878-1	139275	numérico (NNN-N)	yes	no	
-879-2	139460	numérico (NNN-N)	yes	no	token_ids_not_sequential
+879-2	139460	numérico (NNN-N)	yes	no	
 880-12	139767	numérico (NNN-N)	yes	no	
-884-36	141149	numérico (NNN-N)	yes	yes	root_mismatch
 884-42	141216	numérico (NNN-N)	yes	yes	text_form_mismatch
 885-9	141365	numérico (NNN-N)	yes	yes	root_mismatch
-885-13	141417	numérico (NNN-N)	yes	yes	root_mismatch
-885-14	141427	numérico (NNN-N)	yes	no	token_ids_not_sequential
+885-14	141427	numérico (NNN-N)	yes	no	
 885-23	141553	numérico (NNN-N)	yes	no	
-887-1	141746	numérico (NNN-N)	yes	yes	root_mismatch
 887-7	141822	numérico (NNN-N)	yes	yes	text_form_mismatch
 888-8	142140	numérico (NNN-N)	yes	yes	root_mismatch,text_form_mismatch
 889-28	142658	numérico (NNN-N)	yes	no	
 890-7	142836	numérico (NNN-N)	yes	yes	text_form_mismatch
-890-24	143051	numérico (NNN-N)	yes	no	token_ids_not_sequential
+890-24	143051	numérico (NNN-N)	yes	no	
 891-12	143237	numérico (NNN-N)	yes	yes	root_mismatch
 895-4	144009	numérico (NNN-N)	no	yes	cycle
-896-11	144195	numérico (NNN-N)	yes	no	token_ids_not_sequential
+896-11	144195	numérico (NNN-N)	yes	no	
 897-7	144394	numérico (NNN-N)	yes	yes	text_form_mismatch
-899-1	144733	numérico (NNN-N)	yes	yes	root_mismatch
-899-13	144920	numérico (NNN-N)	yes	no	token_ids_not_sequential
-903-1	145390	numérico (NNN-N)	yes	no	token_ids_not_sequential
+899-13	144920	numérico (NNN-N)	yes	no	
+903-1	145390	numérico (NNN-N)	yes	no	
 903-13	145546	numérico (NNN-N)	yes	no	
-903-18	145613	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+903-18	145613	numérico (NNN-N)	yes	no	upos_missing
 903-20	145644	numérico (NNN-N)	no	no	
-905-8	145988	numérico (NNN-N)	yes	no	token_ids_not_sequential
-906-1	146047	numérico (NNN-N)	yes	no	token_ids_not_sequential
+905-8	145988	numérico (NNN-N)	yes	no	
+906-1	146047	numérico (NNN-N)	yes	no	
 906-3	146096	numérico (NNN-N)	yes	no	bad_token_id
 906-17	146294	numérico (NNN-N)	no	no	
 909-3	146769	numérico (NNN-N)	yes	no	
-910-6	147062	numérico (NNN-N)	yes	yes	root_mismatch
-913-1	147531	numérico (NNN-N)	yes	no	token_ids_not_sequential
-914-1	147865	numérico (NNN-N)	yes	yes	root_mismatch
+913-1	147531	numérico (NNN-N)	yes	no	
 915-1	147992	numérico (NNN-N)	no	no	
-916-16	148280	numérico (NNN-N)	yes	yes	root_mismatch
 917-4	148382	numérico (NNN-N)	yes	yes	root_mismatch
-917-24	148623	numérico (NNN-N)	yes	yes	root_mismatch
-917-27	148653	numérico (NNN-N)	yes	yes	root_mismatch
 918-5	148723	numérico (NNN-N)	yes	no	upos_missing
-918-8	148767	numérico (NNN-N)	yes	yes	root_mismatch
 919-14	149042	numérico (NNN-N)	no	no	
-921-1	149229	numérico (NNN-N)	yes	yes	root_mismatch
 922-4	149461	numérico (NNN-N)	yes	yes	root_mismatch
-922-11	149562	numérico (NNN-N)	yes	yes	root_mismatch
-922-18	149644	numérico (NNN-N)	yes	yes	root_mismatch
-922-28	149776	numérico (NNN-N)	yes	yes	root_mismatch
-923-8	149909	numérico (NNN-N)	yes	yes	root_mismatch
-923-9	149919	numérico (NNN-N)	yes	no	token_ids_not_sequential
-924-2	150073	numérico (NNN-N)	yes	no	token_ids_not_sequential
-925-9	150394	numérico (NNN-N)	yes	yes	root_mismatch
-925-13	150454	numérico (NNN-N)	yes	no	token_ids_not_sequential
+923-9	149919	numérico (NNN-N)	yes	no	
+924-2	150073	numérico (NNN-N)	yes	no	
+925-13	150454	numérico (NNN-N)	yes	no	
 925-14	150473	numérico (NNN-N)	yes	yes	text_form_mismatch
 925-16	150499	numérico (NNN-N)	no	no	
-926-4	150654	numérico (NNN-N)	yes	yes	root_mismatch
-926-15	150769	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
+926-15	150769	numérico (NNN-N)	yes	no	upos_missing
 928-13	151257	numérico (NNN-N)	no	no	
 929-6	151347	numérico (NNN-N)	yes	no	
-929-17	151535	numérico (NNN-N)	yes	no	text_form_mismatch,token_ids_not_sequential,upos_missing
+929-17	151535	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
 929-17#2	151570	numérico (NNN-N)	no	no	upos_missing
 932-1	151945	numérico (NNN-N)	no	no	text_form_mismatch
 932-13	152066	numérico (NNN-N)	no	no	
 932-15	152087	numérico (NNN-N)	no	no	
 933-5	152169	numérico (NNN-N)	no	yes	cycle
-933-12	152220	numérico (NNN-N)	yes	yes	root_mismatch
 934-7	152327	numérico (NNN-N)	yes	no	upos_missing
 937-5	153034	numérico (NNN-N)	yes	yes	text_form_mismatch
-938-8	153283	numérico (NNN-N)	yes	yes	root_mismatch
 938-12	153329	numérico (NNN-N)	yes	yes	text_form_mismatch
 939-8	153444	numérico (NNN-N)	yes	yes	text_form_mismatch
 940-13	153755	numérico (NNN-N)	yes	yes	text_form_mismatch
 941-2	153839	numérico (NNN-N)	yes	no	root_mismatch
 941-14	153983	numérico (NNN-N)	yes	no	
-941-15	154001	numérico (NNN-N)	yes	no	token_ids_not_sequential
+941-15	154001	numérico (NNN-N)	yes	no	
 941-15#2	154019	numérico (NNN-N)	no	no	
-942-3	154059	numérico (NNN-N)	yes	yes	root_mismatch
 943-6	154244	numérico (NNN-N)	yes	yes	root_mismatch
 943-8	154273	numérico (NNN-N)	yes	yes	root_mismatch
-944-2	154433	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-944-3	154454	numérico (NNN-N)	yes	no	bad_token_id,token_ids_not_sequential
-945-6	154748	numérico (NNN-N)	no	no	token_ids_not_sequential,upos_missing
-946-12	154982	numérico (NNN-N)	yes	no	token_ids_not_sequential
+944-2	154433	numérico (NNN-N)	yes	no	upos_missing
+944-3	154454	numérico (NNN-N)	yes	no	bad_token_id
+945-6	154748	numérico (NNN-N)	no	no	upos_missing
+946-12	154982	numérico (NNN-N)	yes	no	
 950-8	155603	numérico (NNN-N)	yes	yes	text_form_mismatch
 950-12	155652	numérico (NNN-N)	yes	yes	text_form_mismatch
 951-11	155900	numérico (NNN-N)	yes	yes	text_form_mismatch
 953-1	156036	numérico (NNN-N)	yes	no	
-953-10	156156	numérico (NNN-N)	yes	yes	root_mismatch
 954-6	156349	numérico (NNN-N)	yes	no	bad_token_id
-954-13	156440	numérico (NNN-N)	yes	no	token_ids_not_sequential
-955-1	156496	numérico (NNN-N)	yes	yes	root_mismatch
-955-12	156630	numérico (NNN-N)	yes	yes	root_mismatch
+954-13	156440	numérico (NNN-N)	yes	no	
 956-1	156676	numérico (NNN-N)	yes	yes	root_mismatch
 957-1	157095	numérico (NNN-N)	yes	yes	root_mismatch
 958-3	157264	numérico (NNN-N)	yes	no	
-958-5	157324	numérico (NNN-N)	yes	no	token_ids_not_sequential
-959-9	157476	numérico (NNN-N)	yes	yes	root_mismatch
+958-5	157324	numérico (NNN-N)	yes	no	
 960-11	157727	numérico (NNN-N)	yes	yes	root_mismatch
 961-2	157834	numérico (NNN-N)	no	no	
 961-9	157921	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
@@ -1092,25 +916,22 @@ AdugoBiri-2.10#54	9926	AdugoBiri	yes	no
 964-5	158437	numérico (NNN-N)	yes	no	
 964-7	158461	numérico (NNN-N)	yes	yes	root_mismatch
 965-1	158618	numérico (NNN-N)	no	no	
-967-5	159027	numérico (NNN-N)	yes	no	token_ids_not_sequential,upos_missing
-967-11	159133	numérico (NNN-N)	no	no	token_ids_not_sequential
-967-12	159146	numérico (NNN-N)	yes	no	token_ids_not_sequential
-968-9	159315	numérico (NNN-N)	yes	yes	root_mismatch
+967-5	159027	numérico (NNN-N)	yes	no	upos_missing
+967-11	159133	numérico (NNN-N)	no	no	
+967-12	159146	numérico (NNN-N)	yes	no	
 969-2	159355	numérico (NNN-N)	yes	yes	text_form_mismatch
-970-8	159555	numérico (NNN-N)	yes	no	token_ids_not_sequential
-971-3	159729	numérico (NNN-N)	yes	yes	root_mismatch
+970-8	159555	numérico (NNN-N)	yes	no	
 972-2	159869	numérico (NNN-N)	yes	no	
-973-8	160146	numérico (NNN-N)	yes	no	token_ids_not_sequential
+973-8	160146	numérico (NNN-N)	yes	no	
 973-16	160249	numérico (NNN-N)	yes	yes	text_form_mismatch
 974-6	160373	numérico (NNN-N)	yes	no	
 975-9	160655	numérico (NNN-N)	yes	yes	text_form_mismatch
-977-6	160998	numérico (NNN-N)	yes	no	token_ids_not_sequential
-977-10	161055	numérico (NNN-N)	yes	no	token_ids_not_sequential
+977-6	160998	numérico (NNN-N)	yes	no	
+977-10	161055	numérico (NNN-N)	yes	no	
 980-2	161457	numérico (NNN-N)	yes	no	text_form_mismatch
 981-4	161659	numérico (NNN-N)	yes	no	
 982-8	161846	numérico (NNN-N)	no	yes	cycle
 982-11	161883	numérico (NNN-N)	no	yes	cycle
-983-21	162156	numérico (NNN-N)	yes	yes	root_mismatch
 984-7	162238	numérico (NNN-N)	yes	yes	root_mismatch
 985-4	162363	numérico (NNN-N)	yes	yes	text_form_mismatch
 986-4	162466	numérico (NNN-N)	no	yes	cycle
@@ -1128,10 +949,9 @@ dic_0551	164089	dic	no	yes	root_count
 dic_0555	164113	dic	no	yes	cycle
 dic_0557	164136	dic	yes	yes	cycle,token_ids_not_sequential
 dic_0578	164207	dic	no	yes	cycle
-dic_0579	164215	dic	yes	no	token_ids_not_sequential
+dic_0579	164215	dic	yes	no	
 dic_0581	164244	dic	yes	yes	cycle
 dic_0590	164316	dic	no	yes	cycle
-dic_0628	164553	dic	no	yes	token_ids_not_sequential
 dic_0657	164762	dic	no	yes	root_count,root_mismatch
 dic_0663	164780	dic	no	yes	root_count
 dic_0684	164923	dic	no	yes	text_form_mismatch
@@ -1148,7 +968,7 @@ dic_0994	165897	dic	no	yes	cycle
 dic_1063	166287	dic	no	yes	root_count
 dic_1082	166400	dic	no	yes	cycle,text_form_mismatch
 dic_1140	166589	dic	no	yes	cycle
-dic_1273	167320	dic	yes	no	token_ids_not_sequential
+dic_1273	167320	dic	yes	no	
 dic_1274	167337	dic	yes	no	
 dic_1306	167597	dic	no	yes	cycle
 dic_1341	167723	dic	yes	yes	cycle

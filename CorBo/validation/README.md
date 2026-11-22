@@ -53,3 +53,17 @@ cp CorBo/validation/summary.json CorBo/validation/baseline.json
 ```
 
 Aprovando todas as propostas de alta e média confiança (400), os erros caem de 3.706 para 2.964: os 241 fragmentos somem, IDs fora de sequência caem de 633 para 289 e texto divergente de 1.939 para 1.853. Blocos não aprovados ficam idênticos.
+
+## Segunda rodada: árvores, raiz e UPOS (`scripts/propose_tree_fixes.py`)
+
+```bash
+python3 scripts/propose_tree_fixes.py                 # gera tree_proposals.tsv e manual_review.tsv
+python3 scripts/propose_tree_fixes.py --apply         # aplica as linhas com approve = sim
+python3 scripts/propose_tree_fixes.py --apply --alta  # aplica também todas as de confiança alta
+```
+
+Tipos: `renumber_ids` (IDs repetidos → 1..n, HEADs remapeados), `set_root` (único HEAD=0 rotulado com outra relação),
+`reroot` (o verbo dependente vira a raiz), `fill_upos` (forma com UPOS inequívoco no corpus; marca `Auto=upos`).
+Em 22/11/2026 as 506 propostas de confiança alta foram aplicadas (erros de 1.341 para 835); registro em
+`tree_applied_20261122.tsv`. As 150 de confiança média continuam em `tree_proposals.tsv` para revisão.
+`manual_review.tsv` lista os erros sem correção automática (ciclos, texto ≠ tokens, traços malformados…).
