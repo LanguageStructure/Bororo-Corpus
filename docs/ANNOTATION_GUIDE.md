@@ -39,10 +39,13 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | `source_unit`, `section` | não | unidade e seção na fonte documental (Boe Ero) |
 | `auto_annotation`, `auto_fields`, `auto_tokens`, `auto_note` | quando houver campos automáticos | ver §6 |
 | `model_projection` | não | sentença gold de onde a análise foi projetada e similaridade |
+| `source_line` | não | número de linha/verso da fonte, retirado do `# text` (22/11/2026) |
+| `text_note` | não | observação sobre o `# text` (ex.: reconstruído a partir das formas) |
 | `sent_id_original` | não | identificador anterior, quando a sentença foi dividida (`X#2`, `X#3`…) |
 
 **Regras estruturais** (verificadas por `scripts/validate_conllu.py`):
 
+- `FORM` reproduz exatamente a grafia do `# text`, inclusive maiúsculas/minúsculas (decidido em 22/11/2026: a fonte prevalece);
 - uma linha em branco separa sentenças — **nunca** dentro de uma sentença; um bloco sem `# sent_id` é tratado como fragmento e é erro;
 - IDs de token `1..n`, sem lacunas nem repetições;
 - `HEAD` inteiro que aponta para um token existente ou `0`; exatamente uma raiz (`HEAD=0` ⇔ `DEPREL=root`); sem ciclos;

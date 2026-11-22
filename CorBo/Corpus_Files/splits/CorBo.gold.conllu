@@ -253,6 +253,52 @@
 7	rugadu	rugadu	ADV	adv	_	4	parataxis	_	_
 8	.	.	PUNCT	punct	_	7	punct	_	_
 
+# sent_id = boe_ero_02_04
+# text = Ica , icare Boere iedo , boe eragodure ie paru ji .
+# text_por = Aí a gente deu nome a ela, a gente deu nome a ela, depois começa o ritual do nome.
+1	Ica	ica	ADV	adv	_	5	advmod	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	icare	icare	ADV	adv	_	5	advmod	_	_
+4	Boere	Boe	PROPN	propn	Mood=Ind|Number=Plur	5	nsubj	_	_
+5	iedo	ie	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	boe	Boe	PROPN	propn	Number=Plur	8	nsubj	_	_
+8	eragodure	rakodu	VERB	v	Mood=Ind|Number=Plur|Person=3	5	parataxis	_	_
+9	ie	ie	NOUN	n	Number=Sing|Person=3	10	nmod	_	_
+10	paru	paru	NOUN	n	Number=Sing|Person=3	8	obl	_	_
+11	ji	ji	ADP	posp	_	10	case	_	Morph=0-ji
+12	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = boe_ero_02_04-2
+# text = Ica , boere iedo taci je .
+# text_por = Daí deram nome prá ela, assim a gente faz.
+1	Ica	ica	ADV	adv	_	4	advmod	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	boere	Boe	PROPN	propn	Mood=Ind|Number=Plur	4	nsubj	_	_
+4	iedo	ie	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+5	taci	taci	ADV	adv	_	4	advmod	_	_
+6	je	je	ADV	adv	_	5	flat	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = boe_ero_02_06
+# text = Icare makore, batarure, akore: "Imuga", oino. Akore: "Ioga", oino .
+# text_por = Daí ela começou a falar e disse: "Minha mãe" assim, ela disse: "Meu pai", assim.
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	makore	mako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-mako=re
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	batarure	bataru	NOUN	n	Mood=Ind	2	parataxis	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	2	parataxis	_	Morph=0-ako=re
+7	Imuga	muga	NOUN	n	Number=Sing|Person=1	6	ccomp	_	_
+8	,	,	PUNCT	punct	_	6	punct	_	_
+9	oino	oino	ADV	adv	_	6	advmod	_	_
+10	,	,	PUNCT	punct	_	6	punct	_	_
+11	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	6	parataxis	_	Morph=0-ako=re
+12	Ioga	ogwa	NOUN	n	Number=Sing|Person=1	11	ccomp	_	_
+13	,	,	PUNCT	punct	_	11	punct	_	_
+14	oino	oino	ADV	adv	_	11	advmod	_	_
+15	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = boe_ero_02_07
 # text = Uce akore are , are , are .
 # text_por = A mãe dela disse: "Minha filhinha, filhinha, filhinha."
@@ -407,6 +453,23 @@
 4	pui	pui	PRON	pron	PronType=Rcp|Reflex=Yes	3	obl	_	_
 5	duji	duji	X	x	_	1	dep	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = boe_ero_08_05
+# text = Boe ero , ainore boe erore , Boe egore , boe ewadarure .
+# text_por = Assim que os bororo fazem, os bororo falam, são as palavras dos bororo.
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	ero	ro	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	ainore	aino	ADV	adv	Mood=Ind	6	advmod	_	_
+5	boe	Boe	PROPN	propn	Number=Plur	6	nsubj	_	_
+6	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	_
+7	,	,	PUNCT	punct	_	6	punct	_	_
+8	Boe	Boe	PROPN	propn	Number=Plur	9	nsubj	_	_
+9	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	Morph=e=ako=re
+10	,	,	PUNCT	punct	_	9	punct	_	_
+11	boe	Boe	PROPN	propn	Number=Plur	12	nsubj	_	_
+12	ewadarure	bataru	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	_
+13	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = boe_ero_08_06
 # text = Arodo aino , akagodo aino .
@@ -819,6 +882,14 @@
 6	okwa	okwa	NOUN	n	_	2	obl	_	_
 7	to	to	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-to
 8	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = Jussila-18
+# text = Du erore oino .
+# text_por = E assim eles fizeram.
+# text_eng =
+1	Du	du	ADV	adv	_	2	advmod	_	_
+2	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+3	oino	oino	ADV	adv	_	2	advmod	_	_
 
 # sent_id = Jussila-19
 # text = Eture baru paru to etaregodure baru paru kae .
@@ -1238,6 +1309,475 @@
 12	adugo	adugo	NOUN	n	_	10	obl	_	_
 13	apo	apo	ADP	posp	Number=Plur|Person=3	12	case	_	_
 14	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = AdugoBiri-2.10#2
+# text = Ure icare areme emearudure Boe ekudu ji .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure icare areme emearudure boe ekudu ji .
+# text_por = Quando as mulheres escutam o grito dos Bororo.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
+2	icare	icare	ADV	adv	_	3	advmod	_	_
+3	areme	areme	NOUN	n	Number=Plur	4	nsubj	_	_
+4	emearudure	mearudu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+5	Boe	Boe	PROPN	propn	_	6	obl	_	_
+6	ekudu	kudu	NOUN	n	Number=Plur|Person=3	4	obl	_	_
+7	ji	ji	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-ji
+8	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = AdugoBiri-2.10#3
+# text = Areme egore baaa , paobe ekudu aregodu , paobe ekudu aregodu !
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Areme egore baaa , paobe ekudu aregodu , paobe ekudu aregodu !
+# text_por = As mulheres dizem: Ba! Está chegando o grito dos nossos parentes! Está chegando o grito dos nossos parentes! Ah! As mulheres correm para lá ao encontro deles.
+# text_eng =
+1	Areme	areme	NOUN	n	Number=Plur	2	nsubj	_	_
+2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+3	baaa	baaa	INTJ	intj	_	7	discourse	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	paobe	obe	NOUN	n	Clusivity=In|Number=Plur|Person=1	6	nmod	_	_
+6	ekudu	kudu	NOUN	n	Number=Plur|Person=3	7	nsubj	_	_
+7	aregodu	aregodu	VERB	v	Number=Sing|Person=3	2	ccomp	_	_
+8	,	,	PUNCT	punct	_	7	punct	_	_
+9	paobe	obe	NOUN	n	Clusivity=In|Number=Plur|Person=1	10	nmod	_	_
+10	ekudu	kudu	NOUN	n	Number=Plur|Person=3	11	nsubj	_	_
+11	aregodu	aregodu	VERB	v	Number=Sing|Person=3	7	parataxis	_	_
+12	!	!	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = AdugoBiri-2.10#4
+# text = A , areme eregodure toro , etaregodo etogi tu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = A , areme eregodure toro , etaregodo etogi tu .
+# text_por = Ah! As mulheres correm para lá ao encontro deles.
+# text_eng =
+1	A	a	INTJ	intj	_	4	discourse	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	areme	areme	NOUN	n	Number=Plur	4	nsubj	_	_
+4	eregodure	rekodu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+5	toro	toro	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	4	punct	_	_
+7	etaregodo	aregodu	VERB	v	Number=Plur|Person=3	4	parataxis	_	_
+8	etogi	togi	ADP	posp	Number=Plur|Person=3	7	obl	_	_
+9	tu	tu	ADV	adv	_	7	advmod	_	_
+10	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = AdugoBiri-2.10#5
+# text = Ure ca , icare nowu ure bitowu , ure adugo bitowu uce , uwie , koiare ure tudugu nowu adugo biri ji .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure ca , icare nowu ure bitowu , ure adugo bitowu uce , uwie , koiare ure tudugu nowu adugo biri ji .
+# text_por = Então a mãe, ou a irmã mais velha ou a irmã mais nova daquele que matou a onça pintada, carrega o couro.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	18	discourse	_	Morph=u=re
+2	ca	ca	INTJ	intj	_	1	discourse	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	icare	icare	ADV	adv	_	7	advmod	_	_
+5	nowu	nowu	DET	dem	Deixis=Med	7	det	_	_
+6	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	7	nsubj	_	Morph=u=re
+7	bitowu	bito	NOUN	n	Nomzr=Rel	1	appos	_	_
+8	,	,	PUNCT	punct	_	7	punct	_	_
+9	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	12	discourse	_	Morph=u=re
+10	adugo	adugo	NOUN	n	Number=Sing	11	nmod	_	_
+11	bitowu	bito	NOUN	n	Nomzr=Rel	12	nmod	_	_
+12	uce	ce	NOUN	n	Number=Sing|Person=3	7	conj	_	_
+13	,	,	PUNCT	punct	_	12	punct	_	_
+14	uwie	bie	NOUN	n	Number=Sing|Person=3	7	conj	_	_
+15	,	,	PUNCT	punct	_	14	punct	_	_
+16	koiare	koia	ADV	adv	Mood=Ind	18	advmod	_	_
+17	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	18	nsubj	_	Morph=u=re
+18	tudugu	tugu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+19	nowu	nowu	DET	dem	Deixis=Med	21	det	_	_
+20	adugo	adugo	NOUN	n	Number=Sing	21	nmod	_	_
+21	biri	biri	NOUN	n	_	18	obl	_	_
+22	ji	ji	ADP	posp	Number=Sing|Person=3	21	case	_	Morph=0-ji
+23	.	.	PUNCT	punct	_	18	punct	_	_
+
+# sent_id = AdugoBiri-2.10#6
+# text = Ca , Boe ekodure , Boe etaregodure baa to tu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ca , Boe ekodure , Boe etaregodure baa to tu .
+# text_por = Aí vão e chegam na aldeia.
+# text_eng =
+1	Ca	ca	INTJ	intj	_	4	advmod	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	Boe	Boe	PROPN	propn	Number=Plur	4	nsubj	_	_
+4	ekodure	kodu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	Boe	Boe	PROPN	propn	Number=Plur	7	nsubj	_	_
+7	etaregodure	aregodu	VERB	v	Mood=Ind|Number=Plur|Person=3	4	parataxis	_	_
+8	baa	baa	NOUN	n	_	7	obl	_	_
+9	to	to	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-to
+10	tu	tu	ADV	adv	_	7	advmod	_	_
+11	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = AdugoBiri-2.10#8
+# text = Ure bureagurudo ukudawu remawu ji pugeje tu , ca !
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure bureagurudo ukudawu remawu ji pugeje tu , ca !
+# text_por = Ele dança ao redor do dono do couro de novo.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	Morph=u=re
+2	bureagurudo	bureagurudo	VERB	v	Number=Sing|Person=3	0	root	_	_
+3	ukudawu	kudawu	NOUN	n	Number=Sing|Person=3	4	nmod	_	_
+4	remawu	rema	NOUN	n	Nomzr=Rel	2	obl	_	_
+5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji
+6	pugeje	pugeje	ADV	adv	_	2	advmod	_	_
+7	tu	tu	ADV	adv	_	2	advmod	_	_
+8	,	,	PUNCT	punct	_	2	punct	_	_
+9	ca	ca	INTJ	intj	_	2	discourse	_	_
+10	!	!	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = AdugoBiri-2.10#12
+# text = Ca , oreduje ure kodo baado , ca , ure adugo biri mugudo tu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ca , oreduje ure kodo baado , ca , ure adugo biri mugudo tu .
+# text_por = A mulher estende a esteira e coloca em cima o couro da onça pintada.
+# text_eng =
+1	Ca	ca	INTJ	intj	_	6	discourse	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	oreduje	oreduje	NOUN	n	Number=Sing|Person=3	4	dep	_	_
+4	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	6	nsubj	_	Morph=u=re
+5	kodo	kodo	NOUN	n	_	6	obj	_	_
+6	baado	baado	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+7	,	,	PUNCT	punct	_	6	punct	_	_
+8	ca	ca	INTJ	intj	_	6	discourse	_	_
+9	,	,	PUNCT	punct	_	6	punct	_	_
+10	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	13	nsubj	_	Morph=u=re
+11	adugo	adugo	NOUN	n	_	12	nmod	_	_
+12	biri	biri	NOUN	n	_	13	obj	_	_
+13	mugudo	mugu	VERB	v	Number=Sing|Person=3|Voice=Cau	6	parataxis	_	_
+14	tu	tu	ADV	adv	_	13	advmod	_	_
+15	.	.	PUNCT	punct	_	13	punct	_	_
+
+# sent_id = AdugoBiri-2.10#14
+# text = Ure uragodu akedure tu , ca , nono ere bapo maku maku pugeje .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure uragodu akedure tu , ca , nono ere bapo maku maku pugeje .
+# text_por = Quando termina o canto eles entregam de novo o chocalho.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
+2	uragodu	rakodu	NOUN	n	Number=Sing|Person=3	3	obj	_	_
+3	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	tu	tu	ADV	adv	_	3	advmod	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
+6	ca	ca	X	x	_	3	discourse	_	_
+7	,	,	PUNCT	punct	_	3	punct	_	_
+8	nono	nono	ADV	adv	_	11	advmod	_	_
+9	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	11	nsubj	_	Morph=e=re
+10	bapo	bapo	NOUN	n	Number=Sing|Person=3	11	obj	_	_
+11	maku	maku	VERB	vt	Number=Sing|Person=3	3	parataxis	_	Morph=0-maku
+12	maku	maku	VERB	vt	Number=Sing|Person=3	11	discourse	_	Morph=0-maku
+13	pugeje	pugeje	ADV	adv	_	11	advmod	_	_
+14	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = AdugoBiri-2.10#16
+# text = Ca , dukeje icare are Bakororo ika ko .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ca , dukeje icare are Bakororo ika ko .
+# text_por = Aí eles cantam o canto Bakororo Ika.
+# text_eng =
+1	Ca	ca	INTJ	intj	_	8	discourse	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	dukeje	dukeje	ADV	adv	_	8	advmod	_	_
+4	icare	icare	ADV	adv	_	8	advmod	_	_
+5	are	a	PRON	bi	Mood=Ind|Number=Sing|Person=2	8	nsubj	_	_
+6	Bakororo	Bakororo	PROPN	propn	_	8	obj	_	_
+7	ika	ika	NOUN	n	_	6	flat	_	_
+8	ko	ko	VERB	vt	_	0	root	_	_
+9	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = AdugoBiri-2.10#21
+# text = Ure ere Boe ero pemegado .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure ere Boe ero pemegado .
+# text_por = Eles faziam as coisas bem feitas.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	5	discourse	_	Morph=u=re
+2	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	5	nsubj	_	Morph=e=re
+3	Boe	Boe	PROPN	propn	Number=Plur	4	nmod	_	_
+4	ero	ro	VERB	v	Number=Plur|Person=3	5	obj	_	_
+5	pemegado	pemega	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+6	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = AdugoBiri-2.10#22
+# text = Boe ero moture , Boe ero kororogodure , Boe ero motudure .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Boe ero moture, Boe ero kororogodure , Boe ero motudure .
+# text_por = O costume dos Bororo era bonito, era perfeito, era bem solene.
+# text_eng =
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nmod	_	_
+2	ero	ro	VERB	v	Number=Plur|Person=3	3	nsubj	_	_
+3	moture	motu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	Boe	Boe	PROPN	propn	Number=Plur	6	nmod	_	_
+6	ero	ro	VERB	v	Number=Plur|Person=3	7	nsubj	_	_
+7	kororogodure	kororogodu	VERB	v	Mood=Ind|Number=Sing|Person=3	3	parataxis	_	_
+8	,	,	PUNCT	punct	_	7	punct	_	_
+9	Boe	Boe	PROPN	propn	Number=Plur	10	nmod	_	_
+10	ero	ro	VERB	v	Number=Plur|Person=3	11	nsubj	_	_
+11	motudure	motudu	VERB	v	Mood=Ind|Number=Sing|Person=3	3	parataxis	_	_
+12	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = AdugoBiri-2.10#23
+# text = Ure oino rema , oinore care Boe ero akedure , Boe ero bokware pugeje .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure oino rema , oinore care Boe ero akedure , Boe ero bokware pugeje .
+# text_por = Mas agora é assim, agora o costume dos Bororo já acabou. O costume Bororo já não existe mais.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	Morph=u=re
+2	oino	oino	ADV	adv	_	0	root	_	_
+3	rema	rema	AUX	aux	_	2	aux	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	oinore	oino	ADV	adv	Mood=Ind	9	advmod	_	Morph=oino=re
+6	care	care	ADV	adv	_	9	advmod	_	_
+7	Boe	Boe	PROPN	propn	Number=Plur	8	nmod	_	_
+8	ero	ro	VERB	v	Number=Plur|Person=3	9	nsubj	_	_
+9	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	2	parataxis	_	_
+10	,	,	PUNCT	punct	_	9	punct	_	_
+11	Boe	Boe	PROPN	propn	Number=Plur	12	nmod	_	_
+12	ero	ro	VERB	v	Number=Plur|Person=3	9	parataxis	_	_
+13	bokware	bokwa	AUX	aux	Mood=Ind|Polarity=Neg	12	aux	_	_
+14	pugeje	pugeje	ADV	adv	_	12	advmod	_	_
+15	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = AdugoBiri-2.10#24
+# text = Ure ca , dukeje icare eregodure ae , marenaruie keje pugeje : marenaruie , marenaruie , eigoia ...
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure ca , dukeje icare eregodure ae , marenaruie keje pugeje : marenaruie , marenaruie , eigoia .. .
+# text_por = Aí então eles correm no rumo dele, na hora do canto de Marenaruie: Mare... na... ru... ie... mare... na... ru... ie... ei... go... ia...
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	6	discourse	_	Morph=u=re
+2	ca	ca	INTJ	intj	_	6	discourse	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	dukeje	dukeje	ADV	adv	_	6	advmod	_	_
+5	icare	icare	ADV	adv	_	6	advmod	_	_
+6	eregodure	rekodu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+7	ae	ae	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ae
+8	,	,	PUNCT	punct	_	6	punct	_	_
+9	marenaruie	marenaruie	NOUN	n	_	6	obl	_	_
+10	keje	keje	ADP	posp	Number=Sing|Person=3	9	case	_	Morph=0-keje
+11	pugeje	pugeje	ADV	adv	_	6	advmod	_	_
+12	:	:	PUNCT	punct	_	6	punct	_	_
+13	marenaruie	marenaruie	NOUN	n	_	6	parataxis	_	_
+14	,	,	PUNCT	punct	_	13	punct	_	_
+15	marenaruie	marenaruie	NOUN	n	_	13	conj	_	_
+16	,	,	PUNCT	punct	_	15	punct	_	_
+17	eigoia	eigoia	NOUN	n	_	13	conj	_	_
+18	...	...	PUNCT	punct	_	17	punct	_	_
+
+# sent_id = AdugoBiri-2.10#30
+# text = Oinore Boe erore .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Oinore Boe erore .
+# text_por = Assim que os Bororo fazem .
+# text_eng =
+1	Oinore	oino	ADV	adv	Mood=Ind	3	advmod	_	Morph=oino=re
+2	Boe	Boe	PROPN	propn	Number=Plur	3	nsubj	_	_
+3	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = AdugoBiri-2.10#31
+# text = Ure mare awu inodu jire Kogure ako oino .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure mare awu inodu jire Kogure ako oino .
+# text_por = Mas é isto que Kogure (Formigão) está falando.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	7	nsubj	_	Morph=u=re
+2	mare	mare	CCONJ	cconj	_	7	cc	_	_
+3	awu	awu	DET	dem	Deixis=Prox	4	det	_	_
+4	inodu	inodu	NOUN	n	_	7	obl	_	_
+5	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	4	case	_	_
+6	Kogure	Kogure	PROPN	propn	_	7	dep	_	_
+7	ako	ako	VERB	v	_	0	root	_	_
+8	oino	oino	ADV	adv	_	7	advmod	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = AdugoBiri-2.10#32
+# text = Imagonure tu oino , paga tu je .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Imagonure tu oino , paga tu je .
+# text_por = Eu estou falando só por falar.
+# text_eng =
+1	Imagonure	mako	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	0	root	_	_
+2	tu	tu	ADV	adv	_	1	advmod	_	_
+3	oino	oino	ADV	adv	_	1	advmod	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	paga	paga	ADV	adv	_	1	discourse	_	_
+6	tu	tu	ADV	adv	_	5	advmod	_	_
+7	je	je	ADV	adv	_	6	flat	_	_
+8	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = AdugoBiri-2.10#34
+# text = Ure aidure paganure tu je , okearogu paganure tu je .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ure aidure paganure tu je , okearogu paganure tu je .
+# text_por = Ele interessa só por interessar, ele gosta só por gostar.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	Morph=u=re
+2	aidure	aidu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+3	paganure	paga	ADV	adv	Aspect=Prog|Mood=Ind	2	ccomp	_	_
+4	tu	tu	ADV	adv	_	3	flat	_	_
+5	je	je	ADV	adv	_	4	flat	_	_
+6	,	,	PUNCT	punct	_	3	punct	_	_
+7	okearogu	okea	NOUN	n	Degree=Dim	8	nsubj	_	_
+8	paganure	paga	ADV	adv	Aspect=Prog|Mood=Ind	3	conj	_	_
+9	tu	tu	ADV	adv	_	8	flat	_	_
+10	je	je	ADV	adv	_	9	flat	_	_
+11	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = AdugoBiri-2.10#35
+# text = Awu boe etore eeruduwo , boe etore emearuduwo , mare egowo oino karega .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Awu boe etore eeruduwo, boe etore emearuduwo , mare egowo oino karega .
+# text_por = Para as crianças verem, para as crianças escutarem, mas para elas falarem não é assim.
+# text_eng =
+1	Awu	awu	DET	dem	Deixis=Prox	3	det	_	_
+2	boe	boe	NOUN	n	_	3	nmod	_	_
+3	etore	etore	NOUN	n	Number=Plur	4	nsubj	_	_
+4	eeruduwo	jorudu	VERB	v	Mood=Sub|Number=Plur|Person=3	0	root	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	boe	boe	NOUN	n	_	7	nmod	_	_
+7	etore	etore	NOUN	n	Number=Plur	8	nsubj	_	_
+8	emearuduwo	mearudu	VERB	v	Mood=Sub|Number=Plur|Person=3	4	parataxis	_	_
+9	,	,	PUNCT	punct	_	8	punct	_	_
+10	mare	mare	CCONJ	cconj	_	12	cc	_	_
+11	egowo	ako	VERB	v	Mood=Sub|Number=Plur|Person=3	12	xcomp	_	_
+12	oino	oino	ADV	adv	_	4	conj	_	_
+13	karega	karega	AUX	aux	Mood=Ind|Polarity=Neg	12	aux	_	_
+14	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = AdugoBiri-2.10#38
+# text = Baraedu tuwadaru jire eeruduware , baraedu tumago jire eeruduware , kode eragodumoduka , egomodukare .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Baraedu tuwadaru jire eeruduware , baraedu tumago jire eeruduware , kode eragodumoduka , egomodukare. tamodukare kagado, tamodukare pemegado .
+# text_por = Eles só aprendem a língua dos brancos, só sabem a fala dos brancos, então eles não vão cantar, não vão falar em bororo.
+# text_eng =
+1	Baraedu	barae	NOUN	n	Number=Sgtv	4	nsubj	_	_
+2	tuwadaru	bataru	NOUN	n	Person=3|Reflex=Yes	4	obl	_	_
+3	jire	ji	ADP	posp	_	2	case	_	_
+4	eeruduware	joruduwa	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	baraedu	barae	NOUN	n	Number=Sgtv	9	nsubj	_	_
+7	tumago	mako	NOUN	n	Person=3|Reflex=Yes	9	obl	_	_
+8	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	7	case	_	_
+9	eeruduware	joruduwa	VERB	v	Mood=Ind|Number=Plur|Person=3	4	parataxis	_	_
+10	,	,	PUNCT	punct	_	9	punct	_	_
+11	kode	kode	ADV	adv	_	12	advmod	_	_
+12	eragodumoduka	rakodu	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	4	parataxis	_	_
+13	,	,	PUNCT	punct	_	12	punct	_	_
+14	egomodukare	ako	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	4	parataxis	_	_
+15	.	.	PUNCT	punct	_	14	punct	_	_
+
+# sent_id = AdugoBiri-2.10#42
+# text = Tamearudumode tu oino awu inodurogu ji tu je .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Tamearudumode tu oino awu inodurogu ji tu je .
+# text_por = E vocês vão escutar só essa coisinha.
+# text_eng =
+1	Tamearudumode	mearudu	VERB	v	Mood=Ind|Number=Plur|Person=2|Status=Irr	0	root	_	_
+2	tu	tu	ADV	adv	_	1	advmod	_	_
+3	oino	oino	ADV	adv	_	1	advmod	_	_
+4	awu	awu	DET	dem	Deixis=Prox	5	det	_	_
+5	inodurogu	inodu	NOUN	n	Degree=Dim	1	obl	_	_
+6	ji	ji	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-ji
+7	tu	tu	ADV	adv	_	1	advmod	_	_
+8	je	je	ADV	adv	_	7	flat	_	_
+9	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = AdugoBiri-2.10#45
+# text = Ire Cibae Tawadu kagado biegai , mare akedukare .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ire Cibae Tawadu kagado biegai, mare akedukare .
+# text_por = Eu ensinei para ele o Cibae Etawado mas ele não terminou. Ele não quis bem, ele não acabou.
+# text_eng =
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	4	nsubj	_	Morph=i=re
+2	Cibae	Cibae	PROPN	propn	_	4	obj	_	_
+3	Tawadu	Tawadu	PROPN	propn	_	2	flat	_	_
+4	kagado	kaga	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+5	biegai	biegai	ADP	posp	Number=Sing|Person=3	4	obl	_	_
+6	,	,	PUNCT	punct	_	4	punct	_	_
+7	mare	mare	CCONJ	cconj	_	8	cc	_	_
+8	akedukare	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Voice=Cau	4	conj	_	_
+9	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = AdugoBiri-2.10#46
+# text = Dukodire , imagonure tu oino Boe ereru ji , Boe ero ji , tu rugadu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Dukodire , imagonure tu oino Boe ereru ji , Boe ero ji, tu rugadu .
+# text_por = Por isso que estou falando assim: como é que os Bororo dançam, como é que os Bororo fazem, só isso.
+# text_eng =
+1	Dukodire	dukodi	ADV	adv	_	3	advmod	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	imagonure	mako	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	0	root	_	_
+4	tu	tu	ADV	adv	_	3	advmod	_	_
+5	oino	oino	ADV	adv	_	4	flat	_	_
+6	Boe	Boe	PROPN	propn	Number=Plur	7	nmod	_	_
+7	ereru	reru	NOUN	n	Number=Plur|Person=3	3	obl	_	_
+8	ji	ji	ADP	posp	Number=Sing|Person=3	7	case	_	Morph=0-ji
+9	,	,	PUNCT	punct	_	7	punct	_	_
+10	Boe	Boe	PROPN	propn	Number=Plur	11	nmod	_	_
+11	ero	ro	NOUN	n	Number=Plur|Person=3	7	conj	_	_
+12	ji	ji	ADP	posp	Number=Sing|Person=3	11	case	_	Morph=0-ji
+13	,	,	PUNCT	punct	_	11	punct	_	_
+14	tu	tu	ADV	adv	_	3	advmod	_	_
+15	rugadu	rugadu	ADV	adv	_	14	flat	_	_
+16	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = AdugoBiri-2.10#48
+# text = Ere biri porododu akedudo tu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ere biri porododu akedudo tu .
+# text_por = Eles terminam de furar o couro.
+# text_eng =
+1	Ere	e	PROPN	bi	Mood=Ind|Number=Plur|Person=3	4	nsubj	_	_
+2	biri	biri	NOUN	n	_	3	nmod	_	_
+3	porododu	poro	VERB	v	Number=Sing|Person=3|Voice=CauPass	4	obj	_	_
+4	akedudo	akedu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
+5	tu	tu	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = AdugoBiri-2.10#50
+# text = Mare tamearudumode tu oino .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Mare tamearudumode tu oino .
+# text_por = Mas vocês só vão escutar agora.
+# text_eng =
+1	Mare	mare	CCONJ	cconj	_	2	cc	_	_
+2	tamearudumode	mearudu	VERB	v	Mood=Ind|Number=Plur|Person=2|Status=Irr	0	root	_	_
+3	tu	tu	ADV	adv	_	2	advmod	_	_
+4	oino	oino	ADV	adv	_	3	flat	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = AdugoBiri-2.10#52
+# text = Awu akedu , barogo biri porododure oto pa reo .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Awu akedu , barogo biri porododure oto pa reo .
+# text_por = Aqui acaba , esse é o final do canto da furação do couro do bicho.
+# text_eng =
+1	Awu	awu	DET	dem	Deixis=Prox	2	det	_	_
+2	akedu	akedu	VERB	v	Number=Sing|Person=3	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	barogo	barogo	NOUN	n	_	5	nmod	_	_
+5	biri	biri	NOUN	n	_	6	nmod	_	_
+6	porododure	poro	NOUN	n	Mood=Ind|Number=Sing|Person=3|Voice=CauPass	7	nmod	_	_
+7	oto	oto	NOUN	n	_	8	nmod	_	_
+8	pa	pa	NOUN	n	_	2	parataxis	_	_
+9	reo	reo	AUX	aux	_	8	aux	_	_
+10	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = AdugoBiri-2.10#53
+# text = Bitoduredu , etaregoduredu , oto pa reo .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Bitoduredu , etaregoduredu , oto pa reo .
+# text_por = Quando o bicho é morto. Quando eles chegam, este é o final.
+# text_eng =
+1	Bitoduredu	bito	VERB	v	Mood=Ind|Number=Sing|Person=3|Voice=CauPass	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	etaregoduredu	aregodu	VERB	v	Mood=Ind|Number=Sing|Person=3|Voice=CauPass	1	parataxis	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	oto	oto	NOUN	n	_	6	nmod	_	_
+6	pa	pa	NOUN	n	_	1	parataxis	_	_
+7	reo	reo	AUX	aux	_	6	aux	_	_
+8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 1-1
 # text = Iedaga koiare ure ikie maku inai .
@@ -1930,6 +2470,25 @@
 8	maku	maku	VERB	vt	Number=Sing|Person=3	3	parataxis	_	Morph=0-maku
 9	.	.	PUNCT	punct	_	8	punct	_	_
 
+# sent_id = 21-1
+# text = Akore itore , itugarege , akore itaregodumode awu itaregodure oino kejeboe keje pugeje .
+# text_por = Disse: Meus filhos, meus guerreiros Disse Eu vou voltar a este lugar onde eu cheguei agora.
+# text_eng =
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	itore	itore	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	1	ccomp	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	itugarege	tugaregedu	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	2	conj	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	Morph=0-ako=re
+7	itaregodumode	aregodu	VERB	v	Mood=Ind|Status=Irr	6	ccomp	_	_
+8	awu	awu	DET	dem	Deixis=Prox	9	det	_	_
+9	itaregodure	aregodu	VERB	vi	Mood=Ind|Number=Sing|Person=1	7	obl	_	_
+10	oino	oino	ADV	adv	_	9	advmod	_	_
+11	kejeboe	kejeboe	NOUN	n	Number=Plur	7	obl	_	_
+12	keje	keje	ADP	posp	Number=Sing|Person=3	9	obl	_	Morph=0-keje
+13	pugeje	pugeje	ADV	adv	_	9	advmod	_	_
+14	.	.	PUNCT	punct	_	9	punct	_	_
+
 # sent_id = 21-2
 # text = Tagiwa rakado tajebae okori ji, tagiwa rakado jorubo okori ji, taeruduwo itaregodu ji pugeje .
 # text_por = Sejam fortes contra os sofrimentos, contra as doenças, para que possam ver a minha vinda de novo aqui.
@@ -2141,6 +2700,27 @@
 11	kae	kae	ADP	posp	Number=Sing|Person=3	10	case	_	Morph=0-kae
 12	.	.	PUNCT	punct	_	10	punct	_	_
 
+# sent_id = 26-2
+# text = Iere Pocorewu , ia Bororomanadoge eke pobo Boe emagare toro po corewu keje .
+# text_por = Chamava-se Poxoréu : Era o rio de um povo ruim. Tinha bastantes Bororo aí em Poxoréu.
+# text_eng =
+1	Iere	ie	NOUN	n	Number=Sing|Person=3	0	root	_	_
+2	Po	po	NOUN	n	_	1	nsubj	_	_
+3	corewu	co	NOUN	n	Mood=Ind|Nomzr=Rel	1	flat	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	ia	ia	DET	det	Definite=Ind|PronType=Art	8	det	_	_
+6	Bororomanadoge	Bororomana	NOUN	n	Number=Plur	8	nmod	_	_
+7	eke	ke	NOUN	n	Number=Plur|Person=3	8	nmod	_	_
+8	pobo	pobo	NOUN	n	_	1	appos	_	_
+9	,	,	PUNCT	punct	_	8	punct	_	_
+10	Boe	Boe	PROPN	propn	Number=Plur	11	nsubj	_	_
+11	emagare	maka	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	_
+12	toro	toro	ADV	adv	_	11	advmod	_	_
+13	po	po	NOUN	n	_	11	obl	_	_
+14	corewu	co	NOUN	n	Mood=Ind|Nomzr=Rel	13	nmod	_	_
+15	keje	keje	ADP	posp	Number=Sing|Person=3	13	case	_	Morph=0-keje
+16	.	.	PUNCT	punct	_	13	punct	_	_
+
 # sent_id = 27-1
 # text = Iture piji , ikodo pugeje jii ,  Arareiao Paru kae, ie remawu Meririabo .
 # text_por = Parti dali e dirigi-me para Arareiao Paru. O seu verdadeiro nome era Meririabo.
@@ -2321,6 +2901,21 @@
 1	Iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
 2	piji	piji	ADP	posp	Number=Sing|Person=3	1	obl	_	Morph=0-piji
 3	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 31-3#2
+# text = Cedure mato bakowu kae , cemeru tabo .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Cedure mato bakowu kae, cemeru tabo .
+# text_por = Viemos caçando para além do rio, caçando.
+# text_eng =
+1	Cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=tu=re
+2	mato	mato	ADV	adv	_	1	advmod	_	_
+3	bakowu	bakowu	NOUN	n	_	1	obl	_	_
+4	kae	kae	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-kae
+5	,	,	PUNCT	punct	_	1	punct	_	_
+6	cemeru	meru	NOUN	n	Clusivity=Ex|Number=Plur|Person=1	1	obl	_	_
+7	tabo	tabo	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-tabo
+8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 32-1
 # text = Cedaregodure Sangradouro kae .
@@ -2567,6 +3162,19 @@
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji
 6	!	!	PUNCT	punct	_	3	punct	_	_
 
+# sent_id = 42-4
+# text = Egore egídio , Natal ebore ro oino .
+# text_por = Disseram: está chegando com Egídio e Natal.
+# text_eng =
+1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+2	egídio	Egídio	PROPN	propn	_	6	nsubj	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	Natal	Natal	PROPN	propn	_	2	obl	_	_
+5	ebore	apo	ADP	posp	Mood=Ind|Number=Plur|Person=3	4	case	_	_
+6	ro	ro	VERB	v	Number=Sing|Person=3	1	ccomp	_	_
+7	oino	oino	ADV	adv	_	6	advmod	_	_
+8	.	.	PUNCT	punct	_	7	punct	_	_
+
 # sent_id = 43-2
 # text = Icare ikodumode ebo !
 # text_por = Então eu vou com eles!
@@ -2622,6 +3230,14 @@
 2	arugadu	rugadu	NOUN	n	Number=Sing|Person=2	1	ccomp	_	_
 3	!	!	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 45-1
+# text = akore marigu !
+# text_por = Ele disse Depressa.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	marigu	marigu	ADV	adv	_	1	ccomp	_	_
+3	!	!	PUNCT	punct	_	1	punct	_	_
+
 # sent_id = 45-2
 # text = Akodudo rugadu !
 # text_por = Vai mesmo!
@@ -2657,6 +3273,16 @@
 3	Meruri	Meruri	PROPN	propn	_	2	obl	_	_
 4	bogai	bogai	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-bogai
 5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 45-7#2
+# text = Ikodumode rugadu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = Ikodumode rugadu .
+# text_por = Eu vou mesmo.
+# text_eng =
+1	Ikodumode	kodu	VERB	v	Mood=Ind|Number=Sing|Person=1|Status=Irr	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 46-2
 # text = Inagore icare ikodumode awuge ebo Meruri to .
@@ -2991,6 +3617,20 @@
 9	tu	tu	ADV	adv	_	8	advmod	_	_
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
+# sent_id = 57-4
+# text = Iedadure boe co oia keje , iwiapagare tu .. .
+# text_por = No meio da noite eu acordei. Fiquei escutando...
+# text_eng =
+1	Iedadure	jetadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	boe	boe	NOUN	n	_	4	nmod	_	_
+3	co	co	NOUN	n	_	2	nmod	_	_
+4	oia	oia	NOUN	n	_	1	obl	_	_
+5	keje	keje	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-keje
+6	,	,	PUNCT	punct	_	1	punct	_	_
+7	iwiapagare	biapaga	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	_
+8	tu	tu	ADV	adv	_	7	advmod	_	_
+9	...	...	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = 57-6
 # text =  Makao akore kowa kowa kowa kowa !
 # text_por = O macauã estava cantando: cauã, cauã, cauã, cauã!
@@ -3035,6 +3675,20 @@
 3	baraedu	baraedu	NOUN	n	Number=Sgtv	4	nsubj	_	_
 4	jetadure	jetadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 58-3
+# text = Ure akedudo dukejere akore taregodumode boidoge ewogai .
+# text_por = Depois que acabou disse: vocês vão campear os bois.
+# text_eng =
+1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	2	nsubj	_	Morph=u=re
+2	akedudo	akedu	VERB	vt	Number=Sing|Person=3|Voice=Cau	5	nsubj	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	dukejere	dukeje	ADV	adv	Mood=Ind	2	mark	_	Morph=du=keje=re
+5	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+6	taregodumode	aregodu	VERB	v	Mood=Ind|Number=Plur|Person=2|Status=Irr	5	ccomp	_	_
+7	boidoge	boi	NOUN	n	Number=Plur	6	obl	_	_
+8	ewogai	bogai	ADP	posp	Number=Plur|Person=3	7	case	_	_
+9	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 59-1
 # text = Icare akore tamagodo jewu índio ae .
@@ -3090,6 +3744,21 @@
 4	je	je	ADV	adv	_	3	flat	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 61-4
+# text = Ire imegido ... taci , ire iragojedo ... taci .
+# text_por = Virei-me e depois pulei em pé.
+# text_eng =
+1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	Morph=i=re
+2	imegido	megi	VERB	v	Number=Sing|Person=1|Voice=Cau	0	root	_	_
+3	...	...	PUNCT	punct	_	2	punct	_	_
+4	taci	taci	ADV	adv	_	2	advmod	_	_
+5	,	,	PUNCT	punct	_	2	punct	_	_
+6	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	7	nsubj	_	Morph=i=re
+7	iragojedo	rakoje	VERB	v	Number=Sing|Person=1|Voice=Cau	2	parataxis	_	_
+8	...	...	PUNCT	punct	_	7	punct	_	_
+9	taci	taci	ADV	adv	_	7	advmod	_	_
+10	.	.	PUNCT	punct	_	7	punct	_	_
+
 # sent_id = 62-1
 # text = Icare iture toro etae .
 # text_por = Depois dirigi-me até eles.
@@ -3107,6 +3776,24 @@
 1	Ikodo	kodo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	kuri	kuri	ADV	adv	_	1	advmod	_	_
 3	...	...	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 62-3
+# text = inagore madia , egore madia , egore pobo corewurogu reo , aku !
+# text_por = E disseram Aqui o cafezinho.
+# text_eng =
+1	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	madia	madia	X	x	Number=Sing|Person=1	1	ccomp	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	Morph=e=ako=re
+5	madia	madia	X	x	_	4	ccomp	_	_
+6	,	,	PUNCT	punct	_	4	punct	_	_
+7	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	Morph=e=ako=re
+8	pobo	pobo	NOUN	n	_	7	ccomp	_	_
+9	corewurogu	co	NOUN	n	Degree=Dim|Mood=Ind|Nomzr=Rel	8	nmod	_	_
+10	reo	reo	AUX	x	_	8	aux	_	_
+11	,	,	PUNCT	punct	_	8	punct	_	_
+12	aku	ku	VERB	v	Number=Sing|Person=2	8	parataxis	_	_
+13	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 62-5
 # text = Icare ikudure .
@@ -3293,6 +3980,15 @@
 2	ei	ji	ADP	posp	Number=Plur|Person=3	1	obl	_	Morph=e=ji
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
+# sent_id = 66-4
+# text = Care egore iorubodare !
+# text_por = Então eles disseram: Cunhado!
+# text_eng =
+1	Care	care	ADV	adv	_	2	advmod	_	_
+2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+3	iorubodare	jorubodare	NOUN	n	Number=Sing|Person=1	2	ccomp	_	_
+4	!	!	PUNCT	punct	_	3	punct	_	_
+
 # sent_id = 66-6
 # text = Egore akokwage kuriiagu , akudu kuriiagu kape ce .
 # text_por =  Disseram que é para você comer bastante e beber bastante café.
@@ -3411,6 +4107,20 @@
 8	tabo	tabo	ADP	posp	Number=Sing|Person=3	7	case	_	Morph=0-tabo
 9	.	.	PUNCT	punct	_	6	punct	_	_
 
+# sent_id = 69-2
+# text = Awu maku ai , uwo awu reko toro .
+# text_por = Entreguem isto para ele, para ele levar.
+# text_eng =
+1	Awu	awu	DET	dem	Deixis=Prox	2	obj	_	_
+2	maku	maku	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-maku
+3	ai	ji	ADP	posp	Number=Sing|Person=2	2	obl	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	uwo	u	PRON	bi	Mood=Sub|Number=Sing|Person=3	7	nsubj	_	_
+6	awu	awu	DET	dem	Deixis=Prox	7	obj	_	_
+7	reko	reko	VERB	vt	Number=Plur|Person=3	2	parataxis	_	_
+8	toro	toro	ADV	adv	_	7	advmod	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
+
 # sent_id = 69-5
 # text = Aiagu awu reko .
 # text_por = Que é para você levar isto.
@@ -3419,6 +4129,20 @@
 2	awu	awu	DET	dem	Deixis=Prox	3	obj	_	_
 3	reko	reko	VERB	vt	_	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 69-6
+# text = Inagore Imodukare reko , tamode ikidogo ii tabo !
+# text_por = Eu estou com muita raiva. Vocês vão fazer eu atirar em mim com ele!
+# text_eng =
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Imodukare	i	PRON	bi	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	3	nsubj	_	_
+3	reko	reko	VERB	vt	Number=Sing|Person=3	1	ccomp	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	tamode	ta	PRON	bi	Number=Plur|Person=2	6	nsubj	_	_
+6	ikidogo	itogo	VERB	v	Number=Sing|Person=1	3	parataxis	_	_
+7	ii	ji	ADP	posp	Number=Sing|Person=1	6	obl	_	Morph=i=ji
+8	tabo	tabo	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-tabo
+9	!	!	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 69-7
 # text = Boe kori remawunure ii .
@@ -3674,6 +4398,26 @@
 3	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	1	parataxis	_	Morph=0-ako=re
 4	o	o	INTJ	intj	_	3	ccomp	_	_
 5	!	!	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 77-7
+# text = akore iage ewogwa kimo .
+# text_por = Ainda faltam mais.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	iage	ia	DET	art	Definite=Ind|Number=Plur|PronType=Art	1	ccomp	_	_
+3	ewogwa	bokwa	AUX	aux	Number=Plur|Person=3|Polarity=Neg	2	aux	_	_
+4	kimo	kimo	ADV	adv	_	2	advmod	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 78-1
+# text = akore akaregodumode ewogai pugeje ?
+# text_por = Ele disse: você vai de novo procurá-los?
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	akaregodumode	aregodu	VERB	v	Mood=Ind|Number=Sing|Person=2|Status=Irr	1	ccomp	_	_
+3	ewogai	bogai	ADP	posp	Number=Plur|Person=3	2	obl	_	_
+4	pugeje	pugeje	ADV	adv	_	2	advmod	_	_
+5	?	?	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 78-3
 # text = Iregodumode ewogai pugeje .
@@ -4006,6 +4750,20 @@
 9	ji	ji	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-ji
 10	.	.	PUNCT	punct	_	4	punct	_	_
 
+# sent_id = 86-5
+# text = Awu tori jire boe egore Tori Kurirewu ino .
+# text_por = E acrescentou: os brancos o chamam Paredão, assim.
+# text_eng =
+1	Awu	awu	DET	dem	Deixis=Prox	2	det	_	_
+2	tori	tori	NOUN	n	_	5	dislocated	_	_
+3	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=1	2	obl	_	_
+4	boe	boe	NOUN	n	Number=Sing	5	nsubj	_	_
+5	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+6	Tori	tori	NOUN	n	_	5	nsubj	_	_
+7	Kurirewu	roia	NOUN	n	Mood=Ind|Nomzr=Rel	6	punct	_	_
+8	ino	o	NOUN	n	Number=Sing|Person=1	5	parataxis	_	_
+9	.	.	PUNCT	punct	_	5	punct	_	_
+
 # sent_id = 86-6
 # text = akore barae egore Paredão , Paredão oino ji .
 # text_por = hum!
@@ -4145,6 +4903,19 @@
 7	ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	1	parataxis	_	Morph=ema
 8	rugadu	rugadu	ADV	adv	_	7	flat	_	_
 9	!	!	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 89-1
+# text = akore awu jire Boe egore Luiz Corewu .
+# text_por = Ele disse Este fazendeiro é chamado Luiz Preto.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	awu	awu	PRON	pron	PronType=Dem	5	obl	_	_
+3	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	_
+4	Boe	Boe	PROPN	propn	Number=Plur	5	nsubj	_	_
+5	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	1	ccomp	_	Morph=e=ako=re
+6	Luiz	Luiz	PROPN	propn	_	5	ccomp	_	_
+7	Corewu	Corewu	PROPN	propn	_	6	flat	_	_
+8	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 89-2
 # text = Akore Boe egore Luiz Birico , Luiz Birico , oino ; akore nonore pabadumode .
@@ -4470,6 +5241,14 @@
 2	pugeje	pugeje	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
+# sent_id = 97-1
+# text = akore paburedugodunure !
+# text_por = Ele disse Estamos nos aproximando.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	paburedugodunure	buredu	VERB	v	Aspect=IncProg|Clusivity=In|Mood=Ind|Number=Plur|Person=1	1	ccomp	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = 98-1
 # text = Care cegodo mato jii nowu boe ao kae .
 # text_por = Ai viemos no rumo daquela elevação.
@@ -4607,6 +5386,17 @@
 3	oia	oia	NOUN	n	_	0	root	_	_
 4	kejegodu	keje	ADP	posp	Aspect=Inc	3	case	_	_
 5	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 109-1
+# text = Iparedure imi , imedure imi .
+# text_por = Eu era rapaz, era já homem.
+# text_eng =
+1	Iparedure	iapredu	NOUN	n	Mood=Ind|Number=Sing	0	root	_	_
+2	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	imedure	imedu	NOUN	n	Mood=Ind|Number=Sing|Person=1	1	parataxis	_	_
+5	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 110-3
 # text = Imearudae moture, dukodire itaregodu moture woe Meruri kae .
@@ -4809,6 +5599,15 @@
 2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 131-1
+# text = akore amaragodu butugudo !
+# text_por = Ele disse: Trabalhe com calma!
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	amaragodu	maragodu	VERB	v	Mood=Imp|Number=Sing|Person=2	1	ccomp	_	_
+3	butugudo	butugudo	ADV	adv	_	2	advmod	_	_
+4	!	!	PUNCT	punct	_	1	punct	_	_
+
 # sent_id = 131-2
 # text = Amode akogodudo .
 # text_por = Você vai ficar doente.
@@ -4823,6 +5622,17 @@
 # text_eng =
 1	Ikogodumodukare	kogodu	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Status=Irr	0	root	_	_
 2	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 131-9
+# text = akore amearudure meriri kudu ji ?
+# text_por = Disse: você escutou bater o sino?
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	amearudure	mearudu	VERB	v	Mood=Ind|Number=Sing|Person=2	1	ccomp	_	_
+3	meriri	meriri	NOUN	n	_	4	nmod	_	_
+4	kudu	kudu	NOUN	n	_	2	obl	_	_
+5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji
+6	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 131-10
 # text = Inagore boro !
@@ -4865,6 +5675,14 @@
 5	bogai	bogai	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-bogai
 6	pugeje	pugeje	ADV	adv	_	4	advmod	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 132-5
+# text = akore Akamudo .
+# text_por = Ele disse Descanse.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	Akamudo	amudo	VERB	v	Number=Sing|Person=2	1	ccomp	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 133-1
 # text = Icare iture .
@@ -5085,6 +5903,16 @@
 2	inoba	inoba	PRON	pron	PronType=Int	3	obj	_	_
 3	paromode	ro	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	1	ccomp	_	_
 4	?	?	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 156-3
+# text = Egore padurumode ore rekodaji .
+# text_por = Eles responderam Vamos ir atrás das coisas dele. Nós já levamos os pertences dele. Eu perguntei Aonde?
+# text_eng =
+1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+2	padurumode	tu	VERB	vi	Clusivity=In|Emph=Yes|Mood=Ind|Number=Plur|Person=1|Status=Irr	1	ccomp	_	_
+3	ore	ore	NOUN	n	Number=Sing|Person=3	2	obl	_	_
+4	rekodaji	rekodaji	ADP	posp	_	3	case	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 158-1
 # text = Icare cedure .
@@ -5393,6 +6221,24 @@
 13	etae	ae	ADP	posp	Number=Plur|Person=3	12	case	_	_
 14	.	.	PUNCT	punct	_	12	punct	_	_
 
+# sent_id = 278-3
+# text = Ere tudo turugadu, ere tugujagudo , ere aroe eerubo tugu tudo .
+# text_por = Eles se prepararam, se pintaram, se passaram remédio.
+# text_eng =
+1	Ere	ere	PRON	bi	Mood=Ind|Number=Plur|Person=3	3	nsubj	_	_
+2	tudo	to	ADP	posp	Person=3|Reflex=Yes	3	obl	_	_
+3	turugadu	rugadu	ADV	adv	Reflex=Yes	0	root	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	6	nsubj	_	Morph=e=re
+6	tugujagudo	kujagu	VERB	v	Person=3|Reflex=Yes|Voice=Cau	3	parataxis	_	_
+7	,	,	PUNCT	punct	_	6	punct	_	_
+8	ere	ere	PRON	bi	Number=Plur|Person=3	11	nsubj	_	_
+9	aroe	aroe	NOUN	n	_	10	nmod	_	_
+10	eerubo	jorubo	NOUN	n	Number=Plur|Person=3	11	obj	_	_
+11	tugu	tugu	VERB	v	Number=Sing|Person=3	3	parataxis	_	Morph=0-tugu
+12	tudo	to	ADP	posp	Person=3|Reflex=Yes	11	obl	_	_
+13	.	.	PUNCT	punct	_	11	punct	_	_
+
 # sent_id = 278-5
 # text = Icare eture mato .
 # text_por = Depois eles viream para cá.
@@ -5435,6 +6281,60 @@
 8	ji	ji	ADP	posp	Number=Sing|Person=3	4	conj	_	Morph=0-ji
 9	ji	ji	ADP	posp	Number=Sing|Person=3	4	conj	_	Morph=0-ji
 10	...	...	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 279-4
+# text = Nowu aroe maiwu utumode mato .
+# text_por = Aí ia chegar a alma nova.
+# text_eng =
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	_
+2	aroe	aroe	NOUN	n	Number=Plur	4	nsubj	_	_
+3	maiwu	mai	NOUN	n	_	2	nmod	_	_
+4	utumode	tu	VERB	vi	Mood=Ind|Number=Sing|Person=3|Status=Irr	0	root	_	_
+5	mato	mato	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 279-5
+# text = pobo kejere nowu powari ako Oino nowu aroe maiwu bogai .
+# text_por = A cabacinha cantava na água para a alma nova .
+# text_eng =
+1	pobo	pobo	NOUN	n	_	5	dislocated	_	_
+2	kejere	keje	ADP	posp	_	1	case	_	_
+3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	_
+4	powari	powari	NOUN	n	_	5	obj	_	_
+5	ako	ako	VERB	v	Number=Sing|Person=3	0	root	_	_
+6	Oino	oino	ADV	adv	_	5	advmod	_	_
+7	nowu	nowu	DET	dem	Deixis=Med	8	det	_	_
+8	aroe	aroe	NOUN	n	Number=Plur	5	obl	_	_
+9	maiwu	mai	NOUN	n	Nomzr=Rel	8	nmod	_	_
+10	bogai	bogai	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-bogai
+11	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = 279-8
+# text = Nowu parira akomode tu , nowu powari akomode tu dukeje , icare utumode akomode gae , tudu tabo , nabure ego reore .
+# text_por = E quando a cabacinha cantar e a flauta tocar, aí ela virá, dizendo gae enquanto chega, igual ao som da arara vermelha.
+# text_eng =
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	_
+2	parira	parira	NOUN	n	_	3	nsubj	_	_
+3	akomode	ako	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	13	advcl	_	_
+4	tu	tu	ADV	adv	_	3	advmod	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
+6	nowu	nowu	DET	dem	Deixis=Med	7	det	_	_
+7	powari	powari	NOUN	n	_	8	nsubj	_	_
+8	akomode	ako	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	3	parataxis	_	_
+9	tu	tu	ADV	adv	_	8	advmod	_	_
+10	dukeje	dukeje	ADV	adv	_	3	mark	_	_
+11	,	,	PUNCT	punct	_	3	punct	_	_
+12	icare	icare	ADV	adv	_	13	advmod	_	_
+13	utumode	u	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	0	root	_	_
+14	akomode	ako	VERB	v	Mood=Ind|Number=Sing|Person=3|Status=Irr	13	parataxis	_	_
+15	gae	gae	X	x	_	14	ccomp	_	_
+16	,	,	PUNCT	punct	_	13	punct	_	_
+17	tudu	tu	NOUN	n	Person=3|Reflex=Yes	13	obl	_	_
+18	tabo	tabo	ADP	posp	Number=Sing|Person=3	17	case	_	Morph=0-tabo
+19	,	,	ADP	posp	Number=Sing|Person=3	17	case	_	_
+20	nabure	tabo	NOUN	n	Number=Sing|Person=3	21	nmod	_	_
+21	ego	ako	NOUN	n	Number=Sing|Person=3	22	nsubj	_	_
+22	reore	reo	VERB	v	Number=Sing|Person=3	13	parataxis	_	_
 
 # sent_id = 279-12
 # text = Nowu powari , nowu parira ako paru to .
@@ -5738,6 +6638,15 @@
 2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
+# sent_id = 337-1
+# text = Ia akore Uu !
+# text_por = Um deles disse Sim!
+# text_eng =
+1	Ia	ia	DET	det	Definite=Ind|PronType=Art	2	nsubj	_	_
+2	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+3	Uu	uu	PART	prcl	_	2	ccomp	_	_
+4	!	!	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = 338-7
 # text = Ema rugadu .
 # text_por = Respondeu Sim!
@@ -6025,6 +6934,18 @@
 1	ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	0	root	_	Morph=ema
 2	rugadu	rugadu	ADV	adv	_	1	flat	_	_
 3	!	!	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 367-5
+# text = Inagore Ema rugadu , ema rugadu .
+# text_por =
+# text_eng =
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	1	advmod	_	Morph=ema
+3	rugadu	rugadu	ADV	adv	_	2	flat	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	ema	ema	PRON	pron	Number=Sing|Person=1|PronType=Prs	2	conj	_	Morph=ema
+6	rugadu	rugadu	ADV	adv	_	5	flat	_	_
+7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 369-2
 # text = Akore iwagedu !
@@ -6780,6 +7701,15 @@
 3	imere	ime	NOUN	n	Mood=Ind|Number=Plur	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
+# sent_id = 450-1
+# text = Nowu roia akedure .
+# text_por =
+# text_eng =
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	_
+2	roia	roia	NOUN	n	_	3	nsubj	_	_
+3	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
 # sent_id = 450-2
 # text = Boe jamedu boe akedure dukeje icare iture pugeje , imugure toro boe pa keje .
 # text_por = Fui de novo, depois que todos acabaram, fiquei lá na roça.
@@ -7072,6 +8002,18 @@
 2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 476-13
+# text = Icare iture toro, Igreja to .
+# text_por = Depois eu fui na Igreja
+# text_eng =
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
+3	toro	toro	ADV	adv	_	2	advmod	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	Igreja	igreja	NOUN	n	_	2	obl	_	_
+6	to	to	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-to
+7	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = 476-14
 # text = Imugure tu ...
 # text_por = iquei um aí um tempo.
@@ -7116,6 +8058,56 @@
 3	aroia	ro	NOUN	n	Number=Sing|Person=2	1	ccomp	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-ji
 5	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 478-5
+# text = Akore ica , akerogu reo .
+# text_por = Ele disse: eis aqui a sua comidinha.
+# text_eng =
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	ica	ica	INTJ	intj	_	4	discourse	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	akerogu	ke	NOUN	n	Degree=Dim|Number=Sing|Person=2	1	ccomp	_	_
+5	reo	reo	AUX	aux	_	4	aux	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 479-10
+# text = ire aeruduiwado awara pegarewu ji .
+# text_por = eu ensinei também para você qual é a estrada ruim.
+# text_eng =
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	Morph=i=re
+2	aeruduiwado	joruduiwa	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+3	awara	awara	NOUN	n	_	2	obl	_	_
+4	pegarewu	pega	NOUN	n	Mood=Ind|Nomzr=Rel	3	nmod	_	_
+5	ji	ji	ADP	posp	_	3	case	_	Morph=0-ji
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 479-12
+# text = Ema rugadu, ema rugadu, ema rugadu !
+# text_por = Sim!
+# text_eng =
+1	Ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	1	parataxis	_	_
+5	rugadu	rugadu	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	1	parataxis	_	_
+8	rugadu	rugadu	ADV	adv	_	7	advmod	_	_
+9	!	!	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 481-7
+# text = Ema rugadu, ema rugadu, ema rugadu !
+# text_por = Isso mesmo, isso mesmo, isso mesmo!
+# text_eng =
+1	Ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	1	parataxis	_	_
+5	rugadu	rugadu	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	ema	ema	PRON	pron	Number=Sing|Person=3|PronType=Prs	1	parataxis	_	_
+8	rugadu	rugadu	ADV	adv	_	7	advmod	_	_
+9	!	!	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 482-2
 # text = Ire itamudo tu .
@@ -7877,6 +8869,12 @@
 2	cedaregodure	aregodu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=are=godu=re
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 570-16
+# text = akore
+# text_por = Olhamos para ele e dissemos Sim!
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+
 # sent_id = 573-1
 # text = Icare cedure .
 # text_por = Depois fomos embora.
@@ -7991,6 +8989,17 @@
 7	jururu	jururu	X	x	_	6	conj	_	_
 8	jururu	jururu	X	x	_	6	conj	_	_
 9	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 581-6
+# text = Icare ire itugu ekuda pugeje .
+# text_por = Aí eu os carreguei de novo.
+# text_eng =
+1	Icare	icare	ADV	adv	_	3	advmod	_	_
+2	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	3	nsubj	_	Morph=i=re
+3	itugu	tugu	VERB	v	Number=Sing|Person=1	0	root	_	_
+4	ekuda	kuda	ADP	posp	Number=Plur|Person=3	3	obl	_	_
+5	pugeje	pugeje	ADV	adv	_	3	advmod	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 581-8
 # text = Kare rorewuge , kare moturewuge etawadu !
@@ -8170,6 +9179,22 @@
 5	cewoadaerogu	boadae	NOUN	n	Clusivity=Ex|Degree=Dim|Number=Plur|Person=1	1	obl	_	_
 6	kae	kae	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-kae
 7	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 606-20
+# text = Nowu barae eno dama, barae eno baraio jire cewoadure .
+# text_por = O que jogávamos era dama e baralho.
+# text_eng =
+1	Nowu	nowu	DET	dem	Deixis=Med	3	det	_	_
+2	barae	barae	NOUN	n	Number=Plur	3	nmod	_	_
+3	eno	o	NOUN	n	Number=Plur|Person=3	10	obl	_	_
+4	dama	dama	NOUN	n	_	3	appos	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	barae	barae	NOUN	n	Number=Plur	7	nmod	_	_
+7	eno	o	NOUN	n	Number=Plur|Person=3	3	conj	_	_
+8	baraio	baraio	NOUN	n	_	7	appos	_	_
+9	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	7	case	_	_
+10	cewoadure	boadu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+11	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 607-2
 # text = Akore taragodumode oino , Xavantedoge eragodumode oino .
@@ -8573,6 +9598,18 @@
 4	keje	keje	ADP	posp	_	3	case	_	Morph=0-keje
 5	tu	tu	ADV	adv	_	2	advmod	_	_
 6	...	...	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 684-8
+# text = Imagokare , mare iwabore makore itada .
+# text_por = Eu não falava. Mas era o meu coração que falava dentro de mim.
+# text_eng =
+1	Imagokare	mako	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	mare	mare	CCONJ	cconj	_	5	cc	_	_
+4	iwabore	bapo	NOUN	n	Number=Sing|Person=1	5	nsubj	_	_
+5	makore	mako	VERB	v	Mood=Ind|Number=Sing|Person=3	1	conj	_	Morph=0-mako=re
+6	itada	itada	ADP	posp	Number=Sing|Person=1	5	obl	_	_
+7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 684-12
 # text = Dutabore imugure tu , dutabore itaiwore tu ei , eroi tuwoadu tabo duji , nowu damarogu ji .
@@ -9300,6 +10337,15 @@
 2	cedure	tu	VERB	vi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=tu=re
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 791-10
+# text = Egore boe jokodu !
+# text_por = Tinha peixe para as Irmãs e para os Bororo.
+# text_eng =
+1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+2	boe	Boe	PROPN	propn	Number=Plur	3	dep	_	_
+3	jokodu	jokodu	NOUN	n	_	1	ccomp	_	_
+4	!	!	PUNCT	punct	_	1	punct	_	_
+
 # sent_id = 791-11
 # text = Boe jokodu !
 # text_por = E tinha peixe para as almas das crianças desdentadas.
@@ -9706,6 +10752,16 @@
 4	kae	kae	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-kae
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = 865-1
+# text = Icare egore Pamagurumode pugeje .
+# text_por = Numa outra vez disseram Vamos passear de novo.
+# text_eng =
+1	Icare	icare	ADV	adv	_	2	advmod	_	_
+2	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
+3	Pamagurumode	maguru	VERB	v	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	2	ccomp	_	_
+4	pugeje	pugeje	ADV	adv	_	3	advmod	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	_
+
 # sent_id = 865-3
 # text = Nowu padre akore pamaguruwo pugeje .
 # text_por = O Pe. disse que é para nós passearmos de novo.
@@ -9961,6 +11017,14 @@
 6	kuri	kuri	X	x	_	5	flat	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
+# sent_id = 873-4
+# text = Inagore Iedaga !
+# text_por = Aonde está?
+# text_eng =
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Iedaga	edaga	NOUN	n	Number=Sing|Person=1	1	vocative	_	_
+3	!	!	PUNCT	punct	_	1	punct	_	_
+
 # sent_id = 873-5.1
 # text = Akore okwaru !
 # text_por = Ele disse Aqui.
@@ -10004,6 +11068,14 @@
 2	toro	toro	ADV	adv	_	1	advmod	_	_
 3	tu	tu	ADV	adv	_	1	advmod	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 873-14
+# text = Inagore Wo !
+# text_por =
+# text_eng =
+1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
+2	Wo	wo	INTJ	intj	_	1	ccomp	_	_
+3	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 874-1
 # text = Akore nonore amugure tu je, ikiwaigoduwo ae .
@@ -10139,6 +11211,14 @@
 11	metuia	metuia	NOUN	n	_	10	flat	_	_
 12	bokware	bokwa	AUX	aux	Mood=Ind|Polarity=Neg	11	flat	_	_
 13	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = 894-5
+# text = Cemagore Uu !
+# text_por = É verdade!
+# text_eng =
+1	Cemagore	mako	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
+2	Uu	uu	PART	prcl	_	1	ccomp	_	_
+3	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 894-6
 # text = Boe jokodu , boe jokodu !
@@ -10476,6 +11556,17 @@
 1	Icare	icare	ADV	adv	_	2	advmod	_	_
 2	iture	tu	VERB	vi	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=tu=re
 3	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 932-8
+# text = Nowu Boe emago emagore ii .
+# text_por = Os Bororos falaram muito comigo.
+# text_eng =
+1	Nowu	nowu	DET	dem	Deixis=Med	2	det	_	_
+2	Boe	Boe	PROPN	propn	Number=Plur	3	nsubj	_	_
+3	emago	mako	VERB	v	Number=Plur|Person=3	0	root	_	_
+4	emagore	mako	VERB	v	Mood=Ind|Number=Plur|Person=3	3	discourse	_	_
+5	ii	ji	ADP	posp	Number=Sing|Person=1	3	obl	_	Morph=i=ji
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 932-16
 # text = Imagokare .
@@ -15955,6 +17046,16 @@
 3	to	to	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-to
 4	ai	ji	ADP	posp	Number=Sing|Person=2	3	obl	_	_
 5	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = dic_0271#2
+# text = ire iwu .
+# text_note = reconstruído a partir das formas (fragmento separado da sentença anterior)
+# text = ire iwu .
+# text_por = eu me deitei.
+# text_eng =
+1	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	2	nsubj	_	Morph=i=re
+2	iwu	bu	VERB	v	Number=Sing|Person=1|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0285
 # text = iwuogugodunure .
