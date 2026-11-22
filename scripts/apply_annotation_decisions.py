@@ -6,6 +6,8 @@ Decisões (ver docs/ANNOTATION_GUIDE.md):
      acepções é singular e NOUN. Regra mecânica aplicada só onde não há
      ambiguidade: NOUN + Number=Plur → PROPN; PROPN + Number=Sing → NOUN.
      Tokens sem Number ficam para revisão (listados no log com regra "boe_review").
+     Desde 22/11/2026 as formas exatas "Boe" e "boe" seguem a caixa
+     (scripts/apply_orthography_decisions.py): Boe = PROPN Plur, boe = NOUN Sing.
   2. Sufixo -go = causativo-incoativo: Voice=CauI e Voice=IncCau → Voice=CauInc.
   3. XPOS de conjunção coordenativa unificado em `cconj` (era `conj` / `cconj`).
 

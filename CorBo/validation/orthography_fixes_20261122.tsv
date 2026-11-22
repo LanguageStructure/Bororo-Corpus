@@ -1,0 +1,596 @@
+sent_id	token	kind	before	after
+boe_ero_01_02	5	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_14	7	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_14-2		reticencias	.	.
+boe_ero_01_18-2		reticencias	.	...
+boe_ero_01_21	4	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_01_22		reticencias	. . .	...
+boe_ero_01_23	9	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_23		reticencias	. . .	...
+boe_ero_01_30		reticencias	. . .	...
+boe_ero_01_33	9	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_34		reticencias	. . . .	. ...
+boe_ero_01_35	10	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_36		reticencias	. . . . . .	. . . ...
+boe_ero_01_37	11	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_37		reticencias	. . . . . . .	. . ... . .
+boe_ero_01_38		reticencias	. . . . . . . .	. . . . ... ...
+boe_ero_01_41	5	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_01_42		reticencias	. . . . . . .	... ... .
+boe_ero_02_04	7	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_02_05		reticencias	.	...
+boe_ero_02_22		reticencias	. . . . .	... . .
+boe_ero_02_24		reticencias	. . .	...
+boe_ero_02_33-2	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_02_34	15	boe	"boe	_	_	_	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_02_36	5	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_02_36	11	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_02_43	2	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_02	2	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_02	6	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_03	7	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_03	15	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_05	6	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_06	12	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_11	6	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_11	11	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_23	2	boe	"Boe	boe	PROPN	propn	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_25	18	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_26	25	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_03_33	6	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_37	2	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_03_37	6	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_01	13	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_02	5	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_04_12	7	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_12		reticencias	. . . . .	. . ...
+boe_ero_04_17	4	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_19	29	boe	"boe	Boe	PRON	pron	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_22	6	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_04_22		reticencias	. . . .	. ...
+boe_ero_05_01	13	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_05_03	9	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_05_11		reticencias	. . .	...
+boe_ero_06_03	5	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_04		reticencias	. . . . .	. ... .
+boe_ero_07_11	9	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_07_19	10	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_21	6	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_28		reticencias	. . . .	... .
+boe_ero_07_46	15	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_54		reticencias	. . .	...
+boe_ero_07_58		reticencias	.	...
+boe_ero_07_65	3	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_68	4	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_07_69	6	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_07_69	9	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_08_04	2	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_08_05	5	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_08_05	11	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_08_20	2	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+boe_ero_08_28	5	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+boe_ero_08_32	3	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+criação-005	18	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-008	4	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-008	7	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-013	9	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+criação-013	12	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-013	18	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-013	23	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-017	14	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-020	7	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+criação-022	17	boe	"boe	Boe	PRON	pron	PronType=Tot"	"boe	boe	NOUN	n	Number=Sing"
+Jussila-1	13	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+Jussila-11		reticencias	.	.
+Jussila-24	1	boe	"Boe	boe	NOUN	n	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+Jussila-24	5	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+Jussila-1#4	5	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+Jussila-1#5	6	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+AdugoBiri-1.3	4	boe	"Boe	Boe	PROPN	n	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-1.3	7	boe	"Boe	Boe	PROPN	n	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-1.10	2	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-2.7	12	boe	"Boe	Boe	PROPN	n	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-2.7-3	1	boe	"Boe	Boe	PROPN	n	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-2.10	9	boe	"Boe	Boe	PRON	pron	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-2.10#2	5	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+AdugoBiri-2.10#20	6	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+AdugoBiri-2.10#35	2	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+AdugoBiri-2.10#35	6	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+5-6	4	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+7-2		reticencias	...	.. .
+12-3	5	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+29-3		reticencias	...	.. .
+37-2	8	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+51-8		reticencias	...	.. .
+53-3		reticencias	...	.. .
+53-5	3	boe	"boe	boe	PROPN	propn	_"	"boe	boe	NOUN	n	Number=Sing"
+57-4	2	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+57-4		reticencias	...	.. .
+59-2		reticencias	...	...
+61-8		reticencias	...	.. .
+62-2		reticencias	...	.. .
+68-1		reticencias	...	.. .
+73-5		reticencias	...	.. .
+82-5		reticencias	...	.. .
+83-1	1	boe	"Boe	boe	NOUN	n	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+87-1		reticencias	...	.. .
+87-3		reticencias	...	.. .
+90-5		reticencias	...	.. .
+94-6	1	boe	"Boe	boe	PROPN	propn	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+95-3		reticencias	...	.. .
+95-5	4	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+96-2		reticencias	...	.. .
+96-6	4	boe	"Boe	Boe	PROPN	propn	_"	"Boe	Boe	PROPN	propn	Number=Plur"
+99-3		reticencias	...	.. .
+103-2		reticencias	. . . .	... .
+104-1		reticencias	...	.. .
+111-6		reticencias	.	. .
+133-3		reticencias	... .	.. .
+138-6		reticencias	...	.. .
+142-11		reticencias	... .	... .. .
+145-3		reticencias	...	.. .
+145-10		reticencias	... . .	.. ..
+146-15		reticencias	... . .	.. ..
+153-15	2	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+154-9		reticencias	...	.. .
+157-5	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+158-2		reticencias	...	.. .
+159-7		reticencias	...	..
+166-5		reticencias	...	. .
+167-4		reticencias	...	..
+169-2		reticencias	...	.. .
+169-3		reticencias	.	.. .
+169-6		reticencias	...	.. .
+175-1		reticencias	...	.. .
+180-2		reticencias	...	.. .
+180-4		reticencias	...	.. .
+180-5		reticencias	... .	... .. .
+181-1		reticencias	... .	.. .. .
+181-2		reticencias	...	. .
+182-4		reticencias	... .	... .. .
+184-4		reticencias	... .	.. .
+184-7		reticencias	... .	... .. .
+190-1		reticencias	... . .	.. . .. .
+191-2		reticencias	... . .	... ... .. .
+192-10		reticencias	... . . .	.. .. .
+196-4		reticencias	. . . .	.. . .
+200-11		reticencias	. .	... .
+202-3		reticencias	... .	... ...
+202-5		reticencias	...	.. .
+204-9		reticencias	... .	.. .
+204-14		reticencias	...	..
+209-1		reticencias	. . .	. ... .
+209-7		reticencias	...	.. .
+214-3		reticencias	...	.. .
+223-3		reticencias	.	..
+225-6		reticencias	...	. .
+225-8		reticencias	. . . .	... ... ... .
+229-4		reticencias	...	.. .
+237-4		reticencias	. .	... .
+239-5		reticencias	...	.. .
+239-6		reticencias	...	.. .
+241-6		reticencias	... . . .	... . . ...
+246-2		reticencias	...	.. .
+246-3		reticencias	...	.. .
+249-1		reticencias	. . . .	.. ... .. .
+250-1		reticencias	. .	. .. .
+250-2		reticencias	...	.. .
+257-15		reticencias	.	.. .
+257-16		reticencias	. .	... .
+258-2		reticencias	.	.. .
+258-4		reticencias	. .	... .
+265-3		reticencias	. .	... .
+265-4		reticencias	. . .	... . .
+267-1		reticencias	.	.. .
+267-2		reticencias	...	.. .
+267-4		reticencias	...	.. .
+267-5		reticencias	...	.. .
+267-6		reticencias	...	.. .
+267-7		reticencias	...	.. .
+268-11		reticencias	...	.. .
+269-1		reticencias	. .	... .
+270-1		reticencias	. .	... ...
+278-8		reticencias	...	.. .
+278-10		reticencias	...	.. .
+279-7		reticencias	...	.. .
+280-1		reticencias	.	.. .
+285-6		reticencias	. . .	.. .. .
+285-7		reticencias	... ...	.. .. .
+291-1		reticencias	. .	. .. .
+291-3		reticencias	...	.. .
+293-2		reticencias	. .	... .
+297-1		reticencias	...	.. .
+300-2		reticencias	. . . .	. . .. .
+300-4		reticencias	. .	... .
+301-5		reticencias	. .	... .
+305-3		reticencias	...	.. .
+305-6		reticencias	...	.. .
+306-5		reticencias	...	.. .
+306-12		reticencias	...	.. .
+309-3		reticencias	...	.. .
+309-4		reticencias	...	.. .
+310-1		reticencias	. .	... .
+311-4		reticencias	...	.. .
+318-8		reticencias	. .	... .
+319-2		reticencias	...	..
+319-5		reticencias	... .	.. ...
+320-4	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+322-3		reticencias	... . .	... ..
+331-3		reticencias	... .	... .. .
+331-5		reticencias	... .	... .. .
+332-2		reticencias	... . .	... ... .. .
+340-7		reticencias	.	.. .
+347-2		reticencias	... . .	... ... ...
+348-3		reticencias	... . .	... ... ...
+358-2		reticencias	...	.. .
+360-10		reticencias	. .	... .
+362-2		reticencias	. .	... .
+364-10	2	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+365-5	1	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+369-4	13	boe	"boe	Boe	NOUN	n	Number=Sing"	"boe	boe	NOUN	n	Number=Sing"
+370-2		reticencias	...	.. .
+375-8	1	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+379-2		reticencias	...	..
+379-6		reticencias	. .	. ...
+385-4		reticencias	... . .	... ... .. .
+387-1		reticencias	... .	... ...
+387-2		reticencias	... .	... ...
+387-3		reticencias	. . . .	. ...
+387-5		reticencias	. . . .	... ... . .
+390-6		reticencias	...	.. .
+391-7		reticencias	... .	... .. .
+393-6	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+397-6		reticencias	...	.. .
+398-2		reticencias	...	.. .
+398-4		reticencias	...	.. .
+403-4		reticencias	...	.. .
+405-10		reticencias	.	.. .
+406-5		reticencias	...	.. .
+406-9		reticencias	.	.. .
+407-2		reticencias	...	.. .
+407-9		reticencias	...	.. .
+407-11		reticencias	...	.. .
+408-1		reticencias	...	.. .
+408-3		reticencias	...	.. .
+409-6		reticencias	...	.. .
+409-7		reticencias	...	.. .
+411-9		reticencias	... .	... ..
+412-9		reticencias	...	.. .
+416-2		reticencias	...	.. .
+418-5		reticencias	.	.. .
+421-6		reticencias	.	.. .
+424-3		reticencias	. .	... .
+429-2		reticencias	...	.. .
+430-11		reticencias	. . .	... ... .
+430-12		reticencias	... .	... .. .
+431-2		reticencias	...	.. .
+431-28		reticencias	... . .	... ... .
+433-12		reticencias	. .	... .
+434-5		reticencias	...	.. .
+435-1		reticencias	...	.. .
+435-7		reticencias	... . .	.. ... .
+435-8		reticencias	...	. .
+440-1		reticencias	. . .	. ... .. .
+441-2		reticencias	. .	..
+441-4		reticencias	...	.. .
+441-10		reticencias	. .	... .
+442-2		reticencias	. .	... .
+450-2	1	boe	"Boe	Boe	PRON	pron	PronType=Tot"	"Boe	Boe	PROPN	propn	Number=Plur"
+451-7		reticencias	. . . .	. . .. .
+451-16		reticencias	. . .	.. .
+451-25		reticencias	.	...
+452-6		reticencias	...	.. .
+453-15		reticencias	. .	... .
+456-6		reticencias	. .	. ...
+457-4		reticencias	...	. .
+458-4		reticencias	...	.. .
+458-5		reticencias	...	.. .
+459-7		reticencias	.	.. .
+459-8		reticencias	... .	... .. .
+463-17		reticencias	... .	.. .
+465-6		reticencias	... .	... .. .
+468-11		reticencias	.	... .
+469-1		reticencias	...	.. .
+469-7		reticencias	... . . .	... .. ..
+469-19		reticencias	...	.. .
+469-21		reticencias	...	.. .
+470-4		reticencias	...	.. .
+470-9		reticencias	...	.. .
+475-11	9	boe	"boe	boe	NOUN	n	_"	"boe	boe	NOUN	n	Number=Sing"
+479-2		reticencias	... .	.. .
+479-15		reticencias	.	.. .
+482-12		reticencias	.	.. .
+483-20		reticencias	... .	.. .
+484-11		reticencias	... . . .	... .. .
+484-12		reticencias	.	...
+489-3		reticencias	... .	... .. .
+489-4		reticencias	.	.. .
+491-9		reticencias	. . .	.. .
+492-11		reticencias	.	.
+495-3		reticencias	...	. .
+495-9		reticencias	... . .	... ... .
+496-8		reticencias	...	.. .
+498-17		reticencias	.	.. .
+506-10		reticencias	.	.. .
+507-13		reticencias	...	.. .
+509-1		reticencias	...	.. .
+510-10		reticencias	. .	... .
+515-2		reticencias	... . .	... ... .
+518-3		reticencias	.	.
+518-11		reticencias	...	.. .
+519-12		reticencias	...	. .
+520-11		reticencias	. . . . .	. ... ... ... ...
+522-6		reticencias	.	.. .
+522-7		reticencias	...	.. .
+526-6		reticencias	. . .	... ... .. .
+532-8		reticencias	...	.. .
+532-9		reticencias	... . .	... ... ...
+534-9		reticencias	...	.. .
+535-6		reticencias	...	.. .
+536-1		reticencias	...	.. .
+536-12		reticencias	...	.. .
+536-15		reticencias	...	.. .
+536-16		reticencias	. .	... .
+536-25		reticencias	... . .	... ... .
+537-3		reticencias	...	.. .
+537-6		reticencias	...	.. .
+538-14	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+540-5		reticencias	.	.. .
+540-6		reticencias	. . .	.. ...
+540-11		reticencias	... . .	... ... .. .
+547-8		reticencias	. .	... .
+548-11		reticencias	...	.. .
+549-2		reticencias	... .	.. .
+551-2		reticencias	...	.. .
+554-14		reticencias	. .	... .. .
+555-6		reticencias	. .	... .
+557-2		reticencias	. . . .	. ... ... .. .
+559-9		reticencias	...	. .
+561-8		reticencias	... .	.. .
+563-3		reticencias	. .	..
+565-5		reticencias	. .	... .
+568-8		reticencias	... .	.. .
+573-11		reticencias	... .	.. .. .
+573-12		reticencias	...	.. .
+575-2		reticencias	... .	... ...
+575-14		reticencias	.	...
+577-1		reticencias	.	.. .
+577-7		reticencias	...	.. .
+578-9		reticencias	...	.. .
+585-14		reticencias	.	.. .
+589-16		reticencias	...	. .
+597-12		reticencias	... .	.. .
+597-14		reticencias	... . .	... ...
+598-6		reticencias	. .	..
+598-11		reticencias	. . .	... . .
+598-13		reticencias	... .	... .. .
+598-14		reticencias	.	.. .
+600-10		reticencias	...	.. .
+602-19		reticencias	...	. .
+603-9		reticencias	... .	.. .
+605-9		reticencias	...	.. .
+605-16		reticencias	. .	... .
+611-7		reticencias	. .	... .
+615-11		reticencias	.	.. .
+616-3		reticencias	.	.. .
+616-19		reticencias	...	.. .
+619-23		reticencias	... . .	... ... .
+620-11		reticencias	... . .	.. ... .
+622-7		reticencias	.	.. .
+624-5		reticencias	... ...	.. ...
+625-17		reticencias	.	.. .
+627-9		reticencias	...	. .
+629-2		reticencias	...	.. .
+633-5		reticencias	...	.. .
+642-5		reticencias	... . .	.. . .
+642-8		reticencias	...	..
+642-11		reticencias	... .	.. .
+642-12		reticencias	...	..
+649-9		reticencias	. .	... .
+649-14		reticencias	...	..
+654-12		reticencias	. .	... .
+655-2		reticencias	...	.. .
+657-14	2	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+658-6		reticencias	.	.. .
+663-17		reticencias	...	.. .
+665-5		reticencias	...	.. .
+670-7		reticencias	... .	.. .
+670-9		reticencias	. .	... .
+670-10		reticencias	... .	.. .
+672-13		reticencias	. .	... .
+674-1		reticencias	...	..
+674-14		reticencias	...	.. .
+675-5		reticencias	...	..
+675-24		reticencias	...	.. .
+677-2		reticencias	...	.. .
+677-6		reticencias	...	.. .
+677-20		reticencias	...	.. .
+678-3		reticencias	...	.. .
+681-23		reticencias	...	.. .
+682-4	3	boe	"Boe	Boe	NOUN	pron	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+682-8	2	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+683-17		reticencias	. .	... .
+692-3		reticencias	...	.. .
+692-16		reticencias	...	.. .
+692-18		reticencias	...	.. .
+693-12		reticencias	...	.. .
+694-9		reticencias	...	. .
+698-12		reticencias	...	.. .
+701-1		reticencias	.	.. .
+705-5		reticencias	. . .	. ..
+706-11		reticencias	. . .	.. .
+718-12		reticencias	...	. .
+721-9		reticencias	...	. .
+722-15		reticencias	...	. .
+724-2		reticencias	.	.. .
+724-8		reticencias	...	.. .
+730-1	2	boe	"boe	boe	PROPN	propn	_"	"boe	boe	NOUN	n	Number=Sing"
+734-3		reticencias	. .	... .
+735-16		reticencias	. .	... .
+742-2		reticencias	.	.. .
+748-14		reticencias	... . . .	... . ... .
+752-17		reticencias	...	.. .
+754-2	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+755-5		reticencias	...	.. .
+770-7		reticencias	...	.. .
+776-3		reticencias	...	.. .
+776-8		reticencias	...	.. .
+777-8		reticencias	...	.. .
+781-7		reticencias	...	.. .
+781-17		reticencias	. .	..
+783-1		reticencias	...	.. .
+784-6		reticencias	...	.. .
+785-8		reticencias	. .	... .
+785-11		reticencias	. . . . .	.. .. .
+786-3		reticencias	.	.. .
+786-5		reticencias	... .	.. .. .
+787-7		reticencias	...	.. .
+788-19		reticencias	. . . . . .	... .. .. .. .. .
+791-2		reticencias	... .	.. .
+791-4		reticencias	. . .	.. .
+791-10	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+795-1		reticencias	...	..
+800-2		reticencias	.	.. .
+807-9		reticencias	.	.. .
+807-13		reticencias	... .	.. .
+820-4		reticencias	...	.. .
+822-8		reticencias	... .	.. .
+833-12		reticencias	...	.. .
+834-1		reticencias	...	. .
+835-8		reticencias	...	.. .
+836-1	8	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+837-5		reticencias	...	. .
+837-7		reticencias	.	.. .
+839-14		reticencias	... . .	.. ..
+840-1		reticencias	... .	.. .
+847-6		reticencias	. .	... .
+855-16		reticencias	... .	.. .
+857-8		reticencias	.	...
+860-11		reticencias	...	.. .
+864-10		reticencias	... .	.. .
+864-12		reticencias	... .	... .. .
+882-1		reticencias	...	.. .
+883-16		reticencias	...	.. .
+884-18		reticencias	...	.. .
+885-14		reticencias	. . .	... . .
+889-4		reticencias	...	..
+889-5		reticencias	...	. .
+889-13		reticencias	...	. .
+889-24		reticencias	...	. .
+890-24		reticencias	... . . .	.. .. .
+891-3		reticencias	... .	.. .
+894-6	1	boe	"Boe	boe	PROPN	propn	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+894-6	4	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+895-8		reticencias	...	.. .
+903-18		reticencias	.	...
+905-8		reticencias	... ...	... .. .
+905-9		reticencias	...	.. .
+905-10		reticencias	...	. .
+906-1		reticencias	. . .	. ... .
+906-9		reticencias	...	.. .
+909-3	8	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+916-20		reticencias	...	.. .
+921-14		reticencias	...	..
+922-11		reticencias	...	. .
+922-17		reticencias	...	.. .
+922-22		reticencias	...	. .
+923-9		reticencias	. .	... .
+924-2		reticencias	... . .	... ... .
+925-19		reticencias	...	.. .
+925-20		reticencias	... .	.. .
+926-15		reticencias	. . .	... ... .. .
+928-5		reticencias	... .	.. .
+932-5		reticencias	...	.. .
+932-10		reticencias	...	.. .
+941-14		reticencias	.	...
+944-2		reticencias	. . ... . . .	.. ... . . ...
+945-6		reticencias	. .	... .
+946-12		reticencias	.	.. .
+953-16		reticencias	... .	.. .
+954-2		reticencias	...	.. .
+965-3	2	boe	"boe	Boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+966-1		reticencias	...	.. .
+967-5		reticencias	. . .	... . .
+970-8		reticencias	... . .	... ... .
+973-8		reticencias	. . .	. ... .
+dic_0557		reticencias	.	.
+dic_1016	1	boe	"Boe	boe	NOUN	n	Number=Sing"	"Boe	Boe	PROPN	propn	Number=Plur"
+dic_0106	1	boe	"Boe	boe	PROPN	propn	Number=Plur"	"Boe	Boe	PROPN	propn	Number=Plur"
+dic_0492	2	boe	"boe	boe	PROPN	propn	Number=Plur"	"boe	boe	NOUN	n	Number=Sing"
+dic_0873	2	boe	"boe	boe	NOUN	n	PronType=Tot"	"boe	boe	NOUN	n	Number=Sing"
+AdugoBiri-2.10#54	16	boe_lema_divergente	"Boe	ako	VERB	v	Mood=Ind|Number=Plur|Person=3"	
+133-4		reticencias_sem_alinhamento	Bure...aia, paia parokagado ji !	
+145-9		reticencias_sem_alinhamento	Inagore O!..inoba boere pugeje ?	
+167-7		reticencias_sem_alinhamento	Ia akore Hm!..Imodukare nowu utudo .	
+178-3		reticencias_sem_alinhamento	Iedure nowu aroiaji oino tu...,akore Cewu akudawurogu reo .	
+204-12		reticencias_sem_alinhamento	Inagore E!..kaba koiaba umode togududo itabo?...M!..Oino .	
+207-7		reticencias_sem_alinhamento	kae, kae, wo!..kae kae kae kae !	
+230-1		reticencias_sem_alinhamento	Akore ecerae cedagaru akirowo cereru butuiare ceiekorire cegudawu aewere bukorire No...no no no hu..	
+239-4		reticencias_sem_alinhamento	Mare ekare tawujedu pagado: Badojeba Bakorokudu mugure tu, taiwo tabo ei moto ra piji duji. Akore o.	
+240-1		reticencias_sem_alinhamento	Icare ere tawuje.Akore je je je je je je...je je je je je je...nowu ei tawuje dukeje, ei tugera kabi	
+242-2		reticencias_sem_alinhamento	Egore orowaribo piji.. .	
+249-2		reticencias_sem_alinhamento	Jo...ho...O	
+264-3		reticencias_sem_alinhamento	Ere togwa tugu to jii ...je .	
+268-10		reticencias_sem_alinhamento	Uwie akore Iba...i !	
+268-13		reticencias_sem_alinhamento	132,Omu...Omu...m o m .	
+268-15		reticencias_sem_alinhamento	Joku karaiwa Boko kuwa O...mu...O...mu .	
+269-4		reticencias_sem_alinhamento	Ia akore U...akaiwodo ii ka !	
+276-2		reticencias_sem_alinhamento	Icare akedure, dukeje icare akore Iro...atu...goia...Bako...ho...ro.ro O Icai tudui toro ji kodi .	
+291-4		reticencias_sem_alinhamento	Akore ei...goia...mai...do o...je...tuia...rega...ha a. .	
+308-6		reticencias_sem_alinhamento	Ure taredo pobo to pao, taora tugu to...Itaiwore rekodaji, Inagore Wo!..Icare amode kare erego iwuod	
+318-4		reticencias_sem_alinhamento	Inagore Wo!..Itaidure pawo etugu woe ikuduwo kuruce .	
+331-9		reticencias_sem_alinhamento	Icare aomage ere ake okwa, ake rie, ake kurubeguru, ake makao, ere kireru butudo awugeje toro...ere 	
+334-1		reticencias_sem_alinhamento	Akedure icare Barege ewugejewu Roia Gigudu Mere...mere...arowe,O!..Mere mere o !	
+357-9		reticencias_sem_alinhamento	HO...o.. .	
+381-10		reticencias_sem_alinhamento	Iedaga, toro!...Iedaga reko, arududo, arududo !	
+382-13		reticencias_sem_alinhamento	Emode inogwa boro akodo pi...awuge ekugure ewogai !	
+397-2		reticencias_sem_alinhamento	Inagore Wo!..Kaiba awu kodumode ?	
+423-2		reticencias_sem_alinhamento	Icare ure tudugu kuda, kodo tabo kuri, ure bu tu... Akore ca, itore, mato tagerogu kae, itore mato t	
+432-15		reticencias_sem_alinhamento	Ikimadure apo pugeje, inagore No...no no hu...hu hu... !	
+440-2		reticencias_sem_alinhamento	Pobo...dori...cire...ruia Cireruia...cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo ci	
+441-3		reticencias_sem_alinhamento	M...m.. .	
+452-5		reticencias_sem_alinhamento	Inagore Ie!..Icare ipadu pegare iedawu okori koia .	
+469-8		reticencias_sem_alinhamento	Inagore Wo!..icare kogorigadoge egogodure !	
+497-21		reticencias_sem_alinhamento	Icare cere jorugo toro tu...Icare barogwa kododure ja tuku .	
+500-5		reticencias_sem_alinhamento	Ere buke okwa to pui...pao !	
+502-8		reticencias_sem_alinhamento	Inagore Ps!..Ceboere !	
+509-9		reticencias_sem_alinhamento	Ire buke jado oino tu...Dukeje icare jore iwugeto Krai .	
+516-4		reticencias_sem_alinhamento	Inagore Wo!..Boe eno jipare !	
+519-6		reticencias_sem_alinhamento	Kodo mato Boe etae jii ...mato .	
+526-4		reticencias_sem_alinhamento	Cere nowu boeburireboe kado ta...cere jado .	
+530-16		reticencias_sem_alinhamento	Akore aró!..Ao pegodo !	
+534-4		reticencias_sem_alinhamento	Icare cere pagado kajeje ta...dukejere icare ure togwagirido .	
+551-14		reticencias_sem_alinhamento	Egore bure!..Bure!! !	
+555-7		reticencias_sem_alinhamento	Egore ra...ra...ra...ra.. .	
+558-10		reticencias_sem_alinhamento	Icare inudure rugadu Krai jii ...je .	
+564-5		reticencias_sem_alinhamento	Cere nowu ika bu tu...cere cedawuje piji .	
+573-2		reticencias_sem_alinhamento	Cere cedaredo nowu ikato jo...Icare cedure .	
+574-1		reticencias_sem_alinhamento	Cegodo jii, cedaore kuri...cedododai, nowu kugaru kurirewu kae .	
+575-15		reticencias_sem_alinhamento	Ire imugudo keje tu...ku !	
+579-5		reticencias_sem_alinhamento	Ha ha!..Kare tu je Icare cere buke bu .	
+585-5		reticencias_sem_alinhamento	Eka kurire kode egonure juh...joruto .	
+601-25		reticencias_sem_alinhamento	Egore wo!..Ioguduba okwagemode ei ?	
+601-26		reticencias_sem_alinhamento	Inagore aró!..Kaiamo !	
+611-2		reticencias_sem_alinhamento	Inagore,Atugo aregoduio.. .	
+619-3		reticencias_sem_alinhamento	Cenagore Uu!..Care barae erorerure pai .	
+627-3		reticencias_sem_alinhamento	Egore ce!..Barogwa kododu kae .	
+628-3		reticencias_sem_alinhamento	Cenagore Io!..Icare paerdure ia pamedage tuginoiwugei, egugudukare pudabo boe jamedu boe ji .	
+673-16		reticencias_sem_alinhamento	Akore Ho!..Icare kudure ce .	
+744-9		reticencias_sem_alinhamento	Boekare: Boe codure tu...Icare barogwa kododure, icare meriri iku bataru aregodure .	
+751-2		reticencias_sem_alinhamento	Ire nowu buke bu tu...ire jado .	
+751-8		reticencias_sem_alinhamento	Egore : Fs fs fs.. .	
+764-13		reticencias_sem_alinhamento	Iage egore M!..Inodoguru ronure jooo iogi ike boi koia .	
+779-3		reticencias_sem_alinhamento	Icare cenogwagere, cenogwagere tu... Akore pamagowo jao .	
+791-15		reticencias_sem_alinhamento	O bokwadoge eke buture jamedu Egore wa!..E!..Boe enure boe motudo !	
+807-11		reticencias_sem_alinhamento	Jore toro bai up oto...coku .	
+837-4		reticencias_sem_alinhamento	Ekudugodure Ka!..Ka!. .	
+847-7		reticencias_sem_alinhamento	Ia akore He...Tawadaru keadukaba .	
+877-8		reticencias_sem_alinhamento	Inagore Ca!..Pobo !	
+885-23		reticencias_sem_alinhamento	Icare inagore Aro!..rekodaji .	
+903-13		reticencias_sem_alinhamento	Nowu aroe ure turagojedo ta...Ure tugera bu oino, ime etao keje oino woe .	
+910-1		reticencias_sem_alinhamento	Icare inagore A!..Imode itaredo awu pobo to .	
+918-5		reticencias_sem_alinhamento	Dukeje icare aije akogodure tb!..tb...tb.. .	
+929-6		reticencias_sem_alinhamento	Akore gripe rakudu...Ia ikogodae .	
+929-17		reticencias_sem_alinhamento	Icare ure tugerako jodo nowu jorubo kuru bukeje gu...du tonajire akore hm...Ure nowu agulha ta piji,	
+934-7		reticencias_sem_alinhamento	Ipuredugodukejere icare meriri kudure kuri...kuri...kur i.. .	
+964-5		reticencias_sem_alinhamento	Imagokare Itaiwore tu.. .	

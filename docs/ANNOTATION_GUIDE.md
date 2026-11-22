@@ -59,7 +59,7 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 | XPOS (projeto) | UPOS | Observação |
 |---|---|---|
 | `n` | NOUN | |
-| `propn` | PROPN | `Boe` = "os Bororo" → PROPN, `Number=Plur`; outras acepções → NOUN, `Number=Sing` (decidido em 21/11/2026) |
+| `propn` | PROPN | A forma decide (22/11/2026): `Boe` → PROPN, lema `Boe`, `Number=Plur`; `boe` → NOUN (XPOS `n`), lema `boe`, `Number=Sing`. Substitui a regra por acepção de 21/11/2026 |
 | `v`, `vt`, `vi` | VERB | `vt`/`vi` marcam transitividade |
 | `aux` | AUX | |
 | `adv`, `advm` | ADV | |

@@ -24,7 +24,7 @@
     "Clusivity": {
       "values": {
         "Ex": {
-          "count": 2603,
+          "count": 2602,
           "description": "exclusivo",
           "origin": "UD"
         },
@@ -71,7 +71,7 @@
           "origin": "UD"
         },
         "Med": {
-          "count": 1508,
+          "count": 1507,
           "description": "medial",
           "origin": "UD"
         },
@@ -184,7 +184,7 @@
           "origin": "CorBo"
         },
         "Plur": {
-          "count": 11140,
+          "count": 11124,
           "description": "plural",
           "origin": "UD"
         },
@@ -194,7 +194,7 @@
           "origin": "CorBo"
         },
         "Sing": {
-          "count": 21203,
+          "count": 21260,
           "description": "singular",
           "origin": "UD"
         }
@@ -217,7 +217,7 @@
     "Person": {
       "values": {
         "1": {
-          "count": 8945,
+          "count": 8944,
           "description": "primeira pessoa",
           "origin": "UD"
         },
@@ -294,7 +294,7 @@
           "origin": "UD"
         },
         "Tot": {
-          "count": 44,
+          "count": 41,
           "description": "total/coletivo",
           "origin": "UD"
         }

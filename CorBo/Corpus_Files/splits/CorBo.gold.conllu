@@ -22,7 +22,7 @@
 2	etonaregedu	onarege	NOUN	n	Number=Sgtv|Number[psor]=Plur|Person[psor]=3	3	nsubj	_	_
 3	buture	butu	VERB	v	Number=Sing|Person=3	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
-5	Boe	Boe	PROPN	propn	_	6	nmod	_	_
+5	Boe	Boe	PROPN	propn	Number=Plur	6	nmod	_	_
 6	etonaregedu	onarege	NOUN	n	Number=Sgtv|Number[psor]=Plur|Person[psor]=3	7	nmod	_	_
 7	imedurogu	ime	NOUN	n	Degree=Dim|Number=Sgtv	8	nsubj	_	_
 8	buture	butu	VERB	v	Number=Sing|Person=3	3	parataxis	_	_
@@ -204,7 +204,7 @@
 4	toro	toro	ADV	adv	_	2	advmod	_	_
 5	,	,	PUNCT	punct	_	2	punct	_	_
 6	oino	oino	ADV	adv	_	8	advmod	_	_
-7	Boe	Boe	PROPN	propn	_	8	nsubj	_	_
+7	Boe	Boe	PROPN	propn	Number=Plur	8	nsubj	_	_
 8	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	Morph=e=ako=re
 9	arokaba	ro	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	8	ccomp	_	_
 10	oino	oino	ADV	adv	_	9	advmod	_	_
@@ -262,7 +262,7 @@
 4	Boere	Boe	PROPN	propn	Mood=Ind|Number=Plur	5	nsubj	_	_
 5	iedo	ie	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 6	,	,	PUNCT	punct	_	5	punct	_	_
-7	boe	Boe	PROPN	propn	Number=Plur	8	nsubj	_	_
+7	boe	boe	NOUN	n	Number=Sing	8	nsubj	_	_
 8	eragodure	rakodu	VERB	v	Mood=Ind|Number=Plur|Person=3	5	parataxis	_	_
 9	ie	ie	NOUN	n	Number=Sing|Person=3	10	nmod	_	_
 10	paru	paru	NOUN	n	Number=Sing|Person=3	8	obl	_	_
@@ -448,7 +448,7 @@
 # text = Akado Boe eroi pui duji .
 # text_por = Repare como os bororo fazem um ao outro.
 1	Akado	ado	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
-2	Boe	Boe	PROPN	propn	_	3	nsubj	_	_
+2	Boe	Boe	PROPN	propn	Number=Plur	3	nsubj	_	_
 3	eroi	ro	VERB	v	Number=Plur|Person=3|VerbForm=Ger	1	xcomp	_	_
 4	pui	pui	PRON	pron	PronType=Rcp|Reflex=Yes	3	obl	_	_
 5	duji	duji	X	x	_	1	dep	_	_
@@ -461,13 +461,13 @@
 2	ero	ro	VERB	v	Number=Plur|Person=3	0	root	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	_
 4	ainore	aino	ADV	adv	Mood=Ind	6	advmod	_	_
-5	boe	Boe	PROPN	propn	Number=Plur	6	nsubj	_	_
+5	boe	boe	NOUN	n	Number=Sing	6	nsubj	_	_
 6	erore	ro	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	_
 7	,	,	PUNCT	punct	_	6	punct	_	_
 8	Boe	Boe	PROPN	propn	Number=Plur	9	nsubj	_	_
 9	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	Morph=e=ako=re
 10	,	,	PUNCT	punct	_	9	punct	_	_
-11	boe	Boe	PROPN	propn	Number=Plur	12	nsubj	_	_
+11	boe	boe	NOUN	n	Number=Sing	12	nsubj	_	_
 12	ewadarure	bataru	VERB	v	Mood=Ind|Number=Plur|Person=3	2	parataxis	_	_
 13	.	.	PUNCT	punct	_	12	punct	_	_
 
@@ -600,7 +600,7 @@
 15	,	,	PUNCT	punct	_	14	punct	_	_
 16	aroe	aroe	NOUN	n	_	12	conj	_	_
 17	nowu	nowu	DET	dem	Deixis=Med	18	det	_	_
-18	boe	boe	NOUN	n	_	21	obj	_	_
+18	boe	boe	NOUN	n	Number=Sing	21	obj	_	_
 19	jameduboe	jameduboe	PRON	pron	PronType=Tot	18	flat	_	_
 20	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	21	nsubj	_	Morph=u=re
 21	to	to	VERB	vt	Number=Sing|Person=3	4	parataxis	_	Morph=0-to
@@ -633,10 +633,10 @@
 1	Deu	Deu	NOUN	n	_	2	dep	_	_
 2	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	8	nsubj	_	Morph=u=re
 3	nowu	nowu	DET	dem	Deixis=Med	4	det	_	_
-4	boe	boe	NOUN	n	_	8	obj	_	_
+4	boe	boe	NOUN	n	Number=Sing	8	obj	_	_
 5	jamedu	jamedu	PRON	pron	PronType=Tot	4	flat	_	_
 6	ji	ji	X	x	_	5	discourse	_	_
-7	boe	boe	NOUN	n	_	6	dep	_	_
+7	boe	boe	NOUN	n	Number=Sing	6	dep	_	_
 8	akedudo	akedu	VERB	vt	Number=Sing|Person=3|Voice=Cau	13	advcl	_	_
 9	tuje	tuje	X	x	_	8	dep	_	_
 10	dukeje	dukeje	SCONJ	sconj	_	8	mark	_	_
@@ -702,21 +702,21 @@
 6	enogwageiagu	okwage	VERB	v	Mood=Qot|Number=Plur|Person=3	5	ccomp	_	_
 7	ji	ji	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ji
 8	nowu	nowu	DET	dem	Deixis=Med	10	det	_	_
-9	Boe	Boe	PROPN	propn	_	10	nmod	_	_
+9	Boe	Boe	PROPN	propn	Number=Plur	10	nmod	_	_
 10	epa	pa	NOUN	v	Number=Plur|Person=3	11	nmod	_	_
 11	tadawu	tada	ADP	posp	Nomzr=Rel	6	obl	_	_
-12	boe	boe	NOUN	n	_	11	advmod	_	_
+12	boe	boe	NOUN	n	Number=Sing	11	advmod	_	_
 13	jamedu	jamedu	ADV	adv	_	12	flat	_	_
 14	,	,	PUNCT	punct	_	11	punct	_	_
 15	nowu	nowu	DET	dem	Deixis=Med	16	det	_	_
 16	iguru	iguru	NOUN	n	_	11	conj	_	_
 17	jamedu	jamedu	ADV	adv	_	16	advmod	_	_
-18	boe	boe	NOUN	n	_	17	flat	_	_
+18	boe	boe	NOUN	n	Number=Sing	17	flat	_	_
 19	ji	ji	ADP	posp	Number=Sing|Person=3	16	case	_	Morph=0-ji
 20	,	,	PUNCT	punct	_	16	punct	_	_
 21	mare	mare	CCONJ	cconj	_	26	cc	_	_
 22	rakojere	rakoje	VERB	v	Mood=Ind	26	obj	_	_
-23	boe	boe	NOUN	n	_	22	nsubj	_	_
+23	boe	boe	NOUN	n	Number=Sing	22	nsubj	_	_
 24	eiadadawu	iadada	ADP	posp	Nomzr=Rel|Number=Plur|Person=3	23	nmod	_	_
 25	ekare	e	PRON	bi	Mood=Ind|Number=Plur|Person=3|Polarity=Neg	26	nsubj	_	_
 26	ko	ko	VERB	v	Number=Sing|Person=3	6	conj	_	_
@@ -765,7 +765,7 @@
 10	bakaru	bakaru	NOUN	n	_	3	appos	_	_
 11	pawodure	botu	VERB	vi	_	10	obl	_	_
 12	kejewu	keje	ADP	posp	Nomzr=Rel	11	nmod	_	_
-13	boe	boe	NOUN	n	_	11	nmod	_	_
+13	boe	boe	NOUN	n	Number=Sing	11	nmod	_	_
 14	ji	ji	ADP	posp	Number=Sing|Person=3	11	case	_	Morph=0-ji
 15	,	,	PUNCT	punct	_	11	punct	_	_
 16	Jakoramogodogedo	Jakoramogodogedo	PROPN	propn	_	10	parataxis	_	_
@@ -846,7 +846,7 @@
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	nono	nono	ADV	adv	_	6	advmod	_	_
 6	aregodure	aregodu	VERB	v	Number=Sing|Person=3	2	parataxis	_	_
-7	.	,	PUNCT	punct	_	6	punct	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = Jussila-13a
 # text = Mare emagokare .
@@ -948,11 +948,11 @@
 # text = Boe motu ji , boe moturewu ji .
 # text_por = Ele ficou admirando as coisas que viu.
 # text_eng =
-1	Boe	boe	NOUN	n	_	2	nmod	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nmod	_	_
 2	motu	motu	NOUN	n	_	0	root	_	_
 3	ji	ji	ADP	posp	Number=Sing|Person=3	2	obl	_	Morph=0-ji
 4	,	,	PUNCT	punct	_	2	punct	_	_
-5	boe	boe	NOUN	n	_	2	parataxis	_	_
+5	boe	boe	NOUN	n	Number=Sing	2	parataxis	_	_
 6	moturewu	motu	NOUN	n	Mood=Ind|Nomzr=Rel	5	nmod	_	_
 7	ji	ji	ADP	posp	Number=Sing|Person=3	6	obl	_	Morph=0-ji
 8	.	.	PUNCT	punct	_	5	punct	_	_
@@ -990,7 +990,7 @@
 2	aregodure	aregodu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0=are=godu=re
 3	ia	ia	DET	Definite=Ind|PronType=Art	Definite=Ind|PronType=Art	5	det	_	_
 4	nono	nono	ADV	adv	_	5	nmod	_	_
-5	boe	boe	NOUN	n	_	2	obl	_	_
+5	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
 6	kajeje	kajeje	ADP	posp	Number=Sing|Person=3	5	case	_	_
 7	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1004,7 +1004,7 @@
 3	to	to	ADP	posp	Number=Sing|Person=3	0	root	_	Morph=0-to
 4	moto	moto	NOUN	n	_	3	obl	_	_
 5	to	to	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-to
-6	boe	boe	NOUN	n	_	7	nmod	_	_
+6	boe	boe	NOUN	n	Number=Sing	7	nmod	_	_
 7	co	co	NOUN	n	_	3	obl	_	_
 8	ji	ji	ADP	posp	Number=Sing|Person=3	7	case	_	Morph=0-ji
 9	.	.	PUNCT	punct	_	3	punct	_	_
@@ -1039,10 +1039,10 @@
 1	Uu	uu	X	x	_	5	discourse	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	kodire	kodi	ADV	advm	Mood=Ind|Number=Sing|Person=3	5	advmod	_	_
-4	Boe	Boe	PROPN	n	Number=Plur	5	nsubj	_	_
+4	Boe	Boe	PROPN	propn	Number=Plur	5	nsubj	_	_
 5	eragodumode	rakodu	VERB	v	Mood=Ind|Number=Plur|Person=3|Status=Irr	0	root	_	_
 6	,	,	PUNCT	punct	_	5	punct	_	_
-7	Boe	Boe	PROPN	n	Number=Plur	8	nsubj	_	_
+7	Boe	Boe	PROPN	propn	Number=Plur	8	nsubj	_	_
 8	eragodumode	rakodu	VERB	v	Mood=Ind|Number=Plur|Person=3|Status=Irr	5	parataxis	_	_
 9	apo	apo	ADP	posp	Number=Sing|Person=3	8	obl	_	Morph=0-apo
 10	,	,	PUNCT	punct	_	8	punct	_	_
@@ -1177,7 +1177,7 @@
 # text_por = É assim que os Bororo falam.
 # text_eng =
 1	Oinore	oino	ADV	adv	Mood=Ind	3	advmod	_	Morph=oino=re
-2	Boe	Boe	PRON	pron	Number=Plur	3	nsubj	_	_
+2	Boe	Boe	PROPN	propn	Number=Plur	3	nsubj	_	_
 3	egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
 4	!	!	PUNCT	punct	_	3	punct	_	_
 
@@ -1303,7 +1303,7 @@
 6	dukeje	dukeje	SCONJ	sconj	_	5	mark	_	_
 7	,	,	PUNCT	punct	_	5	punct	_	_
 8	icare	icare	ADV	adv	_	10	advmod	_	_
-9	Boe	Boe	PRON	pron	Number=Plur	1	nsubj	_	_
+9	Boe	Boe	PROPN	propn	Number=Plur	1	nsubj	_	_
 10	eture	tu	VERB	vi	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=tu=re
 11	,	,	PUNCT	punct	_	10	punct	_	_
 12	adugo	adugo	NOUN	n	_	10	obl	_	_
@@ -1320,7 +1320,7 @@
 2	icare	icare	ADV	adv	_	3	advmod	_	_
 3	areme	areme	NOUN	n	Number=Plur	4	nsubj	_	_
 4	emearudure	mearudu	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	_
-5	Boe	Boe	PROPN	propn	_	6	obl	_	_
+5	Boe	Boe	PROPN	propn	Number=Plur	6	obl	_	_
 6	ekudu	kudu	NOUN	n	Number=Plur|Person=3	4	obl	_	_
 7	ji	ji	ADP	posp	Number=Sing|Person=3	6	case	_	Morph=0-ji
 8	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1631,11 +1631,11 @@
 # text_por = Para as crianças verem, para as crianças escutarem, mas para elas falarem não é assim.
 # text_eng =
 1	Awu	awu	DET	dem	Deixis=Prox	3	det	_	_
-2	boe	boe	NOUN	n	_	3	nmod	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	nmod	_	_
 3	etore	etore	NOUN	n	Number=Plur	4	nsubj	_	_
 4	eeruduwo	jorudu	VERB	v	Mood=Sub|Number=Plur|Person=3	0	root	_	_
 5	,	,	PUNCT	punct	_	4	punct	_	_
-6	boe	boe	NOUN	n	_	7	nmod	_	_
+6	boe	boe	NOUN	n	Number=Sing	7	nmod	_	_
 7	etore	etore	NOUN	n	Number=Plur	8	nsubj	_	_
 8	emearuduwo	mearudu	VERB	v	Mood=Sub|Number=Plur|Person=3	4	parataxis	_	_
 9	,	,	PUNCT	punct	_	8	punct	_	_
@@ -1938,7 +1938,7 @@
 1	Makore	mako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-mako=re
 2	Boe	Boe	PROPN	propn	Number=Plur	1	obl	_	_
 3	ji	ji	ADP	posp	Number=Plur|Person=3	2	case	_	Morph=0-ji
-4	boe	boe	NOUN	n	_	5	nmod	_	_
+4	boe	boe	NOUN	n	Number=Sing	5	nmod	_	_
 5	ewadaru	bataru	NOUN	n	Number=Plur|Person=3	1	obl	_	_
 6	tabo	tabo	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-tabo
 7	ia	ia	DET	art	Definite=Ind|PronType=Art	5	punct	_	_
@@ -2007,7 +2007,8 @@
 # text_eng =
 1	Cegodure	kodu	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	Morph=ce=kodo=re
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 7-3
 # text = Kuruie Emerao to , maridoguru .
@@ -2138,7 +2139,7 @@
 2	cemedage	metuia	NOUN	n	Clusivity=Ex|Number=Plur|Number[psor]=Plur|Person[psor]=3	6	dislocated	_	_
 3	ma	ma	X	x	_	2	discourse	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
-5	boe	boe	NOUN	n	_	6	nsubj	_	_
+5	boe	boe	NOUN	n	Number=Sing	6	nsubj	_	_
 6	moture	motu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 7	toro	toro	ADV	adv	_	6	advmod	_	_
 8	etododai	otodai	ADP	posp	Number=Plur|Person=3	6	obl	_	_
@@ -2832,7 +2833,8 @@
 # text_eng =
 1	Ikodo	kodo	NOUN	n	Number=Sing|Person=1	0	root	_	_
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 29-4
 # text = itaregodure Po Corewu to pugeje .
@@ -3037,7 +3039,7 @@
 5	,	,	PUNCT	punct	_	4	punct	_	_
 6	aroe	aroe	NOUN	n	Number=Plur	4	conj	_	_
 7	,	,	PUNCT	punct	_	6	punct	_	_
-8	boe	boe	NOUN	n	_	9	nmod	_	_
+8	boe	boe	NOUN	n	Number=Sing	9	nmod	_	_
 9	kaguru	kaguru	NOUN	n	_	4	conj	_	_
 10	,	,	PUNCT	punct	_	9	punct	_	_
 11	padura	padura	NOUN	n	_	12	nmod	_	_
@@ -3495,7 +3497,8 @@
 1	Cemerure	meru	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 2	rugadu	rugadu	ADV	adv	_	1	advmod	_	_
 3	jii	jii	ADV	adv	_	1	advmod	_	_
-4	...	...	PUNCT	punct	_	1	punct	_	_
+4	..	..	PUNCT	punct	_	1	punct	_	_
+5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 52-1
 # text = Itaiwore kuri ia itura kae .
@@ -3536,7 +3539,8 @@
 # text_eng =
 1	Itaiwore	aiwo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	tu	tu	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	2	punct	_	_
+3	..	..	PUNCT	punct	_	2	punct	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 53-6
 # text = Itura moture .
@@ -3684,14 +3688,15 @@
 # text_por = No meio da noite eu acordei. Fiquei escutando...
 # text_eng =
 1	Iedadure	jetadu	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
-2	boe	boe	NOUN	n	_	4	nmod	_	_
+2	boe	boe	NOUN	n	Number=Sing	4	nmod	_	_
 3	co	co	NOUN	n	_	2	nmod	_	_
 4	oia	oia	NOUN	n	_	1	obl	_	_
 5	keje	keje	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-keje
 6	,	,	PUNCT	punct	_	1	punct	_	_
 7	iwiapagare	biapaga	VERB	v	Mood=Ind|Number=Plur|Person=3	1	parataxis	_	_
 8	tu	tu	ADV	adv	_	7	advmod	_	_
-9	...	...	PUNCT	punct	_	2	punct	_	_
+9	..	..	PUNCT	punct	_	2	punct	_	_
+10	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 57-6
 # text =  Makao akore kowa kowa kowa kowa !
@@ -3837,7 +3842,8 @@
 # text_eng =
 1	Ikodo	kodo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	kuri	kuri	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 62-3
 # text = inagore madia , egore madia , egore pobo corewurogu reo , aku !
@@ -4124,7 +4130,8 @@
 # text_eng =
 1	Itaiwore	aiwo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	tu	tu	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 68-2
 # text = ure ecewu baiga koborigodu , ure tugera pemegado ji .
@@ -4280,7 +4287,8 @@
 # text_eng =
 1	Ikodo	ikodo	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	eregodaji	rekodaji	ADP	posp	Number=Plur|Person=3	1	obl	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 74-2
 # text = Oinore cewu makaoe egore kowa , kowa , kawa , kawa !
@@ -4662,7 +4670,8 @@
 5	epa	pa	NOUN	n	Number=Plur|Person=3	1	obl	_	_
 6	piji	piji	ADP	posp	Number=Sing|Person=3	5	case	_	Morph=0-piji
 7	gu	gu	X	x	_	1	dep	_	_
-8	...	...	PUNCT	punct	_	1	punct	_	_
+8	..	..	PUNCT	punct	_	1	punct	_	_
+9	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 82-6
 # text = iwo itaiado oino , dukeje icare kawaru pagudugodure , akore kwarr !
@@ -4701,7 +4710,7 @@
 # text = Boe kimo rema , nowu tapiradoge etae radu rekodure .
 # text_por = Não foi à toa, eis que ele correu no rumo dos bois.
 # text_eng =
-1	Boe	boe	NOUN	n	_	0	root	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	0	root	_	_
 2	kimo	kimo	X	x	_	1	flat	_	_
 3	rema	rema	AUX	x	_	1	aux	_	_
 4	,	,	PUNCT	punct	Mood=Ind|Number=Sing|Person=3	1	punct	_	_
@@ -4869,7 +4878,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	0	root	_	_
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 87-2a
 # text = Akore awu jire barae egore cachoeira , cachoeira ino .
@@ -4908,7 +4918,8 @@
 # text_eng =
 1	Ikodo	kodo	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 87-4
 # text = Akore iorubodare, awu itoguru jire boe egore ato itoguru ino .
@@ -5043,7 +5054,8 @@
 11	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	12	nsubj	_	Morph=i=re
 12	kagirido	kagiri	VERB	v	Mood=Ind|Number=Sing|Person=3	8	parataxis	_	_
 13	tu	tu	ADV	adv	_	12	advmod	_	_
-14	...	...	PUNCT	punct	_	12	punct	_	_
+14	..	..	PUNCT	punct	_	12	punct	_	_
+15	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 90-6
 # text = Icare ire ta tugu to .
@@ -5229,7 +5241,7 @@
 # text = Boe jokodu !
 # text_por = De verdade!
 # text_eng = Really!
-1	Boe	boe	PROPN	propn	Number=Plur	0	root	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	0	root	_	_
 2	jokodu	jokodu	NOUN	n	_	1	flat	_	_
 3	!	!	PUNCT	punct	_	2	punct	_	_
 
@@ -5258,7 +5270,8 @@
 5	,	,	PUNCT	punct	_	4	punct	_	_
 6	cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	2	parataxis	_	Morph=ce=kodo
 7	jii	jii	ADV	adv	_	6	advmod	_	_
-8	...	...	PUNCT	punct	_	6	punct	_	_
+8	..	..	PUNCT	punct	_	6	punct	_	_
+9	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 95-4
 # text = Akore iorubodare , cewu Butuie reo !
@@ -5279,7 +5292,7 @@
 1	Awu	awu	DET	dem	Deixis=Prox	7	dislocated	_	_
 2	jire	ji	ADP	posp	Mood=Ind|Number=Sing|Person=3	1	case	_	_
 3	marigudu	marigudu	ADV	adv	_	7	advmod	_	_
-4	Boe	Boe	PROPN	propn	_	7	nsubj	_	_
+4	Boe	Boe	PROPN	propn	Number=Plur	7	nsubj	_	_
 5	etugo	etugu	NOUN	n	_	6	nmod	_	_
 6	butuie	butuie	NOUN	n	_	7	obj	_	_
 7	padure	tu	VERB	vi	Number=Sing|Person=3	0	root	_	_
@@ -5302,7 +5315,8 @@
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	1	parataxis	_	Morph=ce=kodo
 5	jii	jii	ADV	adv	_	4	advmod	_	_
-6	...	...	PUNCT	punct	_	4	punct	_	_
+6	..	..	PUNCT	punct	_	4	punct	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 96-3
 # text = cedaregodure pugeje .
@@ -5563,6 +5577,7 @@
 1	Itaiwore	aiwo	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 2	tu	tu	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 111-7
 # text = ia iparedu akore marigu !
@@ -5902,7 +5917,7 @@
 # text_por = Não vai errar!
 # text_eng =
 1	Awogwakaba	bokwa	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
-2	boe	boe	NOUN	n	_	1	obl	_	_
+2	boe	boe	NOUN	n	Number=Sing	1	obl	_	_
 3	to	to	ADP	posp	Number=Sing|Person=3	2	case	_	Morph=0-to
 4	!	!	PUNCT	punct	_	1	punct	_	_
 
@@ -6007,7 +6022,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 161-1
 # text = Icare cedure .
@@ -6098,7 +6114,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 183-9
 # text = Icare iture .
@@ -6372,7 +6389,8 @@
 9	re	re	X	x	_	5	conj	_	_
 10	re	re	X	x	_	5	conj	_	_
 11	re	re	X	x	_	5	conj	_	_
-12	...	...	PUNCT	punct	_	5	punct	_	_
+12	..	..	PUNCT	punct	_	5	punct	_	_
+13	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 278-10
 # text = Ere nowu parira akodo ji ji ji ji ji .. .
@@ -6387,7 +6405,8 @@
 7	ji	ji	ADP	posp	Number=Sing|Person=3	4	conj	_	Morph=0-ji
 8	ji	ji	ADP	posp	Number=Sing|Person=3	4	conj	_	Morph=0-ji
 9	ji	ji	ADP	posp	Number=Sing|Person=3	4	conj	_	Morph=0-ji
-10	...	...	PUNCT	punct	_	4	punct	_	_
+10	..	..	PUNCT	punct	_	4	punct	_	_
+11	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 279-4
 # text = Nowu aroe maiwu utumode mato .
@@ -6478,7 +6497,8 @@
 4	go	go	X	x	_	3	ccomp	_	_
 5	go	go	X	x	_	4	conj	_	_
 6	go	go	X	x	_	4	conj	_	_
-7	.	.	PUNCT	punct	_	3	punct	_	_
+7	..	..	PUNCT	punct	_	3	punct	_	_
+8	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 282-1
 # text = Dukeje Tuguo epa ure tumugudo Tuguoji pugeje .
@@ -6554,7 +6574,8 @@
 6	oinore	oino	ADV	adv	Mood=Ind	7	advmod	_	Morph=oino=re
 7	rore	ro	VERB	v	Mood=Ind|Number=Sing|Person=3	3	parataxis	_	_
 8	ji	ji	ADP	posp	Number=Sing|Person=3	7	obl	_	Morph=0-ji
-9	...	....	PUNCT	punct	_	7	punct	_	_
+9	..	..	PUNCT	punct	_	7	punct	_	_
+10	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 297-5
 # text = Akore ioguduba ro oino tagabo ?
@@ -7038,7 +7059,7 @@
 # text = Boe moture .
 # text_por = Estava tudo limpo.
 # text_eng =
-1	Boe	boe	NOUN	n	Number=Sing	2	nsubj	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	moture	motu	VERB	vi	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -7092,7 +7113,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 370-6
 # text = Toro itododai jao !
@@ -7441,7 +7463,7 @@
 # text = Boe jokodu !
 # text_por = É verdade.
 # text_eng =
-1	Boe	boe	NOUN	n	Number=Sing	2	nmod	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nmod	_	_
 2	jokodu	jokodu	NOUN	n	_	0	root	_	_
 3	!	!	PUNCT	punct	_	2	punct	_	_
 
@@ -7610,7 +7632,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 407-11
 # text = Cegodo jii .. .
@@ -7618,7 +7641,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 408-1
 # text = Cegodo jii .. .
@@ -7626,7 +7650,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 408-3
 # text = Cegodo jii .. .
@@ -7634,7 +7659,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 411-7
 # text = Icare cedure .
@@ -7666,7 +7692,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 413-5
 # text = Cemaragodunure .
@@ -7689,7 +7716,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 417-4
 # text = Ere po rurudo tu tu tu .
@@ -7793,7 +7821,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 449-3
 # text = iorudure mariguduwuge ji .
@@ -7837,7 +7866,7 @@
 # text = Boe jamedu boe akedure dukeje icare iture pugeje , imugure toro boe pa keje .
 # text_por = Fui de novo, depois que todos acabaram, fiquei lá na roça.
 # text_eng =
-1	Boe	Boe	PRON	pron	PronType=Tot	4	nsubj	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	4	nsubj	_	_
 2	jamedu	jamedu	ADV	adv	_	1	flat	_	_
 3	boe	boe	NOUN	n	Number=Sing	2	flat	_	_
 4	akedure	akedu	VERB	v	Mood=Ind|Number=Sing|Person=3	7	advcl	_	_
@@ -7880,7 +7909,8 @@
 2	inudure	nudu	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	_
 3	woe	woe	ADV	adv	_	2	advmod	_	_
 4	tu	tu	ADV	adv	_	2	advmod	_	_
-5	...	...	PUNCT	punct	_	2	punct	_	_
+5	..	..	PUNCT	punct	_	2	punct	_	_
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 458-13
 # text = Ema rugadu .
@@ -8084,7 +8114,7 @@
 6	inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	1	parataxis	_	Morph=i=ako=re
 7	kajao	kajao	INTJ	intj	_	6	ccomp	_	_
 8	,	,	PUNCT	punct	_	7	punct	_	_
-9	boe	boe	NOUN	n	_	7	parataxis	_	_
+9	boe	boe	NOUN	n	Number=Sing	7	parataxis	_	_
 10	kodo	kodo	NOUN	n	_	9	nmod	_	_
 11	mae	mae	ADV	adv	_	9	advmod	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
@@ -8677,7 +8707,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 536-13
 # text = Icare cedure .
@@ -9607,7 +9638,7 @@
 # text_por =
 # text_eng =
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
-2	boe	boe	PROPN	propn	Number=Plur	3	dep	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	dep	_	_
 3	jokodu	jokodu	NOUN	n	_	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -9678,7 +9709,7 @@
 # text_por = Akore bororo! Eu não conheço Bororo.
 # text_eng =
 1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
-2	boe	boe	PROPN	propn	Number=Plur	1	ccomp	_	_
+2	boe	boe	NOUN	n	Number=Sing	1	ccomp	_	_
 3	karega	karega	AUX	aux	Polarity=Neg	2	aux	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	Bororo	Bororo	PROPN	propn	_	1	parataxis	_	_
@@ -10248,7 +10279,7 @@
 # text_por = Eles disseram A coisa está ruim.
 # text_eng =
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
-2	boe	boe	PROPN	propn	_	3	nsubj	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	nsubj	_	_
 3	pega	pega	NOUN	n	_	1	ccomp	_	_
 4	!	!	PUNCT	punct	_	3	punct	_	_
 
@@ -10450,7 +10481,8 @@
 # text_eng =
 1	Cegodo	kodo	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	Morph=ce=kodo
 2	jii	jii	ADV	adv	_	1	advmod	_	_
-3	...	...	PUNCT	punct	_	1	punct	_	_
+3	..	..	PUNCT	punct	_	1	punct	_	_
+4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 789-20
 # text = Boe awadugodure .
@@ -10473,7 +10505,7 @@
 # text_por = Tinha peixe para as Irmãs e para os Bororo.
 # text_eng =
 1	Egore	ako	VERB	v	Mood=Ind|Number=Plur|Person=3	0	root	_	Morph=e=ako=re
-2	boe	Boe	PROPN	propn	Number=Plur	3	dep	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	dep	_	_
 3	jokodu	jokodu	NOUN	n	_	1	ccomp	_	_
 4	!	!	PUNCT	punct	_	1	punct	_	_
 
@@ -11355,10 +11387,10 @@
 # text = Boe jokodu , boe jokodu !
 # text_por = É verdade!
 # text_eng =
-1	Boe	boe	PROPN	propn	Number=Plur	2	dep	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	dep	_	_
 2	jokodu	jokodu	NOUN	n	_	0	root	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	_
-4	boe	boe	PROPN	propn	Number=Plur	5	dep	_	_
+4	boe	boe	NOUN	n	Number=Sing	5	dep	_	_
 5	jokodu	jokodu	NOUN	n	_	1	parataxis	_	_
 6	!	!	PUNCT	punct	_	5	punct	_	_
 
@@ -11472,7 +11504,8 @@
 4	reko	reko	VERB	v	Number=Sing|Person=3	0	root	_	_
 5	rugadu	rugadu	ADV	adv	_	4	advmod	_	_
 6	m	m	X	x	_	4	dep	_	_
-7	...	...	PUNCT	punct	_	4	punct	_	_
+7	..	..	PUNCT	punct	_	4	punct	_	_
+8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 896-1
 # text = Icare cedaregodure woe .
@@ -16440,7 +16473,7 @@
 # text = Boe egododa .
 # text_por = lugar de reunião dos Bororo.
 # text_eng =
-1	Boe	boe	PROPN	propn	Number=Plur	2	nmod	_	_
+1	Boe	Boe	PROPN	propn	Number=Plur	2	nmod	_	_
 2	egododa	akodo	NOUN	n	Nomzr=Loc	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -17517,7 +17550,7 @@
 # text_por = estou admirando os enfeites dos Bororo.
 # text_eng =
 1	iekudunure	jekudu	VERB	v	Aspect=Prog|Mood=Ind|Number=Sing|Person=1	0	root	_	_
-2	boe	boe	PROPN	propn	Number=Plur	3	nmod	_	_
+2	boe	boe	NOUN	n	Number=Sing	3	nmod	_	_
 3	eimo	imo	NOUN	n	Number=Plur|Person=3	1	obl	_	_
 4	ji	ji	ADP	posp	Number=Sing|Person=3	3	case	_	Morph=0-ji
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -18077,7 +18110,7 @@
 # text_por = contarás tudo a teu pai.
 # text_eng =
 1	amode	a	PRON	bi	Mood=Ind|Number=Sing|Person=2|Status=Irr	4	nsubj	_	_
-2	boe	boe	NOUN	n	PronType=Tot	4	obj	_	_
+2	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 3	jamedu	jamedu	PRON	adv	_	2	flat	_	_
 4	ko	ko	VERB	vt	Number=Sing|Person=3	0	root	_	_
 5	ao	o	NOUN	n	Number=Sing|Person=2	4	obl	_	_

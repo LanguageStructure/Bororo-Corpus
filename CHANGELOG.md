@@ -13,6 +13,10 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   (`ccomp` × `parataxis`); XPOS `conj` unificado em `cconj`.
 - Camadas derivadas gold (1.778 sentenças) e silver (7.264), lista de revisão e painel de cobertura.
 - Rascunho das convenções ortográficas e de normalização (`docs/ORTOGRAFIA.md`), com 7 pontos a decidir.
+- Decisões ortográficas de 22/11/2026: só oxítonas de duas ou mais sílabas levam acento, que é mantido
+  (lista de revisão em `CorBo/validation/acentos_revisao.tsv`); tokens de pontos reproduzem o `# text`
+  (`..`, `...`, `.. .` = `..` + `.`; 408 sentenças); a forma decide `Boe` (PROPN, Plur) × `boe` (NOUN, Sing),
+  111 tokens ajustados. Registro em `CorBo/validation/orthography_fixes_20261122.tsv`.
 - Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
 
 ### Tokenizador

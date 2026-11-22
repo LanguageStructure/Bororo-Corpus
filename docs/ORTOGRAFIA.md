@@ -1,6 +1,6 @@
 # Convenções ortográficas e de normalização do CorBo
 
-> **Rascunho de 22/11/2026, a revisar por FFG.** O que está aqui descreve o que o corpus **já faz**,
+> **Rascunho de 22/11/2026, a revisar por FFG** (atualizado no mesmo dia com as decisões sobre acento, reticências e Boe/boe). O que está aqui descreve o que o corpus **já faz**,
 > com números extraídos do `CorBo.conllu`. Os pontos marcados **[DECIDIR]** precisam de decisão
 > antes de virar regra. Este documento complementa o [guia de anotação](ANNOTATION_GUIDE.md),
 > as [convenções de morfologia](MORPHOLOGY_ANNOTATION.md) e as
@@ -66,36 +66,42 @@ como estão. Elas não são tratadas como erro de digitação nem reduzidas na c
 
 ## 4. Diacríticos
 
-A grande maioria das palavras Bororo é escrita **sem acento**. Os diacríticos aparecem em dois contextos.
+**Regra (FFG, 22/11/2026): em Bororo só se acentuam as oxítonas de duas ou mais sílabas.** O acento
+agudo marca a sílaba tônica final. É portanto **significativo**: fica no `FORM` e não é removido na
+camada normalizada.
 
-**Palavras portuguesas** mantêm a grafia do português: *caminhão* (71), *João*, *café*, *você*, *não*.
+A grande maioria das palavras Bororo é paroxítona e se escreve sem acento. Os diacríticos do corpus
+aparecem em três situações.
 
-**Palavras Bororo** recebem às vezes um acento agudo (raramente grave ou circunflexo), quase sempre
-na última vogal e alternando com a forma sem acento:
+**Palavras portuguesas** mantêm a grafia do português: *caminhão* (71), *João*, *café*, *você*, *não*,
+*pátio*, *cemitério*.
+
+**Oxítonas Bororo acentuadas, conforme a regra:** *icá*, *aró*, *akó*, *kodibá*, *kupé*, *tododó*,
+*pejó*. Várias também aparecem sem acento:
 
 | Sem acento | Com acento |
 |---|---|
-| ica (47) | icá (30) |
-| aro (23) | aró (11) |
-| ako (49) | akó (3) |
+| ica (46) | icá (29) |
+| aro (17) | aró (11) |
+| ako (47) | akó (3) |
 | kodiba (15) | kodibá (3) |
-| ca (227) | cá (8) |
-| ta (156) | tá (4) |
-| pejo (4) | pejô (4), pejó (2) |
-| me (12) | mè (2), mé (1) |
-| we (13) | wè (2) |
+| pejo (3) | pejó (2), pejô (4) |
 
-As formas acentuadas aparecem sobretudo no fim de enunciados de fala direta e de exclamações
-(*Akore icá*, *Inagore aró!*), o que sugere marca de ênfase ou de entonação. Isso ainda não foi confirmado.
+A forma sem acento pode ser uma grafia que omitiu o acento ou uma palavra diferente (paroxítona). Só o contexto decide.
 
-**[DECIDIR]** Para cada alternância acima, decidir entre duas leituras:
+**Casos que contrariam a regra:**
 
-- (a) o acento é **significativo** (ênfase, vocativo, tonicidade): fica em `FORM` e pode ganhar um traço
-  em `MISC`, por exemplo `Emph=Yes`;
-- (b) o acento é **variação de grafia**: fica em `FORM`, e a camada normalizada o remove.
+- monossílabos acentuados: *mè*, *mé*, *wè* e talvez *cá*, *tá*, *pá*, que podem ser portugueses;
+- acento fora da última sílaba: *pojôrogu*, *karajánure* (base portuguesa *Karajá*);
+- circunflexo e grave em vez de agudo: *pejô*, *mè*, *wè*.
 
-Hoje a busca e o painel lexical diferenciam maiúsculas de minúsculas apenas para exibição, mas **não
-removem acentos**. Por isso *icá* e *ica* aparecem como formas diferentes no léxico e na busca.
+`scripts/review_accents.py` gera `CorBo/validation/acentos_revisao.tsv`, com cada forma, as ocorrências,
+a forma alternativa, os lemas e exemplos, e uma coluna `decisao` para preencher. O FORM só muda depois
+dessa revisão e quando o `# text` for corrigido, já que o FORM segue o texto.
+
+**[DECIDIR]** Para as alternâncias acima, decidir caso a caso: acentuar a oxítona que está sem acento
+(no `# text` e no `FORM`), ou registrar que são palavras diferentes. Decidir também se *pejô* deve
+virar *pejó*.
 
 ## 5. Maiúsculas e minúsculas
 
@@ -103,9 +109,10 @@ removem acentos**. Por isso *icá* e *ica* aparecem como formas diferentes no l�
   caixa (`casefold`).
 - As frases começam com maiúscula. As exceções são as entradas do dicionário (`dic_`, 950 de 972 em
   minúscula) e cerca de 330 frases de fontes numeradas cujo início foi cortado.
-- **Boe/boe.** No meio da frase ocorrem as duas grafias: 664 tokens *Boe* e 971 *boe* no total.
-  A caixa **não** decide a classe. A classe segue o sentido: etnônimo "os Bororo" = PROPN plural,
-  outros sentidos = NOUN singular (decisão de 21/11/2026).
+- **Boe/boe (decisão de 22/11/2026).** Aqui a caixa decide a classe: `Boe` é PROPN, lema `Boe`,
+  `Number=Plur` ("os Bororo"); `boe` é NOUN, lema `boe`, `Number=Sing`. Em 22/11 foram ajustados 111
+  tokens (`scripts/apply_orthography_decisions.py`). A regra vale para as formas exatas *Boe* e *boe*.
+  Formas com morfologia (*Boere*, *boeji*…) seguem a anotação de cada uma.
 
 ## 6. Pontuação
 
@@ -113,8 +120,7 @@ removem acentos**. Por isso *icá* e *ica* aparecem como formas diferentes no l�
 |---|---|---|
 | Espaço antes da pontuação (`boe .`) | quase todas as fontes numeradas, `dic_`, Jussila, Adugo Biri | mantido no `# text`; a pontuação é sempre um token próprio |
 | Pontuação colada (`boe.`) | *Boe Ero* e parte das fontes numeradas | mantida no `# text`; também vira token próprio |
-| Reticências `...` | 426 frases | **um** token `...` (532 tokens) |
-| `..`, `!..`, `. .` | cerca de 450 frases | cada ponto vira um token `.` |
+| Reticências e pontos seguidos (`...`, `..`, `!..`, `.. .`) | cerca de 900 frases | cada token de pontos reproduz o `# text`: pontos colados formam **um** token (`..`, `...`), pontos separados por espaço são tokens distintos (`.. .` = `..` + `.`), e `!..` = `!` + `..` (decisão de 22/11/2026; 408 sentenças ajustadas) |
 | Aspas retas `"` | só no *Boe Ero* (55 frases) | mantidas; marcam fala citada |
 | Aspas curvas `‘ ’` | 3 frases | mantidas |
 | Hífen ou travessão de diálogo (`-Cio`, `- Kaito`) | 35 frases | mantido |
@@ -124,8 +130,9 @@ removem acentos**. Por isso *icá* e *ica* aparecem como formas diferentes no l�
 
 **[DECIDIR]**
 
-1. Tokenizar `..` e `!..` de forma uniforme: hoje `...` é um token, mas `..` vira dois. Sugestão: toda
-   sequência de pontos vira **um** token (`..` → `..`, `!..` → `!` + `..`), sem alterar o `# text`.
+1. ~~Tokenização de `..` e `!..`~~: decidido e aplicado em 22/11/2026. Ficam 75 frases em que o
+   `# text` tem pontos sem token correspondente (ou o contrário), listadas em
+   `CorBo/validation/orthography_fixes_20261122.tsv` (tipo `reticencias_sem_alinhamento`).
 2. A função de `***`: marca de fim de seção, que poderia ir para um comentário `# section_end`, ou parte do texto.
 3. As aspas do *Boe Ero*: manter, ou registrar a fala citada só pela anotação (`Speech=Quo`).
 
@@ -142,9 +149,8 @@ e **não** gravada no CoNLL-U:
 1. normalização NFC;
 2. `casefold` (já implementado);
 3. remoção das bordas não alfabéticas (já implementado no painel lexical);
-4. **[DECIDIR, depende do item 4]** remoção de acento agudo, grave e circunflexo nas palavras Bororo,
-   mantendo-os nas palavras portuguesas (*caminhão*, *João*). Na prática: remover diacríticos quando o
-   token não tem `Lang=pt` nem é PROPN de origem portuguesa.
+4. **sem** remoção de acentos: o acento marca a oxítona e distingue palavras (seção 4). A busca pode
+   oferecer uma opção "ignorar acentos", mas o padrão é respeitá-los.
 
 Quando houver decisão, o painel lexical, `build_corpus_indexes.py` e `corbo-tokenizer` passam a usar a
 mesma função de normalização. Hoje cada um tem uma versão própria, todas equivalentes a NFC + `casefold`.
@@ -155,8 +161,8 @@ mesma função de normalização. Hoje cada um tem uma versão própria, todas e
 |---|---|---|
 | 1 | Letras representadas por U+F063, U+F086, U+F087 no *Boe Ero* | 2 |
 | 2 | Tabela grafema–fonema e referência ortográfica | 3 |
-| 3 | Acento em palavras Bororo: significativo ou variação gráfica | 4 |
-| 4 | Tokenização uniforme de `..` e `!..` | 6 |
+| 3 | ~~Acento em palavras Bororo~~: só oxítonas de 2+ sílabas (decidido 22/11); falta revisar `acentos_revisao.tsv` | 4 |
+| 4 | ~~Tokenização de `..` e `!..`~~ (aplicado 22/11); 75 frases sem alinhamento | 6 |
 | 5 | Função de `***` | 6 |
 | 6 | Aspas do *Boe Ero* | 6 |
-| 7 | Normalização sem acentos na busca e no léxico | 8 |
+| 7 | ~~Normalização sem acentos~~: não, o acento é mantido (22/11) | 8 |
