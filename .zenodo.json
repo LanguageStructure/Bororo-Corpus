@@ -1,0 +1,33 @@
+{
+  "title": "CorBo v0.10.0 — Corpus da Língua Bororo",
+  "upload_type": "dataset",
+  "version": "0.10.0",
+  "publication_date": "2026-11-22",
+  "description": "<p>CorBo (Corpus da Língua Bororo) é um corpus anotado da língua Bororo (Boe Ero; ISO 639-3 bor) em formato CoNLL-U (Universal Dependencies), com traduções em português, tokenizador, léxico e site de consulta (https://languagestructure.github.io/Bororo-Corpus/).</p><p>A versão 0.10.0 traz validação automática do CoNLL-U, separação entre camada gold (anotação manual, 1.900 sentenças sem erros estruturais) e silver (anotação automática), decisões de anotação e de ortografia documentadas, correções estruturais registradas, tokenizador v5, painel lexical, versão em inglês e página de downloads. Ver CHANGELOG.md e docs/RELEASE_NOTES_v0.10.0.md.</p><p>Limitações: parte das traduções em português está desalinhada e em revisão; a camada silver é anotação automática; 706 erros de validação permanecem listados em CorBo/validation/.</p>",
+  "creators": [
+    {
+      "name": "Ferraz Gerardi, Fabrício",
+      "orcid": "0000-0002-1438-7336"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Bororo",
+    "Boe",
+    "bor",
+    "Universal Dependencies",
+    "CoNLL-U",
+    "corpus",
+    "language documentation",
+    "Macro-Jê"
+  ],
+  "language": "bor",
+  "related_identifiers": [
+    {
+      "identifier": "https://languagestructure.github.io/Bororo-Corpus/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
+}

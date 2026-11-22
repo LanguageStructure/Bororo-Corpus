@@ -1,1 +1,12 @@
 desktop.ini
+# Higiene (nov/2026): cópias de segurança locais e lixeira revisável
+_to_delete/
+.DS_Store
+*.bak
+*.bak-*
+*.local-backup
+*.pre_update_backup
+backups/
+build/
+CorBo_vNext/annotations/editor_backups/
+__pycache__/

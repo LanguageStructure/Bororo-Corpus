@@ -1,6 +1,6 @@
-# CorBo v0.9.0 — notas de lançamento (rascunho)
+# CorBo v0.9.0 — notas de lançamento
 
-**Estado:** preparação; ainda não publicado.
+**Estado:** publicado no Zenodo em 17 de outubro de 2026 — DOI [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622).
 
 ## Escopo
 - Atualização do corpus CoNLL-U a partir do arquivo de trabalho de 17 de outubro de 2026.

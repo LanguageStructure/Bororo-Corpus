@@ -1,11 +1,21 @@
 cff-version: 1.2.0
-message: "Se utilizar este corpus, cite-o conforme indicado abaixo."
+message: "Se utilizar este corpus, cite-o conforme indicado abaixo. O DOI acima resolve sempre para a versão mais recente; cada versão tem também DOI próprio no Zenodo."
+type: dataset
 authors:
 - family-names: "Ferraz Gerardi"
   given-names: "Fabrício"
   orcid: "https://orcid.org/0000-0002-1438-7336"
-title: "CorBo v0.8.0"
-version: 0.8.0
-doi: 10.5281/zenodo.23187959
-date-released: 2026-10-06
-url: "https://github.com/LanguageStructure/Bororo-Corpus"
+title: "CorBo: Corpus da Língua Bororo"
+version: 0.10.0
+doi: 10.5281/zenodo.12110451
+date-released: 2026-11-22
+url: "https://languagestructure.github.io/Bororo-Corpus/"
+repository-code: "https://github.com/LanguageStructure/Bororo-Corpus"
+license: CC-BY-4.0
+keywords:
+  - Bororo
+  - Boe
+  - bor
+  - Universal Dependencies
+  - corpus
+  - language documentation

@@ -1,0 +1,621 @@
+prop_id	sent_id	kind	confidence	proposal
+T0001	boe_ero_01_04	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0003	boe_ero_01_40	fill_upos	alta	token 3 Pao: UPOS _ → NOUN
+T0007	boe_ero_01_40	fill_upos	alta	token 25 !: UPOS _ → PUNCT
+T0008	boe_ero_02_13	renumber_ids	alta	renumerar 1..n; 5 ID(s) repetido(s); sem árvore
+T0011	boe_ero_02_34	fill_upos	alta	token 12 maragodure: UPOS _ → VERB
+T0023	boe_ero_04_09	fill_upos	alta	token 20 towuje: UPOS _ → VERB
+T0027	boe_ero_04_09	fill_upos	alta	token 28 towuje: UPOS _ → VERB
+T0028	boe_ero_04_09	fill_upos	alta	token 30 kodokora: UPOS _ → NOUN
+T0029	boe_ero_04_09	fill_upos	alta	token 31 towuje: UPOS _ → VERB
+T0030	boe_ero_04_09	fill_upos	alta	token 35 uce: UPOS _ → NOUN
+T0031	boe_ero_04_09	fill_upos	alta	token 37 ;: UPOS _ → PUNCT
+T0034	boe_ero_04_09	fill_upos	alta	token 44 towuje: UPOS _ → VERB
+T0035	boe_ero_04_09	fill_upos	alta	token 49 irore: UPOS _ → VERB
+T0036	boe_ero_04_09	fill_upos	alta	token 51 oinore: UPOS _ → ADV
+T0037	boe_ero_04_09	fill_upos	alta	token 52 inagore: UPOS _ → VERB
+T0040	boe_ero_04_09	fill_upos	alta	token 64 baku: UPOS _ → NOUN
+T0043	boe_ero_04_09	fill_upos	alta	token 76 cewu: UPOS _ → DET
+T0044	boe_ero_04_09	fill_upos	alta	token 81 iera: UPOS _ → NOUN
+T0045	boe_ero_04_09	fill_upos	alta	token 82 kodure: UPOS _ → VERB
+T0047	boe_ero_07_58	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0049	13-2	set_root	alta	DEPREL de ewogware (token 3): discourse → root
+T0050	13-4	set_root	alta	DEPREL de padure (token 2): advcl → root
+T0051	36-2	set_root	alta	DEPREL de Idurure (token 1): ccomp → root
+T0052	39-1	set_root	alta	DEPREL de iture (token 2): ccomp → root
+T0053	40-2	set_root	alta	DEPREL de iebu (token 2): nsubj → root
+T0054	43-5	set_root	alta	DEPREL de imagore (token 2): nsubj → root
+T0055	44-2	set_root	alta	DEPREL de Inoba (token 1): ccomp → root
+T0056	48-1	set_root	alta	DEPREL de Cegodure (token 1): mark → root
+T0057	49-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0058	52-4	set_root	alta	DEPREL de egore (token 5): punct → root
+T0059	54-3	set_root	alta	DEPREL de bito (token 4): appos → root
+T0060	58-2	set_root	alta	DEPREL de pemegado (token 4): nsubj → root
+T0061	59-2	set_root	alta	DEPREL de emagore (token 2): advmod → root
+T0062	68-6	set_root	alta	DEPREL de jodo (token 5): flat → root
+T0063	70-1	set_root	alta	DEPREL de akore (token 3): nsubj → root
+T0064	71-3	set_root	alta	DEPREL de tugu (token 5): appos → root
+T0065	75-4	set_root	alta	DEPREL de turagojedo (token 2): appos → root
+T0066	75-11	set_root	alta	DEPREL de turagojedo (token 2): nsubj → root
+T0067	84-1#2	set_root	alta	DEPREL de Iregodure (token 1): det → root
+T0069	92-4	set_root	alta	DEPREL de boi (token 2): flat → root
+T0071	93-2	set_root	alta	DEPREL de bu (token 6): flat → root
+T0072	93-4	set_root	alta	DEPREL de towubo (token 3): flat → root
+T0073	98-4	set_root	alta	DEPREL de reore (token 3): dep → root
+T0074	98-6	set_root	alta	DEPREL de Iegarere (token 1): ccomp → root
+T0075	102-3	set_root	alta	DEPREL de Toro (token 1): ccomp → root
+T0076	102-4	set_root	alta	DEPREL de Butugu (token 1): ccomp → root
+T0077	111-8	set_root	alta	DEPREL de Marigu (token 1): ccomp → root
+T0078	115-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0079	120-2	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0080	123-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0081	127-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0082	128-6	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0083	130-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0084	131-7	set_root	alta	DEPREL de Oino (token 1): advmod → root
+T0085	133-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0086	136-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0087	137-4	set_root	alta	DEPREL de Ca (token 2): advmod → root
+T0088	138-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0089	142-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0090	143-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0091	145-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0093	146-15	fill_upos	alta	token 8 Kocare: UPOS _ → ADV
+T0095	149-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0096	154-9	set_root	alta	DEPREL de Padure (token 1): nsubj → root
+T0097	165-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0098	168-7	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0099	173-11	set_root	alta	DEPREL de Iegarere (token 1): ccomp → root
+T0100	177-2	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0101	180-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0102	180-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0103	181-4	set_root	alta	DEPREL de ji (token 1): obl → root
+T0104	182-3	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0105	183-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0106	184-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0107	184-7	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0108	190-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0109	192-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0110	196-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0112	198-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0113	199-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0114	200-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0116	201-1	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0117	201-2	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0118	202-6	set_root	alta	DEPREL de Padure (token 1): nsubj → root
+T0119	206-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0120	208-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0121	209-1	renumber_ids	alta	renumerar 1..n; 7 ID(s) repetido(s); HEADs remapeados
+T0122	210-1	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0123	210-2	renumber_ids	alta	renumerar 1..n; 6 ID(s) repetido(s); sem árvore
+T0124	210-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0127	221-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0128	223-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0129	226-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0131	230-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0132	237-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0134	239-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0136	239-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0138	240-1	fill_upos	alta	token 28 ekera: UPOS _ → NOUN
+T0145	243-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0146	244-4	renumber_ids	alta	renumerar 1..n; 4 ID(s) repetido(s); sem árvore
+T0147	247-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0148	249-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0149	250-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0150	257-15	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0151	257-16	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0152	258-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0153	258-4	fill_upos	alta	token 10 toragudu: UPOS _ → NOUN
+T0154	259-1	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0155	265-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0156	265-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0158	265-4	fill_upos	alta	token 20 jeture: UPOS _ → VERB
+T0159	267-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0160	268-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0161	268-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0163	270-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0164	271-1	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0165	276-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0169	278-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0170	285-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0171	285-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0174	291-4	fill_upos	alta	token 6 ha: UPOS _ → X
+T0178	293-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0179	293-2	fill_upos	alta	token 23 kuruga: UPOS _ → NOUN
+T0180	293-4	set_root	alta	DEPREL de reno (token 2): aux → root
+T0181	294-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0182	300-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0184	301-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0188	307-5	set_root	alta	DEPREL de toro (token 1): advmod → root
+T0189	308-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0191	308-6#2	fill_upos	alta	token 1 Itaiwore: UPOS _ → VERB
+T0192	310-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0193	312-5	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0194	318-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0195	319-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0196	322-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0197	322-3	fill_upos	alta	token 14 moturewu: UPOS _ → NOUN
+T0198	322-3	fill_upos	alta	token 19 moturewu: UPOS _ → NOUN
+T0199	324-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0200	331-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0201	331-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0202	331-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0203	331-9#2	fill_upos	alta	token 11 cebegi: UPOS _ → ADP
+T0204	332-2	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0205	334-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0208	340-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0209	347-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0210	348-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0211	350-3	set_root	alta	DEPREL de ure (token 2): nsubj → root
+T0212	356-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0213	357-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0214	358-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0216	360-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0218	362-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0220	362-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0221	364-7	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); HEADs remapeados
+T0222	364-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0223	368-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0224	373-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0225	377-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0226	377-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0227	378-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0228	379-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0229	379-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0230	381-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0231	381-6	set_root	alta	DEPREL de toro (token 1): advmod → root
+T0232	381-7	set_root	alta	DEPREL de toro (token 1): advmod → root
+T0233	382-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0234	382-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0235	386-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0236	387-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0237	387-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0238	387-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0239	387-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0241	391-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0242	391-17	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0243	394-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0244	394-5	set_root	alta	DEPREL de kimo (token 2): advmod → root
+T0245	396-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0246	397-1	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0247	399-7	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0248	400-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0250	405-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0251	406-2	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0252	406-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0253	406-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0255	407-8	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0256	409-5	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0257	411-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0258	412-6	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0259	412-10	set_root	alta	DEPREL de toro (token 1): advmod → root
+T0260	418-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0261	421-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0262	423-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0263	424-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0264	430-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0265	430-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0266	430-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0267	430-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0268	430-11	fill_upos	alta	token 14 toriji: UPOS _ → ADP
+T0269	431-28	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0270	433-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0272	433-12	fill_upos	alta	token 14 epeguru: UPOS _ → NOUN
+T0273	433-12	fill_upos	alta	token 17 epeguru: UPOS _ → NOUN
+T0275	435-3	renumber_ids	alta	renumerar 1..n; 4 ID(s) repetido(s); sem árvore
+T0276	435-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0277	437-1	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); HEADs remapeados
+T0278	440-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0279	440-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0282	441-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0283	441-10	fill_upos	alta	token 10 oto: UPOS _ → NOUN
+T0285	442-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0286	442-2	fill_upos	alta	token 12 oto: UPOS _ → NOUN
+T0287	451-7	fill_upos	alta	token 8 akagoino: UPOS _ → VERB
+T0288	451-25	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0289	451-34	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0290	452-8	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); HEADs remapeados
+T0291	453-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0293	455-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0294	456-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0295	456-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0296	457-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0297	458-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0298	458-19	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0301	459-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0302	459-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0303	462-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0304	462-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0305	464-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0306	464-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0308	465-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0309	469-7	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0310	469-21	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0311	479-15	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0312	482-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0313	482-15	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0314	483-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0315	483-16	set_root	alta	DEPREL de Oinore (token 1): advmod → root
+T0316	484-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0317	484-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0318	489-3	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0319	489-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0320	490-1	set_root	alta	DEPREL de Jii (token 1): advmod → root
+T0321	490-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0322	490-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0323	491-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0327	495-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0329	497-16	set_root	alta	DEPREL de Barogwa (token 1): nsubj → root
+T0330	498-11	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0331	498-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0334	506-1	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0335	506-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0336	507-5	set_root	alta	DEPREL de Oinore (token 1): advmod → root
+T0337	507-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0338	508-17	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0339	510-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0342	513-17	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0343	515-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0344	515-2	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0345	515-2	fill_upos	alta	token 7 cegodui: UPOS _ → VERB
+T0346	516-9	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0350	519-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0351	520-2	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0352	520-5	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0353	520-15	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0354	521-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0355	522-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0356	526-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0357	526-8	set_root	alta	DEPREL de Oinore (token 1): advmod → root
+T0358	527-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0359	532-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0360	532-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0361	535-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0362	536-16	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0363	536-16	fill_upos	alta	token 12 cegeje: UPOS _ → ADP
+T0364	536-22	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0365	537-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0367	538-4	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0368	539-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0369	540-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0370	540-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0371	540-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0372	541-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0374	542-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0376	549-13	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0377	550-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0378	550-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0379	552-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0380	553-20	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0381	558-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0382	561-12	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0383	562-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0384	562-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0385	563-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0386	563-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0387	563-3	fill_upos	alta	token 19 tugado: UPOS _ → VERB
+T0388	563-7	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0389	563-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0390	564-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0391	565-2	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0392	565-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0393	569-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0394	572-7	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0395	572-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0396	573-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0397	573-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0398	575-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0399	575-7	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0400	575-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0401	575-17	set_root	alta	DEPREL de Padure (token 1): nsubj → root
+T0402	577-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0403	577-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0405	582-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0407	585-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0409	585-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0410	588-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0412	590-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0414	597-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0415	600-10	set_root	alta	DEPREL de Jii (token 1): advmod → root
+T0417	602-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0418	603-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0419	604-11	set_root	alta	DEPREL de Iegarere (token 1): ccomp → root
+T0420	604-13	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0421	605-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0422	605-13	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0423	605-16	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0424	606-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0425	611-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0426	612-6	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0427	612-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0428	613-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0429	614-3	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0430	614-8	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0431	615-2	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0432	615-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0433	616-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0435	619-23	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0436	619-23	fill_upos	alta	token 10 oto: UPOS _ → NOUN
+T0437	622-16	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0438	623-9	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0440	624-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0441	624-13	set_root	alta	DEPREL de jamedu (token 2): advmod → root
+T0442	625-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0443	625-21	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0444	631-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0445	632-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0446	633-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0447	636-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0448	636-3	set_root	alta	DEPREL de Oinore (token 1): advmod → root
+T0451	637-11	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0452	642-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0454	649-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0457	653-20	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0458	654-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0460	655-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0461	655-15	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0462	655-17	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0463	657-15	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0464	658-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0465	658-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0466	660-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0467	661-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0468	661-10	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0469	666-6	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0470	670-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0471	670-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0472	672-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0475	674-5	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0476	674-12	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0477	676-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0478	677-16	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0480	679-10	set_root	alta	DEPREL de Barogwato (token 1): advmod → root
+T0481	679-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0482	683-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0483	690-9	set_root	alta	DEPREL de Nono (token 1): advmod → root
+T0484	691-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0485	701-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0486	703-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0489	717-6	set_root	alta	DEPREL de Woe (token 1): advmod → root
+T0490	717-7	set_root	alta	DEPREL de Woe (token 1): advmod → root
+T0491	718-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0493	720-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0495	722-15	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0496	724-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0498	726-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0499	729-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0500	734-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0501	734-3	fill_upos	alta	token 10 tumugudo: UPOS _ → VERB
+T0503	735-16	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0504	739-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0505	742-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0506	745-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0508	748-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0509	748-8	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0510	749-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0511	751-15	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0512	753-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0515	762-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0516	764-13	fill_upos	alta	token 10 boi: UPOS _ → NOUN
+T0517	769-3	set_root	alta	DEPREL de Padure (token 1): nsubj → root
+T0519	775-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0520	775-9	set_root	alta	DEPREL de Oinore (token 1): advmod → root
+T0521	775-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0522	776-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0523	777-4	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0524	781-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0525	781-17	fill_upos	alta	token 17 awuge: UPOS _ → PRON
+T0526	783-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0527	785-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0529	785-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0530	786-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0531	786-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0532	789-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0533	789-8	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0534	791-4	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0535	794-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0536	796-7	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0538	798-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0539	798-6	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0542	800-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0543	807-4	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0544	807-8	renumber_ids	alta	renumerar 1..n; 3 ID(s) repetido(s); sem árvore
+T0545	807-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0549	820-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0550	821-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0551	822-7	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0553	833-13	set_root	alta	DEPREL de taci (token 1): advmod → root
+T0554	834-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0555	835-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0556	837-7	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0557	839-14	fill_upos	alta	token 12 awadudo: UPOS _ → VERB
+T0558	846-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0560	847-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0563	848-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0565	855-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0567	856-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0568	857-7	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0569	857-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0570	858-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0571	859-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0572	859-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0573	863-8	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0574	863-11	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0575	864-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0577	867-5	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0578	869-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0579	870-8	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0580	879-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0581	884-36	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0583	885-13	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0584	885-14	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0585	887-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0587	890-24	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0589	896-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0590	899-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0591	899-13	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0592	903-1	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0593	903-18	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0594	905-8	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); sem árvore
+T0595	906-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0596	910-6	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0597	913-1	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0598	914-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0599	916-16	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0601	917-24	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0602	917-27	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0603	918-8	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0604	921-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0606	922-11	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0607	922-18	set_root	alta	DEPREL de taci (token 1): advmod → root
+T0608	922-28	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0609	923-8	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0610	923-9	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0611	924-2	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0612	925-9	set_root	alta	DEPREL de korigodu (token 2): obl → root
+T0613	925-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0614	926-4	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0615	926-15	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0616	929-17	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0619	933-12	set_root	alta	DEPREL de kimo (token 2): advmod → root
+T0620	938-8	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0621	941-15	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0622	942-3	set_root	alta	DEPREL de Marigu (token 1): advmod → root
+T0625	944-2	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0626	944-3	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0627	945-6	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0629	946-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0630	953-10	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0631	954-13	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0632	955-1	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0633	955-12	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0634	958-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0635	959-9	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0639	967-5	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0640	967-5	fill_upos	alta	token 15 Jarudori: UPOS _ → PROPN
+T0641	967-11	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0642	967-12	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0643	968-9	set_root	alta	DEPREL de Ca (token 1): advmod → root
+T0644	970-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0645	971-3	set_root	alta	DEPREL de reno (token 4): aux → root
+T0646	973-8	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0648	977-6	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0649	977-10	renumber_ids	alta	renumerar 1..n; 2 ID(s) repetido(s); HEADs remapeados
+T0650	983-21	set_root	alta	DEPREL de Mato (token 1): advmod → root
+T0653	dic_0579	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); sem árvore
+T0654	dic_0628	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+T0656	dic_1273	renumber_ids	alta	renumerar 1..n; 1 ID(s) repetido(s); HEADs remapeados
+M0001	boe_ero_01_04	swap	alta	ji (15) recebe 14/case; vírgula (16) passa a 14/punct
+T0004	boe_ero_02_02	selfloop_punct	alta	token 5 ,: HEAD 5 (ele mesmo) → 4 (raiz)
+T0007	boe_ero_02_35	form_from_text	alta	token 4 boe: FORM → Boe
+T0008	boe_ero_02_35	form_from_text	alta	token 28 boe: FORM → Boe
+T0030	boe_ero_04_19	form_from_text	alta	token 29 boe: FORM → Boe
+T0032	ritual-onca-1-02	form_from_text	alta	token 4 Ceraedure: FORM → ceraedure
+T0033	AdugoBiri-2.10#54	selfloop_punct	alta	token 7 ,: HEAD 7 (ele mesmo) → 3 (raiz)
+T0034	AdugoBiri-2.10#54	selfloop_punct	alta	token 17 ,: HEAD 17 (ele mesmo) → 3 (raiz)
+T0035	AdugoBiri-2.10#54	selfloop_punct	alta	token 21 .: HEAD 21 (ele mesmo) → 3 (raiz)
+T0038	44-5	selfloop_punct	alta	token 2 .: HEAD 2 (ele mesmo) → 1 (raiz)
+T0039	51-1	selfloop_punct	alta	token 2 ,: HEAD 2 (ele mesmo) → 3 (raiz)
+T0041	85-5	selfloop_punct	alta	token 3 !: HEAD 2 (ele mesmo) → 1 (raiz)
+T0044	100-2	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 1 (raiz)
+T0045	101-1	form_from_text	alta	token 1 Akore: FORM → akore
+T0046	137-1	form_from_text	alta	token 16 _: FORM → -
+T0047	137-3	form_from_text	alta	token 1 _: FORM → -
+T0048	137-4	form_from_text	alta	token 1 _: FORM → -
+T0049	139-3	form_from_text	alta	token 1 Akore: FORM → akore
+T0052	185-12	selfloop_punct	alta	token 7 .: HEAD 7 (ele mesmo) → 1 (raiz)
+T0054	199-1	form_from_text	alta	token 7 Ba: FORM → ba
+T0059	230-1	form_from_text	alta	token 2 Ecerae: FORM → ecerae
+T0062	240-1	form_from_text	alta	token 5 akore: FORM → Akore
+T0071	267-1	form_from_text	alta	token 10 hu: FORM → Hu
+T0072	269-2	form_from_text	alta	token 2 Tagera: FORM → tagera
+T0087	306-3	form_from_text	alta	token 2 Awu: FORM → awu
+T0089	334-1	form_from_text	alta	token 5 roia: FORM → Roia
+T0090	334-1	form_from_text	alta	token 10 Mere: FORM → mere
+T0093	353-9	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0097	365-8	selfloop_punct	alta	token 6 .: HEAD 6 (ele mesmo) → 1 (raiz)
+T0100	397-4	form_from_text	alta	token 1 _: FORM → -
+T0103	409-3	form_from_text	alta	token 1 _: FORM → -
+T0104	409-3	form_from_text	alta	token 2 uu: FORM → Uu
+T0105	428-9	form_from_text	alta	token 1 _: FORM → -
+T0108	434-6	form_from_text	alta	token 2 Woere: FORM → woere
+T0109	438-3	form_from_text	alta	token 1 _: FORM → -
+T0110	438-6	form_from_text	alta	token 1 _: FORM → -
+T0111	438-7	form_from_text	alta	token 1 _: FORM → -
+T0115	447-1	form_from_text	alta	token 13 _: FORM → -
+T0116	447-1	form_from_text	alta	token 15 _: FORM → -
+T0117	447-1	form_from_text	alta	token 17 _: FORM → -
+T0118	447-1	form_from_text	alta	token 19 _: FORM → -
+T0119	447-1	form_from_text	alta	token 21 _: FORM → -
+T0120	447-1	form_from_text	alta	token 23 _: FORM → -
+T0121	447-1	form_from_text	alta	token 25 _: FORM → -
+T0122	447-1	form_from_text	alta	token 27 _: FORM → -
+T0123	447-1	form_from_text	alta	token 29 _: FORM → -
+T0124	447-1	form_from_text	alta	token 31 _: FORM → -
+T0125	447-1	form_from_text	alta	token 33 _: FORM → -
+T0126	447-1	form_from_text	alta	token 35 _: FORM → -
+T0127	447-1	form_from_text	alta	token 37 _: FORM → -
+T0128	447-1	form_from_text	alta	token 39 _: FORM → -
+T0129	447-1	form_from_text	alta	token 41 _: FORM → -
+T0130	447-1	form_from_text	alta	token 43 _: FORM → -
+T0131	447-1	form_from_text	alta	token 45 _: FORM → -
+T0133	458-6	form_from_text	alta	token 2 Itonaregedu: FORM → itonaregedu
+T0136	461-2	form_from_text	alta	token 17 Tadu: FORM → tadu
+T0137	462-13	form_from_text	alta	token 2 Kodiba: FORM → kodiba
+T0138	463-10	form_from_text	alta	token 4 nowu: FORM → Nowu
+T0140	469-7	form_from_text	alta	token 1 jii: FORM → Jii
+T0141	469-7	form_from_text	alta	token 14 _: FORM → -
+T0142	486-8	form_from_text	alta	token 16 Ioguduba: FORM → ioguduba
+T0143	491-3	form_from_text	alta	token 1 _: FORM → -
+T0144	491-4	form_from_text	alta	token 1 _: FORM → -
+T0145	491-4	form_from_text	alta	token 5 _: FORM → -
+T0146	491-5	form_from_text	alta	token 1 _: FORM → -
+T0147	491-7	form_from_text	alta	token 1 _: FORM → -
+T0148	491-7	form_from_text	alta	token 2 uu: FORM → Uu
+T0152	499-8	form_from_text	alta	token 1 _: FORM → -
+T0153	499-8	form_from_text	alta	token 2 uu: FORM → Uu
+T0156	507-31	form_from_text	alta	token 1 _: FORM → -
+T0157	507-32	form_from_text	alta	token 2 _: FORM → -
+T0162	526-5	form_from_text	alta	token 5 _: FORM → -
+T0163	526-5	form_from_text	alta	token 11 akore: FORM → Akore
+T0164	538-1	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0167	542-4	form_from_text	alta	token 3 _: FORM → -
+T0168	542-4	form_from_text	alta	token 6 _: FORM → -
+T0176	612-8	form_from_text	alta	token 1 _: FORM → -
+T0184	653-8	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0189	679-2	form_from_text	alta	token 2 Ire: FORM → ire
+T0192	705-10	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0194	714-15	selfloop_punct	alta	token 5 .: HEAD 5 (ele mesmo) → 1 (raiz)
+T0196	721-7	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0200	738-1	form_from_text	alta	token 2 Ire: FORM → ire
+T0201	744-17	form_from_text	alta	token 2 Aerdiware: FORM → aerdiware
+T0203	748-7	form_from_text	alta	token 2 _: FORM → -
+T0206	767-12	form_from_text	alta	token 2 Ire: FORM → ire
+T0207	767-12	form_from_text	alta	token 6 Ire: FORM → ire
+T0208	767-12	form_from_text	alta	token 10 Ire: FORM → ire
+T0210	773-11	form_from_text	alta	token 2 Icare: FORM → icare
+T0213	798-7	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0214	798-11	form_from_text	alta	token 1 nowu: FORM → Nowu
+T0221	843-2	form_from_text	alta	token 1 _: FORM → -
+T0222	843-2	form_from_text	alta	token 7 Ino: FORM → ino
+T0232	894-3	form_from_text	alta	token 9 ma: FORM → Ma
+T0233	897-7	form_from_text	alta	token 2 Ikera: FORM → ikera
+T0239	940-13	form_from_text	alta	token 2 Boe: FORM → boe
+T0246	969-2	form_from_text	alta	token 9 Itore: FORM → itore
+T0248	980-2	form_from_text	alta	token 6 Kodire: FORM → kodire
+T0249	982-11	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0259	dic_1341	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0262	dic_0376	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0264	dic_1220	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0028	ritual-onca-1-02	form_from_text	alta	token 16 kurirewu: FORM → Kurirewu
+T0034	109-4	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0043	239-4	form_from_text	alta	token 20 O: FORM → o
+T0053	269-2	form_from_text	alta	token 6 egore: FORM → Egore
+T0054	269-2	form_from_text	alta	token 7 Boekare: FORM → boekare
+T0069	303-2	form_from_text	alta	token 6 Barogwa: FORM → barogwa
+T0073	345-3	form_from_text	alta	token 15 Uwo: FORM → uwo
+T0097	512-5	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0110	617-9	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0118	656-3	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0127	723-1	form_from_text	alta	token 6 uu: FORM → Uu
+T0148	884-42	form_from_text	alta	token 8 Barogwa: FORM → barogwa

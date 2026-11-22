@@ -1,0 +1,4 @@
+prop_id	line	sent_id	kind	confidence	proposal	detail	approve
+P0001	38162	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo awure keje toro .	
+P0002	38170	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo akera bukeje toro .	
+P0003	38178	331-9	merge	média	unir à sentença 331-9 (o # text ainda tem tokens a mais no fim)	ere kireru butudo akogwa bukeje toro .	

@@ -1,0 +1,44 @@
+{
+  "file": "/sessions/rcw-01cqhn5zirbyip9a2pz1zfgs/tmpw/orig.conllu",
+  "stats": {
+    "blocks": 12235,
+    "sentences": 11904,
+    "manual_sentences": 2297,
+    "tokens": 79272,
+    "sentences_with_full_syntax": 11192,
+    "auto_sentences": 9607,
+    "auto_tokens": 49487,
+    "sentences_without_full_syntax": 712,
+    "sentences_pending_tokenization": 268
+  },
+  "errors": {
+    "bad_head": 3,
+    "bad_token_id": 95,
+    "block_without_tokens": 63,
+    "cycle": 72,
+    "deprel_not_ud": 25,
+    "feat_duplicate_key": 10,
+    "feat_malformed": 915,
+    "feats_unsorted": 35,
+    "fragment_without_sent_id": 241,
+    "head_out_of_range": 4,
+    "missing_sent_id": 9,
+    "missing_text": 1,
+    "private_use_character": 18,
+    "root_count": 12,
+    "root_mismatch": 322,
+    "text_form_mismatch": 1939,
+    "token_ids_not_sequential": 633,
+    "upos_missing": 342,
+    "upos_not_ud": 151,
+    "whitespace_in_form": 2,
+    "whitespace_in_lemma": 1
+  },
+  "warnings": {
+    "head_deprel_mismatch": 2464,
+    "misc_malformed": 6038,
+    "pending_tokenization": 268,
+    "text_punct_mismatch": 370
+  },
+  "error_total": 4893
+}

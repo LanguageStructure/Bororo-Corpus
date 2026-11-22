@@ -1,0 +1,881 @@
+sent_id	line	group	automatic	full_syntax	errors
+boe_ero_01_14-2	319	boe_ero	no	no	
+boe_ero_01_15	347	boe_ero	no	yes	text_form_mismatch
+boe_ero_01_34	957	boe_ero	yes	no	upos_missing
+boe_ero_01_40	1215	boe_ero	yes	no	upos_missing
+boe_ero_02_02	1385	boe_ero	no	no	
+boe_ero_02_10	1547	boe_ero	no	yes	text_form_mismatch
+boe_ero_02_13	1596	boe_ero	yes	no	
+boe_ero_02_15	1645	boe_ero	yes	no	text_form_mismatch
+boe_ero_02_21	1780	boe_ero	yes	no	upos_missing
+boe_ero_02_22	1796	boe_ero	yes	yes	root_mismatch
+boe_ero_02_27	1920	boe_ero	yes	yes	private_use_character
+boe_ero_02_33	2073	boe_ero	yes	yes	text_form_mismatch
+boe_ero_02_33-2	2114	boe_ero	yes	yes	root_mismatch
+boe_ero_02_34	2127	boe_ero	yes	no	upos_missing
+boe_ero_02_35	2154	boe_ero	yes	yes	private_use_character
+boe_ero_02_38	2240	boe_ero	yes	no	upos_missing
+boe_ero_02_42	2414	boe_ero	yes	no	upos_missing
+boe_ero_03_01	2474	boe_ero	yes	no	upos_missing
+boe_ero_03_33	3188	boe_ero	yes	yes	root_mismatch
+boe_ero_04_09	3570	boe_ero	yes	no	private_use_character,upos_missing
+boe_ero_04_11	3705	boe_ero	yes	yes	private_use_character
+boe_ero_04_19	3924	boe_ero	yes	no	private_use_character
+boe_ero_07_11	5000	boe_ero	yes	yes	private_use_character
+boe_ero_07_31	5505	boe_ero	yes	no	text_form_mismatch
+boe_ero_07_58	6114	boe_ero	yes	no	
+boe_ero_07_60	6162	boe_ero	yes	yes	private_use_character
+boe_ero_07_69	6327	boe_ero	yes	yes	root_mismatch
+boe_ero_08_09	6454	boe_ero	yes	no	
+boe_ero_08_10	6468	boe_ero	no	yes	cycle
+boe_ero_08_19	6622	boe_ero	yes	no	bad_token_id
+criação-016	7264	criação	yes	yes	feat_malformed
+Jussila-6	7737	Jussila	yes	yes	text_form_mismatch
+Jussila-10	7801	Jussila	no	yes	text_form_mismatch
+Jussila-13	7854	Jussila	yes	yes	text_form_mismatch
+Jussila-17	7920	Jussila	yes	yes	text_form_mismatch
+AdugoBiri-2.10#19	9195	AdugoBiri	no	no	
+AdugoBiri-2.10#37	9563	AdugoBiri	yes	no	
+AdugoBiri-2.10#54	9894	AdugoBiri	yes	no	
+3-3	10114	numérico (NNN-N)	yes	yes	root_mismatch
+4-5	10208	numérico (NNN-N)	yes	yes	cycle
+6-3	10354	numérico (NNN-N)	no	yes	feat_malformed
+11-6	10576	numérico (NNN-N)	no	yes	root_mismatch
+19-3	11033	numérico (NNN-N)	no	yes	cycle
+23-2	11158	numérico (NNN-N)	no	yes	text_form_mismatch
+37-6	11888	numérico (NNN-N)	no	yes	text_form_mismatch
+40-2	11987	numérico (NNN-N)	yes	yes	root_mismatch
+40-8	12035	numérico (NNN-N)	no	no	
+42-1	12097	numérico (NNN-N)	no	yes	root_mismatch
+42-2	12111	numérico (NNN-N)	no	yes	root_mismatch
+44-1	12172	numérico (NNN-N)	no	yes	cycle
+47-1	12339	numérico (NNN-N)	no	no	root_mismatch
+49-4	12424	numérico (NNN-N)	no	yes	root_mismatch
+51-3	12515	numérico (NNN-N)	no	yes	text_form_mismatch
+52-4	12603	numérico (NNN-N)	yes	yes	root_mismatch
+53-2	12654	numérico (NNN-N)	no	yes	cycle
+53-5	12673	numérico (NNN-N)	no	yes	text_form_mismatch
+54-3	12729	numérico (NNN-N)	yes	yes	root_mismatch
+55-7	12794	numérico (NNN-N)	no	yes	root_mismatch
+57-1	12863	numérico (NNN-N)	no	yes	root_mismatch
+58-2	12950	numérico (NNN-N)	yes	yes	root_mismatch
+58-4	12985	numérico (NNN-N)	no	yes	text_form_mismatch
+59-2	13016	numérico (NNN-N)	no	yes	root_mismatch
+60-5	13054	numérico (NNN-N)	yes	no	
+60-6	13067	numérico (NNN-N)	yes	no	
+61-8	13135	numérico (NNN-N)	no	no	
+67-1	13405	numérico (NNN-N)	no	yes	root_mismatch
+68-4	13512	numérico (NNN-N)	no	yes	root_mismatch
+75-11	13886	numérico (NNN-N)	yes	yes	root_mismatch
+83-2	14320	numérico (NNN-N)	no	yes	root_mismatch
+85-5	14426	numérico (NNN-N)	no	yes	token_ids_not_sequential
+90-2	14681	numérico (NNN-N)	no	yes	root_mismatch
+90-9	14770	numérico (NNN-N)	no	yes	cycle
+92-5	14899	numérico (NNN-N)	no	yes	root_mismatch
+92-6	14910	numérico (NNN-N)	yes	yes	root_mismatch
+93-2	14953	numérico (NNN-N)	yes	yes	root_mismatch
+96-1	15122	numérico (NNN-N)	no	yes	root_mismatch
+96-6	15155	numérico (NNN-N)	no	yes	text_form_mismatch
+97-3	15179	numérico (NNN-N)	yes	yes	text_form_mismatch
+100-1	15340	numérico (NNN-N)	yes	yes	root_mismatch
+100-2	15364	numérico (NNN-N)	no	yes	cycle
+101-7	15485	numérico (NNN-N)	yes	yes	bad_token_id,root_count,root_mismatch,text_form_mismatch
+103-5	15637	numérico (NNN-N)	yes	yes	root_mismatch
+103-7	15675	numérico (NNN-N)	yes	yes	text_form_mismatch
+104-6	15764	numérico (NNN-N)	yes	yes	root_mismatch
+105-2	15836	numérico (NNN-N)	yes	yes	root_mismatch
+106-2	15887	numérico (NNN-N)	yes	no	
+106-3	15923	numérico (NNN-N)	yes	yes	root_mismatch
+110-2	16125	numérico (NNN-N)	yes	yes	root_mismatch
+111-4	16253	numérico (NNN-N)	no	yes	cycle
+111-9	16293	numérico (NNN-N)	yes	no	root_mismatch
+113-1	16390	numérico (NNN-N)	yes	yes	text_form_mismatch
+115-3	16601	numérico (NNN-N)	yes	no	
+120-2	16951	numérico (NNN-N)	yes	no	
+122-1	17041	numérico (NNN-N)	no	yes	deprel_not_ud
+123-1	17165	numérico (NNN-N)	yes	no	
+123-2	17186	numérico (NNN-N)	no	no	
+130-2	17969	numérico (NNN-N)	yes	no	
+133-4	18241	numérico (NNN-N)	yes	no	
+135-3	18457	numérico (NNN-N)	yes	no	
+136-6	18601	numérico (NNN-N)	yes	no	
+136-7	18624	numérico (NNN-N)	no	no	bad_token_id
+138-3	18742	numérico (NNN-N)	yes	no	
+139-3	18854	numérico (NNN-N)	yes	yes	text_form_mismatch
+140-8	19012	numérico (NNN-N)	no	no	
+142-11	19221	numérico (NNN-N)	yes	no	
+143-5	19308	numérico (NNN-N)	yes	no	
+144-7	19519	numérico (NNN-N)	no	no	
+145-4	19586	numérico (NNN-N)	yes	no	bad_token_id
+145-9	19601	numérico (NNN-N)	yes	no	
+145-10	19617	numérico (NNN-N)	yes	no	
+146-7	19717	numérico (NNN-N)	yes	yes	root_mismatch
+146-8	19733	numérico (NNN-N)	yes	no	
+146-15	19833	numérico (NNN-N)	yes	no	
+149-4	20105	numérico (NNN-N)	yes	yes	root_mismatch
+149-7	20145	numérico (NNN-N)	yes	no	
+149-12	20210	numérico (NNN-N)	yes	yes	text_form_mismatch
+151-10	20513	numérico (NNN-N)	yes	no	
+152-9	20721	numérico (NNN-N)	no	yes	feat_malformed
+153-1***	20737	numérico (NNN-N)	yes	no	
+154-4	20898	numérico (NNN-N)	no	yes	text_form_mismatch
+154-5	20908	numérico (NNN-N)	yes	yes	text_form_mismatch
+154-7	20921	numérico (NNN-N)	yes	yes	text_form_mismatch
+159-7	21404	numérico (NNN-N)	yes	yes	root_mismatch
+162-5	21692	numérico (NNN-N)	yes	yes	feat_malformed
+167-7	22682	numérico (NNN-N)	yes	no	
+169-3	22834	numérico (NNN-N)	yes	no	
+174-2	23606	numérico (NNN-N)	yes	no	
+177-3	23927	numérico (NNN-N)	yes	yes	text_form_mismatch
+178-3	24061	numérico (NNN-N)	yes	no	
+180-1	24252	numérico (NNN-N)	yes	no	
+180-2	24270	numérico (NNN-N)	yes	no	
+180-5	24313	numérico (NNN-N)	yes	no	
+181-1	24341	numérico (NNN-N)	yes	no	
+182-4	24495	numérico (NNN-N)	yes	no	
+183-10	24654	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
+184-2	24697	numérico (NNN-N)	yes	no	
+184-5	24761	numérico (NNN-N)	yes	no	bad_token_id
+184-7	24799	numérico (NNN-N)	yes	no	
+185-12	24964	numérico (NNN-N)	no	yes	root_count
+190-1	25275	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+190-1#2	25298	numérico (NNN-N)	no	no	
+191-2	25379	numérico (NNN-N)	yes	no	
+192-10	25497	numérico (NNN-N)	yes	no	
+196-4	25862	numérico (NNN-N)	yes	no	
+197-6	25964	numérico (NNN-N)	yes	yes	text_form_mismatch
+197-8	25993	numérico (NNN-N)	yes	yes	root_mismatch
+198-7	26100	numérico (NNN-N)	yes	no	
+199-1	26147	numérico (NNN-N)	yes	no	text_form_mismatch
+199-2	26165	numérico (NNN-N)	yes	no	
+200-11	26363	numérico (NNN-N)	no	no	upos_missing
+200-14	26390	numérico (NNN-N)	no	no	
+201-1	26397	numérico (NNN-N)	yes	no	
+201-2	26412	numérico (NNN-N)	yes	no	
+202-3	26500	numérico (NNN-N)	yes	no	
+204-12	26970	numérico (NNN-N)	yes	no	text_form_mismatch
+204-12#2	26991	numérico (NNN-N)	no	no	upos_missing
+207-6	27258	numérico (NNN-N)	yes	no	
+207-7	27274	numérico (NNN-N)	yes	no	
+208-6	27441	numérico (NNN-N)	yes	no	
+209-1	27509	numérico (NNN-N)	yes	no	
+210-1	27636	numérico (NNN-N)	yes	no	
+210-2	27675	numérico (NNN-N)	yes	no	
+210-3	27704	numérico (NNN-N)	yes	no	
+211-5	27752	numérico (NNN-N)	no	no	
+212-4	27857	numérico (NNN-N)	yes	yes	root_mismatch
+217-3	28420	numérico (NNN-N)	yes	yes	root_mismatch
+219-5	28638	numérico (NNN-N)	no	no	
+222-5	28951	numérico (NNN-N)	yes	yes	text_form_mismatch
+223-3	29068	numérico (NNN-N)	no	no	upos_missing
+225-5	29293	numérico (NNN-N)	yes	no	
+226-3	29416	numérico (NNN-N)	yes	no	
+228-4	29544	numérico (NNN-N)	yes	yes	text_form_mismatch
+229-5	29672	numérico (NNN-N)	no	no	text_form_mismatch,upos_missing
+230-1	29698	numérico (NNN-N)	yes	no	text_form_mismatch
+230-1#2	29724	numérico (NNN-N)	no	no	upos_missing
+237-4	30039	numérico (NNN-N)	yes	no	upos_missing
+239-4	30196	numérico (NNN-N)	yes	no	text_form_mismatch
+239-4#2	30227	numérico (NNN-N)	no	no	upos_missing
+239-4#3	30233	numérico (NNN-N)	no	no	upos_missing
+239-4#4	30239	numérico (NNN-N)	no	no	upos_missing
+239-5	30250	numérico (NNN-N)	yes	no	
+240-1	30298	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing,upos_not_ud
+240-1#2	30338	numérico (NNN-N)	no	no	upos_missing
+241-6	30436	numérico (NNN-N)	yes	no	
+242-2	30498	numérico (NNN-N)	yes	no	
+243-5	30627	numérico (NNN-N)	yes	no	
+244-4	30745	numérico (NNN-N)	yes	no	
+246-4	30911	numérico (NNN-N)	yes	no	
+247-3	30962	numérico (NNN-N)	yes	no	
+249-1	31099	numérico (NNN-N)	yes	no	
+249-2	31119	numérico (NNN-N)	yes	no	
+250-1	31132	numérico (NNN-N)	yes	no	
+257-12	31491	numérico (NNN-N)	yes	no	
+257-15	31535	numérico (NNN-N)	yes	no	
+257-16	31554	numérico (NNN-N)	yes	no	
+258-2	31600	numérico (NNN-N)	yes	no	
+258-4	31632	numérico (NNN-N)	yes	no	
+259-1	31676	numérico (NNN-N)	yes	no	
+263-7	32051	numérico (NNN-N)	yes	no	
+264-3	32178	numérico (NNN-N)	yes	no	
+265-3	32252	numérico (NNN-N)	yes	no	upos_missing
+265-4	32280	numérico (NNN-N)	yes	no	upos_missing
+266-1	32315	numérico (NNN-N)	yes	yes	text_form_mismatch
+267-1	32375	numérico (NNN-N)	yes	no	text_form_mismatch
+268-10	32639	numérico (NNN-N)	yes	no	
+268-12	32666	numérico (NNN-N)	yes	no	
+268-13	32678	numérico (NNN-N)	yes	no	text_form_mismatch
+268-13#2	32692	numérico (NNN-N)	no	no	upos_missing
+268-14	32700	numérico (NNN-N)	yes	no	
+268-15	32713	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+268-15#2	32731	numérico (NNN-N)	no	no	upos_missing
+269-1	32737	numérico (NNN-N)	yes	no	upos_missing
+269-4	32792	numérico (NNN-N)	yes	no	
+270-1	32849	numérico (NNN-N)	yes	no	upos_missing
+270-4	32896	numérico (NNN-N)	yes	no	
+271-1	32910	numérico (NNN-N)	yes	no	
+275-1	33267	numérico (NNN-N)	yes	no	
+276-2	33447	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+276-2#2	33474	numérico (NNN-N)	no	no	upos_missing
+276-2#3	33480	numérico (NNN-N)	no	no	upos_missing
+276-2#4	33486	numérico (NNN-N)	no	no	upos_missing
+276-2#5	33492	numérico (NNN-N)	no	no	upos_missing
+278-6	33606	numérico (NNN-N)	no	yes	cycle
+284-2	33890	numérico (NNN-N)	no	yes	text_form_mismatch
+285-6	33957	numérico (NNN-N)	yes	no	upos_missing
+285-7	33980	numérico (NNN-N)	yes	no	
+289-1	34138	numérico (NNN-N)	yes	yes	text_form_mismatch
+291-1	34317	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+291-1#2	34348	numérico (NNN-N)	no	no	upos_missing
+291-1#3	34354	numérico (NNN-N)	no	no	upos_missing
+291-1#4	34361	numérico (NNN-N)	no	no	upos_missing
+291-1#5	34368	numérico (NNN-N)	no	no	upos_missing
+291-1#6	34374	numérico (NNN-N)	no	no	upos_missing
+291-1#7	34380	numérico (NNN-N)	no	no	upos_missing
+291-1#8	34387	numérico (NNN-N)	no	no	upos_missing
+291-4	34424	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+291-4#2	34442	numérico (NNN-N)	no	no	upos_missing
+291-4#3	34448	numérico (NNN-N)	no	no	upos_missing
+291-4#4	34455	numérico (NNN-N)	no	no	upos_missing
+291-4#5	34461	numérico (NNN-N)	no	no	upos_missing
+291-4#6	34467	numérico (NNN-N)	no	no	upos_missing
+293-2	34538	numérico (NNN-N)	yes	no	upos_missing
+293-3	34590	numérico (NNN-N)	no	no	
+294-1	34633	numérico (NNN-N)	yes	no	
+296-1	34807	numérico (NNN-N)	yes	no	
+300-2	35143	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+300-2#2	35173	numérico (NNN-N)	no	no	
+300-2#3	35180	numérico (NNN-N)	no	no	upos_missing
+300-4	35203	numérico (NNN-N)	yes	no	upos_missing
+301-5	35312	numérico (NNN-N)	yes	no	upos_missing
+303-2	35415	numérico (NNN-N)	yes	no	
+306-3	35687	numérico (NNN-N)	yes	yes	text_form_mismatch
+308-2	35989	numérico (NNN-N)	yes	no	
+308-6	36046	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+308-6#2	36073	numérico (NNN-N)	yes	no	upos_missing
+310-1	36272	numérico (NNN-N)	yes	no	upos_missing
+312-3	36495	numérico (NNN-N)	yes	no	
+318-4	37058	numérico (NNN-N)	yes	no	
+318-8	37125	numérico (NNN-N)	yes	no	upos_missing
+319-5	37200	numérico (NNN-N)	no	no	upos_missing
+322-3	37408	numérico (NNN-N)	yes	no	
+323-2	37460	numérico (NNN-N)	yes	no	
+331-3	38139	numérico (NNN-N)	yes	no	
+331-5	38155	numérico (NNN-N)	yes	no	
+331-8	38171	numérico (NNN-N)	yes	no	bad_token_id
+331-9	38186	numérico (NNN-N)	yes	no	text_form_mismatch
+	38216	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
+	38224	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
+	38232	(sem sent_id)	no	no	fragment_without_sent_id,token_ids_not_sequential,upos_missing
+331-9#2	38240	numérico (NNN-N)	yes	no	upos_missing
+332-2	38275	numérico (NNN-N)	yes	no	
+334-1	38368	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+334-1#2	38389	numérico (NNN-N)	no	no	upos_missing
+334-1#3	38395	numérico (NNN-N)	no	no	upos_missing
+335-4	38434	numérico (NNN-N)	yes	yes	feat_malformed
+336-1	38482	numérico (NNN-N)	yes	yes	root_mismatch
+336-2	38492	numérico (NNN-N)	yes	yes	text_form_mismatch
+337-14	38744	numérico (NNN-N)	yes	yes	root_mismatch
+339-4	38918	numérico (NNN-N)	yes	yes	root_mismatch
+339-5	38934	numérico (NNN-N)	yes	no	
+339-7	38963	numérico (NNN-N)	yes	yes	text_form_mismatch
+340-7	39108	numérico (NNN-N)	yes	no	
+345-1	39286	numérico (NNN-N)	yes	yes	root_mismatch
+347-2	39352	numérico (NNN-N)	yes	no	
+347-3	39373	numérico (NNN-N)	yes	no	
+348-3	39395	numérico (NNN-N)	yes	no	upos_missing
+353-10	39959	numérico (NNN-N)	yes	yes	text_form_mismatch
+356-3	40145	numérico (NNN-N)	yes	no	
+357-5	40315	numérico (NNN-N)	yes	no	
+357-9	40372	numérico (NNN-N)	yes	no	
+358-3	40396	numérico (NNN-N)	yes	no	
+360-5	40576	numérico (NNN-N)	yes	yes	root_mismatch
+360-8	40628	numérico (NNN-N)	no	yes	text_form_mismatch
+360-10	40663	numérico (NNN-N)	yes	no	upos_missing
+362-2	40856	numérico (NNN-N)	yes	no	upos_missing
+364-2-2	41024	numérico (NNN-N)	yes	no	
+364-7	41085	numérico (NNN-N)	yes	no	text_form_mismatch
+364-7-2	41106	numérico (NNN-N)	yes	no	
+365-8	41219	numérico (NNN-N)	yes	no	
+367-2	41296	numérico (NNN-N)	yes	no	
+368-2	41379	numérico (NNN-N)	yes	no	
+370-5	41484	numérico (NNN-N)	no	yes	cycle
+373-6	41713	numérico (NNN-N)	no	yes	cycle
+373-13	41762	numérico (NNN-N)	yes	no	
+374-9	41877	numérico (NNN-N)	no	yes	cycle
+374-18	41935	numérico (NNN-N)	no	yes	cycle
+377-2	42110	numérico (NNN-N)	no	no	
+377-6	42164	numérico (NNN-N)	yes	no	
+377-8	42204	numérico (NNN-N)	yes	no	
+379-6	42466	numérico (NNN-N)	yes	no	
+379-7	42486	numérico (NNN-N)	yes	no	
+381-10	42796	numérico (NNN-N)	yes	no	
+382-2	42864	numérico (NNN-N)	yes	no	
+382-11	42975	numérico (NNN-N)	yes	no	
+382-13	42999	numérico (NNN-N)	yes	no	
+385-1	43283	numérico (NNN-N)	yes	no	root_mismatch,upos_missing
+385-4	43336	numérico (NNN-N)	yes	no	
+386-4	43401	numérico (NNN-N)	yes	no	bad_token_id
+387-1	43419	numérico (NNN-N)	yes	no	
+387-2	43436	numérico (NNN-N)	yes	no	
+387-3	43452	numérico (NNN-N)	yes	no	
+387-5	43498	numérico (NNN-N)	yes	no	upos_missing
+390-2	43796	numérico (NNN-N)	yes	no	
+391-1	43942	numérico (NNN-N)	yes	yes	root_mismatch
+391-7	44019	numérico (NNN-N)	yes	no	
+397-1	44833	numérico (NNN-N)	yes	no	
+397-2	44859	numérico (NNN-N)	yes	no	
+398-11	45135	numérico (NNN-N)	yes	no	bad_token_id
+398-12	45150	numérico (NNN-N)	yes	no	
+402-7	45679	numérico (NNN-N)	yes	yes	root_mismatch
+405-10	46159	numérico (NNN-N)	yes	no	
+406-9	46292	numérico (NNN-N)	yes	no	
+407-6	46446	numérico (NNN-N)	yes	yes	root_mismatch
+410-4	46872	numérico (NNN-N)	yes	no	
+411-9	47033	numérico (NNN-N)	yes	no	upos_missing
+414-3	47388	numérico (NNN-N)	no	yes	root_count,root_mismatch
+417-2	47765	numérico (NNN-N)	no	no	
+418-5	47916	numérico (NNN-N)	yes	no	
+421-2	48160	numérico (NNN-N)	yes	no	
+421-6	48221	numérico (NNN-N)	yes	no	
+422-6	48343	numérico (NNN-N)	yes	yes	text_form_mismatch
+423-2	48391	numérico (NNN-N)	yes	no	
+424-3	48601	numérico (NNN-N)	yes	no	
+426-4	48791	numérico (NNN-N)	no	yes	cycle
+426-6	48819	numérico (NNN-N)	no	no	
+427-8	48887	numérico (NNN-N)	yes	no	
+430-1	49170	numérico (NNN-N)	yes	no	
+430-3	49204	numérico (NNN-N)	yes	no	
+430-5	49235	numérico (NNN-N)	yes	no	
+430-11	49298	numérico (NNN-N)	yes	no	upos_missing
+430-12	49324	numérico (NNN-N)	yes	no	
+431-21	49707	numérico (NNN-N)	yes	no	bad_token_id
+431-28	49772	numérico (NNN-N)	yes	no	upos_missing
+432-15	50002	numérico (NNN-N)	yes	no	text_form_mismatch
+433-2	50035	numérico (NNN-N)	yes	no	
+433-12	50196	numérico (NNN-N)	yes	no	upos_missing
+434-6	50399	numérico (NNN-N)	yes	no	root_mismatch,text_form_mismatch
+435-3	50478	numérico (NNN-N)	yes	no	
+435-4	50507	numérico (NNN-N)	yes	no	
+435-5	50519	numérico (NNN-N)	yes	no	
+435-6	50531	numérico (NNN-N)	yes	no	
+435-7	50543	numérico (NNN-N)	yes	no	upos_missing
+437-1	50818	numérico (NNN-N)	yes	no	
+438-4	50974	numérico (NNN-N)	yes	yes	text_form_mismatch
+439-10	51170	numérico (NNN-N)	yes	yes	cycle
+440-1	51193	numérico (NNN-N)	yes	no	upos_missing
+440-2	51222	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+440-2#2	51251	numérico (NNN-N)	no	no	upos_missing
+441-3	51336	numérico (NNN-N)	yes	no	
+441-5	51360	numérico (NNN-N)	yes	no	
+441-10	51454	numérico (NNN-N)	yes	no	upos_missing
+442-2	51530	numérico (NNN-N)	yes	no	upos_missing
+444-4	51831	numérico (NNN-N)	yes	yes	feat_malformed
+446-1	52014	numérico (NNN-N)	yes	no	
+449-5	52344	numérico (NNN-N)	no	no	bad_head,deprel_not_ud
+450-6	52451	numérico (NNN-N)	no	no	
+451-7	52752	numérico (NNN-N)	yes	no	text_form_mismatch
+451-7#2	52772	numérico (NNN-N)	no	no	
+451-7#3	52779	numérico (NNN-N)	no	no	
+451-10	52822	numérico (NNN-N)	yes	yes	text_form_mismatch
+451-25	53045	numérico (NNN-N)	yes	no	upos_missing
+451-34	53138	numérico (NNN-N)	yes	no	
+452-5	53206	numérico (NNN-N)	yes	no	
+452-8	53252	numérico (NNN-N)	yes	no	
+453-6	53483	numérico (NNN-N)	yes	no	
+453-11	53553	numérico (NNN-N)	yes	no	
+453-12	53570	numérico (NNN-N)	no	no	
+453-15	53602	numérico (NNN-N)	yes	no	upos_missing
+455-13	54079	numérico (NNN-N)	yes	no	
+456-3	54171	numérico (NNN-N)	yes	no	
+456-6	54215	numérico (NNN-N)	yes	no	
+458-5	54533	numérico (NNN-N)	yes	no	
+458-6	54550	numérico (NNN-N)	yes	yes	text_form_mismatch
+458-7	54574	numérico (NNN-N)	yes	yes	text_form_mismatch
+458-19	54690	numérico (NNN-N)	no	no	
+459-2	54734	numérico (NNN-N)	yes	yes	root_mismatch
+459-3	54747	numérico (NNN-N)	yes	yes	root_mismatch
+459-7	54804	numérico (NNN-N)	yes	no	
+459-8	54824	numérico (NNN-N)	yes	no	
+461-2	54990	numérico (NNN-N)	yes	yes	text_form_mismatch
+462-9	55194	numérico (NNN-N)	yes	no	
+462-13	55248	numérico (NNN-N)	yes	yes	feat_malformed
+463-10	55445	numérico (NNN-N)	yes	yes	text_form_mismatch
+464-3	55598	numérico (NNN-N)	yes	no	
+464-13	55715	numérico (NNN-N)	yes	no	
+464-15	55739	numérico (NNN-N)	no	yes	cycle
+464-18	55771	numérico (NNN-N)	no	no	missing_text,upos_missing
+465-6	55838	numérico (NNN-N)	yes	no	
+465-8	55869	numérico (NNN-N)	yes	no	
+468-11	56698	numérico (NNN-N)	yes	no	
+469-7	56811	numérico (NNN-N)	yes	no	upos_missing
+469-8	56836	numérico (NNN-N)	yes	no	
+469-21	57025	numérico (NNN-N)	yes	no	
+474-6	57739	numérico (NNN-N)	yes	yes	text_form_mismatch
+474-11	57812	numérico (NNN-N)	no	yes	text_form_mismatch
+478-4	58249	numérico (NNN-N)	yes	yes	text_form_mismatch
+479-7	58462	numérico (NNN-N)	no	no	
+479-15	58547	numérico (NNN-N)	yes	no	
+482-9	58970	numérico (NNN-N)	yes	yes	text_form_mismatch
+482-12	59037	numérico (NNN-N)	yes	no	
+482-15	59092	numérico (NNN-N)	yes	no	
+483-6	59174	numérico (NNN-N)	yes	no	
+484-11	59555	numérico (NNN-N)	yes	no	
+484-12	59575	numérico (NNN-N)	yes	no	
+486-8	59896	numérico (NNN-N)	yes	no	root_mismatch,text_form_mismatch
+486-11	59975	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
+489-3	60438	numérico (NNN-N)	yes	no	
+489-4	60459	numérico (NNN-N)	no	no	
+489-6	60491	numérico (NNN-N)	yes	no	text_form_mismatch
+490-3	60579	numérico (NNN-N)	yes	no	
+490-9	60666	numérico (NNN-N)	yes	no	
+491-8	60907	numérico (NNN-N)	yes	yes	text_form_mismatch
+491-9	60939	numérico (NNN-N)	yes	no	
+492-8	61059	numérico (NNN-N)	yes	yes	root_mismatch
+492-11	61096	numérico (NNN-N)	no	no	
+493-16	61325	numérico (NNN-N)	yes	yes	root_mismatch
+495-9	61751	numérico (NNN-N)	no	no	upos_missing
+496-19	62095	numérico (NNN-N)	yes	yes	root_mismatch
+497-21	62425	numérico (NNN-N)	yes	no	
+498-17	62699	numérico (NNN-N)	yes	no	
+500-5	63126	numérico (NNN-N)	yes	no	
+502-8	63689	numérico (NNN-N)	yes	no	
+502-15	63778	numérico (NNN-N)	yes	yes	root_mismatch
+502-19	63833	numérico (NNN-N)	yes	yes	root_mismatch
+506-1	64343	numérico (NNN-N)	no	no	
+506-10	64455	numérico (NNN-N)	yes	no	
+507-16	64697	numérico (NNN-N)	yes	no	
+507-20	64753	numérico (NNN-N)	yes	yes	text_form_mismatch
+508-16	65138	numérico (NNN-N)	no	no	root_mismatch
+509-9	65296	numérico (NNN-N)	yes	no	
+510-10	65578	numérico (NNN-N)	yes	no	upos_missing
+511-5	65729	numérico (NNN-N)	yes	yes	root_mismatch
+515-1	66496	numérico (NNN-N)	yes	no	
+515-2	66519	numérico (NNN-N)	yes	no	upos_missing
+516-4	66697	numérico (NNN-N)	yes	no	
+517-7	66850	numérico (NNN-N)	yes	yes	root_mismatch
+517-15	66978	numérico (NNN-N)	yes	yes	root_mismatch
+518-3	67039	numérico (NNN-N)	no	no	
+518-6	67071	numérico (NNN-N)	no	yes	cycle
+519-6	67298	numérico (NNN-N)	yes	no	
+519-17	67457	numérico (NNN-N)	no	no	
+520-5	67600	numérico (NNN-N)	yes	no	
+522-6	67921	numérico (NNN-N)	yes	no	
+526-4	68425	numérico (NNN-N)	yes	no	
+526-6	68464	numérico (NNN-N)	yes	no	upos_missing
+527-8	68816	numérico (NNN-N)	no	no	
+530-7	69189	numérico (NNN-N)	yes	yes	feat_malformed
+530-16	69303	numérico (NNN-N)	yes	no	
+532-8	69589	numérico (NNN-N)	yes	no	
+532-9	69606	numérico (NNN-N)	yes	no	upos_missing
+534-4	69834	numérico (NNN-N)	yes	no	
+535-3	70041	numérico (NNN-N)	yes	no	
+536-16	70305	numérico (NNN-N)	yes	no	
+536-22	70385	numérico (NNN-N)	yes	no	
+536-25	70427	numérico (NNN-N)	yes	no	
+537-1	70553	numérico (NNN-N)	yes	no	
+538-2	70744	numérico (NNN-N)	yes	yes	root_mismatch
+538-4	70771	numérico (NNN-N)	yes	no	
+539-7	71175	numérico (NNN-N)	yes	no	
+539-9	71207	numérico (NNN-N)	yes	no	
+540-5	71316	numérico (NNN-N)	yes	no	
+540-6	71337	numérico (NNN-N)	yes	no	
+540-11	71404	numérico (NNN-N)	yes	no	
+541-11	71573	numérico (NNN-N)	yes	yes	root_mismatch
+542-5	71702	numérico (NNN-N)	yes	no	
+542-6	71745	numérico (NNN-N)	yes	no	
+544-12	71916	numérico (NNN-N)	yes	yes	root_mismatch
+545-11	72069	numérico (NNN-N)	yes	no	
+546-8	72178	numérico (NNN-N)	yes	yes	text_form_mismatch
+548-18	72635	numérico (NNN-N)	no	no	
+550-10	72982	numérico (NNN-N)	yes	no	
+551-14	73217	numérico (NNN-N)	yes	no	
+552-9	73540	numérico (NNN-N)	yes	no	
+552-12	73587	numérico (NNN-N)	no	no	text_form_mismatch,upos_missing
+553-20	73857	numérico (NNN-N)	yes	no	text_form_mismatch
+555-2-2	74042	numérico (NNN-N)	no	yes	text_form_mismatch
+555-7	74119	numérico (NNN-N)	yes	no	upos_missing
+556-2	74295	numérico (NNN-N)	no	yes	text_form_mismatch
+556-13	74414	numérico (NNN-N)	no	yes	text_form_mismatch
+558-10	74807	numérico (NNN-N)	yes	no	
+558-12	74835	numérico (NNN-N)	yes	no	
+562-7	75710	numérico (NNN-N)	yes	no	
+562-8	75729	numérico (NNN-N)	no	no	
+563-2	75867	numérico (NNN-N)	yes	no	
+563-3	75887	numérico (NNN-N)	yes	no	
+564-5	76098	numérico (NNN-N)	yes	no	
+565-5	76282	numérico (NNN-N)	yes	no	upos_missing
+569-4	77165	numérico (NNN-N)	yes	no	
+572-10	78014	numérico (NNN-N)	yes	no	
+573-2	78292	numérico (NNN-N)	yes	no	
+573-4	78323	numérico (NNN-N)	no	no	
+573-11	78427	numérico (NNN-N)	yes	no	
+573-20	78562	numérico (NNN-N)	yes	no	bad_token_id
+574-1	78577	numérico (NNN-N)	yes	no	
+574-5	78635	numérico (NNN-N)	no	no	bad_token_id
+575-2	78790	numérico (NNN-N)	yes	no	
+575-14	78965	numérico (NNN-N)	yes	no	
+575-18	79034	numérico (NNN-N)	yes	no	bad_token_id
+577-1	79469	numérico (NNN-N)	yes	no	
+577-7	79543	numérico (NNN-N)	yes	no	
+579-5	79875	numérico (NNN-N)	yes	no	upos_missing
+580-9	80038	numérico (NNN-N)	no	yes	cycle
+580-10	80047	numérico (NNN-N)	no	no	
+581-4	80094	numérico (NNN-N)	no	yes	cycle
+581-4.1	80111	numérico (NNN-N)	yes	no	bad_head,deprel_not_ud
+582-3	80212	numérico (NNN-N)	yes	no	
+585-3	80537	numérico (NNN-N)	yes	yes	root_mismatch
+585-5	80572	numérico (NNN-N)	yes	no	
+585-12	80662	numérico (NNN-N)	yes	yes	root_mismatch
+585-14	80693	numérico (NNN-N)	yes	no	
+585-16	80727	numérico (NNN-N)	no	no	
+590-3	81783	numérico (NNN-N)	yes	yes	root_mismatch
+591-4	81952	numérico (NNN-N)	yes	yes	root_mismatch
+592-1	82172	numérico (NNN-N)	yes	yes	root_mismatch
+593-7	82448	numérico (NNN-N)	yes	no	
+597-14	83348	numérico (NNN-N)	yes	no	upos_missing
+598-6	83432	numérico (NNN-N)	yes	no	upos_missing
+598-11	83519	numérico (NNN-N)	yes	no	upos_missing
+598-13	83556	numérico (NNN-N)	yes	no	
+598-14	83574	numérico (NNN-N)	yes	no	
+600-17	84084	numérico (NNN-N)	yes	yes	root_mismatch
+601-1	84099	numérico (NNN-N)	yes	yes	root_mismatch
+601-25	84422	numérico (NNN-N)	yes	no	
+601-26	84438	numérico (NNN-N)	yes	no	
+602-4	84512	numérico (NNN-N)	yes	no	
+603-13	84947	numérico (NNN-N)	yes	no	
+604-5	85029	numérico (NNN-N)	yes	no	
+605-1	85188	numérico (NNN-N)	no	no	
+605-3	85209	numérico (NNN-N)	yes	no	
+605-16	85397	numérico (NNN-N)	yes	no	upos_missing
+606-7	85518	numérico (NNN-N)	yes	no	
+606-12	85597	numérico (NNN-N)	yes	no	
+607-1	85737	numérico (NNN-N)	no	yes	text_form_mismatch
+608-3	85920	numérico (NNN-N)	yes	yes	feat_malformed
+608-8	85984	numérico (NNN-N)	yes	yes	feat_malformed
+611-2	86601	numérico (NNN-N)	yes	no	
+611-6	86650	numérico (NNN-N)	yes	no	
+611-7	86662	numérico (NNN-N)	yes	no	upos_missing
+612-14	86877	numérico (NNN-N)	yes	no	
+615-1	87196	numérico (NNN-N)	yes	yes	root_mismatch
+615-11	87321	numérico (NNN-N)	yes	no	
+615-17	87415	numérico (NNN-N)	no	no	
+615-18	87424	numérico (NNN-N)	yes	no	
+615-19	87439	numérico (NNN-N)	yes	no	
+616-3	87491	numérico (NNN-N)	yes	no	
+616-15	87645	numérico (NNN-N)	yes	yes	root_mismatch
+619-3	88216	numérico (NNN-N)	yes	no	
+619-16	88400	numérico (NNN-N)	no	no	
+619-23	88476	numérico (NNN-N)	yes	no	upos_missing
+620-6	88588	numérico (NNN-N)	no	no	
+620-11	88649	numérico (NNN-N)	yes	no	upos_missing
+622-7	88957	numérico (NNN-N)	yes	no	
+622-16	89080	numérico (NNN-N)	yes	no	
+623-10	89232	numérico (NNN-N)	yes	yes	root_mismatch
+624-5	89349	numérico (NNN-N)	yes	no	
+625-5	89541	numérico (NNN-N)	yes	no	
+625-17	89721	numérico (NNN-N)	no	no	
+626-6	89881	numérico (NNN-N)	yes	yes	feat_malformed
+627-3	90055	numérico (NNN-N)	yes	no	upos_missing
+628-3	90228	numérico (NNN-N)	yes	no	
+630-7	90485	numérico (NNN-N)	yes	no	
+631-6	90699	numérico (NNN-N)	yes	no	
+633-5	91078	numérico (NNN-N)	yes	no	
+634-15	91443	numérico (NNN-N)	no	no	
+636-5	91716	numérico (NNN-N)	yes	yes	root_mismatch
+636-7	91750	numérico (NNN-N)	yes	yes	root_mismatch
+642-3	92810	numérico (NNN-N)	yes	yes	text_form_mismatch
+642-3#2	92831	numérico (NNN-N)	no	no	
+642-5	92850	numérico (NNN-N)	yes	no	
+644-8	93337	numérico (NNN-N)	no	no	
+647-1	93706	numérico (NNN-N)	yes	yes	root_mismatch
+649-9	94362	numérico (NNN-N)	yes	no	upos_missing
+650-11	94595	numérico (NNN-N)	yes	yes	root_mismatch
+651-2	94676	numérico (NNN-N)	yes	no	
+652-1	94848	numérico (NNN-N)	yes	yes	text_form_mismatch
+652-14	94990	numérico (NNN-N)	no	no	
+652-15	95000	numérico (NNN-N)	yes	yes	upos_not_ud
+653-20	95206	numérico (NNN-N)	yes	no	
+654-12	95379	numérico (NNN-N)	yes	no	upos_missing
+655-14	95606	numérico (NNN-N)	yes	yes	text_form_mismatch
+655-15	95617	numérico (NNN-N)	no	no	
+655-16	95627	numérico (NNN-N)	yes	yes	text_form_mismatch
+657-12	96071	numérico (NNN-N)	yes	no	root_mismatch
+658-2	96160	numérico (NNN-N)	yes	no	
+658-6	96233	numérico (NNN-N)	yes	no	
+661-7	96853	numérico (NNN-N)	yes	no	
+661-10	96897	numérico (NNN-N)	yes	no	
+665-13	97857	numérico (NNN-N)	yes	no	
+670-1	98645	numérico (NNN-N)	yes	no	
+670-9	98765	numérico (NNN-N)	yes	no	upos_missing
+672-13	99165	numérico (NNN-N)	yes	no	upos_missing
+673-1	99245	numérico (NNN-N)	yes	yes	root_mismatch
+673-16	99471	numérico (NNN-N)	yes	no	
+675-3	99766	numérico (NNN-N)	yes	no	bad_token_id
+676-5	100120	numérico (NNN-N)	yes	no	
+676-9	100185	numérico (NNN-N)	yes	no	
+678-8	100695	numérico (NNN-N)	yes	yes	root_mismatch
+679-14	100891	numérico (NNN-N)	yes	no	
+681-9	101293	numérico (NNN-N)	yes	no	bad_token_id
+683-17	101854	numérico (NNN-N)	yes	no	upos_missing
+684-10	101991	numérico (NNN-N)	yes	no	
+686-1	102274	numérico (NNN-N)	yes	no	bad_token_id
+691-11	103539	numérico (NNN-N)	yes	no	bad_token_id
+696-1	104407	numérico (NNN-N)	yes	no	
+700-8	105254	numérico (NNN-N)	no	no	bad_token_id
+701-1	105318	numérico (NNN-N)	yes	no	
+701-4	105369	numérico (NNN-N)	yes	no	
+701-6	105390	numérico (NNN-N)	no	yes	cycle
+703-1	105805	numérico (NNN-N)	yes	no	
+703-4	105844	numérico (NNN-N)	yes	no	
+705-3	106173	numérico (NNN-N)	yes	yes	root_mismatch
+705-5	106198	numérico (NNN-N)	yes	no	upos_missing
+709-14	107234	numérico (NNN-N)	no	no	bad_token_id,text_form_mismatch
+710-5	107297	numérico (NNN-N)	no	yes	cycle
+711-8	107486	numérico (NNN-N)	no	yes	head_out_of_range
+712-8	107683	numérico (NNN-N)	yes	yes	root_mismatch
+714-6	108108	numérico (NNN-N)	no	no	
+718-4	108885	numérico (NNN-N)	yes	no	
+718-7	108930	numérico (NNN-N)	yes	yes	deprel_not_ud
+720-8	109235	numérico (NNN-N)	yes	yes	root_mismatch
+722-9	109656	numérico (NNN-N)	yes	yes	root_mismatch
+722-16	109745	numérico (NNN-N)	yes	no	
+724-2	109937	numérico (NNN-N)	yes	no	
+726-2	110325	numérico (NNN-N)	yes	yes	root_mismatch
+729-6	110964	numérico (NNN-N)	yes	no	
+731-17	111610	numérico (NNN-N)	yes	no	
+734-3	112224	numérico (NNN-N)	yes	no	
+735-4	112368	numérico (NNN-N)	yes	yes	root_mismatch
+735-16	112556	numérico (NNN-N)	yes	no	
+739-8	113428	numérico (NNN-N)	yes	no	
+739-9	113448	numérico (NNN-N)	no	no	
+741-2	113660	numérico (NNN-N)	no	no	
+742-2	113966	numérico (NNN-N)	yes	no	
+744-9	114253	numérico (NNN-N)	yes	no	
+744-17	114364	numérico (NNN-N)	yes	yes	text_form_mismatch
+747-6	114938	numérico (NNN-N)	yes	yes	root_mismatch
+748-2	115132	numérico (NNN-N)	yes	no	
+748-8	115214	numérico (NNN-N)	yes	no	
+748-14	115296	numérico (NNN-N)	yes	no	upos_missing
+749-9	115431	numérico (NNN-N)	yes	no	
+750-4	115539	numérico (NNN-N)	yes	yes	root_mismatch
+751-2	115767	numérico (NNN-N)	yes	no	
+751-8	115851	numérico (NNN-N)	yes	no	
+756-5	116751	numérico (NNN-N)	yes	yes	root_mismatch
+756-7	116786	numérico (NNN-N)	yes	yes	root_mismatch
+758-7	117038	numérico (NNN-N)	no	yes	cycle
+758-9	117053	numérico (NNN-N)	no	yes	cycle
+758-12	117107	numérico (NNN-N)	yes	no	
+764-13	118438	numérico (NNN-N)	yes	no	upos_missing
+767-2	118811	numérico (NNN-N)	yes	yes	feat_malformed
+767-13	118988	numérico (NNN-N)	yes	no	root_mismatch
+770-5	119471	numérico (NNN-N)	yes	no	
+770-18	119649	numérico (NNN-N)	yes	yes	root_mismatch
+771-6	119767	numérico (NNN-N)	yes	yes	text_form_mismatch
+773-11	120242	numérico (NNN-N)	yes	yes	text_form_mismatch
+773-18	120314	numérico (NNN-N)	yes	yes	cycle
+775-1	120603	numérico (NNN-N)	yes	yes	root_mismatch
+776-3	120952	numérico (NNN-N)	no	no	
+778-1	121269	numérico (NNN-N)	yes	yes	root_mismatch
+778-12	121414	numérico (NNN-N)	yes	yes	feat_malformed
+778-13	121434	numérico (NNN-N)	yes	yes	feat_malformed
+779-3	121633	numérico (NNN-N)	yes	no	
+781-13	122238	numérico (NNN-N)	yes	no	
+781-17	122293	numérico (NNN-N)	yes	no	upos_missing
+782-1	122343	numérico (NNN-N)	yes	yes	root_mismatch
+783-3	122619	numérico (NNN-N)	yes	no	
+785-8	123006	numérico (NNN-N)	no	no	upos_missing
+785-11	123051	numérico (NNN-N)	yes	no	
+786-3	123120	numérico (NNN-N)	yes	no	
+786-5	123161	numérico (NNN-N)	yes	no	
+791-2	124225	numérico (NNN-N)	yes	yes	root_mismatch
+791-4	124251	numérico (NNN-N)	yes	no	
+791-13	124380	numérico (NNN-N)	yes	no	
+794-8	124877	numérico (NNN-N)	yes	no	
+797-5	125347	numérico (NNN-N)	yes	yes	root_mismatch
+799-5	125705	numérico (NNN-N)	yes	yes	root_mismatch
+799-13	125822	numérico (NNN-N)	yes	yes	root_mismatch
+800-2	126096	numérico (NNN-N)	yes	no	
+801-10	126297	numérico (NNN-N)	yes	yes	feat_malformed
+801-23	126488	numérico (NNN-N)	yes	no	
+806-11	127615	numérico (NNN-N)	yes	yes	text_form_mismatch
+807-4	127768	numérico (NNN-N)	yes	no	
+807-8	127843	numérico (NNN-N)	yes	no	
+807-9	127866	numérico (NNN-N)	yes	no	
+807-11	127894	numérico (NNN-N)	yes	no	
+812-4	129119	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
+813-3	129244	numérico (NNN-N)	yes	yes	root_mismatch
+818-2	129780	numérico (NNN-N)	yes	yes	root_mismatch
+818-3	129793	numérico (NNN-N)	yes	yes	root_mismatch
+819-7	129946	numérico (NNN-N)	no	no	
+820-5	130003	numérico (NNN-N)	yes	no	
+821-1	130121	numérico (NNN-N)	yes	no	
+832-4	131733	numérico (NNN-N)	yes	yes	root_mismatch
+835-14	132348	numérico (NNN-N)	yes	no	
+837-4	132518	numérico (NNN-N)	yes	no	upos_missing
+837-7	132560	numérico (NNN-N)	yes	no	
+838-15	132836	numérico (NNN-N)	yes	yes	text_form_mismatch
+839-14	133016	numérico (NNN-N)	yes	no	upos_missing
+840-1	133072	numérico (NNN-N)	yes	yes	root_mismatch
+840-6	133161	numérico (NNN-N)	yes	yes	text_form_mismatch
+846-5	134193	numérico (NNN-N)	yes	no	
+847-5	134421	numérico (NNN-N)	yes	yes	root_mismatch
+847-6	134433	numérico (NNN-N)	yes	no	upos_missing
+847-7	134450	numérico (NNN-N)	yes	no	
+847-9	134476	numérico (NNN-N)	yes	yes	root_mismatch
+848-3	134659	numérico (NNN-N)	yes	yes	root_mismatch
+851-6	135152	numérico (NNN-N)	yes	no	
+855-2	135702	numérico (NNN-N)	yes	no	
+856-11	136071	numérico (NNN-N)	yes	yes	root_mismatch
+856-14	136108	numérico (NNN-N)	yes	no	
+857-8	136235	numérico (NNN-N)	no	no	upos_missing
+859-12	136537	numérico (NNN-N)	yes	no	
+861-4	136900	numérico (NNN-N)	no	yes	text_form_mismatch
+861-10	136941	numérico (NNN-N)	no	yes	text_form_mismatch
+862-3	137021	numérico (NNN-N)	no	yes	cycle
+862-5	137040	numérico (NNN-N)	no	yes	bad_head,deprel_not_ud
+864-12	137541	numérico (NNN-N)	yes	no	
+865-4	137586	numérico (NNN-N)	no	yes	text_form_mismatch
+865-6	137614	numérico (NNN-N)	no	yes	cycle
+865-11	137664	numérico (NNN-N)	yes	yes	root_mismatch
+866-1	137682	numérico (NNN-N)	no	yes	root_count
+866-11	137768	numérico (NNN-N)	no	yes	cycle
+868-2	138077	numérico (NNN-N)	no	yes	text_form_mismatch
+872-4	138796	numérico (NNN-N)	no	yes	cycle
+872-8.1	138864	numérico (NNN-N)	no	yes	text_form_mismatch
+873-5	138919	numérico (NNN-N)	no	yes	text_form_mismatch
+873-13	138992	numérico (NNN-N)	no	yes	cycle
+877-3	139418	numérico (NNN-N)	yes	no	
+877-8	139498	numérico (NNN-N)	yes	no	
+878-1	139523	numérico (NNN-N)	yes	no	
+879-2	139708	numérico (NNN-N)	yes	no	
+880-12	140015	numérico (NNN-N)	yes	no	
+885-9	141617	numérico (NNN-N)	yes	yes	root_mismatch
+885-14	141679	numérico (NNN-N)	yes	no	
+885-23	141805	numérico (NNN-N)	yes	no	
+887-7	142074	numérico (NNN-N)	yes	yes	text_form_mismatch
+888-8	142392	numérico (NNN-N)	yes	yes	root_mismatch,text_form_mismatch
+889-28	142913	numérico (NNN-N)	yes	no	
+890-24	143306	numérico (NNN-N)	yes	no	
+891-12	143491	numérico (NNN-N)	yes	yes	root_mismatch
+894-3	144034	numérico (NNN-N)	no	yes	text_form_mismatch
+895-4	144263	numérico (NNN-N)	no	yes	cycle
+896-11	144450	numérico (NNN-N)	yes	no	
+899-13	145175	numérico (NNN-N)	yes	no	
+903-1	145645	numérico (NNN-N)	yes	no	
+903-13	145801	numérico (NNN-N)	yes	no	
+903-18	145868	numérico (NNN-N)	yes	no	upos_missing
+903-20	145899	numérico (NNN-N)	no	no	
+905-8	146243	numérico (NNN-N)	yes	no	
+906-1	146305	numérico (NNN-N)	yes	no	
+906-3	146354	numérico (NNN-N)	yes	no	bad_token_id
+906-17	146553	numérico (NNN-N)	no	no	
+909-3	147028	numérico (NNN-N)	yes	no	
+913-1	147790	numérico (NNN-N)	yes	no	
+915-1	148251	numérico (NNN-N)	no	no	
+917-4	148642	numérico (NNN-N)	yes	yes	root_mismatch
+918-5	148983	numérico (NNN-N)	yes	no	upos_missing
+919-14	149302	numérico (NNN-N)	no	no	
+922-4	149721	numérico (NNN-N)	yes	yes	root_mismatch
+923-9	150182	numérico (NNN-N)	yes	no	
+924-2	150336	numérico (NNN-N)	yes	no	
+925-13	150717	numérico (NNN-N)	yes	no	
+925-14	150736	numérico (NNN-N)	yes	yes	text_form_mismatch
+925-16	150762	numérico (NNN-N)	no	no	
+926-15	151033	numérico (NNN-N)	yes	no	upos_missing
+928-13	151522	numérico (NNN-N)	no	no	
+929-6	151612	numérico (NNN-N)	yes	no	
+929-17	151800	numérico (NNN-N)	yes	no	text_form_mismatch,upos_missing
+929-17#2	151835	numérico (NNN-N)	no	no	upos_missing
+932-1	152210	numérico (NNN-N)	no	no	text_form_mismatch
+932-13	152333	numérico (NNN-N)	no	no	
+932-15	152354	numérico (NNN-N)	no	no	
+933-5	152436	numérico (NNN-N)	no	yes	cycle
+934-7	152594	numérico (NNN-N)	yes	no	upos_missing
+939-8	153711	numérico (NNN-N)	yes	yes	text_form_mismatch
+941-2	154107	numérico (NNN-N)	yes	no	root_mismatch
+941-14	154251	numérico (NNN-N)	yes	no	
+941-15	154269	numérico (NNN-N)	yes	no	
+941-15#2	154287	numérico (NNN-N)	no	no	
+943-6	154512	numérico (NNN-N)	yes	yes	root_mismatch
+943-8	154541	numérico (NNN-N)	yes	yes	root_mismatch
+944-2	154701	numérico (NNN-N)	yes	no	upos_missing
+944-3	154721	numérico (NNN-N)	yes	no	bad_token_id
+945-6	155015	numérico (NNN-N)	no	no	upos_missing
+946-12	155249	numérico (NNN-N)	yes	no	
+953-1	156307	numérico (NNN-N)	yes	no	
+954-6	156625	numérico (NNN-N)	yes	no	bad_token_id
+954-13	156716	numérico (NNN-N)	yes	no	
+956-1	156952	numérico (NNN-N)	yes	yes	root_mismatch
+957-1	157371	numérico (NNN-N)	yes	yes	root_mismatch
+958-3	157540	numérico (NNN-N)	yes	no	
+958-5	157600	numérico (NNN-N)	yes	no	
+960-11	158007	numérico (NNN-N)	yes	yes	root_mismatch
+961-2	158114	numérico (NNN-N)	no	no	
+961-9	158201	numérico (NNN-N)	yes	no	bad_token_id,root_mismatch,text_form_mismatch
+961-12	158248	numérico (NNN-N)	yes	yes	root_mismatch
+964-5	158717	numérico (NNN-N)	yes	no	
+964-7	158741	numérico (NNN-N)	yes	yes	root_mismatch
+965-1	158898	numérico (NNN-N)	no	no	
+967-5	159308	numérico (NNN-N)	yes	no	upos_missing
+967-11	159414	numérico (NNN-N)	no	no	
+967-12	159427	numérico (NNN-N)	yes	no	
+970-8	159836	numérico (NNN-N)	yes	no	
+972-2	160150	numérico (NNN-N)	yes	no	
+973-8	160427	numérico (NNN-N)	yes	no	
+974-6	160655	numérico (NNN-N)	yes	no	
+977-6	161281	numérico (NNN-N)	yes	no	
+977-10	161338	numérico (NNN-N)	yes	no	
+980-2	161740	numérico (NNN-N)	yes	no	
+981-4	161943	numérico (NNN-N)	yes	no	
+982-8	162130	numérico (NNN-N)	no	yes	cycle
+984-7	162522	numérico (NNN-N)	yes	yes	root_mismatch
+985-4	162647	numérico (NNN-N)	yes	yes	text_form_mismatch
+986-4	162750	numérico (NNN-N)	no	yes	cycle
+dic_0352	163314	dic	no	yes	cycle
+dic_0393	163599	dic	no	yes	feat_malformed
+dic_0394	163608	dic	no	yes	feat_malformed
+dic_0465	163919	dic	no	yes	text_form_mismatch
+dic_0470	163958	dic	no	yes	cycle
+dic_0491	164079	dic	no	yes	cycle
+dic_0503	164118	dic	no	yes	cycle
+dic_0511	164174	dic	no	yes	root_count
+dic_0548	164349	dic	no	yes	cycle
+dic_0551	164374	dic	no	yes	root_count
+dic_0555	164398	dic	no	yes	cycle
+dic_0557	164421	dic	yes	no	
+dic_0578	164492	dic	no	yes	cycle
+dic_0579	164500	dic	yes	no	
+dic_0581	164529	dic	yes	yes	cycle
+dic_0590	164601	dic	no	yes	cycle
+dic_0657	165047	dic	no	yes	root_count,root_mismatch
+dic_0663	165065	dic	no	yes	root_count
+dic_0686	165226	dic	no	yes	cycle,root_count,root_mismatch
+dic_0702	165283	dic	yes	yes	cycle
+dic_0736	165363	dic	no	yes	cycle
+dic_0769	165451	dic	no	yes	cycle
+dic_0772	165459	dic	no	yes	cycle
+dic_0781	165488	dic	no	yes	text_form_mismatch
+dic_0895	165880	dic	no	yes	feat_malformed
+dic_0930	165954	dic	no	yes	text_form_mismatch
+dic_0968	166082	dic	yes	yes	root_mismatch
+dic_0994	166183	dic	no	yes	cycle
+dic_1063	166573	dic	no	yes	root_count
+dic_1082	166686	dic	no	yes	cycle,text_form_mismatch
+dic_1140	166875	dic	no	yes	cycle
+dic_1273	167606	dic	yes	no	
+dic_1274	167623	dic	yes	no	
+dic_1306	167883	dic	no	yes	cycle
+dic_0006	168131	dic	no	yes	cycle
+dic_0009	168149	dic	no	yes	text_form_mismatch
+dic_0021	168196	dic	no	yes	cycle
+dic_0064	168502	dic	no	yes	root_count
+dic_0150	169037	dic	no	yes	cycle
+dic_0151	169045	dic	no	yes	cycle
+dic_0207	169311	dic	no	yes	cycle
+dic_0247	169475	dic	no	yes	text_form_mismatch
+dic_0290	169637	dic	no	yes	cycle
+dic_0729	170377	dic	no	yes	cycle
+dic_1319	171461	dic	no	yes	cycle,text_form_mismatch
+dic_1333	171523	dic	no	yes	cycle

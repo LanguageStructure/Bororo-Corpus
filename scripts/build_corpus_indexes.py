@@ -77,7 +77,7 @@ def conllu_morphemes(path):
    if not line or line[0]=='#' or line.isspace():continue
    cols=line.rstrip('\n').split('\t')
    if len(cols)!=10 or '-' in cols[0] or '.' in cols[0] or not cols[0].isdigit():continue
-   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('MORPH') or md.get('GLOSS')
+   md=misc_dict(cols[9]);form=md.get('ORTHO') or cols[1];seg=md.get('MORPH') or md.get('Morph') or md.get('GLOSS')  # Morph= é a grafia usada no CorBo.conllu
    if not seg or seg=='_' or not re.search(r'[-=]',seg):continue
    parts=[p for p in re.split(r'[-=]',seg) if p]
    if len(parts)<2:continue
@@ -254,7 +254,7 @@ def morpheme_token_data(path, namespace=""):
  for sent in conllu_sentences(path, namespace=namespace):
   sid=sent.get('sent_id','')
   for t in sent.get('tokens',[]):
-   md=t.get('misc') or {};seg=md.get('MORPH') or md.get('GLOSS') or '';seg_source='MISC/MORPH' if md.get('MORPH') else 'MISC/GLOSS';form=t.get('form') or ''
+   md=t.get('misc') or {};seg=md.get('MORPH') or md.get('Morph') or md.get('GLOSS') or '';seg_source='MISC/MORPH' if (md.get('MORPH') or md.get('Morph')) else 'MISC/GLOSS';form=t.get('form') or ''
    if seg and seg!='_' and re.search(r'[-=]',seg):
     parts=[p for p in re.split(r'[-=]',seg) if p]
     for i,m in enumerate(parts):
@@ -648,3 +648,10 @@ def main():
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
  print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(biboral)} de Marigudu, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
+
+# Índice lexical compacto do painel lateral (docs/data/lexicon/), derivado dos arquivos acima.
+import runpy as _runpy
+_runpy.run_path(str(ROOT/'scripts/build_lexicon_panel.py'), run_name='__main__')
+_runpy.run_path(str(ROOT/'scripts/build_statistics_summary.py'), run_name='__main__')
+_runpy.run_path(str(ROOT/'scripts/build_downloads.py'), run_name='__main__')
+_runpy.run_path(str(ROOT/'scripts/build_site_meta.py'), run_name='__main__')

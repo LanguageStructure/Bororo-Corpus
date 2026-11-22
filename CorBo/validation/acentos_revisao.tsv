@@ -1,0 +1,37 @@
+tipo	forma	ocorrencias	forma_alternativa	ocorrencias_alternativa	lemas	upos	exemplos	nota	decisao
+acento_nao_final	abóbora	2	abobora	0	abóbora	NOUN	729-17 797-1	possivelmente português	
+oxitona_sem_acento	ako	47	akó	3	ako	VERB,NOUN	boe_ero_07_37 boe_ero_08_25 AdugoBiri-1.8		
+oxitona_sem_acento	aro	17	aró	11	ro	NOUN,PROPN	boe_ero_03_06 boe_ero_03_22 boe_ero_03_34		
+oxitona_sem_acento	ato	5	ató	2	ato	PROPN,NOUN	87-4 465-13 490-10		
+oxitona_sem_acento	ai	150	aí	1	ji,ai,a	ADP,PRON	boe_ero_01_14-2 boe_ero_01_14-2 boe_ero_01_25	possivelmente português	
+acento_nao_final	bóbora	1	bobora	1	bóbora	NOUN	797-1	possivelmente português	
+acento_nao_final	cemitério	2	cemiterio	0	cemitério	NOUN	945-7 945-8	possivelmente português	
+monossilabo_acentuado	cá	8	ca	217	cá	INTJ,PROPN	138-5 507-16 604-4	possivelmente português	
+acento_nao_final	córrego	2	corrego	0	córrego	PROPN	491-9 927-5	possivelmente português	
+monossilabo_acentuado	dá	1	da	1	dá	NOUN	663-13	possivelmente português	
+acento_nao_final	egídio	4	egidio	1	Egídio	PROPN	42-4 43-5 94-2	possivelmente português	
+acento_nao_final	eugênio	1	eugenio	0	eugênio	PROPN	171-5	possivelmente português	
+oxitona_sem_acento	gura	2	gurá	1	gura	NOUN	574-13 648-15		
+oxitona_sem_acento	ica	46	icá	29	ica	ADV,INTJ	boe_ero_01_07 boe_ero_01_07-2 boe_ero_01_08		
+oxitona_sem_acento	ipa	1	ipá	1	pa	NOUN	dic_1018		
+oxitona_sem_acento	jiba	9	jibá	1	ji	ADP,ADV	483-6 586-8 587-5		
+monossilabo_acentuado	já	1	ja	34	já	PROPN	569-2	possivelmente português	
+acento_nao_final	karajánure	1	karajanure	0	karajá	VERB	708-25		
+oxitona_sem_acento	kodiba	15	kodibá	3	kodiba	ADV	Jussila-12 152-9 328-2		
+oxitona_sem_acento	kupe	1	kupé	3	kupe	NOUN	610-10		
+oxitona_sem_acento	matawe	1	matawé	1	matawe	ADV	586-7		
+monossilabo_acentuado	mè	2	me	12	mè	NOUN,X	549-11 549-11		
+monossilabo_acentuado	mé	1	me	12	mé	PROPN	507-16		
+acento_nao_final	negócio	1	negocio	0	negócio	PROPN	731-25	possivelmente português	
+monossilabo_acentuado	né	1	ne	0	né	X	507-25	possivelmente português	
+oxitona_sem_acento	pejo	3	pejó	2	pejo	NOUN	67-1 578-3 848-5		
+oxitona_sem_acento	pejo	3	pejô	4	pejo	NOUN	67-1 578-3 848-5		
+acento_nao_final	pojôrogu	1	pojorogu	0	pojô	NOUN	713-13		
+monossilabo_acentuado	pá	1	pa	120	pá	NOUN	174-8	possivelmente português	
+acento_nao_final	pátio	1	patio	0	pátio	NOUN	717-1	possivelmente português	
+oxitona_sem_acento	tododo	1	tododó	3	otodo	VERB	boe_ero_01_14-2		
+monossilabo_acentuado	tá	4	ta	156	tá	NOUN,PRON	686-10 686-11 731-25	possivelmente português	
+oxitona_sem_acento	ukodo	1	ukodó	1	ukodo	NOUN	833-2		
+monossilabo_acentuado	wè	2	we	13	wè	PROPN	586-13 604-4		
+monossilabo_acentuado	é	7	e	25	é	NOUN,PROPN	327-9 416-4 626-9	possivelmente português	
+acento_nao_final	índio	3	indio	0	índio	NOUN,PROPN	59-1 631-13 631-13	possivelmente português	

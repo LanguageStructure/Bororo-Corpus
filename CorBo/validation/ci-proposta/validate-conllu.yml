@@ -1,0 +1,74 @@
+name: Validar CoNLL-U
+
+on:
+  push:
+    paths:
+      - 'CorBo/Corpus_Files/CorBo.conllu'
+      - 'scripts/validate_conllu.py'
+      - 'scripts/split_gold_silver.py'
+      - 'CorBo/validation/**'
+      - '.github/workflows/validate-conllu.yml'
+  pull_request:
+    paths:
+      - 'CorBo/Corpus_Files/CorBo.conllu'
+      - 'scripts/validate_conllu.py'
+      - 'CorBo/validation/**'
+  workflow_dispatch:
+
+jobs:
+  corbo-validator:
+    name: Validador CorBo (catraca contra a linha de base)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Falha se qualquer categoria de erro aumentar em relação a CorBo/validation/baseline.json.
+      # Ao corrigir erros, atualize a linha de base:  cp CorBo/validation/summary.json CorBo/validation/baseline.json
+      - name: Validar contra a linha de base
+        run: |
+          python scripts/validate_conllu.py CorBo/Corpus_Files/CorBo.conllu \
+            --report issues.tsv --summary summary.json \
+            --baseline CorBo/validation/baseline.json
+      - name: Camada gold sem erros
+        run: |
+          python scripts/split_gold_silver.py
+          python scripts/validate_conllu.py CorBo/Corpus_Files/splits/CorBo.gold.conllu --strict
+      - name: Guardar relatório
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: corbo-validation-report
+          path: |
+            issues.tsv
+            summary.json
+          retention-days: 30
+
+  ud-official:
+    name: Validador oficial do UD (gold, nível 2)
+    runs-on: ubuntu-latest
+    # Informativo até a camada gold passar; mude para false depois disso.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Obter UD tools
+        run: |
+          git clone --depth 1 https://github.com/UniversalDependencies/tools.git ud-tools
+          pip install regex udapi
+      - name: Gerar camada gold
+        run: python scripts/split_gold_silver.py
+      - name: validate.py --level 2
+        run: |
+          python ud-tools/validate.py --lang bor --level 2 \
+            CorBo/Corpus_Files/splits/CorBo.gold.conllu 2>&1 | tee ud-validate.log
+      - name: Guardar log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ud-validate-log
+          path: ud-validate.log
+          retention-days: 30

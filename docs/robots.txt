@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://languagestructure.github.io/Bororo-Corpus/sitemap.xml

@@ -1,12 +1,29 @@
-# CorBo — Corpus da Língua Bororo (v0.9.0)
+# CorBo — Corpus da Língua Bororo (v0.10.0)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
-> **DOI:** https://doi.org/10.5281/zenodo.23441622  
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441622.svg)](https://doi.org/10.5281/zenodo.23441622)
+> **DOI (todas as versões, resolve para a mais recente):** https://doi.org/10.5281/zenodo.12110451  
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 O **CorBo (Corpus Bororo)** é um corpus digital da língua **Boe-Bororo** (ISO 639-3: `bor`), falada em Mato Grosso, Brasil. O projeto reúne documentação textual, corpus paralelo, anotação linguística e recursos computacionais para pesquisa, documentação, ensino e desenvolvimento de tecnologia linguística.
 
 A arquitetura atual distingue explicitamente **fonte documental**, **revisão editorial**, **anotação linguística**, **dados derivados** e **recursos experimentais de geração**. O texto das fontes é preservado; correções, normalizações e análises são registradas em camadas separadas e não substituem silenciosamente a evidência documental.
+
+### Documentação
+
+| Documento | Conteúdo |
+|---|---|
+| [Guia de anotação](docs/ANNOTATION_GUIDE.md) | convenções do CoNLL-U, decisões de anotação, marcas de anotação automática |
+| [Notas da v0.10.0](docs/RELEASE_NOTES_v0.10.0.md) · [Critérios para a 1.0](docs/ROADMAP_1.0.md) | o que mudou nesta versão e o que falta para a 1.0 |
+| [Ortografia e normalização](docs/ORTOGRAFIA.md) | grafia das fontes, diacríticos, caixa, pontuação, camada normalizada (rascunho) |
+| [Inventário de rótulos](docs/ANNOTATION_INVENTORY.md) | UPOS, XPOS, DEPREL e FEATS em uso, com contagens (gerado automaticamente) |
+| [Anotação morfológica](docs/MORPHOLOGY_ANNOTATION.md) | segmentação explícita no MISC (`Morph=`) |
+| [Tokenizador](docs/TOKENIZER.md) | papel de cada arquivo do tokenizador, estados de revisão e avaliação |
+| [Ética e governança](docs/ETICA_E_GOVERNANCA.md) | comunidades, parcerias, consentimento, origem dos materiais |
+| [Validação](CorBo/validation/README.md) | relatórios de erros, logs de correção e decisões, proveniência das sentenças |
+| [Diretrizes editoriais](CorBo_vNext/schema/EDITORIAL_GUIDELINES.md) | camadas documentais, unidades, identificadores |
+| [Registro de mudanças](CHANGELOG.md) | o que mudou em cada versão |
+| [Downloads](https://languagestructure.github.io/Bororo-Corpus/downloads.html) · [English](https://languagestructure.github.io/Bororo-Corpus/en.html) | arquivos para download; versão do site em inglês |
+| [Pacote Python](python/README.md) | `corbo-tokenizer`: o tokenizador fora do navegador |
 
 ## Princípio documental
 
@@ -62,7 +79,7 @@ O componente atualmente usado para anotação morfossintática e visualização 
 CorBo/Corpus_Files/CorBo.conllu
 ```
 
-Este é o arquivo canônico unificado usado para anotação continuada, construção do índice UD atual, análise de formas e recursos morfológicos derivados associados ao gerador. Ele consolida as fontes CoNLL-U anteriormente mantidas separadamente, preservando a proveniência por meio de comentários  quando disponível.
+Este é o arquivo canônico unificado usado para anotação continuada, construção do índice UD atual, análise de formas e recursos morfológicos derivados associados ao gerador. Ele consolida as fontes CoNLL-U anteriormente mantidas separadamente, preservando a proveniência por meio de comentários `# source_conllu`, quando disponível.
 
 Arquivos CoNLL-U legados, incluindo versões enriquecidas com material bíblico como `Bororo_UD_enriched_v5_plus_scripture.conllu`, **não são a fonte do visualizador UD atual**. Textos bíblicos podem permanecer no corpus documental e em outros índices, mas não são projetados automaticamente no visualizador de dependências.
 
@@ -76,8 +93,13 @@ Os comentários CoNLL-U podem registrar, quando disponíveis:
 - `text`;
 - `text_por`;
 - `text_eng`.
+- `auto_annotation`, `auto_fields`, `auto_tokens`, `auto_note` — sentença com campos preenchidos automaticamente e ainda pendentes de revisão manual (no nível do token, `Auto=` no MISC indica quais campos);
+- `source_unit`, `section` — unidade e seção da fonte documental (Boe Ero);
+- `model_projection` — origem de uma projeção automática a partir de sentença gold.
 
-O CoNLL-U unificado preserva a origem dos componentes anteriores por meio de . Metadados documentais mais específicos ainda não estão disponíveis de maneira uniforme para todas as sentenças, de modo que alguns splits históricos por fonte podem não ser reconstruíveis apenas a partir do arquivo público atual.
+As convenções completas estão no [guia de anotação](docs/ANNOTATION_GUIDE.md).
+
+O CoNLL-U unificado preserva a origem dos componentes anteriores por meio de comentários `# source_conllu`. Metadados documentais mais específicos ainda não estão disponíveis de maneira uniforme para todas as sentenças, de modo que alguns splits históricos por fonte podem não ser reconstruíveis apenas a partir do arquivo público atual.
 
 Para novas incorporações e revisões, o objetivo é preservar também, quando conhecido:
 
@@ -87,6 +109,23 @@ Para novas incorporações e revisões, o objetivo é preservar também, quando 
 - relação entre a unidade documental e a sentença anotada.
 
 Isso permitirá futuros splits por fonte plenamente reproduzíveis sem inferir proveniência a partir do conteúdo.
+
+## Validação e camadas gold / silver
+
+O CoNLL-U canônico é verificado por `scripts/validate_conllu.py` (estrutura, rótulos UD, inventário de traços, coerência `# text` × formas). O relatório completo, com número de linha e `sent_id`, fica em `CorBo/validation/issues.tsv`; as contagens em `CorBo/validation/summary.json`. Correções automáticas sem ambiguidade linguística são feitas por `scripts/fix_conllu_safe.py`, que registra cada alteração em `CorBo/validation/safe_fixes.tsv`. Problemas que exigem decisão humana (ciclos, raízes múltiplas, texto divergente das formas, fragmentos sem `sent_id`) não são corrigidos automaticamente.
+
+`scripts/split_gold_silver.py` deriva, sem alterar o arquivo canônico:
+
+- `CorBo/Corpus_Files/splits/CorBo.gold.conllu` — anotação inteiramente manual, sintaxe completa e sem erros estruturais;
+- `CorBo/Corpus_Files/splits/CorBo.silver.conllu` — estruturalmente válida, com anotação automática (`Auto=`);
+- `CorBo/Corpus_Files/splits/review_sentences.tsv` — sentenças a revisar;
+- `docs/data/annotation-coverage.json` — números exibidos na página **Cobertura** do site.
+
+Estado na v0.10.0 (22 de novembro de 2026): 12.020 unidades no CoNLL-U, das quais 11.760 tokenizadas (79.521 tokens); **1.900 sentenças gold** (9.802 tokens), **8.980 silver** e 880 a revisar; 260 unidades aguardam tokenização; 706 erros de validação restantes. Cerca de 70% dos tokens têm ao menos um campo preenchido automaticamente (`Auto=`, `AutoLowConf=` ou `PosMorphAnnot=AI:…`).
+
+Para impedir regressões, a linha de base `CorBo/validation/baseline.json` registra o número de erros por categoria; a validação em CI falha se alguma categoria aumentar. Ao corrigir erros, atualize-a com `cp CorBo/validation/summary.json CorBo/validation/baseline.json`.
+
+O inventário de UPOS, XPOS, DEPREL e FEATS efetivamente usados é gerado por `scripts/build_annotation_inventory.py` em [`docs/ANNOTATION_INVENTORY.md`](docs/ANNOTATION_INVENTORY.md).
 
 ## Anotação morfológica
 
@@ -101,7 +140,7 @@ Os recursos derivados distinguem:
 - morfemas explicitamente analisados;
 - relações de dependência.
 
-A busca por morfema usa segmentação/anotação explícita, não correspondência arbitrária de substring. A página **Análise de formas** também se baseia em anotações explícitas.
+A busca por morfema usa segmentação/anotação explícita, não correspondência arbitrária de substring. A segmentação está no MISC como `Morph=` (12.478 tokens; `-` marca fronteira afixal, `=` clítica e `0` o morfema zero); o build lê `Morph=` e `MORPH=` como equivalentes. A página **Análise de formas** também se baseia em anotações explícitas.
 
 ## Interface digital
 
@@ -219,7 +258,7 @@ Os principais formatos são:
 
 ## Estado da versão
 
-A versão 0.8.0 é uma **versão de pesquisa em desenvolvimento**. Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
+A versão 0.10.0 (publicada no Zenodo em 22 de novembro de 2026) é uma **versão de pesquisa em desenvolvimento**. Parte das traduções em português está desalinhada e em revisão manual; a camada silver é anotação automática. Os critérios para a versão 1.0 estão em [`docs/ROADMAP_1.0.md`](docs/ROADMAP_1.0.md). Coleções e camadas encontram-se em estágios distintos de revisão documental, ortográfica, tradutória e linguística. Algumas análises permanecem deliberadamente incompletas ou sob revisão.
 
 A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de produzir artificialmente um corpus inteiramente normalizado.
 
@@ -229,6 +268,17 @@ A infraestrutura atual privilegia a rastreabilidade dessas diferenças em vez de
 - **ISO 639-3:** `bor`
 - **Família:** Bororoan
 - **Região:** Mato Grosso, Brasil
+
+## Novidades da v0.10.0 (novembro de 2026)
+
+- **Validação do CoNLL-U** com relatório por linha e linha de base em CI (`.github/workflows/validate-conllu.yml`); 7.179 correções automáticas sem ambiguidade (erros de 4.893 para 3.706).
+- **Camadas gold e silver** derivadas do arquivo canônico e painel correspondente na página Cobertura.
+- **Decisões de anotação** (21/11/2026): `Boe` = "os Bororo" → PROPN plural, demais acepções → NOUN singular; sufixo *-go* = `Voice=CauInc`; `Aspect=IncProg`; `Number=Sgtv` = singulativo; `dukeje` = SCONJ (`mark`) ou ADV (`advmod`); complementos oracionais de `ako` = `ccomp`, orações citadas independentes = `parataxis`. Registro em `CorBo/validation/decisions_20261121.tsv`.
+- **Busca por morfema** passa a usar as segmentações `Morph=` do CoNLL-U (de 29 para 28.604 ocorrências).
+- **Tokenizador v5**: pré-tokenização, estado de revisão explícito, suporte baixo, superfície × subjacente e suspeita de português/empréstimo; planilha de 400 formas para o gold de avaliação.
+- **Documentação**: guia de anotação, inventário de rótulos, ética e governança, proveniência dos grupos de sentenças (`CorBo/validation/sent_id_groups.tsv`).
+- **Site**: painel lexical único, cabeçalho comum, versão em inglês, página de downloads, link permanente e "sugerir correção" por unidade, árvores UD exportáveis em SVG (e corrigidas: nenhuma árvore aparecia), estatísticas pré-calculadas, schema.org/sitemap/OLAC.
+- Pendências: valores raros de `Mood`, `Number=Col` e `Voice=CPass`; proveniência das sentenças de ID numérico e `dic_`.
 
 ## Novidades da versão 0.8.0
 
@@ -241,7 +291,7 @@ A versão 0.8.0 consolida a expansão documental e editorial realizada após 0.7
 - exclusão de correspondências `confirmed` para impedir contagem duplicada de testemunhos;
 - manutenção de `CIR.001` fora do índice público enquanto a estrutura da fonte permanecer `unresolved`;
 - ampliação da busca por formas, lemas e morfemas;
-- camada CoNLL-U com **973 sentenças** e **3.765 tokens**, das quais **874** possuem análise de dependência com raiz sintática explicitamente anotada;
+- camada CoNLL-U com **973 sentenças** e **3.765 tokens** naquela versão, das quais **874** possuíam análise de dependência com raiz sintática explicitamente anotada (os números atuais estão na seção *Validação e camadas gold / silver*);
 - visualização UD restrita às sentenças efetivamente anotadas no CoNLL-U autoritativo;
 - melhorias no editor, na busca por morfemas, no visualizador UD e nas páginas de exploração do corpus;
 - atualização do guia **Como usar**, estatísticas, manifesto de fontes e documentação da metodologia de colação.
@@ -268,15 +318,30 @@ O tokenizador mantém análises linguísticas cadastradas separadas das hipótes
 
 **Estado de desenvolvimento (outubro de 2026).** O último modelo público verificado continha 74.255 ocorrências, 6.674 formas distintas, 236 famílias de lemas, 27 padrões entre famílias e 83 propostas de segmentação. Esses números descrevem o artefato verificado, não necessariamente o resultado do próximo treinamento. O código para atribuir graus de evidência já foi atualizado, mas a publicação de um JSON regenerado com esses campos ainda precisa ser confirmada. A avaliação com dados separados do treinamento e revisão linguística das propostas continuam pendentes.
 
+### Inventário v5 do tokenizador
+
+`scripts/build_tokenizer_v5.py` gera `docs/data/tokenizer-v5-site.json`, usado pela página do tokenizador (com recuo automático para o v4). Ele não altera análises; acrescenta pré-tokenização (pontuação, números e citações de afixos deixam de ser formas lexicais), suspeita de português ou empréstimo (`lang_suspect`, com a evidência gráfica), estado de revisão explícito (`confirmed`, `proposed`, `proposed_low_support`, `unanalysed`), suporte da família lexical e a distinção entre `surface_segments` (fatias da grafia) e `underlying_morphemes` (representação morfológica, p. ex. `amode → a + modu + re`). O relatório fica em `CorBo/validation/tokenizer_v5_report.json`. O papel de cada arquivo do tokenizador está em [`docs/TOKENIZER.md`](docs/TOKENIZER.md).
+
+Para a avaliação independente, `scripts/prepare_tokenizer_gold_worksheet.py` gerou `CorBo_vNext/annotations/tokenizer_gold_worksheet_v1.tsv`: 400 formas estratificadas por frequência e estado, com divisão train/test fixa e um exemplo do corpus para cada uma, **sem** mostrar a análise do modelo. Depois de anotada, ela é lida diretamente por `scripts/evaluate_tokenizer_gold.py --gold …` (linhas ainda vazias são ignoradas).
+
+## Ética e governança dos dados
+
+Consentimento, papel da comunidade Boe, direitos sobre os materiais e restrições de acesso estão em [`docs/ETICA_E_GOVERNANCA.md`](docs/ETICA_E_GOVERNANCA.md).
+
 ## Licença e citação
 
-O corpus é disponibilizado sob **CC BY-NC-SA 4.0** (Atribuição–NãoComercial–CompartilhaIgual).
+O corpus é disponibilizado sob **CC BY 4.0** (Atribuição).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23187959.svg)](https://doi.org/10.5281/zenodo.23187959)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
+
+DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Versões anteriores: v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
-## Autor
+## Autoria, parcerias e comunidades
 
-- **Fabrício Ferraz Gerardi**
+- **Fabrício Ferraz Gerardi** — organização, trabalho de campo (`FFG-FW`), revisão editorial, anotação manual e correções do CoNLL-U.
+- **Parceiros:** Mariel Kujibo Ekureu, Fernando Kudoro e a Missão Salesiana. Os autores do Boe Ero (*Vida Bororo*) e de outros materiais do corpus são missionários salesianos que viveram em Meruri.
+- **Comunidades:** Aldeia Meruri (TI Meruri), Tadarimana e Córrego Grande.
+- Narrativas de Jussila, coletadas por Fabrício Ferraz Gerardi.
 
 O CorBo é desenvolvido no âmbito da iniciativa **Boe eno moto**, dedicada à documentação, pesquisa, ensino e revitalização da língua Bororo.
