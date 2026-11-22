@@ -28,6 +28,7 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 - Fonte Gentium Book Plus para o texto Bororo; estatísticas com visão geral pré-calculada e composição por tipo de material.
 - Árvores UD exportáveis em SVG.
 - schema.org/Dataset, `sitemap.xml`, `robots.txt` e registro OLAC (`docs/olac.xml`).
+- 302 correções estruturais de alta confiança aplicadas (fragmentos unidos à sentença anterior, IDs renumerados); erros de 3.706 para 3.122. Registro em `CorBo/validation/structural_applied_20261122.tsv`; 101 propostas de confiança média aguardam revisão.
 - Busca por padrão na Concordância: curingas `*` e `?`, expressões regulares `/…/` e lacunas `[]`/`[]{m,n}`; sequências destacadas inteiras.
 - Correções: o status do visualizador UD ficava em "Carregando…"; dez leitores bíblicos (Salmos, Amós, Joel etc.) interrompiam o script por causa de um painel antigo inexistente.
 

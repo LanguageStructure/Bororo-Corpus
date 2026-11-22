@@ -1,40 +1,40 @@
 {
   "file": "CorBo/Corpus_Files/CorBo.conllu",
   "stats": {
-    "blocks": 12164,
-    "sentences": 11904,
-    "manual_sentences": 2297,
+    "blocks": 12021,
+    "sentences": 11761,
+    "manual_sentences": 2154,
     "tokens": 79272,
-    "sentences_with_full_syntax": 11192,
+    "sentences_with_full_syntax": 11174,
     "auto_sentences": 9607,
     "auto_tokens": 49487,
-    "sentences_without_full_syntax": 712,
+    "sentences_without_full_syntax": 587,
     "sentences_pending_tokenization": 259
   },
   "errors": {
     "bad_head": 3,
-    "bad_token_id": 95,
+    "bad_token_id": 25,
     "block_without_tokens": 1,
     "cycle": 72,
     "deprel_not_ud": 5,
     "feat_malformed": 18,
-    "fragment_without_sent_id": 241,
-    "head_out_of_range": 4,
+    "fragment_without_sent_id": 98,
+    "head_out_of_range": 3,
     "missing_text": 1,
     "private_use_character": 18,
     "root_count": 12,
     "root_mismatch": 320,
-    "text_form_mismatch": 1939,
-    "token_ids_not_sequential": 633,
+    "text_form_mismatch": 1871,
+    "token_ids_not_sequential": 331,
     "upos_missing": 342,
     "upos_not_ud": 2
   },
   "warnings": {
     "feat_undocumented": 13,
-    "head_deprel_mismatch": 2463,
+    "head_deprel_mismatch": 2461,
     "misc_malformed": 2,
     "pending_tokenization": 259,
-    "text_punct_mismatch": 368
+    "text_punct_mismatch": 436
   },
-  "error_total": 3706
+  "error_total": 3122
 }

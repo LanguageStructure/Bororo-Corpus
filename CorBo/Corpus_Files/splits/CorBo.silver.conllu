@@ -108316,6 +108316,14 @@
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = dic_1351
+# text = unure tumagu .
+# text_por = ele está, ou estava, se entregando.
+# text_eng =
+1	unure	u	PRON	bi	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	2	nsubj	_	_
+2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	PosMorphAnnot=AI:LEMMA,UPOS,XPOS,FEATS
+3	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = dic_1354
 # text = urade tumagu .
 # text_por = eis que ele se entregou.

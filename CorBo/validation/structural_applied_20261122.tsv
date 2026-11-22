@@ -1,0 +1,303 @@
+prop_id	line	sent_id	kind	confidence	proposal	detail	approve
+P0001	982	boe_ero_01_34	merge	alta	unir à sentença boe_ero_01_34	Ioga , oino ji , gu , gu , gu . . .	sim
+P0002	1240	boe_ero_01_40	merge	alta	unir à sentença boe_ero_01_40	Pao pega aregodu , oino . Boe egore Ioga pega aregodu , oino . Ioga pega , amugudo , amugudo , amugudo ! .	sim
+P0003	1664	boe_ero_02_15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5 6 7 8 9 10 11 12	sim
+P0004	1812	boe_ero_02_21	merge	alta	unir à sentença boe_ero_02_21	Nogwaredu , oino ji .	sim
+P0005	2164	boe_ero_02_34	merge	alta	unir à sentença boe_ero_02_34	Imuga , oino ji . Icare iwororaere . Icare maragodure , Icare boe etujere ema .	sim
+P0006	2278	boe_ero_02_38	merge	alta	unir à sentença boe_ero_02_38	Imuga pega , oino ji . Boe egore Ituie pega , oino ji . Boe egore Paje pega , oino ji . Boe egore Pajarugo pega , oino j . Boe egore Parago pega , oino ji . Itu	sim
+P0007	2453	boe_ero_02_42	merge	alta	unir à sentença boe_ero_02_42	Iwigodu nure , oino , iwogagodu nure , iwoga nure tabiji , iwoga nure apiji . Oino tonaregeduji , oino torei .	sim
+P0008	2514	boe_ero_03_01	merge	alta	unir à sentença boe_ero_03_01	Imedu , oino . Imedu , arduwado , aroiwado , akagoiwado .	sim
+P0009	3620	boe_ero_04_09	merge	alta	unir à sentença boe_ero_04_09	. Icare ure oino rugadu . Dukeje ere kodo towuje Akado , jewu inodu , jewu inodu towuje , kodokora towuje akoredu kudawuce , uce kudawuce ; ure beto to , ure mi	sim
+P0010	5546	boe_ero_07_31	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5 6 7 8 9 10 11 12 13	sim
+P0065	11603	34-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	sim
+P0068	12874	59-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 4 5 6 7 8	sim
+P0069	16187	112-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	sim
+P0070	17039	123-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 6 7 8	sim
+P0071	17170	124-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4	sim
+P0072	17957	131-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0073	19450	145-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0074	19683	146-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 8 6	sim
+P0075	19698	146-15	merge	alta	unir à sentença 146-15	. Kocare !	sim
+P0077	22528	167-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 8 9 10 11	sim
+P0078	22680	169-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 7 8 9 10 11 12 13 14 15 6	sim
+P0079	23905	178-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 12 13 14 15	sim
+P0080	24184	181-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 8 9 10 11 12 6	sim
+P0081	24337	182-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	sim
+P0083	25138	190-1	merge	alta	unir à sentença 190-1	Oinore egore roiaoji jii .	sim
+P0084	25220	191-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0085	25236	191-2	merge	alta	unir à sentença 191-2	tu .	sim
+P0086	25724	196-4	merge	alta	unir à sentença 196-4	.	sim
+P0087	26009	199-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	sim
+P0088	26218	200-11	merge	alta	unir à sentença 200-11	jugodoge eiogi .	sim
+P0089	26345	202-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 6	sim
+P0090	26366	202-3	merge	alta	unir à sentença 202-3	?	sim
+P0091	26815	204-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 6	sim
+P0093	26838	204-12	merge	alta	unir à sentença 204-12	. Oino .	sim
+P0094	27102	207-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0095	27133	207-7	merge	alta	unir à sentença 207-7	kae kae kae kae !	sim
+P0096	27597	211-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 8 11 12	sim
+P0097	28926	223-3	merge	alta	unir à sentença 223-3	akore Ps !	sim
+P0098	29138	225-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0099	29154	225-5	merge	alta	unir à sentença 225-5	.	sim
+P0100	29515	229-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9	sim
+P0102	29568	230-1	merge	alta	unir à sentença 230-1	hu hu .	sim
+P0103	29572	230-1	merge	alta	unir à sentença 230-1	! ,	sim
+P0104	29903	237-4	merge	alta	unir à sentença 237-4	je .	sim
+P0108	30129	240-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 6	sim
+P0110	30158	240-1	merge	alta	unir à sentença 240-1	nowu ei tawuje dukeje , ei tugera kabi jitu keje , emaragodu butuguuuwo ji , ekera butuguuuwo ji .	sim
+P0111	30265	241-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 9 6	sim
+P0113	30283	241-6	merge	alta	unir à sentença 241-6	hu hu .	sim
+P0114	30287	241-6	merge	alta	unir à sentença 241-6	!	sim
+P0115	30330	242-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0116	30742	246-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0117	30948	249-1	merge	alta	unir à sentença 249-1	hu .	sim
+P0118	30952	249-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5 9	sim
+P0119	31324	257-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	sim
+P0120	31405	257-16	merge	alta	unir à sentença 257-16	.	sim
+P0121	31434	258-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 6	sim
+P0122	31484	258-4	merge	alta	unir à sentença 258-4	toragudu tabo .	sim
+P0123	32012	264-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0124	32112	265-3	merge	alta	unir à sentença 265-3	iekori reno .	sim
+P0125	32131	265-4	merge	alta	unir à sentença 265-4	arowe koe ewudore kiadodu jetugae ewororo Paremodu Bororo bukorire , aio iogodurega kiadodu jeture gaje . , Oinore egore .	sim
+P0126	32471	268-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10	sim
+P0127	32498	268-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0129	32542	268-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	sim
+P0131	32562	268-15	merge	alta	unir à sentença 268-15	mu .	sim
+P0132	32565	269-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0133	32581	269-1	merge	alta	unir à sentença 269-1	Wa .	sim
+P0134	32621	269-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10 11 12	sim
+P0135	32679	270-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 7 6	sim
+P0136	32694	270-1	merge	alta	unir à sentença 270-1	Bororoto .	sim
+P0137	32697	270-1	merge	alta	unir à sentença 270-1	!	sim
+P0138	33098	275-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0139	33114	275-1	merge	alta	unir à sentença 275-1	.	sim
+P0144	33308	276-2	merge	alta	unir à sentença 276-2	ro . ro O Icai tudui toro ji kodi .	sim
+P0145	33794	285-6	merge	alta	unir à sentença 285-6	. io .	sim
+P0146	34135	291-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0154	34175	291-1	merge	alta	unir à sentença 291-1	, akore , ecewu kodo tabo toro bato , kodure bororo ji jii .	sim
+P0155	34221	291-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 6	sim
+P0161	34251	291-4	merge	alta	unir à sentença 291-4	ha a . .	sim
+P0162	34337	293-2	merge	alta	unir à sentença 293-2	toro icai boe etui ebo pobo to du kae , icai boei eiaoro tugu kuruga to du kae , icai boei eiaoro tugu manoto du kae , icai boei eiaoro tugu keoto du kae .	sim
+P0165	34951	300-2	merge	alta	unir à sentença 300-2	. Cewu boe egore Birikigadurewu , Birikigadurewu ino jiboe kana .	sim
+P0166	34963	300-2	merge	alta	unir à sentença 300-2	.	sim
+P0167	34981	300-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 6	sim
+P0168	34999	300-4	merge	alta	unir à sentença 300-4	ro perigodunure ikenoto .	sim
+P0169	35109	301-5	merge	alta	unir à sentença 301-5	inure kowuje ju tabo , Ire ju bu keje , ju bu keje .	sim
+P0171	35848	308-6	merge	alta	unir à sentença 308-6	. Icare amode kare erego iwuodo piji !	sim
+P0172	36064	310-1	merge	alta	unir à sentença 310-1	Ire barigu kuci pobo to . Akore M !	sim
+P0173	36828	318-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15	sim
+P0174	36913	318-8	merge	alta	unir à sentença 318-8	tu ca .	sim
+P0175	36983	319-5	merge	alta	unir à sentença 319-5	cedaregodure nowu ceda kae uu !	sim
+P0176	37200	322-3	merge	alta	unir à sentença 322-3	. ia boe moturewu pugeje , ia boe moturewu pugeje !	sim
+P0182	38061	332-2	merge	alta	unir à sentença 332-2	hu hu .	sim
+P0185	38165	334-1	merge	alta	unir à sentença 334-1	. Mere mere o !	sim
+P0186	39176	348-3	merge	alta	unir à sentença 348-3	wo .	sim
+P0187	39179	348-3	merge	alta	unir à sentença 348-3	!	sim
+P0188	40139	357-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0189	40218	358-3	merge	alta	unir à sentença 358-3	.	sim
+P0190	40455	360-10	merge	alta	unir à sentença 360-10	toro nowu imaragodumode jiwu itura kae .	sim
+P0191	40641	362-2	merge	alta	unir à sentença 362-2	je .	sim
+P0192	41562	374-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0193	42253	379-6	merge	alta	unir à sentença 379-6	!	sim
+P0194	42565	381-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 6 9 10 11 12 13 14 15	sim
+P0195	42745	382-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0196	42769	382-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12	sim
+P0197	43066	385-1	merge	alta	unir à sentença 385-1	icare iture cewu nabure eke nowa kae .	sim
+P0198	43108	385-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	sim
+P0199	43125	385-4	merge	alta	unir à sentença 385-4	itaregodure tu .	sim
+P0200	43209	387-1	merge	alta	unir à sentença 387-1	!	sim
+P0201	43226	387-2	merge	alta	unir à sentença 387-2	!	sim
+P0202	43250	387-3	merge	alta	unir à sentença 387-3	. . Etaregodure !	sim
+P0204	43300	387-5	merge	alta	unir à sentença 387-5	? a . .	sim
+P0205	43577	390-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0206	44638	397-1	merge	alta	unir à sentença 397-1	.	sim
+P0207	44640	397-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0208	44929	398-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0209	46640	410-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0210	46819	411-9	merge	alta	unir à sentença 411-9	A !	sim
+P0211	47529	417-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9 10 11 12	sim
+P0212	48583	426-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9	sim
+P0213	49080	430-11	merge	alta	unir à sentença 430-11	icare Ire ikeragu toriji . ta .	sim
+P0214	49088	430-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 6	sim
+P0215	49554	431-28	merge	alta	unir à sentença 431-28	tuku .	sim
+P0216	49764	432-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 6	sim
+P0217	49977	433-12	merge	alta	unir à sentença 433-12	Tagaregodu bato , epeguru ta , epeguru bowuje , ewu kowu .	sim
+P0218	50161	434-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 8 9 10 11 12	sim
+P0219	50270	435-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	sim
+P0220	50282	435-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	sim
+P0221	50294	435-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4	sim
+P0222	50323	435-7	merge	alta	unir à sentença 435-7	care aroe eture pugeje O .	sim
+P0223	50983	440-1	merge	alta	unir à sentença 440-1	cireruia .	sim
+P0225	51006	440-2	merge	alta	unir à sentença 440-2	cireruia Pogodawu cireruia Oko cireruia Tadari cireruia Apeo cireruia Ca , ema rugadu reno .	sim
+P0226	51101	441-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0227	51125	441-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0228	51236	441-10	merge	alta	unir à sentença 441-10	ure oto kabi , ure mugu pemegado tu je , ure nowu atu kabi , ure tugu to miciguto .	sim
+P0229	51313	442-2	merge	alta	unir à sentença 442-2	Boe ere tudadu oto kabi .	sim
+P0230	52519	451-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 6	sim
+P0233	52541	451-7	merge	alta	unir à sentença 451-7	. Kaiba akagoino ji .	sim
+P0234	52547	451-7	merge	alta	unir à sentença 451-7	.	sim
+P0235	52827	451-25	merge	alta	unir à sentença 451-25	ta !	sim
+P0236	52970	452-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15	sim
+P0237	53335	453-12	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0238	53368	453-15	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	sim
+P0239	53385	453-15	merge	alta	unir à sentença 453-15	je .	sim
+P0240	54007	456-6	merge	alta	unir à sentença 456-6	Ca !	sim
+P0241	54958	462-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0242	56459	468-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9	sim
+P0243	56592	469-7	merge	alta	unir à sentença 469-7	. ko _ go-ri-ga .	sim
+P0244	56599	469-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0245	59354	484-12	merge	alta	unir à sentença 484-12	Ca !	sim
+P0246	59656	486-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 7 8 9 10 11 12 13 14 16	sim
+P0247	60270	489-6	merge	alta	unir à sentença 489-6	pugeje .	sim
+P0248	61520	495-9	merge	alta	unir à sentença 495-9	cedaregodure nowu Jaruruto .	sim
+P0249	61572	495-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0250	62183	497-21	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14	sim
+P0251	62885	500-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0252	63449	502-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	sim
+P0253	65052	509-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14	sim
+P0254	65352	510-10	merge	alta	unir à sentença 510-10	je , nowu bubutuji .	sim
+P0255	66282	515-2	merge	alta	unir à sentença 515-2	cegodui ia baraedu o Tapera kae .	sim
+P0256	66450	516-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0257	67051	519-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0258	68178	526-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	sim
+P0260	68238	526-6	merge	alta	unir à sentença 526-6	pr .	sim
+P0261	69058	530-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11	sim
+P0262	69377	532-9	merge	alta	unir à sentença 532-9	e .	sim
+P0263	69380	532-9	merge	alta	unir à sentença 532-9	!	sim
+P0264	69590	534-4	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13	sim
+P0265	70076	536-16	merge	alta	unir à sentença 536-16	cegeje .	sim
+P0266	70179	536-25	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 6	sim
+P0267	70197	536-25	merge	alta	unir à sentença 536-25	Itaregodure apo .	sim
+P0268	71104	540-6	merge	alta	unir à sentença 540-6	!	sim
+P0269	71156	540-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 9 10 6	sim
+P0270	71172	540-11	merge	alta	unir à sentença 540-11	hu hu .	sim
+P0271	71497	542-5	merge	alta	unir à sentença 542-5	.	sim
+P0272	71499	542-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 7 6	sim
+P0273	72969	551-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 6	sim
+P0274	73869	555-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 8 6	sim
+P0276	73886	555-7	merge	alta	unir à sentença 555-7	ra .	sim
+P0277	74558	558-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0278	75662	563-3	merge	alta	unir à sentença 563-3	. Ure tugado rugadu !	sim
+P0279	75850	564-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12	sim
+P0280	76052	565-5	merge	alta	unir à sentença 565-5	cai turegodui cedabo kodi .	sim
+P0281	78044	573-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	sim
+P0282	78329	574-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14 15	sim
+P0283	78560	575-2	merge	alta	unir à sentença 575-2	!	sim
+P0284	78736	575-14	merge	alta	unir à sentença 575-14	!	sim
+P0285	79639	579-5	merge	alta	unir à sentença 579-5	Kare tu je Icare cere buke bu .	sim
+P0286	80325	585-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0287	80481	585-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 6 7 9 12 13	sim
+P0288	82198	593-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 7 8 9 10 11 12	sim
+P0289	83114	597-14	merge	alta	unir à sentença 597-14	inhe !	sim
+P0290	83184	598-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	sim
+P0291	83201	598-6	merge	alta	unir à sentença 598-6	. Oinore awu akurara cerewu , oecerewuge , kare kigadurewuge , oinore ere pobo aoji !	sim
+P0292	83274	598-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 6	sim
+P0293	83291	598-11	merge	alta	unir à sentença 598-11	Korogedu Paru keje . .	sim
+P0294	83313	598-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	sim
+P0295	83331	598-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 6	sim
+P0296	84177	601-25	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0297	84194	601-26	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	sim
+P0298	84783	604-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 7 8 9 10 11 12 13 14	sim
+P0299	84942	605-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0300	85167	605-16	merge	alta	unir à sentença 605-16	cedaregodure tabo oiado rugadu .	sim
+P0301	86348	611-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5	sim
+P0302	86398	611-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0303	86435	611-7	merge	alta	unir à sentença 611-7	Ukiga kae .	sim
+P0305	87957	619-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13	sim
+P0306	88235	619-23	merge	alta	unir à sentença 619-23	boe oto ure tuginoi ceegai , cegiarigodu koia .	sim
+P0307	88331	620-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 7 10 11	sim
+P0308	88392	620-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 6	sim
+P0309	88409	620-11	merge	alta	unir à sentença 620-11	arodureboe ure tumugui .	sim
+P0310	88700	622-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 6	sim
+P0311	89283	625-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 6 5 8 9 10 11 12 13	sim
+P0312	89809	627-3	merge	alta	unir à sentença 627-3	Barogwa kododu kae .	sim
+P0313	89970	628-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 13 14 15 16 17 18 19 20	sim
+P0315	94112	649-9	merge	alta	unir à sentença 649-9	je .	sim
+P0316	95128	654-12	merge	alta	unir à sentença 654-12	Mare cekare ewido Buwodo ukare tugeragu ei .	sim
+P0317	97584	665-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 4 5 8 9 10 11 12 13	sim
+P0318	98511	670-9	merge	alta	unir à sentença 670-9	Korobadure rugadu .	sim
+P0319	98909	672-13	merge	alta	unir à sentença 672-13	mato iregodaji .	sim
+P0320	99199	673-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12	sim
+P0321	101590	683-17	merge	alta	unir à sentença 683-17	Inure nowu cero boe , cemagore boe inure maku ai , cebaru tabo , butugugoduwo cei , Uwo cemeru pemegado .	sim
+P0322	105517	703-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0323	105911	705-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 7 10 6	sim
+P0324	105928	705-5	merge	alta	unir à sentença 705-5	. Icare iwo aidugirire !	sim
+P0325	109457	722-16	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 6 5	sim
+P0326	111951	734-3	merge	alta	unir à sentença 734-3	Ure tumugudo woe .	sim
+P0327	112286	735-16	merge	alta	unir à sentença 735-16	etae .	sim
+P0329	113159	739-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0330	113966	744-9	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 9 10 11 12 13 14 15 16 17 18	sim
+P0331	115009	748-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 11 12 13 14 15 17 20	sim
+P0332	115034	748-14	merge	alta	unir à sentença 748-14	ps .	sim
+P0333	115480	751-2	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11	sim
+P0334	115565	751-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5	sim
+P0335	118161	764-13	merge	alta	unir à sentença 764-13	Inodoguru ronure jooo iogi ike boi koia .	sim
+P0336	121339	779-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 13 14 15	sim
+P0337	122022	781-17	merge	alta	unir à sentença 781-17	. awuge padu rakado !	sim
+P0338	122727	785-8	merge	alta	unir à sentença 785-8	Dukeje iage etaregodo pugeje .	sim
+P0339	127598	807-11	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10	sim
+P0340	132225	837-4	merge	alta	unir à sentença 837-4	Ka ! . .	sim
+P0341	132710	839-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9 10 6	sim
+P0342	132728	839-14	merge	alta	unir à sentença 839-14	. Tamearudu awadudo tai !	sim
+P0343	134144	847-6	merge	alta	unir à sentença 847-6	je .	sim
+P0344	134147	847-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 9 10 12	sim
+P0345	135946	857-8	merge	alta	unir à sentença 857-8	O !	sim
+P0346	136567	861-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6	sim
+P0347	136639	861-10	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 6 7 8 9 10 11 12 13	sim
+P0348	136750	862-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 8 9	sim
+P0349	138732	874-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 7 8	sim
+P0350	139193	877-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10	sim
+P0351	141387	885-14	merge	alta	unir à sentença 885-14	kurire .	sim
+P0352	141390	885-14	merge	alta	unir à sentença 885-14	.	sim
+P0353	141510	885-23	merge	alta	unir à sentença 885-23	rekodaji .	sim
+P0354	142603	889-28	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 6 5 8 9	sim
+P0355	145492	903-13	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 10 11 12 13 14 15 16 17 18	sim
+P0356	145579	903-18	merge	alta	unir à sentença 903-18	m !	sim
+P0357	147940	915-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6 7 8 11 12	sim
+P0359	148688	918-5	merge	alta	unir à sentença 918-5	tb .	sim
+P0360	150039	924-2	merge	alta	unir à sentença 924-2	Boe eegarere ! .	sim
+P0361	150337	925-8	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 5 6	sim
+P0363	150741	926-15	merge	alta	unir à sentença 926-15	piii .	sim
+P0364	151302	929-6	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11	sim
+P0366	151516	929-17	merge	alta	unir à sentença 929-17	Ure nowu agulha ta piji , ure tumegido paci toro piji , uture piji rugadu .	sim
+P0367	152281	934-7	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 9 6	sim
+P0368	152298	934-7	merge	alta	unir à sentença 934-7	kur i .	sim
+P0369	153939	941-14	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 9 10 11 12 6	sim
+P0370	153957	941-14	merge	alta	unir à sentença 941-14	!	sim
+P0373	154407	944-2	merge	alta	unir à sentença 944-2	m .	sim
+P0374	154718	945-6	merge	alta	unir à sentença 945-6	Nonore icare kuri je ure Missa to .	sim
+P0375	155992	953-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0376	157221	958-3	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 5 6 9 10 11 12 13 14 15 16 7	sim
+P0377	158394	964-5	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0378	158576	965-1	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5 7 10 11	sim
+P0379	159005	967-5	merge	alta	unir à sentença 967-5	toro , nowu Jarudori paru towu awara paru kae . .	sim
+P0380	159530	970-8	merge	alta	unir à sentença 970-8	Pemo bogai .	sim
+P0381	160122	973-8	merge	alta	unir à sentença 973-8	Akore ema rugadu .	sim
+P0382	162988	dic_0352	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0383	163359	dic_0417	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 4 5	sim
+P0384	163776	dic_0494	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 5	sim
+P0385	164274	dic_0590	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 3 4 5 6	sim
+P0386	165491	dic_0861	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 4 6	sim
+P0387	165844	dic_0993	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 5 4 6	sim
+P0388	166358	dic_1082	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0389	166788	dic_1188	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0390	167555	dic_1306	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0391	167576	dic_1311	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0392	167821	dic_0009	renumber	alta	renumerar IDs 1..n e remapear HEAD	1 2 3 44	sim
+P0393	168709	dic_0150	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0394	168717	dic_0151	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0396	169291	dic_0286	renumber	alta	renumerar IDs 1..n e remapear HEAD	81 2 3	sim
+P0397	170045	dic_0729	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0398	171166	dic_1329	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0399	171191	dic_1333	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0400	171234	dic_1338	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0401	171278	dic_1348	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0402	171305	dic_1351	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4	sim
+P0403	171313	dic_1352	renumber	alta	renumerar IDs 1..n e remapear HEAD	2 3 4 5 6	sim
+P0065	30244	241-6	merge	alta	unir à sentença 241-6	hu .	sim
+P0094	43197	387-5	merge	alta	unir à sentença 387-5	? a .	sim
+P0098	68071	526-6	merge	alta	unir à sentença 526-6	pr .	sim
+P0099	73704	555-7	merge	alta	unir à sentença 555-7	ra .	sim
+P0103	148425	918-5	merge	alta	unir à sentença 918-5	tb .	sim
+P0104	150475	926-15	merge	alta	unir à sentença 926-15	piii .	sim
+P0107	154132	944-2	merge	alta	unir à sentença 944-2	m .	sim
