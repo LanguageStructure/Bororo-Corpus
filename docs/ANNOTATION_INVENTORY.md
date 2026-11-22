@@ -10,9 +10,9 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 |---|---|---:|
 | `PUNCT` | pontuação | 18357 |
 | `VERB` | verbo | 15503 |
-| `NOUN` | substantivo | 13701 |
-| `ADV` | advérbio | 10318 |
-| `ADP` | posposição | 7079 |
+| `NOUN` | substantivo | 13730 |
+| `ADV` | advérbio | 10286 |
+| `ADP` | posposição | 7112 |
 | `PRON` | pronome | 5383 |
 | `PROPN` | nome próprio | 2861 |
 | `DET` | determinante/artigo/demonstrativo | 2560 |
@@ -32,10 +32,10 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | XPOS | UPOS observados |
 |---|---|
 | `punct` | `PUNCT` (18355) |
-| `n` | `NOUN` (13640), `VERB` (10), `ADV` (6), `PROPN` (5), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
+| `n` | `NOUN` (13669), `VERB` (10), `ADV` (6), `PROPN` (5), `PRON` (2), `NUM` (1), `X` (1), `ADP` (1) |
 | `v` | `VERB` (12026), `NOUN` (43), `ADV` (8) |
-| `adv` | `ADV` (10271), `NOUN` (1), `PRON` (1) |
-| `posp` | `ADP` (7070), `ADV` (2), `VERB` (1), `NOUN` (1) |
+| `adv` | `ADV` (10239), `NOUN` (1), `PRON` (1) |
+| `posp` | `ADP` (7103), `ADV` (2), `VERB` (1), `NOUN` (1) |
 | `bi` | `PRON` (4614), `PROPN` (1) |
 | `propn` | `PROPN` (2852) |
 | `vt` | `VERB` (2025) |
@@ -70,18 +70,18 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 |---|---:|
 | `punct` | 18336 |
 | `root` | 11399 |
-| `advmod` | 9520 |
-| `nsubj` | 8619 |
-| `obl` | 6905 |
+| `advmod` | 9489 |
+| `nsubj` | 8618 |
+| `obl` | 6935 |
 | `parataxis` | 3764 |
-| `case` | 3648 |
+| `case` | 3681 |
 | `nmod` | 3479 |
 | `_` | 3135 |
 | `ccomp` | 2624 |
 | `det` | 2141 |
 | `obj` | 2016 |
 | `flat` | 945 |
-| `dep` | 822 |
+| `dep` | 821 |
 | `conj` | 764 |
 | `aux` | 451 |
 | `discourse` | 311 |
@@ -135,12 +135,12 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Number` | `Col` | CorBo | coletivo (a confirmar; o UD usa `Coll`) | 3 |
 | `Number` | `Plur` | UD | plural | 11147 |
 | `Number` | `Sgtv` | CorBo | singulativo (formas em -du/-edu: baraedu, imedu, onaregedu) | 256 |
-| `Number` | `Sing` | UD | singular | 21237 |
+| `Number` | `Sing` | UD | singular | 21270 |
 | `Number[psor]` | `Plur` | UD | possuidor plural | 17 |
 | `Number[psor]` | `Sing` | UD | possuidor singular | 36 |
 | `Person` | `1` | UD | primeira pessoa | 8944 |
 | `Person` | `2` | UD | segunda pessoa | 1929 |
-| `Person` | `3` | UD | terceira pessoa | 18525 |
+| `Person` | `3` | UD | terceira pessoa | 18558 |
 | `Person[psor]` | `1` | UD | possuidor de 1ª pessoa | 39 |
 | `Person[psor]` | `2` | UD | possuidor de 2ª pessoa | 1 |
 | `Person[psor]` | `3` | UD | possuidor de 3ª pessoa | 29 |

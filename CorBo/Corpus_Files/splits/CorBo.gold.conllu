@@ -3615,7 +3615,8 @@
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 55-1
-# text = Barogwato cedure pugeje .
+# text = Barogwa to cedure pugeje .
+# text_source = Barogwato cedure pugeje .
 # text_por = Na manhã seguinte partimos de novo.
 # text_eng =
 1	Barogwa	barogwa	ADV	adv	_	3	obl	_	_
@@ -5500,6 +5501,24 @@
 4	imedure	imedu	NOUN	n	Mood=Ind|Number=Sing|Person=1	1	parataxis	_	_
 5	imi	imi	PRON	pron	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 109-4
+# text = Akore barogwa tore ature mato , awo awu kagarigadoge eia iborarogu pemegado .
+# text_por = Ele disse Amanhã venha aqui, você vai consertar esta cerca das galinhas.
+# text_eng =
+1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	barogwa	barogwa	NOUN	n	_	4	obl	_	_
+3	tore	to	ADP	posp	Mood=Ind|Number=Sing|Person=3	2	case	_	_
+4	ature	tu	VERB	vi	Mood=Ind|Number=Sing|Person=2	1	ccomp	_	_
+5	mato	mato	ADV	adv	_	4	advmod	_	_
+6	,	,	PUNCT	punct	_	4	punct	_	_
+7	awo	a	PRON	bi	Mood=Sub|Number=Sing|Person=2	12	nsubj	_	_
+8	awu	awu	DET	dem	Deixis=Prox	11	det	_	_
+9	kagarigadoge	kagariga	NOUN	n	Number=Plur	10	nmod	_	_
+10	eia	eia	NOUN	n	_	11	nmod	_	_
+11	iborarogu	ibora	NOUN	n	Degree=Dim	12	obj	_	_
+12	pemegado	pemega	VERB	vt	Number=Sing|Person=3|Voice=Cau	4	xcomp	_	_
+13	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 110-3
 # text = Imearudae moture, dukodire itaregodu moture woe Meruri kae .
@@ -8577,14 +8596,16 @@
 2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 514-12
-# text = Barogwato icare padumode pugeje .
+# text = Barogwa to icare padumode pugeje .
+# text_source = Barogwato icare padumode pugeje .
 # text_por = amanhã partiremos de novo
 # text_eng =
-1	Barogwato	barogwato	ADV	adv	_	3	advmod	_	_
-2	icare	icare	ADV	adv	_	3	advmod	_	_
-3	padumode	tu	VERB	vi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	0	root	_	_
-4	pugeje	pugeje	ADV	adv	_	3	advmod	_	_
-5	.	.	PUNCT	punct	_	3	punct	_	_
+1	Barogwa	barogwa	NOUN	n	_	4	obl	_	_
+2	to	to	ADP	posp	Number=Sing|Person=3	1	case	_	_
+3	icare	icare	ADV	adv	_	4	advmod	_	_
+4	padumode	tu	VERB	vi	Clusivity=In|Mood=Ind|Number=Plur|Person=1|Status=Irr	0	root	_	_
+5	pugeje	pugeje	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 514-13
 # text = Egore uu !
@@ -13492,6 +13513,15 @@
 2	maragodudo	maragodu	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = dic_0529
+# text = erade tumagu .
+# text_source = refl.) erade tumagu .
+# text_por = eis que eles se entregaram.
+# text_eng =
+1	erade	e	PRON	bi	Emph=Yes|Number=Plur|Person=3	2	nsubj	_	_
+2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = dic_0530
 # text = erade tugeragu boe ji .
 # text_por = eis que eles pegaram algo.
@@ -14135,6 +14165,15 @@
 # text_eng =
 1	ikawo	i	PRON	bi	Mood=Sub|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
 2	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = dic_0684
+# text = ikawo ikeragu .
+# text_source = ref) ikawo ikeragu .
+# text_por = para eu não pegar.
+# text_eng =
+1	ikawo	i	PRON	bi	Mood=Sub|Number=Sing|Person=1|Polarity=Neg	2	nsubj	_	_
+2	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_0685
@@ -17889,6 +17928,16 @@
 3	imagu	maku	VERB	vt	Number=Sing|Person=1	1	ccomp	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
+# sent_id = dic_0661
+# text = akore iie ikeragu .
+# text_source = ref) akore iie ikeragu .
+# text_por = falou que eu peguei.
+# text_eng =
+1	akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
+2	iie	i	PRON	bi	Number=Sing|Person=1|Speech=Ind	3	nsubj	_	_
+3	ikeragu	eragu	VERB	v	Number=Sing|Person=1	1	ccomp	_	_
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
 # sent_id = dic_0691
 # text = ikimadunure baiga tabo .
 # text_por = eu agradeço pelo arco.
@@ -19106,6 +19155,17 @@
 2	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = dic_1338
+# text = ukawo tugeragu boe ji .
+# text_source = ref) ukawo tugeragu boe ji .
+# text_por = para ele não pegar algo.
+# text_eng =
+1	ukawo	u	PRON	bi	Mood=Sub|Number=Sing|Person=3|Polarity=Neg	2	nsubj	_	_
+2	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
+4	ji	ji	ADP	posp	Number=Sing|Person=3	2	case	_	Morph=0-ji
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
 # sent_id = dic_1339
 # text = umode boe maku .
 # text_por = ele dará, ele vai dar, algo.
@@ -19131,6 +19191,17 @@
 1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_
 2	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = dic_1348
+# text = umodukare tugeragu boe ji .
+# text_source = ref) umodukare tugeragu boe ji .
+# text_por = ele não pegará algo.
+# text_eng =
+1	umodukare	u	PRON	bi	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Status=Irr	2	nsubj	_	_
+2	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	_
+3	boe	boe	NOUN	n	Number=Sing	2	obl	_	_
+4	ji	ji	ADP	posp	Number=Sing|Person=3	2	case	_	Morph=0-ji
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = dic_1349
 # text = unure boe maku .

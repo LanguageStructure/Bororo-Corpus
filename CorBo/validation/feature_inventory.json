@@ -194,7 +194,7 @@
           "origin": "CorBo"
         },
         "Sing": {
-          "count": 21237,
+          "count": 21270,
           "description": "singular",
           "origin": "UD"
         }
@@ -227,7 +227,7 @@
           "origin": "UD"
         },
         "3": {
-          "count": 18525,
+          "count": 18558,
           "description": "terceira pessoa",
           "origin": "UD"
         }

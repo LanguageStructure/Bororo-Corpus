@@ -607,3 +607,15 @@ T0249	982-11	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
 T0259	dic_1341	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
 T0262	dic_0376	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
 T0264	dic_1220	selfloop_punct	alta	token 3 .: HEAD 3 (ele mesmo) → 2 (raiz)
+T0028	ritual-onca-1-02	form_from_text	alta	token 16 kurirewu: FORM → Kurirewu
+T0034	109-4	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0043	239-4	form_from_text	alta	token 20 O: FORM → o
+T0053	269-2	form_from_text	alta	token 6 egore: FORM → Egore
+T0054	269-2	form_from_text	alta	token 7 Boekare: FORM → boekare
+T0069	303-2	form_from_text	alta	token 6 Barogwa: FORM → barogwa
+T0073	345-3	form_from_text	alta	token 15 Uwo: FORM → uwo
+T0097	512-5	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0110	617-9	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0118	656-3	form_from_text	alta	token 2 Barogwa: FORM → barogwa
+T0127	723-1	form_from_text	alta	token 6 uu: FORM → Uu
+T0148	884-42	form_from_text	alta	token 8 Barogwa: FORM → barogwa

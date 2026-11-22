@@ -12,6 +12,16 @@
    b) texto fundido (roino) onde os tokens já estão separados: o # text recebe
       o espaço, e o texto original fica em "# text_source".
 
+Decisões posteriores (22/11/2026):
+4. "Barogwato" é sempre "barogwa to" ("Barogwatore" = "barogwa tore"): o token
+   é dividido em barogwa (NOUN, obl) + to/tore (ADP, case), e o # text fundido
+   recebe o espaço (original em # text_source).
+5. "ref)" e "refl.)" no início de entradas do dicionário são erro: saem do
+   # text (original em # text_source) e o token "ref)", se houver, é removido.
+6. "Baadojeba" é a forma correta: onde o token é Baadojeba e o texto tem
+   "Badojeba", corrige-se o # text.
+7. "tagaregodure" é a forma correta: tokens "tagaaregodure" são corrigidos.
+
   python3 scripts/apply_text_token_decisions.py           # simulação
   python3 scripts/apply_text_token_decisions.py --apply   # grava e registra
 """
@@ -114,6 +124,40 @@ def main():
         if len(rows) != len(tok):
             tok = renumber(rows, head_new)
             changed = True
+        # 4: Barogwato / Barogwatore → barogwa + to / tore
+        rows, head_new = [], {}
+        for c in tok:
+            m = re.fullmatch(r"([Bb]arogwa)(to(?:re)?)", c[1])
+            if m:
+                cx = list(c)
+                cx[1], cx[2], cx[3], cx[4], cx[5], cx[7], cx[9] = m.group(1), "barogwa", "NOUN", "n", "_", \
+                    (c[7] if c[7] in ("obl", "nsubj", "nmod", "root", "_") else "obl"), c[9]
+                feats = "Number=Sing|Person=3" if m.group(2) == "to" else "Mood=Ind|Number=Sing|Person=3"
+                cy = [c[0], m.group(2), "to", "ADP", "posp", feats, "_", "case", "_", "_"]
+                rows.append((cx, c[0]))
+                head_new[len(rows)] = len(rows) - 1
+                rows.append((cy, None))
+                log.append([sid, c[0], "dividir_barogwato", c[1], f"{m.group(1)} + {m.group(2)}"])
+                stats["dividir_barogwato"] += 1
+            else:
+                rows.append((c, c[0]))
+        if len(rows) != len(tok):
+            tok = renumber(rows, head_new)
+            changed = True
+        # 5: token "ref)" sai
+        if any(c[1] in ("ref)", "refl.)") for c in tok):
+            rows = [(c, c[0]) for c in tok if c[1] not in ("ref)", "refl.)")]
+            log.append([sid, "", "remover_token_ref", "ref)", ""])
+            stats["remover_token_ref"] += 1
+            tok = renumber(rows, {})
+            changed = True
+        # 7: tagaaregodure → tagaregodure
+        for c in tok:
+            if c[1].lower() == "tagaaregodure":
+                log.append([sid, c[0], "tagaregodure", c[1], c[1][:4] + c[1][5:]])
+                c[1] = c[1][:4] + c[1][5:]
+                stats["tagaregodure"] += 1
+                changed = True
         # 3b: texto fundido onde os tokens estão separados
         forms = [c[1] for c in tok]
         new_text = text
@@ -126,6 +170,22 @@ def main():
                     new_text = re.sub(rf"(?<!\w){re.escape(fused)}(?!\w)", f"{forms[k]} oino", new_text, count=1)
                     log.append([sid, "", "texto_separar_oino", fused, f"{forms[k]} oino"])
                     stats["texto_separar_oino"] += 1
+        for k in range(len(forms) - 1):  # 4: Barogwato no texto
+            if forms[k].lower() == "barogwa" and forms[k + 1] in ("to", "tore"):
+                fused = forms[k] + forms[k + 1]
+                if re.search(rf"(?<!\w){fused}(?!\w)", new_text):
+                    new_text = re.sub(rf"(?<!\w){fused}(?!\w)", f"{forms[k]} {forms[k + 1]}", new_text, count=1)
+                    log.append([sid, "", "texto_separar_barogwato", fused, f"{forms[k]} {forms[k + 1]}"])
+                    stats["texto_separar_barogwato"] += 1
+        m = re.match(r"^refl?\.?\)\s*", new_text)  # 5
+        if m:
+            new_text = new_text[m.end():]
+            log.append([sid, "", "texto_remover_ref", m.group(0).strip(), ""])
+            stats["texto_remover_ref"] += 1
+        if "Baadojeba" in " ".join(forms) and re.search(r"(?<!\w)Badojeba", new_text):  # 6
+            new_text = re.sub(r"(?<!\w)Badojeba", "Baadojeba", new_text)
+            log.append([sid, "", "texto_baadojeba", "Badojeba", "Baadojeba"])
+            stats["texto_baadojeba"] += 1
         if new_text != text:
             com[ti] = f"# text = {new_text}"
             if not any(l.startswith("# text_source") for l in com):
@@ -137,9 +197,11 @@ def main():
     if a.apply:
         CONLLU.write_text("\n\n".join(raw) + "\n\n", encoding="utf-8")
         p = ROOT / f"CorBo/validation/text_token_decisions_{date.today():%Y%m%d}.tsv"
-        with p.open("w", encoding="utf-8", newline="") as fh:
+        new_file = not p.exists()
+        with p.open("a", encoding="utf-8", newline="") as fh:  # rodadas do mesmo dia se acumulam
             w = csv.writer(fh, delimiter="\t")
-            w.writerow(["sent_id", "token", "kind", "before", "after"])
+            if new_file:
+                w.writerow(["sent_id", "token", "kind", "before", "after"])
             w.writerows(log)
         print("registro:", p.relative_to(ROOT))
 

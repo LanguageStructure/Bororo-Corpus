@@ -25,6 +25,9 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   de *metuia* (21 tokens, `Number=Plur`); segue-se o texto em *paganure* (7); as formas com *oino* separadas são
   as corretas: 43 tokens fundidos divididos (*iroino* → *iro* + *oino*) e 7 textos fundidos separados
   (original em `# text_source`). Erros de 792 para 724; gold 1.894 sentenças.
+- *Barogwato*/*Barogwatore* divididos em *barogwa* + *to*/*tore* (33 tokens; 26 textos separados); *Baadojeba*
+  corrigido no texto (3); *tagaaregodure* → *tagaregodure* (3); rótulos *ref)*/*refl.)* removidos de 8 entradas
+  do dicionário; caixa de 12 FORMs alinhada ao texto. Erros de 724 para 706.
 - Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
 
 ### Tokenizador

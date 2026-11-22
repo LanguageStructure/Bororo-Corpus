@@ -147,3 +147,12 @@ cp CorBo/validation/summary.json CorBo/validation/baseline.json   # depois de co
 As formas separadas são as corretas: *iro oino*, *cero oino*, *ako oino*, e não *iroino*, *ceroino*, *akoino*.
 *oino* é um token próprio (ADV, `advmod`), mesmo quando a fonte escreve as duas palavras juntas com
 elisão do *o*. Nesse caso o `# text` recebe o espaço, e a grafia da fonte fica em `# text_source`.
+
+## Formas decididas em 22/11/2026
+
+- *barogwa to* e *barogwa tore* são sempre duas palavras: *barogwa* (NOUN) + *to*/*tore* (ADP, `case`).
+  A grafia fundida da fonte (*Barogwato*) fica em `# text_source`.
+- *Baadojeba* (nome próprio) é a forma correta; *Badojeba* no texto foi corrigido.
+- *tagaregodure* é a forma correta (não *tagaaregodure*).
+- *imedage* é o plural de *metuia* (`Number=Plur`).
+- Os rótulos de dicionário *ref)* e *refl.)* no início do `# text` eram erro de extração e foram removidos.

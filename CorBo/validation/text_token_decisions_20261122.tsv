@@ -77,3 +77,79 @@ ritual-onca-1-02		texto_separar_oino	roino	ro oino
 973-16	2	dividir_oino	aroino	aro + oino
 975-9	3	dividir_oino	ceroino	cero + oino
 980-2	7	dividir_oino	iroino	iro + oino
+55-1		texto_separar_barogwato	Barogwato	Barogwa to
+109-4	2	dividir_barogwato	Barogwatore	Barogwa + tore
+144-4	1	dividir_barogwato	Barogwatore	Barogwa + tore
+144-4		texto_separar_barogwato	Barogwatore	Barogwa tore
+146-17	2	dividir_barogwato	Barogwatore	Barogwa + tore
+146-17		texto_separar_barogwato	Barogwatore	Barogwa tore
+239-4		texto_baadojeba	Badojeba	Baadojeba
+269-2		texto_baadojeba	Badojeba	Baadojeba
+292-2	1	dividir_barogwato	barogwatore	barogwa + tore
+296-2	2	tagaregodure	tagaaregodure	tagaregodure
+303-2	6	dividir_barogwato	Barogwato	Barogwa + to
+317-1	1	dividir_barogwato	Barogwatore	Barogwa + tore
+317-1		texto_separar_barogwato	Barogwatore	Barogwa tore
+338-2	1	dividir_barogwato	Barogwato	Barogwa + to
+338-2		texto_separar_barogwato	Barogwato	Barogwa to
+345-3		texto_baadojeba	Badojeba	Baadojeba
+400-4	3	dividir_barogwato	Barogwatore	Barogwa + tore
+400-4		texto_separar_barogwato	Barogwatore	Barogwa tore
+489-7	1	dividir_barogwato	Barogwato	Barogwa + to
+489-7		texto_separar_barogwato	Barogwato	Barogwa to
+503-9	3	dividir_barogwato	Barogwato	Barogwa + to
+503-9		texto_separar_barogwato	Barogwato	Barogwa to
+512-5	2	dividir_barogwato	Barogwato	Barogwa + to
+514-12	1	dividir_barogwato	Barogwato	Barogwa + to
+514-12		texto_separar_barogwato	Barogwato	Barogwa to
+515-1	1	dividir_barogwato	Barogwatore	Barogwa + tore
+515-1		texto_separar_barogwato	Barogwatore	Barogwa tore
+553-4	1	dividir_barogwato	Barogwatore	Barogwa + tore
+553-4		texto_separar_barogwato	Barogwatore	Barogwa tore
+569-12	2	tagaregodure	tagaaregodure	tagaregodure
+603-11	1	dividir_barogwato	Barogwato	Barogwa + to
+603-11		texto_separar_barogwato	Barogwato	Barogwa to
+605-17	2	dividir_barogwato	Barogwato	Barogwa + to
+605-17		texto_separar_barogwato	Barogwato	Barogwa to
+606-7	2	dividir_barogwato	Barogwato	Barogwa + to
+606-7		texto_separar_barogwato	Barogwato	Barogwa to
+606-10	4	dividir_barogwato	Barogwato	Barogwa + to
+606-10		texto_separar_barogwato	Barogwato	Barogwa to
+614-11	1	dividir_barogwato	Barogwatore	Barogwa + tore
+614-11		texto_separar_barogwato	Barogwatore	Barogwa tore
+617-9	2	dividir_barogwato	Barogwato	Barogwa + to
+618-1	1	dividir_barogwato	Barogwatore	Barogwa + tore
+618-1		texto_separar_barogwato	Barogwatore	Barogwa tore
+644-5	2	dividir_barogwato	Barogwato	Barogwa + to
+644-5		texto_separar_barogwato	Barogwato	Barogwa to
+645-6	3	dividir_barogwato	barogwatore	barogwa + tore
+656-3	2	dividir_barogwato	Barogwato	Barogwa + to
+679-10	1	dividir_barogwato	Barogwato	Barogwa + to
+679-10		texto_separar_barogwato	Barogwato	Barogwa to
+761-15	2	dividir_barogwato	Barogwato	Barogwa + to
+761-15		texto_separar_barogwato	Barogwato	Barogwa to
+828-8	3	dividir_barogwato	Barogwato	Barogwa + to
+828-8		texto_separar_barogwato	Barogwato	Barogwa to
+868-7	1	dividir_barogwato	Barogwato	Barogwa + to
+868-7		texto_separar_barogwato	Barogwato	Barogwa to
+884-42	8	dividir_barogwato	Barogwato	Barogwa + to
+953-12	1	dividir_barogwato	Barogwatore	Barogwa + tore
+953-12		texto_separar_barogwato	Barogwatore	Barogwa tore
+954-1	1	dividir_barogwato	Barogwatore	Barogwa + tore
+954-1		texto_separar_barogwato	Barogwatore	Barogwa tore
+959-2	1	dividir_barogwato	Barogwato	Barogwa + to
+959-2		texto_separar_barogwato	Barogwato	Barogwa to
+960-4	1	dividir_barogwato	Barogwatore	Barogwa + tore
+960-4		texto_separar_barogwato	Barogwatore	Barogwa tore
+969-2	10	tagaregodure	tagaaregodure	tagaregodure
+dic_0529		texto_remover_ref	refl.)	
+dic_0684		texto_remover_ref	ref)	
+dic_1196		remover_token_ref	ref)	
+dic_1196		texto_remover_ref	ref)	
+dic_1200		remover_token_ref	ref)	
+dic_1200		texto_remover_ref	ref)	
+dic_1272		remover_token_ref	ref)	
+dic_1272		texto_remover_ref	refl.)	
+dic_0661		texto_remover_ref	ref)	
+dic_1338		texto_remover_ref	ref)	
+dic_1348		texto_remover_ref	ref)	
