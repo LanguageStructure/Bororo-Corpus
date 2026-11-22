@@ -13,6 +13,7 @@ A arquitetura atual distingue explicitamente **fonte documental**, **revisão ed
 | Documento | Conteúdo |
 |---|---|
 | [Guia de anotação](docs/ANNOTATION_GUIDE.md) | convenções do CoNLL-U, decisões de anotação, marcas de anotação automática |
+| [Ortografia e normalização](docs/ORTOGRAFIA.md) | grafia das fontes, diacríticos, caixa, pontuação, camada normalizada (rascunho) |
 | [Inventário de rótulos](docs/ANNOTATION_INVENTORY.md) | UPOS, XPOS, DEPREL e FEATS em uso, com contagens (gerado automaticamente) |
 | [Anotação morfológica](docs/MORPHOLOGY_ANNOTATION.md) | segmentação explícita no MISC (`Morph=`) |
 | [Tokenizador](docs/TOKENIZER.md) | papel de cada arquivo do tokenizador, estados de revisão e avaliação |

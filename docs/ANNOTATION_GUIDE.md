@@ -8,6 +8,7 @@ Arquivo canônico: `CorBo/Corpus_Files/CorBo.conllu`.
 Responsável pela anotação manual e pelas correções do CoNLL-U: **Fabrício Ferraz Gerardi** (FFG). Toda anotação sem marca de automática (§6) é dele.
 Inventário completo (gerado automaticamente, com contagens): [`ANNOTATION_INVENTORY.md`](ANNOTATION_INVENTORY.md).
 Convenção de segmentação morfológica: [`MORPHOLOGY_ANNOTATION.md`](MORPHOLOGY_ANNOTATION.md).
+Convenções ortográficas e de normalização: [`ORTOGRAFIA.md`](ORTOGRAFIA.md).
 Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.md`](../CorBo_vNext/schema/EDITORIAL_GUIDELINES.md).
 
 ---

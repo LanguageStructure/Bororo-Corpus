@@ -12,6 +12,7 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   `Aspect=IncProg`, `Number=Sgtv` (singulativo), `dukeje` (SCONJ/`mark` × ADV/`advmod`), citações com `ako`
   (`ccomp` × `parataxis`); XPOS `conj` unificado em `cconj`.
 - Camadas derivadas gold (1.778 sentenças) e silver (7.264), lista de revisão e painel de cobertura.
+- Rascunho das convenções ortográficas e de normalização (`docs/ORTOGRAFIA.md`), com 7 pontos a decidir.
 - Busca por morfema passa a usar `Morph=` (de 29 para 28.604 ocorrências).
 
 ### Tokenizador
