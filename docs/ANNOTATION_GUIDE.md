@@ -80,9 +80,10 @@ Princípios editoriais das fontes: [`../CorBo_vNext/schema/EDITORIAL_GUIDELINES.
 
 ## 4. DEPREL
 
-Relações universais, sem subtipos por enquanto. Usos específicos do projeto:
+Relações universais; os únicos subtipos são `iobj:agent` e `obl:agent`, usados nas causativas (ver abaixo). Usos específicos do projeto:
 
 - **posposições**: a posposição é `case` dependente do seu complemento nominal (`kugure ← ji`);
+- **causativas** (decidido em 23/11/2026): os índices pessoais são clíticos e `=do` é o marcador causativo; a construção é monoclausal e tem um só `nsubj` por verbo. O causador mais alto é `nsubj`: a forma sem `=do` (ex.: *ure*, u=re) ou, se todos os sujeitos têm `=do`, o primeiro. O causado `PRON=do` mais próximo do verbo é `iobj:agent` (ou `obl:agent`, se o verbo já tiver `iobj`); causados mais altos na cadeia são `obl:agent`. O token não é dividido: o pronome mantém `Voice=Cau` e recebe `Morph=<pessoa>=do`. Ex.: *ure edo imaragodudo* 'ele fez eles me fazerem trabalhar' → *ure* `nsubj`, *edo* `iobj:agent` (`Morph=e=do`), *imaragodudo* `root`. Aplicado por `scripts/apply_causative_subjects.py`; `PRON=do` que é o único sujeito do verbo ficou para revisão em `CorBo/validation/causative_subjects_review.tsv`;
 - **discurso citado** (decidido em 21/11/2026): os complementos oracionais de `ako` ('dizer') são `ccomp`; quando a oração citada tem seu próprio verbo principal, como frase independente, a relação é `parataxis`. A regra exige leitura caso a caso e não foi aplicada automaticamente (hoje: 2.128 `ccomp` e 448 `parataxis` dependentes de `ako`);
 - **`dep`** (823 tokens) deve ser tratado como pendência, não como análise final.
 

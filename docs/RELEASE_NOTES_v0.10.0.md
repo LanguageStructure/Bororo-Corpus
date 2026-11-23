@@ -1,6 +1,6 @@
 # CorBo v0.10.0 — notas de lançamento
 
-**Data:** 22 de novembro de 2026 · **Licença:** CC BY 4.0 · **DOI de todas as versões:** [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451)
+**Data:** 22 de novembro de 2026 · **DOI desta versão:** [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715) · **Licença:** CC BY 4.0 · **DOI de todas as versões:** [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451)
 
 ## Em números
 

@@ -10071,7 +10071,7 @@
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	Oinore	oino	ADV	adv	Mood=Ind	6	advmod	_	Morph=oino=re|Auto=head
 3	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	6	nsubj	_	Morph=i=re|Auto=head
-4	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	6	nsubj	_	Auto=head|AutoLowConf=Yes
+4	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	6	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 5	pagera	pagera	NOUN	n	Number=Plur|Person=1	6	obj	_	AutoLowConf=Yes
 6	pudogidure	pudogidu	VERB	v	Mood=Ind|Person=3	1	ccomp	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	6	punct	_	Auto=head
@@ -10694,7 +10694,7 @@
 # auto_tokens = 11/12
 1	Inagore	ako	VERB	v	Mood=Ind|Number=Sing|Person=1	0	root	_	Morph=i=ako=re
 2	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	5	nsubj	_	Morph=i=re|Auto=head
-3	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+3	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 4	pagera	pagera	NOUN	n	Clusivity=In|Number=Plur|Person=1	5	obj	_	AutoLowConf=Yes
 5	awubodure	awubodu	VERB	v	Mood=Ind|Number=Sing|Person=3	1	ccomp	_	AutoLowConf=Yes
 6	pagera	pagera	NOUN	n	Number=Plur|Person=1	7	nmod	_	AutoLowConf=Yes
@@ -17973,7 +17973,7 @@
 13	ma	ma	X	x	_	10	dep	_	Auto=lemma+upos+xpos+deprel+head
 14	,	,	PUNCT	punct	_	10	punct	_	Auto=head
 15	tawo	ta	PRON	bi	Mood=Sub|Number=Plur|Person=2	17	nsubj	_	Auto=deprel+head
-16	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	17	nsubj	_	Auto=head|AutoLowConf=Yes
+16	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	17	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 17	turugadu	urugadu	VERB	v	Reflex=Yes	10	parataxis	_	Auto=deprel+head
 18	,	,	PUNCT	punct	_	17	punct	_	Auto=head
 19	nowu	nowu	DET	dem	Deixis=Med	20	det	_	Auto=deprel+head
@@ -23807,7 +23807,7 @@
 1	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
 2	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	5	nsubj	_	Morph=i=re|Auto=head
 3	pawoguge	pa	NOUN	n	Clusivity=In|Number=Plur	5	obj	_	AutoLowConf=Yes
-4	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+4	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 5	turugadu	urugadu	VERB	v	Reflex=Yes	1	ccomp	_	Auto=deprel+head
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -31536,7 +31536,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	Morph=ce=re|Auto=head
-2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 3	cerugadu	rugadu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -38271,7 +38271,7 @@
 # auto_tokens = 7/7
 1	Icare	icare	ADV	adv	_	6	advmod	_	Auto=head
 2	tamode	ta	PRON	bi	Number=Plur|Person=2	6	nsubj	_	Auto=deprel+head
-3	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	6	nsubj	_	Auto=deprel+head
+3	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	6	iobj:agent	_	Morph=i=do|Auto=deprel+head
 4	tapira	tapira	NOUN	n	Number=Sing	5	nmod	_	Auto=deprel+head
 5	kodu	kodu	NOUN	n	_	6	obj	_	Auto=deprel+head
 6	ko	ko	VERB	v	Number=Sing|Person=3	0	root	_	Auto=feats+deprel+head
@@ -39985,7 +39985,7 @@
 # auto_fields = feats,head,deprel
 # auto_tokens = 5/5
 1	Ukare	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg	4	nsubj	_	Auto=deprel+head
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	nsubj	_	Auto=deprel+head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	iobj:agent	_	Morph=i=do|Auto=deprel+head
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	Auto=deprel+head
 4	ko	ko	VERB	v	Number=Sing|Person=3	0	root	_	Auto=feats+deprel+head
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -44681,7 +44681,7 @@
 # auto_tokens = 5/5
 1	Icare	icare	ADV	adv	_	4	advmod	_	Auto=head
 2	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	4	nsubj	_	Morph=ce=re|Auto=head
-3	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	4	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+3	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	4	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 4	pui	pui	PRON	pron	PronType=Rcp	0	root	_	Auto=deprel+head
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
 
@@ -47422,7 +47422,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 6/6
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re|Auto=head
-2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	4	nsubj	_	Auto=head|AutoLowConf=Yes
+2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	4	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 3	imago	mako	NOUN	n	Number=Sing|Person=1	4	obj	_	_
 4	reore	reo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 5	rugadu	rugadu	ADV	adv	_	4	advmod	_	Auto=head
@@ -57085,7 +57085,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 20/20
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	3	nsubj	_	Auto=head|AutoLowConf=Yes
+2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	3	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 3	pobe	pobe	NUM	num	_	0	root	_	Auto=deprel+head
 4	,	,	PUNCT	punct	_	3	punct	_	Auto=head
 5	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	7	nsubj	_	Morph=u=re|Auto=head
@@ -58070,7 +58070,7 @@
 15	Akore	ako	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	Morph=0-ako=re
 16	cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	19	nsubj	_	Morph=ce=re|Auto=head
 17	turubare	turuba	NOUN	n	Reflex=Yes	19	obj	_	AutoLowConf=Yes
-18	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	19	nsubj	_	Auto=head|AutoLowConf=Yes
+18	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	19	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 19	pobe	pobe	NUM	num	_	15	ccomp	_	Auto=deprel+head
 20	.	.	PUNCT	punct	_	15	punct	_	Auto=head
 
@@ -61391,7 +61391,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	4	nsubj	_	Morph=ce=re|Auto=head
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	pagera	pagera	NOUN	n	Number=Plur|Person=1	4	obj	_	AutoLowConf=Yes
 4	pudogidure	pudogidu	VERB	v	Mood=Ind|Person=3	0	root	_	AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -62269,7 +62269,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 7/7
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 3	jaedo	jae	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 4	pudui	pudui	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 5	oino	oino	ADV	adv	_	3	advmod	_	Auto=head
@@ -68961,7 +68961,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 1	Ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	4	nsubj	_	Morph=e=re|Auto=head
-2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	4	nsubj	_	Auto=head|AutoLowConf=Yes
+2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	4	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 3	pu	pu	NOUN	n	_	4	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	reore	reo	VERB	v	Mood=Ind|Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -76627,7 +76627,7 @@
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 8/8
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	Morph=ce=re|Auto=head
-2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 3	mugudo	mugu	VERB	vt	Number=Sing|Person=3|Voice=Cau	0	root	_	Auto=deprel+head
 4	je	je	ADV	adv	_	3	advmod	_	Auto=lemma+upos+xpos+deprel+head
 5	tadawu	tada	ADP	posp	Nomzr=Rel|Number=Sing|Person=3	3	obl	_	Auto=deprel+head
@@ -87616,7 +87616,7 @@
 3	ia	ia	DET	det	Definite=Ind|PronType=Art	4	det	_	Auto=deprel+head
 4	ekurugo	kudu	NOUN	n	Number=Plur|Person=3	7	obj	_	AutoLowConf=Yes
 5	ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	6	nsubj	_	Morph=i=re|Auto=head
-6	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	7	nsubj	_	Auto=head|AutoLowConf=Yes
+6	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	7	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 7	pobe	pobe	NUM	num	_	0	root	_	Auto=deprel+head
 8	.	.	PUNCT	punct	_	7	punct	_	Auto=head
 
@@ -93270,7 +93270,7 @@
 # auto_fields = lemma,upos,xpos,head,deprel
 # auto_tokens = 5/6
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re|Auto=head
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	sal	sal	NOUN	n	_	4	obj	_	Auto=lemma+upos+xpos+deprel+head
 4	tugu	tugu	VERB	v	Number=Sing|Person=3	0	root	_	Morph=0-tugu
 5	to	to	ADP	posp	Number=Sing|Person=3	4	obl	_	Morph=0-to|Auto=deprel+head
@@ -93285,7 +93285,7 @@
 # auto_tokens = 14/14
 # orig_ids = 1 2 3 4 5 6 7 9 10 11 12 13 14 15
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	torudo	toru	VERB	v	Number=Sing|Person=3|Voice=Cau	0	root	_	AutoLowConf=Yes
 4	jamedu	jamedu	ADV	adv	_	3	advmod	_	Auto=head
 5	,	,	PUNCT	punct	_	3	punct	_	Auto=head
@@ -93566,7 +93566,7 @@
 22	biri	biri	NOUN	n	_	24	obl	_	Auto=deprel+head
 23	keje	keje	ADP	posp	Number=Sing|Person=3	22	case	_	Morph=0-keje|Auto=deprel+head
 24	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	25	nsubj	_	Morph=e=re|Auto=head
-25	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+25	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 26	.	.	PUNCT	punct	_	25	punct	_	Auto=head
 
 # sent_id = 759-6
@@ -98448,7 +98448,7 @@
 1	Ire	i	PRON	bi	Mood=Ind|Number=Sing|Person=1	5	nsubj	_	Morph=i=re|Auto=head
 2	ia	ia	DET	det	Definite=Ind|PronType=Art	3	det	_	Auto=deprel+head
 3	inoge	i	NOUN	n	Number=Plur	5	obj	_	AutoLowConf=Yes
-4	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+4	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 5	pobe	pobe	NUM	num	_	0	root	_	Auto=deprel+head
 6	.	.	PUNCT	punct	_	5	punct	_	Auto=head
 
@@ -103422,7 +103422,7 @@
 2	koiare	koia	ADP	posp	Mood=Ind|Number=Sing|Person=3	1	case	_	Auto=deprel+head
 3	ukare	u	PRON	bi	Number=Sing|Person=3|Polarity=Neg	6	nsubj	_	Auto=deprel+head
 4	joru	joru	NOUN	n	_	6	obj	_	Auto=deprel+head
-5	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	6	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+5	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	6	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 6	ekudaeto	kudu	VERB	v	Number=Plur|Person=3	0	root	_	AutoLowConf=Yes
 7	.	.	PUNCT	punct	_	6	punct	_	Auto=head
 
@@ -103560,13 +103560,13 @@
 9	kae	kae	ADP	posp	Number=Sing|Person=3	8	case	_	Morph=0-kae|Auto=deprel+head
 10	,	,	PUNCT	punct	_	2	punct	_	Auto=head
 11	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	12	nsubj	_	Morph=u=re|Auto=head
-12	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	19	nsubj	_	Auto=head|AutoLowConf=Yes
+12	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	19	obl:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 13	nowu	nowu	DET	dem	Deixis=Med	14	det	_	Auto=deprel+head
 14	tugudawu	tkudawu	NOUN	n	Reflex=Yes	19	obj	_	AutoLowConf=Yes
 15	aroia	aroia	NOUN	n	_	17	dep	_	Auto=lemma+upos+xpos+deprel+head
 16	kurirewu	kuri	NOUN	n	Mood=Ind|Nomzr=Rel	15	nmod	_	_
 17	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	19	nsubj	_	Morph=u=re|Auto=head
-18	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	19	nsubj	_	Auto=head|AutoLowConf=Yes
+18	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	19	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 19	maedo	maedo	VERB	vt	Number=Sing|Person=3|Voice=Cau	2	parataxis	_	AutoLowConf=Yes
 20	joki	joki	ADP	posp	Number=Sing|Person=3	19	obl	_	Auto=deprel+head
 21	!	!	PUNCT	punct	_	19	punct	_	Auto=head
@@ -108929,7 +108929,7 @@
 # auto_tokens = 4/7
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	5	nsubj	_	Morph=u=re|Auto=head
 2	Boe	Boe	PROPN	propn	Number=Plur	3	dep	_	Auto=deprel+head
-3	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+3	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	5	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 4	kuiada	kuiada	NOUN	n	_	5	obj	_	_
 5	tugudu	tugudu	VERB	v	Person=3	0	root	_	Auto=feats|AutoLowConf=Yes
 6	kurido	kuri	ADV	adv	Number=Sing|Person=3|Voice=Cau	5	advmod	_	_
@@ -119404,7 +119404,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 5/5
 1	Tamode	ta	PRON	bi	Number=Plur|Person=2	4	nsubj	_	Auto=deprel+head
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	nsubj	_	Auto=deprel+head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	iobj:agent	_	Morph=i=do|Auto=deprel+head
 3	ikerurogu	ikke	NOUN	n	Degree=Dim	4	obj	_	Auto=lemma+upos+xpos+deprel+head|AutoLowConf=Yes
 4	kowu	kowu	VERB	vt	Number=Sing|Person=3	0	root	_	_
 5	.	.	PUNCT	punct	_	4	punct	_	Auto=head
@@ -127836,7 +127836,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 9/9
 1	Ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	5	nsubj	_	Morph=u=re|Auto=head
-2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	nsubj	_	Auto=head|AutoLowConf=Yes
+2	udo	u	PRON	bi	Number=Sing|Person=3|Voice=Cau	5	iobj:agent	_	Morph=u=do|Auto=head|AutoLowConf=Yes
 3	Boe	Boe	PROPN	propn	Number=Plur	4	nmod	_	Auto=deprel+head
 4	ekeroia	ekeroia	NOUN	n	Person=3	5	obj	_	AutoLowConf=Yes
 5	bu	bu	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-bu|Auto=deprel+head
@@ -131031,7 +131031,7 @@
 # auto_fields = lemma,upos,xpos,feats,head,deprel
 # auto_tokens = 4/4
 1	Cere	ce	PRON	bi	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1	3	nsubj	_	Morph=ce=re|Auto=head
-2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head|AutoLowConf=Yes
+2	cedo	ce	PRON	bi	Clusivity=Ex|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes
 3	cerugadu	rugadu	VERB	v	Clusivity=Ex|Number=Plur|Person=1	0	root	_	AutoLowConf=Yes
 4	.	.	PUNCT	punct	_	3	punct	_	Auto=head
 
@@ -134152,7 +134152,7 @@
 # auto_fields = head
 # auto_tokens = 1/5
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	4	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -134165,7 +134165,7 @@
 # auto_fields = head
 # auto_tokens = 1/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134177,7 +134177,7 @@
 # auto_fields = head
 # auto_tokens = 1/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	tumagu	maku	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134189,7 +134189,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 3/6
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	nsubj	_	Auto=head|AutoLowConf=Yes
+2	edo	e	PRON	bi	Number=Plur|Person=3|Voice=Cau	3	iobj:agent	_	Morph=e=do|Auto=head|AutoLowConf=Yes
 3	tugeragu	eragu	VERB	v	Person=3|Reflex=Yes	0	root	_	Auto=deprel+head
 4	iaboe	iaboe	PRON	pron	PronType=Ind	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji
@@ -134261,7 +134261,7 @@
 # auto_fields = head
 # auto_tokens = 1/5
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	nsubj	_	Auto=head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	4	iobj:agent	_	Morph=i=do|Auto=head
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -134274,7 +134274,7 @@
 # auto_fields = head
 # auto_tokens = 2/4
 1	ere	e	PRON	bi	Mood=Ind|Number=Plur|Person=3	3	nsubj	_	Morph=e=re|Auto=head
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	nsubj	_	Auto=head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	iobj:agent	_	Morph=i=do|Auto=head
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134286,7 +134286,7 @@
 # auto_fields = lemma,feats,head
 # auto_tokens = 2/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	nsubj	_	Auto=head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	iobj:agent	_	Morph=i=do|Auto=head
 3	imago	mako	VERB	v	Number=Sing|Person=1	0	root	_	Auto=lemma+feats
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134298,7 +134298,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 5/5
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	nsubj	_	Auto=head
+2	ido	i	PRON	bi	Number=Sing|Person=1|Voice=Cau	3	iobj:agent	_	Morph=i=do|Auto=head
 3	ikeragu	eragu	VERB	v	Number=Sing|Person=1	0	root	_	Auto=deprel+head
 4	iaboeji	ji	ADP	posp	Number=Sing|Person=3	3	obl	_	Auto=deprel+head|AutoLowConf=Yes
 5	.	.	PUNCT	punct	_	3	punct	_	Auto=head
@@ -134476,7 +134476,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 2/5
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re
-2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	4	nsubj	_	Auto=deprel+head
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	4	iobj:agent	_	Morph=pa=do|Auto=deprel+head
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	Auto=deprel
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -134489,7 +134489,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 2/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=pa=do|Auto=deprel+head
 3	amaragodudo	maragodu	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134501,7 +134501,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 2/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re|Auto=head
-2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	3	nsubj	_	Auto=deprel+head
+2	pado	pa	PRON	bi	Clusivity=In|Number=Plur|Person=1|Voice=Cau	3	iobj:agent	_	Morph=pa=do|Auto=deprel+head
 3	pamagu	maku	VERB	vt	Clusivity=In|Number=Plur|Person=1|Reflex=Yes	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134773,7 +134773,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 1/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	3	nsubj	_	Auto=deprel+head
+2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	3	iobj:agent	_	Morph=ta=do|Auto=deprel+head
 3	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -134785,7 +134785,7 @@
 # auto_fields = head,deprel
 # auto_tokens = 1/4
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	3	nsubj	_	Auto=deprel+head
+2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	3	iobj:agent	_	Morph=ta=do|Auto=deprel+head
 3	tamagu	maku	VERB	v	_	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 

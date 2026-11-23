@@ -1,6 +1,6 @@
 {
  "schema": "corbo-annotation-coverage/v1",
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "source": "CorBo/Corpus_Files/CorBo.conllu",
  "definitions": {
   "gold": "anotação manual, sintaxe completa, sem erros estruturais",
