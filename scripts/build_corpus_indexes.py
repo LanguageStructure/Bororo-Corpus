@@ -652,6 +652,7 @@ if __name__=='__main__':main()
 # Índice lexical compacto do painel lateral (docs/data/lexicon/), derivado dos arquivos acima.
 import runpy as _runpy
 _runpy.run_path(str(ROOT/'scripts/build_lexicon_panel.py'), run_name='__main__')
+_runpy.run_path(str(ROOT/'scripts/build_interlinear.py'), run_name='__main__')
 _runpy.run_path(str(ROOT/'scripts/build_statistics_summary.py'), run_name='__main__')
 _runpy.run_path(str(ROOT/'scripts/build_downloads.py'), run_name='__main__')
 _runpy.run_path(str(ROOT/'scripts/build_site_meta.py'), run_name='__main__')

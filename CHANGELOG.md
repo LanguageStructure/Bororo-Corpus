@@ -3,6 +3,20 @@
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/). As versões publicadas
 têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
+## [Não publicado]
+
+### Site
+- Leitores: modo **Texto corrido** (Bororo e português lado a lado) além dos cartões; **vista interlinear**
+  (forma, segmentação, glosa automática e link para a árvore) nas 346 unidades com sentença anotada
+  (`scripts/build_interlinear.py` → `docs/data/interlinear.json`); pontuação colada à palavra na exibição;
+  selo "provisória" único quando vale para todas as unidades (`docs/reader-view.js`).
+- Painel lexical: contagem "ocorrências nos textos · com anotação linguística", homógrafos com índice
+  sobrescrito, exemplos sem números de linha soltos.
+- Página inicial: parágrafo sobre a língua e o povo, busca no topo, frase de exemplo em interlinear,
+  coleções revistas (cantos Oieigo, textos bíblicos com AT e NT), ferramentas em três grupos (inclui
+  árvores UD, tokenizador, cobertura e downloads) e números pré-calculados em vez de 33 arquivos.
+- Glosa `onca_pintada` → `onça_pintada` no CoNLL-U.
+
 ## [0.10.0] — 2026-11-22 · DOI [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715)
 
 ### Licença e publicação

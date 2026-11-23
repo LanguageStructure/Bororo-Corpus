@@ -94,6 +94,12 @@
       u.dataset.cbUnit = '1';
       document.head.append(u);
     }
+    if (!document.querySelector('script[data-cb-reader]')) {
+      const r = document.createElement('script');
+      r.src = 'reader-view.js';
+      r.dataset.cbReader = '1';
+      document.head.append(r);
+    }
     if (!document.querySelector('link[data-cb-font]')) {
       const f = document.createElement('link');
       f.rel = 'stylesheet';

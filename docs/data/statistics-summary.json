@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-23",
  "units": 11207,
  "tokens": 262209,
  "types": 17756,
@@ -223,46 +223,46 @@
   ]
  ],
  "conllu": {
-  "sentences": 11904,
-  "tokens": 79272,
-  "gold_sentences": 1778,
-  "silver_sentences": 7264,
-  "review_sentences": 2862,
+  "sentences": 11760,
+  "tokens": 79521,
+  "gold_sentences": 1900,
+  "silver_sentences": 8980,
+  "review_sentences": 880,
   "pending_tokenization": 260,
-  "pct_tokens_automatic": 70.1
+  "pct_tokens_automatic": 69.9
  },
  "upos": [
   [
    "VERB",
-   15488
+   15503
   ],
   [
    "NOUN",
-   13660
+   13730
   ],
   [
    "ADV",
-   10273
+   10286
   ],
   [
    "ADP",
-   7071
+   7107
   ],
   [
    "PRON",
-   5392
+   5383
   ],
   [
    "PROPN",
-   2874
+   2861
   ],
   [
    "DET",
-   2559
+   2560
   ],
   [
    "X",
-   1429
+   1430
   ],
   [
    "PART",
