@@ -86,7 +86,7 @@
       ? {radius: 9, color: '#fff', weight: 2.5, fillColor: '#d9673b', fillOpacity: .95}
       : {radius: 8, color: '#5f6a65', weight: 2, fillColor: '#fff', fillOpacity: 1, dashArray: '3 3'})
       .addTo(map)
-      .bindTooltip(name + (speakers ? '' : ' · sem falantes'), {permanent: true, direction: dir, offset: dir === 'left' ? [-8, 0] : dir === 'top' ? [0, -8] : [8, 0], className: 'ti-label'});
+      .bindTooltip(name, {permanent: true, direction: dir, offset: dir === 'left' ? [-8, 0] : dir === 'top' ? [0, -8] : [8, 0], className: 'ti-label'});
   }
 })();
 </script></body></html>
