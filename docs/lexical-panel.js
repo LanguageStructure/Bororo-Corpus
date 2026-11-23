@@ -122,8 +122,9 @@
     const ud = rec?.ud, tok = rec?.tok;
     const lemma = ud?.lemma?.[0]?.[0];
     head.querySelector('.lp-form').textContent = word;
-    head.querySelector('.lp-sub').innerHTML = rec?.freq ? `${fmt(rec.freq)} ocorrência(s) nos textos` + (ud ? ` · ${fmt(ud.n)} no CoNLL-U` : '')
-      : ud ? `${fmt(ud.n)} ocorrência(s) no CoNLL-U` : 'Forma não encontrada nos índices';
+    const occ = n => `${fmt(n)} ${n === 1 ? 'ocorrência' : 'ocorrências'}`;
+    head.querySelector('.lp-sub').innerHTML = rec?.freq ? `${occ(rec.freq)} nos textos` + (ud ? ` · ${fmt(ud.n)} com anotação linguística` : '')
+      : ud ? `${occ(ud.n)} com anotação linguística` : 'Forma não encontrada nos índices';
     let h = '';
     if (ud) {
       h += '<h4>Análise</h4><div class="lp-chips">';
@@ -146,12 +147,14 @@
     if (ud?.gloss?.length) h += '<h4>Glosa</h4>' + ud.gloss.map(([g]) => esc(g)).join(' · ');
     if (rec?.dict?.length) {
       h += '<h4>Dicionário</h4>';
-      for (const d of rec.dict) h += `<div class="dict"><b>${esc(d.entry)}</b>${d.ipa ? `<span class="ipa">[${esc(d.ipa)}]</span>` : ''}${d.pos ? `<span class="pos">${esc(d.pos)}</span>` : ''}` +
+      for (const d of rec.dict) h += `<div class="dict"><b>${esc(d.entry.replace(/\d+$/, ''))}${/\d+$/.test(d.entry) ? `<sup>${esc(d.entry.match(/\d+$/)[0])}</sup>` : ''}</b>${d.ipa ? `<span class="ipa">[${esc(d.ipa)}]</span>` : ''}${d.pos ? `<span class="pos">${esc(d.pos)}</span>` : ''}` +
         `<div>${esc(d.definition || '')}</div>${d.example_sent ? `<div class="muted">${esc(d.example_sent)}</div>` : ''}</div>`;
     }
     if (rec?.ex?.length) {
       h += '<h4>No corpus</h4>';
-      for (const e of rec.ex) h += `<div class="ex"><div class="b">${snippet(e.b, word)}</div><div class="p">${esc(e.p.slice(0, 200))}${e.p.length > 200 ? '…' : ''}</div><div class="src">${esc(e.c)} · ${esc(e.id)}</div></div>`;
+      // números de linha da fonte que ficaram no meio do texto ("koia. 97 Nowu") não aparecem no exemplo
+      const noLineNo = t => String(t || '').replace(/(^|[.!?:;]\s+)\d{1,4}\s+(?=\p{L})/gu, '$1');
+      for (const e of rec.ex) { const b = noLineNo(e.b), pt = noLineNo(e.p); h += `<div class="ex"><div class="b">${snippet(b, word)}</div><div class="p">${esc(pt.slice(0, 200))}${pt.length > 200 ? '…' : ''}</div><div class="src">${esc(e.c)} · ${esc(e.id)}</div></div>`; }
     }
     if (rec?.coll?.length > 1) {
       const max = rec.coll[0][1];
