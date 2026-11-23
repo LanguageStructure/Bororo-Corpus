@@ -1,0 +1,49 @@
+sent_id	token	form	head	deprel_antes	deprel_depois	misc_antes	misc_depois	causador_mantido_nsubj	text
+130-7	4	udo	6	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	3:ire	Inagore Oinore ire udo pagera pudogidure .
+139-4	3	udo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	2:Ire	Inagore Ire udo pagera awubodure pagera metuiare pobema awu metuia bokware .
+184-2	2	udo	_	nsubj	iobj:agent	_	Morph=u=do	1:Ire	Ire udo nono pu reore tu...Ha, ha, ha !
+211-6	16	udo	17	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	15:tawo	Kodire inagore oino tai, tawo tamaragodu rakado ia tamaragodaere jiboe ji ma, tawo udo turugadu, nowu meri kae .
+304-6	4	udo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	2:ire	Akore ire pawoguge udo turugadu .
+364-7-2	6	ido	10	nsubj	iobj:agent	_	Morph=i=do	5:ure	Imerure tu apo dukeje ure ido awu barege kugure ewido tu, ewido tu je .
+402-5	2	cedo	3	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	1:Cere	Cere cedo cerugadu .
+454-19	3	ido	6	nsubj	iobj:agent	Auto=deprel+head	Morph=i=do|Auto=deprel+head	2:tamode	Icare tamode ido tapira kodu ko .
+466-4	2	ido	4	nsubj	iobj:agent	Auto=deprel+head	Morph=i=do|Auto=deprel+head	1:Ukare	Ukare ido boe ko .
+486-8	3	udo	_	nsubj	iobj:agent	_	Morph=u=do	17:ure	Unure baigatu udo nono nono borore tugajeje: Iceba baiga atu cidugoduwo ii. Akore ioguduba ure joru tugu awu moto to ?
+496-5	3	cedo	4	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	2:cere	Icare cere cedo pui .
+507-29	2	udo	4	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure udo imago reore rugadu .
+565-8	2	udo	3	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure udo pobe, ure metuia jeto woe, ure metuia jeto woje joku uruguwo oino jice pobo oiaji .
+569-16	18	edo	19	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	16:cere	Itaregodu, imearudure atui mato duji, dukodire ire iodo iwugeje mato awogai. Akore cere turubare edo pobe .
+589-2	2	edo	4	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Cere	Cere edo pagera pudogidure .
+593-2	2	cedo	3	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	1:Ure	Ure cedo jaedo pudui oino turegodaji .
+626-11	2	udo	4	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	1:Ere	Ere udo pu reore .
+668-13	2	cedo	3	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	1:Cere	Cere cedo mugudo je tadawu keje ta;
+728-1	6	edo	7	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	2:ire	Icare ire ia ekurugo ire edo pobe .
+756-8	2	edo	4	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure edo sal tugu to .
+756-9	2	edo	3	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure edo torudo jamedu, tugeje.,Aiwore nowu baperaji dukejere ro oino .
+759-5	25	edo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure nowu kare ewuodu rawujewugere, ure etogagiridowugere, ure sal tugu etowugere, ure ewarigu toro ira towugeje, tapira biri keje ere edo .
+782-10	4	edo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Ire	Ire ia inoge edo pobe .
+807-7	5	cedo	6	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	3:ukare	Salvador koiare ukare joru cedo ekudaeto .
+807-17	12	udo	19	nsubj	obl:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	17:ure	Ure tudugu kuda...taci toro nowu joru kae, ure udo nowu tugudawu aroia kurirewu ure udo maedo joki !
+807-17	18	udo	19	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	17:ure	Ure tudugu kuda...taci toro nowu joru kae, ure udo nowu tugudawu aroia kurirewu ure udo maedo joki !
+844-8	3	edo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure Boe edo kuiada tugudu kurido .
+904-2	2	ido	4	nsubj	iobj:agent	Auto=deprel+head	Morph=i=do|Auto=deprel+head	1:Tamode	Tamode ido ikerurogu kowu .
+947-6	2	udo	5	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=u=do|Auto=head|AutoLowConf=Yes	1:Ure	Ure udo Boe ekeroia bu bapera keje toce .
+966-7	2	cedo	3	nsubj	iobj:agent	Auto=deprel+head|AutoLowConf=Yes	Morph=ce=do|Auto=deprel+head|AutoLowConf=Yes	1:Cere	Cere cedo cerugadu .
+dic_0429	2	edo	4	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:ure	ure edo boe maku .
+dic_0430	2	edo	3	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:ure	ure edo imaragodudo .
+dic_0431	2	edo	3	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:ure	ure edo tumagu .
+dic_0432	2	edo	3	nsubj	iobj:agent	Auto=head|AutoLowConf=Yes	Morph=e=do|Auto=head|AutoLowConf=Yes	1:ure	ure edo tugeragu iaboe ji .
+dic_0629	2	ido	4	nsubj	iobj:agent	Auto=head	Morph=i=do|Auto=head	1:ure	ure ido boe maku .
+dic_0630	2	ido	3	nsubj	iobj:agent	Auto=head	Morph=i=do|Auto=head	1:ere	ere ido amaragodudo .
+dic_0631	2	ido	3	nsubj	iobj:agent	Auto=head	Morph=i=do|Auto=head	1:ure	ure ido imago .
+dic_0632	2	ido	3	nsubj	iobj:agent	Auto=head	Morph=i=do|Auto=head	1:ure	ure ido ikeragu iaboeji .
+dic_1020	2	pado	4	nsubj	iobj:agent	Auto=deprel+head	Morph=pa=do|Auto=deprel+head	1:ure	ure pado boe maku .
+dic_1021	2	pado	3	nsubj	iobj:agent	Auto=deprel+head	Morph=pa=do|Auto=deprel+head	1:ure	ure pado amaragodudo .
+dic_1022	2	pado	3	nsubj	iobj:agent	Auto=deprel+head	Morph=pa=do|Auto=deprel+head	1:ure	ure pado pamagu .
+dic_1167	2	tado	3	nsubj	iobj:agent	Auto=deprel+head	Morph=ta=do|Auto=deprel+head	1:ure	ure tado imaragodudo .
+dic_1168	2	tado	3	nsubj	iobj:agent	Auto=deprel+head	Morph=ta=do|Auto=deprel+head	1:ure	ure tado tamagu .
+dic_0021	2	ado	4	nsubj	iobj:agent	_	Morph=a=do	1:ure	ure ado boe maku .
+dic_0022	2	ado	3	nsubj	iobj:agent	_	Morph=a=do	1:ure	ure ado imaragodudo .
+dic_0023	2	ado	3	nsubj	iobj:agent	_	Morph=a=do	1:ure	ure ado imagu .
+dic_0024	2	ado	3	nsubj	iobj:agent	_	Morph=a=do	1:ure	ure ado akeragu iaboe ji .
+dic_1166	2	tado	4	nsubj	iobj:agent	_	Morph=ta=do	1:ure	ure tado boe maku .
