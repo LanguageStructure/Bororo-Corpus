@@ -37,7 +37,7 @@ def dataset():
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {"@type": "Person", "name": "Fabrício Ferraz Gerardi", "identifier": "https://orcid.org/0000-0002-1438-7336"},
         "inLanguage": ["bor", "pt"],
-        "keywords": ["Bororo", "Boe", "Bororoan", "Macro-Jê", "language documentation", "parallel corpus", "CoNLL-U",
+        "keywords": ["Bororo", "Boe", "Bororoan", "language documentation", "parallel corpus", "CoNLL-U",
                      "Universal Dependencies", "Indigenous languages of Brazil"],
         "spatialCoverage": {"@type": "Place", "name": "Mato Grosso, Brazil"},
         "isAccessibleForFree": True, "dateModified": TODAY,
