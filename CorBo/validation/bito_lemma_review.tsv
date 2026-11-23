@@ -1,0 +1,26 @@
+sent_id	token	form	lemma	upos	feats	motivo
+boe_ero_08_28	3	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3|Voice=Pass	forma derivada de bito: conferir lema e Voice
+boe_ero_08_28	7	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3	forma derivada de bito: conferir lema e Voice
+AdugoBiri-1.7	3	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3|Voice=Pass	forma derivada de bito: conferir lema e Voice
+AdugoBiri-1.7	7	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3|Voice=Pass	forma derivada de bito: conferir lema e Voice
+AdugoBiri-1.7	9	bitodu	bito	VERB	Mood=Ind|Number=Sing|Person=3|Voice=Pass	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.2	4	bitowu	bito	NOUN	Nomzr=Rel	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.10#5	7	bitowu	bito	NOUN	Nomzr=Rel	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.10#5	11	bitowu	bito	NOUN	Nomzr=Rel	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.10#17	9	bitowu	bito	NOUN	Nomzr=Rel	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.10#53	1	Bitoduredu	bito	VERB	Mood=Ind|Number=Sing|Person=3|Voice=CauPass	forma derivada de bito: conferir lema e Voice
+AdugoBiri-2.10#54	6	bitoduredu	bito	VERB	Mood=Ind|Voice=CauPass	forma derivada de bito: conferir lema e Voice
+214-5	3	ewidodu	ewbi	NOUN	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+406-14	10	ewidodu	ewbi	NOUN	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+575-25	2	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3	forma derivada de bito: conferir lema e Voice
+680-4	4	bitowuge	bitowu	NOUN	Nomzr=Rel|Number=Plur	forma derivada de bito: conferir lema e Voice
+681-8	13	bitowuge	bitowu	NOUN	Nomzr=Rel|Number=Plur	forma derivada de bito: conferir lema e Voice
+759-16	3	ewidodu	ewbi	NOUN	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+777-17	2	ewidodu	ewbi	VERB	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+786-3	7	ewidodu	ewbi	VERB	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+786-3	11	ewidodu	ewbi	NOUN	Number=Plur|Person=3	forma derivada de bito: conferir lema e Voice
+799-18	6	iwidowu	iwidowu	VERB	Number=Sing|Person=1	forma derivada de bito: conferir lema e Voice
+866-11	3	ewidodu	bito	VERB	Number=Plur|Person=3|Voice=Pass	forma derivada de bito: conferir lema e Voice
+921-13	2	bitowugere	bitowu	NOUN	Mood=Ind|Nomzr=Rel|Number=Sing	forma derivada de bito: conferir lema e Voice
+970-10	2	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3	forma derivada de bito: conferir lema e Voice
+970-11	2	bitodure	bito	VERB	Mood=Ind|Number=Sing|Person=3	forma derivada de bito: conferir lema e Voice

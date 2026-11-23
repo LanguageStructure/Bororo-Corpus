@@ -157,3 +157,7 @@ elisão do *o*. Nesse caso o `# text` recebe o espaço, e a grafia da fonte fica
 - *tagaregodure* é a forma correta (não *tagaaregodure*).
 - *imedage* é o plural de *metuia* (`Number=Plur`).
 - Os rótulos de dicionário *ref)* e *refl.)* no início do `# text` eram erro de extração e foram removidos.
+
+## Formas decididas em 23/11/2026
+
+- *bito* 'matar' é verbo transitivo; o *-to* não é causativo. Todo o paradigma (*bito*, *iwido*, *awido*, *ewido*, *cewido*…) tem `LEMMA=bito`, sem `Voice=Cau` (131 tokens corrigidos por `scripts/apply_bito_lemma.py`). As formas de *bi* (*bire*, *ewire*, *bikare*…) não são afetadas. Formas derivadas (*bitodure*, *ewidodu*, *bitoduredu* com `Voice=CauPass`) aguardam revisão em `CorBo/validation/bito_lemma_review.tsv`.
