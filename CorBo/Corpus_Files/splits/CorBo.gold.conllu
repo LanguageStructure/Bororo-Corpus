@@ -15973,7 +15973,7 @@
 # text_por = ele fez você me fazer trabalhar.
 # text_eng =
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a=do
+2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a-do
 3	imaragodudo	maragodu	VERB	vt	Number=Sing|Person=1|Voice=Cau	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -15982,7 +15982,7 @@
 # text_por = ele fez você me entregar.
 # text_eng =
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a=do
+2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a-do
 3	imagu	maku	VERB	vt	Number=Sing|Person=1	0	root	_	_
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -15991,7 +15991,7 @@
 # text_por = ele fez você pegar algo.
 # text_eng =
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	3	nsubj	_	Morph=u=re
-2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a=do
+2	ado	a	PRON	bi	Number=Sing|Person=2|Voice=Cau	3	iobj:agent	_	Morph=a-do
 3	akeragu	eragu	VERB	v	Number=Sing|Person=2	0	root	_	_
 4	iaboe	iaboe	PRON	pron	PronType=Ind	3	obl	_	_
 5	ji	ji	ADP	posp	Number=Sing|Person=3	4	case	_	Morph=0-ji
@@ -18644,7 +18644,7 @@
 # text_por = ele fez vocês darem algo.
 # text_eng =
 1	ure	u	PRON	bi	Mood=Ind|Number=Sing|Person=3	4	nsubj	_	Morph=u=re
-2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	4	iobj:agent	_	Morph=ta=do
+2	tado	ta	PRON	bi	Number=Plur|Person=2|Voice=Cau	4	iobj:agent	_	Morph=ta-do
 3	boe	boe	NOUN	n	Number=Sing	4	obj	_	_
 4	maku	maku	VERB	vt	Number=Sing|Person=3	0	root	_	Morph=0-maku
 5	.	.	PUNCT	punct	_	4	punct	_	_
