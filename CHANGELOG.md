@@ -6,6 +6,11 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 ## [Não publicado]
 
 ### Textos
+- *Enciclopédia Bororo II*: lenda 2, *Os chefes Baitogogo e Aroia Kurireu lutam contra os Kaiamo-doge* (pp. 25–77),
+  181 frases e 70 notas. `build_enciclopedia_ii.py` reconhece cabeçalhos de ciclo (`@ciclo`) e liga *nure*/*rogu*
+  também quando vêm com pontuação.
+
+### Textos
 - **Nova coleção *Enciclopédia Bororo II* (Lendas)**, do vol. II da *Enciclopédia Bororo* (Albisetti & Venturelli, 1969).
   Primeira lenda: *A grande inundação* (pp. 3–23), 65 frases bororo com a tradução numerada da Enciclopédia, 38 notas,
   introdução, narrativa e duas variantes. Bororo na ortografia do CorBo (sem diacríticos, sem hífens, *-u* após vogal

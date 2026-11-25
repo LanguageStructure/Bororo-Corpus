@@ -35,4 +35,8 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 ## Estado
 
 - Lenda 1, *A grande inundação* (pp. 3–23): 65 frases (1–41 texto principal; 42–50 variante 1; 51–65 variante 2),
-  38 notas. Transcrição provisória, a conferir por FFG.
+  38 notas.
+- Lenda 2, *Os chefes Baitogogo e Aroia Kurireu lutam contra os Kaiamo-doge* (pp. 25–77; abre o ciclo do chefe
+  Baitogogo): 181 frases, 70 notas. As notas 1 e 36 não têm chamada impressa no texto bororo. Divergências do
+  original mantidas: nota 16 (*čáči*) × texto (*čái*); nota 40 (*kajéje*) × texto (*bukéje*); *ičái* (frases 57, 95, 138).
+- Transcrição provisória, a conferir por FFG.

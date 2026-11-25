@@ -22,7 +22,7 @@ A forma impressa (com hífens) fica preservada na coluna `source`.
 Marcação da transcrição: @lenda N, @titulo, @pagina N, @intro, @narrativa,
 @variante RÓTULO | NOTA, @texto TÍTULO BORORO | TÍTULO PT, @secao RÓTULO | NOTA,
 @s N (frase), "bororo | glosa" (uma célula por linha; "(n)" = chamada de nota),
-@titulo_trad, @secao_trad, @t N tradução, @n N nota, @foto legenda, @@ (fim de bloco).
+@titulo_trad, @secao_trad, @t N tradução, @n N nota, @foto legenda, @ciclo título de ciclo, @@ (fim de bloco).
 
 Uso: python scripts/build_enciclopedia_ii.py [--check]
   --check  só confere a transcrição e mostra o resumo, sem gravar.
@@ -57,7 +57,7 @@ def norm_text(t: str) -> str:
 
 
 def is_bound(cell_norm: str) -> bool:
-    return cell_norm.lower() in BOUND
+    return cell_norm.strip('.,;:!?"…').lower() in BOUND
 
 
 def join_cells(cs) -> str:
@@ -110,6 +110,7 @@ def parse(path: Path):
                 n, _, txt = val.partition(' ')
                 notes[int(n)] = dict(pagina=page, texto=txt)
             elif key == 'foto': add_ed('legenda_foto', val)
+            elif key == 'ciclo': add_ed('ciclo', val)
             else:
                 raise SystemExit(f'{path.name}:{n_line}: marcador desconhecido @{key}')
             continue

@@ -64,7 +64,8 @@ function renderTexto(L){const x=$('q').value.trim().toLocaleLowerCase('pt-BR');
 function renderIntro(L){let h=`<div class="lhead"><h2>${esc(L.lenda)}. ${esc(L.title)}</h2></div><div class="prose">`,lastType='';
  const caps=[];
  for(const e of L.editorial){const pg=`<span class="pg">p. ${esc(e.page)}</span>`;
-  if(e.type==='intro')h+=`<p class="intro">${esc(e.text)}${pg}</p>`;
+  if(e.type==='ciclo')h+=`<div class="sec" style="margin-top:0">${esc(e.text)}</div>`;
+  else if(e.type==='intro')h+=`<p class="intro">${esc(e.text)}${pg}</p>`;
   else if(e.type==='narrativa'){if(lastType!=='narrativa')h+=`<h3>Narrativa</h3>`;h+=`<p>${esc(e.text)}${pg}</p>`}
   else if(e.type==='variante_cabecalho'){const [a,b]=e.text.split('|');h+=`<h3>${esc(a.trim())}</h3>${b?`<div class="bracket">${esc(b.trim())}</div>`:''}`}
   else if(e.type==='variante')h+=`<p>${esc(e.text)}${pg}</p>`;
