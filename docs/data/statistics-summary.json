@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-25",
- "units": 19488,
- "tokens": 539117,
- "types": 21024,
+ "units": 19553,
+ "tokens": 539689,
+ "types": 21046,
  "collections": [
   [
    "Pao Kurirewu Bataru Kurirewu",
@@ -140,6 +140,11 @@
    631
   ],
   [
+   "Enciclopédia Bororo II",
+   65,
+   572
+  ],
+  [
    "Rute",
    20,
    523
@@ -193,8 +198,8 @@
   ],
   [
    "Documentary texts",
-   1448,
-   59996
+   1513,
+   60568
   ],
   [
    "Antigo Testamento",

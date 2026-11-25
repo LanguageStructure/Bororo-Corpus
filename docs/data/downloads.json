@@ -10,11 +10,11 @@
    "path": "docs/downloads/corbo-parallel.tsv",
    "url": "downloads/corbo-parallel.tsv",
    "format": "TSV (UTF-8)",
-   "bytes": 2852272,
+   "bytes": 2865359,
    "pt": "Todas as unidades documentais publicadas, com coleção, estado editorial, texto Bororo e tradução portuguesa quando existe.",
    "en": "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
-   "counts_pt": "11.207 unidades · 2.247 com tradução",
-   "counts_en": "11,207 units · 2,247 with translation"
+   "counts_pt": "11.272 unidades · 2.312 com tradução",
+   "counts_en": "11,272 units · 2,312 with translation"
   },
   {
    "group": "textos",
@@ -106,7 +106,7 @@
    "path": "docs/data/statistics-summary.json",
    "url": "data/statistics-summary.json",
    "format": "JSON",
-   "bytes": 2705,
+   "bytes": 2758,
    "pt": "Resumo estatístico: tokens por coleção, classes gramaticais, totais.",
    "en": "Statistical summary: tokens per collection, parts of speech, totals.",
    "counts_pt": "",
@@ -130,7 +130,7 @@
    "path": "docs/citation.bib",
    "url": "citation.bib",
    "format": "BibTeX",
-   "bytes": 541,
+   "bytes": 594,
    "pt": "Referência para citação.",
    "en": "Citation reference.",
    "counts_pt": "",
