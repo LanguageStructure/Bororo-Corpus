@@ -9,6 +9,10 @@ on:
       - 'scripts/build_grammatical_index.py'
 permissions:
   contents: write
+# Mesmo grupo de build-corbo-indexes.yml: os fluxos que fazem push na main rodam um de cada vez.
+concurrency:
+  group: corbo-main-push
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,5 +32,6 @@ jobs:
           git add docs/data/tokenizer-model.json docs/data/grammatical-index.json
           if ! git diff --cached --quiet; then
             git commit -m "Update public tokenizer model from CoNLL-U"
-            git push
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
           fi

@@ -17,9 +17,19 @@ on:
 permissions:
   contents: write
 
+# Mesmo grupo de tokenizer-model.yml: os fluxos que fazem push na main rodam um de cada vez.
+concurrency:
+  group: corbo-main-push
+  cancel-in-progress: false
+
 jobs:
   build-indexes:
     runs-on: ubuntu-latest
+    env:
+      # Tudo o que os scripts de build escrevem (inclui JSON-LD das páginas, sitemap, OLAC e downloads).
+      DERIVED: >-
+        docs/data docs/downloads docs/index.html docs/en.html docs/sitemap.xml docs/robots.txt docs/olac.xml
+        docs/ANNOTATION_INVENTORY.md CorBo/Corpus_Files/splits CorBo/validation/feature_inventory.json
     steps:
       - name: Obter repositório
         uses: actions/checkout@v4
@@ -39,13 +49,14 @@ jobs:
 
       - name: Registrar índices gerados
         run: |
-          if git diff --quiet -- docs/data docs/ANNOTATION_INVENTORY.md CorBo/Corpus_Files/splits CorBo/validation/feature_inventory.json && [ -z "$(git ls-files --others --exclude-standard CorBo/Corpus_Files/splits)" ]; then
+          git status --short
+          if git diff --quiet -- $DERIVED && [ -z "$(git ls-files --others --exclude-standard -- $DERIVED)" ]; then
             echo "Índices já estão atualizados."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data docs/ANNOTATION_INVENTORY.md CorBo/Corpus_Files/splits CorBo/validation/feature_inventory.json
+          git add -- $DERIVED
           git commit -m "Atualizar índices derivados do CorBo"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push origin HEAD:main
