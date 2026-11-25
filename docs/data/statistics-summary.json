@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-25",
  "units": 11207,
- "tokens": 262209,
+ "tokens": 262216,
  "types": 17756,
  "collections": [
   [
@@ -12,7 +12,7 @@
   [
    "Coqueiro",
    872,
-   49815
+   49814
   ],
   [
    "História Mítica",
@@ -22,7 +22,7 @@
   [
    "1 Reis",
    319,
-   4871
+   4885
   ],
   [
    "Primeiras Andanças",
@@ -42,17 +42,17 @@
   [
    "1 Samuel",
    153,
-   3233
+   3230
   ],
   [
    "2 Reis",
    125,
-   3027
+   3034
   ],
   [
    "2 Samuel",
    120,
-   2787
+   2780
   ],
   [
    "Jakomea Jiwu",
@@ -82,7 +82,7 @@
   [
    "Josué",
    53,
-   1199
+   1196
   ],
   [
    "Gêmeos Bakororodoge",
@@ -189,12 +189,12 @@
   [
    "Documentary texts",
    1448,
-   59997
+   59996
   ],
   [
    "Antigo Testamento",
    911,
-   18790
+   18798
   ],
   [
    "Archive parallel witnesses",

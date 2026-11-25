@@ -71,7 +71,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `punct` | 18336 |
 | `root` | 11399 |
 | `advmod` | 9489 |
-| `nsubj` | 8618 |
+| `nsubj` | 8570 |
 | `obl` | 6935 |
 | `parataxis` | 3764 |
 | `case` | 3681 |
@@ -90,6 +90,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `mark` | 82 |
 | `appos` | 61 |
 | `advcl` | 54 |
+| `iobj:agent` | 47 |
 | `dislocated` | 22 |
 | `vocative` | 13 |
 | `iobj` | 12 |
@@ -100,6 +101,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `15` | 1 |
 | `6` | 1 |
 | `cae` | 1 |
+| `obl:agent` | 1 |
 | `5` | 1 |
 
 ## FEATS
@@ -159,7 +161,7 @@ Descrições marcadas *(a confirmar)* são rascunhos que dependem de revisão li
 | `Status` | `Irr` | CorBo | irrealis (a confirmar) | 1010 |
 | `VerbForm` | `Ger` | UD | gerúndio/forma adverbial (a confirmar) | 149 |
 | `Voice` | `CPass` | CorBo | (sem descrição) | 3 |
-| `Voice` | `Cau` | UD | causativo | 1913 |
+| `Voice` | `Cau` | UD | causativo | 1788 |
 | `Voice` | `CauInc` | CorBo | causativo-incoativo, sufixo -go (ex.: epemegago, itaidugo) | 5 |
 | `Voice` | `CauPass` | CorBo | causativo-passivo (a confirmar) | 11 |
 | `Voice` | `Pass` | UD | passivo | 71 |

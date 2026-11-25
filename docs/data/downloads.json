@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-25",
  "license": "CC BY 4.0",
  "doi": "10.5281/zenodo.23441622",
  "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
@@ -10,7 +10,7 @@
    "path": "docs/downloads/corbo-parallel.tsv",
    "url": "downloads/corbo-parallel.tsv",
    "format": "TSV (UTF-8)",
-   "bytes": 2852265,
+   "bytes": 2852272,
    "pt": "Todas as unidades documentais publicadas, com coleção, estado editorial, texto Bororo e tradução portuguesa quando existe.",
    "en": "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
    "counts_pt": "11.207 unidades · 2.247 com tradução",
@@ -22,11 +22,11 @@
    "path": "CorBo/Corpus_Files/CorBo.conllu",
    "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/CorBo.conllu",
    "format": "CoNLL-U",
-   "bytes": 7343232,
+   "bytes": 7366688,
    "pt": "Arquivo canônico de anotação (lemas, classes, traços, dependências), incluindo anotação automática marcada com Auto=.",
    "en": "Canonical annotation file (lemmas, POS, features, dependencies), including automatic annotation marked with Auto=.",
-   "counts_pt": "11.922 sentenças · 79.272 tokens",
-   "counts_en": "11,922 sentences · 79,272 tokens"
+   "counts_pt": "12.016 sentenças · 79.521 tokens",
+   "counts_en": "12,016 sentences · 79,521 tokens"
   },
   {
    "group": "anotacao",
@@ -34,11 +34,11 @@
    "path": "CorBo/Corpus_Files/splits/CorBo.gold.conllu",
    "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/CorBo.gold.conllu",
    "format": "CoNLL-U",
-   "bytes": 641578,
+   "bytes": 705797,
    "pt": "Camada gold: só anotação manual, sintaxe completa, sem erros estruturais.",
    "en": "Gold layer: manual annotation only, complete syntax, no structural errors.",
-   "counts_pt": "1.778 sentenças · 8.897 tokens",
-   "counts_en": "1,778 sentences · 8,897 tokens"
+   "counts_pt": "1.900 sentenças · 9.802 tokens",
+   "counts_en": "1,900 sentences · 9,802 tokens"
   },
   {
    "group": "anotacao",
@@ -46,11 +46,11 @@
    "path": "CorBo/Corpus_Files/splits/CorBo.silver.conllu",
    "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/CorBo.silver.conllu",
    "format": "CoNLL-U",
-   "bytes": 4766900,
+   "bytes": 5953739,
    "pt": "Camada silver: estruturalmente válida, com anotação automática.",
    "en": "Silver layer: structurally valid, includes automatic annotation.",
-   "counts_pt": "7.264 sentenças · 48.802 tokens",
-   "counts_en": "7,264 sentences · 48,802 tokens"
+   "counts_pt": "8.980 sentenças · 61.268 tokens",
+   "counts_en": "8,980 sentences · 61,268 tokens"
   },
   {
    "group": "anotacao",
@@ -58,7 +58,7 @@
    "path": "CorBo/Corpus_Files/splits/review_sentences.tsv",
    "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/review_sentences.tsv",
    "format": "TSV",
-   "bytes": 176239,
+   "bytes": 41072,
    "pt": "Sentenças que aguardam revisão, com o motivo.",
    "en": "Sentences awaiting review, with the reason.",
    "counts_pt": "",
@@ -94,7 +94,7 @@
    "path": "docs/data/statistics-summary.json",
    "url": "data/statistics-summary.json",
    "format": "JSON",
-   "bytes": 2642,
+   "bytes": 2641,
    "pt": "Resumo estatístico: tokens por coleção, classes gramaticais, totais.",
    "en": "Statistical summary: tokens per collection, parts of speech, totals.",
    "counts_pt": "",
@@ -106,7 +106,7 @@
    "path": "docs/ANNOTATION_GUIDE.md",
    "url": "https://github.com/LanguageStructure/Bororo-Corpus/blob/main/docs/ANNOTATION_GUIDE.md",
    "format": "Markdown",
-   "bytes": 8253,
+   "bytes": 11094,
    "pt": "Guia de anotação do CoNLL-U.",
    "en": "CoNLL-U annotation guide (Portuguese).",
    "counts_pt": "",
@@ -118,7 +118,7 @@
    "path": "docs/citation.bib",
    "url": "citation.bib",
    "format": "BibTeX",
-   "bytes": 387,
+   "bytes": 497,
    "pt": "Referência para citação.",
    "en": "Citation reference.",
    "counts_pt": "",
