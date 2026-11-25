@@ -1,4 +1,4 @@
-# CorBo — Corpus da Língua Bororo (v0.10.0)
+# CorBo — Corpus da Língua Bororo (v0.10.1)
 
 > **Interface digital:** https://languagestructure.github.io/Bororo-Corpus/  
 > **DOI (todas as versões, resolve para a mais recente):** https://doi.org/10.5281/zenodo.12110451  
@@ -13,7 +13,7 @@ A arquitetura atual distingue explicitamente **fonte documental**, **revisão ed
 | Documento | Conteúdo |
 |---|---|
 | [Guia de anotação](docs/ANNOTATION_GUIDE.md) | convenções do CoNLL-U, decisões de anotação, marcas de anotação automática |
-| [Notas da v0.10.0](docs/RELEASE_NOTES_v0.10.0.md) · [Critérios para a 1.0](docs/ROADMAP_1.0.md) | o que mudou nesta versão e o que falta para a 1.0 |
+| [Notas da v0.10.1](docs/RELEASE_NOTES_v0.10.1.md) · [v0.10.0](docs/RELEASE_NOTES_v0.10.0.md) · [Critérios para a 1.0](docs/ROADMAP_1.0.md) | o que mudou nesta versão e o que falta para a 1.0 |
 | [Ortografia e normalização](docs/ORTOGRAFIA.md) | grafia das fontes, diacríticos, caixa, pontuação, camada normalizada (rascunho) |
 | [Inventário de rótulos](docs/ANNOTATION_INVENTORY.md) | UPOS, XPOS, DEPREL e FEATS em uso, com contagens (gerado automaticamente) |
 | [Anotação morfológica](docs/MORPHOLOGY_ANNOTATION.md) | segmentação explícita no MISC (`Morph=`) |
@@ -336,7 +336,7 @@ Exceção: o Novo Testamento *Pao Kurirewu Bataru Kurirewu* (© 2019 Wycliffe Bi
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
-DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Esta versão (v0.10.0): [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715). Versões anteriores: v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
+DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Esta versão (v0.10.1): DOI a registrar após a publicação. Versões anteriores: v0.10.0 [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715), v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
 ## Autoria, parcerias e comunidades

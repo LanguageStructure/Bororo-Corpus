@@ -5,6 +5,8 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+## [0.10.1] — 2026-11-25
+
 ### Textos
 - Novo Testamento ***Pao Kurirewu Bataru Kurirewu*** (© 2019 Wycliffe Bible Translators), com a ortografia
   adaptada à do CorBo: 7.458 unidades de versículo e 823 títulos de seção em
@@ -33,6 +35,26 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   coleções revistas (cantos Oieigo, textos bíblicos com AT e NT), ferramentas em três grupos (inclui
   árvores UD, tokenizador, cobertura e downloads) e números pré-calculados em vez de 33 arquivos.
 - Glosa `onca_pintada` → `onça_pintada` no CoNLL-U.
+
+### Anotação (CoNLL-U)
+- **Causativas:** `=do` é o marcador causativo, clítico hospedado pelo índice pessoal; construção monoclausal com
+  um só `nsubj` por verbo. O causado `PRON=do` passa a `iobj:agent` (ou `obl:agent`), com `Morph=<pessoa>=do`
+  (`scripts/apply_causative_subjects.py`; 48 tokens em 47 frases, 4 gold).
+- ***bito* 'matar':** verbo transitivo, `LEMMA=bito` em todo o paradigma, sem `Voice=Cau`
+  (`scripts/apply_bito_lemma.py`; 131 tokens).
+- Camada anotada sem outras mudanças: 12.020 unidades, 79.521 tokens, 1.900 sentenças gold, 706 erros de validação.
+
+### Língua, fontes e metadados
+- Nome da língua: ***Boe Ewadaru***. O Bororo é a única língua ainda falada da família Bororo; a associação ao
+  tronco Macro-Jê foi retirada do site, do JSON-LD e do `.zenodo.json`.
+- Proveniência do *Bakaru Maiwu* (Ochoa Camargo 1992) e autoria dos textos do Antigo Testamento (Pe. Ochoa com
+  membros da comunidade de Meruri) registradas.
+- Página inicial com mapa das terras indígenas Bororo.
+
+### Integração contínua
+- "Gerar índices do CorBo" voltou a funcionar: registra todos os arquivos gerados (JSON-LD, sitemap, OLAC,
+  downloads) e usa `pull --rebase --autostash`; os fluxos que fazem push na `main` compartilham um grupo de
+  `concurrency`.
 
 ## [0.10.0] — 2026-11-22 · DOI [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715)
 
