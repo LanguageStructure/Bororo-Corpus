@@ -17,6 +17,18 @@
    "counts_en": "11,207 units · 2,247 with translation"
   },
   {
+   "group": "textos",
+   "name": "pao-kurirewu-bataru.tsv",
+   "path": "docs/downloads/pao-kurirewu-bataru.tsv",
+   "url": "downloads/pao-kurirewu-bataru.tsv",
+   "format": "TSV (UTF-8)",
+   "bytes": 2305525,
+   "pt": "Novo Testamento Pao Kurirewu Bataru Kurirewu (© 2019 Wycliffe Bible Translators), ortografia adaptada ao CorBo. Licença própria: CC BY-NC-ND 4.0 (uso não comercial), não CC BY 4.0.",
+   "en": "New Testament Pao Kurirewu Bataru Kurirewu (© 2019 Wycliffe Bible Translators), orthography adapted to CorBo. Separate license: CC BY-NC-ND 4.0 (non-commercial), not CC BY 4.0.",
+   "counts_pt": "8.281 unidades",
+   "counts_en": "8,281 units"
+  },
+  {
    "group": "anotacao",
    "name": "CorBo.conllu",
    "path": "CorBo/Corpus_Files/CorBo.conllu",
@@ -94,7 +106,7 @@
    "path": "docs/data/statistics-summary.json",
    "url": "data/statistics-summary.json",
    "format": "JSON",
-   "bytes": 2641,
+   "bytes": 2705,
    "pt": "Resumo estatístico: tokens por coleção, classes gramaticais, totais.",
    "en": "Statistical summary: tokens per collection, parts of speech, totals.",
    "counts_pt": "",

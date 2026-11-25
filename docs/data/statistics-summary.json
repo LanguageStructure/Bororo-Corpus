@@ -1,9 +1,14 @@
 {
  "generated": "2026-11-25",
- "units": 11207,
- "tokens": 262216,
- "types": 17756,
+ "units": 19488,
+ "tokens": 539117,
+ "types": 21024,
  "collections": [
+  [
+   "Pao Kurirewu Bataru Kurirewu",
+   8281,
+   276901
+  ],
   [
    "Bakaru Maiwu",
    7874,
@@ -183,8 +188,8 @@
  "groups": [
   [
    "Novo Testamento",
-   7874,
-   156125
+   16155,
+   433026
   ],
   [
    "Documentary texts",

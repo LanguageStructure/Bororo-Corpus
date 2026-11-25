@@ -35,6 +35,17 @@ def main():
     units = json.loads((DOCS / "data/corbo-units.json").read_text(encoding="utf-8"))
     out_dir = DOCS / "downloads"
     out_dir.mkdir(exist_ok=True)
+    # Unidades com licença própria (ex.: Pao Kurirewu Bataru Kurirewu, CC BY-NC-ND 4.0) ficam fora do arquivo
+    # geral, que é CC BY 4.0, e vão para arquivos separados com a licença no nome da descrição.
+    third = [u for u in units if u.get("license")]
+    units = [u for u in units if not u.get("license")]
+    pkb = [u for u in third if u.get("collection") == "Pao Kurirewu Bataru Kurirewu"]
+    if pkb:
+        with (out_dir / "pao-kurirewu-bataru.tsv").open("w", encoding="utf-8", newline="") as fh:
+            w = csv.writer(fh, delimiter="\t", lineterminator="\n")
+            w.writerow(["id", "book", "chapter", "verse", "bororo", "license"])
+            for u in pkb:
+                w.writerow([u["id"], u.get("book", ""), u.get("chapter", ""), u.get("verse", ""), " ".join(str(u.get("b") or "").split()), u["license"]])
     par = out_dir / "corbo-parallel.tsv"
     with par.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh, delimiter="\t", lineterminator="\n")
@@ -57,6 +68,13 @@ def main():
         "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
         f"{len(units):,} unidades · {with_pt:,} com tradução".replace(",", "."),
         f"{len(units):,} units · {with_pt:,} with translation")
+    if pkb:
+        add("textos", "docs/downloads/pao-kurirewu-bataru.tsv", "downloads/pao-kurirewu-bataru.tsv", "TSV (UTF-8)",
+            "Novo Testamento Pao Kurirewu Bataru Kurirewu (© 2019 Wycliffe Bible Translators), ortografia adaptada ao CorBo. "
+            "Licença própria: CC BY-NC-ND 4.0 (uso não comercial), não CC BY 4.0.",
+            "New Testament Pao Kurirewu Bataru Kurirewu (© 2019 Wycliffe Bible Translators), orthography adapted to CorBo. "
+            "Separate license: CC BY-NC-ND 4.0 (non-commercial), not CC BY 4.0.",
+            f"{len(pkb):,} unidades".replace(",", "."), f"{len(pkb):,} units")
     canon = ROOT / "CorBo/Corpus_Files/CorBo.conllu"
     s, t = count_conllu(canon)
     add("anotacao", "CorBo/Corpus_Files/CorBo.conllu", RAW + "CorBo/Corpus_Files/CorBo.conllu", "CoNLL-U",
