@@ -33,7 +33,7 @@ def dataset():
                         "CoNLL-U annotation following Universal Dependencies. "
                         + (f"{stats.get('units', 0):,} documentary units, {stats.get('tokens', 0):,} tokens." if stats else "")),
         "url": BASE, "sameAs": [f"https://doi.org/{DOI}", "https://github.com/LanguageStructure/Bororo-Corpus"],
-        "identifier": f"https://doi.org/{DOI}", "version": "0.10.1",
+        "identifier": f"https://doi.org/{DOI}", "version": "0.10.2",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {"@type": "Person", "name": "Fabrício Ferraz Gerardi", "identifier": "https://orcid.org/0000-0002-1438-7336"},
         "inLanguage": ["bor", "pt"],
