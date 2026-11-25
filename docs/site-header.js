@@ -7,6 +7,7 @@
     ['Corpus', [
       ['catalogo.html', 'Catálogo de textos'],
       ['boe-ero.html', 'Boe Ero'],
+      ['enciclopedia-bororo-ii.html', 'Enciclopédia Bororo II'],
       ['oieigo.html', 'Oiegos'],
       ['catalogo.html#biblicos', 'Textos bíblicos'],
       ['dicionario.html', 'Dicionário'],

@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; PKB=ROOT/'CorBo_vNext/texts/pao-kurirewu-bataru'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CORBO_CONLLU=ROOT/'CorBo/Corpus_Files/CorBo.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 BIBOR=ROOT/'CorBo_vNext/texts/biblia-oral/biblia_oral_interlinear.tsv'
+ENC2=ROOT/'CorBo_vNext/texts/enciclopedia-bororo-ii'
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
 def normalize_bororo_y(s):
  return str(s or '').replace('Y','U').replace('y','u')
@@ -638,6 +639,27 @@ def ester_units():
    'reviewed':False,'status':'provisional'})
  return out
 
+def enciclopedia_ii_units():
+ """Enciclopédia Bororo II (Lendas): frase bororo na ortografia do CorBo + tradução numerada; forma impressa em `source`."""
+ p=ENC2/'enciclopedia_ii_parallel.tsv'
+ if not p.exists():return []
+ rows=tsv(p);require(rows,['id','lenda','titulo','secao','numero','source','bororo','portuguese'],p)
+ return [{'id':r['id'].strip(),'b':r['bororo'].strip(),'source':r['source'].strip(),'p':(r.get('portuguese') or '').strip(),'collection':'Enciclopédia Bororo II','group':'Documentary texts','lenda':int(r['lenda']),'title':r['titulo'].strip(),'section':r['secao'].strip(),'number':int(r['numero']),'page':r.get('pagina',''),'translation_page':r.get('pagina_traducao',''),'notes':[int(x) for x in (r.get('notas') or '').split(',') if x],'editorial_note':(r.get('editorial_note') or '').strip(),'reviewed':False,'status':'provisional'} for r in rows]
+def enciclopedia_ii_texts():
+ """Introdução, narrativa, variantes, notas, legendas e células interlineares, por lenda (docs/enciclopedia-bororo-ii.html)."""
+ par=ENC2/'enciclopedia_ii_parallel.tsv'
+ if not par.exists():return {'lendas':[]}
+ lendas={}
+ for r in tsv(par):
+  ln=int(r['lenda']);lendas.setdefault(ln,{'lenda':ln,'title':r['titulo'],'bororo_title':r.get('texto_bororo_titulo',''),'translation_title':r.get('titulo_traducao',''),'editorial':[],'notes':[],'cells':{}})
+ for r in tsv(ENC2/'enciclopedia_ii_editorial.tsv'):
+  lendas[int(r['lenda'])]['editorial'].append({'type':r['tipo'],'label':r['rotulo'],'page':r['pagina'],'text':r['texto']})
+ for r in tsv(ENC2/'enciclopedia_ii_notas.tsv'):
+  lendas[int(r['lenda'])]['notes'].append({'n':int(r['nota']),'page':r['pagina'],'units':[x for x in r['unidades'].split(',') if x],'text':r['texto']})
+ for r in tsv(ENC2/'enciclopedia_ii_interlinear.tsv'):
+  ln=int(r['unit_id'].split('-')[3]);lendas[ln]['cells'].setdefault(r['unit_id'],[]).append([r['bororo_norm'],r['bororo'],r['glosa'],int(r['nota']) if r['nota'] else None,r.get('ligada')=='1'])
+ return {'collection':'Enciclopédia Bororo II','source':'Albisetti, C. & Venturelli, A. J. Enciclopédia Bororo, vol. II: Lendas e antropônimos (1969)','lendas':[lendas[k] for k in sorted(lendas)]}
+
 def main():
  if not CORBO_CONLLU.is_file():
   raise SystemExit(f'CoNLL-U principal ausente: {CORBO_CONLLU}. Publique o arquivo antes de reconstruir os indices.')
@@ -660,11 +682,12 @@ def main():
    source=(r.get('source') or '').strip()
    reviewed=(r.get('reviewed') or '').strip()
    biboral.append({'id':r['id'].strip(),'b':reviewed or source,'source':source,'p':(r.get('portuguese_reviewed') or r.get('portuguese') or '').strip(),'collection':'Marigudu','group':'Documentary texts','title':'Marigudu','subtitle':'Criação segundo a Bíblia','reviewed':False,'status':'provisional','editorial_note':(r.get('editorial_note') or '').strip()})
- bib=bible_units();bm=bakaru_units();pkb=pkb_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+pkb+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+judite_units()+ester_units()+esdras_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ enc2=enciclopedia_ii_units();bib=bible_units();bm=bakaru_units();pkb=pkb_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+enc2+bib+biboral+bm+pkb+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+judite_units()+ester_units()+esdras_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'pao-kurirewu-bataru-units.json':pkb,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
+ outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'enciclopedia-bororo-ii-units.json':enc2,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'pao-kurirewu-bataru-units.json':pkb,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  write_nt_parallel(bm,pkb)
+ (OUT/'enciclopedia-bororo-ii-texts.json').write_text(json.dumps(enciclopedia_ii_texts(),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  fs=forms(allu)
  by_collection=Counter(u.get('collection') or '(sem coleção)' for u in allu)
  by_group=Counter(u.get('group') or '(sem grupo)' for u in allu)

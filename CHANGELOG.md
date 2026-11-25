@@ -5,6 +5,14 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+### Textos
+- **Nova coleção *Enciclopédia Bororo II* (Lendas)**, do vol. II da *Enciclopédia Bororo* (Albisetti & Venturelli, 1969).
+  Primeira lenda: *A grande inundação* (pp. 3–23), 65 frases bororo com a tradução numerada da Enciclopédia, 38 notas,
+  introdução, narrativa e duas variantes. Bororo na ortografia do CorBo (sem diacríticos, sem hífens, *-u* após vogal
+  = *-wu*; *nure* e *rogu* ligados à palavra anterior); a forma impressa fica em `source`. Transcrição em `CorBo_vNext/texts/enciclopedia-bororo-ii/transcricao/`,
+  tabelas geradas por `scripts/build_enciclopedia_ii.py`; leitor em `docs/enciclopedia-bororo-ii.html` (texto paralelo,
+  palavras clicáveis, notas, introdução e narrativa, glosas da Enciclopédia opcionais).
+
 ## [0.10.2] — 2026-11-25
 
 ### Anotação (CoNLL-U)

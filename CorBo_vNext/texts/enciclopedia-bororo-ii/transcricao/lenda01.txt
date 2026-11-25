@@ -1,0 +1,781 @@
+@lenda 1
+@titulo A GRANDE INUNDAÇÃO
+@pagina 3
+@intro
+Julgamos conveniente iniciarmos a publicação das "Lendas Bororo" com a narrativa de uma inundação geral que destruiu todos os membros do grupo, exceto um, chamado Meriri Poro. Desta calamidade universal surgiu uma nova nação bororo, em tudo semelhante à anterior, cujos heróis e feitos são celebrados nas lendas que constituem seu patrimônio histórico e literário.
+A estória parece marcar o comêço do que poderíamos chamar de "período lendário" da tribo, pois todos os outros contos referem-se a acontecimentos posteriores a ela. Nestes, vivem grandes personagens, verdadeiros guias e legisladores de seu povo; desenrolam-se as principais gestas da comunidade e ditam-se as leis da vida clânica e social.
+@narrativa
+Estavam os Bororo a apanhar peixes numa armadilha que haviam preparado num rio, quando um filho do índio Meriri Poro apareceu no meio dêles. Seu pai ficara na aldeia a fabricar flechas, em vêz de acompanhar os pescadores. Logo que os índios viram o menino, ofereceram-lhe um pacupeba, comentando malignamente: "Olha aqui os genitais de tua mãe!"
+Grandemente entristecido pela zombaria de que tinha sido alvo, regressou à aldeia e foi logo relatar a Meriri Poro o desafôro recebido.
+Êste, profundamente ofendido e obcecado pelo desejo de vingança, apanhou suas armas e correu ao lugar da pescaria. Lá chegando, viu apenas o espírito Jakomea Kujagureu e, sem refletir nas conseqüências que poderíam advir pelo desabafo de sua cólera, o feriu com certeiro flechaço.
+Imediatamente o rio, num estrondo aterrador, começou a transbordar e a subir ameaçadoramente, (A) tanto assim que Meriri Poro teve apenas tempo de apanhar um pequeno tição e fugir ao cume do vizinho morro Toroari. Vendo que as águas encalçavam e prometiam tragá-lo, aqueceu pedras com o fogo do tição e as atirou ao rio enfurecido. Êste, evaporando pelo calor dos seixos, retomou paulatinamente seu nível normal, deixando descoberto o morro Toroari e as terras que havia alagado.
+Meriri Poro desceu e constatou que nada mais ficara da aldeia e dos Bororo (B). Depois de muito andar, avistou um veado Pobogo. Era uma fêmea. Da união com ela, teve alguns filhos que eram animais como a mãe. A pouco e pouco, porém, em partos sucessivos, nasciam
+@pagina 4
+sêres cada vêz mais humanos e belos, assim que, em breve, a terra repovoou-se de muitos Bororo.
+O supérstite distribuiu logo, homens e mulheres, em choupanas, dispostas numa aldeia com antes da inundação. Foi assim que êle poude restabelecer a tribo, com uma taba bem povoada e organizada nos moldes tradicionais.
+@variante VARIANTE 1. | [Substitui o trecho compreendido entre (A) e (B)]
+Meriri Poro, castigado pela má ação que praticara, morreu afogado juntamente com os outros Bororo, dos quais salvou-se apenas Jerigi Otojiwu. Êste, cingindo um lindo diadema de penas e levando um tição, fugiu ao cume do morro Toroari. Vendo que estava para afogar-se, aqueceu algumas pedras ao fogo do tição e as atirou às águas, que começaram logo a diminuir. Poude assim descer do morro e constatar que nada mais ficara da aldeia e dos Bororo.
+@variante VARIANTE 2. | [Introduzida depois da Variante 1., completa a lenda, segundo o ponto de vista de alguns informantes]
+Jerigi Otojiwu, depois que desceu do morro, edificou novamente a sua choupana, no mesmo lugar em que a inundação a destruíra.
+Um dia, ao romper da aurora, saiu ao terreiro e começou a chamar os Bororo, assobiando: "Ki, ki, ki, ki; acordai, pois a aurora já chegou!" Mas os índios não respondiam, sinal evidente de que não havia ninguém.
+Jerigi Otojiwu porém, não desistia, e tôdas as madrugadas assobiava, convidando seus companheiros. Certa vez ouviu um assobio de resposta, mas não viu nem Bororo e nem choupanas.
+Persistindo em seu intuito, ûa manhã avistou um renque de choupanas construídas no lugar tradicional, formando uma aldeia.
+Em dias sucessivos assobiou ainda e saiu de sua choupanha, empunhando um tição. Finalmente um índio apareceu na frente da própria choça, respondendo ao assobio e segurando, também êle, um tição. Foi êste o sinal para a erupção de uma verdadeira multidão de Bororo do interior da choupana central.
+Jerigi Otojiwu teve assim o merecimento de fazer reaparecer os Bororo sôbre a terra, com seu assobio.
+@pagina 6
+@texto AROE JAKOMEA PO | [(DO) ESPÍRITO JAKOMEA (A) ÁGUA]
+@s 1
+Ia (1) | Um
+Aroroedu-re | Aroroedu
+ie-re | nome tinha
+Meriri Poro. | Meriri Poro.
+@s 2
+Boe | (Os) Bororo
+nure | fazem
+kago (2) | (de um) pari
+bu, | colocação,
+icare | e
+ime | (os) homens
+e-to (3) | sua ida (fazem)
+kago | pari
+kae. | a.
+@s 3
+Du-rekodaji-re | (A) êles atrás
+Meriri Poro | (de) Meriri Poro
+onaregedu | (um) filho
+rekodu-re, | corrida fêz,
+icare | e (fêz)
+aregodo (4) | chegada
+kago | pari
+kae, | a,
+ime | (dos) homens
+e-regodaji. | (d)êles atrás.
+@s 4
+Icare | E
+ime-re | (os) homens fizeram
+tug-eragu | seu apanhamento
+kare | (de) peixes
+ei | êles
+kago | pari
+piji, | de,
+icare | e
+e-re | êles
+kare | (os) peixes
+e-pedo | se repartiram
+pui. | reciprocamente.
+@s 5
+Dutabo-re | Depois
+icare | e
+e-re | êles fizeram
+ia-ge | (de) alguns
+e-magu | sua doação
+nogedu | menino
+rogu | (com) pequenez
+ae, | a,
+jamedu. | também.
+@s 6
+Dutabo-re | Depois
+icare | e
+e-wadaru okeadu | sua zombaria
+pega-re | (com) ruindade fizeram.
+@pagina 8
+ji. | (d)êle.
+@s 7
+Ia (5) | Algun(s)
+e'go-re: | sua palavra fizeram:
+"Ak-a-do (6) | "Teu rosto fazer
+oino-re | assim
+a-ce | (de) tua mãe
+omogo-re." | (aos) genitais."
+@s 8
+Ino, | Assim (disseram),
+ia | (mostrando) um
+akurara-ji. | pacupeba êle.
+@s 9
+Dukodi | Por isso
+icare | e
+nogedu | (o) menino
+rogu | (com) pequenez
+kiarigodu-re, | tristeza teve,
+mare | mas
+mako | palavra
+ka-re. | não fêz.
+@s 10
+Icare | E
+Boe | (os) Bororo
+ime | homens
+e-tu-re | sua ida fizeram
+kago | pari
+piji. | de.
+@s 11
+Ecewu | Aquêle
+nogedu | menino
+rogu | (com) pequenez
+kodu-re | ida fêz
+woe, | lá,
+ecewu | aquela
+e-re | êles (que) fizeram
+maku | doação
+pu-d-ai-wu | reciprocicamente êle a, aquela
+akuraroe | (dos) pacupebas
+e'bo. | êles com.
+@s 12
+Kodo | Ida (fêz)
+ji... | até...
+baa-to, | aldeia cm,
+icare | e
+aregodu-re | chegada fêz
+ecewu (7) | aquêle(s)
+kare | peixes
+e'bo. | êles com.
+@s 13
+U-o | Seu pai,
+rema, | em verdade,
+kodo | ida
+ka-re | não fizera
+ime | homens
+e'bo; | êles com;
+u-nure | êle
+tu-dugo | sua flecha
+pemegado. | prepara.
+@s 14
+Icare | E
+onaregedu | (seu) filho
+ako-re: | palavra fêz:
+"I-ogwa, | "Meu pai,
+i-ogwa! | meu pai!
+Ime | (Os) homens
+e'go-re | sua palavra fizeram
+awu (8) | êste(s)
+akuraroe | pacupebas
+e-reore-ie | êles como, que
+i-muga | (de) minha mãe
+omogo-re." | genitais eram."
+@s 15
+U-o | Seu pai
+ako-re: | palavra fêz:
+"U, | "Sim,
+kirabodu!" | ai dêles!"
+@s 16
+Icare | E
+u-o-re | seu pai fêz
+tug-eragu | seu apanhamento
+"cai" (9) | "cai"
+@pagina 10
+tu-dugo-ji | (de) sua flecha
+tu-woeiga-ji; | (de) seu arco êle;
+icare | e
+u-tu-re | sua ida fêz
+Boe | (dos) Bororo
+e-ibagi (10), | (d)êles atrás,
+ime | (dos) homens
+e-ibagi, | (d)êles atrás
+kago | pari
+kae. | a(o).
+@s 17
+Icare | E
+j'oku | seu ôlho (fêz)
+buto | queda
+"tai" (11) | "tai"
+aroe (12) | (do) espirito
+Jakomea Kujagureu | Jakomea Kujagureu
+tu-badu-i | (que) sua estada era
+kago | pari
+tada. | dentro.
+Boe (13) | Coisa
+ka-re! | não era!
+@s 18
+Ecewu (14) | (D)aquele(s)
+ime | homens
+e'go (15) | sua palavra
+ino-du | assim
+metu | colocação
+pega-re | (com) ruindade tinha
+tada; | dentro (de si);
+kodi-re | por isso
+u-ka-re (16) | êle não
+tu-magado | se refletiu
+tu-magado | se refletiu
+j'oki. | êle sôbre
+@s 19
+U-re | Êle fêz
+tug-eragu | seu apanhamento
+"cai" (9) | "cai"
+tu-dugeru-ji (17), | (de) sua flecha ela,
+u-re | êle fêz
+bu | colocação
+kajeje. | sôbre (o espírito).
+@s 20
+Dukeje (18) | Então
+icare | e
+pobo | (a) água
+ako-re: | grito fêz:
+"Pom"! | "Pom"!
+@s 21
+Boe (13) | Coisa
+ka-re! | não era!
+@s 22
+Pobo | (A) água
+ro-re | ação fêz
+"grrr... (19) | "grrr...
+grrr... | grrr...
+grrr..." | grrr..."
+baru-to. | céu em.
+@s 23
+Dukodi | Por isso
+icare | e
+Meriri Poro | Meriri Poro
+ro-re | ação fêz
+"grrr..." (20) | "grrr..."
+icare | e
+tu-regodu-re (21) | sua fuga fazia
+pobo | água
+ai, | a,
+kodi. | porque.
+@s 24
+Meriri Poro | Meriri Poro
+u-re | êle fêz
+j'oru | (de) seu fogo
+rogu | (com) pequenez
+to (22) | carregamento
+@@TRADUCAO
+@titulo_trad (A) ÁGUA (DO) ESPÍRITO JAKOMEA
+@pagina 7
+@t 1 Um Aroroedu tinha nome Meriri Poro.
+@t 2 (Os) Bororo fizeram colocação (de um) pari e (os) homens fizeram sua ida a(o) pari.
+@t 3 (E) atrás (d)êles fêz corrida (o) filho (de) Meriri Poro e (fêz) chegada a(o) pari, atrás (dos) homens.
+@t 4 E (os) homens fizeram seu apanhamento (de) peixes êles, no pari, e êles recìprocamente se repartiram (os) peixes.
+@t 5 E depois êles fizeram sua doação (de) alguns também a(o) menino (com) pequenez.
+@t 6 E depois fizeram sua zombaria (d)êle (com) ruindade.
+@n 1 Ia Aroroedu-re ie-re Meriri Poro, Um Aroroedu nome tinha Meriri Poro, i.e., Um membro do clã dos Aroroe chamava-se Meriri Poro. | Sabe-se que êste índio pertencia ao sub-clã dos Aroroe Cebegiwuge, embora no → I v., pág. 430, o tenhamos registrado como pertencendo ao sub-clã dos Aroroe Cobugiwuge, de acôrdo com a opinião de alguns informantes.
+@n 2 kago, pari. É uma armadilha para pescar → I v. págs. 711-2.
+@n 3 e-to sua ida. Vart. de e-tu.
+@n 4 aregodo chegada. Vart. de aregodu.
+@pagina 9
+@t 7 Algun(s) fizeram sua palavra. "Olha tu assim (os) genitais (de) tua mãe."
+@t 8 Assim (falavam, mostrando) um pacupeba êle.
+@t 9 E por isso (o) menino (com) pequenez teve tristeza, mas não fêz palavra.
+@t 10 E (os) Bororo homens fizeram sua ida (afastando-se) do pari.
+@t 11 Aquêle menino (com) pequenez ida fêz lá com êles, êles (que) fizeram aquela doação a êle (dos) pacupebas.
+@t 12 (Fêz) ida até... à aldeia, e fêz chegada com aquêles peixes.
+@t 13 Seu pai, em verdade, não fizera ida com (os) homens: êle preparava sua flecha.
+@t 14 E (o) filho fêz palavra: "Meu pai, meu pai! (Os) homens fizeram sua palavra que êstes pacupebas são êles como (os) genitais (de) minha mãe."
+@t 15 Seu pai fêz palavra: "Sim, ai dêles!"
+@t 16 E seu pai fêz seu apanhamento "cai" (de) sua flecha ela, (de) seu arco êle; e fêz sua ida atrás (do caminho dos) Bororo, atrás (do caminho dos) homens a(o) pari.
+@n 5 Ia, Algum. Sing., pelo pl. = Iage, Alguns.
+@n 6 Ak-a-do Teu rosto fazer i.e., Faze teu rosto. Idiotismo: Olha.
+@n 7 ecewu, aquêle. Sing., pelo pl. = ecewuge, aquêles.
+@n 8 awu, êste. Sing., pelo pl. = awuge, êstes.
+@n 9 cai, f. que indica rapidez e indignação.
+@pagina 11
+@t 17 E seu ôlho (fêz) queda "tai" (sôbre o) espírito Jakomea Kujagureu (que) tinha sua estada dentro (do) pari. Não há comentários!
+@t 18 (A) palavra (d)aquêles homens (tinha) estada dentro (dêle), assim, (com) ruindade; por isso êle não refletiu, não refletiu sôbre êle.
+@t 19 Êle fêz (seu) apanhamento "cai" (de) sua flecha ela; êle fêz colocação "tai" sôbre (o espírito).
+@t 20 E então a água fêz (um) grito: "Pom"!
+@t 21 Não há comentários!
+@t 22 (A) água fêz ação "grrr... grrr... grrr..." para (o) céu.
+@t 23 E por isso Meriri Poro fêz ação "grrr...", porque fêz sua fuga da água.
+@t 24 Meriri Poro fêz carregamento (de) seu fogo (com) pequenez e fêz corrida a(o) cume (do) morro Toroari.
+@n 10 e-ibagi, (d)êles atrás i.e. atrás do caminho por onde passaram os pescadores, i.e., ao lugar da pescaria.
+@n 11 tai, f. que indica rapidez, satisfação.
+@n 12 aroe Jakomea Kujagureu, espírito Jakomea Kujagureu. | Meriri Poro, gravemente ofendido pelas palavras dos companheiros, corre ao lugar da pescaria a fim de vingar-se. Lá chegado, encontra o espírito Jakomea Kujagureu e, cego pela cólera, o fere com uma flechada, sem refletir nas graves conseqüências que poderiam advir a êle e à tribo. Alguns informantes afirmam que os espíritos eram dois: Jakomea Kujagureu e Jakomea Coreu, dos quais um foi flechado. Conforme outros, ambos foram ofendidos, → I v., págs. 430-1.
+@n 13 Boe ka-re, coisa não era. Idiotismo: Não há comentários. | Esta expressão pode adquirir as mais variadas significações, segundo as circunstâncias.
+@n 14 Ecewu (D)aquêle. Sing., pelo pl. = Ecewuge, (D)aquêles.
+@n 15 e'go... tada. Conceito: As palavras zombeteiras contra a espôsa, relatadas a Meriri Poro, feriam ainda seus ouvidos e o moviam a uma ação vingadora.
+@n 16 u-ka-re ... j'oki. Conceito: Meriri Poro não refletiu sôbre a ofensa que faria ao espírito que aparecera.
+@n 17 tu-dugeru-ji sua flecha ela. | Dugeru, son. de tugeru, é um tipo de → tugo, flecha, I v., pág. 952.
+@n 18 Dukeje, etc. Conceito: O narrador relata sucintamente as conseqüências da vingança do espírito gravemente ofendido. Um estrondo (= pom) marca o início de uma inundação geral com a subida tumultuosa das águas do rio.
+@n 19 grrr... grrr... grrr... Fs. que pretendem imitar a tumefação das águas que subiam amedontradoramente.
+@n 20 grrr... F. que pretende imitar o barulho e a rapidez de Meriri Poro, ao fugir.
+@n 21 tu-regodu-re pobo ai, sua fuga fazia água a, i.e. fazia sua fuga à água. Idiotismo: Meriri Poro fugia da água que o encalçava.
+@n 22 to, carregamento. | Meriri Poro, fugindo, poude levar um pequeno tição.
+@@INTERLINEAR
+@pagina 12
+icare | e
+rekodu-re | corrida fêz
+Toroari (23) | (de) Toroari
+ri | morro
+ao | cume
+kae. | a.
+@s 25
+Icare | E
+j'okugudugodu-re | seu mêdo tinha
+pobo | água
+aregodu-re | chegada fizesse
+pu-d'ai | (com) reciprocidade êle a,
+duji; | que;
+dukodi | por isso
+icare | e
+u-re | êle fêz
+tori (24) | de pedra
+u-ru | (com) seu calor
+barigu | arremêsso
+kuri | logo
+pobo-to. | água em.
+@s 26
+Dukodi | Por isso
+icare | e
+u-re | êle
+pobo-do | água fêz
+tu-wuredo | ela descer
+tui-eda | sua morada
+kae. | a.
+@s 27
+Icare | E
+pobo | (a) água fêz
+tu-rawuje | sua descida
+Toroari | Toroari
+ri (25) | morro
+j'oki, | êle sôbre,
+moto | terra
+kae, | a,
+pugeje. | novamente.
+@s 28
+Icare | E
+Meriri Poro | Meriri Poro
+u-re | êle fêz
+tu-rawuje | sua descida
+tori | morro
+j'oki, | êle sôbre,
+moto | terra
+bogai, | a,
+pugeje. | novamente.
+@s 29
+Aregodu-re | Chegada fêz
+moto | terra
+kae. | a.
+@s 30
+Boe | Coisa
+ka-re (13)! | não era!
+@s 31
+Boe | (Dos) Bororo
+e-wai | (d)êles choupana
+bokwa-re; | não era;
+pobo | (a) água
+u-re | ela
+boe | coisa
+j'amedu | ela tôda
+akedu-do, | acabou,
+okwado | ocultou
+rugadu. | em verdade.
+@s 32
+Ia | Um
+meriji-re | dia
+icare | e
+j'orudu-re | sua visão teve
+ia | (de) um
+Pobogo-ji (26) | Pobogo êle
+icare | e
+Pobogo-re | Pobogo fazia
+tu-regodu | sua fuga
+iagu | (com) iminência
+tu-pagudu | (de) seu mêdo
+koia. | (por) causa.
+@s 33
+Mare | Mas
+Meriri Poro | Meriri Poro
+ako-re | palavra fêz
+rekodu | fuga (fizesse)
+ka-iagu: | não que;
+dukodi | por isso
+icare | e
+Pobogo | Pobogo
+@pagina 14
+rekodu | fuga
+ka-re. | não fêz.
+@s 34
+Icare | E
+u-re (27) | êle
+t'a-do | sua frente fêz
+ji | (a) êle
+tuje. | bem.
+@s 35
+Boekimo | Não,
+rema! | porém!
+Pobogo | Pobogo
+aredu, | fêmea (era),
+rabodu. | em verdade.
+@s 36
+Dukodi | Por isso
+icare | e
+u-re | êle
+tu-metuia-do | se fêz companheiro
+ema. | (d)ela.
+@s 37
+U-re | Êle
+t'oreduje-do | sua espôsa fêz
+ema. | ela.
+Icare | E
+ore | filhos
+e-wodu | seu nascimento
+e-wodu-re, | seu nascimento tinham,
+mare | mas (eram)
+barege | animais
+rugadu. | em verdade.
+@s 38
+Icare | E
+ia (28) | algun(s)
+boiwuge-re | últimos eram
+icare | e
+e-pemega-re | sua beleza tinham
+duku, | mais ou menos,
+duku, | mais ou menos,
+je. | aí.
+@s 39
+Du-wuge-re | Êles êstes
+icare | e
+u-re | êle fêz
+ime | (dos) homens
+e-wu | sua colocação
+tu | aí
+tu | acolá
+areme (29) | (das) mulheres
+e-wugeje | elas sôbre
+ecewu | (n)aquêle
+Boe | (dos) Bororo
+e-muga-ji, | seu lugar êle,
+pugeje. | novamente.
+@s 40
+Nowuge | Êstes
+et-ore-re (30) | seus filhos tiveram
+icare | e
+e-re | êles eram
+nono, | assim,
+Boe | Bororo
+e-reore, | êles como eram,
+rugadu. | mesmo.
+@s 41
+Dukodi | Por isso
+icare | e
+Meriri Poro | Meriri Poro
+pugeje | novamente
+u-re | êle fêz
+Boe | (dos) Bororo
+e-towuje. | sua criação.
+@secao VARIANTE 1. | [Substitui os N.os 24 a 28, inclusive]
+@s 42
+Mare | Mas
+ona, | inùtilmente,
+rugadu. | em verdade.
+@s 43
+Jerigi Otojiwu (31) | Jerigi Otojiwu
+@@TRADUCAO
+@pagina 13
+@t 25 E tinha seu mêdo que (a) água fizesse chegada (com) reciprocidade a êle; e por isso êle fêz logo arremêsso (de uma) pedra (com) seu calor na água.
+@t 26 E por isso êle fêz (a) água descer para (a) sua morada.
+@t 27 E (a) água fêz novamente secagem; (e a) água fêz novamente sua descida sôbre (o) morro Toroari, até à terra.
+@t 28 E Meriri Poro novamente fêz sua descida sôbre (o) morro até (a) terra.
+@t 29 Fêz chegada à terra.
+@t 30 Não há comentários!
+@t 31 (A) choupana (dos) Bororo não era; (a) água ela acabou tôdas (as) coisas, em verdade ocultou (tudo).
+@t 32 E um dia teve sua visão (de um) Pobogo e (o) Pobogo fêz sua fuga logo (por) causa (do) mêdo.
+@t 33 Mas Meriri Poro fêz palavra que não (fizesse) fuga; e, por isso Pobogo não fêz fuga.
+@n 23 Toroari ri, Toroari morro, i.e., morro Toroari. | É o atual morro Santo Antônio, perto e ao sul, de Cuiabá. É uma elevação isolada que, nas periódicas enchentes do rio homônimo emerge do pantanal circunstante.
+@n 24 tori u-ru pedra (com) seu calor, i.e., pedra quente. Conceito: Meriri Poro aqueceu pedras com o tição e as atirou às águas que, evaporando pelo calor, voltaram ao nível normal.
+@n 25 ri j'oki, morro êle sôbre, i.e., sôbre o morro, i.e., pelas vertentes do morro.
+@n 26 Pobogo-ji, Guaçuetê êle. | Trata-se de um guaçuetê fêmea, totem do clã dos Kie, por conseguinte, da metade oposta à de Meriri Poro. Êste, a fim de restabelecer a tribo completamente destruída, fecunda a fêmea que por isso adquire grande importância, por se tornar a progenitora de todos os Bororo.
+@pagina 15
+@t 34 E êle o olhou bem.
+@t 35 Não (era um Pobogo macho), em verdade! Em verdade (era um) Pobogo fêmea.
+@t 36 E por isso êle se fêz companheiro (d)ela.
+@t 37 Êle a fêz sua espôsa. E (os) filhos tinham seu nascimento, seu nascimento, mas em verdade (eram) animais.
+@t 38 E alguns (que) eram últimos tinham sua beleza mais ou menos, mais ou menos, aí.
+@t 39 E êle fêz sua colocação (d)êles, (d)êstes homens aí, acolá, junto com (as) mulheres, novamente, (n)aquele seu lugar (dos) Bororo (de antes).
+@t 40 Êstes tiveram seus filhos e êles eram mesmo assim como Bororo.
+@t 41 E por isso Meriri Poro fêz novamente (dos) Bororo, sua criação.
+@secao_trad VARIANTE 1.
+@t 42 Mas inùtilmente, em verdade.
+@t 43 Jerigi Otojiwu, um sòmente, êle se salvou (da) água (do) espírito Jakomea.
+@n 27 u-re t'a-do, êle fêz seu rosto. Idiotismo: Olhou.
+@n 28 ia, um. Sing., pelo pl. = iage, alguns.
+@n 29 areme e-wugeje, mulheres elas sôbre, i.e., sôbre as mulheres i.e., juntamente com as mulheres. Conceito: Meriri Poro colocou homens e mulheres numa nova aldeia, distribuídos em clãs e metades, como antes da inundação.
+@n 30 et-ore-re, seus filhos tiveram, i.e., geraram filhos. | Para maiores noções sôbre a descendência dêsse casal → I v., págs. 430-4.
+@n 31 Jerigi Otojiwu, n.p. de um importante chefe dos Baado Jebage Cobugiwuge Cobugiwuge. | Nesta variante afirma-se que Meriri Poro morreu na catástrofe, juntamente com os outros Bororo, tendo-se salvado apenas Jerigi Otojiwu.
+@@INTERLINEAR
+@pagina 16
+mito tuje-re | um sòmente
+u-re | êle
+c'inorudo | se salvou
+aroe | (do) espírito
+Jakomea | Jakomea
+tu-bo | sua água,
+piji. | de.
+@s 44
+Ecewu (32) | Aquêle (que)
+itogodu-re | flechada fêz
+aroe, | (ao) espírito,
+ji-wu, | êle aquêle,
+rema, | em verdade,
+u-ka-re | êle não
+c'inorudo | se salvou
+pobo, | água,
+piji. | de.
+@s 45
+Jerigi Otojiwu | Jerigi Otojiwu
+rekodu-re | fuga fêz
+tu-pariko | seu diadema
+oto | (com) ponta
+akirireu | a penugenta
+t'abo, | êle com,
+Toroari | (do) Toroari
+ri | morro
+ao | cume
+kae. | a.
+@s 46
+Icare | E
+j'okudugodu-re | seu mêdo tinha
+pobo | água
+aregodu-i | chegada fizesse
+pu-d'ae, | êle a,
+duji. | que.
+@s 47
+Dukodi | Por isso
+icare | e
+u-re | êle
+j'orugo | seu fogo fêz
+icare | e
+u-re | êle fêz
+tori | (de) pedra(s)
+u-ru | (com) seu calor
+barigu | arremêsso
+kuri, | logo,
+"co", | "co",
+pobo-to. | água em.
+@s 48
+Dukodi | Por isso
+icare | e
+u-re | êle
+pobo-do | (a) água fêz
+tu-wuredo | se descer
+tui-eda | seu lugar
+kae. | a.
+@s 49
+Icare | E
+pobo | (a) água
+bitu-re | secagem teve
+pugeje; | novamente
+pobo-re | (a) água fêz
+tu-rawuje | sua descida
+Toroari | Toroari
+ri, | morro,
+j'oki, | êle sôbre,
+moto | terra
+kae, | a,
+pugeje. | novamente.
+@s 50
+Jerigi Otojiwu-re | Jerigi Otojiwu fêz
+tu-rawuje | sua descida
+tori | morro
+j'oki, | êle sôbre
+moto | terra
+bogai, | a,
+pugeje. | novamente.
+@secao VARIANTE 2. | [Introduzida depois do N.o 50, completa a variante 1., segundo a opinião de alguns informantes]
+@pagina 18
+@s 51
+Iaboe (33) | Outros fizeram
+e-go-re | sua palavra
+jamedu | também
+Jerigi Otojiwu | Jerigi Otojiwu
+u-ie | êle que
+tu-wai | sua choupana
+mugudo | colocou
+tu-muga (34) | sua morada
+mitodu | igual
+keje, | sôbre,
+pugeje. | novamente.
+@s 52
+Ia | Um
+meriji-re | dia
+icare | e
+u-re | êle fêz
+tui-ebu | sua saída
+Boe | (dos) Bororo
+e-woadu | seu terreiro
+kae, | a,
+barogwa | aurora
+kododu-godu | aumento iminente
+keje, | quando (tinha),
+icare | e,
+ako-re: | grito fêz:
+"Ki, ki, ki, ki: (35) | "Ki, ki, ki, ki:
+barogwa | (a) aurora
+kododu." | aumento (têve)."
+@s 53
+Ino | Assim (dizia)
+t'oja | seu assobio,
+t'abo. | êle com.
+@s 54
+Mare | Mas
+Boe | (os) Bororo
+en-ojagodu | seu assobio
+ka-re | não faziam
+oca | (do) assobio
+paru-to. | fim, em.
+@s 55
+Oino-re | Assim
+ako-re | grito fazia
+"tu tu" (36), | "tu tu",
+barogwa | aurora
+kododu | aumentada
+keje. | quando.
+@s 56
+Ia | Um
+meriji-re | dia
+icare | e
+iaboe | alguns
+en-ojagodu-re, | seu assobio fizeram
+icare | e
+u-re | êle fêz
+tui-ebu, | sua saída,
+mare | mas
+Boe | Bororo
+bokwa-re, | não eram,
+bai | choupana
+bokwa-re. | não era.
+@s 57
+Ocagodu-re | Assobio fêz
+ia | um
+meriji | dia
+pugeje, | ainda,
+icare | e
+iaboe | alguns
+en-ojagodu-re, | seu assobio fizeram,
+mare | mas
+Boe | Bororo
+@@TRADUCAO
+@pagina 17
+@t 44 Aquêle (que) fêz flechada (do) espírito êle, em verdade, êle não se salvou da água.
+@t 45 Jerigi Otojiwu fêz fuga com (um) seu diadema (de) ponta(s) (a)s penugenta(s) a(o) cume (do) morro Toroari.
+@t 46 E tinha seu mêdo que (a) água fizesse chegada a êle.
+@t 47 E por isso êle fêz seu fôgo e êle fêz arremêsso (de uma) pedra (com) seu calor logo "co" na água.
+@t 48 E por isso êle fêz (a) água descer a seu lugar.
+@t 49 E (a) água teve novamente secagem; (a) água fêz novamente sua descida sôbre (o) morro Toroari para (a) terra.
+@t 50 Jerigi Otojiwu fêz sua descida novamente sôbre (o) morro, até (a) terra.
+@foto Seu pai ficara na aldeia a fabricar flechas...
+@n 32 ecewu, aquêle, i.e., Meriri Poro.
+@pagina 19
+@secao_trad VARIANTE 2.
+@t 51 Outros fizeram também sua palavra que Jerigi Otojiwu êle colocou sua choupana novamente sôbre (a) mesma sua morada.
+@t 52 E um dia êle fêz sua saída a(o) terreiro (dos) Bororo quando (a) aurora (tinha) seu aumento incipiente e fêz grito: "Ki, ki, ki, ki, a aurora fêz chegada."
+@t 53 Assim (dizia) com seu assobio.
+@t 54 Mas (os) Bororo não faziam seu assobio no fim (do) assobio (dêle).
+@t 55 Assim fazia grito "tu, tu", quando (a) aurora (era) aumentada.
+@t 56 E um dia alguns fizeram assobio, e êle fêz sua saída, mas (os) Bororo não eram, (a) choupana não era.
+@t 57 Um dia fêz ainda assobio e alguns fizeram seu assobio, mas ainda (os) Bororo não eram.
+@n 33 Iaboe, Outros, etc. Conceito: Outros narradores dizem que Jerigi Otojiwu, depois que desceu do morro, reconstruiu a sua choupana no lugar onde se erguia, antes da inundação.
+@n 34 tu-muga mitodu keje, sua morada igual sôbre, i.e., sôbre sua morada, igual à destruída.
+@n 35 Ki..., fs. que pretendem imitar o assobio articulado de Jerigi Otojiwu chamando seus possíveis companheiros. | Para maiores noções sôbre o assobio articulado → Oca, I v. pág. 824.
+@n 36 tu, tu, fs. que pretendem indicar ação freqüentativa, pois Jerigi Otojiwu repetia seu chamado tôdas as madrugadas.
+@@INTERLINEAR
+@pagina 20
+bokwa-re | não eram
+pugeje. | ainda.
+@s 58
+Bai-doge, | Choupanas,
+rugadu-re, | em verdade,
+e-mugudo | se assentavam
+"tu tu" (37) | "tu tu"
+tu-muga | seu lugar
+jamedu | também
+boe-ji, | coisa ela,
+pugeje. | ainda.
+@s 59
+U-re (27) | Êle
+t'a-do | sua frente fêz
+Boe | (dos) Bororo
+e-wai | sua choupana
+boe-to, | coisa em,
+mare | mas
+Boe | Bororo
+bokwa-re | não eram,
+rugadu. | em verdade.
+@s 60
+Ocagodu-re | Assobio fêz
+ia | uma
+barogwa | aurora
+kododu | aumentada
+keje, | quando,
+pugeje, | ainda,
+dukodi, | por isso
+icare | e
+u-re | êle fêz
+tui-ebu, | sua saída,
+j'oru (38) | seu fogo
+t'abo | êle com,
+bai mana gejewu | choupana central
+paru-to, | pé em,
+mare | mas
+boekimo-re; | em vão;
+Boe | Bororo
+e-ka-re | êles não faziam
+tui-ebu. | sua saída.
+@s 61
+Ocagodu-re | Assobio fêz
+ia | uma
+barogwa | aurora
+kododu, | aumentada,
+t'abo, | ela com,
+pugeje. | novamente.
+@s 62
+Boe | Coisa
+ka-re! | não era!
+@s 63
+Iaboe | Alguns
+en-ojagodu-re, | seu assobio fizeram
+dukodi | por isso
+icare | e
+u-re | êle fêz
+tui-ebu, | sua saída,
+j'oru | seu fogo
+t'abo, | êle com,
+pugeje. | novamente.
+@s 64
+Dukeje | Depois
+icare | e
+ia | um
+imedu-re | homem fêz
+tui-ebu | sua saída
+bai mana gejewu | choupana central
+piji, | de,
+ae, | a (êle),
+iage-re | outros fizeram
+tui-ebu | sua saída
+mito | um
+kuri, | logo,
+mito | um
+ae, | a (êle),
+icare | e
+e-maga | êles (de) abundância
+@pagina 22
+guraga-re | (com) multidão eram,
+pugeje. | novamente.
+@s 65
+Dukodi-re | Por isso
+t'oja | seu assobio
+t'abo-re, | êle com,
+icare | e
+Jerigi Otojiwu-re | Jerigi Otojiwu
+Boe | (dos) Bororo
+u-do | êle fêz
+tu-guo | (d)êles aparecimento
+awu | (n)esta
+moto-ji, | terra ela,
+pugeje. | novamente.
+@@TRADUCAO
+@pagina 21
+@t 58 Em verdade (as) choupanas se assentavam "tu, tu", tôdas elas (em) seu lugar coisa ela, novamente.
+@t 59 Êle olhou na choupana coisa, (dos) Bororo, mas (os) Bororo, em verdade, não eram.
+@t 60 Novamente fêz assobio quando uma aurora (era) aumentada e por isso êle fêz sua saída com seu fogo ao pé (da) choupana central mas em vão; (os) Bororo não faziam sua saída.
+@t 61 Novamente fêz assobio com uma aurora aumentada.
+@t 62 Não há comentários!
+@t 63 Alguns fizeram seu assobio e por isso êle fêz sua saída com seu fogo novamente.
+@t 64 E depois um homem fêz sua saída da choupana central a (êle), e outros fizeram sua saída um logo, um logo a (êle), e (assim) novamente eram êles (com) multidão (de) abundância.
+@foto ... cingindo um lindo diadema de penas...
+@n 37 tu, tu, fs. que, acompanhadas pela gesticulação do narrador, pretendem indicar o lugar das novas choupanas.
+@n 38 j'oru t'abo, seu fogo êle com, i.e., com seu fogo, i.e., com um tição na mão. | Os Bororo, muitas vêzes, levam um tição que lhes serve para inúmeras finalidades inclusive para acender o cigarro.
+@pagina 22
+@foto ... o rio... começou a transbordar...
+@pagina 23
+@t 65 E por isso Jerigi Otojiwu com seu assobio êle fêz novamente seu aparecimento (dos) Bororo (n)esta terra.
+@foto ... avistou um veado Pobogo. Era uma fêmea.
