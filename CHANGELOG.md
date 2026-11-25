@@ -16,6 +16,11 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
   traduções do NT lado a lado, alinhadas por versículo (faixas de versículos agrupadas), com dados compactos
   por livro em `docs/data/nt-parallel/`.
 - A nova coleção entra na busca e nas estatísticas do corpus documental (19.488 unidades no total).
+- Estatísticas: seletor de **recorte** (todo o corpus, sem textos bíblicos, só textos bíblicos, só NT) para
+  formas, n-grams, coleções e diversidade lexical (`statistics.html?recorte=nobib`); a seção "Textos bíblicos"
+  inclui as duas traduções do NT. Sem os textos bíblicos: 2.374 unidades, 85.753 tokens, 9.588 formas.
+- "Sobre" e página inicial: números do corpus lidos do resumo pré-calculado (antes fixos em 11.207 unidades)
+  e menção às duas traduções do NT.
 
 ### Site
 - Leitores: modo **Texto corrido** (Bororo e português lado a lado) além dos cartões; **vista interlinear**

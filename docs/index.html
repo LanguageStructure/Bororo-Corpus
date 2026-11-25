@@ -15,7 +15,7 @@
 <a class="collection-group" href="catalogo.html#narrativas"><h3>Narrativas e tradição oral</h3><p class="muted">Narrativas míticas, textos documentais, relatos autobiográficos e materiais de tradição oral.</p><div class="collection-examples">Coqueiro · História Mítica · Adugo Biri · Pemo–Coqueiro · Aroeceba · Jakomea Jiwu · outros testemunhos de arquivo</div></a>
 <a class="collection-group" href="oieigo.html"><h3>Cantos Oieigo</h3><p class="muted">Cantos Oieigo e documentos relacionados, preservados como textos independentes e com tradução paralela quando disponível.</p><div class="collection-examples">O Meremere · Antônio Caio G96 · Aroe Eimejera Okoge Ekureu · P. Rodolfo M85 · Finado Bentinho G86</div></a>
 <a class="collection-group" href="boe-ero.html"><h3>Boe Ero</h3><p class="muted"><i>Vida Bororo</i>: oito textos com tradução, de autoria de missionários salesianos que viveram em Meruri. A maior parte das frases tem anotação linguística e vista interlinear.</p><div class="collection-examples">Bororo · Português · 8 seções</div></a>
-<a class="collection-group" href="biblia.html"><h3>Textos bíblicos</h3><p class="muted">Tradução do Pe. Gonçalo Ochoa Camargo, SDB: o Novo Testamento (<i>Bakaru Maiwu</i>, 1992) e livros do Antigo Testamento, feitos com membros da comunidade de Meruri.</p><div class="collection-examples" id="bibleStats">Novo Testamento · Antigo Testamento</div></a>
+<a class="collection-group" href="biblia.html"><h3>Textos bíblicos</h3><p class="muted">Duas traduções do Novo Testamento, que podem ser lidas lado a lado: o <i>Bakaru Maiwu</i> (Pe. Gonçalo Ochoa Camargo, SDB, 1992) e o <i>Pao Kurirewu Bataru Kurirewu</i> (Wycliffe, 2019, ortografia adaptada). Livros do Antigo Testamento traduzidos pelo Pe. Ochoa com membros da comunidade de Meruri.</p><div class="collection-examples" id="bibleStats">Novo Testamento · Antigo Testamento</div></a>
 <a class="collection-group" href="catalogo.html#todos"><h3>Catálogo completo</h3><p class="muted">Inventário de textos e coleções, com estado editorial e leitores disponíveis.</p><div class="collection-examples">Todas as coleções →</div></a>
 </div></section>
 <section class="research"><div class="research-head"><div><div class="eyebrow">ANÁLISE E EXPLORAÇÃO</div><h2>Ferramentas de pesquisa</h2></div><p class="muted">Consulta pública de textos, palavras, morfologia e anotação sintática.</p></div><div class="tool-groups">
@@ -36,7 +36,7 @@
     const g = Object.fromEntries((d.groups || []).map(([k, u, t]) => [k, [u, t]]));
     const nt = g['Novo Testamento'], at = [g['Antigo Testamento'], g['Textos bíblicos']].filter(Boolean);
     const atU = at.reduce((s, x) => s + x[0], 0);
-    if (nt) document.getElementById('bibleStats').textContent = `Novo Testamento: ${f(nt[0])} unidades · Antigo Testamento: ${f(atU)} unidades`;
+    if (nt) document.getElementById('bibleStats').textContent = `Novo Testamento (2 traduções): ${f(nt[0])} unidades · Antigo Testamento: ${f(atU)} unidades`;
   } catch { el.textContent = ''; }
 })();
 (async () => {
