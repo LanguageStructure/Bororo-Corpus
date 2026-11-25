@@ -5,7 +5,7 @@ import csv,json,re
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CORBO_CONLLU=ROOT/'CorBo/Corpus_Files/CorBo.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
+COQ=ROOT/'CorBo_vNext/texts/coqueiro/coqueiro_parallel.tsv'; ETN=ROOT/'CorBo_vNext/texts/etnobotanica/etnobotanica.tsv'; HM=ROOT/'CorBo_vNext/texts/historia-mitica/historia_mitica_collation.tsv'; ADU=ROOT/'CorBo_vNext/texts/adugo-biri/adugo_biri_parallel.tsv'; BOE=ROOT/'CorBo_vNext/texts/boe-ero/boe_ero_parallel.tsv'; BM=ROOT/'CorBo_vNext/texts/bakaru-maiwu'; PKB=ROOT/'CorBo_vNext/texts/pao-kurirewu-bataru'; BAK=ROOT/'CorBo_vNext/texts/bakarudoge/bakarudoge_documentary.tsv'; PC=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_editorial.tsv'; PC_COL=ROOT/'CorBo_vNext/texts/pemo-coqueiro/pemo_coqueiro_collation.tsv'; ARC=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_editorial.tsv'; ARC_COL=ROOT/'CorBo_vNext/texts/archive-additions/archive_additions_collation.tsv'; PAR=ROOT/'CorBo_vNext/texts/historia-mitica/archive_parallel_witnesses.tsv'; MORPH=ROOT/'CorBo_vNext/annotations/morphology.tsv'; DICT_ANN=ROOT/'CorBo_vNext/annotations/dictionary_validated_layers.tsv'; CORBO_CONLLU=ROOT/'CorBo/Corpus_Files/CorBo.conllu'; CONLLU=ROOT/'CorBo/Corpus_Files/Bororo_UD_enriched_v5_plus_scripture.conllu'; OUT=ROOT/'docs/data'
 BIBLES={'jonas':('Jonas','CorBo/Corpus_Files/bíblia/jonas_2-orthophon.txt','CorBo_vNext/texts/biblia/jonas_review.tsv','JON'),'ageu':('Ageu','CorBo/Corpus_Files/bíblia/ageu_2-orthophon.txt','CorBo_vNext/texts/biblia/ageu_review.tsv','AGE'),'cantico':('Cântico dos Cânticos','CorBo/Corpus_Files/bíblia/cantico_dos_canticos_2-orthophon.txt','CorBo_vNext/texts/biblia/cantico_review.tsv','CAN')}
 BIBOR=ROOT/'CorBo_vNext/texts/biblia-oral/biblia_oral_interlinear.tsv'
 TOKEN_RE=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?",re.UNICODE)
@@ -328,6 +328,34 @@ def bakaru_units():
     uid='BOR-CORBO-BM-'+uid.removeprefix('BOR-CORBO-')
    out.append({'id':uid,'b':rev or src,'source':src,'p':'','collection':'Bakaru Maiwu','group':'Novo Testamento','book':(r.get('book') or '').strip(),'book_code':(r.get('book_code') or '').strip(),'chapter':(r.get('chapter') or '').strip(),'verse':(r.get('verse') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional'})
  return out
+def pkb_units():
+ # Pao Kurirewu Bataru Kurirewu (Wycliffe Bible Translators, 2019), ortografia adaptada por FFG.
+ # Licença própria (CC BY-NC-ND 4.0), diferente da CC BY 4.0 do CorBo: o campo license acompanha cada unidade.
+ out=[]
+ if not PKB.exists():return out
+ order=['mateus','marcos','lucas','joao','atos','romanos','1-corintios','2-corintios','galatas','efesios','filipenses','colossenses','1-tessalonicenses','2-tessalonicenses','1-timoteo','2-timoteo','tito','filemon','hebreus','tiago','1-pedro','2-pedro','1-joao','2-joao','3-joao','judas','apocalipse']
+ for path in sorted(PKB.glob('*/*.tsv'),key=lambda x:(order.index(x.parent.name) if x.parent.name in order else 99,x.parent.name)):
+  for r in tsv(path):
+   uid=(r.get('id') or '').strip();src=(r.get('source') or '').strip();rev=(r.get('reviewed') or '').strip()
+   if not uid or not (rev or src):continue
+   out.append({'id':uid,'b':rev or src,'source':src,'p':'','collection':'Pao Kurirewu Bataru Kurirewu','group':'Novo Testamento','book':(r.get('book') or '').strip(),'book_code':(r.get('book_code') or '').strip(),'chapter':(r.get('chapter') or '').strip(),'verse':(r.get('verse') or '').strip(),'reviewed':bool(rev),'status':'reviewed' if rev else 'provisional','editorial_note':(r.get('editorial_note') or '').strip(),'license':'CC BY-NC-ND 4.0'})
+ return out
+def write_nt_parallel(bm,pkb):
+ # Dados compactos por livro para docs/novo-testamento-paralelo.html: [id, capítulo, versículo, texto]
+ # (versículo vazio = título de seção). Evita carregar os dois arquivos completos (~10 MB) no navegador.
+ d=OUT/'nt-parallel';d.mkdir(parents=True,exist_ok=True)
+ books={}
+ for key,units in (('bm',bm),('pkb',pkb)):
+  for u in units:
+   b=u.get('book_code');c=u.get('chapter')
+   if not b or not c:continue
+   books.setdefault(b,{'bm':[],'pkb':[]})[key].append([u['id'],c,u.get('verse',''),u['b']])
+ for f in d.glob('*.json'):f.unlink()
+ index={}
+ for b,data in books.items():
+  (d/f'{b}.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+  index[b]=sorted({int(r[1]) for k in data for r in data[k] if str(r[1]).isdigit()})
+ (d/'index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 def pemo_coqueiro_units():
  if not PC.exists() or not PC_COL.exists():return []
  editorial={r['id'].strip():r for r in tsv(PC)}
@@ -632,10 +660,11 @@ def main():
    source=(r.get('source') or '').strip()
    reviewed=(r.get('reviewed') or '').strip()
    biboral.append({'id':r['id'].strip(),'b':reviewed or source,'source':source,'p':(r.get('portuguese_reviewed') or r.get('portuguese') or '').strip(),'collection':'Marigudu','group':'Documentary texts','title':'Marigudu','subtitle':'Criação segundo a Bíblia','reviewed':False,'status':'provisional','editorial_note':(r.get('editorial_note') or '').strip()})
- bib=bible_units();bm=bakaru_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+judite_units()+ester_units()+esdras_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
+ bib=bible_units();bm=bakaru_units();pkb=pkb_units();etn=etnobotanica_units();pc=pemo_coqueiro_units();arc=archive_additions_units();par=archive_parallel_units();allu=coq+hm+adu+boe+bib+biboral+bm+pkb+etn+pc+arc+par+primeiro_reis_units()+primeiro_samuel_units()+segundo_samuel_units()+judite_units()+ester_units()+esdras_units()+cronicas_units()+rute_units()+juizes_units()+josue_units()+segundo_reis_units();validate(allu);OUT.mkdir(parents=True,exist_ok=True)
  bakdocs=bakarudoge_documents();(OUT/'bakarudoge-documents.json').write_text(json.dumps(bakdocs,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
- outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
+ outputs={'coqueiro-units.json':coq,'historia-mitica-units.json':hm,'adugo-biri-units.json':adu,'boe-ero-units.json':boe,'biblia-units.json':bib,'marigudu-units.json':biboral,'bakaru-maiwu-units.json':bm,'pao-kurirewu-bataru-units.json':pkb,'etnobotanica-units.json':etn,'pemo-coqueiro-units.json':pc,'archive-additions-units.json':arc,'archive-parallel-units.json':par,'corbo-units.json':allu}
  for name,data in outputs.items():(OUT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ write_nt_parallel(bm,pkb)
  fs=forms(allu)
  by_collection=Counter(u.get('collection') or '(sem coleção)' for u in allu)
  by_group=Counter(u.get('group') or '(sem grupo)' for u in allu)
@@ -646,7 +675,7 @@ def main():
  md=morphology_data();payload=json.dumps(md,ensure_ascii=False,separators=(',',':'));(OUT/'morphology.json').write_text(payload,encoding='utf-8');(OUT/'ud-sentences.json').write_text(json.dumps(conllu_sentences(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'dictionary-annotations.json').write_text(json.dumps(dictionary_annotation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'morpheme-tokens.json').write_text(json.dumps(morpheme_token_data(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'collation.json').write_text(json.dumps(collation_data(),ensure_ascii=False,separators=(',',':')),encoding='utf-8');(OUT/'generator-attested-forms.json').write_text(json.dumps({'source':str(CORBO_CONLLU.relative_to(ROOT)),'inferred':False,'forms':generator_attested_forms(CORBO_CONLLU)},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  (OUT/'pending-annotations.json').write_text(json.dumps(pending_annotations(CORBO_CONLLU),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  if not md['relacoes_lexicais']:raise SystemExit('Nenhuma relação foi extraída do CoNLL-U.')
- print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(biboral)} de Marigudu, {len(bm)} do Bakaru Maiwu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
+ print(f'Geradas {len(allu)} unidades, incluindo {len(bib)} bíblicas e {len(biboral)} de Marigudu, {len(bm)} do Bakaru Maiwu, {len(pkb)} do Pao Kurirewu Bataru Kurirewu, {len(etn)} de Etnobotânica e {len(pc)} de Pemo–Coqueiro, {len(arc)} de Archive additions, {len(par)} de Archive parallel witnesses, e {len(md["relacoes_lexicais"])} formas CoNLL-U.')
 if __name__=='__main__':main()
 
 # Índice lexical compacto do painel lateral (docs/data/lexicon/), derivado dos arquivos acima.

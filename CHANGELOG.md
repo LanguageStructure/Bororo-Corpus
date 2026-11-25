@@ -5,6 +5,18 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+### Textos
+- Novo Testamento ***Pao Kurirewu Bataru Kurirewu*** (© 2019 Wycliffe Bible Translators), com a ortografia
+  adaptada à do CorBo: 7.458 unidades de versículo e 823 títulos de seção em
+  `CorBo_vNext/texts/pao-kurirewu-bataru/` (`scripts/import_pao_kurirewu_bataru.py`; relatório em
+  `CorBo/validation/pao_kurirewu_bataru_import.tsv`). **Licença própria CC BY-NC-ND 4.0**, indicada no
+  diretório, nas páginas e nos downloads; fica fora de `downloads/corbo-parallel.tsv` (CC BY 4.0) e tem
+  arquivo próprio, `downloads/pao-kurirewu-bataru.tsv`.
+- Leitor `pao-kurirewu-bataru.html` e **comparação paralela** `novo-testamento-paralelo.html`: as duas
+  traduções do NT lado a lado, alinhadas por versículo (faixas de versículos agrupadas), com dados compactos
+  por livro em `docs/data/nt-parallel/`.
+- A nova coleção entra na busca e nas estatísticas do corpus documental (19.488 unidades no total).
+
 ### Site
 - Leitores: modo **Texto corrido** (Bororo e português lado a lado) além dos cartões; **vista interlinear**
   (forma, segmentação, glosa automática e link para a árvore) nas 346 unidades com sentença anotada

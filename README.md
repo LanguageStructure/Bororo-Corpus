@@ -332,6 +332,8 @@ Consentimento, papel da comunidade Boe, direitos sobre os materiais e restriçõ
 
 O corpus é disponibilizado sob **CC BY 4.0** (Atribuição).
 
+Exceção: o Novo Testamento *Pao Kurirewu Bataru Kurirewu* (© 2019 Wycliffe Bible Translators), em `CorBo_vNext/texts/pao-kurirewu-bataru/`, e os dados derivados dele seguem a licença da fonte, **CC BY-NC-ND 4.0** (uso não comercial).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
 DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Esta versão (v0.10.0): [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715). Versões anteriores: v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
