@@ -6,7 +6,7 @@ authors:
   given-names: "Fabrício"
   orcid: "https://orcid.org/0000-0002-1438-7336"
 title: "CorBo: Corpus da Língua Bororo"
-version: 0.10.1
+version: 0.10.2
 doi: 10.5281/zenodo.12110451
 date-released: 2026-11-25
 url: "https://languagestructure.github.io/Bororo-Corpus/"

@@ -5,6 +5,16 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+## [0.10.2] — 2026-11-25
+
+### Anotação (CoNLL-U)
+- **Causativo *-do* como sufixo** (decisão de FFG, 25/11/2026): o marcador causativo é sufixo do índice pessoal,
+  não clítico. Os 48 pronomes com `Voice=Cau` (47 frases, 4 gold) passam de `Morph=<pessoa>=do` a
+  `Morph=<pessoa>-do` (ex.: *edo* `e-do`); FORM, LEMMA, FEATS e relações não mudam, e o `=do` do imperativo
+  (*akaiwodo* `a=aiwo=do`) não é tocado (`scripts/apply_causative_suffix_do.py`; registro em
+  `CorBo/validation/causative_do_suffix_20261125.tsv`; PR #18).
+- Camada anotada sem outras mudanças: 12.020 unidades, 79.521 tokens, 1.900 sentenças gold, 706 erros de validação.
+
 ## [0.10.1] — 2026-11-25 · DOI [10.5281/zenodo.24530404](https://doi.org/10.5281/zenodo.24530404)
 
 ### Textos
