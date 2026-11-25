@@ -34,7 +34,7 @@
    "path": "CorBo/Corpus_Files/splits/CorBo.gold.conllu",
    "url": "https://raw.githubusercontent.com/LanguageStructure/Bororo-Corpus/main/CorBo/Corpus_Files/splits/CorBo.gold.conllu",
    "format": "CoNLL-U",
-   "bytes": 705797,
+   "bytes": 705798,
    "pt": "Camada gold: só anotação manual, sintaxe completa, sem erros estruturais.",
    "en": "Gold layer: manual annotation only, complete syntax, no structural errors.",
    "counts_pt": "1.900 sentenças · 9.802 tokens",
