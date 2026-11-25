@@ -5,7 +5,7 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
-## [0.10.1] — 2026-11-25
+## [0.10.1] — 2026-11-25 · DOI [10.5281/zenodo.24530404](https://doi.org/10.5281/zenodo.24530404)
 
 ### Textos
 - Novo Testamento ***Pao Kurirewu Bataru Kurirewu*** (© 2019 Wycliffe Bible Translators), com a ortografia

@@ -336,7 +336,7 @@ Exceção: o Novo Testamento *Pao Kurirewu Bataru Kurirewu* (© 2019 Wycliffe Bi
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12110451.svg)](https://doi.org/10.5281/zenodo.12110451)
 
-DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Esta versão (v0.10.1): DOI a registrar após a publicação. Versões anteriores: v0.10.0 [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715), v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
+DOI de todas as versões: [10.5281/zenodo.12110451](https://doi.org/10.5281/zenodo.12110451). Esta versão (v0.10.1): [10.5281/zenodo.24530404](https://doi.org/10.5281/zenodo.24530404). Versões anteriores: v0.10.0 [10.5281/zenodo.24441715](https://doi.org/10.5281/zenodo.24441715), v0.9.0 [10.5281/zenodo.23441622](https://doi.org/10.5281/zenodo.23441622), v0.8.0 [10.5281/zenodo.23187959](https://doi.org/10.5281/zenodo.23187959). Até a v0.9.0 o registro do Zenodo indicava CC BY 4.0, enquanto este README indicava CC BY-NC-SA 4.0; a partir da v0.10.0 a licença é CC BY 4.0 em todos os lugares.
 Ao utilizar o corpus, cite a versão específica consultada no Zenodo. As versões arquivadas fornecem registros estáveis; o repositório e a interface pública podem continuar recebendo atualizações.
 
 ## Autoria, parcerias e comunidades
