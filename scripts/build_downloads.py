@@ -106,7 +106,7 @@ def main():
     add("documentacao", "docs/citation.bib", "citation.bib", "BibTeX", "Referência para citação.", "Citation reference.")
 
     manifest = {"generated": date.today().isoformat(), "license": "CC BY 4.0",
-                "doi": "10.5281/zenodo.23441622",
+                "doi": "10.5281/zenodo.12110451",
                 "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
                 "files": items}
     (DOCS / "data/downloads.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

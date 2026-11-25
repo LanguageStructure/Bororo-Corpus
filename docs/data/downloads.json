@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-25",
  "license": "CC BY 4.0",
- "doi": "10.5281/zenodo.23441622",
+ "doi": "10.5281/zenodo.12110451",
  "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
  "files": [
   {
@@ -130,7 +130,7 @@
    "path": "docs/citation.bib",
    "url": "citation.bib",
    "format": "BibTeX",
-   "bytes": 497,
+   "bytes": 560,
    "pt": "Referência para citação.",
    "en": "Citation reference.",
    "counts_pt": "",
