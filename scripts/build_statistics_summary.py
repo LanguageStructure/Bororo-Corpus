@@ -56,6 +56,14 @@ def main():
         "upos": upos.most_common(),
     }
     (DATA / "statistics-summary.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # Valores de reserva da página Sobre (mostrados se o JavaScript não carregar corbo-stats.json).
+    ab = ROOT / "docs/about.html"
+    if ab.exists():
+        html = ab.read_text(encoding="utf-8")
+        fmt = lambda n: f"{n:,}".replace(",", ".")
+        for sid, key in (("aboutUnits", "units"), ("aboutTokens", "tokens"), ("aboutTypes", "types")):
+            html = re.sub(rf'(<span id="{sid}">)[^<]*(</span>)', lambda m, v=fmt(out[key]): m.group(1) + v + m.group(2), html)
+        ab.write_text(html, encoding="utf-8")
     print(f"{out['units']} unidades, {out['tokens']} tokens, {out['types']} formas, {len(out['collections'])} coleções")
 
 

@@ -5,6 +5,9 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+### Documentação
+- README: coleção *Enciclopédia Bororo II* na lista de coleções e totais do índice público em 26/11/2026 (20.378 unidades, 547.746 tokens, 21.427 formas). Página Sobre: números de reserva atualizados; `build_statistics_summary.py` passa a mantê-los em dia a cada build.
+
 ### Textos
 - *Enciclopédia Bororo II*: lenda 2, *Os chefes Baitogogo e Aroia Kurireu lutam contra os Kaiamo-doge* (pp. 25–77),
   181 frases e 70 notas. Lendas 3 (pp. 79–89), 4 (pp. 91–109), 5 (pp. 111–117), 6 (pp. 119–125), 7 (pp. 127–137), 8 (pp. 139–183) e 9 (pp. 185–255, os gêmeos Akaruio Bokodori e Mamuiawuge Eceba, 217 frases e 112 notas), 10 (pp. 257–261), 11 (pp. 263–267), 12 (pp. 271–287) e 13 (pp. 289–299); páginas que faltavam na digitalização transcritas de fotos. Hífens e apóstrofos de formas bororo também saem dos títulos e textos em português (*Kaiamo-doge* → *Kaiamodoge*). Nomes próprios ficam sem *-wu* (*Aroia Kurireure*); contrações com apóstrofo se desfazem (*Adugo-dog'ei* → *Adugodoge ei*, *Bo'ei* → *Boe ji*); *i-aidu-re* → *itaidure*. `build_enciclopedia_ii.py` reconhece cabeçalhos de ciclo (`@ciclo`) e liga *nure*/*rogu*

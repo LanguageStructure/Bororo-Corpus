@@ -52,6 +52,7 @@ O corpus inclui, entre outros materiais:
 - **História Mítica** — coleção documental e paralela;
 - **Adugo Biri** — unidades com fonte, revisão e tradução;
 - **Boe Ero** — 8 textos e 276 unidades paralelas, com numeração original, créditos, tradução e metadados editoriais; o arquivo de trabalho expandido integra o CoNLL-U autoritativo e o [CoNLL-U autônomo](CorBo_vNext/texts/boe-ero/boe_ero_unannotated.conllu) permanece como base documental regenerável;
+- **Enciclopédia Bororo II · Lendas** — 13 lendas do vol. II da *Enciclopédia Bororo* (Albisetti & Venturelli, 1969), 890 frases em texto paralelo (frase bororo + tradução numerada), com introdução, narrativa, variantes, glosas interlineares e notas ([leitor](https://languagestructure.github.io/Bororo-Corpus/enciclopedia-bororo-ii.html); [convenções](CorBo_vNext/texts/enciclopedia-bororo-ii/README.md));
 - **Oiegos** — cantos Oieigo e documentos relacionados, preservados como textos independentes;
 - **História da Corujinha — Tagogorogu** — narrativa de tradição oral;
 - **Etnobotânica** — unidades incorporadas a partir de material tabular;
@@ -64,6 +65,8 @@ O corpus inclui, entre outros materiais:
 As coleções não têm necessariamente o mesmo grau de tradução, revisão ou anotação. Ausência de uma camada não é preenchida automaticamente por inferência.
 
 Após a integração documental de outubro de 2026, o índice público contém **10.268 unidades**. Esse total inclui **261 unidades de Pemo–Coqueiro**, **226 Archive additions** e **305 Archive parallel witnesses**. A incorporação dessas fontes usa uma camada explícita de colação: unidades `confirmed` ou `component` não são republicadas como novas unidades; `unique` e `parallel_formulaic` podem entrar no índice público; unidades `unresolved` permanecem fora até revisão humana.
+
+Em 26 de novembro de 2026, com a inclusão das 13 lendas da *Enciclopédia Bororo II* (890 unidades, 8.629 tokens), o índice público contém **20.378 unidades**, **547.746 tokens** e **21.427 formas gráficas distintas**. Os números atuais ficam em [`docs/data/statistics-summary.json`](docs/data/statistics-summary.json) e na [página de estatísticas](https://languagestructure.github.io/Bororo-Corpus/statistics.html), recalculados a cada push no `main`.
 
 ## Organização dos dados
 
