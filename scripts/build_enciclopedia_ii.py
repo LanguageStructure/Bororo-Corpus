@@ -46,12 +46,13 @@ NO_WU = {'peu', 'cou', 'pou'}
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 
 
-def norm_word(w: str) -> str:
+def norm_word(w: str, proper: bool = False) -> str:
     """-u depois de vogal vira -wu em cada segmento, também antes de sufixo
-    (Kurireu > Kurirewu; Kurireu-re > Kurirewure, decisão de FFG, 25/11/2026);
-    depois saem hífens e apóstrofos."""
+    (kurireu > kurirewu; kurireu-re > kurirewure); depois saem hífens e apóstrofos.
+    Nomes próprios ficam como impressos, sem -wu (decisão de FFG, 26/11/2026: Aroia Kurireu-re > Aroia Kurireure)."""
     segs = [seg.replace("'", '') for seg in w.split('-')]
-    segs = [x if x.lower() in NO_WU else VOWEL_U.sub(r'\1wu', x) for x in segs]
+    if not proper:
+        segs = [x if x.lower() in NO_WU else VOWEL_U.sub(r'\1wu', x) for x in segs]
     return ''.join(segs)
 
 
@@ -79,8 +80,31 @@ APOS = re.compile(r"(?<![A-Za-zÀ-ÿ])([dD])['’](?=[A-Za-zÀ-ÿ])|(?<=[A-Za-z�
 
 def strip_bororo_hyphens(text: str) -> str:
     """Hífens e apóstrofos de formas bororo saem; d'água e os hífens do português ficam."""
-    t = HYPH.sub(lambda m: m.group(0) if is_portuguese_hyphen(m.group(0)) else m.group(0).replace('-', ''), text or '')
+    t = HYPH.sub(lambda m: m.group(0) if is_portuguese_hyphen(m.group(0)) else m.group(0).replace('-', ''), contract(text or ''))
     return APOS.sub(lambda m: m.group(0) if m.group(1) else '', t)
+
+
+# Contrações impressas com apóstrofo que se desfazem (decisões de FFG, 26/11/2026):
+# Adugo-dog'ei > Adugodoge ei; Adugo-dog'ebo > Adugodoge ebo; Korog'ebo > Koroge ebo; arem'ei > areme ei;
+# Bo'ei > Boe ji. Generalizado para consoante + 'ei / 'ebo (kugur'ei > kugure ei, batarareu-g'ei > batarareuge ei).
+# Vogal + 'ei: ki'ei > kie ei; Aro'ei > Aroe ji, como Bo'ei; Aroro'e'bo > Aroroe ebo (FFG, 26/11/2026).
+CONTR = [
+    (re.compile(r"\b(B)o'ei-boe\b", re.I), r"\1oe ji boe"),
+    (re.compile(r"\b(B)o'ei\b", re.I), r"\1oe ji"),
+    (re.compile(r"\b(A)ro'ei\b", re.I), r"\1roe ji"),                     # Aro'ei > Aroe ji, como Bo'ei
+    (re.compile(r"\b(A)roro'e'bo\b", re.I), r"\1roroe ebo"),              # Aroro'e'bo > Aroroe ebo, como ime'bo
+    (re.compile(r"([b-df-hj-np-tv-z])'(ei|ebo)\b", re.I), r"\1e \2"),
+    (re.compile(r"([aiou])'ei\b", re.I), r"\1e ei"),                        # ki'ei > kie ei
+]
+# 1.ª pessoa de aidu 'querer': i-aidu-re > itaidure, i-aidu-ka-re > itaidukare (FFG, 26/11/2026).
+IT_PREFIX = re.compile(r"\b([Ii])-(aidu)", re.I)
+
+
+def contract(t: str) -> str:
+    t = IT_PREFIX.sub(r"\1t-\2", t or '')
+    for rx, rep in CONTR:
+        t = rx.sub(rep, t)
+    return t
 
 
 # Formas impressas que se separam na ortografia do CorBo (decisões de FFG, 26/11/2026).
@@ -107,9 +131,20 @@ BOUND = {'nure', 'rogu'}
 BOUND_IN = re.compile(r"([A-Za-z])\s+(" + '|'.join(sorted(BOUND)) + r")\b")
 
 
-def norm_text(t: str) -> str:
-    t = apply_split(t)
-    return BOUND_IN.sub(r'\1\2', WORD.sub(lambda m: norm_word(m.group(0)), t))
+def norm_text(t: str, at_start: bool = False, proper_seen: set | None = None) -> str:
+    """Normaliza uma célula. Palavra com maiúscula inicial é nome próprio (fica sem -wu), menos a primeira
+    palavra quando a célula abre frase, citação ou período (at_start)."""
+    t = apply_split(contract(t))
+    first = [True]
+
+    def f(m):
+        w = m.group(0)
+        is_first = first[0]; first[0] = False
+        proper = w[0].isupper() and not (is_first and at_start)
+        if proper and proper_seen is not None:
+            proper_seen.add(w)
+        return norm_word(w, proper)
+    return BOUND_IN.sub(r'\1\2', WORD.sub(f, t))
 
 
 def is_bound(cell_norm: str) -> bool:
@@ -123,6 +158,9 @@ def join_cells(cs) -> str:
     for c in cs:
         out = out + c['bororo_norm'] if c.get('ligada') else (out + ' ' + c['bororo_norm']).strip()
     return out
+
+
+PROPER_SEEN: set = set()   # formas impressas tratadas como nome próprio
 
 
 def parse(path: Path):
@@ -181,8 +219,10 @@ def parse(path: Path):
             if m:
                 nota = m.group(1); bo = (bo[:m.start()] + bo[m.end():]).strip()
             cell_i += 1
+            prev = cells[-1]['bororo'] if cells and cells[-1]['sentenca'] == sent and cell_i > 1 else ''
+            at_start = cell_i == 1 or bool(re.search(r'[.!?"—]\s*$', prev)) or bool(re.match(r'["“—]', bo))
             cells.append(dict(sentenca=sent, celula=cell_i, pagina=page, bororo=bo,
-                              bororo_norm=norm_text(bo), glosa=gl, nota=nota))
+                              bororo_norm=norm_text(bo, at_start, PROPER_SEEN), glosa=gl, nota=nota))
         else:
             raise SystemExit(f'{path.name}:{n_line}: linha fora de bloco: {line[:60]}')
     return L, ed, cells, trans, notes
@@ -263,11 +303,11 @@ def build(write=True):
             else:
                 toks.append((w, c['unit_id']))
     for w0, uid in toks:
-        if True:
-            n = norm_text(w0).lower()
+        proper = w0.split()[0] in PROPER_SEEN
+        for n in norm_text(w0, at_start=not proper).lower().split():
             r = rep.setdefault(n, dict(normalizada=n, originais=set(), ocorrencias=0, unidades=[], regra_wu=''))
             r['originais'].add(w0); r['ocorrencias'] += 1; r['unidades'].append(uid)
-            if any(VOWEL_U.search(seg.replace("'", '')) for seg in w0.split('-')):
+            if not proper and any(VOWEL_U.search(seg.replace("'", '')) for seg in w0.split('-')):
                 r['regra_wu'] = 'sim'
     for r in rep.values():
         r['atestada'] = 'sim' if r['normalizada'] in vocab else 'não'

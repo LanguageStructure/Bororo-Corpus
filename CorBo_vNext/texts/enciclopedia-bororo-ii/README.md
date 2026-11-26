@@ -26,7 +26,10 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 
 - Bororo sem acentos e sem diacríticos subscritos (ẹ ọ ụ → e o u; k̲ d̲ t̲ → k d t; č → c; ǰ → j).
 - Texto paralelo = frase bororo + tradução numerada da Enciclopédia (não as glosas).
-- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu*, também antes de sufixo (*Kujagureu* → *Kujagurewu*; *Kurireu-re* → *Kurirewure*). Só depois de *a*, *e*, *o*: *kakodiu* (lenda 5), palavra própria da língua das lendas, fica como impressa.
+- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu*, também antes de sufixo (*kurireu-re* → *kurirewure*; *ekureu-ge* → *ekurewuge*). Só depois de *a*, *e*, *o*: *kakodiu* (lenda 5), palavra própria da língua das lendas, fica como impressa. Ideofones (*peu*, *cou*, *pou*) ficam sem *-wu*.
+- Nomes próprios ficam como impressos, sem *-wu* (FFG, 26/11/2026): *Aroia Kurireu-re* → *Aroia Kurireure*, *Jakomea Kujagureu*, *Eigawa Enawureu*, *Pogubo Cereu*. Critério do script: palavra com maiúscula inicial que não abre frase, citação ou período. Assim *Aipobureu*, *Ipocereu* e *Pobogoreu-ge* com maiúscula (personagens da lenda 9) ficam como impressos, e *aipobureu* com minúscula (lista de animais) recebe *-wu* (confirmado por FFG).
+- Contrações com apóstrofo que se desfazem (FFG, 26/11/2026): *Adugo-dog'ei* → *Adugodoge ei*; *Adugo-dog'ebo* → *Adugodoge ebo*; *Korog'ebo* → *Koroge ebo*; *arem'ei* → *areme ei*; *Bo'ei* → *Boe ji* (*Bo'ei-boe* → *Boe ji boe*). Generalizado a consoante + *'ei*/*'ebo* (*kugur'ei* → *kugure ei*; *batarareu-g'ei* → *batararewuge ei*; *pa-dugareg'ei* → *padugarege ei*). Vogal + *'ei*: *ki'ei* → *kie ei*; *Aro'ei* → *Aroe ji*, como *Boe ji*; *Aroro'e'bo* → *Aroroe ebo*, como *ime ebo*.
+- *i-aidu-re* → *itaidure*; *i-aidu-ka-re* → *itaidukare* (FFG, 26/11/2026; como no CorBo).
 - Hífens de formas bororo também saem dos títulos e dos textos em português (traduções, narrativa, notas, glosas):
   *Kaiamo-doge* → *Kaiamodoge*, *KAIAMO-DOGE JI-WU BAKARU* → *KAIAMODOGE JIWU BAKARU*. Os hífens do português ficam
   (*cipó-imbé*, *atiraram-se*, *cana-de-vassoura*). A transcrição guarda a forma impressa.
