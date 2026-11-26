@@ -7,7 +7,7 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ### Textos
 - *Enciclopédia Bororo II*: lenda 2, *Os chefes Baitogogo e Aroia Kurireu lutam contra os Kaiamo-doge* (pp. 25–77),
-  181 frases e 70 notas. `build_enciclopedia_ii.py` reconhece cabeçalhos de ciclo (`@ciclo`) e liga *nure*/*rogu*
+  181 frases e 70 notas. Lendas 3 (pp. 79–89), 4 (pp. 91–109) e 5 (pp. 111–117); páginas que faltavam na digitalização transcritas de fotos. Hífens e apóstrofos de formas bororo também saem dos títulos e textos em português (*Kaiamo-doge* → *Kaiamodoge*). `build_enciclopedia_ii.py` reconhece cabeçalhos de ciclo (`@ciclo`) e liga *nure*/*rogu*
   também quando vêm com pontuação.
 
 ### Textos

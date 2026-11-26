@@ -164,9 +164,99 @@ guru | multidão
 j'ipa | sua margem
 raireu | a comprida
 t'abo, | ela com,
-@lacuna Faltam no PDF as pp. 85–86 (fim da frase 9, frases 10 a 13 e início da frase 14 do texto bororo; tradução das frases 5 a 9; nota 3).
-@pagina 88
+@pagina 86
+tugoriwo | (de) cana-de-vassoura
+j'ipa | sua margem
+raireu | a comprida
+t'abo." | ela com."
+@s 10
+Baitogogo (4) | Baitogogo
+mare | e
+Mano Kurireu (5) | Mano Kurireu
+emage-re | êles fizeram
+e-ro | sua ação
+ino. | assim.
+@s 11
+Iage | Alguns
+rema | em verdade
+e-tu-re | sua ida fizeram
+pugeje | ainda
+tu-mana-mage (6) | (de) seus irmãos maiores
+e-regodaji, | (d)êles atrás,
+kugaru | (de) areia
+j'ipa | sua margem
+koborireu, | a curta,
+toriguru | (de) pedregulho
+j'ipa | sua margem
+koborireu, | a curta,
+kiworo | (de) capim-da-praia
+j'ipa | sua margem
+koborireu, | a curta,
+iaga i | (de) sarandi
+guru | multidão
+j'ipa | sua margem
+koborireu, | a curta,
+tugoriwo | (de) cana-de-vassoura
+j'ipa | sua margem
+koborireu, | a curta,
+t'abo. | ela com.
+@s 12
+Tadugo (7) | Tadugo
+mare | e
+Butore Agadu (8) | Butore Agadu
+emage-re | êles fizeram
+e-ro | sua ação
+ino | assim
+tu-mana-mage | (de) seus irmãos maiores
+e-regoda-ji. | (d)êles atrás.
+@s 13
+Maragaduie Kurugugoe (9) | Maragaduie Kurugugoe
+e-re | êles fizeram
+adugo | (de) jaguar
+burea | pegada
+to | criação
+nowu | (n)aquela
+kugaru-ji; | areia ela;
+e-re | êles fizeram
+aigo | (de) suçuarana
+burea | pegada
+to; | criação;
+e-re | êles fizeram
+aipobureu | (de) jaguatirica
+burea | pegada
+to | criação
+jamedu. | também.
 @s 14
+Dukodie | Por isso
+Boe | (os) Bororo
+e'go-re (10) | sua palavra fizeram
+adugo | (de) jaguar
+burea | pegada
+padu-ie, | estada que,
+tu | aí
+kugaru | areia
+keje, | sôbre,
+aigo | (de) suçuarana
+burea | pegada
+padu-ie, | estada que,
+tu | aí
+kugaru | areia
+keje, | sôbre,
+aipobureu | (de) jaguatirica
+burea | pegada
+padu-ie, | estada que,
+tu | aí
+@@TRADUCAO
+@pagina 85
+@t 5 E (o) rio tinha extensão, (o) rio tinha grandeza, mas tinha sua direitura (sòmente).
+@t 6 (O sucuri) Jure foi mesmo causa (d)êle desviar (o) rio.
+@t 7 Êle colocava sua curva: (o) rio tinha tortuosidade; êle se endireitava: (o) rio tinha sua direitura.
+@t 8 Por isso (os) Bororo faziam sua palavra que Jure foi causa (de) colocar (do) rio sua curva, assim como êle (fazia) colocação (de) sua curva: êle colocou (do) rio sua curva.
+@t 9 "Nós fomos êles aquêles (que) fizemos nossa ida com sua margem (de) areia, a comprida, sua margem (com) pedregulho, a comprida, sua margem (com) multidão (de) sarandi, a comprida, sua margem (de) cana-de-vassoura, a comprida."
+@foto Cugui... está sempre num galho...
+@n 3 "Du-wugo pagi-re padu-re... tugoriwo j'ipa raireu t'abo." Constr.: "Pagi re du-wuge pa-du... apo tu ji ipa raireu tugoriwo." "Nós fomos aquêles (que) fizemos nossa ida... com ela, margem a comprida (de) cana-de-vassoura," i.e., "Fomos nós que, caminhando,... demos origem às longas margens revestidas de cana-de-vassoura." | O historiador relata, num breve discurso direto, as palavras que deviam ter pronunciado Baitogogo e Mano Kurireu, depois de terem efetuado essa proeza.
+@@INTERLINEAR
+@pagina 88
 kugaru | areia
 keje; | sôbre;
 oino-re | assim

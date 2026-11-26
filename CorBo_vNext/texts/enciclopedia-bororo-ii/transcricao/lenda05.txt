@@ -1,0 +1,215 @@
+@lenda 5
+@titulo O CHEFE BAITOGOGO E AS FLECHAS
+@pagina 111
+@intro
+A honra da descoberta de uma matéria prima tão importante como os taquaris, destinados ao fabrico da maior parte das flechas bororo, não podia não ser encampada pelo mais significativo herói da tribo. Por isso Baitogogo preterindo, em parte, os direitos de primazia do clã dos Iwagudu-doge, arroga-se a maior das taquarinhas e, conseqüentemente, a inscreve no acervo dos totens de seu clã.
+@narrativa
+Os Bororo narram que o índio Butore Agadu, enquanto caçava, viu um ser estranho e lhe perguntou: "Quem és?" "Sou a taquarinha Tugo," respondeu. Então o selvagem a apanhou, juntamente com uma sua companheira, um pouco menor, que também estava presente, e levou ambas ao chefe Aroia Kurireu.
+Êste aconselhou: "Vamos mostrá-las a Baitogogo, assim poderemos inscrevê-las entre os membros do nosso clã." Baitogogo, ao vê-las, exclamou: "Sim, são mesmo taquarinhas Tugo: a maior será do meu clã e a menor será do vosso."
+Essas taboquinhas, que os Bororo pretendiam converter em flechas não tinham asas e então os três índios chamaram os percevejos vermelhos, amarelos e pretos e os transformaram respectivamente em ararapirangas, araras e araraúnas, que lhes podiam fornecer penas multicores.
+Depois, Baitogogo foi escolher um cipó-imbé que pendia de um alto jatobá e Aroia Kurireu apanhou um, que descia de um jequitibá. Com a casca retirada dêles amarraram entre si vários segmentos de taquarinha que haviam preparado, e fabricaram lindas setas, emplumadas com as penas das araras.
+Os membros do clã dos Iwagudu-doge gostaram tanto dos taquaris Tugo que inventaram para si nomes derivados dêles e não permitiram que outros Bororo os usassem.
+@pagina 112
+@texto TUGO JI-WU BAKARU | [(DE) TUGO ELA AQUELA LENDA]
+@s 1
+Boe (1) | (Os) Bororo
+e'go-re | sua palavra faziam
+Butore Agadu-ie (2) | Butore Agadu que
+j'orudu-re, | sua visão teve,
+okeadu-re | encontro teve
+Tugo-ji (3). | (de) Tugo êle.
+@s 2
+Ia | Um
+Iwagudu-dogedu Cobugiwu | Iwagudu-dogedu Cobugiwu
+meru | caçada
+nure | tem
+dutabo-re | então
+icare | e
+j'orudu-re | sua visão teve
+ia | (de) um
+boe-ji | ser êle
+icare | e
+ako-re: | palavra fêz:
+"Aroe (4), | "Aroe,
+aroe: | aroe:
+kakodiu (5) | qual
+aroe | aroe
+aki, | tu (és),
+bao?" | qual?
+@s 3
+Icare | E
+aroe | (o) aroe
+ako-re: | palavra fêz:
+"Tugo | "(Sou) Tugo
+imireo." | eu mesmo."
+@s 4
+Icare | E
+Butore Agadu | Butore Agadu (fez)
+tug-eragu | seu apanhamento
+"cai" | "cai"
+Tugo | (de) Tugo
+Imedu-ji (6); | Imedu êle;
+u-re | êle fêz
+tug-eragu | seu apanhamento
+"cai" (7) | "cai"
+Tugo | (de) Tugo
+Aredu-ji; | Aredu êle.
+@s 5
+Dutabo-re | Depois
+icare | e
+u-tu-re | sua ida fêz
+tui-edoga (8) | seu avô
+Aroia Kurireu (9) | Aroia Kurireu
+bogai, | a,
+icare | e
+ako-re: | palavra fêz:
+"I-edoga, | "Meu avô,
+i-edoga, | meu avô,
+i-orudu-re | minha visão fiz
+Aro'ei." | (dos) Aroe êles."
+@s 6
+Icare | E
+u-re | êle
+tui-edoga | (a) seu avô
+j'orududo | êle fêz ver
+ei. | êles.
+@pagina 114
+@s 7
+Icare | E
+ako-re: | palavra fêz:
+"Kajao, | "Um pouco,
+pa-mode | nós
+pa-mana (10) | (a) nosso irmão maior
+Baitogogo | Baitogogo
+j'orududo | êle faremos ver
+ei; | êles;
+mare | mas
+pagi-re | nós
+pa-edaga (11) | nosso avô
+mode | faremos
+ema, | êle,
+paj-arugo | nossa avó
+mode | faremos
+ema." | ela."
+@s 8
+Icare | E
+e-re | êles
+tu-mana | (a) seu irmão maior
+Baitogogo (12) | Baitogogo
+j'orududo | êles fizeram ver
+ecewu | aquêle
+Tugo-ji. | Tugo êle.
+@s 9
+Icare | E
+etu-mana | seu irmão maior
+Baitogogo | Baitogogo
+ako-re: | palavra fêz:
+"U, | "Sim,
+Tugo, | (são) Tugo,
+mare | mas
+imi-re (13) | eu
+it-anagodu | meu ganho
+mode | farei
+Tugo Imedu-ji; | (de) Tugo Imedu êle;
+tagi-re | vós
+t'anagodu | vosso ganho
+mode | fareis
+Tugo Aredu-ji." | (de) Tugo Aredu ela."
+@s 10
+Mare | Mas
+awu | esta
+Tugo, | (da) flecha
+ot'aga (14) | (da) ponta cabeleira
+ka-re, | não tinha,
+ot'aga-re | (da) ponta cabeleira tinha
+ema-boe | ela coisa
+bokwa | não.
+@s 11
+Dukodi | Por isso
+icare | e
+e-re | êles
+j'eturudo | mandaram recado
+ekure | percevejos
+kujagureu-ge, | vermelhos,
+ekure | percevejos
+ekureu-ge, | amarelos,
+ekure | percevejos
+coreu-ge | pretos
+et-ae; | êles a;
+dukodi | por isso
+icare | e
+e-re | êles
+ekure-do | (os) percevejos fizeram
+nabure, | ararapiranga,
+kuido | arara,
+kudoro-do | araraúna fizeram,
+pudumi | êles mesmo
+tu-dugo | sua flecha
+epa-ce. | para, ela.
+@s 12
+Baitogogo | Baitogogo
+anagodu-re | obtenção fêz
+iku | (de um) cipó
+butu-re | (que) queda tinha
+bokwado i | (um) jatobá
+@pagina 116
+piji-wu: | de, aquêle:
+micori-ji (15). | (era) imbé êle.
+@s 13
+Aroia Kurireu | Aroia Kurireu
+anagodu-re | obtenção fêz
+iku | (de um) cipó
+butu-re | (que) queda tinha
+okwamu i | (um) jequitibá
+piji-wu: | de, aquêle:
+micori-ji. | (era) imbé êle.
+@s 14
+Oino-re | Assim
+Boe | (os) Bororo
+e'go-re | sua palavra faziam
+rugadu. | em verdade.
+@s 15
+Iwagudu-doge-re | (Os) Iwagudu-doge
+e-ie-re (16) | seu nome fizeram
+tu-rugadu | êles sòmente
+awu (17) | esta
+Tugo | taquarinha
+kae. | a.
+@foto ... Baitogogo foi escolher um cipó-imbé...
+@@TRADUCAO
+@pagina 113
+@t 1 (Os) Bororo faziam sua palavra que Butore Agadu teve sua visão, teve encontro (de) Tugo êle.
+@t 2 Um Iwagudu-dogedu (i.e. Butore Agadu) fazia (uma) caçada e então teve sua visão (de) um ser êle e fêz palavra: "Aroe, aroe: qual aroe (és) tu, qual?"
+@t 3 E (o) aroe fêz palavra: "Eu (sou) Tugo mesmo."
+@t 4 E Butore Agadu fêz seu apanhamento "cai" (de) Tugo Imedu êle; êle fêz seu apanhamento "cai" (de) Tugo Aredu êle.
+@t 5 E depois fêz sua ida a seu avô Aroia Kurireu e fêz palavra: "Meu avô, meu avô, tive minha visão (dos) aroe êles."
+@t 6 E êle fêz ver êles (a) seu avô.
+@n 1 Boe e'go-re Butore Agadu-ie j'orudu-re, discurso indireto. Constr.: Boe re e ago ie Butore Agadu re ji orudu, i.e., (Os) Bororo faziam sua palavra que Butore Agadu teve visão, i.e., Os Bororo diziam que Butore Agadu viu.
+@n 2 Butore Agadu, denominação de um chefe do sub-clã dos Iwagudu-doge Cobugiwuge.
+@n 3 Tugo-ji. | Tugo é uma taquarinha que vegeta em touceiras e que serve de matéria prima para o fabrico das flechas → Tugo, Flecha, I v. págs. 932-4.
+@n 4 Aroe, Ser primacial. | O Bororo Butore Agadu, encontrando um nôvo ser, julga que possa inscrevê-lo entre os membros do próprio clã, como ser primacial, como antepassado, totem.
+@n 5 kakodiu... bao? Fs. usadas em certas frases interrogativas. Podemos, neste caso, traduzi-las: qual... qual?
+@n 6 Tugo Imedu-ji, Tugo, Macho êle, i.e., Tugo maior. | Pelo contexto, deduz-se que Butore Agadu encontrou dois taquaris: um maior, que é êste, e outro menor, denominado Tugo Aredu. Essas denominações foram conservadas para certo tipo de → tugo, flecha, I. v. págs. 932-4.
+@n 7 cai, f. que indica rapidez.
+@n 8 tui-edoga Aroia Kurireu bogai seu avô, Aroia Kurireu a, i.e., a seu avô Aroia Kurireu. | Êste poderia realmente ser avô paterno de Butore Agadu, mas aqui a f. edoga é apenas um título de respeito e deferência.
+@n 9 Aroia Kurireu, denominação de um chefe do sub-clã dos Iwagudu-doge Cebegiwuge. | No → I v., pág. 433 é arrolado nos membros do sub-clã dos Iwagudu-doge Boe E-iadadawuge, com o nome de Araru Kurireu, de acôrdo o pensamento de outros informantes.
+@pagina 115
+@t 7 E (Aroia Kurireu) fêz palavra: "(Espera) um pouco, nós o faremos ver (a) nosso irmão maior Baitogogo; mas nós faremos êle nosso avô, faremos ela nossa avó."
+@t 8 E êles fizeram ver (a) seu irmão maior Baitogogo aquêle(s) Tugo, êle(s).
+@t 9 E seu irmão maior Baitogogo fêz palavra: "Sim, (são) Tugo, mas eu farei meu ganho (de) Tugo Imedu, êle; vós fareis vosso ganho (de) Tugo Aredu ela."
+@t 10 Mas esta flecha não tinha (a) cabeleira (da) ponta, não tinha (a) cabeleira (da) ponta coisa ela.
+@t 11 E por isso êles mandaram (um) recado (aos) percevejos vermelhos, (aos) percevejos amarelos, (aos) percevejos pretos; e por isso êles transformaram (os) percevejos (em) ararapirangas, (em) araras-amarelas, (em) araraúnas, êles mesmos para sua flecha ela.
+@t 12 Baitogogo fêz obtenção (de um) cipó-imbé (que) tinha queda de (um) jatobá.
+@n 10 pa-mana nosso irmão maior. | Esta denominação, como a da Nota (8), é de respeito e deferência.
+@n 11 pa-edaga, nosso avô. | Aqui a f. edaga é sinônimo de aroe, ser primacial. Para maiores noções → I v. págs. 104-5.
+@n 12 Baitogogo, denominação de um grande chefe do sub-clã dos Aroroe Cobugiwuge, o mais importante de tôda a tribo.
+@n 13 imi-re it-anagodu mode, eu meu ganho farei. | Conceito: Êste Tugo Imedu é meu. Aqui nota-se, claramente, o costume bororo de considerar como pertencente ao próprio clã todos os sêres animados ou não que alguém viu ou fêz por primeiro. As vêzes, como neste caso, o ser pertence ao clã determinado por algum chefe importante como Baitogogo.
+@n 14 ot'aga = oto aga, (da) extremidade cabeleira, i.e., emplumação da flecha. | Os taquaris encontrados não tinham emplumação, como as flechas que usam os Bororo.
+@pagina 117
+@t 13 Aroia Kurireu fêz obtenção (de um) cipó-imbé (que) tinha queda (de um) jequitibá.
+@t 14 Assim (os) Bororo em verdade faziam sua palavra.
+@t 15 Sòmente (os) Iwagudu-doge fizeram seus nome(s derivados) dêste Tugo.
+@foto ... com a casca... amarraram... segmentos de taquarinha...
+@n 15 micori-ji, cipó-imbé êle. | Explica-se como Baitogogo e Aroia Kurireu, a fim de amarrar entre si as várias partes de uma flecha, foram escolher respectivamente a casca de um cipó que pendia de um jatobá e de um jequitibá.
+@n 16 e-ie-re, seu nome tinham. | Os membros do clã dos Iwagudu-doge, descobridores de Tugo, não permitiram que outros clãs usassem nomes próprios derivados dêle, como por ex. Tugo Agiri.
+@n 17 awu tugo kae, esta taquarinha a. | É um idiotismo que significa: desta taquarinha.

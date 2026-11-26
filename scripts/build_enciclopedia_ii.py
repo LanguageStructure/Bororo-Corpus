@@ -16,6 +16,7 @@ Convenções (decisões de FFG, 25/11/2026):
   * texto paralelo = frase bororo + tradução numerada da Enciclopédia (não as glosas);
   * sem hífens e sem apóstrofos;
   * -u depois de vogal = sufixo -wu, também antes de sufixo (Kujagureu > Kujagurewu; Kurireu-re > Kurirewure);
+  * hífens de formas bororo também saem dos títulos e textos em português (Kaiamo-doge > Kaiamodoge);
   * nure e rogu se ligam à palavra anterior (Boe nure > Boenure; nogedu rogu > nogedurogu).
 A forma impressa (com hífens) fica preservada na coluna `source`.
 
@@ -48,6 +49,34 @@ def norm_word(w: str) -> str:
     depois saem hífens e apóstrofos."""
     segs = [VOWEL_U.sub(r'\1wu', seg.replace("'", '')) for seg in w.split('-')]
     return ''.join(segs)
+
+
+# Hífens de formas bororo dentro de títulos e textos em português (traduções, narrativa, notas, glosas):
+# saem também, assim como os apóstrofos (decisão de FFG, 26/11/2026; fica o d' do português: d'água), p. ex. Kaiamo-doge > Kaiamodoge, KAIAMO-DOGE JI-WU > KAIAMODOGE JIWU.
+# Os hífens do português ficam: palavras com acento (cipó-imbé, sub-clã, vê-las), verbo + pronome
+# (atiraram-se, salva-te, deixando-o) e compostos comuns (cana-de-vassoura, tatu-liso...).
+HYPH = re.compile(r"[A-Za-zÀ-ÿ'’]+(?:-[A-Za-zÀ-ÿ'’]+)+")
+PT_CLITICS = {'se', 'te', 'me', 'lo', 'la', 'los', 'las', 'lhe', 'lhes', 'nos', 'vos', 'na', 'no', 'o', 'a', 'os', 'as'}
+PT_FIRST = {'cana', 'capim', 'chefe', 'formiga', 'formigas', 'oeste', 'semi', 'tatu', 'veado', 'veados',
+            'araras', 'cachorros', 'arara', 'sem', 'bem', 'mal', 'guarda', 'beija', 'bem-te'}
+
+
+def is_portuguese_hyphen(tok: str) -> bool:
+    segs = tok.lower().split('-')
+    if re.search(r'[À-ÿ]', tok):
+        return True
+    if segs[0] in PT_FIRST:
+        return True
+    return len(segs[0]) >= 3 and any(x in PT_CLITICS for x in segs[1:])
+
+
+APOS = re.compile(r"(?<![A-Za-zÀ-ÿ])([dD])['’](?=[A-Za-zÀ-ÿ])|(?<=[A-Za-zÀ-ÿ])['’](?=[A-Za-zÀ-ÿ])")
+
+
+def strip_bororo_hyphens(text: str) -> str:
+    """Hífens e apóstrofos de formas bororo saem; d'água e os hífens do português ficam."""
+    t = HYPH.sub(lambda m: m.group(0) if is_portuguese_hyphen(m.group(0)) else m.group(0).replace('-', ''), text or '')
+    return APOS.sub(lambda m: m.group(0) if m.group(1) else '', t)
 
 
 # Formas que se escrevem ligadas à palavra anterior (decisão de FFG, 25/11/2026).
@@ -225,7 +254,10 @@ def build(write=True):
     if not write:
         return problems
 
+    PT_FIELDS = {'titulo', 'texto_bororo_titulo', 'titulo_traducao', 'portuguese', 'texto', 'rotulo', 'glosa'}
+
     def w(name, rows, cols):
+        rows = [{k: (strip_bororo_hyphens(v) if k in PT_FIELDS and isinstance(v, str) else v) for k, v in r.items()} for r in rows]
         with open(COL / name, 'w', newline='', encoding='utf-8') as fh:
             wr = csv.DictWriter(fh, cols, delimiter='\t', extrasaction='ignore', lineterminator='\n')
             wr.writeheader(); wr.writerows(rows)
@@ -240,8 +272,8 @@ def build(write=True):
             sec = None
             for u in (x for x in U if x['lenda'] == ln):
                 if u['secao'] != sec:
-                    sec = u['secao']; fh.write(f'# {sec}\n\n')
-                fh.write(f"{u['bororo']}\n{u['portuguese']}\n\n")
+                    sec = u['secao']; fh.write(f'# {strip_bororo_hyphens(sec)}\n\n')
+                fh.write(f"{u['bororo']}\n{strip_bororo_hyphens(u['portuguese'])}\n\n")
     print(f'gravado em {COL.relative_to(ROOT)}')
     return problems
 
