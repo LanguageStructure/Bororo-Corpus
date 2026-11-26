@@ -26,7 +26,7 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 
 - Bororo sem acentos e sem diacríticos subscritos (ẹ ọ ụ → e o u; k̲ d̲ t̲ → k d t; č → c; ǰ → j).
 - Texto paralelo = frase bororo + tradução numerada da Enciclopédia (não as glosas).
-- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu*, também antes de sufixo (*Kujagureu* → *Kujagurewu*; *Kurireu-re* → *Kurirewure*).
+- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu*, também antes de sufixo (*Kujagureu* → *Kujagurewu*; *Kurireu-re* → *Kurirewure*). Só depois de *a*, *e*, *o*: *kakodiu* (lenda 5), palavra própria da língua das lendas, fica como impressa.
 - Hífens de formas bororo também saem dos títulos e dos textos em português (traduções, narrativa, notas, glosas):
   *Kaiamo-doge* → *Kaiamodoge*, *KAIAMO-DOGE JI-WU BAKARU* → *KAIAMODOGE JIWU BAKARU*. Os hífens do português ficam
   (*cipó-imbé*, *atiraram-se*, *cana-de-vassoura*). A transcrição guarda a forma impressa.

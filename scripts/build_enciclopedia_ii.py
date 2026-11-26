@@ -39,7 +39,8 @@ PREFIX = 'BOR-CORBO-ENC2'
 COLLECTION = 'Enciclopédia Bororo II'
 
 NOTE = re.compile(r'\s*\((\d+)\)?')          # "(12)"; aceita "(12" sem fechar, como impresso
-VOWEL_U = re.compile(r'([aeio])u$', re.I)
+# -u depois de a, e, o vira -wu; depois de i, não (kakodiu, palavra da língua das lendas, fica como impressa).
+VOWEL_U = re.compile(r'([aeo])u$', re.I)
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 
 
