@@ -53,6 +53,19 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 - Lenda 7, *Os chefes Baitogogo e Akaruio Boroge cedem seus poderes* (pp. 127–137): completa, 21 frases e 38 notas
   (a nota 2 não tem chamada impressa). O ideofone *peu* (som do tambor) fica sem *-wu*.
 - Lenda 8, *Os chefes Baitogogo e Akaruio Boroge vão chefiar o reino dos mortos* (narrativa pp. 139–142; texto bororo
-  pp. 144–182, do arquivo *cut-2.pdf*; p. 143 só com ilustrações): 170 frases e 85 notas. Falta a p. 183 (tradução das
-  frases 168–170 e notas 86–88). Ideofones *cou* e *peu* sem *-wu*.
+  pp. 144–182, do arquivo *cut-2.pdf*; p. 143 só com ilustrações; p. 183, com a tradução das frases 168–170 e as
+  notas 86–89, do arquivo *cut-3.pdf*): completa, 170 frases e 89 notas. A nota 89 não tem chamada impressa.
+  Ideofones *cou* e *peu* sem *-wu*.
+- Lenda 9, *Os gêmeos Akaruio Bokodori e Mamuiawuge Eceba* (abre o ciclo do chefe Akaruio Bokodori, p. 185;
+  introdução e narrativa pp. 187–191; texto bororo *Bakororo-doge e-ro* pp. 192–255, seções a–k, do arquivo
+  *cut-3.pdf*): completa, 217 frases e 112 notas. Divergências do original mantidas:
+  - notas 71, 72 e 97 sem chamada própria: a chamada da frase 141 (*podoja-to*) está impressa como (70), a da frase
+    192 (primeiro *taci*) como (96), e a frase 142 (*to-iado apo*) não traz chamada;
+  - p. 238, frase 158: a última célula traz só as glosas "fará" / "ao.", sem forma bororo (registrado como lacuna);
+  - frase 70 *ino* (nas frases paralelas: *oino*); frase 84 *bukeje* (letra inicial falhada na impressão);
+    frase 124 *ae* (impresso *ác*); frase 173 célula *u-re* com glosa "sôbre"; frase 22 *i-vidodu* (com *v*);
+  - *apekura arege* (frases 94 e 180) × *Apegura Arege* (frases 126 e 128);
+  - erros da tradução portuguesa mantidos: "(de) sua) viagem" (26), parêntese aberto em 125, "supergície" (84),
+    "palvra" (128), "tue ôlho" (207); glosa "(sou) em mesmo" (55).
+  - O ideofone *pou* (pancada) fica sem *-wu*, como *peu* e *cou*.
 - Transcrição provisória, a conferir por FFG.

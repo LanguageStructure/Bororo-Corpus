@@ -1991,7 +1991,6 @@ tu-biagado | se fêz pequeno
 pobo-to, | água em,
 kodi. | porque.
 @foto ... Kuogori Pijiwu ofereceu-se para... executar uma elegia...
-@lacuna Falta a p. 183 (tradução das frases 168 a 170 e notas 86 a 88): o arquivo cut-2.pdf termina na p. 182.
 @@TRADUCAO
 @pagina 181
 @t 159 E êles o fizeram sair; e êle fêz criação (do) rio.
@@ -2006,3 +2005,11 @@ kodi. | porque.
 @n 83 bokwadi, jatobá, hymenaea sp. | Nesta variante o narrador diz que a árvore que brotou no ombro de Baitogogo era um jatobá e não um tarumàzeiro.
 @n 84 u-re pobo to, êle fêz (do) rio criação. | Nesta variante atribui-se a Baitogogo a criação dos rios, enquanto na lenda → Pobo Tawejedu, refere-se a Cugui.
 @n 85 oino-re, assim foram (as) coisas, i.e., aconteceu assim porque antes não existiam os rios.
+@pagina 183
+@t 168 Mas êle fêz ida atrás de si a seus súditos; quando teve aproximação (d)êles, fêz seguração (da) trombeta ela; fêz som: "Pu, pu, pu."
+@t 169 Mas (o) jatobá não era mais.
+@t 170 Porque êle se fêz pequeno, se fêz pequeno na água.
+@n 86 tu-muga kae, sua morada a, i.e., Baitogogo chegou à sua nova morada i.e., ao reino ocidental dos mortos, mergulhando na água.
+@n 87 tu-mugudo, se assentou, i.e., estabeleceu-se lá.
+@n 88 tu-ibagi atrás de si, i.e., Baitogogo voltou novamente à aldeia porque não tinha ainda recebido o canto de despedida de que se fala na Nota 70.
+@n 89 Pu, pu, pu, fs. que pretendem imitar o som da trombeta.

@@ -42,7 +42,7 @@ NOTE = re.compile(r'\s*\((\d+)\)?')          # "(12)"; aceita "(12" sem fechar, 
 # -u depois de a, e, o vira -wu; depois de i, não (kakodiu, palavra da língua das lendas, fica como impressa).
 VOWEL_U = re.compile(r'([aeo])u$', re.I)
 # Ideofones e onomatopeias ficam como impressos (não recebem -wu).
-NO_WU = {'peu', 'cou'}
+NO_WU = {'peu', 'cou', 'pou'}
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 
 
