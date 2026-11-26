@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "license": "CC BY 4.0",
  "doi": "10.5281/zenodo.12110451",
  "repository_zip": "https://github.com/LanguageStructure/Bororo-Corpus/archive/refs/heads/main.zip",
@@ -10,11 +10,11 @@
    "path": "docs/downloads/corbo-parallel.tsv",
    "url": "downloads/corbo-parallel.tsv",
    "format": "TSV (UTF-8)",
-   "bytes": 2907696,
+   "bytes": 2911461,
    "pt": "Todas as unidades documentais publicadas, com coleção, estado editorial, texto Bororo e tradução portuguesa quando existe.",
    "en": "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
-   "counts_pt": "11.453 unidades · 2.493 com tradução",
-   "counts_en": "11,453 units · 2,493 with translation"
+   "counts_pt": "11.468 unidades · 2.503 com tradução",
+   "counts_en": "11,468 units · 2,503 with translation"
   },
   {
    "group": "textos",

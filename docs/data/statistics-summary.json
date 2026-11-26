@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-25",
- "units": 19734,
- "tokens": 541376,
- "types": 21134,
+ "generated": "2026-11-26",
+ "units": 19749,
+ "tokens": 541577,
+ "types": 21141,
  "collections": [
   [
    "Pao Kurirewu Bataru Kurirewu",
@@ -70,6 +70,11 @@
    2645
   ],
   [
+   "Enciclopédia Bororo II",
+   261,
+   2460
+  ],
+  [
    "Bakororodoge",
    64,
    2304
@@ -83,11 +88,6 @@
    "Façanha Bakororogode",
    41,
    2260
-  ],
-  [
-   "Enciclopédia Bororo II",
-   246,
-   2259
   ],
   [
    "Josué",
@@ -198,8 +198,8 @@
   ],
   [
    "Documentary texts",
-   1694,
-   62255
+   1709,
+   62456
   ],
   [
    "Antigo Testamento",
