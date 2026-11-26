@@ -5,6 +5,17 @@ têm DOI próprio no Zenodo; cite sempre a versão consultada.
 
 ## [Não publicado]
 
+### Tokenizador
+- **Inventário v6** (`scripts/build_tokenizer_v6.py` → `docs/data/tokenizer-v6-site.json`), usado pelo site:
+  as 50 formas com `Morph=` manual no CoNLL-U passam a confirmadas, com a análise do CoNLL-U (`=` clítico,
+  `-` afixo, `0` zero); 42 delas estavam sem análise ou só propostas no v5 (ex.: *ji*, *tabo*, *kae*, *makore*).
+  Confirmadas: 82 → 122.
+- Hipóteses fracas deixam de aparecer como proposta no tokenizador (ex.: *mare* `ma+re`, *tada* `ta+da`).
+- Planilha `CorBo/validation/tokenizer_v6_classe_fechada.tsv` (254 formas de classe fechada com segmentação não
+  confirmada) para decidir o que remover.
+- `evaluate_tokenizer_gold.py --inventory` avalia os inventários do site; 45 formas do teste da planilha gold
+  já estavam confirmadas no desenvolvimento (`tokenizer_gold_teste_vazamento.tsv`).
+
 ### Textos
 - *Enciclopédia Bororo II*: lenda 2, *Os chefes Baitogogo e Aroia Kurireu lutam contra os Kaiamo-doge* (pp. 25–77),
   181 frases e 70 notas. Lendas 3 (pp. 79–89), 4 (pp. 91–109), 5 (pp. 111–117), 6 (pp. 119–125), 7 (pp. 127–137), 8 (pp. 139–183) e 9 (pp. 185–255, os gêmeos Akaruio Bokodori e Mamuiawuge Eceba, 217 frases e 112 notas), 10 (pp. 257–261), 11 (pp. 263–267), 12 (pp. 271–287) e 13 (pp. 289–299); páginas que faltavam na digitalização transcritas de fotos. Hífens e apóstrofos de formas bororo também saem dos títulos e textos em português (*Kaiamo-doge* → *Kaiamodoge*). `build_enciclopedia_ii.py` reconhece cabeçalhos de ciclo (`@ciclo`) e liga *nure*/*rogu*

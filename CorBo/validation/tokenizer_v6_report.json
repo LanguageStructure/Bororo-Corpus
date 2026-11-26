@@ -1,0 +1,50 @@
+{
+ "generated": "2026-11-26",
+ "conllu_morph": {
+  "forms_applied": 50,
+  "changes": {
+   "promovida_de_unanalysed": 33,
+   "confirmada_igual": 8,
+   "promovida_de_proposed": 5,
+   "confirmada_nova_analise": 2,
+   "promovida_de_proposed_low_support": 2
+  },
+  "conflicting_forms": [],
+  "homographs_not_generalized": [
+   {
+    "form": "jii",
+    "morph": "0-ji",
+    "morph_tokens": 1,
+    "readings_with_morph": [
+     "ji/ADP"
+    ],
+    "other_readings": {
+     "jii/ADV": 301
+    }
+   }
+  ],
+  "tokens_with_auto_morph_ignored": 155
+ },
+ "closed_class": {
+  "rows": 254,
+  "suggestions": {
+   "revisar: índice pessoal + base": 140,
+   "revisar: base + =re": 76,
+   "remover": 20,
+   "revisar": 18
+  },
+  "decided_remove": 0
+ },
+ "review_status_counts_v5": {
+  "proposed": 565,
+  "unanalysed": 6124,
+  "confirmed": 82,
+  "proposed_low_support": 148
+ },
+ "review_status_counts_v6": {
+  "confirmed": 122,
+  "proposed": 560,
+  "proposed_low_support": 146,
+  "unanalysed": 6091
+ }
+}

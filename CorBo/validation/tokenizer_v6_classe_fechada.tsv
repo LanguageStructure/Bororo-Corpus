@@ -1,0 +1,255 @@
+form	upos	tokens_conllu	status_v5	analise_v5	fonte_v5	sugestao	decisao
+acekare	PRON:1	1	unanalysed	a+cekare	productive_attested_stem	revisar: índice pessoal + base	
+aeiogi	ADP:1	1	unanalysed	a+eiogi	productive_attested_stem	revisar: índice pessoal + base	
+aere	ADP:2	2	unanalysed	ae+re	productive_attested_stem	revisar: base + =re	
+aino	ADV:7	7	unanalysed	a+ino	productive_attested_stem	revisar: índice pessoal + base	
+ainore	ADV:5	5	proposed	aino+re	v3	revisar: base + =re	
+aiogi	ADP:1	1	unanalysed	a+iogi	productive_attested_stem	revisar: índice pessoal + base	
+aire	ADP:4	4	unanalysed	ai+re	productive_attested_stem	revisar: base + =re	
+aiure	PRON:2	2	unanalysed	a+iure	productive_attested_stem	revisar: índice pessoal + base	
+aiwu	DET:1	1	unanalysed	a+iwu	productive_attested_stem	revisar: índice pessoal + base	
+akajeje	ADP:1	1	unanalysed	a+kajeje	productive_attested_stem	revisar: índice pessoal + base	
+akarekare	PRON:1	1	proposed	a+kare+ka+re	v3	revisar: índice pessoal + base	
+akeje	ADP:3	3	unanalysed	a+keje	productive_attested_stem	revisar: índice pessoal + base	
+aki	PRON:26 PROPN:2	28	unanalysed	a+ki	productive_attested_stem	revisar: índice pessoal + base	
+akire	PRON:22	22	proposed	aki+re	v3	revisar: base + =re	
+akogere	PRON:1	1	proposed	a+koge+re	v3	revisar: índice pessoal + base	
+akuriji	ADP:2	2	unanalysed	a+kuriji	productive_attested_stem	revisar: índice pessoal + base	
+apado	PRON:2	2	unanalysed	a+pado	productive_attested_stem	revisar: índice pessoal + base	
+apagao	ADP:1	1	unanalysed	a+pagao	productive_attested_stem	revisar: índice pessoal + base	
+apiji	ADP:3	3	unanalysed	a+piji	productive_attested_stem	revisar: índice pessoal + base	
+apodu	ADP:1	1	unanalysed	apo+du	productive_attested_stem	remover	
+apore	ADP:4	4	proposed	apo+re	v3	revisar: base + =re	
+arade	PRON:4	4	unanalysed	a+rade	productive_attested_stem	revisar: índice pessoal + base	
+atogi	ADP:1	1	unanalysed	a+togi	productive_attested_stem	revisar: índice pessoal + base	
+awogaire	ADP:4	4	unanalysed	awogai+re	productive_attested_stem	revisar: base + =re	
+awu	DET:408 PRON:8	416	unanalysed	a+wu	productive_attested_stem	revisar: índice pessoal + base	
+awugere	PRON:3	3	unanalysed	awuge+re	productive_attested_stem	revisar: base + =re	
+awure	PRON:19 NOUN:3	22	proposed	awu+re	v3	revisar: base + =re	
+awurogu	PRON:5 PROPN:1	6	proposed	awu+rogu	v3	revisar	
+barika	ADV:2	2	unanalysed	bari+ka	productive_attested_stem	remover	
+begare	ADV:1	1	proposed	bega+re	v3	revisar: base + =re	
+biegare	ADV:4 VERB:1	5	proposed	biega+re	v3	revisar: base + =re	
+bokwaia	AUX:1	1	proposed	bokwa+ia	v3	revisar	
+bokwaie	AUX:1	1	proposed	bokwa+ie	v3	revisar	
+bokwakare	AUX:2	2	proposed	bokwa+ka+re	v3	revisar: base + =re	
+bokwamodukare	AUX:3	3	proposed	bokwa+modu+ka+re	v3	revisar: base + =re	
+bokware	AUX:80 X:1	81	proposed	bokwa+re	v3	revisar: base + =re	
+bokwawo	AUX:1	1	proposed	bokwa+wo	v3	revisar	
+butugukare	ADV:2	2	proposed	butugu+ka+re	v3	revisar: base + =re	
+care	ADV:75 INTJ:1 PART:1	77	unanalysed	ca+re	productive_attested_stem	revisar: base + =re	
+cebiji	ADP:13	13	unanalysed	ce+biji	productive_attested_stem	revisar: índice pessoal + base	
+ceboere	INTJ:16 VERB:1 PROPN:1	18	proposed	ce+boe+re	v3	revisar: índice pessoal + base	
+cedu	PRON:5 NOUN:1	6	unanalysed	ce+du	productive_attested_stem	revisar: índice pessoal + base	
+ceduji	ADP:1	1	unanalysed	ce+duji	productive_attested_stem	revisar: índice pessoal + base	
+cegae	PRON:4	4	unanalysed	ce+gae	productive_attested_stem	revisar: índice pessoal + base	
+cegajeje	ADP:1	1	unanalysed	ce+gajeje	productive_attested_stem	revisar: índice pessoal + base	
+cegare	PRON:7	7	unanalysed	ce+ga+re	productive_attested_stem	revisar: índice pessoal + base	
+cegawo	PRON:4	4	unanalysed	ce+ga+wo	productive_attested_stem	revisar: índice pessoal + base	
+cegeje	ADP:21	21	unanalysed	ce+geje	productive_attested_stem	revisar: índice pessoal + base	
+cegi	ADP:5 PRON:1	6	unanalysed	ce+gi	productive_attested_stem	revisar: índice pessoal + base	
+ceia	PRON:3	3	unanalysed	ce+ia	productive_attested_stem	revisar: índice pessoal + base	
+ceibagi	ADP:10	10	unanalysed	ce+ibagi	productive_attested_stem	revisar: índice pessoal + base	
+ceie	PRON:4	4	unanalysed	ce+ie	productive_attested_stem	revisar: índice pessoal + base	
+ceiogi	ADP:2	2	unanalysed	ce+iogi	productive_attested_stem	revisar: índice pessoal + base	
+ceire	PRON:1	1	unanalysed	cei+re	productive_attested_stem	revisar: base + =re	
+ceiure	PRON:2	2	unanalysed	ce+iure	productive_attested_stem	revisar: índice pessoal + base	
+cekare	PRON:19 PROPN:1 VERB:1	21	unanalysed	ce+ka+re	productive_attested_stem	revisar: índice pessoal + base	
+cemode	PRON:18 VERB:3	21	unanalysed	ce+mode	productive_attested_stem	revisar: índice pessoal + base	
+cerade	PRON:4	4	unanalysed	ce+rade	productive_attested_stem	revisar: índice pessoal + base	
+cewo	PRON:20	20	unanalysed	ce+wo	productive_attested_stem	revisar: índice pessoal + base	
+cewu	DET:161 PRON:2 PROPN:1	164	unanalysed	ce+wu	productive_attested_stem	revisar: índice pessoal + base	
+dukejeia	ADV:1	1	proposed	dukeje+ia	v3	revisar	
+dukodire	ADV:69	69	proposed	dukodi+re	v3	revisar: base + =re	
+dukoiare	ADV:2	2	proposed_low_support	dukoia+re	v3	revisar: base + =re	
+dupijire	ADV:3	3	proposed	dupiji+re	v3	revisar: base + =re	
+dutabore	ADV:38 SCONJ:3	41	proposed	dutabo+re	v3	revisar: base + =re	
+duwugere	ADV:1	1	unanalysed	duwuge+re	productive_attested_stem	revisar: base + =re	
+ebo	ADP:88 NOUN:1	89	unanalysed	e+bo	productive_attested_stem	revisar: índice pessoal + base	
+ebore	ADP:2	2	unanalysed	ebo+re	productive_attested_stem	revisar: base + =re	
+ece	ADP:6	6	unanalysed	e+ce	productive_attested_stem	revisar: índice pessoal + base	
+eceraere	ADV:1	1	proposed	ecerae+re	v3	revisar: base + =re	
+ecewu	DET:14 PRON:1 NOUN:1 PROPN:1	17	unanalysed	e+cewu	productive_attested_stem	revisar: índice pessoal + base	
+eibagi	ADP:1	1	unanalysed	e+ibagi	productive_attested_stem	revisar: índice pessoal + base	
+eio	ADP:1	1	unanalysed	e+io	productive_attested_stem	revisar: índice pessoal + base	
+eiogi	ADP:3	3	unanalysed	e+iogi	productive_attested_stem	revisar: índice pessoal + base	
+eire	ADP:6	6	unanalysed	ei+re	productive_attested_stem	revisar: base + =re	
+eiure	PRON:3	3	unanalysed	e+iure	productive_attested_stem	revisar: índice pessoal + base	
+eje	ADP:2	2	unanalysed	e+je	productive_attested_stem	revisar: índice pessoal + base	
+ekaba	PRON:1	1	unanalysed	e+kaba	productive_attested_stem	revisar: índice pessoal + base	
+ekabi	ADP:1	1	unanalysed	e+kabi	productive_attested_stem	revisar: índice pessoal + base	
+ekajeje	ADP:3	3	unanalysed	e+kajeje	productive_attested_stem	revisar: índice pessoal + base	
+ekaji	ADP:1	1	unanalysed	e+kaji	productive_attested_stem	revisar: índice pessoal + base	
+ekeje	ADP:19	19	unanalysed	e+keje	productive_attested_stem	revisar: índice pessoal + base	
+ekori	ADV:1	1	unanalysed	e+kori	productive_attested_stem	revisar: índice pessoal + base	
+ekuda	ADP:5 NOUN:1	6	unanalysed	e+kuda	productive_attested_stem	revisar: índice pessoal + base	
+ekuduji	ADP:1	1	unanalysed	e+kuduji	productive_attested_stem	revisar: índice pessoal + base	
+emaboere	PRON:1	1	unanalysed	emaboe+re	productive_attested_stem	revisar: base + =re	
+emaga	PRON:1	1	unanalysed	e+maga	productive_attested_stem	revisar: índice pessoal + base	
+emage	PRON:12 VERB:1 PROPN:1	14	unanalysed	e+mage	productive_attested_stem	revisar: índice pessoal + base	
+emagere	PRON:9	9	unanalysed	emage+re	productive_attested_stem	revisar: base + =re	
+emare	PRON:26 VERB:1 NOUN:1	28	proposed	ema+re	v3	revisar: base + =re	
+emarogu	PRON:2	2	proposed	ema+rogu	v3	revisar	
+emeji	ADP:1	1	unanalysed	e+meji	productive_attested_stem	revisar: índice pessoal + base	
+emugaji	ADP:1	1	unanalysed	e+mugaji	productive_attested_stem	revisar: índice pessoal + base	
+epaere	ADV:1	1	unanalysed	epae+re	productive_attested_stem	revisar: base + =re	
+epaji	ADP:2	2	unanalysed	e+paji	productive_attested_stem	revisar: índice pessoal + base	
+eparuji	ADP:1	1	unanalysed	e+paruji	productive_attested_stem	revisar: índice pessoal + base	
+epe	ADP:1	1	unanalysed	e+pe	productive_attested_stem	revisar: índice pessoal + base	
+epiji	ADP:15	15	unanalysed	e+piji	productive_attested_stem	revisar: índice pessoal + base	
+erade	PRON:5	5	unanalysed	e+rade	productive_attested_stem	revisar: índice pessoal + base	
+eroji	ADP:1	1	unanalysed	e+roji	productive_attested_stem	revisar: índice pessoal + base	
+etadare	ADP:1	1	proposed	e+tada+re	v3	revisar: índice pessoal + base	
+etadawu	ADP:1	1	unanalysed	e+tadawu	productive_attested_stem	revisar: índice pessoal + base	
+etae	ADP:83	83	unanalysed	e+tae	productive_attested_stem	revisar: índice pessoal + base	
+etagi	ADP:1	1	unanalysed	e+tagi	productive_attested_stem	revisar: índice pessoal + base	
+etai	ADP:67	67	unanalysed	e+tai	productive_attested_stem	revisar: índice pessoal + base	
+etaoraji	ADP:4	4	unanalysed	e+taoraji	productive_attested_stem	revisar: índice pessoal + base	
+etaregoduji	ADP:1	1	unanalysed	e+taregoduji	productive_attested_stem	revisar: índice pessoal + base	
+etogi	ADP:8	8	unanalysed	e+togi	productive_attested_stem	revisar: índice pessoal + base	
+etoiadoda	ADP:1	1	unanalysed	e+toiadoda	productive_attested_stem	revisar: índice pessoal + base	
+etorei	ADP:1	1	unanalysed	e+torei	productive_attested_stem	revisar: índice pessoal + base	
+etu	PRON:1	1	unanalysed	e+tu	productive_attested_stem	revisar: índice pessoal + base	
+ewaire	ADP:1	1	unanalysed	ewai+re	productive_attested_stem	revisar: base + =re	
+ewoe	ADV:1	1	unanalysed	e+woe	productive_attested_stem	revisar: índice pessoal + base	
+ewogaire	ADP:4	4	unanalysed	ewogai+re	productive_attested_stem	revisar: base + =re	
+iaboere	PRON:2	2	proposed	iaboe+re	v3	revisar: base + =re	
+ica	ADV:43 INTJ:3	46	unanalysed	i+ca	productive_attested_stem	revisar: índice pessoal + base	
+icai	ADV:4 ADP:1	5	unanalysed	i+cai	productive_attested_stem	revisar: índice pessoal + base	
+icare	ADV:2425 PROPN:1	2426	proposed	ica+re	v3	revisar: base + =re	
+ice	ADP:3	3	unanalysed	i+ce	productive_attested_stem	revisar: índice pessoal + base	
+iigoiare	ADP:1	1	unanalysed	iigoia+re	productive_attested_stem	revisar: base + =re	
+iiure	PRON:2	2	unanalysed	i+iure	productive_attested_stem	revisar: índice pessoal + base	
+iji	ADP:1	1	unanalysed	i+ji	productive_attested_stem	revisar: índice pessoal + base	
+ikajeje	ADP:4	4	unanalysed	i+kajeje	productive_attested_stem	revisar: índice pessoal + base	
+ikaji	ADP:1	1	unanalysed	i+kaji	productive_attested_stem	revisar: índice pessoal + base	
+ikeje	ADP:12	12	unanalysed	i+keje	productive_attested_stem	revisar: índice pessoal + base	
+ikuduji	ADP:1	1	unanalysed	i+kuduji	productive_attested_stem	revisar: índice pessoal + base	
+imegi	ADP:1	1	unanalysed	i+megi	productive_attested_stem	revisar: índice pessoal + base	
+imi	PRON:66	66	unanalysed	i+mi	productive_attested_stem	revisar: índice pessoal + base	
+imire	PRON:33	33	proposed	imi+re	v3	revisar: base + =re	
+ipiji	ADP:28	28	unanalysed	i+piji	productive_attested_stem	revisar: índice pessoal + base	
+iporuji	ADP:1	1	unanalysed	i+poruji	productive_attested_stem	revisar: índice pessoal + base	
+irade	PRON:4	4	unanalysed	i+rade	productive_attested_stem	revisar: índice pessoal + base	
+iraji	ADP:1	1	unanalysed	i+raji	productive_attested_stem	revisar: índice pessoal + base	
+itabo	ADP:29	29	unanalysed	i+tabo	productive_attested_stem	revisar: índice pessoal + base	
+itada	ADP:1	1	unanalysed	i+tada	productive_attested_stem	revisar: índice pessoal + base	
+itae	ADP:19	19	unanalysed	i+tae	productive_attested_stem	revisar: índice pessoal + base	
+ito	ADP:9 VERB:1	10	unanalysed	i+to	productive_attested_stem	revisar: índice pessoal + base	
+itogi	ADP:13	13	unanalysed	i+togi	productive_attested_stem	revisar: índice pessoal + base	
+itogwakire	ADP:1	1	unanalysed	itogwaki+re	productive_attested_stem	revisar: base + =re	
+itonaregeduji	ADP:1	1	unanalysed	i+tonaregeduji	productive_attested_stem	revisar: índice pessoal + base	
+itoreduji	ADP:1	1	unanalysed	i+toreduji	productive_attested_stem	revisar: índice pessoal + base	
+itorei	ADP:1	1	unanalysed	i+torei	productive_attested_stem	revisar: índice pessoal + base	
+itui	ADP:1	1	unanalysed	i+tui	productive_attested_stem	revisar: índice pessoal + base	
+ituraji	ADP:1	1	unanalysed	i+turaji	productive_attested_stem	revisar: índice pessoal + base	
+iwaire	ADP:1	1	proposed	iwai+re	v3	revisar: base + =re	
+jaeie	ADV:1	1	unanalysed	jae+ie	productive_attested_stem	remover	
+jaere	ADV:5	5	unanalysed	jae+re	productive_attested_stem	revisar: base + =re	
+jakukare	ADV:1	1	proposed_low_support	jaku+ka+re	v3	revisar: base + =re	
+jare	ADV:1	1	unanalysed	ja+re	productive_attested_stem	revisar: base + =re	
+jeparare	ADV:1	1	proposed	jepara+re	v3	revisar: base + =re	
+jere	ADV:1	1	unanalysed	je+re	productive_attested_stem	revisar: base + =re	
+jipare	ADP:1	1	proposed	jipa+re	v3	revisar: base + =re	
+jire	ADP:94 ADV:1 PROPN:1	96	unanalysed	ji+re	productive_attested_stem	revisar: base + =re	
+jiwore	ADV:1	1	proposed	jiwo+re	v3	revisar: base + =re	
+jiwure	ADV:1	1	unanalysed	jiwu+re	productive_attested_stem	revisar: base + =re	
+jokire	ADP:1	1	proposed	joki+re	v3	revisar: base + =re	
+jorudu	ADV:1	1	unanalysed	joru+du	productive_attested_stem	remover	
+kaore	ADV:1	1	unanalysed	kao+re	productive_attested_stem	revisar: base + =re	
+kejeie	ADP:1	1	proposed	keje+ie	v3	revisar	
+kejere	ADP:19	19	proposed	keje+re	v3	revisar: base + =re	
+kigudure	ADV:1	1	proposed_low_support	kigudu+re	v3	revisar: base + =re	
+koborirogu	ADV:1	1	proposed	kobori+rogu	v3	revisar	
+kodire	ADV:110 SCONJ:2 VERB:1	113	proposed	kodi+re	v3	revisar: base + =re	
+koiare	ADP:42 ADV:1	43	proposed	koia+re	v3	revisar: base + =re	
+kuricigowo	ADV:2	2	proposed	kuricigo+wo	v3	revisar	
+kuriiagu	ADV:2	2	proposed	kuri+iagu	v3	revisar	
+kurikare	ADV:7	7	proposed	kuri+ka+re	v3	revisar: base + =re	
+kuriwo	ADV:3	3	proposed	kuri+wo	v3	revisar	
+maere	ADV:5	5	proposed	mae+re	v3	revisar: base + =re	
+mare	CCONJ:273	273	unanalysed	ma+re	productive_attested_stem	revisar: base + =re	
+marigudu	ADV:37 NOUN:1	38	unanalysed	marigu+du	productive_attested_stem	remover	
+marigudure	ADV:2	2	proposed	marigudu+re	v3	revisar: base + =re	
+marigumodukare	ADV:1	1	proposed	marigu+modu+ka+re	v3	revisar: base + =re	
+marigure	ADV:1	1	proposed	marigu+re	v3	revisar: base + =re	
+mariguwo	ADV:12	12	proposed	marigu+wo	v3	revisar	
+matadu	ADV:1	1	unanalysed	mata+du	productive_attested_stem	remover	
+noidoiare	ADV:1	1	unanalysed	noidoia+re	productive_attested_stem	revisar: base + =re	
+nonoie	ADV:4	4	proposed	nono+ie	v3	revisar	
+nonore	ADV:97	97	proposed	nono+re	v3	revisar: base + =re	
+oiare	ADP:1	1	proposed	oia+re	v3	revisar: base + =re	
+oinodu	ADV:5	5	unanalysed	oino+du	productive_attested_stem	remover	
+oinodure	ADV:1	1	proposed	oinodu+re	v3	revisar: base + =re	
+oinoia	ADV:1	1	proposed	oino+ia	v3	revisar	
+oinonore	ADV:3	3	proposed	oinono+re	v3	revisar: base + =re	
+oinowo	ADV:2	2	proposed	oino+wo	v3	revisar	
+otodaire	ADV:1	1	proposed	otodai+re	v3	revisar: base + =re	
+pabiji	ADP:2	2	unanalysed	pa+biji	productive_attested_stem	revisar: índice pessoal + base	
+paetu	ADV:1	1	unanalysed	pa+etu	productive_attested_stem	revisar: índice pessoal + base	
+pagae	PRON:4	4	unanalysed	pa+gae	productive_attested_stem	revisar: índice pessoal + base	
+pagao	ADP:1	1	unanalysed	pa+gao	productive_attested_stem	revisar: índice pessoal + base	
+pagare	PRON:12 NOUN:2 ADV:1	15	proposed	paga+re	v3	revisar: base + =re	
+pagawo	PRON:4 VERB:1	5	proposed	paga+wo	v3	revisar	
+pageje	ADP:12	12	unanalysed	pa+geje	productive_attested_stem	revisar: índice pessoal + base	
+pagewo	PRON:1	1	unanalysed	page+wo	productive_attested_stem	remover	
+paia	PRON:5 NOUN:1	6	unanalysed	pa+ia	productive_attested_stem	revisar: índice pessoal + base	
+paibagi	ADP:2	2	unanalysed	pa+ibagi	productive_attested_stem	revisar: índice pessoal + base	
+paie	PRON:4	4	unanalysed	pa+ie	productive_attested_stem	revisar: índice pessoal + base	
+paiure	PRON:2	2	unanalysed	pa+iure	productive_attested_stem	revisar: índice pessoal + base	
+paji	ADP:1	1	unanalysed	pa+ji	productive_attested_stem	revisar: índice pessoal + base	
+pakai	PRON:1	1	unanalysed	pa+kai	productive_attested_stem	revisar: índice pessoal + base	
+pakare	PRON:4	4	unanalysed	pa+ka+re	productive_attested_stem	revisar: índice pessoal + base	
+pamode	PRON:56	56	unanalysed	pa+mode	productive_attested_stem	revisar: índice pessoal + base	
+pamoduie	PRON:1	1	unanalysed	pa+modu+ie	productive_attested_stem	revisar: índice pessoal + base	
+pamodukare	PRON:9 PROPN:1	10	unanalysed	pa+moduka+re	productive_attested_stem	revisar: índice pessoal + base	
+panure	PRON:5 VERB:1	6	unanalysed	pa+nure	productive_attested_stem	revisar: índice pessoal + base	
+papai	PRON:1	1	unanalysed	pa+pai	productive_attested_stem	revisar: índice pessoal + base	
+parade	PRON:4	4	unanalysed	pa+rade	productive_attested_stem	revisar: índice pessoal + base	
+pawo	PRON:86	86	unanalysed	pa+wo	productive_attested_stem	revisar: índice pessoal + base	
+paworogu	PRON:2	2	unanalysed	pawo+rogu	productive_attested_stem	remover	
+pegawo	ADV:1	1	proposed	pega+wo	v3	revisar	
+pemegamodukare	ADV:1	1	proposed	pemega+modu+ka+re	v3	revisar: base + =re	
+pijire	ADP:7	7	proposed	piji+re	v3	revisar: base + =re	
+puidu	ADV:1	1	unanalysed	pui+du	productive_attested_stem	remover	
+radu	ADV:2	2	unanalysed	ra+du	productive_attested_stem	remover	
+remoduka	ADV:1	1	unanalysed	remodu+ka	productive_attested_stem	remover	
+ricodu	ADV:1	1	unanalysed	rico+du	productive_attested_stem	remover	
+rodu	ADV:2	2	unanalysed	ro+du	productive_attested_stem	remover	
+rugodu	ADV:1	1	unanalysed	rugo+du	productive_attested_stem	remover	
+ruie	ADV:1	1	unanalysed	ru+ie	productive_attested_stem	remover	
+tabiji	ADP:4	4	unanalysed	ta+biji	productive_attested_stem	revisar: índice pessoal + base	
+taboboere	ADP:1	1	unanalysed	taboboe+re	productive_attested_stem	revisar: base + =re	
+tabodu	ADP:1	1	unanalysed	tabo+du	productive_attested_stem	remover	
+taboie	ADP:1	1	proposed	tabo+ie	v3	revisar	
+tabore	ADP:35 ADV:1	36	proposed	tabo+re	v3	revisar: base + =re	
+taci	ADV:116	116	unanalysed	ta+ci	productive_attested_stem	revisar: índice pessoal + base	
+tada	ADP:87	87	unanalysed	ta+da	productive_attested_stem	revisar: índice pessoal + base	
+tadadu	ADP:1	1	unanalysed	tada+du	productive_attested_stem	remover	
+tadawugeie	ADP:1	1	unanalysed	tadawuge+ie	productive_attested_stem	remover	
+tadukeje	ADP:1	1	unanalysed	ta+dukeje	productive_attested_stem	revisar: índice pessoal + base	
+tagawo	PRON:3	3	unanalysed	ta+ga+wo	productive_attested_stem	revisar: índice pessoal + base	
+tageje	ADP:11	11	unanalysed	ta+geje	productive_attested_stem	revisar: índice pessoal + base	
+tagire	PRON:5	5	proposed	tagi+re	v3	revisar: base + =re	
+taia	PRON:4	4	unanalysed	ta+ia	productive_attested_stem	revisar: índice pessoal + base	
+taie	PRON:4	4	unanalysed	ta+ie	productive_attested_stem	revisar: índice pessoal + base	
+taiure	PRON:2	2	unanalysed	ta+iure	productive_attested_stem	revisar: índice pessoal + base	
+tamode	PRON:40	40	unanalysed	ta+mode	productive_attested_stem	revisar: índice pessoal + base	
+tamoduie	PRON:1	1	unanalysed	ta+modu+ie	productive_attested_stem	revisar: índice pessoal + base	
+tamodukare	PRON:5	5	unanalysed	ta+moduka+re	productive_attested_stem	revisar: índice pessoal + base	
+tanure	PRON:2	2	unanalysed	tanu+re	productive_attested_stem	revisar: base + =re	
+tarade	PRON:4	4	unanalysed	ta+rade	productive_attested_stem	revisar: índice pessoal + base	
+taroi	ADP:1	1	unanalysed	ta+roi	productive_attested_stem	revisar: índice pessoal + base	
+tawo	PRON:22	22	unanalysed	ta+wo	productive_attested_stem	revisar: índice pessoal + base	
+tonajire	ADP:3	3	unanalysed	tonaji+re	productive_attested_stem	revisar: base + =re	
+torore	ADV:2	2	proposed	toro+re	v3	revisar: base + =re	
+uai	ADP:1	1	unanalysed	u+ai	productive_attested_stem	revisar: índice pessoal + base	
+ucere	PRON:4	4	unanalysed	uce+re	productive_attested_stem	revisar: base + =re	
+uiure	PRON:3	3	unanalysed	u+iure	productive_attested_stem	revisar: índice pessoal + base	
+ukana	PRON:1	1	unanalysed	u+kana	productive_attested_stem	revisar: índice pessoal + base	
+ukeje	ADP:1	1	unanalysed	u+keje	productive_attested_stem	revisar: índice pessoal + base	
+urade	PRON:6	6	unanalysed	u+rade	productive_attested_stem	revisar: índice pessoal + base	
+urure	PRON:1	1	unanalysed	uru+re	productive_attested_stem	revisar: base + =re	
+woedu	ADV:2	2	unanalysed	woe+du	productive_attested_stem	remover	
+woere	ADV:29	29	proposed	woe+re	v3	revisar: base + =re	
+wojere	ADV:4	4	proposed	woje+re	v3	revisar: base + =re	

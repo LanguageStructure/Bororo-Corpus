@@ -80,14 +80,39 @@ def evaluate(model, gold):
     return dict(counts), results
 
 
+def inventory_as_model(inv):
+    """Converte um inventário do site no formato {candidates: {forma: {segments, status}}}.
+
+    Só entram formas com análise confirmada ou proposta; hipóteses fracas de formas sem análise
+    (review_status = unanalysed) contam como abstenção, como no site.
+    """
+    cands = {}
+    for form, entry in inv.get("forms", {}).items():
+        status = entry.get("review_status")
+        if status not in {"confirmed", "proposed", "proposed_low_support"}:
+            continue
+        for a in entry.get("analyses") or []:
+            seg = a.get("surface_segments") or a.get("segments") or []
+            if seg and "".join(seg).casefold() == form.casefold():
+                cands[form.casefold()] = {"segments": [x.casefold() for x in seg], "status": status}
+                break
+    return {"candidates": cands}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=Path, default=Path("docs/data/tokenizer-model.json"))
+    parser.add_argument("--inventory", type=Path,
+                        help="avaliar um inventário do site (tokenizer-v5-site.json, tokenizer-v6-site.json) em vez do modelo")
     parser.add_argument("--gold", type=Path, required=True)
     parser.add_argument("--report", type=Path, default=Path("tokenizer_gold_evaluation.json"))
     parser.add_argument("--details", type=Path, default=Path("tokenizer_gold_evaluation.csv"))
     args = parser.parse_args()
-    model = json.loads(args.model.read_text(encoding="utf-8"))
+    if args.inventory:
+        model = inventory_as_model(json.loads(args.inventory.read_text(encoding="utf-8")))
+        args.model = args.inventory
+    else:
+        model = json.loads(args.model.read_text(encoding="utf-8"))
     gold = read_gold(args.gold)
     scores, rows = evaluate(model, gold)
     report = {"model": str(args.model), "gold": str(args.gold), "test_forms": scores.get("evaluated", 0), "scores": scores, "caveats": ["Gold must be annotated independently of model proposals.", "Scores are exact surface-segmentation matches; no claim about morpheme gloss accuracy.", "Abstentions and rejected analyses are reported separately.", "Model training may already contain these surface forms; this is not a held-out-form evaluation unless trained with --exclude-forms."]}

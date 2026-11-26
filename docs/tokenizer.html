@@ -186,11 +186,12 @@ let corboV4=new Map();
 async function loadCorboV4(){
   try{
     // v5: mesmo formato do v4, com review_status, suporte, superfície/subjacente e suspeita de português.
-    let response=await fetch('data/tokenizer-v5-site.json',{cache:'no-cache'});
+    let response=await fetch('data/tokenizer-v6-site.json',{cache:'no-cache'});
+    if(!response.ok)response=await fetch('data/tokenizer-v5-site.json',{cache:'no-cache'});
     if(!response.ok)response=await fetch('data/tokenizer-v4-site.json',{cache:'no-cache'});
     if(!response.ok)throw Error('HTTP '+response.status);
     const data=await response.json();
-    if(!['corbo-tokenizer-v5-site/v1','corbo-tokenizer-v4-site/v1'].includes(data.schema))throw Error('Esquema incompatível');
+    if(!['corbo-tokenizer-v6-site/v1','corbo-tokenizer-v5-site/v1','corbo-tokenizer-v4-site/v1'].includes(data.schema))throw Error('Esquema incompatível');
     corboV4=new Map(Object.entries(data.forms||{}));
     render();
     console.info('CorBo '+data.schema+': '+corboV4.size+' formas carregadas.');
@@ -201,13 +202,20 @@ function corboV4Tokens(t){
   const entry=corboV4.get(word);
   if(!entry)return null; // preserva fallback para palavras fora do inventário
   const alternatives=Array.isArray(entry.analyses)?entry.analyses:[];
-  const candidate=alternatives.find(x=>Array.isArray(x.segments)&&x.segments.length>1&&x.segments.every(s=>typeof s==='string'&&s.length));
   const ptNote=entry.lang_suspect==='pt'?' · possível palavra portuguesa ou empréstimo ('+entry.lang_evidence+')':'';
-  if(!candidate)return [{...t,status:'unanalysed',analysis:'Forma reconhecida; sem segmentação registrada'+ptNote}];
-  const parts=candidate.segments;
+  // v6: análise do Morph= do CoNLL-U (anotação manual), com '=' clítico, '-' afixo e '0' expoente zero.
+  const fromMorph=alternatives.find(x=>x.morph&&x.status==='confirmed');
+  if(fromMorph&&(!Array.isArray(fromMorph.surface_segments)||fromMorph.surface_segments.length<2))
+    return [{...t,status:'confirmed',whole:t.form,analysis:fromMorph.morph+' (análise do CoNLL-U; '+(fromMorph.surface_segments?'sem fronteira na grafia':'superfície não concatenativa')+')'+ptNote,v4:true}];
+  const candidate=fromMorph||alternatives.find(x=>Array.isArray(x.segments)&&x.segments.length>1&&x.segments.every(s=>typeof s==='string'&&s.length));
+  if(!candidate)return [{...t,status:'unanalysed',analysis:(entry.note?entry.note+'; ':'Forma reconhecida; ')+'sem segmentação registrada'+ptNote}];
+  // Hipóteses fracas (forma sem análise, só com radical produtivo atestado) não são exibidas como proposta.
+  if(entry.review_status==='unanalysed'&&candidate.kind==='hypothesis')
+    return [{...t,status:'unanalysed',analysis:'Forma sem análise; hipótese fraca não verificada: '+candidate.segments.join(' + ')+ptNote}];
+  const parts=candidate.surface_segments||candidate.segments;
   const status=candidate.status==='confirmed'?'confirmed':'proposed';
   const support=candidate.low_support?' · suporte baixo ('+candidate.support+' ocorrência(s) da família lexical)':'';
-  const label=parts.join(' + ')+support+ptNote;
+  const label=(candidate.morph?candidate.morph+' (análise do CoNLL-U) · superfície ':'')+parts.join(' + ')+support+ptNote;
   // Representações subjacentes/alomórficas não são fatias da palavra escrita.
   if(parts.join('').toLocaleLowerCase('pt-BR')!==word)
     return [{...t,status,whole:t.form,analysis:label+' (representação morfológica; superfície não concatenativa)',v4:true}];

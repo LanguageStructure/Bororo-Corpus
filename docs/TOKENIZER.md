@@ -9,9 +9,30 @@ Mapa dos arquivos, de onde vêm e quem os usa. Os JSONs em `docs/data/` são **d
 | `docs/data/tokenizer-lexicon-v3.json` | revisão manual | v4, v5 | inventário lexical externo com `surface_segments` e `underlying_morphemes` |
 | `docs/data/tokenizer-v3.json` | `scripts/integrar_tokenizador_v3.py` | v4 | v2 + `CorBo_vNext/annotations/tokenizer_confirmed_inventory.tsv` |
 | `docs/data/tokenizer-v4.json`, `tokenizer-v4-site.json` | integração de 2026-11-18 (sem script no repositório) | v5; recuo do site | v3 + confirmações e `-guraga` |
-| **`docs/data/tokenizer-v5-site.json`** | **`scripts/build_tokenizer_v5.py`** | **`tokenizer.html`** (com recuo para o v4) | **inventário único do site**: v4 + pré-tokenização, `review_status`, suporte, superfície × subjacente, suspeita de português |
+| `docs/data/tokenizer-v5-site.json` | `scripts/build_tokenizer_v5.py` | v6; recuo do site | v4 + pré-tokenização, `review_status`, suporte, superfície × subjacente, suspeita de português |
+| **`docs/data/tokenizer-v6-site.json`** | **`scripts/build_tokenizer_v6.py`** | **`tokenizer.html`** (recuo para v5 e v4) | **inventário do site**: v5 + análises do `Morph=` do CoNLL-U como confirmadas (`morph`, com `=`, `-` e `0`) + remoção, decidida em planilha, de segmentações de palavras de classe fechada |
 
 Relatório do v5: `CorBo/validation/tokenizer_v5_report.json` (formas suspeitas de português, confirmadas não concatenativas, pontuação removida das bordas, caracteres de uso privado).
+
+## v6 (26/11/2026)
+
+`python3 scripts/build_tokenizer_v6.py` (simula) e `--apply` (grava). Relatório: `CorBo/validation/tokenizer_v6_report.json`.
+
+- **`Morph=` do CoNLL-U é a fonte de verdade.** Formas com `Morph=` em tokens anotados à mão (sem `morph` em
+  `Auto=`) e uma só análise passam a `confirmed`. A análise vai em `morph` (`e=ako=re`, `0-ji`), os morfemas em
+  `underlying_morphemes` e as fatias da grafia em `surface_segments` (ou a segmentação de superfície já
+  confirmada, como *egore* `e+go+re`). Registro: `CorBo/validation/tokenizer_v6_morph_AAAAMMDD.tsv`.
+  Homógrafos não são generalizados: se a maioria dos tokens da grafia tem outro lema ou outra classe, a forma
+  fica de fora e aparece no relatório (ex.: *jii*).
+- **Palavras de classe fechada** (ADP, ADV, PRON, DET, SCONJ, CCONJ, PART, INTJ, AUX, NUM em ≥ 80% dos tokens)
+  com segmentação não confirmada vão para `CorBo/validation/tokenizer_v6_classe_fechada.tsv`. Só `decisao=remover`
+  é aplicado; a coluna `sugestao` é uma heurística (índice pessoal + base e base + `=re` ficam para revisão).
+- **Site:** o tokenizador mostra a análise do CoNLL-U quando existe; hipóteses fracas de formas sem análise
+  (`productive_attested_stem`) deixam de aparecer como proposta.
+- **Avaliação:** `evaluate_tokenizer_gold.py --inventory docs/data/tokenizer-v6-site.json` avalia o inventário do
+  site. A planilha gold deve ser anotada sem consultar as análises do tokenizador; as formas do teste já
+  confirmadas no desenvolvimento estão em `CorBo/validation/tokenizer_gold_teste_vazamento.tsv` e devem sair do
+  teste ou passar para `train`.
 
 ## Estados de revisão (v5)
 
