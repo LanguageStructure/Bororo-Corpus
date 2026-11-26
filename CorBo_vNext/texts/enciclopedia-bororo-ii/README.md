@@ -26,10 +26,10 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 
 - Bororo sem acentos e sem diacríticos subscritos (ẹ ọ ụ → e o u; k̲ d̲ t̲ → k d t; č → c; ǰ → j).
 - Texto paralelo = frase bororo + tradução numerada da Enciclopédia (não as glosas).
-- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu* (*Kujagureu* → *Kujagurewu*).
+- Sem hífens e sem apóstrofos no texto paralelo; *-u* depois de vogal = sufixo *-wu*, também antes de sufixo (*Kujagureu* → *Kujagurewu*; *Kurireu-re* → *Kurirewure*).
 - *nure* e *rogu* se escrevem ligados à palavra anterior (*Boe nure* → *Boenure*; *nogedu rogu* → *nogedurogu*). No interlinear, a célula ligada tem `ligada=1`; no leitor, as glosas aparecem juntas ("menino + (com) pequenez").
 - Nomes bororo dentro do português sem diacríticos (Meriri Poro). Português na ortografia original (êle, fêz).
-- Erros de impressão mantidos (ex.: "aldeia cm").
+- Erros de impressão mantidos (ex.: "aldeia cm"), salvo o hífen entre nome e sobrenome em *Aroia-Kurireu-ji* (lenda 2, frase 45), transcrito *Aroia Kurireu-ji* para não juntar os nomes.
 - As notas citam as formas bororo como impressas (com hífens, sem diacríticos).
 
 ## Estado

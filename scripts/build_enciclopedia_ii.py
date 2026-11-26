@@ -15,14 +15,14 @@ Convenções (decisões de FFG, 25/11/2026):
   * o bororo é transcrito sem acentos e sem diacríticos subscritos (feito na própria transcrição);
   * texto paralelo = frase bororo + tradução numerada da Enciclopédia (não as glosas);
   * sem hífens e sem apóstrofos;
-  * -u depois de vogal = sufixo -wu (Kujagureu > Kujagurewu);
+  * -u depois de vogal = sufixo -wu, também antes de sufixo (Kujagureu > Kujagurewu; Kurireu-re > Kurirewure);
   * nure e rogu se ligam à palavra anterior (Boe nure > Boenure; nogedu rogu > nogedurogu).
 A forma impressa (com hífens) fica preservada na coluna `source`.
 
 Marcação da transcrição: @lenda N, @titulo, @pagina N, @intro, @narrativa,
 @variante RÓTULO | NOTA, @texto TÍTULO BORORO | TÍTULO PT, @secao RÓTULO | NOTA,
 @s N (frase), "bororo | glosa" (uma célula por linha; "(n)" = chamada de nota),
-@titulo_trad, @secao_trad, @t N tradução, @n N nota, @foto legenda, @ciclo título de ciclo, @@ (fim de bloco).
+@titulo_trad, @secao_trad, @t N tradução, @n N nota, @foto legenda, @ciclo título de ciclo, @lacuna descrição de trecho ausente, @@ (fim de bloco).
 
 Uso: python scripts/build_enciclopedia_ii.py [--check]
   --check  só confere a transcrição e mostra o resumo, sem gravar.
@@ -43,8 +43,11 @@ WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 
 
 def norm_word(w: str) -> str:
-    core = w.replace('-', '').replace("'", '')
-    return VOWEL_U.sub(r'\1wu', core)
+    """-u depois de vogal vira -wu em cada segmento, também antes de sufixo
+    (Kurireu > Kurirewu; Kurireu-re > Kurirewure, decisão de FFG, 25/11/2026);
+    depois saem hífens e apóstrofos."""
+    segs = [VOWEL_U.sub(r'\1wu', seg.replace("'", '')) for seg in w.split('-')]
+    return ''.join(segs)
 
 
 # Formas que se escrevem ligadas à palavra anterior (decisão de FFG, 25/11/2026).
@@ -111,6 +114,7 @@ def parse(path: Path):
                 notes[int(n)] = dict(pagina=page, texto=txt)
             elif key == 'foto': add_ed('legenda_foto', val)
             elif key == 'ciclo': add_ed('ciclo', val)
+            elif key == 'lacuna': add_ed('lacuna', val)
             else:
                 raise SystemExit(f'{path.name}:{n_line}: marcador desconhecido @{key}')
             continue
@@ -210,7 +214,7 @@ def build(write=True):
             n = norm_text(w0).lower()
             r = rep.setdefault(n, dict(normalizada=n, originais=set(), ocorrencias=0, unidades=[], regra_wu=''))
             r['originais'].add(w0); r['ocorrencias'] += 1; r['unidades'].append(uid)
-            if VOWEL_U.search(w0.replace('-', '').replace("'", '')):
+            if any(VOWEL_U.search(seg.replace("'", '')) for seg in w0.split('-')):
                 r['regra_wu'] = 'sim'
     for r in rep.values():
         r['atestada'] = 'sim' if r['normalizada'] in vocab else 'não'

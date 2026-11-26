@@ -57,6 +57,7 @@ function glHTML(u,L){const cs=L.cells[u.id]||[];return groups(cs).map(c=>`<span>
 function renderTexto(L){const x=$('q').value.trim().toLocaleLowerCase('pt-BR');
  const rows=units.filter(u=>u.lenda===cur&&(!x||(u.b+' '+u.source+' '+u.p).toLocaleLowerCase('pt-BR').includes(x)));
  let last='',h=`<div class="lhead"><h2>${esc(L.lenda)}. ${esc(L.title)}</h2><div class="meta">${esc(L.bororo_title)} · ${rows.length} de ${units.filter(u=>u.lenda===cur).length} frases</div></div>`;
+ h+=L.editorial.filter(e=>e.type==='lacuna').map(e=>`<div class="notice"><b>Lacuna.</b> ${esc(e.text)}</div>`).join('');
  for(const u of rows){if(u.section!==last){last=u.section;const hd=L.editorial.find(e=>e.type==='secao_texto_bororo'&&e.label===u.section);
    h+=`<div class="sec">${esc(u.section)}${hd&&hd.text.includes('|')?` <small>${esc(hd.text.split('|')[1].trim())}</small>`:''}</div>`}
   h+=`<section class="unit" id="${esc(u.id)}"><div class="num"><a href="#${esc(u.id)}" title="${esc(u.id)}">${u.number}</a></div><div class="bor">${borHTML(u,L)}</div><div class="por">${esc(u.p||'—')} <span class="pg">p. ${esc(u.page)} / ${esc(u.translation_page)}</span></div><div class="src">${esc(u.source)}</div><div class="gl">${glHTML(u,L)}</div></section>`}
