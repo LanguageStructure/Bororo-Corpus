@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-26",
- "units": 19853,
- "tokens": 542352,
- "types": 21190,
+ "units": 20058,
+ "tokens": 544327,
+ "types": 21302,
  "collections": [
   [
    "Pao Kurirewu Bataru Kurirewu",
@@ -25,6 +25,11 @@
    5531
   ],
   [
+   "Enciclopédia Bororo II",
+   570,
+   5210
+  ],
+  [
    "1 Reis",
    319,
    4885
@@ -43,11 +48,6 @@
    "Pemo–Coqueiro",
    261,
    3277
-  ],
-  [
-   "Enciclopédia Bororo II",
-   365,
-   3235
   ],
   [
    "1 Samuel",
@@ -198,8 +198,8 @@
   ],
   [
    "Documentary texts",
-   1813,
-   63231
+   2018,
+   65206
   ],
   [
    "Antigo Testamento",
