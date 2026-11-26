@@ -1,0 +1,172 @@
+@lenda 10
+@titulo O CHEFE AKARUIO BOKODORI E AS TABAS BORORO
+@pagina 257
+@intro
+Não obstante não seja da índole da estrutura tribal dos Bororo obedecer a um único guia supremo, o chefe Akaruio Bokodori desempenha um papel de verdadeiro organizador, nesta e em outras lendas.
+Por sua iniciativa, todos os Bororo reunem-se na aldeia Arigao Bororo que, submetida assim a uma improvisa explosão demográfica, vê-se forçada a cindir-se em muitas outras, pela dispersão de vários grupos de silvícolas.
+@narrativa
+O grande chefe Akaruio Bokodori resolveu, certo dia, reunir novamente todos os Bororo, como fizera outrora na aldeia Arua Bororo.
+Esta vez, porém, estava na taba Arigao Bororo e lá, tocando um tambor, chamava seu povo. Em pouco tempo a aldeia ficou a transbordar de índios, tanto assim que não havia mais lugar para edificar choupanas, mesmo lançando mão do expediente de construir as choças em circunferências concêntricas, uma atrás da outra.
+Então uma parte da tribo emigrou para a foz do Okoge E-iao e lá organizou nova aldeia que recebeu o nome de Taba Bororo.
+Outros grupos foram às localidades Aroe Jari, Jarudori, Aijeri, Itubore, Kejari, à foz do Pogubo Cereu e à serra Tori Okwa.
+Akaruio Bokodori não abandonou Arigao Bororo, mas estabeleceu com os seus, na foz do rio Tadari Umana, região riquíssima em alimentos, um pouso provisório, que serviria de abrigo durante as pescarias.
+@pagina 258
+@texto IA BOE E-WORORO JI-WU BAKARU | [(DE) UMA(S) DOS BORORO SUA(S) TABA(S) ELA AQUELA LENDA]
+@s 1
+Arigao Bororo (1) | Arigao Bororo
+keje-re, | sôbre era,
+Akaruio Bokodori (2) | Akaruio Bokodori
+u-re | êle
+ka | (o) tambor
+kududo | tocou
+Orari Mogo-doge | Orari Mogo-doge
+bogai, | a,
+pugeje (3). | novamente.
+@s 2
+Icare | E
+Orari Mogo-doge-re (4) | (os) Orari Mogo-doge fizeram
+e-tu-do | sua ida
+pui | (com) reciprocidade
+Akaruio Bokodori | (de) Akaruio Bokodori
+u-ka | (de) seu tambor
+kudu | (do) som
+paru-to. | princípio em.
+@s 3
+Icare | E
+Arigao Bororo | Arigao Bororo
+o-korobadu-re | seu enchimento teve
+Orari Mogo-dog'ebo. | (os) Orari Mogo-doge êles com.
+@s 4
+Kodi (5) | Por isso
+icare | e
+Orari Mogo-doge | (os) Orari Mogo-doge
+e-roiwa | sua possibilidade
+bokwa-godu-re | não tinham
+pu-kujeagi. | (com) reciprocidade atrás.
+@s 5
+Kodi | Por isso
+icare | e
+Orari Mogo-doge (6) | (os) Orari Mogo-doge
+e-tu-re | sua ida fizeram
+Okoge Eiao (7) | (do) Okoge Eiao
+paru | foz
+kae, | a,
+Taba Bororo (8) | Taba Bororo
+oino | assim
+e'go-re | sua palavra fizeram
+Okoge Eiao | Okoge Eiao
+paru-ji. | foz ela.
+@s 6
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+icare | e
+e-re | êles
+@@TRADUCAO
+@titulo_trad AQUELA LENDA ELA (DE) UMA(S) (DOS) BORORO SUA(S) TABA(S)
+@pagina 259
+@t 1 Akaruio Bokodori êle tocou (o) tambor novamente aos Orari Mogo-doge sôbre (a aldeia) Arigao Bororo.
+@t 2 E (os) Orari Mogo-doge foram (com) reciprocidade (i.e., tôdos juntos) ao princípio (do) som (do) tambor (de) Akaruio Bokodori.
+@t 3 E Arigao Bororo teve seu enchimento com (os) Orari Mogo-doge.
+@t 4 E por isso (os) Orari Mogo-doge não tinham incipiente possibilidade (de ficar) atrás (dos outros).
+@t 5 E por isso (alguns) Orari Mogo-doge fizeram sua ida à foz (do) Okoge Eiao (e) assim fizeram sua palavra Taba Bororo (à) foz (do) Okoge Eiao.
+@t 6 Outros fizeram ainda sua ida: êles se colocaram sôbre (o) Aroe Jari.
+@n 1 Arigao Bororo, designação de uma célebre e grande aldeia. Para pormenores → a Lenda "Origem dos Cães".
+@n 2 Akaruio Bokodori, n.p. de um famoso chefe do sub-clã dos Baado Jebage Cobugiwuge Boe E-iadadawuge. | No I v., pág. 444, é registrado como chefe do sub-clã dos Baado Jebage Cobugiwuge Cebegiwuge, segundo a opinião de alguns informantes.
+@n 3 pugeje, novamente. | Akaruio Bokodori percute novamente o tambor para convocar os Bororo. Atitude semelhante tivera na → Lenda "Os Chefes Baitogogo e Akaruio Baroge Transferem Seus Poderes".
+@n 4 Orari Mogo-doge, grupo de Bororo que habitava no c.i. do Pogubo Cereu. | Aqui devemos entender todos os Bororo, → I v., pág. 281.
+@n 5 Kodi... pu-kujeagi. | Conceito: Os Bororo começavam a não poder mais ficar um atrás do outro. Deve-se lembrar que, em certas aldeias, nas quais os índios eram muito numerosos, as choupanas eram dispostas em circunferências concêntricas, assim que as carreiras de cabanas ficavam uma atrás da outra.
+@n 6 Orari Mogo-doge, (os) Orari Mogo-doge, i.e., alguns dos Orari Mogo-doge.
+@n 7 Okoge E-iao Paru, (do) Okoge E-iao fôz, i.e., a foz do Okoge-E-iao → I v., pág. 282.
+@n 8 Taba Bororo, nome dado à aldeia edificada na barra do Okoge E-iao. Etimològicamente significa Aldeia do Negro. | Os Bororo dizem que naquela sua peregrinação levavam o escalpo e os dentes de um negro, com os quais fabricavam um colar. Dêste fato infere-se que a aldeia é posterior às entradas dos civilizados no sertão matogrossense.
+@@INTERLINEAR
+@pagina 260
+tu-mugudo | se colocaram
+Aroe Jari (9) | Aroe Jari
+keje. | sôbre.
+@s 7
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+e-re | êles
+tu-mugudo | se colocaram
+Jarudori (10) | (de) Jarudori
+paru. | ao pé.
+@s 8
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+e-re | êles
+tu-mugudo | se colocaram
+Aijeri (11) | Aijeri
+keje. | sôbre.
+@s 9
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+e-re | êles
+tu-mugudo | se colocaram
+Itubore (12) | Itubore
+keje. | sôbre.
+@s 10
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+e-re | êles
+tu-mugudo | se colocaram
+Kejari (13) | Kejari
+keje. | sôbre.
+@s 11
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje; | ainda;
+e-re | êles
+tu-mugudo | se colocaram
+Pogubo Cereu (14) | (do) Pogubo Cereu
+paru | (a) foz
+keje. | sôbre.
+@s 12
+Iage | Outros
+e-tu-re | sua ida fizeram
+pugeje, | ainda,
+Tori Okwa (15) | Tori Okwa
+kae. | a.
+@s 13
+Akaruio Bokodori, | Akaruio Bokodori,
+rema, | em verdade,
+mugu-re | estada fêz
+nono | assim
+tu-ge | seu alimento
+Tadari Umana | (do) Tadari Umana
+paru | (a) foz
+keje. | sôbre.
+@s 14
+Woe | Aí
+u-re | êle fêz
+bororo | (de uma) aldeia
+bu | colocação
+paru | (a) fôz
+keje, | sôbre,
+mare | mas
+bororo | aldeia
+karega: | não (fêz)):
+ji-pa | seu lugar de reunião
+remawu, | mesmo
+rugadu. | em verdade.
+@@TRADUCAO
+@pagina 261
+@t 7 Outros fizeram sua ida ainda; êles se colocaram (ao) pé (do) Jarudori.
+@t 8 Outros ainda fizeram sua ida; êles se colocaram sôbre (o) Aijeri.
+@t 9 Outros fizeram sua ida ainda; êles se colocaram sôbre Itubore.
+@t 10 Outros fizeram sua ida ainda; êles se colocaram sôbre Kejari.
+@t 11 Outros fizeram ainda sua ida; êles se colocaram sôbre (a) foz (do) Pogubo Cereu.
+@t 12 Outros fizeram sua ida a Tori Okwa.
+@t 13 Em verdade Akaruio Bokodori fêz estada assim sôbre (a) foz (do) Tadari Umana (onde havia abundância de) seu alimento.
+@t 14 Aí êle fêz colocação (de uma) aldeia sôbre (a) foz, mas não (mesmo uma) aldeia: em verdade mesmo (um) lugar de reunião.
+@n 9 Aroe Jari, denominação de uma localidade onde foi edificada a aldeia Pobojari Bororo → I v., pág. 282.
+@n 10 Jarudori, denominação de uma localidade onde foi edificada a aldeia Jarudori Bororo → I v., pág. 282.
+@n 11 Aijeri, denominação de uma localidade onde foi edificada a aldeia Aijeri Bororo. Situava-se no c.s. do Tadari Umana, r. Tadarimana.
+@n 12 Itubore, denominação de um salto no c.m. do Tadari Umana, r. Tadarimana. | Dizem os Bororo que recebeu esta denominação porque lá apareceu, certa vez, o herói lendário Itubore. Naquela localidade foi construída a aldeia Itubore Bororo.
+@n 13 Kejari, denominação de uma localidade situada no r. Vermelho, a jusante da atual cidade de Rondonópolis. Lá foi edificada a aldeia Kejari Bororo.
+@n 14 Pogubo Cereu, r. São Lourenço. Trata-se da região perto do pantanal matogrossense em que deságua o r. São Lourenço.
+@n 15 Tori Okwa, (da) montanha encosta, i.e., nas encostas de uma serra. Trata-se da Serra do Jerônimo.

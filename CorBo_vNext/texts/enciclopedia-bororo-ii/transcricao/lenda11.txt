@@ -1,0 +1,149 @@
+@lenda 11
+@titulo O CHEFE AKARUIO BOKODORI E AS ONÇAS
+@pagina 263
+@intro
+Sem dúvida Akaruio Bokodori foi um dos chefes que mais destacado papel desempenhou na história da tribo, juntamente com Baitogogo e alguns outros.
+Nesta lenda aparece como o feliz possuidor das onças Adugo-doge, que são feras de suma importância para os Bororo. São o mori por excelência, ou seja, o animal que deve ser abatido para compensar a morte de algum membro da tribo, → I v., pág. 804.
+@narrativa
+Certo dia o índio Aroia Kurireu encontrou as onças Adugo-doge e apoderou-se delas. Não sabia, porém, o que fazer das mesmas e pensou, então, de levá-las de presente a seu padrinho Akaruio Bokodori, pois julgava tratar-se de um achado importante.
+Retomando o caminho que levava à aldeia, a comitiva teve que atravessar o rio Moribo Po, e os Adugo-doge nadando, borrifaram com pingos d'água a vegetação circunstante. As fôlhas de certas árvores e das palmeiras adquiriram assim um belo brilho que conservam até agora.
+Logo que Aroia Kurireu viu seu padrinho, deu-lhe as onças, em nome também do clã do qual êle era um dos chefes, ou seja, do clã dos Iwagudu-doge. Akaruio Bokodori recebeu a oferta com muito prazer e cuidou das onças como se fôssem animais de estimação. Forjou alguns nomes próprios derivados de Adugo, para serem usados pelos membros de certos clãs e instituiu uma representação em sua honra, para homenagear totem tão importante. Depois quis recompensar o clã doador. Por isso marcou que esta festa se realizasse durante os funerais de algum Bororo e que o chefe da representação que deveria interpretar o Adugo Bakororo, ou seja o jaguar macho, fôsse escolhido entre os membros do clã dos Iwagudu-doge. Quis também distinguir outros dois clãs da metade oposta à dêle: os Arore e os Apiborege. Entre os primeiros seria escolhido o intérprete de Adugo Aredu, onça fêmea, e entre os segundos, o de Adugo Meri, onça feroz.
+@pagina 264
+@texto ADUGO-DOGE E-PEDODU | [(DOS) ADUGO-DOGE SUA DISTRIBUIÇÃO]
+@s 1
+Aroia Kurireu (1) | Aroia Kurireu
+o-keadu-re | achado fêz
+Adugo-dog'ei (2), | (dos jaguares) Adugo-doge êles,
+mare | mas
+icare (3) | e
+j'orudu-wo | seu conhecimento para,
+bokwa-re | não tinha
+tu-ro | sua ação
+mode | fará
+Adugo-dog'ei | (aos jaguares) Adugo-doge êles
+du-ji, | ela aquela,
+Adugo-dog'ebo (4) | (jaguares) Adugo-doge êles com
+du-ji. | ela aquela.
+@s 2
+Dukodi | Por isso
+icare | e
+u-tu-re | sua ida fêz
+Adugo-dog'ebo | (jaguares) Adugo-doge êles com,
+tui-orubada-re (5) | seu padrinho
+Akaruio Bokodori (6) | Akaruio Bokodori
+bogai. | a.
+@s 3
+Dutabo-re | Depois
+icare | e
+Adugo-doge | (os jaguares) Adugo-doge
+et-aregodu-re, | sua chegada fizeram,
+e-wudu-re | sua queda fizeram
+Meribo (7) | (do) Meribo
+po-to. | água em.
+@s 4
+Dutabo-re | Depois
+icare | e
+e-re | êles fizeram
+po-to. | (da) água
+barigu | arremêsso
+boe | coisa
+oto-to, | ponta em,
+dutabo-re | então
+icare | e
+pobo | (a) água
+j'etu-re | sua estada teve
+raru (8) | (da) fôlha
+boe, | coisa,
+bai | (da) fôlha de palmeira
+boe, | coisa,
+oto-ji. | (na) ponta ela.
+@s 5
+Du-koia-re | Ela causa foi
+raru | (a) fôlha
+eku-re | brilho teve
+oino, | assim,
+bai | a fôlha de palmeira
+eku-re | brilho teve
+oino. | assim.
+@s 6
+Du-piji-re | Depois
+kodo | ida (fêz)
+@@TRADUCAO
+@titulo_trad DISTRIBUIÇÃO (DAS ONÇAS) ADUGO-DOGE
+@pagina 265
+@t 1 Aroia Kurireu fêz achado (dos jaguares) Adugo-doge êles, e mas não tinha seu conhecimento (que) fará aquela sua ação ela (para os) Adugo-doge êles, com (os) Adugo-doge êles, ela aquela (ação).
+@t 2 E por isso fêz sua ida com (os) Adugo-doge êles, a seu padrinho Akaruio Bokodori.
+@t 3 E depois (os) Adugo-doge fizeram sua chegada, fizeram sua queda na água (do) Meribo.
+@t 4 E depois êles fizeram arremêsso (da) água na ponta (da) coisa (i.e., da vegetação) e então (a) água fêz sua estada (sôbre a) ponta (da) fôlha de palmeira coisa.
+@t 5 Ela foi causa (que a) fôlha teve brilho assim, (que a) fôlha de palmeira teve brilho assim.
+@t 6 Depois (fêz) ida até... a seu padrinho Akaruio Bokodori (com os) Adugo-doge ainda.
+@n 1 Aroia Kurireu, n.p. de um célebre chefe do sub-clã dos Iwagudu-doge Cebegiwuge.
+@n 2 Adugo-dog'ei = Adugo-doge ei, Jaguares êles. Trata-se das onças-pintadas, encontradas pela primeira vez, por Aroia Kurireu.
+@n 3 icare... duji | Conceito: Aroia Kurireu não sabia como fazer valer o direito que tinha sôbre os jaguares por tê-los visto por primeiro.
+@n 4 Adugo-dog'ebo = Adugo-doge e-apo, Jaguares êles com, i.e., com os Jaguares.
+@n 5 tui-orubadare, seu padrinho na imposição do estôjo peniano → I v., pág. 572.
+@n 6 Akaruio Bokodori, n.p. de um célebre chefe do sub-clã dos Baado Jebage Cobugiwuge Cebegiwuge, segundo a afirmação de alguns informantes.
+@n 7 Meribo, r. das Garças afl. da esq. do r. Araguaia.
+@n 8 raru boe, fôlha coisa. Idiotismo: fôlha. A f. boe é pleonástica.
+@@INTERLINEAR
+@pagina 266
+ji... | até...
+tui-orubada-re | seu padrinho
+Akaruio Bokodori | Akaruio Bokodori
+ae, | a,
+Adugo-dog'ebo | (jaguares) Adugo doge êles com,
+pugeje. | ainda.
+@s 7
+Icare | E
+Iwagudu-doge-re (9) | (os) Iwagudu-doge
+Adugo-doge | (dos jaguares) Adugo-doge
+e-magu | sua doação
+ai; | fizeram a (êle);
+dukodi | por isso
+icare | e
+Akaruio Bokodori-re | Akaruio Bokodori
+aku-re (10) | animal doméstico fêz
+Adugo-doge-ce | (os jaguares) Adugo-doge êles,
+pugeje. | mesmo.
+@s 8
+Akaruio Bokodori | Akaruio Bokodori
+icare | e
+u-re | êle
+tu-gogado (11) | se repartiu
+Adugo-dog'ebo | (os jaguares) Adugo-doge êles com,
+Boe | Bororo
+ei, | a,
+pugeje. | também.
+@s 9
+Boe (12) | (Dos) Bororo
+e-vi | sua morte
+keje, | quando,
+u-re | êle
+Iwagudu-doge-do | (os) Iwagudu-doge fêz
+tu-dawuje | sua representação
+Adugo-doge (13) | (dos jaguares) Adugo-doge
+e-imejera | seu chefe
+apo, | com,
+Adugo Bakororo. | Adugo Bakororo.
+@s 10
+U-re | Êle
+Arore-do | (os) Arore fêz
+tu-dawuje | sua representação
+Adugo Aredu | Adugo Aredu
+apo; | com;
+u-re | êle
+Apiborege-do | (os) Apiborege fêz
+tu-dawuje | sua representação
+Adugo Meri | Adugo Meri
+apo. | com.
+@@TRADUCAO
+@pagina 267
+@t 7 E (os) Iwagudu-doge (fizeram) sua doação (dos) Adugo-doge (a) êle, e por isso Akaruio Bokodori fêz mesmo (os) Adugo-doge (como) animal doméstico.
+@t 8 E Akaruio Bokodori êle também repartiu (os) Adugo-doge (aos) Bororo.
+@t 9 Quando (os) Bororo (têm) sua morte, êle faz (os) Iwagudu-doge (fazer) sua representação (como) Adugo Bakororo, chefe (dos) Adugo-doge.
+@t 10 Êle faz (os) Arore (fazer) sua representação (como) Adugo Aredu; êle faz (os) Apiborege (fazer) sua representação (como) Adugo Meri.
+@n 9 Iwagudu-doge, os membros do clã dos Iwagudu-doge. Êstes, na pessoa de seu chefe, Aroia Kurireu, doam os Adugo-doge a Akaruio Bokodori.
+@n 10 aku-re, animal doméstico fêz, i.e., Akaruio Bokodori recebeu os Adugo-doge, como se fôssem uma criação de estimação.
+@n 11 tu-gogado, se repartiu. | Uma vez que Akaruio Bokodori recebeu de presente os Jaguares, pensou em forjar alguns nomes próprios de pessoa fazendo-os derivar de Adugo, e dá-los a membros de outros clãs. Também organizou uma representação cujos atores escolheu entre membros da metade oposta.
+@n 12 Boe e-vi keje, (dos) Bororo sua morte quando, i.e., quando algum Bororo morrer i.e., durante os funerais de algum Bororo será feita a representação dos Adugo-doge Aroe → I v., págs. 123-4.
+@n 13 Adugo-doge e-imejera apo, dos jaguares seu chefe com, i.e., com o chefe dos jaguares. | Idiotismo que significa: Akaruio Bokodori marca um membro de um sub-clã dos Iwagudu-doge para interpretar o chefe da representação.

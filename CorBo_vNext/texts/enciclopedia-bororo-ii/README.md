@@ -68,4 +68,15 @@ Não as edite à mão: corrija a transcrição e gere de novo.
   - erros da tradução portuguesa mantidos: "(de) sua) viagem" (26), parêntese aberto em 125, "supergície" (84),
     "palvra" (128), "tue ôlho" (207); glosa "(sou) em mesmo" (55).
   - O ideofone *pou* (pancada) fica sem *-wu*, como *peu* e *cou*.
+- Lenda 10, *O chefe Akaruio Bokodori e as tabas bororo* (pp. 257–261): completa, 14 frases e 15 notas.
+- Lenda 11, *O chefe Akaruio Bokodori e as onças* (pp. 263–267): completa, 10 frases e 13 notas. Na frase 4 a
+  célula *po-to.* tem a glosa "(da) água" (impresso assim).
+- Lenda 12, *O chefe Jerigi Otojiwu derrota a tribo dos Koroge* (abre o ciclo do chefe Jerigi Otojiwu; pp. 271–287;
+  p. 286 com o fim do texto bororo e metade em branco): completa, 55 frases e 28 notas. Divergências mantidas:
+  introdução *Jerigo Otojiwu* e narrativa *Jerigi Otowu* (sic); frase 13 "três" = *pobe ma jewu metuia bokware*
+  numa só célula.
+- Lenda 13, *O chefe Jerigi Otojiwu generaliza um costume do clã dos Bokodori Ecerae* (pp. 289–299; p. 291 em
+  branco): completa, 24 frases e 15 notas. A nota 3 é chamada duas vezes (frases 2 e 10) e a nota 8 duas vezes na
+  frase 14, como no original. *Ao Kureuge* e *Kumo-doge* ficam como impressos (sem hífen antes de *-ge*, a regra
+  -wu não se aplica); narrativa "travalhavam" e "coupana" (sic).
 - Transcrição provisória, a conferir por FFG.

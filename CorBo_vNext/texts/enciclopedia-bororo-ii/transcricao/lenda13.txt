@@ -1,0 +1,379 @@
+@lenda 13
+@titulo O CHEFE JERIGI OTOJIWU GENERALIZA UM COSTUME DO CLÃ DOS BOKODORI ECERAE
+@pagina 289
+@intro
+O ponto alto desta estória é a generalização, para tôda a tribo, de um costume inventado pelos membros do clã dos Bokodori Ecerae. Trata-se do método, tolerado pela coletividade, de levar à choupana central as mulheres que desejem ter relações com os homens, puxando-as por meio de uma longa vareta à qual a conivente se agarra.
+O merecimento da instalação dêsse uso é devido ao chefe Jerigi Otojiwu que o observara pessoalmente entre o clã dos Bokodori Ecerae.
+@narrativa
+Os Bororo narram que as formigas Ao-doge, chamadas também Kogure Marege, ou Ao Kureuge, costumavam levantar grandes montes de terra vermelha e amarela, carregando-a dos buracos que abriam no chão. Pelo contrário, as formigas Micege, as centopeias Iwagoe, a minhoca Barogo Peguru e outros sêres não tinham fôrça suficiente para cavar. As formigas Codoge, denominadas também Kako-doge, travalhavam para amontoar terra escura e os cupins Kumo-doge, conhecidos também por Boku Mogo-doge, ajuntavam terra cinzenta.
+Mas o fato mais interessante é que os Bororo aprenderam do clã dos Bokodori Ecerae como levar para a choupana central as mulheres que se oferecem para ter relações com êles. Êstes aprenderam a astúcia das formigas Ao-doge, ou Kogure Marege, que são também totens-epônimos do citado clã.
+Contam que o chefe Jerigi Otojiwu foi certa vez a uma aldeia onde, pelo número e pela importância, preponderavam os membros daquele clã. Lá viu que êles arrastavam para o interior da choupana central certas mulheres levianas, conduzindo-as por meio de uma vareta branca que lhes alcançavam e à qual elas se agarravam. Assim os homens, ouvindo relação de Jerigi Otojiwu, aprenderam como levar raparigas à coupana central.
+Também as formigas conservam êste hábito, até agora. De fato, quando os Bororo reviram um formigueiro a fim de apanhar içás, estas agarram-se à vareta que os índios introduzem no olheiro alargado.
+@pagina 290
+Os Bororo aplicam o sistema para pegar mulheres, também ao feliz caçador que matou um jaguar ou uma suçuarana. Durante a festa que fazem em sua homenagem, convidam-no a receber presentes e honras, oferecendo-lhe uma flecha à qual êle, sentado, se agarra para levantar-se do meio de seus parentes e amigos.
+@pagina 292
+@texto AO-DOGE | [(OS) AO-DOGE]
+@s 1
+Boe (1) | (Os) Bororo
+e'go-re | sua palavra faziam
+Ao-doge-ie (2) | Ao-doge que
+e-re | êles faziam
+moto | (da) terra
+tawuje | extração
+marigudu; | antigamente;
+Kogure | Kogure
+ei-re | êles faziam
+Boe | (os) Bororo
+e'go | seu nome
+ino. | também.
+@s 2
+Awu (3) | Êste(s)
+Micege, | Micege,
+Iwagoe, | Iwagoe,
+Barogo Peguru, | Barogo Peguru,
+iage | outros
+pugeje, | ainda,
+e-roiwa | sua possibilidade
+raka | (com) fôrça
+ka-re | não tinham
+moto-ji. | (com) terra ela.
+@s 3
+Ao-doge | Ao-doge
+rema, | em verdade,
+karega. | não.
+@s 4
+Dukodi-re | Por isso
+e-re | êles faziam
+awu | (d)esta
+moto | terra
+kujagureu | a vermelha
+bu | colocação
+oino | assim
+moto | (a) terra
+keje | sôbre
+kimo. | ainda (agora).
+@s 5
+Raru | (A) fôlha
+kado | cortar
+j'eba-ge | ela para
+ei-re | êles
+Boe | (os) Bororo
+e'go-e | sua palavra faziam
+Ao Kureuge. | Ao Kureuge.
+@s 6
+Emage | Êles
+ei-goia-ie | sua causa que
+e-re | êles eram
+moto | (da) terra
+ekureu | a amarela
+bu | (a) colocação
+oino | assim
+moto | (a) terra
+kajeje | sôbre
+kimo. | ainda (agora).
+@s 7
+Codoge | Codoge
+ei-re | êles
+Boe | (os) Bororo
+e'go-e | sua palavra faziam
+Kako-doge. | Kako-doge.
+@s 8
+Emage | Êles
+ei-goia-ie | sua causa que
+e-re | êles eram
+moto | (de) terra
+coreu | a preta
+bu | (da) colocação
+oino | assim
+@@TRADUCAO
+@titulo_trad (AS FORMIGAS) AO-DOGE
+@pagina 293
+@t 1 (Os) Bororo faziam sua palavra que antigamente, (os) Ao-doge êles faziam extração (de) terra (e que os) Bororo faziam (d)êles nome Kogure êles.
+@t 2 Êste(s) Micege, Iwagoe, Barogo Peguru (e) outros ainda, não tinham sua possibilidade (com) fôrça (para cavar a) terra ela.
+@t 3 (Os) Ao-doge em verdade não (eram assim).
+@t 4 Por isso êles fazem colocação (d)esta terra vermelha sôbre (a) terra assim ainda (agora).
+@t 5 (Os) Bororo àqueles (que) cortavam (as) fôlha(s) faziam sua palavra Ao Kureuge.
+@t 6 (E dizem) que êles são sua causa (da) colocação (de) terra amarela sôbre (a) terra, assim, ainda (agora).
+@t 7 (Os) Bororo aos Codoge êles faziam sua palavra Kako-doge.
+@t 8 (E dizem) que êles são sua causa (da) colocação (da) terra preta ainda (agora) sôbre (a) terra, assim.
+@n 1 Boe e'go-re... marigudu. Disc. indireto. Constr.: Boe re e ago ie marigudu Ao-doge e-re tawuje moto-ji, (Os) Bororo faziam sua palavra que antigamente (os) Ao-doge êles faziam extração (da) terra ela, i.e., os Bororo diziam que antigamente os Ao-doge escavavam o chão.
+@n 2 Ao-doge, saúvas, Atta sp. | São formigas cortadoras de fôlhas, de cabeça muito grande e avermelhada, chamadas também Kogure e Ao Kureuge. Vivem em amplos formigueiros que exteriormente, apresentam montões de terra, excavada pelos insetos. A lenda descreve alguns de seus hábitos e os outros artrópodos, insetos e vermes, como os Micege, formigas-de-fogo; os Iwagoe, centopeias; os Codoge, formigas correição; os Kumo-doge, ou, Boku Mogo-doge, cupins-dos-campos e o Barogo Peguru, minhoca.
+@n 3 Awu, êste. Sing. pelo pl. = awuge, êstes.
+@@INTERLINEAR
+@pagina 294
+moto | (da) terra
+kajeje | sôbre
+kimo. | ainda (agora).
+@s 9
+Kumo-doge | Kumo-doge
+ei-re | êles
+Boe | (os) Bororo
+e'go-e | sua palavra faziam
+Boku Mogo-doge | Boku Mogo-doge
+e-re | êles faziam
+moto | (da) terra
+co | preta
+arudureu | (com) transparência
+bu | colocação
+oino | assim
+moto | (da) terra
+kajeje | sôbre
+kimo. | ainda (agora).
+@s 10
+Boe (4) | (Os) Bororo
+e'go-re | sua palavra faziam
+awu (3) | êste(s)
+Ao-doge | Ao-doge
+ei-goia-ie | (d)êles causa que
+e-re | êles
+Bo'ei | Bororo êles
+areme | (das) mulheres
+e-rego | seu carregamento
+e-rego | seu carregamento,
+bai-to, | choupana em,
+du-paru | sua origem
+reko; | trouxeram;
+emage | êles (Ao-doge)
+ei-e | êles que
+e-ro | sua ação
+ino | assim
+pui | (com) reciprocidade
+"cai" | "cai"
+je, | lá,
+duji-e | por isso que
+Boe | (os) Bororo
+e-erudu-re. | seu conhecimento tiveram.
+@s 11
+Dukodi | Por isso
+icare | e
+Boe | (os) Bororo
+e-kigodu-re | êles (com) freqüência faziam
+areme | (das) mulheres
+e-rego, | seu arrastamento,
+e-rego | seu arrastamento,
+oino | assim
+bai-to. | choupana em.
+@s 12
+Boe | (Os) Bororo
+e'go-re | sua palavra fizeram
+Jerigi Otojiwu-ie (5) | Jerigi Otojiwu que
+aregodu-re | chegada fêz
+awuge (6) | êstes
+et-ae; | êles a;
+dutabo-ie | então que
+aiwo-re (7) | visão teve
+tu | bem
+e-ro-i | sua ação faziam
+pui | (com) reciprocidade
+du-ji. | ela aquela.
+@s 13
+Ei-e | Êles que
+iwara | vareta
+kigadu | (com) alvura
+bigodu | (com) comprimento
+raido | alongar
+pu | (com) reciprocidade
+ao-ji | cabeça ela
+ji... ji... | até... até...
+jece | lá
+ia | um
+pu-ae. | (com) reciprocidade a.
+@@TRADUCAO
+@pagina 295
+@t 9 (Os) Bororo aos Kumo-doge faziam sua palavra Boku Mogo-doge (e diziam) que êles fazem colocação (da) terra preta (com) transparência i.e. não muito escura ainda (agora) sôbre a terra, assim.
+@t 10 (Os) Bororo faziam sua palavra que êstes Ao-doge êles foram sua causa (d)êles trazerem (o) princípio aos Bororo (das) mulheres seu carregamento, seu carregamento, na choupana (central); que êles Ao-doge (fizeram) sua ação lá assim "cai" (com) reciprocidade (por primeiros e) que por isso (os) Bororo tiveram seu conhecimento.
+@t 11 E por isso (os) Bororo (com) freqüência êles (fazem) das mulheres seu arrastamento, seu arrastamento assim na choupana (central).
+@t 12 (Os) Bororo faziam sua palavra que Jerigi Otojiwu fêz chegada a êstes (e) que então fêz visão bem (da) ação (d)êles (que) faziam (com) reciprocidade.
+@t 13 (Dizem) que êles alongavam (com) reciprocidade (uma) vareta (com) alvura (e com) comprimento até (a) cabeça ela (das formigas), até... até... lá, a um (com) reciprocidade.
+@n 4 Boe... reko. | Conceito: Nesta frase afirma-se que os Bororo aprenderam, das formigas o modo de levar para a choupana central as mulheres que desejam ter relações com os homens. Como se pode deduzir pelo desenrolar-se da lenda, os membros do clã dos Bokodori Ecerae, observando os insetos, viram que, fàcilmente, as içás agarram-se a uma vareta introduzida no olheiro de seu ninho. Começaram, então, a oferecer à mulher cobiçada, uma longa vara, à qual ela se agarrava por uma das extremidades, enquanto o homem, puxando pela outra, a levava no interior da choupana central. Para outras noções sôbre relações extraconjugais → Boe e-wa, aldeia bororo, I v., pág. 448. | Considerando as afirmações do I v., e o texto desta lenda podemos concluir que há dois modos para conduzir na choupana central as mulheres que desejam concúbitos ilícitos: pelo primeiro, são levadas, ao menos exteriormente, à fôrça, pois querem salvar as aparências; pelo segundo, seguem expontâneamente o companheiro que as puxa com uma vareta.
+@n 5 Jerigi Otojiwu, nome próprio de um grande chefe do clã dos Baado Jebage Cobugiwuge Cobugiwuge, que, observando os Bokodori Ecerae, ensina aos outros Bororo como devem fazer para levar as mulheres à choupana central.
+@n 6 awuge et-ae, êstes êles a, i.e., a êstes, ou, melhor, àquêles. | Aqui a lenda se refere aos membros do clã dos Bokodori Ecerae que aprenderam dos Ao-doge o meio de levar as mulheres para a choupana central.
+@n 7 aiwo-re, etc., visão teve, i.e., viu. | Jerigi Otojiwu entrou na aldeia dos Bokodori Ecerae quando êstes estavam retirando de um formigueiro grossas saúvas por meio de uma longa vara e observou como faziam.
+@@INTERLINEAR
+@pagina 296
+@s 14
+E-re | Êles
+boe | (a) coisa
+raido | alongaram
+ae | a
+wu-ge, | aquêles que,
+ei-e | êles que
+tug-era | sua mão
+kogudo | seguram
+tu, | logo,
+tug-era | sua mão
+kogudo | seguram
+tu, | bem,
+ecewu | (d)aquela
+iwara | vareta
+kigadu | (com) alvura
+kajeje; | ao redor;
+dukeje-ie | depois que
+e-re | êles
+tu-mugudo | os assentaram
+"taci" (8) | "taci"
+tu-mugudo | os assentaram
+"taci" (8) | "taci"
+je (9). | aí.
+@s 15
+Dukeje-re | Depois
+Jerigi Otojiwu | Jerigi Otojiwu
+ako-e | palavra fêz
+tu-godu-ie | sua ida que
+kuri | logo
+et-ae | êles a
+icare | e
+t'ago-e: | sua palavra fêz:
+"Kabajiba | "Que coisa
+ta-ro | (é) vossa ação
+ino?" | assim?"
+@s 16
+Icare | E
+e'go-re (10): | sua palavra fizeram:
+"Areme | "Mulheres
+ei | elas a, (fizemos)
+ce-ro | nossa ação
+ino." | assim."
+@s 17
+E-re | Elas faziam
+tug-eragu, | (d)ela seguração
+to-iwara | sua vareta
+ji-wu | ela aquela
+areme-ie; | (as) mulheres que;
+tu-re | êle
+tu-mugudo | as assentava
+"cai" (11), | "cai",
+tu-mugudo | as assentava
+"cai", | "cai",
+e-wugeje | elas sôbre
+tu-medage, | suas companheiras,
+e-piji. | elas de.
+@s 18
+Boekimo (12) | Inùtilmente
+rema! | em verdade!
+@s 19
+Ao-doge (13), | Ao-doge,
+Kogure Marege, | Kogure Marege,
+rade, | em verdade,
+e-ro | (faziam) sua ação
+ino | assim
+pui. | (com) reciprocidade.
+@s 20
+Du-koda-ji | (Êste) seu caminho êle
+Boe | (os) Bororo
+e-ro | sua ação
+ino | assim (fazem)
+arem'ei, | mulheres elas,
+mare | mas
+e-ro (14) | sua ação
+ka-re | não era
+nono | como
+e-ro-re | sua ação fôra
+jokodu. | em verdade.
+@s 21
+Dukodire | Também
+Kogure | (os) Kogure
+ek-era | (de) sua mão
+ka-re | não fizeram
+tu-ra | sua extração
+tu-roia | seu costume
+piji. | de.
+kimo. | ainda.
+@@TRADUCAO
+@pagina 297
+@t 14 Êles aquêles (aos) quais alongaram (a) coisa, êles (com) sua mão seguram logo, (com) sua mão seguram bem aquela vareta (com) alvura ao redor; (dizem) que depois êles os assentaram "taci", os assentaram "taci" aí.
+@t 15 Depois Jerigi Otojiwu fêz palavra que (fêz) sua ida logo a êles e fêz sua palavra: "Que coisa ela vossa ação (fazeis) assim?"
+@t 16 E fizeram sua palavra: "(Às) mulheres elas (fizemos) nossa ação assim.
+@t 17 (E) que elas mulheres faziam seguração, (d)ela faziam seguração, (d)ela vareta ela, (e que as) assentava "cai", êle (as) assentava "cai", elas sôbre (as outras i.e., juntas) elas (escolhidas) de suas companheiras.
+@t 18 Que coisa singular!
+@t 19 Em verdade (os) Ao-doge, (os) Kogure Marege (faziam) sua ação assim (com) reciprocidade.
+@t 20 (Dêste) seu caminho êle (i.e. exemplo, os) Bororo (fazem) assim sua ação às mulheres, mas sua ação em verdade não é (mais) como ação fôra.
+@t 21 Também (os) Kogure ainda não fizeram extração (de) sua mão (de) seu costume.
+@n 8 "taci", f. que indica rapidez.
+@n 9 je, aí i.e., num recipiente. | Em geral os Bororo depositam as içás que apanham numa pequena tigela.
+@n 10 e'go-re, sua palavra fizeram. | Os Bokodori Ecerae responderam a Jerigi Otojiwu que assim como pegam saúvas, assim também pegam as mulheres e as levam para a choupana central.
+@n 11 "cai", f. que indica rapidez.
+@n 12 Boekimo rema! Inutilmente, em verdade! Aqui esta expressão poderia significar: Que coisa singular!
+@n 13 Ao-doge, Saúvas. | Kogure é outra denominação de Ao-doge e Marege significa feras, ou, também, Bororo. Aqui, porém, a expressão Ao-doge, Kogure Marege indica os membros do clã que se apoderou do costume das saúvas e o aplicou às mulheres, i.e., os Bokodori Ecerae.
+@n 14 e-ro ka-re... jokodu. Constr.: jokodu e ka-re ro nono e re ro, em verdade êles não tinham ação assim (como) êles tiveram ação, i.e., os Bororo atuais não fazem como fizeram os Bokodori Ecerae. | Esta frase significa que os Bororo não imitaram totalmente seus companheiros. P. ex., em vez de usar uma vareta, às vêzes oferecem uma flecha, ou, em vez de puxar delicadamente as mulheres, as agarram com violência, quando elas fingem opor resistência.
+@@INTERLINEAR
+@pagina 298
+@s 22
+Dukodi-re | Por isso
+Boe | (os) Bororo
+e-re | êles
+Kogure | (dos) Kogure
+e-iari | seu olheiro
+porodo | furaram
+ipo | pau
+motudureu | o pesado
+t'abo, | êle com,
+icare | e
+Boe | (os) Bororo
+e-re | êles
+ia | um
+ipo, | pau,
+ia | uma
+iwara | vareta
+bigodu | (de) comprimento
+rogu | (com) pequenez
+pagado | colocar
+toro | lá
+e-wogai, | êles a,
+moto-to | terra em,
+icare | e,
+e-re | elas
+c'enari, | sua penca,
+c'enarido | sua penca faziam
+Boe | (dos) Bororo
+eno-iwara-ji, | sua vareta ela,
+tu-roia, | (pois) seu costume,
+e-ro | sua ação
+ino. | (são) assim.
+@s 23
+Boe | (Os) Bororo
+ei | êles
+adugo (15), | adugo,
+aigo | aigo
+bitodu | matado
+keje-re, | quando era,
+Boe | (dos) Bororo
+e-ro | sua ação
+aregodu-re | chegada fêz
+nowu | (d)êste(s)
+Kogure | Kogure
+e-roia | seu costume
+kae. | a.
+@s 24
+Dukodi-re | Por isso
+Boe | (os) Bororo
+kigodu-re | (com) freqüência
+tugo | (uma) flecha
+raido | alongavam
+ji... | até...
+jece | lá
+u-re | (a) êle
+adugo | (que o) jaguar
+bito-wu, | matou aquêle,
+aigo | (a) suçuarana
+bito-wu, | matou aquêle,
+imedu | homem
+kae, | a,
+iparedu | môço
+kae, | a,
+ui-edaga-mage, | seus parentes,
+u-mana-mage, | seus irmãos maiores
+meterege | parentes mais novos
+eto-iado | (d)êles estar no centro
+icare | e
+tu-mode | êle
+kujagudo | farão vermelho
+o-barogo | (de) sua fera
+mori-ce, | (em) recompensa ela,
+dukeje. | quando.
+@@TRADUCAO
+@pagina 299
+@t 22 Por isso (os) Bororo êles (dos) Kogure seu olheiro furam com (um) pau pesado, depois (os) Bororo êles colocam lá um pau, uma vareta (com) pequenez (de) comprimento a êles na terra, e êles fazem sua penca, sua penca (na) vareta ela (dos Bororo), pois seu costume, sua ação (são) assim.
+@t 23 Quando (os) Bororo êles matam adugo, aigo, (então dos) Bororo sua ação faz chegada ao seu costume (d)êstes Kogure.
+@t 24 Por isso (os) Bororo alongam (com) freqüência (uma) flecha até... lá ao homem que matou (o) adugo, que matou (o) aigo, ao môço (que) está no centro (de) seus parentes, seus irmãos maiores, parentes mais novos e quando (o) farão vermelho (por ocasião da) recompensa ela (de) sua fera.
+@n 15 adugo, aigo, jaguar, suçuarana, etc. | A lenda, até o fim, diz que o mesmo costume é aplicado para fazer levantar o feliz matador de uma onça, assentado no meio de seus parentes e amigos, durante uma festa feita em sua honra, a fim de receber presentes e homenagens. | Para maiores noções → Barege E-kedodu. Banquete das Feras, I v., págs. 22-39.
