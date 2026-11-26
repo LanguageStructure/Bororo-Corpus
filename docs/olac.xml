@@ -40,7 +40,7 @@
      <dc:type xsi:type="olac:linguistic-type" olac:code="primary_text"/>
      <dc:type xsi:type="olac:linguistic-type" olac:code="language_description"/>
      <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
-     <dc:description>Documentary corpus of Bororo (Boe, ISO 639-3 bor), Mato Grosso, Brazil: oral narratives, archival and fieldwork texts, songs, biblical translations and dictionary materials, with Portuguese translations and CoNLL-U annotation following Universal Dependencies. 20,058 documentary units, 544,327 tokens.</dc:description>
+     <dc:description>Documentary corpus of Bororo (Boe, ISO 639-3 bor), Mato Grosso, Brazil: oral narratives, archival and fieldwork texts, songs, biblical translations and dictionary materials, with Portuguese translations and CoNLL-U annotation following Universal Dependencies. 20,275 documentary units, 546,646 tokens.</dc:description>
      <dc:identifier>https://doi.org/10.5281/zenodo.12110451</dc:identifier>
      <dc:identifier>https://languagestructure.github.io/Bororo-Corpus/</dc:identifier>
      <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>

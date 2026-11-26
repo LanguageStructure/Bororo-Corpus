@@ -10,11 +10,11 @@
    "path": "docs/downloads/corbo-parallel.tsv",
    "url": "downloads/corbo-parallel.tsv",
    "format": "TSV (UTF-8)",
-   "bytes": 2977976,
+   "bytes": 3032738,
    "pt": "Todas as unidades documentais publicadas, com coleção, estado editorial, texto Bororo e tradução portuguesa quando existe.",
    "en": "All published documentary units, with collection, editorial status, Bororo text and Portuguese translation when available.",
-   "counts_pt": "11.777 unidades · 2.814 com tradução",
-   "counts_en": "11,777 units · 2,814 with translation"
+   "counts_pt": "11.994 unidades · 3.034 com tradução",
+   "counts_en": "11,994 units · 3,034 with translation"
   },
   {
    "group": "textos",

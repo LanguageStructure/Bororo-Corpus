@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-26",
- "units": 20058,
- "tokens": 544327,
- "types": 21302,
+ "units": 20275,
+ "tokens": 546646,
+ "types": 21378,
  "collections": [
   [
    "Pao Kurirewu Bataru Kurirewu",
@@ -20,14 +20,14 @@
    49814
   ],
   [
+   "Enciclopédia Bororo II",
+   787,
+   7529
+  ],
+  [
    "História Mítica",
    192,
    5531
-  ],
-  [
-   "Enciclopédia Bororo II",
-   570,
-   5210
   ],
   [
    "1 Reis",
@@ -198,8 +198,8 @@
   ],
   [
    "Documentary texts",
-   2018,
-   65206
+   2235,
+   67525
   ],
   [
    "Antigo Testamento",
