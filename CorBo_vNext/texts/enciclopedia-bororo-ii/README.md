@@ -30,6 +30,8 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 - Hífens de formas bororo também saem dos títulos e dos textos em português (traduções, narrativa, notas, glosas):
   *Kaiamo-doge* → *Kaiamodoge*, *KAIAMO-DOGE JI-WU BAKARU* → *KAIAMODOGE JIWU BAKARU*. Os hífens do português ficam
   (*cipó-imbé*, *atiraram-se*, *cana-de-vassoura*). A transcrição guarda a forma impressa.
+- Formas contraídas que se separam (tabela `SPLIT` no script): *ime'bo*/*im'e'bo* → *ime ebo*; *ipare'bo*/*ipar'e'bo* →
+  *ipare ebo*; *mano-to* → *mano to*.
 - *nure* e *rogu* se escrevem ligados à palavra anterior (*Boe nure* → *Boenure*; *nogedu rogu* → *nogedurogu*). No interlinear, a célula ligada tem `ligada=1`; no leitor, as glosas aparecem juntas ("menino + (com) pequenez").
 - Nomes bororo dentro do português sem diacríticos (Meriri Poro). Português na ortografia original (êle, fêz).
 - Erros de impressão mantidos (ex.: "aldeia cm"), salvo o hífen entre nome e sobrenome em *Aroia-Kurireu-ji* (lenda 2, frase 45), transcrito *Aroia Kurireu-ji* para não juntar os nomes.
@@ -47,4 +49,10 @@ Não as edite à mão: corrija a transcrição e gere de novo.
 - Lenda 4, *O chefe Baitogogo batiza o morro Kudorori* (pp. 91–109): completa, 85 frases (variante 65–85) e
   70 notas; pp. 99–102 transcritas de fotos enviadas por FFG. A nota 55 não tem chamada impressa.
 - Lenda 5, *O chefe Baitogogo e as flechas* (pp. 111–117): completa, 15 frases e 17 notas (pp. 111–112 de fotos).
+- Lenda 6, *O chefe Baitogogo apodera-se do espírito Aije* (pp. 119–125): completa, 14 frases e 22 notas.
+- Lenda 7, *Os chefes Baitogogo e Akaruio Boroge cedem seus poderes* (pp. 127–137): completa, 21 frases e 38 notas
+  (a nota 2 não tem chamada impressa). O ideofone *peu* (som do tambor) fica sem *-wu*.
+- Lenda 8, *Os chefes Baitogogo e Akaruio Boroge vão chefiar o reino dos mortos* (narrativa pp. 139–142; texto bororo
+  pp. 144–182, do arquivo *cut-2.pdf*; p. 143 só com ilustrações): 170 frases e 85 notas. Falta a p. 183 (tradução das
+  frases 168–170 e notas 86–88). Ideofones *cou* e *peu* sem *-wu*.
 - Transcrição provisória, a conferir por FFG.

@@ -41,6 +41,8 @@ COLLECTION = 'Enciclopédia Bororo II'
 NOTE = re.compile(r'\s*\((\d+)\)?')          # "(12)"; aceita "(12" sem fechar, como impresso
 # -u depois de a, e, o vira -wu; depois de i, não (kakodiu, palavra da língua das lendas, fica como impressa).
 VOWEL_U = re.compile(r'([aeo])u$', re.I)
+# Ideofones e onomatopeias ficam como impressos (não recebem -wu).
+NO_WU = {'peu', 'cou'}
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 
 
@@ -48,7 +50,8 @@ def norm_word(w: str) -> str:
     """-u depois de vogal vira -wu em cada segmento, também antes de sufixo
     (Kurireu > Kurirewu; Kurireu-re > Kurirewure, decisão de FFG, 25/11/2026);
     depois saem hífens e apóstrofos."""
-    segs = [VOWEL_U.sub(r'\1wu', seg.replace("'", '')) for seg in w.split('-')]
+    segs = [seg.replace("'", '') for seg in w.split('-')]
+    segs = [x if x.lower() in NO_WU else VOWEL_U.sub(r'\1wu', x) for x in segs]
     return ''.join(segs)
 
 
@@ -80,12 +83,32 @@ def strip_bororo_hyphens(text: str) -> str:
     return APOS.sub(lambda m: m.group(0) if m.group(1) else '', t)
 
 
+# Formas impressas que se separam na ortografia do CorBo (decisões de FFG, 26/11/2026).
+# Chave: forma impressa em minúsculas, sem pontuação; valor: forma a usar antes da normalização.
+SPLIT = {
+    "ime'bo": "ime e'bo", "im'e'bo": "ime e'bo",          # (os) homens êles com
+    "ipare'bo": "ipare e'bo", "ipar'e'bo": "ipare e'bo",   # (os) moços êles com
+    "mano-to": "mano to",                                  # caeté em
+}
+SPLIT_RE = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]")
+
+
+def apply_split(t: str) -> str:
+    def f(m):
+        w = m.group(0); r = SPLIT.get(w.lower())
+        if r is None:
+            return w
+        return r[0].upper() + r[1:] if w[0].isupper() else r
+    return SPLIT_RE.sub(f, t)
+
+
 # Formas que se escrevem ligadas à palavra anterior (decisão de FFG, 25/11/2026).
 BOUND = {'nure', 'rogu'}
 BOUND_IN = re.compile(r"([A-Za-z])\s+(" + '|'.join(sorted(BOUND)) + r")\b")
 
 
 def norm_text(t: str) -> str:
+    t = apply_split(t)
     return BOUND_IN.sub(r'\1\2', WORD.sub(lambda m: norm_word(m.group(0)), t))
 
 

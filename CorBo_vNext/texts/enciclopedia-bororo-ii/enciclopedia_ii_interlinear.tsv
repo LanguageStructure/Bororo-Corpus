@@ -586,8 +586,8 @@ BOR-CORBO-ENC2-02-004	4	2	30	icare	icare		e
 BOR-CORBO-ENC2-02-004	4	3	30	Birimodo,	Birimodo,		Birimodo,	
 BOR-CORBO-ENC2-02-004	4	4	30	Aroia Kurireu	Aroia Kurirewu		Aroia Kurireu	
 BOR-CORBO-ENC2-02-004	4	5	30	e-tu-re	eture		sua ida fizeram	
-BOR-CORBO-ENC2-02-004	4	6	30	ime'bo,	imebo,		homens com,	
-BOR-CORBO-ENC2-02-004	4	7	30	ipare'bo.	iparebo.		moços com.	
+BOR-CORBO-ENC2-02-004	4	6	30	ime'bo,	ime ebo,		homens com,	
+BOR-CORBO-ENC2-02-004	4	7	30	ipare'bo.	ipare ebo.		moços com.	
 BOR-CORBO-ENC2-02-005	5	1	30	E-kodo	Ekodo		Sua ida (fizeram)	
 BOR-CORBO-ENC2-02-005	5	2	30	ji...	ji...		até...	
 BOR-CORBO-ENC2-02-005	5	3	30	toro	toro		lá	
@@ -1716,8 +1716,8 @@ BOR-CORBO-ENC2-02-139	139	4	64	dukeje-re,	dukejere,		quando,
 BOR-CORBO-ENC2-02-139	139	5	64	Birimodo,	Birimodo,		Birimodo,	
 BOR-CORBO-ENC2-02-139	139	6	64	Aroia Kurireu	Aroia Kurirewu		Aroia Kurireu	
 BOR-CORBO-ENC2-02-139	139	7	64	e-tu-re	eture		sua ida fizeram	
-BOR-CORBO-ENC2-02-139	139	8	64	ime'bo,	imebo,		homens êles com,	
-BOR-CORBO-ENC2-02-139	139	9	64	ipar'e'bo	iparebo		moços êles com,	
+BOR-CORBO-ENC2-02-139	139	8	64	ime'bo,	ime ebo,		homens êles com,	
+BOR-CORBO-ENC2-02-139	139	9	64	ipar'e'bo	ipare ebo		moços êles com,	
 BOR-CORBO-ENC2-02-139	139	10	64	baa-to,	baato,		aldeia em,	55
 BOR-CORBO-ENC2-02-139	139	11	64	Kaiamo-doge	Kaiamodoge		Kaiamodoge	
 BOR-CORBO-ENC2-02-139	139	12	64	et-ae.	etae.		a(os).	
@@ -2153,8 +2153,8 @@ BOR-CORBO-ENC2-02-180	180	2	76	Aroia Kurireu	Aroia Kurirewu		Aroia Kurireu
 BOR-CORBO-ENC2-02-180	180	3	76	e-re	ere		êles fizeram	
 BOR-CORBO-ENC2-02-180	180	4	76	tu-girimi	tugirimi		seu regresso	
 BOR-CORBO-ENC2-02-180	180	5	76	tu-ibagi	tuibagi		atrás de si,	
-BOR-CORBO-ENC2-02-180	180	6	76	im'e'bo,	imebo,		homens êles com,	
-BOR-CORBO-ENC2-02-180	180	7	76	ipar'e'bo	iparebo		moços êles com,	
+BOR-CORBO-ENC2-02-180	180	6	76	im'e'bo,	ime ebo,		homens êles com,	
+BOR-CORBO-ENC2-02-180	180	7	76	ipar'e'bo	ipare ebo		moços êles com,	
 BOR-CORBO-ENC2-02-180	180	8	76	pugeje.	pugeje.		novamente.	
 BOR-CORBO-ENC2-02-181	181	1	76	Icare	Icare		E	
 BOR-CORBO-ENC2-02-181	181	2	76	e-re	ere		êles	
@@ -3102,3 +3102,1910 @@ BOR-CORBO-ENC2-05-015	15	3	116	tu-rugadu	turugadu		êles sòmente
 BOR-CORBO-ENC2-05-015	15	4	116	awu	awu		esta	17
 BOR-CORBO-ENC2-05-015	15	5	116	Tugo	Tugo		taquarinha	
 BOR-CORBO-ENC2-05-015	15	6	116	kae.	kae.		a.	
+BOR-CORBO-ENC2-06-001	1	1	120	Imedu,	Imedu,		(Um) homem,	
+BOR-CORBO-ENC2-06-001	1	2	120	Rubugu	Rubugu		Rubugu	1
+BOR-CORBO-ENC2-06-001	1	3	120	Paiwoedu-re,	Paiwoedure,		Paiwoedu era,	
+BOR-CORBO-ENC2-06-001	1	4	120	okeadu-re	okeadure		encontro fêz	
+BOR-CORBO-ENC2-06-001	1	5	120	Aije-ji;	Aijeji;		(de um) Aije êle;	2
+BOR-CORBO-ENC2-06-001	1	6	120	ru	ru		sapo	3
+BOR-CORBO-ENC2-06-001	1	7	120	rogu	rogu	1	(com) pequenez	
+BOR-CORBO-ENC2-06-001	1	8	120	biaga-re	biagare		(com) pequenez era	
+BOR-CORBO-ENC2-06-001	1	9	120	tuje,	tuje,		mesmo,	
+BOR-CORBO-ENC2-06-001	1	10	120	icare	icare		e	
+BOR-CORBO-ENC2-06-001	1	11	120	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-06-001	1	12	120	tug-eragu	tugeragu		seu apanhamento	
+BOR-CORBO-ENC2-06-001	1	13	120	ji,	ji,		(d)êle	
+BOR-CORBO-ENC2-06-001	1	14	120	icare	icare		e	
+BOR-CORBO-ENC2-06-001	1	15	120	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-06-001	1	16	120	tugu	tugu		colocação	
+BOR-CORBO-ENC2-06-001	1	17	120	ia	ia		uma	
+BOR-CORBO-ENC2-06-001	1	18	120	ruwobo	ruwobo		tigela	
+BOR-CORBO-ENC2-06-001	1	19	120	rogu-to;	roguto;		(com) pequenez em;	
+BOR-CORBO-ENC2-06-001	1	20	120	dutabo-re	dutabore		depois	
+BOR-CORBO-ENC2-06-001	1	21	120	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-06-001	1	22	120	"""Aijedo"	"""Aijedo"		"""Aije fazer"	4
+BOR-CORBO-ENC2-06-001	1	23	120	aki,	aki,		tu,	
+BOR-CORBO-ENC2-06-001	1	24	120	aijedo	aijedo		Aije fazer	
+BOR-CORBO-ENC2-06-001	1	25	120	aki,	aki,		tu,	
+BOR-CORBO-ENC2-06-001	1	26	120	"in'ai."""	"inai."""		"mim a."""	5
+BOR-CORBO-ENC2-06-002	2	1	120	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-06-002	2	2	120	icare	icare		e	
+BOR-CORBO-ENC2-06-002	2	3	120	u-re	ure		êle fêz	6
+BOR-CORBO-ENC2-06-002	2	4	120	boe	boe		(de) coisa	
+BOR-CORBO-ENC2-06-002	2	5	120	bu	bu		colocação	
+BOR-CORBO-ENC2-06-002	2	6	120	tu	tu		bem	
+BOR-CORBO-ENC2-06-002	2	7	120	j'e	je		sua superfície	
+BOR-CORBO-ENC2-06-002	2	8	120	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-06-003	3	1	120	U-re	Ure		Êle	
+BOR-CORBO-ENC2-06-003	3	2	120	t'a-do	tado		sua frente fêz	
+BOR-CORBO-ENC2-06-003	3	3	120	ji	ji		(a) êle	
+BOR-CORBO-ENC2-06-003	3	4	120	ma,	ma,		quando,	
+BOR-CORBO-ENC2-06-003	3	5	120	kurigodu-re	kurigodure		grandeza incipiente tinha	
+BOR-CORBO-ENC2-06-003	3	6	120	rugadu;	rugadu;		em verdade;	
+BOR-CORBO-ENC2-06-003	3	7	120	dukodi	dukodi		por isso	
+BOR-CORBO-ENC2-06-003	3	8	120	icare	icare		e	
+BOR-CORBO-ENC2-06-003	3	9	120	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-06-003	3	10	120	tawuje	tawuje		extração	
+BOR-CORBO-ENC2-06-003	3	11	120	"""cai"","	"""cai"","		"""cai"","	
+BOR-CORBO-ENC2-06-003	3	12	120	tawuje	tawuje		extração	
+BOR-CORBO-ENC2-06-003	3	13	120	"""cai"","	"""cai"","		"""cai"","	
+BOR-CORBO-ENC2-06-003	3	14	120	ia	ia		um	
+BOR-CORBO-ENC2-06-003	3	15	120	tu-meta	tumeta		seu lugar onde se guarda algo	7
+BOR-CORBO-ENC2-06-003	3	16	120	boe-to.	boeto.		coisa em.	
+BOR-CORBO-ENC2-06-004	4	1	120	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-06-004	4	2	120	icare	icare		e	
+BOR-CORBO-ENC2-06-004	4	3	120	roiwa	roiwa		possibilidade	8
+BOR-CORBO-ENC2-06-004	4	4	120	bokwa-godu-re	bokwagodure		não tinha	
+BOR-CORBO-ENC2-06-004	4	5	120	apo,	apo,		com (êle),	
+BOR-CORBO-ENC2-06-004	4	6	120	roiwa	roiwa		possibilidade	
+BOR-CORBO-ENC2-06-004	4	7	122	bokwa-re	bokware		não tinha	
+BOR-CORBO-ENC2-06-004	4	8	122	ji	ji		(com) êle	
+BOR-CORBO-ENC2-06-004	4	9	122	jamedu,	jamedu,		também,	
+BOR-CORBO-ENC2-06-004	4	10	122	Rubugu	Rubugu		Rubugu	
+BOR-CORBO-ENC2-06-004	4	11	122	o-roe	oroe		suas riquezas	9
+BOR-CORBO-ENC2-06-004	4	12	122	bokwa-re	bokware		não tinha	
+BOR-CORBO-ENC2-06-004	4	13	122	kodi.	kodi.		porque.	
+BOR-CORBO-ENC2-06-005	5	1	122	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-06-005	5	2	122	ica-re	icare		e	
+BOR-CORBO-ENC2-06-005	5	3	122	Boe	Boe		(os) Bororo	10
+BOR-CORBO-ENC2-06-005	5	4	122	e'go-re	egore		sua palavra fizeram	
+BOR-CORBO-ENC2-06-005	5	5	122	Rubugu-ie	Rubuguie		Rubugu que	
+BOR-CORBO-ENC2-06-005	5	6	122	c'iemagu	ciemagu		sua dança (fêz)	
+BOR-CORBO-ENC2-06-005	5	7	122	t'agu	tagu		(a) sua criação	11
+BOR-CORBO-ENC2-06-005	5	8	122	Aije-ji,	Aijeji,		Aije êle,	
+BOR-CORBO-ENC2-06-005	5	9	122	mare	mare		mas	
+BOR-CORBO-ENC2-06-005	5	10	122	Aije	Aije		Aije	
+BOR-CORBO-ENC2-06-005	5	11	122	akogodu	akogodu		palavra	12
+BOR-CORBO-ENC2-06-005	5	12	122	ka-re	kare		não fêz	
+BOR-CORBO-ENC2-06-005	5	13	122	ji,	ji,		(a) êle,	
+BOR-CORBO-ENC2-06-005	5	14	122	o-roe	oroe		suas riquezas	13
+BOR-CORBO-ENC2-06-005	5	15	122	bokwa-re,	bokware,		não tinha,	
+BOR-CORBO-ENC2-06-005	5	16	122	pariko	pariko		diadema	
+BOR-CORBO-ENC2-06-005	5	17	122	bokwa-re	bokware		não tinha	
+BOR-CORBO-ENC2-06-005	5	18	122	epa-ce	epace		para, êle	
+BOR-CORBO-ENC2-06-005	5	19	122	kodi.	kodi.		porque.	
+BOR-CORBO-ENC2-06-006	6	1	122	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-06-006	6	2	122	icare	icare		e	
+BOR-CORBO-ENC2-06-006	6	3	122	Baitogogo-re	Baitogogore		Baitogogo fêz	14
+BOR-CORBO-ENC2-06-006	6	4	122	aru	aru		retirada	15
+BOR-CORBO-ENC2-06-006	6	5	122	piji,	piji,		d(êle),	
+BOR-CORBO-ENC2-06-006	6	6	122	icare	icare		e	
+BOR-CORBO-ENC2-06-006	6	7	122	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-06-006	6	8	122	c'iemagu	ciemagu		sua dança	
+BOR-CORBO-ENC2-06-006	6	9	122	ji	ji		d(êle),	
+BOR-CORBO-ENC2-06-006	6	10	122	pariko	pariko		diadema	
+BOR-CORBO-ENC2-06-006	6	11	122	u-kigareu	ukigarewu		êle o cornudo	
+BOR-CORBO-ENC2-06-006	6	12	122	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-06-007	7	1	122	Du	Du		Depois	
+BOR-CORBO-ENC2-06-007	7	2	122	icare	icare		e	
+BOR-CORBO-ENC2-06-007	7	3	122	Aije	Aije		Aije	
+BOR-CORBO-ENC2-06-007	7	4	122	akogodu-re,	akogodure,		palavra fêz,	16
+BOR-CORBO-ENC2-06-007	7	5	122	dukodi	dukodi		por isso	
+BOR-CORBO-ENC2-06-007	7	6	122	icare	icare		e	
+BOR-CORBO-ENC2-06-007	7	7	122	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-06-007	7	8	122	j'ana-re	janare		sua posse fêz,	17
+BOR-CORBO-ENC2-06-007	7	9	122	ui-edaga-re	uiedagare		seu totem fêz	
+BOR-CORBO-ENC2-06-007	7	10	122	oino	oino		assim	
+BOR-CORBO-ENC2-06-007	7	11	122	Aije-ji.	Aijeji.		(do) Aije êle.	
+BOR-CORBO-ENC2-06-008	8	1	122	Dukeje	Dukeje		Por isso	
+BOR-CORBO-ENC2-06-008	8	2	122	icare,	icare,		e,	
+BOR-CORBO-ENC2-06-008	8	3	122	Baitogogo-re	Baitogogore		Baitogogo	18
+BOR-CORBO-ENC2-06-008	8	4	122	Aije	Aije		(o) Aije	
+BOR-CORBO-ENC2-06-008	8	5	122	u-tu-do.	utudo.		êle fêz andar.	
+BOR-CORBO-ENC2-06-009	9	1	122	U-re	Ure		Êle	
+BOR-CORBO-ENC2-06-009	9	2	122	u-tu-do	utudo		o fêz andar	
+BOR-CORBO-ENC2-06-009	9	3	122	tu-muga	tumuga		sua morada	
+BOR-CORBO-ENC2-06-009	9	4	122	mano-to;	mano to;		piripiri em;	
+BOR-CORBO-ENC2-06-009	9	5	122	ako-re	akore		palavra fêz	
+BOR-CORBO-ENC2-06-009	9	6	122	ji:	ji:		(a) êle:	
+BOR-CORBO-ENC2-06-009	9	7	122	"""Mano,"	"""Mano,"		"""Caeté,"	
+BOR-CORBO-ENC2-06-009	9	8	122	keo,	keo,		piripiri,	
+BOR-CORBO-ENC2-06-009	9	9	122	pora,	pora,		aguapé,	
+BOR-CORBO-ENC2-06-009	9	10	122	boe	boe		coisa	19
+BOR-CORBO-ENC2-06-009	9	11	122	gugudu	gugudu		(com) moleza	
+BOR-CORBO-ENC2-06-009	9	12	122	kurireu,	kurirewu,		a grande,	
+BOR-CORBO-ENC2-06-009	9	13	122	tori	tori		(da) pedra	
+BOR-CORBO-ENC2-06-009	9	14	122	paru	paru		pé	
+BOR-CORBO-ENC2-06-009	9	15	122	j'aereu,	jaerewu,		ela a esburacada,	
+BOR-CORBO-ENC2-06-009	9	16	122	padaro kuru	padaro kuru		(da) espuma	
+BOR-CORBO-ENC2-06-009	9	17	122	padu-re	padure		(que) estada tinha	
+BOR-CORBO-ENC2-06-009	9	18	122	ao	ao		(na) sumidade	
+BOR-CORBO-ENC2-06-009	9	19	122	ji-wu	jiwu		ela aquela	
+BOR-CORBO-ENC2-06-009	9	20	122	pobo	pobo		água	
+BOR-CORBO-ENC2-06-009	9	21	122	bogai-re,	bogaire,		a, era,	
+BOR-CORBO-ENC2-06-009	9	22	122	a-emaru-re	aemarure		tua procura tinhas	
+BOR-CORBO-ENC2-06-009	9	23	122	ak-abo,	akabo,		ti com,	
+BOR-CORBO-ENC2-06-009	9	24	122	ak-era	akera		(de) tua mão	
+BOR-CORBO-ENC2-06-009	9	25	122	bia,	bia,		escondimento,	
+BOR-CORBO-ENC2-06-009	9	26	122	ak-ogwa	akogwa		(de) teu lábio	
+BOR-CORBO-ENC2-06-009	9	27	124	bia	bia		escondimento	
+BOR-CORBO-ENC2-06-009	9	28	124	rakado	rakado		fazer forte	
+BOR-CORBO-ENC2-06-009	9	29	124	ak-abo.	akabo.		ti com.	
+BOR-CORBO-ENC2-06-010	10	1	124	Boe	Boe		(Os) Bororo	20
+BOR-CORBO-ENC2-06-010	10	2	124	e-erudu	eerudu		sua visão	
+BOR-CORBO-ENC2-06-010	10	3	124	ona	ona		(com) impunidade	
+BOR-CORBO-ENC2-06-010	10	4	124	modu	modu		farão	
+BOR-CORBO-ENC2-06-010	10	5	124	ka-re	kare		não	
+BOR-CORBO-ENC2-06-010	10	6	124	a-i.	ai.		ti a.	
+BOR-CORBO-ENC2-06-011	11	1	124	Boe	Boe		(Os) Bororo	
+BOR-CORBO-ENC2-06-011	11	2	124	e-mearudu	emearudu		sua audição	
+BOR-CORBO-ENC2-06-011	11	3	124	ona	ona		(com) impunidade	
+BOR-CORBO-ENC2-06-011	11	4	124	modu	modu		farão	
+BOR-CORBO-ENC2-06-011	11	5	124	ka-re,	kare,		não,	
+BOR-CORBO-ENC2-06-011	11	6	124	paga	paga		(com) inutilidade	
+BOR-CORBO-ENC2-06-011	11	7	124	modu	modu		farão	
+BOR-CORBO-ENC2-06-011	11	8	124	ka-re	kare		não	
+BOR-CORBO-ENC2-06-011	11	9	124	ak-ago,	akago,		teu grito,	
+BOR-CORBO-ENC2-06-011	11	10	124	awadaru-ji	awadaruji		tua palavra ela	
+BOR-CORBO-ENC2-06-011	11	11	124	"kodi."""	"kodi."""		"quando (fizeres."""	
+BOR-CORBO-ENC2-06-012	12	1	124	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-06-012	12	2	124	icare	icare		e	
+BOR-CORBO-ENC2-06-012	12	3	124	Aije	Aije		(o) Aije	
+BOR-CORBO-ENC2-06-012	12	4	124	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-06-012	12	5	124	"""U,"	"""U,"		"""Sim,"	
+BOR-CORBO-ENC2-06-012	12	6	124	boe rugadu.	boe rugadu.		em verdade.	
+BOR-CORBO-ENC2-06-013	13	1	124	A-kiarigodu-i	Akiarigodui		Tu saudades tinhas	21
+BOR-CORBO-ENC2-06-013	13	2	124	tu	tu		bem	
+BOR-CORBO-ENC2-06-013	13	3	124	i-wogai,	iwogai,		mim a,	
+BOR-CORBO-ENC2-06-013	13	4	124	du-re,	dure,		quando tinhas,	
+BOR-CORBO-ENC2-06-013	13	5	124	a-re	are		tu fazias	
+BOR-CORBO-ENC2-06-013	13	6	124	a-ro	aro		tua ação	22
+BOR-CORBO-ENC2-06-013	13	7	124	o-kududo	okududo		ela tocar	
+BOR-CORBO-ENC2-06-013	13	8	124	tu	tu		bem	
+BOR-CORBO-ENC2-06-013	13	9	124	bie	bie		(de) jenipapo	
+BOR-CORBO-ENC2-06-013	13	10	124	ira-ji	iraji		tábua ela;	
+BOR-CORBO-ENC2-06-013	13	11	124	mano i	mano i		(de) lixeira	
+BOR-CORBO-ENC2-06-013	13	12	124	ira-ji,	iraji,		tábua ela,	
+BOR-CORBO-ENC2-06-013	13	13	124	padagi	padagi		(de) pateiro	
+BOR-CORBO-ENC2-06-013	13	14	124	ira-ji;	iraji;		tábua ela;	
+BOR-CORBO-ENC2-06-013	13	15	124	dukeje-re	dukejere		depois	
+BOR-CORBO-ENC2-06-013	13	16	124	a-mode	amode		tu terás	
+BOR-CORBO-ENC2-06-013	13	17	124	a-eto-wuje	aetowuje		tua alegria	
+BOR-CORBO-ENC2-06-013	13	18	124	tu,	tu,		bem,	
+BOR-CORBO-ENC2-06-013	13	19	124	tu,	tu,		bem,	
+BOR-CORBO-ENC2-06-013	13	20	124	"i-wogai."""	"iwogai."""		"mim a."""	
+BOR-CORBO-ENC2-06-014	14	1	124	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-06-014	14	2	124	icare	icare		e	
+BOR-CORBO-ENC2-06-014	14	3	124	Aroroe	Aroroe		(os) Aroroe	
+BOR-CORBO-ENC2-06-014	14	4	124	etui-edaga-re	etuiedagare		(como) seu totem tiveram	
+BOR-CORBO-ENC2-06-014	14	5	124	oino	oino		assim	
+BOR-CORBO-ENC2-06-014	14	6	124	Aije.	Aije.		(o) Aije.	
+BOR-CORBO-ENC2-07-001	1	1	130	Akaruio Bokodori	Akaruio Bokodori		Akaruio Bokodori	1
+BOR-CORBO-ENC2-07-001	1	2	130	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-07-001	1	3	130	Bakoro Ba Bororo	Bakoro Ba Bororo		Bakoro Ba Bororo	
+BOR-CORBO-ENC2-07-001	1	4	130	piji,	piji,		desde,	
+BOR-CORBO-ENC2-07-001	1	5	130	Arua	Arua		Arua	3
+BOR-CORBO-ENC2-07-001	1	6	130	ae.	ae.		a.	
+BOR-CORBO-ENC2-07-002	2	1	130	Arua Bororo	Arua Bororo		Arua Bororo	4
+BOR-CORBO-ENC2-07-002	2	2	130	keje,	keje,		em,	
+BOR-CORBO-ENC2-07-002	2	3	130	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-002	2	4	130	mugu-re.	mugure.		estada tinha.	
+BOR-CORBO-ENC2-07-003	3	1	130	Nono	Nono		Aí	
+BOR-CORBO-ENC2-07-003	3	2	130	icare	icare		e	
+BOR-CORBO-ENC2-07-003	3	3	130	Akaruio Bokodori	Akaruio Bokodori		Akaruio Bokodori	
+BOR-CORBO-ENC2-07-003	3	4	130	u-re	ure		êle fêz	5
+BOR-CORBO-ENC2-07-003	3	5	130	tu-mugudu	tumugudu		seu assento	
+BOR-CORBO-ENC2-07-003	3	6	130	tuje;	tuje;		logo;	
+BOR-CORBO-ENC2-07-003	3	7	130	dukeje	dukeje		depois	
+BOR-CORBO-ENC2-07-003	3	8	130	icare	icare		e	
+BOR-CORBO-ENC2-07-003	3	9	130	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-07-003	3	10	130	boe	boe		(de) coisa	6
+BOR-CORBO-ENC2-07-003	3	11	130	to	to		batida	
+BOR-CORBO-ENC2-07-003	3	12	130	tu-ga aturuareu	tuga aturuarewu		(do) seu tambor o grande	
+BOR-CORBO-ENC2-07-003	3	13	130	j'e-ji	jeji		(e) sua superfície ela	
+BOR-CORBO-ENC2-07-003	3	14	130	"""peu, peu, peu"""	"""peu, peu, peu"""		"""peu, peu, peu"""	7
+BOR-CORBO-ENC2-07-003	3	15	130	je.	je.		aí.	
+BOR-CORBO-ENC2-07-004	4	1	130	Icare	Icare		E	
+BOR-CORBO-ENC2-07-004	4	2	130	u-ragodu-re,	uragodure,		seu canto fêz,	
+BOR-CORBO-ENC2-07-004	4	3	130	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-07-004	4	4	130	"""O!"	"""O!"		"""Ó!"	
+BOR-CORBO-ENC2-07-004	4	5	130	Bure Modu-doge	Bure Modudoge		Bure Modudoge	8
+BOR-CORBO-ENC2-07-004	4	6	130	tag-aio	tagaio		vossa cabeça	9
+BOR-CORBO-ENC2-07-004	4	7	130	butudo	butudo		chegar	
+BOR-CORBO-ENC2-07-004	4	8	130	pugeje	pugeje		agora	
+BOR-CORBO-ENC2-07-004	4	9	130	i-kaia	ikaia		(do) meu tambor	
+BOR-CORBO-ENC2-07-004	4	10	130	ako	ako		(do) som	
+BOR-CORBO-ENC2-07-004	4	11	130	u-mugu	umugu		sua estada	
+BOR-CORBO-ENC2-07-004	4	12	130	kae	kae		a,	
+BOR-CORBO-ENC2-07-004	4	13	130	i-wororo	iwororo		(de) minha aldeia	10
+BOR-CORBO-ENC2-07-004	4	14	130	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-004	4	15	130	bu	bu		(sua) colocação	
+BOR-CORBO-ENC2-07-004	4	16	130	"kori-re."""	"korire."""		"por cima tinha."""	
+BOR-CORBO-ENC2-07-005	5	1	130	Du-ako	Duako		Seu canto	
+BOR-CORBO-ENC2-07-005	5	2	130	ino-du	inodu		assim	
+BOR-CORBO-ENC2-07-005	5	3	130	paru-to-re	parutore		fim em, foi	
+BOR-CORBO-ENC2-07-005	5	4	130	icare	icare		e	
+BOR-CORBO-ENC2-07-005	5	5	130	Boe	Boe		(os) Bororo	
+BOR-CORBO-ENC2-07-005	5	6	130	et-aregodu-re,	etaregodure,		sua chegada fizeram,	
+BOR-CORBO-ENC2-07-005	5	7	130	Boe	Boe		(os) Bororo	
+BOR-CORBO-ENC2-07-005	5	8	132	et-aregodu-re;	etaregodure;		sua chegada fizeram;	
+BOR-CORBO-ENC2-07-005	5	9	132	ako-re:	akore:		(êle) palavra fêz:	
+BOR-CORBO-ENC2-07-006	6	1	132	"""O!"	"""O!"		"""Ó!"	
+BOR-CORBO-ENC2-07-006	6	2	132	Raru-doge	Rarudoge		Rarudoge	11
+BOR-CORBO-ENC2-07-006	6	3	132	pu-gajejewuge	pugajejewuge		(com) reciprocidade ao redor	12
+BOR-CORBO-ENC2-07-006	6	4	132	tag-aio	tagaio		vossa cabeça	
+BOR-CORBO-ENC2-07-006	6	5	132	butudo	butudo		(fazei) chegar	
+BOR-CORBO-ENC2-07-006	6	6	132	pugeje	pugeje		agora	
+BOR-CORBO-ENC2-07-006	6	7	132	i-kaia	ikaia		(de) meu tambor	
+BOR-CORBO-ENC2-07-006	6	8	132	ako	ako		(do) som	
+BOR-CORBO-ENC2-07-006	6	9	132	u-mugu	umugu		sua estada	
+BOR-CORBO-ENC2-07-006	6	10	132	kae,	kae,		a,	
+BOR-CORBO-ENC2-07-006	6	11	132	i-wororo	iwororo		(de) minha aldeia	10
+BOR-CORBO-ENC2-07-006	6	12	132	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-006	6	13	132	bu	bu		colocação	
+BOR-CORBO-ENC2-07-006	6	14	132	kori-re.	korire.		por cima era.	
+BOR-CORBO-ENC2-07-007	7	1	132	O!	O!		Ó!	
+BOR-CORBO-ENC2-07-007	7	2	132	Bitodu-doge,	Bitodudoge,		Bitodudoge,	13
+BOR-CORBO-ENC2-07-007	7	3	132	tag-aio	tagaio		vossa cabeça	9
+BOR-CORBO-ENC2-07-007	7	4	132	butudo	butudo		(fazei) chegar	
+BOR-CORBO-ENC2-07-007	7	5	132	pugeje	pugeje		agora	
+BOR-CORBO-ENC2-07-007	7	6	132	i-kaia	ikaia		(de) meu tambor	
+BOR-CORBO-ENC2-07-007	7	7	132	ako	ako		(do) som	
+BOR-CORBO-ENC2-07-007	7	8	132	u-mugu	umugu		sua estada	
+BOR-CORBO-ENC2-07-007	7	9	132	kae,	kae,		a,	
+BOR-CORBO-ENC2-07-007	7	10	132	i-wororo	iwororo		(de) minha aldeia	
+BOR-CORBO-ENC2-07-007	7	11	132	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-007	7	12	132	bu	bu		colocação	
+BOR-CORBO-ENC2-07-007	7	13	132	"kori-re."""	"korire."""		"por cima era."""	
+BOR-CORBO-ENC2-07-008	8	1	132	O!	O!		Ó!	
+BOR-CORBO-ENC2-07-008	8	2	132	Ro Okudu-doge	Ro Okududoge		Ro Okududoge	14
+BOR-CORBO-ENC2-07-008	8	3	132	tag-aio	tagaio		vossa cabeça	
+BOR-CORBO-ENC2-07-008	8	4	132	butudo	butudo		(fazei) chegar	
+BOR-CORBO-ENC2-07-008	8	5	132	pugeje	pugeje		agora	
+BOR-CORBO-ENC2-07-008	8	6	132	i-kaia	ikaia		(de) meu tambor	
+BOR-CORBO-ENC2-07-008	8	7	132	ako	ako		(do) som	
+BOR-CORBO-ENC2-07-008	8	8	132	u-mugu	umugu		seu lugar	
+BOR-CORBO-ENC2-07-008	8	9	132	kae,	kae,		a,	
+BOR-CORBO-ENC2-07-008	8	10	132	i-wororo	iwororo		(de) minha aldeia	
+BOR-CORBO-ENC2-07-008	8	11	132	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-008	8	12	132	bu	bu		colocação	
+BOR-CORBO-ENC2-07-008	8	13	132	"kori-re."""	"korire."""		"por cima era."""	
+BOR-CORBO-ENC2-07-009	9	1	132	U-re	Ure		Êle fêz	15
+BOR-CORBO-ENC2-07-009	9	2	132	boe	boe		(de) coisa	
+BOR-CORBO-ENC2-07-009	9	3	132	to	to		batida	
+BOR-CORBO-ENC2-07-009	9	4	132	"""ca"""	"""ca"""		"""ca"","	16
+BOR-CORBO-ENC2-07-009	9	5	132	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-07-009	9	6	132	boe	boe		(de) coisa	
+BOR-CORBO-ENC2-07-009	9	7	132	to	to		batida	
+BOR-CORBO-ENC2-07-009	9	8	132	"""ca"""	"""ca"""		"""ca"""	
+BOR-CORBO-ENC2-07-009	9	9	132	o-roe	oroe		seus bens	17
+BOR-CORBO-ENC2-07-009	9	10	132	bokwa-reu-g'ei.	bokwarewugei.		não tinham aquêles êles.	
+BOR-CORBO-ENC2-07-010	10	1	132	O-roe-re	Oroere		Seus bens tinham,	
+BOR-CORBO-ENC2-07-010	10	2	132	wuge,	wuge,		aquêles (que)	
+BOR-CORBO-ENC2-07-010	10	3	132	u-re	ure		êle	18
+BOR-CORBO-ENC2-07-010	10	4	132	e-mugudo	emugudo		os assentou	
+BOR-CORBO-ENC2-07-010	10	5	132	tu,	tu,		aí,	
+BOR-CORBO-ENC2-07-010	10	6	132	e-mugudo	emugudo		os assentou	
+BOR-CORBO-ENC2-07-010	10	7	132	tu,	tu,		aí,	
+BOR-CORBO-ENC2-07-010	10	8	132	tu-muga	tumuga		sua morada	
+BOR-CORBO-ENC2-07-010	10	9	132	boe-ji,	boeji,		coisa ela,	
+BOR-CORBO-ENC2-07-010	10	10	132	pugeje.	pugeje.		em vez.	
+BOR-CORBO-ENC2-07-011	11	1	132	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-07-011	11	2	132	icare	icare		e	
+BOR-CORBO-ENC2-07-011	11	3	132	ore	ore		(os) filhos	19
+BOR-CORBO-ENC2-07-011	11	4	132	remawu-ge	remawuge		em verdade êles	
+BOR-CORBO-ENC2-07-011	11	5	132	et-aregodu-re.	etaregodure.		sua chegada fizeram.	
+BOR-CORBO-ENC2-07-012	12	1	132	Ika	Ika		(A) trombeta	20
+BOR-CORBO-ENC2-07-012	12	2	132	ako-re,	akore,		som fazia,	
+BOR-CORBO-ENC2-07-012	12	3	132	pana	pana		(a) buzina	
+BOR-CORBO-ENC2-07-012	12	4	132	ako-re,	akore,		som fazia,	
+BOR-CORBO-ENC2-07-012	12	5	132	powari	powari		(a) gaita	
+BOR-CORBO-ENC2-07-012	12	6	132	ako-re,	akore,		som fazia,	
+BOR-CORBO-ENC2-07-012	12	7	132	parira	parira		(o) flautim	
+BOR-CORBO-ENC2-07-012	12	8	132	ako-re,	akore,		som fazia,	
+BOR-CORBO-ENC2-07-012	12	9	132	boe	boe		coisa	
+BOR-CORBO-ENC2-07-012	12	10	132	j'amedu	jamedu		ela tôda	
+BOR-CORBO-ENC2-07-012	12	11	132	boe,	boe,		coisa,	
+BOR-CORBO-ENC2-07-012	12	12	132	ako-re.	akore.		som fazia.	
+BOR-CORBO-ENC2-07-013	13	1	132	Oino-re	Oinore		Assim	
+BOR-CORBO-ENC2-07-013	13	2	134	e-re	ere		sua corrida (faziam)	21
+BOR-CORBO-ENC2-07-013	13	3	134	pariko,	pariko,		(dos) diademas de penas,	
+BOR-CORBO-ENC2-07-013	13	4	134	pogea kejewu,	pogea kejewu,		(dos) pregos para os cabelos,	
+BOR-CORBO-ENC2-07-013	13	5	134	aroe eceba,	aroe eceba,		(da) coroa de penas de gavião-real,	
+BOR-CORBO-ENC2-07-013	13	6	134	kurugugwa,	kurugugwa,		(da) coroa de penas de gavião caracaraí	
+BOR-CORBO-ENC2-07-013	13	7	134	meri porira	meri porira		(dos) longos pregos para os cabelos	
+BOR-CORBO-ENC2-07-013	13	8	134	oto	oto		(a) ponta	
+BOR-CORBO-ENC2-07-013	13	9	134	u-eredudu-do	ueredududo		sua fumaça fazia	22
+BOR-CORBO-ENC2-07-013	13	10	134	tu-wugeje.	tuwugeje.		êles sôbre.	
+BOR-CORBO-ENC2-07-014	14	1	134	Dukodi	Dukodi		Depois	
+BOR-CORBO-ENC2-07-014	14	2	134	icare	icare		e	
+BOR-CORBO-ENC2-07-014	14	3	134	ako-re:	akore:		(êle) palavra fêz:	
+BOR-CORBO-ENC2-07-014	14	4	134	"""O!"	"""O!"		"""Ó!"	
+BOR-CORBO-ENC2-07-014	14	5	134	Boi Wuge,	Boi Wuge,		Boi Wuge,	23
+BOR-CORBO-ENC2-07-014	14	6	134	tag-aio	tagaio		vossa cabeça	
+BOR-CORBO-ENC2-07-014	14	7	134	butudo	butudo		chegar	
+BOR-CORBO-ENC2-07-014	14	8	134	pu-wugeje	puwugeje		(com) reciprocidade sôbre	
+BOR-CORBO-ENC2-07-014	14	9	134	i-kaia	ikaia		(de) meu tambor	
+BOR-CORBO-ENC2-07-014	14	10	134	ako	ako		(do) som	
+BOR-CORBO-ENC2-07-014	14	11	134	u-mugu	umugu		sua morada	
+BOR-CORBO-ENC2-07-014	14	12	134	kae,	kae,		a,	
+BOR-CORBO-ENC2-07-014	14	13	134	i-wororo	iwororo		(de) minha aldeia	
+BOR-CORBO-ENC2-07-014	14	14	134	Arua	Arua		Arua	
+BOR-CORBO-ENC2-07-014	14	15	134	bu	bu		colocação	
+BOR-CORBO-ENC2-07-014	14	16	134	"kori-re."""	"korire."""		"acima tinha."""	
+BOR-CORBO-ENC2-07-015	15	1	134	Ore-re	Orere		(Os) filhos fizeram	
+BOR-CORBO-ENC2-07-015	15	2	134	c'iemagu	ciemagu		sua dança	
+BOR-CORBO-ENC2-07-015	15	3	134	ji	ji		(a) êle	
+BOR-CORBO-ENC2-07-015	15	4	134	"""jugu jugu,"	"""jugu jugu,"		"""jugu jugu,"	24
+BOR-CORBO-ENC2-07-015	15	5	134	jugu je;	jugu je;		jugu je;	
+BOR-CORBO-ENC2-07-015	15	6	134	"jugu je."""	"jugu je."""		"jugu je."""	
+BOR-CORBO-ENC2-07-016	16	1	134	Ore	Ore		(Seus) filhos	25
+BOR-CORBO-ENC2-07-016	16	2	134	Tugarege	Tugarege		Tugarege	
+BOR-CORBO-ENC2-07-016	16	3	134	icare	icare		e	
+BOR-CORBO-ENC2-07-016	16	4	134	et-aregodu-re	etaregodure		sua chegada fizeram	
+BOR-CORBO-ENC2-07-016	16	5	134	boe	boe		coisa	
+BOR-CORBO-ENC2-07-016	16	6	134	j'amedu,	jamedu,		ela tôda,	
+BOR-CORBO-ENC2-07-016	16	7	134	boe	boe		coisa	
+BOR-CORBO-ENC2-07-016	16	8	134	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-07-016	16	9	134	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-07-017	17	1	134	Icare	Icare		E	
+BOR-CORBO-ENC2-07-017	17	2	134	Tugarege-re	Tugaregere		(os) Tugarege	26
+BOR-CORBO-ENC2-07-017	17	3	134	tu-gogado	tugogado		êles determinaram	
+BOR-CORBO-ENC2-07-017	17	4	134	tu-goge,	tugoge,		seus maridos	
+BOR-CORBO-ENC2-07-017	17	5	134	tu-vire	tuvire		suas espôsas	
+BOR-CORBO-ENC2-07-017	17	6	134	pui.	pui.		(com) reciprocidade.	
+BOR-CORBO-ENC2-07-018	18	1	134	Baitogogo	Baitogogo		Baitogogo	27
+BOR-CORBO-ENC2-07-018	18	2	134	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-07-018	18	3	134	jamedu,	jamedu,		também,	
+BOR-CORBO-ENC2-07-018	18	4	134	kodo	kodo		(fêz) ida	
+BOR-CORBO-ENC2-07-018	18	5	134	kuri	kuri		logo	
+BOR-CORBO-ENC2-07-018	18	6	134	"""tuku"""	"""tuku"""		"""tuku"""	
+BOR-CORBO-ENC2-07-018	18	7	134	bapo	bapo		maracá	
+BOR-CORBO-ENC2-07-018	18	8	134	kurireu	kurirewu		o grande	
+BOR-CORBO-ENC2-07-018	18	9	134	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-018	18	10	134	bapo rogu	baporogu		maracá pequeno	
+BOR-CORBO-ENC2-07-018	18	11	134	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-018	18	12	134	boe	boe		(de) coisa	28
+BOR-CORBO-ENC2-07-018	18	13	134	paru	paru		comêço	
+BOR-CORBO-ENC2-07-018	18	14	134	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-07-018	18	15	134	kurugugwa	kurugugwa		(de) gavião caracaraí	
+BOR-CORBO-ENC2-07-018	18	16	134	o-burugo	oburugo		sua retriz central	
+BOR-CORBO-ENC2-07-018	18	17	134	padu-re	padure		estada tinha	
+BOR-CORBO-ENC2-07-018	18	18	134	o-iagi-wu	oiagiwu		seu centro aquêle	
+BOR-CORBO-ENC2-07-018	18	19	134	pariko	pariko		diadema de penas	
+BOR-CORBO-ENC2-07-018	18	20	134	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-018	18	21	134	Roia Kurireu	Roia Kurirewu		Roia Kurireu	29
+BOR-CORBO-ENC2-07-018	18	22	134	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-018	18	23	136	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-07-018	18	24	136	Bakoro Kudu	Bakoro Kudu		Bakoro Kudu	30
+BOR-CORBO-ENC2-07-018	18	25	136	ae,	ae,		a,	
+BOR-CORBO-ENC2-07-018	18	26	136	u-re	ure		êle	
+BOR-CORBO-ENC2-07-018	18	27	136	j'odo	jodo		êle empurrou	
+BOR-CORBO-ENC2-07-018	18	28	136	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-07-019	19	1	136	Akaruio Boroge	Akaruio Boroge		Akaruio Boroge	31
+BOR-CORBO-ENC2-07-019	19	2	136	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-07-019	19	3	136	jamedu,	jamedu,		também,	
+BOR-CORBO-ENC2-07-019	19	4	136	kodo	kodo		ida	
+BOR-CORBO-ENC2-07-019	19	5	136	kuri	kuri		(fêz) logo	
+BOR-CORBO-ENC2-07-019	19	6	136	"""tuku"""	"""tuku"""		"""tuku"""	32
+BOR-CORBO-ENC2-07-019	19	7	136	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-07-019	19	8	136	Akaruio Bokodori	Akaruio Bokodori		Akaruio Bokodori	1
+BOR-CORBO-ENC2-07-019	19	9	136	ae,	ae,		a,	
+BOR-CORBO-ENC2-07-019	19	10	136	bapo	bapo		maracá	
+BOR-CORBO-ENC2-07-019	19	11	136	kurireu,	kurirewu,		o grande,	
+BOR-CORBO-ENC2-07-019	19	12	136	bapo	bapo		maracá	
+BOR-CORBO-ENC2-07-019	19	13	136	rogu;	rogu;	1	(com) pequenez;	
+BOR-CORBO-ENC2-07-019	19	14	136	kurugugwa	kurugugwa		(de) gavião caracaraí	
+BOR-CORBO-ENC2-07-019	19	15	136	o-burugo	oburugo		sua retriz central	
+BOR-CORBO-ENC2-07-019	19	16	136	padu-re	padure		estada tinha	
+BOR-CORBO-ENC2-07-019	19	17	136	o-iagi-wu	oiagiwu		seu centro aquela	
+BOR-CORBO-ENC2-07-019	19	18	136	pariko	pariko		(no) diadema de penas,	
+BOR-CORBO-ENC2-07-019	19	19	136	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-019	19	20	136	Cibae Et-awadu	Cibae Etawadu		Cibae Etawadu	33
+BOR-CORBO-ENC2-07-019	19	21	136	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-019	19	22	136	Roia Mugureu Boe Cojiwu	Roia Mugurewu Boe Cojiwu		Roia Mugureu Boe Cojiwu	
+BOR-CORBO-ENC2-07-019	19	23	136	Roia Mugureu Merijiwu	Roia Mugurewu Merijiwu		Roia Mugureu Merijiwu	
+BOR-CORBO-ENC2-07-019	19	24	136	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-07-019	19	25	136	ki,	ki,		(da) anta,	34
+BOR-CORBO-ENC2-07-019	19	26	136	jugo,	jugo,		(do) queixada,	
+BOR-CORBO-ENC2-07-019	19	27	136	buke,	buke,		(do) tamanduá-bandeira,	
+BOR-CORBO-ENC2-07-019	19	28	136	okoge,	okoge,		(do) dourado,	
+BOR-CORBO-ENC2-07-019	19	29	136	araru,	araru,		(da) piraputanga,	
+BOR-CORBO-ENC2-07-019	19	30	136	roko,	roko,		(do) curimatã	
+BOR-CORBO-ENC2-07-019	19	31	136	paru,	paru,		início,	
+BOR-CORBO-ENC2-07-019	19	32	136	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-07-020	20	1	136	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-07-020	20	2	136	icare	icare		e	
+BOR-CORBO-ENC2-07-020	20	3	136	baado jebage	baado jebage		chefes	35
+BOR-CORBO-ENC2-07-020	20	4	136	ka-re	kare		não foram	
+BOR-CORBO-ENC2-07-020	20	5	136	awu	awu		êste(s)	
+BOR-CORBO-ENC2-07-020	20	6	136	Tugarege-ce	Tugaregece		Tugarege êle(s)	
+BOR-CORBO-ENC2-07-020	20	7	136	pugeje.	pugeje.		mais.	
+BOR-CORBO-ENC2-07-021	21	1	136	Icare	Icare		E	
+BOR-CORBO-ENC2-07-021	21	2	136	Boe	Boe		(os) Bororo	36
+BOR-CORBO-ENC2-07-021	21	3	136	e-iamedu	eiamedu		êles todos	
+BOR-CORBO-ENC2-07-021	21	4	136	t'a-do	tado		sua frente fazer	37
+BOR-CORBO-ENC2-07-021	21	5	136	tu-gogado	tugogado		êles distribuiram	
+BOR-CORBO-ENC2-07-021	21	6	136	pui	pui		(com) reciprocidade	
+BOR-CORBO-ENC2-07-021	21	7	136	t'aregodu-re	taregodure		(quando) sua chegada tinham	
+BOR-CORBO-ENC2-07-021	21	8	136	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-07-021	21	9	136	boe	boe		coisa	
+BOR-CORBO-ENC2-07-021	21	10	136	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-07-021	21	11	136	icare	icare		e	38
+BOR-CORBO-ENC2-07-021	21	12	136	boe-re	boere		(a) coisa era	
+BOR-CORBO-ENC2-07-021	21	13	136	nono	nono		assim (como)	
+BOR-CORBO-ENC2-07-021	21	14	136	tu-reore	tureore		ela como (era)	
+BOR-CORBO-ENC2-07-021	21	15	136	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-08-001	1	1	144	Ia	Ia		Um	
+BOR-CORBO-ENC2-08-001	1	2	144	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-001	1	3	144	mugu-re	mugure		assento tinha	
+BOR-CORBO-ENC2-08-001	1	4	144	tu-maragodu	tumaragodu		sua pressa	
+BOR-CORBO-ENC2-08-001	1	5	144	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-001	1	6	144	tu-dugo-ji.	tudugoji.		sua flecha ela.	
+BOR-CORBO-ENC2-08-002	2	1	144	Oreduje-re	Oredujere		(Sua) espôsa	
+BOR-CORBO-ENC2-08-002	2	2	144	meru-re,	merure,		marcha fêz,	
+BOR-CORBO-ENC2-08-002	2	3	144	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-002	2	4	144	parori	parori		cumaru	
+BOR-CORBO-ENC2-08-002	2	5	144	kae.	kae.		a.	
+BOR-CORBO-ENC2-08-003	3	1	144	Awu	Awu		(D)êste	
+BOR-CORBO-ENC2-08-003	3	2	144	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-003	3	3	144	ie-re	iere		nome era	
+BOR-CORBO-ENC2-08-003	3	4	144	Baitogogo;	Baitogogo;		Baitogogo;	1
+BOR-CORBO-ENC2-08-003	3	5	144	aredu,	aredu,		(da) mulher,	
+BOR-CORBO-ENC2-08-003	3	6	144	Arogiareudo.	Arogiareudo.		Arogiareudo.	2
+BOR-CORBO-ENC2-08-004	4	1	144	Icare	Icare		E	
+BOR-CORBO-ENC2-08-004	4	2	144	ecewu	ecewu		aquela	
+BOR-CORBO-ENC2-08-004	4	3	144	aredu	aredu		mulher	
+BOR-CORBO-ENC2-08-004	4	4	144	okwa	okwa		(de) ausência	
+BOR-CORBO-ENC2-08-004	4	5	144	rai-re,	raire,		comprimento tinha,	
+BOR-CORBO-ENC2-08-004	4	6	144	dukodi	dukodi		por isso	
+BOR-CORBO-ENC2-08-004	4	7	144	icare	icare		e	
+BOR-CORBO-ENC2-08-004	4	8	144	onaregedu	onaregedu		(seu) filho	
+BOR-CORBO-ENC2-08-004	4	9	144	rekodu-re	rekodure		corrida fêz	
+BOR-CORBO-ENC2-08-004	4	10	144	bogai;	bogai;		a (ela);	
+BOR-CORBO-ENC2-08-004	4	11	144	kodo	kodo		ida (fêz)	
+BOR-CORBO-ENC2-08-004	4	12	144	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-004	4	13	144	rekodaji.	rekodaji.		atrás (dela).	
+BOR-CORBO-ENC2-08-005	5	1	144	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-005	5	2	144	icare	icare		e	
+BOR-CORBO-ENC2-08-005	5	3	144	mearudu-re	mearudure		audição teve	
+BOR-CORBO-ENC2-08-005	5	4	144	parori	parori		(que o) cumaru	
+BOR-CORBO-ENC2-08-005	5	5	144	ako-i	akoi		som fazia	
+BOR-CORBO-ENC2-08-005	5	6	144	"""durrr..."	"""durrr..."		"""durrr..."	3
+BOR-CORBO-ENC2-08-005	5	7	144	durrr...	durrr...		durrr...	
+BOR-CORBO-ENC2-08-005	5	8	144	"durrr..."""	"durrr..."""		"durrr..."""	
+BOR-CORBO-ENC2-08-005	5	9	144	moto	moto		chão	
+BOR-CORBO-ENC2-08-005	5	10	144	kae,	kae,		a,	
+BOR-CORBO-ENC2-08-005	5	11	144	duji.	duji.		enquanto (caía).	
+BOR-CORBO-ENC2-08-006	6	1	144	Kodo	Kodo		(Fêz) corrida	
+BOR-CORBO-ENC2-08-006	6	2	144	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-006	6	3	144	t'aiwo	taiwo		sua olhada	
+BOR-CORBO-ENC2-08-006	6	4	144	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-006	6	5	144	icare	icare		e	
+BOR-CORBO-ENC2-08-006	6	6	144	j'orudu-re	jorudure		sua visão teve	4
+BOR-CORBO-ENC2-08-006	6	7	144	imedu	imedu		(um) homem	
+BOR-CORBO-ENC2-08-006	6	8	144	padu-i	padui		estada tinha	
+BOR-CORBO-ENC2-08-006	6	9	144	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-006	6	10	144	keje	keje		sôbre	
+BOR-CORBO-ENC2-08-006	6	11	144	duji.	duji.		que.	
+BOR-CORBO-ENC2-08-007	7	1	144	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-007	7	2	144	icare	icare		e	
+BOR-CORBO-ENC2-08-007	7	3	144	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-007	7	4	144	tu-girimi	tugirimi		seu regresso	
+BOR-CORBO-ENC2-08-007	7	5	144	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-08-007	7	6	144	bogai:	bogai:		a:	
+BOR-CORBO-ENC2-08-008	8	1	144	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-008	8	2	144	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-008	8	3	146	imedu	imedu		(um) homem	
+BOR-CORBO-ENC2-08-008	8	4	146	pado	pado		estar	
+BOR-CORBO-ENC2-08-008	8	5	146	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-008	8	6	146	"keje."""	"keje."""		"sôbre."""	
+BOR-CORBO-ENC2-08-009	9	1	146	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-009	9	2	146	u-o	uo		seu pai	
+BOR-CORBO-ENC2-08-009	9	3	146	ka-re	kare		não	5
+BOR-CORBO-ENC2-08-009	9	4	146	tu-mearududo:	tumearududo:		se fêz ouvir:	
+BOR-CORBO-ENC2-08-009	9	5	146	u-re	ure		êle	
+BOR-CORBO-ENC2-08-009	9	6	146	tu-maragodu	tumaragodu		(com) sua pressa	6
+BOR-CORBO-ENC2-08-009	9	7	146	pagado	pagado		colocava	
+BOR-CORBO-ENC2-08-009	9	8	146	tu-dugo-ji.	tudugoji.		sua flecha ela.	
+BOR-CORBO-ENC2-08-010	10	1	146	Icare	Icare		E	
+BOR-CORBO-ENC2-08-010	10	2	146	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-010	10	3	146	onaregedu	onaregedu		filho	
+BOR-CORBO-ENC2-08-010	10	4	146	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-010	10	5	146	tu-girimi	tugirimi		seu regresso	
+BOR-CORBO-ENC2-08-010	10	6	146	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-08-011	11	1	146	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-011	11	2	146	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-012	12	1	146	Ecewu	Ecewu		Aquêle	
+BOR-CORBO-ENC2-08-012	12	2	146	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-012	12	3	146	pado	pado		estava	
+BOR-CORBO-ENC2-08-012	12	4	146	kimo-re	kimore		ainda	
+BOR-CORBO-ENC2-08-012	12	5	146	u-ce	uce		sua mãe	
+BOR-CORBO-ENC2-08-012	12	6	146	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-08-013	13	1	146	U-re	Ure		Êle fêz	
+BOR-CORBO-ENC2-08-013	13	2	146	tu-girimi	tugirimi		seu regresso	
+BOR-CORBO-ENC2-08-013	13	3	146	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-08-013	13	4	146	bogai,	bogai,		a,	
+BOR-CORBO-ENC2-08-013	13	5	146	pugeje;	pugeje;		novamente;	
+BOR-CORBO-ENC2-08-013	13	6	146	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-013	13	7	146	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-013	13	8	146	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-013	13	9	146	imedu	imedu		(um) homem	
+BOR-CORBO-ENC2-08-013	13	10	146	pado	pado		estava	
+BOR-CORBO-ENC2-08-013	13	11	146	kimo-re	kimore		ainda	
+BOR-CORBO-ENC2-08-013	13	12	146	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-013	13	13	146	"keje."""	"keje."""		"sôbre."""	
+BOR-CORBO-ENC2-08-014	14	1	146	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-014	14	2	146	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-015	15	1	146	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-015	15	2	146	ka-re	kare		não	5
+BOR-CORBO-ENC2-08-015	15	3	146	tu-mearududo.	tumearududo.		se fêz ouvir.	
+BOR-CORBO-ENC2-08-015	15	4	146	Ecewu	Ecewu		Aquêle	
+BOR-CORBO-ENC2-08-015	15	5	146	onaregedu	onaregedu		filho	
+BOR-CORBO-ENC2-08-015	15	6	146	rekodo	rekodo		correr	
+BOR-CORBO-ENC2-08-015	15	7	146	tu-ibagi	tuibagi		atrás de si	
+BOR-CORBO-ENC2-08-015	15	8	146	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-08-016	16	1	146	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-016	16	2	146	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-017	17	1	146	Imedu	Imedu		(O) homem	
+BOR-CORBO-ENC2-08-017	17	2	146	pado	pado		estava	
+BOR-CORBO-ENC2-08-017	17	3	146	kimo-re	kimore		ainda	
+BOR-CORBO-ENC2-08-017	17	4	146	u-ce	uce		sua mãe	
+BOR-CORBO-ENC2-08-017	17	5	146	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-08-018	18	1	146	Kodo	Kodo		(Fêz) corrida	
+BOR-CORBO-ENC2-08-018	18	2	146	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-08-018	18	3	146	bogai,	bogai,		a,	
+BOR-CORBO-ENC2-08-018	18	4	146	pugeje;	pugeje;		novamente;	
+BOR-CORBO-ENC2-08-018	18	5	146	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-018	18	6	146	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-018	18	7	146	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-018	18	8	146	imedu	imedu		(um) homem	
+BOR-CORBO-ENC2-08-018	18	9	146	pado	pado		estava	
+BOR-CORBO-ENC2-08-018	18	10	146	kimo-re	kimore		ainda	
+BOR-CORBO-ENC2-08-018	18	11	146	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-018	18	12	146	"keje."""	"keje."""		"sôbre."""	
+BOR-CORBO-ENC2-08-019	19	1	146	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-019	19	2	146	u-o	uo		seu pai	
+BOR-CORBO-ENC2-08-019	19	3	146	mako	mako		palavra	
+BOR-CORBO-ENC2-08-019	19	4	146	ka-re	kare		fêz não	
+BOR-CORBO-ENC2-08-019	19	5	146	pugeje,	pugeje,		ainda,	
+BOR-CORBO-ENC2-08-019	19	6	146	u-nure	unure		êle faz	
+BOR-CORBO-ENC2-08-019	19	7	146	barogo o	barogo o		(da) goiva	
+BOR-CORBO-ENC2-08-019	19	8	146	to	to		batida	
+BOR-CORBO-ENC2-08-019	19	9	146	"""pao, pao"""	"""pao, pao"""		"""pao, pao"""	7
+BOR-CORBO-ENC2-08-019	19	10	146	tu-dugo-ji	tudugoji		(em) sua flecha ela,	
+BOR-CORBO-ENC2-08-019	19	11	146	tu-dugo	tudugo		(retirando de) sua flecha	
+BOR-CORBO-ENC2-08-019	19	12	146	gigudu-ji.	giguduji.		cavaco êle.	
+BOR-CORBO-ENC2-08-020	20	1	146	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-020	20	2	146	icare	icare		e	
+BOR-CORBO-ENC2-08-020	20	3	146	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-020	20	4	146	"""Imedu,"	"""Imedu,"		"""Homem,"	
+BOR-CORBO-ENC2-08-020	20	5	148	imedu,	imedu,		homem,	
+BOR-CORBO-ENC2-08-020	20	6	148	inoba	inoba		que	
+BOR-CORBO-ENC2-08-020	20	7	148	"ak-ago-re?"""	"akagore?"""		"tua palavra fizeste?"""	
+BOR-CORBO-ENC2-08-021	21	1	148	Onaregedu	Onaregedu		(O) filho	
+BOR-CORBO-ENC2-08-021	21	2	148	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-021	21	3	148	"""In-ago-re"	"""Inagore"		"""Minha palavra fiz"	
+BOR-CORBO-ENC2-08-021	21	4	148	imedu	imedu		(um) homem (tinha)	
+BOR-CORBO-ENC2-08-021	21	5	148	padu-ie,	paduie,		decúbito que,	
+BOR-CORBO-ENC2-08-021	21	6	148	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-021	21	7	148	"keje."""	"keje."""		"sôbre."""	
+BOR-CORBO-ENC2-08-022	22	1	148	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-022	22	2	148	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-022	22	3	148	"""U,"	"""U,"		"""Sim,"	
+BOR-CORBO-ENC2-08-022	22	4	148	kirabodu!	kirabodu!		ai dêle!	
+BOR-CORBO-ENC2-08-022	22	5	148	Toro,	Toro,		Lá,	
+BOR-CORBO-ENC2-08-022	22	6	148	pa-du-wo,	paduwo,		nossa ida para,	
+BOR-CORBO-ENC2-08-022	22	7	148	pa-du-wo,	paduwo,		nossa ida para,	
+BOR-CORBO-ENC2-08-022	22	8	148	"bogai."""	"bogai."""		"a (êle)."""	
+BOR-CORBO-ENC2-08-023	23	1	148	Icare	Icare		E	
+BOR-CORBO-ENC2-08-023	23	2	148	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-023	23	3	148	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-023	23	4	148	u-re	ure		êle	
+BOR-CORBO-ENC2-08-023	23	5	148	tug-erado	tugerado		se apanhou	8
+BOR-CORBO-ENC2-08-023	23	6	148	j'o	jo		(com) sua pressão	
+BOR-CORBO-ENC2-08-023	23	7	148	tu-dugo	tudugo		sua flecha	
+BOR-CORBO-ENC2-08-023	23	8	148	j'amedu	jamedu		ela tôda	
+BOR-CORBO-ENC2-08-023	23	9	148	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-023	23	10	148	icare	icare		e	
+BOR-CORBO-ENC2-08-023	23	11	148	kodo	kodo		ida (fêz)	
+BOR-CORBO-ENC2-08-023	23	12	148	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-023	23	13	148	t'onaregedu	tonaregedu		seu filho	
+BOR-CORBO-ENC2-08-023	23	14	148	apo,	apo,		com,	
+BOR-CORBO-ENC2-08-023	23	15	148	imedu	imedu		(ao) homem	
+BOR-CORBO-ENC2-08-023	23	16	148	padu-re	padure		(que) decúbito tinha	
+BOR-CORBO-ENC2-08-023	23	17	148	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-023	23	18	148	keje	keje		sôbre,	
+BOR-CORBO-ENC2-08-023	23	19	148	u-kae.	ukae.		êle a.	
+BOR-CORBO-ENC2-08-024	24	1	148	Boekimo!	Boekimo!		Inutilidade!	
+BOR-CORBO-ENC2-08-024	24	2	148	Imedu	Imedu		(O) homem	
+BOR-CORBO-ENC2-08-024	24	3	148	padu	padu		estada	
+BOR-CORBO-ENC2-08-024	24	4	148	kimo-re	kimore		ainda tinha	
+BOR-CORBO-ENC2-08-024	24	5	148	u-ce	uce		sua mãe	
+BOR-CORBO-ENC2-08-024	24	6	148	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-08-025	25	1	148	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-025	25	2	148	icare	icare		e	
+BOR-CORBO-ENC2-08-025	25	3	148	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-025	25	4	148	tug-eragu	tugeragu		seu apanhamento	
+BOR-CORBO-ENC2-08-025	25	5	148	"""cai"""	"""cai"""		"""cai"""	9
+BOR-CORBO-ENC2-08-025	25	6	148	ia	ia		(de) uma	
+BOR-CORBO-ENC2-08-025	25	7	148	tu-dugo-ji,	tudugoji,		sua flecha ela,	
+BOR-CORBO-ENC2-08-025	25	8	148	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-025	25	9	148	to	to		batida	
+BOR-CORBO-ENC2-08-025	25	10	148	"""co"""	"""co"""		"""co"""	
+BOR-CORBO-ENC2-08-025	25	11	148	kana-to.	kanato.		braço em.	
+BOR-CORBO-ENC2-08-026	26	1	148	U-re	Ure		Êle fêz	
+BOR-CORBO-ENC2-08-026	26	2	148	to	to		batida	
+BOR-CORBO-ENC2-08-026	26	3	148	"""co"""	"""co"""		"""co"""	10
+BOR-CORBO-ENC2-08-026	26	4	148	ia	ia		uma	
+BOR-CORBO-ENC2-08-026	26	5	148	pogora-to,	pogorato,		perna em,	
+BOR-CORBO-ENC2-08-026	26	6	148	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-026	26	7	148	oino	oino		assim	
+BOR-CORBO-ENC2-08-026	26	8	148	awu	awu		êste	
+BOR-CORBO-ENC2-08-026	26	9	148	t'abo,	tabo,		ela com,	11
+BOR-CORBO-ENC2-08-026	26	10	148	bi	bi		morte	
+BOR-CORBO-ENC2-08-026	26	11	148	modu	modu		terá	
+BOR-CORBO-ENC2-08-026	26	12	148	ka-re,	kare,		não,	
+BOR-CORBO-ENC2-08-026	26	13	148	boe-ji.	boeji.		coisa ela.	
+BOR-CORBO-ENC2-08-027	27	1	148	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-027	27	2	148	icare	icare		e	
+BOR-CORBO-ENC2-08-027	27	3	148	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-027	27	4	148	tug-eragu	tugeragu		seu apanhamento	
+BOR-CORBO-ENC2-08-027	27	5	148	"""cai"""	"""cai"""		"""cai"""	9
+BOR-CORBO-ENC2-08-027	27	6	148	epa-ji;	epaji;		(para) morte ela;	12
+BOR-CORBO-ENC2-08-027	27	7	148	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-027	27	8	148	"""Awu"	"""Awu"		"""Esta"	13
+BOR-CORBO-ENC2-08-027	27	9	148	t'abo-re,	tabore,		ela com,	
+BOR-CORBO-ENC2-08-027	27	10	148	a-rearu	arearu		tua fuga	
+BOR-CORBO-ENC2-08-027	27	11	148	"mode."""	"mode."""		"farás."""	
+BOR-CORBO-ENC2-08-028	28	1	148	U-re	Ure		Êle fêz	
+BOR-CORBO-ENC2-08-028	28	2	148	to	to		batida	
+BOR-CORBO-ENC2-08-028	28	3	150	ji	ji		(d)ela	
+BOR-CORBO-ENC2-08-028	28	4	150	gi	gi		ponta	
+BOR-CORBO-ENC2-08-028	28	5	150	u-wajiku-to;	uwajikuto;		(dos) ramos anteriores das coronárias (em);	14
+BOR-CORBO-ENC2-08-028	28	6	150	dukeje	dukeje		depois	
+BOR-CORBO-ENC2-08-028	28	7	150	icare	icare		e	
+BOR-CORBO-ENC2-08-028	28	8	150	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-028	28	9	150	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-028	28	10	150	u-re	ure		êle	
+BOR-CORBO-ENC2-08-028	28	11	150	tu-ragojedo	turagojedo		se levantou	
+BOR-CORBO-ENC2-08-028	28	12	150	tu-regodu	turegodu		sua fuga	
+BOR-CORBO-ENC2-08-028	28	13	150	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-028	28	14	150	pobo-to.	poboto.		água em.	
+BOR-CORBO-ENC2-08-029	29	1	150	Kodi-re	Kodire		Por isso	15
+BOR-CORBO-ENC2-08-029	29	2	150	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-029	29	3	150	koia-re,	koiare,		causa foi,	
+BOR-CORBO-ENC2-08-029	29	4	150	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-029	29	5	150	tugo	tugo		(a) flecha,	
+BOR-CORBO-ENC2-08-029	29	6	150	ro	ro		ação	
+BOR-CORBO-ENC2-08-029	29	7	150	pegado	pegado		fazer ruindade	
+BOR-CORBO-ENC2-08-029	29	8	150	ki-ji;	kiji;		(à) anta ela;	
+BOR-CORBO-ENC2-08-029	29	9	150	ro	ro		(de sua) ação	
+BOR-CORBO-ENC2-08-029	29	10	150	rekodaji	rekodaji		depois	
+BOR-CORBO-ENC2-08-029	29	11	150	tugo	tugo		(a) flecha	
+BOR-CORBO-ENC2-08-029	29	12	150	j'o	jo		sua pressão	
+BOR-CORBO-ENC2-08-029	29	13	150	paga-re	pagare		(com) inutilidade tinha	
+BOR-CORBO-ENC2-08-029	29	14	150	"""co"""	"""co"""		"""co"""	
+BOR-CORBO-ENC2-08-029	29	15	150	ki	ki		(da) anta	
+BOR-CORBO-ENC2-08-029	29	16	150	kana-to,	kanato,		braço em,	
+BOR-CORBO-ENC2-08-029	29	17	150	pogora-to,	pogorato,		perna em,	
+BOR-CORBO-ENC2-08-029	29	18	150	icoru-to,	icoruto,		ombro em,	
+BOR-CORBO-ENC2-08-029	29	19	150	pegugu	pegugu		ventre	
+BOR-CORBO-ENC2-08-029	29	20	150	gajeje,	gajeje,		sôbre,	
+BOR-CORBO-ENC2-08-029	29	21	150	boa	boa		superfície (das nádegas)	
+BOR-CORBO-ENC2-08-029	29	22	150	gajeje.	gajeje.		sôbre.	
+BOR-CORBO-ENC2-08-030	30	1	150	Icare	Icare		E	
+BOR-CORBO-ENC2-08-030	30	2	150	imedu	imedu		(o) homem	
+BOR-CORBO-ENC2-08-030	30	3	150	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-030	30	4	150	"""A-ragojedo""."	"""Aragojedo""."		"""Tu levantar."""	
+BOR-CORBO-ENC2-08-031	31	1	150	Oino	Oino		Assim	
+BOR-CORBO-ENC2-08-031	31	2	150	t'oreduje-ji,	toredujeji,		(a) sua mulher ela,	
+BOR-CORBO-ENC2-08-031	31	3	150	icare	icare		e	
+BOR-CORBO-ENC2-08-031	31	4	150	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-031	31	5	150	apo	apo		com (ela)	
+BOR-CORBO-ENC2-08-031	31	6	150	baa-to.	baato.		aldeia em.	
+BOR-CORBO-ENC2-08-032	32	1	150	Icare	Icare		E	
+BOR-CORBO-ENC2-08-032	32	2	150	u-re	ure		êle	
+BOR-CORBO-ENC2-08-032	32	3	150	bukido	bukido		(de) tucumdamata	
+BOR-CORBO-ENC2-08-032	32	4	150	guru	guru		(a) fibra	
+BOR-CORBO-ENC2-08-032	32	5	150	pemegado	pemegado		preparou	
+BOR-CORBO-ENC2-08-032	32	6	150	icare	icare		e	
+BOR-CORBO-ENC2-08-032	32	7	150	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-032	32	8	150	bu	bu		colocação	
+BOR-CORBO-ENC2-08-032	32	9	150	"""gu"""	"""gu"""		"""gu"""	
+BOR-CORBO-ENC2-08-032	32	10	150	tu-gana	tugana		(de) seu braço	16
+BOR-CORBO-ENC2-08-032	32	11	150	kuda.	kuda.		embaixo.	
+BOR-CORBO-ENC2-08-033	33	1	150	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-033	33	2	150	icare	icare		e	
+BOR-CORBO-ENC2-08-033	33	3	150	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-033	33	4	150	t'oreduje-do	toredujedo		(de) sua mulher	
+BOR-CORBO-ENC2-08-033	33	5	150	t'ao	tao		sua cabeça	
+BOR-CORBO-ENC2-08-033	33	6	150	bu	bu		colocação	
+BOR-CORBO-ENC2-08-033	33	7	150	tu	tu		bem	
+BOR-CORBO-ENC2-08-033	33	8	150	tu-gana	tugana		seu braço	
+BOR-CORBO-ENC2-08-033	33	9	150	keje,	keje,		sôbre	
+BOR-CORBO-ENC2-08-033	33	10	150	icare	icare		e	
+BOR-CORBO-ENC2-08-033	33	11	150	oreduje	oreduje		(sua) mulher	
+BOR-CORBO-ENC2-08-033	33	12	150	u-nudu	unudu		seu sono	
+BOR-CORBO-ENC2-08-033	33	13	150	pemega-re	pemegare		(com) bondade teve	
+BOR-CORBO-ENC2-08-033	33	14	150	dukeje-re,	dukejere,		quando,	
+BOR-CORBO-ENC2-08-033	33	15	150	u-re	ure		êle	
+BOR-CORBO-ENC2-08-033	33	16	150	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-033	33	17	150	bukigu	bukigu		cordel de tucum	
+BOR-CORBO-ENC2-08-033	33	18	150	bekuru	bekuru		(com) pegajosice	17
+BOR-CORBO-ENC2-08-033	33	19	150	kogudo	kogudo		amarrou	
+BOR-CORBO-ENC2-08-033	33	20	150	"""grrr..."	"""grrr..."		"""grrr..."	18
+BOR-CORBO-ENC2-08-033	33	21	150	"tuku"""	"tuku"""		"tuku"""	
+BOR-CORBO-ENC2-08-033	33	22	150	ruwo	ruwo		(da) garganta	
+BOR-CORBO-ENC2-08-033	33	23	152	kajeje.	kajeje.		ao redor.	
+BOR-CORBO-ENC2-08-034	34	1	152	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-08-034	34	2	152	icare	icare		e	
+BOR-CORBO-ENC2-08-034	34	3	152	u-re	ure		êle	
+BOR-CORBO-ENC2-08-034	34	4	152	bito	bito		(a) matou	
+BOR-CORBO-ENC2-08-034	34	5	152	boe coji.	boe coji.		de noite.	
+BOR-CORBO-ENC2-08-035	35	1	152	Icare	Icare		E	
+BOR-CORBO-ENC2-08-035	35	2	152	u-re	ure		êle	
+BOR-CORBO-ENC2-08-035	35	3	152	j'eturudo	jeturudo		seu recado mandou	
+BOR-CORBO-ENC2-08-035	35	4	152	u-wai	uwai		(para) seu buraco	
+BOR-CORBO-ENC2-08-035	35	5	152	rakareu	rakarewu		o(s) forte(s)	19
+BOR-CORBO-ENC2-08-035	35	6	152	barege	barege		animais	
+BOR-CORBO-ENC2-08-035	35	7	152	e-wogai:	ewogai:		êles a:	
+BOR-CORBO-ENC2-08-035	35	8	152	Enokuri,	Enokuri,		Enokuri,	20
+BOR-CORBO-ENC2-08-035	35	9	152	Okwaru	Okwaru		Okwaru	21
+BOR-CORBO-ENC2-08-035	35	10	152	Bokodori,	Bokodori,		Bokodori,	22
+BOR-CORBO-ENC2-08-035	35	11	152	awu	awu		êste(s)	23
+BOR-CORBO-ENC2-08-035	35	12	152	u-wai	uwai		(para) seu buraco (fazer)	
+BOR-CORBO-ENC2-08-035	35	13	152	rakareu-ge	rakarewuge		os fortes	
+BOR-CORBO-ENC2-08-035	35	14	152	e-wogai;	ewogai;		êles a;	
+BOR-CORBO-ENC2-08-035	35	15	152	icare	icare		e	
+BOR-CORBO-ENC2-08-035	35	16	152	u-re	ure		êle	
+BOR-CORBO-ENC2-08-035	35	17	152	e-waigo	ewaigo		os fêz cavar	
+BOR-CORBO-ENC2-08-035	35	18	152	tu-guda.	tuguda.		(d)ela embaixo.	
+BOR-CORBO-ENC2-08-036	36	1	152	Et-aregodu	Etaregodu		Sua chegada	
+BOR-CORBO-ENC2-08-036	36	2	152	keje,	keje,		quando (fizeram)	
+BOR-CORBO-ENC2-08-036	36	3	152	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-036	36	4	152	"""Woe,"	"""Woe,"		"""Aqui,"	
+BOR-CORBO-ENC2-08-036	36	5	152	"woe!"""	"woe!"""		"aqui!"""	
+BOR-CORBO-ENC2-08-037	37	1	152	Ino	Ino		Assim	
+BOR-CORBO-ENC2-08-037	37	2	152	tu,	tu,		bem,	
+BOR-CORBO-ENC2-08-037	37	3	152	ino	ino		assim	
+BOR-CORBO-ENC2-08-037	37	4	152	tu	tu		bem	
+BOR-CORBO-ENC2-08-037	37	5	152	ei;	ei;		(a) êles;	
+BOR-CORBO-ENC2-08-037	37	6	152	icare	icare		e	
+BOR-CORBO-ENC2-08-037	37	7	152	e-re	ere		êles	
+BOR-CORBO-ENC2-08-037	37	8	152	moto	moto		(a) terra	
+BOR-CORBO-ENC2-08-037	37	9	152	iado	iado		abriram	
+BOR-CORBO-ENC2-08-037	37	10	152	tu-rugadu.	turugadu.		logo mesmo.	
+BOR-CORBO-ENC2-08-038	38	1	152	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-038	38	2	152	icare	icare		e	
+BOR-CORBO-ENC2-08-038	38	3	152	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-038	38	4	152	t'oreduje	toreduje		(de) sua mulher	
+BOR-CORBO-ENC2-08-038	38	5	152	tugu	tugu		colocação	
+BOR-CORBO-ENC2-08-038	38	6	152	to	to		dentro	
+BOR-CORBO-ENC2-08-038	38	7	152	icare	icare		e	
+BOR-CORBO-ENC2-08-038	38	8	152	boe	boe		(as) coisas	
+BOR-CORBO-ENC2-08-038	38	9	152	e-do	edo		elas fêz	
+BOR-CORBO-ENC2-08-038	38	10	152	nono	nono		assim (como)	
+BOR-CORBO-ENC2-08-038	38	11	152	boe	boe		(as) coisas	
+BOR-CORBO-ENC2-08-038	38	12	152	e-paga-godu-re	epagagodure		elas engano tinham,	24
+BOR-CORBO-ENC2-08-038	38	13	152	tuje.	tuje.		logo.	
+BOR-CORBO-ENC2-08-039	39	1	152	Icare	Icare		E	
+BOR-CORBO-ENC2-08-039	39	2	152	barogwa	barogwa		aurora	
+BOR-CORBO-ENC2-08-039	39	3	152	kododu-re	kododure		aumento teve	
+BOR-CORBO-ENC2-08-039	39	4	152	dukeje,	dukeje,		quando,	
+BOR-CORBO-ENC2-08-039	39	5	152	icare	icare		então	
+BOR-CORBO-ENC2-08-039	39	6	152	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-039	39	7	152	onaregedu	onaregedu		filho	
+BOR-CORBO-ENC2-08-039	39	8	152	u-naragodu-re	unaragodure		sua pergunta fêz	
+BOR-CORBO-ENC2-08-039	39	9	152	tu-o-ji,	tuoji,		(a) seu pai êle,	
+BOR-CORBO-ENC2-08-039	39	10	152	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-039	39	11	152	bogai;	bogai;		para;	
+BOR-CORBO-ENC2-08-039	39	12	152	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-039	39	13	152	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-039	39	14	152	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-039	39	15	152	kaiba	kaiba		aonde	
+BOR-CORBO-ENC2-08-039	39	16	152	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-039	39	17	152	"kodu-re?"""	"kodure?"""		"ida fêz?"""	
+BOR-CORBO-ENC2-08-040	40	1	152	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-040	40	2	152	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-040	40	3	152	"""A-ce"	"""Ace"		"""Tua mãe"	
+BOR-CORBO-ENC2-08-040	40	4	152	"ikurudo."""	"ikurudo."""		"(foi) urinar."""	
+BOR-CORBO-ENC2-08-041	41	1	152	Icare	Icare		E	
+BOR-CORBO-ENC2-08-041	41	2	152	onaregedu	onaregedu		(o) filho	
+BOR-CORBO-ENC2-08-041	41	3	152	rekodo	rekodo		corrida (fêz)	
+BOR-CORBO-ENC2-08-041	41	4	152	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-041	41	5	152	bogai;	bogai;		a;	
+BOR-CORBO-ENC2-08-041	41	6	152	mare	mare		mas	
+BOR-CORBO-ENC2-08-041	41	7	152	boekimo-re!	boekimore!		inùtilmente foi!	
+BOR-CORBO-ENC2-08-042	42	1	152	Ako-re:	Akore:		Palavra fêz:	
+BOR-CORBO-ENC2-08-042	42	2	152	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-042	42	3	152	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-042	42	4	152	kaiba	kaiba		aonde	
+BOR-CORBO-ENC2-08-042	42	5	154	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-042	42	6	154	"kodu-re?"""	"kodure?"""		"ida fêz?"""	
+BOR-CORBO-ENC2-08-042	42	7	154	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-042	42	8	154	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-042	42	9	154	"""A-ce"	"""Ace"		"""Tua mãe"	
+BOR-CORBO-ENC2-08-042	42	10	154	"pegodu."""	"pegodu."""		"(foi fazer) defecação."""	
+BOR-CORBO-ENC2-08-043	43	1	154	Onaregedu	Onaregedu		(O) filho	
+BOR-CORBO-ENC2-08-043	43	2	154	rekodu	rekodu		(fêz) corrida	
+BOR-CORBO-ENC2-08-043	43	3	154	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-043	43	4	154	bogai;	bogai;		a;	
+BOR-CORBO-ENC2-08-043	43	5	154	mare	mare		mas	
+BOR-CORBO-ENC2-08-043	43	6	154	boekimo-re!	boekimore!		inùtilmente foi!	
+BOR-CORBO-ENC2-08-043	43	7	154	Ako-re:	Akore:		Palavra fêz:	
+BOR-CORBO-ENC2-08-043	43	8	154	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-043	43	9	154	i-ogwa,	iogwa,		meu pai,	
+BOR-CORBO-ENC2-08-043	43	10	154	kaiba	kaiba		aonde	
+BOR-CORBO-ENC2-08-043	43	11	154	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-043	43	12	154	"kodu-re?"""	"kodure?"""		"ida fêz?"""	
+BOR-CORBO-ENC2-08-044	44	1	154	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-044	44	2	154	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-044	44	3	154	"""A-ce"	"""Ace"		"""Tua mãe"	
+BOR-CORBO-ENC2-08-044	44	4	154	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-044	44	5	154	j'erigi	jerigi		sua lenha	25
+BOR-CORBO-ENC2-08-044	44	6	154	"kae."""	"kae."""		"a."""	
+BOR-CORBO-ENC2-08-045	45	1	154	Rekodu-re	Rekodure		Corrida fêz	
+BOR-CORBO-ENC2-08-045	45	2	154	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-045	45	3	154	bogai,	bogai,		a,	
+BOR-CORBO-ENC2-08-045	45	4	154	j'erigi	jerigi		ela lenha	
+BOR-CORBO-ENC2-08-045	45	5	154	kae,	kae,		a,	
+BOR-CORBO-ENC2-08-045	45	6	154	mare	mare		mas	
+BOR-CORBO-ENC2-08-045	45	7	154	boekimo-re!	boekimore!		inùtilmente foi!	
+BOR-CORBO-ENC2-08-046	46	1	154	Icare	Icare		E	
+BOR-CORBO-ENC2-08-046	46	2	154	oragudugodu-re	oragudugodure		pranto inicipiente fêz	
+BOR-CORBO-ENC2-08-046	46	3	154	u-o	uo		(porque) seu pai	
+BOR-CORBO-ENC2-08-046	46	4	154	nure	nure	1	faz	
+BOR-CORBO-ENC2-08-046	46	5	154	j'ekiripaga	jekiripaga		(com) engano	
+BOR-CORBO-ENC2-08-046	46	6	154	pagado	pagado		enganar	
+BOR-CORBO-ENC2-08-046	46	7	154	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-046	46	8	154	bogai.	bogai.		a.	
+BOR-CORBO-ENC2-08-047	47	1	154	Mako-re	Makore		Palavra fez	
+BOR-CORBO-ENC2-08-047	47	2	154	pugeje;	pugeje;		ainda;	
+BOR-CORBO-ENC2-08-047	47	3	154	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-047	47	4	154	"""I-ogwa,"	"""Iogwa,"		"""Meu pai,"	
+BOR-CORBO-ENC2-08-047	47	5	154	i-ogwa	iogwa		meu pai,	
+BOR-CORBO-ENC2-08-047	47	6	154	kaiba	kaiba		aonde	
+BOR-CORBO-ENC2-08-047	47	7	154	i-muga	imuga		minha mãe	
+BOR-CORBO-ENC2-08-047	47	8	154	"kodu-re?"""	"kodure?"""		"ida fêz?"""	
+BOR-CORBO-ENC2-08-047	47	9	154	U-o	Uo		Seu pai	
+BOR-CORBO-ENC2-08-047	47	10	154	ako-re!	akore!		palavra fêz!	
+BOR-CORBO-ENC2-08-047	47	11	154	"""A-ce"	"""Ace"		"""Tua mãe"	
+BOR-CORBO-ENC2-08-047	47	12	154	u-tu	utu		(fêz) sua ida	
+BOR-CORBO-ENC2-08-047	47	13	154	noidoia	noidoia		palmito de babaçu	26
+BOR-CORBO-ENC2-08-047	47	14	154	"kae."""	"kae."""		"a."""	
+BOR-CORBO-ENC2-08-048	48	1	154	Rekodu-re	Rekodure		Corrida fêz	
+BOR-CORBO-ENC2-08-048	48	2	154	tu-je	tuje		sua mãe	
+BOR-CORBO-ENC2-08-048	48	3	154	bogai	bogai		a,	
+BOR-CORBO-ENC2-08-048	48	4	154	noido	noido		babaçu	
+BOR-CORBO-ENC2-08-048	48	5	154	guru-to;	guruto;		multidão em;	
+BOR-CORBO-ENC2-08-048	48	6	154	mare	mare		mas	
+BOR-CORBO-ENC2-08-048	48	7	154	boekimo-re!	boekimore!		inùtilmente foi!	
+BOR-CORBO-ENC2-08-049	49	1	154	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-049	49	2	154	icare	icare		e	
+BOR-CORBO-ENC2-08-049	49	3	154	ako	ako		(sua) palavra	27
+BOR-CORBO-ENC2-08-049	49	4	154	pegagodu-re;	pegagodure;		ruindade incipiente teve;	
+BOR-CORBO-ENC2-08-049	49	5	154	ako-re:	akore:		palavra fazia:	
+BOR-CORBO-ENC2-08-049	49	6	154	"""E, e, e."""	"""E, e, e."""		"""É, é, é."""	
+BOR-CORBO-ENC2-08-050	50	1	154	Dukeje-re	Dukejere		Depois	
+BOR-CORBO-ENC2-08-050	50	2	154	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-050	50	3	154	"""E e, e."""	"""E e, e."""		"""É, é, é."""	
+BOR-CORBO-ENC2-08-051	51	1	154	Ecogo	Ecogo		Ecogo	28
+BOR-CORBO-ENC2-08-051	51	2	154	kodu-re	kodure		vôo fêz	
+BOR-CORBO-ENC2-08-051	51	3	154	"""taci"";"	"""taci"";"		"""taci"";"	
+BOR-CORBO-ENC2-08-051	51	4	154	u-re	ure		êle	
+BOR-CORBO-ENC2-08-051	51	5	154	t'agurudo	tagurudo		se pousou	
+BOR-CORBO-ENC2-08-051	51	6	154	tu-o	tuo		seu pai	
+BOR-CORBO-ENC2-08-051	51	7	154	bukajeje,	bukajeje,		sôbre,	
+BOR-CORBO-ENC2-08-051	51	8	154	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-051	51	9	154	t'ago	tago		seu grito	
+BOR-CORBO-ENC2-08-051	51	10	154	ino-du	inodu		assim	
+BOR-CORBO-ENC2-08-051	51	11	154	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-08-052	52	1	156	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-052	52	2	156	icare	icare		e	
+BOR-CORBO-ENC2-08-052	52	3	156	pegodu-re	pegodure		defecação fêz	
+BOR-CORBO-ENC2-08-052	52	4	156	tu-o	tuo		(de) seu pai	
+BOR-CORBO-ENC2-08-052	52	5	156	kanaora	kanaora		ombro	
+BOR-CORBO-ENC2-08-052	52	6	156	j'oki.	joki.		êle sôbre.	
+BOR-CORBO-ENC2-08-053	53	1	156	U-nure	Unure		Êle	
+BOR-CORBO-ENC2-08-053	53	2	156	Butugo-do	Butugodo		Butugo faz	29
+BOR-CORBO-ENC2-08-053	53	3	156	pudumi.	pudumi.		si mesmo.	
+BOR-CORBO-ENC2-08-054	54	1	156	Icare	Icare		E	
+BOR-CORBO-ENC2-08-054	54	2	156	u-o	uo		seu pai	
+BOR-CORBO-ENC2-08-054	54	3	156	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-054	54	4	156	"""Nowudo,"	"""Nowudo,"		"""Fulana,"	
+BOR-CORBO-ENC2-08-054	54	5	156	nowudo,	nowudo,		fulana,	
+BOR-CORBO-ENC2-08-054	54	6	156	— oino	— oino		— assim	
+BOR-CORBO-ENC2-08-054	54	7	156	ia	ia		(a) uma (outra)	30
+BOR-CORBO-ENC2-08-054	54	8	156	t'oreduje-ji —	toredujeji —		sua mulher ela —	
+BOR-CORBO-ENC2-08-054	54	9	156	ak-aiwodo	akaiwodo		tu olhar	
+BOR-CORBO-ENC2-08-054	54	10	156	tu	tu		bem	
+BOR-CORBO-ENC2-08-054	54	11	156	woe	woe		aqui	
+BOR-CORBO-ENC2-08-054	54	12	156	i-kanaora-ji	ikanaoraji		meu ombro êle	
+BOR-CORBO-ENC2-08-054	54	13	156	kae;	kae;		a;	
+BOR-CORBO-ENC2-08-054	54	14	156	iaboe	iaboe		alguma coisa	
+BOR-CORBO-ENC2-08-054	54	15	156	buto	buto		queda (fêz)	
+BOR-CORBO-ENC2-08-054	54	16	156	i-kanaora	ikanaora		meu ombro	
+BOR-CORBO-ENC2-08-054	54	17	156	"keje."""	"keje."""		"sôbre."""	
+BOR-CORBO-ENC2-08-055	55	1	156	Icare	Icare		E	
+BOR-CORBO-ENC2-08-055	55	2	156	oreduje-re	oredujere		sua espôsa fêz	
+BOR-CORBO-ENC2-08-055	55	3	156	t'aiwododu	taiwododu		sua olhada	
+BOR-CORBO-ENC2-08-055	55	4	156	t'abo-re,	tabore,		ela com,	
+BOR-CORBO-ENC2-08-055	55	5	156	j'orudu-re	jorudure		sua visão têve	
+BOR-CORBO-ENC2-08-055	55	6	156	ecewu	ecewu		(d)aquêle	
+BOR-CORBO-ENC2-08-055	55	7	156	kiogo	kiogo		pássaro	
+BOR-CORBO-ENC2-08-055	55	8	156	rogu	rogu	1	(com) pequenez	
+BOR-CORBO-ENC2-08-055	55	9	156	Butugo	Butugo		Butugo	
+BOR-CORBO-ENC2-08-055	55	10	156	pe	pe		(o) estêrco	
+BOR-CORBO-ENC2-08-055	55	11	156	j'etu-i	jetui		sua estada tinha	
+BOR-CORBO-ENC2-08-055	55	12	156	kanaora-to	kanaorato		ombro em	
+BOR-CORBO-ENC2-08-055	55	13	156	duji.	duji.		que.	
+BOR-CORBO-ENC2-08-056	56	1	156	Oredu	Oredu		(O) marido	
+BOR-CORBO-ENC2-08-056	56	2	156	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-056	56	3	156	"""Kabi."""	"""Kabi."""		"""Lavagem."""	
+BOR-CORBO-ENC2-08-057	57	1	156	Icare	Icare		E	
+BOR-CORBO-ENC2-08-057	57	2	156	oreduje-re	oredujere		(a) espôsa fêz	
+BOR-CORBO-ENC2-08-057	57	3	156	kabi,	kabi,		lavagem,	
+BOR-CORBO-ENC2-08-057	57	4	156	mare	mare		mas	
+BOR-CORBO-ENC2-08-057	57	5	156	u-ka-re	ukare		êle não fêz	
+BOR-CORBO-ENC2-08-057	57	6	156	tu-rawuje.	turawuje.		sua retirada.	
+BOR-CORBO-ENC2-08-058	58	1	156	U-re	Ure		Êle fêz	
+BOR-CORBO-ENC2-08-058	58	2	156	t'oreduje	toreduje		sua espôsa	
+BOR-CORBO-ENC2-08-058	58	3	156	t'a-do	tado		sua face fazer	
+BOR-CORBO-ENC2-08-058	58	4	156	ji,	ji,		(a) êle,	
+BOR-CORBO-ENC2-08-058	58	5	156	pugeje.	pugeje.		novamente.	
+BOR-CORBO-ENC2-08-059	59	1	156	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-059	59	2	156	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-059	59	3	156	U-nure	Unure		Êle	
+BOR-CORBO-ENC2-08-059	59	4	156	akogo-do	akogodo		tarumã faz	31
+BOR-CORBO-ENC2-08-059	59	5	156	pudumi	pudumi		si mesmo	
+BOR-CORBO-ENC2-08-059	59	6	156	pugeje,	pugeje,		logo,	
+BOR-CORBO-ENC2-08-059	59	7	156	icare	icare		e	
+BOR-CORBO-ENC2-08-059	59	8	156	ia	ia		um	
+BOR-CORBO-ENC2-08-059	59	9	156	ipo	ipo		arbusto	
+BOR-CORBO-ENC2-08-059	59	10	156	botu-re	boture		germinação fêz	
+BOR-CORBO-ENC2-08-059	59	11	156	ecewu	ecewu		(d)aquêle	
+BOR-CORBO-ENC2-08-059	59	12	156	imedu	imedu		homem	
+BOR-CORBO-ENC2-08-059	59	13	156	kanaora	kanaora		ombro	
+BOR-CORBO-ENC2-08-059	59	14	156	piji.	piji.		de.	
+BOR-CORBO-ENC2-08-060	60	1	156	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-08-060	60	2	156	icare	icare		e	
+BOR-CORBO-ENC2-08-060	60	3	156	roiwa	roiwa		possibilidade	32
+BOR-CORBO-ENC2-08-060	60	4	156	bokwa-godu-re	bokwagodure		não tinha incipiente	
+BOR-CORBO-ENC2-08-060	60	5	156	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-08-061	61	1	156	Dukodi	Dukodi		Por isso	
+BOR-CORBO-ENC2-08-061	61	2	156	icare	icare		e	
+BOR-CORBO-ENC2-08-061	61	3	156	makogodu-re	makogodure		palavra fêz	
+BOR-CORBO-ENC2-08-061	61	4	156	tu-dugareg'ei;	tudugaregei;		seus súditos êles a;	33
+BOR-CORBO-ENC2-08-061	61	5	156	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-061	61	6	156	"""Icare"	"""Icare"		"""E"	
+BOR-CORBO-ENC2-08-061	61	7	156	i-tu	itu		minha ida	
+BOR-CORBO-ENC2-08-061	61	8	156	mode	mode		farei	
+BOR-CORBO-ENC2-08-061	61	9	156	ta-biji,	tabiji,		vós de,	
+BOR-CORBO-ENC2-08-061	61	10	156	icare	icare		e	
+BOR-CORBO-ENC2-08-061	61	11	156	i-roiwa	iroiwa		minha possibilidade	
+BOR-CORBO-ENC2-08-061	61	12	156	bokwa-godu-re	bokwagodure		não tinha incipiente	
+BOR-CORBO-ENC2-08-061	61	13	158	awu	awu		esta	
+BOR-CORBO-ENC2-08-061	61	14	158	mugu-re	mugure		(que) estada tinha	
+BOR-CORBO-ENC2-08-061	61	15	158	i-kanaora	ikanaora		meu ombro	
+BOR-CORBO-ENC2-08-061	61	16	158	keje-boe	kejeboe		sôbre coisa	
+BOR-CORBO-ENC2-08-061	61	17	158	t'abo.	tabo.		ela com.	
+BOR-CORBO-ENC2-08-062	62	1	158	Awu	Awu		Êste	
+BOR-CORBO-ENC2-08-062	62	2	158	i-vie	ivie		meu irmão menor	34
+BOR-CORBO-ENC2-08-062	62	3	158	Akaruio Boroge-re	Akaruio Borogere		Akaruio Boroge	
+BOR-CORBO-ENC2-08-062	62	4	158	j'etu	jetu		seu cuidado	
+BOR-CORBO-ENC2-08-062	62	5	158	mode	mode		terá	
+BOR-CORBO-ENC2-08-062	62	6	158	tai	tai		(de) vós	
+BOR-CORBO-ENC2-08-062	62	7	158	"pugeje."""	"pugeje."""		"ainda."""	
+BOR-CORBO-ENC2-08-063	63	1	158	Icare	Icare		E	
+BOR-CORBO-ENC2-08-063	63	2	158	okitua-re	okituare		conselho fêz	
+BOR-CORBO-ENC2-08-063	63	3	158	tu	tu		bem	
+BOR-CORBO-ENC2-08-063	63	4	158	tu-vie-ji	tuvieji		(a) seu irmão menor êle	
+BOR-CORBO-ENC2-08-063	63	5	158	tu-dugarege	tudugarege		seus súditos	
+BOR-CORBO-ENC2-08-063	63	6	158	e-paru	eparu		(d)êles (ao) pé	
+BOR-CORBO-ENC2-08-063	63	7	158	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-08-063	63	8	158	pugeje;	pugeje;		ainda;	
+BOR-CORBO-ENC2-08-063	63	9	158	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-064	64	1	158	"""Icare"	"""Icare"		"""E"	
+BOR-CORBO-ENC2-08-064	64	2	158	i-tu	itu		minha ida	
+BOR-CORBO-ENC2-08-064	64	3	158	mode	mode		farei	
+BOR-CORBO-ENC2-08-064	64	4	158	a-piji;	apiji;		ti de;	
+BOR-CORBO-ENC2-08-064	64	5	158	a-roiwado,	aroiwado,		tu ter possibilidade,	35
+BOR-CORBO-ENC2-08-064	64	6	158	ak-ago	akago		tua palavra	
+BOR-CORBO-ENC2-08-064	64	7	158	iwado;	iwado;		aconselha;	
+BOR-CORBO-ENC2-08-064	64	8	158	aki-re	akire		tu	
+BOR-CORBO-ENC2-08-064	64	9	158	icare	icare		e	
+BOR-CORBO-ENC2-08-064	64	10	158	a-etu	aetu		teu cuidado	
+BOR-CORBO-ENC2-08-064	64	11	158	mode	mode		terás	
+BOR-CORBO-ENC2-08-064	64	12	158	pa-iaroe	paiaroe		(de) nossos súditos	
+BOR-CORBO-ENC2-08-064	64	13	158	ei.	ei.		êles.	
+BOR-CORBO-ENC2-08-065	65	1	158	Icare	Icare		E	
+BOR-CORBO-ENC2-08-065	65	2	158	i-tu	itu		minha ida	
+BOR-CORBO-ENC2-08-065	65	3	158	mode;	mode;		farei;	
+BOR-CORBO-ENC2-08-065	65	4	158	awu	awu		esta(s)	36
+BOR-CORBO-ENC2-08-065	65	5	158	tu-iaroe	tuiaroe		elas ariranhas	
+BOR-CORBO-ENC2-08-065	65	6	158	ei-goia-re	eigoiare		elas causa	
+BOR-CORBO-ENC2-08-065	65	7	158	e-mode	emode		êles	
+BOR-CORBO-ENC2-08-065	65	8	158	i-ro-dodu	irododu		minha ação	
+BOR-CORBO-ENC2-08-065	65	9	158	"iwado."""	"iwado."""		"ensinarão."""	
+BOR-CORBO-ENC2-08-066	66	1	158	Icare	Icare		E	
+BOR-CORBO-ENC2-08-066	66	2	158	e-tu-re	eture		(os Bororo) sua ida fizeram	
+BOR-CORBO-ENC2-08-066	66	3	158	apo	apo		com (êle)	
+BOR-CORBO-ENC2-08-066	66	4	158	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-066	66	5	158	pobo	pobo		água	
+BOR-CORBO-ENC2-08-066	66	6	158	koreu-to,	korewuto,		a funda em,	
+BOR-CORBO-ENC2-08-066	66	7	158	icare	icare		e	
+BOR-CORBO-ENC2-08-066	66	8	158	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-066	66	9	158	tu-remo	turemo		seu ingresso	
+BOR-CORBO-ENC2-08-066	66	10	158	pobo	pobo		água	
+BOR-CORBO-ENC2-08-066	66	11	158	koreu	korewu		a funda	
+BOR-CORBO-ENC2-08-066	66	12	158	tada.	tada.		dentro.	
+BOR-CORBO-ENC2-08-067	67	1	158	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-067	67	2	158	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-067	67	3	158	Ecewu	Ecewu		(D)aquela	
+BOR-CORBO-ENC2-08-067	67	4	158	i	i		árvore	
+BOR-CORBO-ENC2-08-067	67	5	158	oto	oto		(a) ponta	
+BOR-CORBO-ENC2-08-067	67	6	158	aregodu-re	aregodure		chegada fazia	
+BOR-CORBO-ENC2-08-067	67	7	158	pobo	pobo		(da) água	
+BOR-CORBO-ENC2-08-067	67	8	158	ao	ao		superfície	
+BOR-CORBO-ENC2-08-067	67	9	158	kae.	kae.		a.	
+BOR-CORBO-ENC2-08-068	68	1	158	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-068	68	2	158	icare	icare		e	
+BOR-CORBO-ENC2-08-068	68	3	158	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-08-068	68	4	158	ia	ia		uma	
+BOR-CORBO-ENC2-08-068	68	5	158	pobo	pobo		água	
+BOR-CORBO-ENC2-08-068	68	6	158	ko	ko		(de) profundidade	
+BOR-CORBO-ENC2-08-068	68	7	158	rai	rai		(de) comprimento	
+BOR-CORBO-ENC2-08-068	68	8	158	cigo-re-u	cigoreu		abundância tinha aquela	
+BOR-CORBO-ENC2-08-068	68	9	160	kae.	kae.		a.	
+BOR-CORBO-ENC2-08-069	69	1	160	Dukeje-re	Dukejere		Assim	
+BOR-CORBO-ENC2-08-069	69	2	160	ecewu	ecewu		(d)aquela	
+BOR-CORBO-ENC2-08-069	69	3	160	i	i		árvore	
+BOR-CORBO-ENC2-08-069	69	4	160	ao	ao		(a) ponta	
+BOR-CORBO-ENC2-08-069	69	5	160	padu	padu		decúbito	
+BOR-CORBO-ENC2-08-069	69	6	160	ka-re	kare		não tinha	
+BOR-CORBO-ENC2-08-069	69	7	160	pobo	pobo		(a) água	
+BOR-CORBO-ENC2-08-069	69	8	160	kajeje,	kajeje,		sôbre,	
+BOR-CORBO-ENC2-08-069	69	9	160	pugeje.	pugeje.		mais.	
+BOR-CORBO-ENC2-08-070	70	1	160	Okitua-re	Okituare		Conselho fêz	
+BOR-CORBO-ENC2-08-070	70	2	160	tu-iaroe	tuiaroe		(a) seus súditos	
+BOR-CORBO-ENC2-08-070	70	3	160	pugeje:	pugeje:		ainda:	
+BOR-CORBO-ENC2-08-070	70	4	160	"""Ta-erudu"	"""Taerudu"		"""Vossa atenção"	
+BOR-CORBO-ENC2-08-070	70	5	160	ta-ro-i;	taroi;		(com) vossa ação tiveste;	37
+BOR-CORBO-ENC2-08-070	70	6	160	ta-erudu	taerudu		vossa atenção	
+BOR-CORBO-ENC2-08-070	70	7	160	tag-ago-i;	tagagoi;		(com) vossa palavra tiveste;	
+BOR-CORBO-ENC2-08-070	70	8	160	ta-erudu	taerudu		vossa atenção	
+BOR-CORBO-ENC2-08-070	70	9	160	"ta-wadaru-ji."""	"tawadaruji."""		"(com) vossa fala ela."""	
+BOR-CORBO-ENC2-08-071	71	1	160	Icare	Icare		E	
+BOR-CORBO-ENC2-08-071	71	2	160	okwa-re	okware		ocultação fêz	
+BOR-CORBO-ENC2-08-071	71	3	160	pobo-to.	poboto.		água em.	
+BOR-CORBO-ENC2-08-071	71	4	160	Icare	Icare		E	
+BOR-CORBO-ENC2-08-071	71	5	160	Baitogogo	Baitogogo		(de) Baitogogo	
+BOR-CORBO-ENC2-08-071	71	6	160	u-iaroe	uiaroe		seus súditos	
+BOR-CORBO-ENC2-08-071	71	7	160	e-tu-re	eture		sua ida fizeram	
+BOR-CORBO-ENC2-08-071	71	8	160	ji...	ji...		lá...	
+BOR-CORBO-ENC2-08-071	71	9	160	tu-ge	tuge		seu alimento	
+BOR-CORBO-ENC2-08-071	71	10	160	bogai.	bogai.		a.	
+BOR-CORBO-ENC2-08-072	72	1	160	Dutabo-re	Dutabore		Entretanto	
+BOR-CORBO-ENC2-08-072	72	2	160	et-aregodu-re	etaregodure		sua chegada fizeram	
+BOR-CORBO-ENC2-08-072	72	3	160	Kudogo	Kudogo		Kudogo	38
+BOR-CORBO-ENC2-08-072	72	4	160	ae,	ae,		a,	
+BOR-CORBO-ENC2-08-072	72	5	160	mare	mare		mas	
+BOR-CORBO-ENC2-08-072	72	6	160	e-erudu-wo	eeruduwo		conhecimento para,	39
+BOR-CORBO-ENC2-08-072	72	7	160	bokwa-re	bokware		não tinham	
+BOR-CORBO-ENC2-08-072	72	8	160	ji;	ji;		(d)êle;	
+BOR-CORBO-ENC2-08-072	72	9	160	ino-du	inodu		todavia	
+BOR-CORBO-ENC2-08-072	72	10	160	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-08-072	72	11	160	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-072	72	12	160	tug-eragu	tugeragu		seu apanhamento	
+BOR-CORBO-ENC2-08-072	72	13	160	ji,	ji,		(d)êle,	
+BOR-CORBO-ENC2-08-072	72	14	160	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-072	72	15	160	tawuje	tawuje		retirada	
+BOR-CORBO-ENC2-08-072	72	16	160	kugaru	kugaru		praia	
+BOR-CORBO-ENC2-08-072	72	17	160	kae.	kae.		a.	
+BOR-CORBO-ENC2-08-073	73	1	160	Icare	Icare		E	
+BOR-CORBO-ENC2-08-073	73	2	160	Kuiagu	Kuiagu		Kuiagu (fêz)	40
+BOR-CORBO-ENC2-08-073	73	3	160	kodo	kodo		ida	
+BOR-CORBO-ENC2-08-073	73	4	160	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-073	73	5	160	ae,	ae,		a,	
+BOR-CORBO-ENC2-08-073	73	6	160	u-re	ure		êle	
+BOR-CORBO-ENC2-08-073	73	7	160	tu-wure	tuwure		seu pé	
+BOR-CORBO-ENC2-08-073	73	8	160	j'odo	jodo		êle premeu	
+BOR-CORBO-ENC2-08-073	73	9	160	tu	tu		bem	
+BOR-CORBO-ENC2-08-073	73	10	160	keje;	keje;		sôbre;	
+BOR-CORBO-ENC2-08-073	73	11	160	dutabo-re	dutabore		então	
+BOR-CORBO-ENC2-08-073	73	12	160	icare	icare		e	
+BOR-CORBO-ENC2-08-073	73	13	160	mea	mea		tabaco	41
+BOR-CORBO-ENC2-08-073	73	14	160	akuru-re	akurure		salto fêz	
+BOR-CORBO-ENC2-08-073	73	15	160	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-073	73	16	160	j'a	ja		sua bôca	
+BOR-CORBO-ENC2-08-073	73	17	160	piji,	piji,		de,	
+BOR-CORBO-ENC2-08-073	73	18	160	uiaru	uiaru		fôlha	42
+BOR-CORBO-ENC2-08-073	73	19	160	padu	padu		estada	
+BOR-CORBO-ENC2-08-073	73	20	160	tu-mea	tumea		êle tabaco	
+BOR-CORBO-ENC2-08-073	73	21	160	bukeje.	bukeje.		sôbre.	
+BOR-CORBO-ENC2-08-074	74	1	160	Dutabo-re	Dutabore		Então	
+BOR-CORBO-ENC2-08-074	74	2	160	icare	icare		e	
+BOR-CORBO-ENC2-08-074	74	3	160	tu-iaroe	tuiaroe		seus súditos	
+BOR-CORBO-ENC2-08-074	74	4	160	e-iamedu	eiamedu		êles todos	
+BOR-CORBO-ENC2-08-074	74	5	160	e-re	ere		êles	
+BOR-CORBO-ENC2-08-074	74	6	160	mea	mea		tabaco	43
+BOR-CORBO-ENC2-08-074	74	7	160	kogudo,	kogudo,		amarraram,	
+BOR-CORBO-ENC2-08-074	74	8	160	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-074	74	9	160	otojeto	otojeto		acensão	
+BOR-CORBO-ENC2-08-074	74	10	160	j'oru-to,	joruto,		seu fogo em,	
+BOR-CORBO-ENC2-08-074	74	11	160	mare	mare		mas	
+BOR-CORBO-ENC2-08-074	74	12	160	e-re	ere		êles fizeram	44
+BOR-CORBO-ENC2-08-074	74	13	160	t'ogwa	togwa		(de) seu lábio	
+BOR-CORBO-ENC2-08-074	74	14	162	to	to		colocação	
+BOR-CORBO-ENC2-08-074	74	15	162	ji	ji		(n)êle	
+BOR-CORBO-ENC2-08-074	74	16	162	paga	paga		erradamente	
+BOR-CORBO-ENC2-08-074	74	17	162	tuje.	tuje.		mesmo.	
+BOR-CORBO-ENC2-08-075	75	1	162	E-ka-re	Ekare		Êles não fizeram	
+BOR-CORBO-ENC2-08-075	75	2	162	o-kori	okori		(de) sua fortidão	
+BOR-CORBO-ENC2-08-075	75	3	162	to	to		extração	
+BOR-CORBO-ENC2-08-075	75	4	162	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-075	75	5	162	bogai;	bogai;		para;	
+BOR-CORBO-ENC2-08-075	75	6	162	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-075	75	7	162	t'ogwa	togwa		(de) seu lábio	
+BOR-CORBO-ENC2-08-075	75	8	162	to	to		colocação	
+BOR-CORBO-ENC2-08-075	75	9	162	ji,	ji,		(n)êle,	
+BOR-CORBO-ENC2-08-075	75	10	162	paga	paga		erradamente	
+BOR-CORBO-ENC2-08-075	75	11	162	tuje.	tuje.		mesmo.	
+BOR-CORBO-ENC2-08-076	76	1	162	Icare	Icare		E	
+BOR-CORBO-ENC2-08-076	76	2	162	e-nudu-re	enudure		seu sono fizeram	
+BOR-CORBO-ENC2-08-076	76	3	162	tu-iamedu	tuiamedu		êles todos	
+BOR-CORBO-ENC2-08-076	76	4	162	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-08-076	76	5	162	kugaru	kugaru		(a) praia	
+BOR-CORBO-ENC2-08-076	76	6	162	keje.	keje.		sôbre.	
+BOR-CORBO-ENC2-08-077	77	1	162	Du-kae-re,	Dukaere,		Êles a,	
+BOR-CORBO-ENC2-08-077	77	2	162	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-077	77	3	162	aregodu-re;	aregodure;		chegada fêz;	
+BOR-CORBO-ENC2-08-077	77	4	162	tui-Kedaro-do	tuiKedarodo		êle Kedaro fêz	45
+BOR-CORBO-ENC2-08-077	77	5	162	pudumi	pudumi		si mesmo	
+BOR-CORBO-ENC2-08-077	77	6	162	du-t'abo.	dutabo.		êle se com.	
+BOR-CORBO-ENC2-08-078	78	1	162	Icare	Icare		E	
+BOR-CORBO-ENC2-08-078	78	2	162	kodu-re	kodure		vôo fêz	
+BOR-CORBO-ENC2-08-078	78	3	162	et-ao-ji	etaoji		(d)êles cabeça ela (sôbre)	
+BOR-CORBO-ENC2-08-078	78	4	162	"""duru"	"""duru"		"""duru"	46
+BOR-CORBO-ENC2-08-078	78	5	162	duru,	duru,		duru,	
+BOR-CORBO-ENC2-08-078	78	6	162	"duru"","	"duru"","		"duru"","	
+BOR-CORBO-ENC2-08-078	78	7	162	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-08-079	79	1	162	Icare	Icare		E	
+BOR-CORBO-ENC2-08-079	79	2	162	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-079	79	3	162	e-piji;	epiji;		êles de;	
+BOR-CORBO-ENC2-08-079	79	4	162	mako	mako		palavra	
+BOR-CORBO-ENC2-08-079	79	5	162	ka-re	kare		não fêz	
+BOR-CORBO-ENC2-08-079	79	6	162	ei.	ei.		êles a.	
+BOR-CORBO-ENC2-08-080	80	1	162	Tu-korigodu	Tukorigodu		Sua zanga	
+BOR-CORBO-ENC2-08-080	80	2	162	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-080	80	3	162	ro	ro		ação	
+BOR-CORBO-ENC2-08-080	80	4	162	ino,	ino,		assim,	
+BOR-CORBO-ENC2-08-080	80	5	162	en-ogwaguro	enogwaguro		seu pedido	
+BOR-CORBO-ENC2-08-080	80	6	162	ka-re	kare		não fizeram	
+BOR-CORBO-ENC2-08-080	80	7	162	bogai,	bogai,		a,	
+BOR-CORBO-ENC2-08-080	80	8	162	mea	mea		tabaco	
+BOR-CORBO-ENC2-08-080	80	9	162	t'abo,	tabo,		êle com,	
+BOR-CORBO-ENC2-08-080	80	10	162	kodi	kodi		porque.	
+BOR-CORBO-ENC2-08-081	81	1	162	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-081	81	2	162	icare	icare		e	
+BOR-CORBO-ENC2-08-081	81	3	162	e-eda-du-re;	eedadure;		sua vigília tiveram;	
+BOR-CORBO-ENC2-08-081	81	4	162	e'go-re:	egore:		sua palavra fizeram:	
+BOR-CORBO-ENC2-08-081	81	5	162	"""Um,"	"""Um,"		"""Um,"	
+BOR-CORBO-ENC2-08-081	81	6	162	um,	um,		um,	
+BOR-CORBO-ENC2-08-081	81	7	162	"um"","	"um"","		"um"","	
+BOR-CORBO-ENC2-08-081	81	8	162	tui-eda-du	tuiedadu		sua vigília	
+BOR-CORBO-ENC2-08-081	81	9	162	t'abo.	tabo.		ela com.	
+BOR-CORBO-ENC2-08-082	82	1	162	E-go-re:	Egore:		Sua palavra fizeram:	
+BOR-CORBO-ENC2-08-082	82	2	162	"""Boekimo-re!"	"""Boekimore!"		"""Inùtilmente!"	
+BOR-CORBO-ENC2-08-082	82	3	162	I-oku bokwa	Ioku bokwa		Minha cegueira	
+BOR-CORBO-ENC2-08-082	82	4	162	jokodu,	jokodu,		em verdade,	
+BOR-CORBO-ENC2-08-082	82	5	162	i-oku bokwa	ioku bokwa		minha cegueira,	
+BOR-CORBO-ENC2-08-082	82	6	162	"jokodu."""	"jokodu."""		"em verdade."""	
+BOR-CORBO-ENC2-08-083	83	1	162	Oino-re	Oinore		Assim	
+BOR-CORBO-ENC2-08-083	83	2	162	e'go-re,	egore,		sua palavra fizeram,	
+BOR-CORBO-ENC2-08-083	83	3	162	tu-iamedu	tuiamedu		êles todos	
+BOR-CORBO-ENC2-08-083	83	4	162	t'abo.	tabo.		ela com.	47
+BOR-CORBO-ENC2-08-084	84	1	162	Ia	Ia		Um	48
+BOR-CORBO-ENC2-08-084	84	2	162	rogu	rogu	1	(com) pequenez	
+BOR-CORBO-ENC2-08-084	84	3	162	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-084	84	4	162	"""Boekimo,"	"""Boekimo,"		"""Inùtilmente,"	
+BOR-CORBO-ENC2-08-084	84	5	162	it-aiwo	itaiwo		minha visão	
+BOR-CORBO-ENC2-08-084	84	6	162	ona	ona		à toa	
+BOR-CORBO-ENC2-08-084	84	7	162	nure	nure	1	tenho	
+BOR-CORBO-ENC2-08-084	84	8	162	tu,	tu,		aí,	
+BOR-CORBO-ENC2-08-084	84	9	162	i-e	ie		(de) meu rosto	49
+BOR-CORBO-ENC2-08-084	84	10	162	paru	paru		(do) princípio	
+BOR-CORBO-ENC2-08-084	84	11	162	poro	poro		furo	
+BOR-CORBO-ENC2-08-084	84	12	164	"piji."""	"piji."""		"de."""	
+BOR-CORBO-ENC2-08-085	85	1	164	Oino	Oino		Assim	
+BOR-CORBO-ENC2-08-085	85	2	164	ako-re.	akore.		palavra fêz.	
+BOR-CORBO-ENC2-08-086	86	1	164	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-086	86	2	164	icare	icare		e	
+BOR-CORBO-ENC2-08-086	86	3	164	e'go-re:	egore:		êles palavra fizeram;	50
+BOR-CORBO-ENC2-08-086	86	4	164	"""Imi-re"	"""Imire"		"""Eu"	
+BOR-CORBO-ENC2-08-086	86	5	164	i-kodo	ikodo		minha ida	
+BOR-CORBO-ENC2-08-086	86	6	164	mode	mode		farei	
+BOR-CORBO-ENC2-08-086	86	7	164	rekodaji,	rekodaji,		atrás (dêle),	
+BOR-CORBO-ENC2-08-086	86	8	164	imi-re	imire		eu	
+BOR-CORBO-ENC2-08-086	86	9	164	i-kodo	ikodo		minha ida	
+BOR-CORBO-ENC2-08-086	86	10	164	mode	mode		farei	
+BOR-CORBO-ENC2-08-086	86	11	164	"rekodaji."""	"rekodaji."""		"atrás (dêle)."""	
+BOR-CORBO-ENC2-08-086	86	12	164	E'go-re	Egore		Êles palavra fizeram	
+BOR-CORBO-ENC2-08-086	86	13	164	tu-iamedu,	tuiamedu,		êles todos,	
+BOR-CORBO-ENC2-08-086	86	14	164	t'abo.	tabo.		ela com.	51
+BOR-CORBO-ENC2-08-087	87	1	164	Icare	Icare		E	
+BOR-CORBO-ENC2-08-087	87	2	164	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-087	87	3	164	tug-eragu	tugeragu		seu apanhamento	
+BOR-CORBO-ENC2-08-087	87	4	164	metudureu	metudurewu		(de) marmeladadecachorro	
+BOR-CORBO-ENC2-08-087	87	5	164	tudu-ji,	tuduji,		fruta verde ela,	
+BOR-CORBO-ENC2-08-087	87	6	164	du-t'abo;	dutabo;		êles de, com;	
+BOR-CORBO-ENC2-08-087	87	7	164	e-tu-re.	eture.		sua ida fizeram.	
+BOR-CORBO-ENC2-08-088	88	1	164	E-ido-re	Eidore		Seu arremêsso faziam	52
+BOR-CORBO-ENC2-08-088	88	2	164	metudureu	metudurewu		(de) marmeladadecachorro	
+BOR-CORBO-ENC2-08-088	88	3	164	tudu	tudu		fruta verde	
+BOR-CORBO-ENC2-08-088	88	4	164	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-088	88	5	164	t'ododai	tododai		diante de si	
+BOR-CORBO-ENC2-08-088	88	6	164	tu-viapaga	tuviapaga		sua escuta	
+BOR-CORBO-ENC2-08-088	88	7	164	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-088	88	8	164	butu	butu		(se) queda	
+BOR-CORBO-ENC2-08-088	88	9	164	mode	mode		terá	
+BOR-CORBO-ENC2-08-088	88	10	164	pobo-to,	poboto,		água em,	
+BOR-CORBO-ENC2-08-088	88	11	164	du-bogai.	dubogai.		ela a.	
+BOR-CORBO-ENC2-08-089	89	1	164	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-089	89	2	164	icare	icare		e	
+BOR-CORBO-ENC2-08-089	89	3	164	et-aregodu-re	etaregodure		sua chegada fizeram	
+BOR-CORBO-ENC2-08-089	89	4	164	iaboe	iaboe		um(s) sêre(s)	
+BOR-CORBO-ENC2-08-089	89	5	164	et-ae.	etae.		êles a.	
+BOR-CORBO-ENC2-08-090	90	1	164	U-re	Ure		Êle era	
+BOR-CORBO-ENC2-08-090	90	2	164	mito	mito		um	
+BOR-CORBO-ENC2-08-090	90	3	164	tuje,	tuje,		sòmente,	
+BOR-CORBO-ENC2-08-090	90	4	164	icare	icare		e	
+BOR-CORBO-ENC2-08-090	90	5	164	e'go-re:	egore:		sua palavra fizeram:	
+BOR-CORBO-ENC2-08-090	90	6	164	"""Iaguduba"	"""Iaguduba"		"""Quem (és)"	
+BOR-CORBO-ENC2-08-090	90	7	164	"aki bao?"""	"aki bao?"""		"tu?"""	
+BOR-CORBO-ENC2-08-091	91	1	164	Icare	Icare		E	
+BOR-CORBO-ENC2-08-091	91	2	164	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-091	91	3	164	iaboe	iaboe		ser	
+BOR-CORBO-ENC2-08-091	91	4	164	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-091	91	5	164	"""Mea"	"""Mea"		"""Mea"	53
+BOR-CORBO-ENC2-08-091	91	6	164	"imireo."""	"imireo."""		"eu mesmo."""	
+BOR-CORBO-ENC2-08-092	92	1	164	Icare	Icare		E	
+BOR-CORBO-ENC2-08-092	92	2	164	e-re	ere		êles	
+BOR-CORBO-ENC2-08-092	92	3	164	tug-era	tugera		sua mão	
+BOR-CORBO-ENC2-08-092	92	4	164	pagado	pagado		colocaram	
+BOR-CORBO-ENC2-08-092	92	5	164	ji,	ji,		ela,	
+BOR-CORBO-ENC2-08-092	92	6	164	j'oki;	joki;		sôbre ela;	
+BOR-CORBO-ENC2-08-092	92	7	164	e-go-re:	egore:		êles palavra fizeram:	
+BOR-CORBO-ENC2-08-092	92	8	164	"""Mea"	"""Mea"		"""Mea"	54
+BOR-CORBO-ENC2-08-092	92	9	164	kaeba bao?	kaeba bao?		que coisa (és)?	
+BOR-CORBO-ENC2-08-093	93	1	164	Ino	Ino		(De) meu	
+BOR-CORBO-ENC2-08-093	93	2	164	Mea	Mea		Mea	
+BOR-CORBO-ENC2-08-093	93	3	164	aora-ji,	aoraji,		cabeça ela,	
+BOR-CORBO-ENC2-08-093	93	4	164	bia-ji,	biaji,		orelha ela,	
+BOR-CORBO-ENC2-08-093	93	5	164	j'oku-ji,	jokuji,		seu ôlho êle,	
+BOR-CORBO-ENC2-08-093	93	6	164	eno-ji,	enoji,		nariz êle,	
+BOR-CORBO-ENC2-08-093	93	7	164	okwa-ji,	okwaji,		lábio êle,	
+BOR-CORBO-ENC2-08-093	93	8	164	"kana-ji."""	"kanaji."""		"braço êle."""	
+BOR-CORBO-ENC2-08-094	94	1	164	Ji...	Ji...		Até...	
+BOR-CORBO-ENC2-08-094	94	2	164	toro	toro		lá	
+BOR-CORBO-ENC2-08-094	94	3	164	j'oki.	joki.		êle sôbre.	
+BOR-CORBO-ENC2-08-095	95	1	164	Mea	Mea		Mea	
+BOR-CORBO-ENC2-08-095	95	2	164	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-095	95	3	164	"""Mea"	"""Mea"		"""(De) Mea"	
+BOR-CORBO-ENC2-08-095	95	4	166	it-aora	itaora		minha cabeça	
+BOR-CORBO-ENC2-08-095	95	5	166	reno,	reno,		eis qui,	
+BOR-CORBO-ENC2-08-095	95	6	166	Mea	Mea		(de) Mea	
+BOR-CORBO-ENC2-08-095	95	7	166	i-viaja	iviaja		meu orifício do conduto auditivo	
+BOR-CORBO-ENC2-08-095	95	8	166	reno,	reno,		eis qui	
+BOR-CORBO-ENC2-08-095	95	9	166	Mea	Mea		(de) Mea	
+BOR-CORBO-ENC2-08-095	95	10	166	i-oku	ioku		meu ôlho	
+BOR-CORBO-ENC2-08-095	95	11	166	reno,	reno,		eis qui	
+BOR-CORBO-ENC2-08-095	95	12	166	Mea	Mea		(de) Mea	
+BOR-CORBO-ENC2-08-095	95	13	166	ik-eno	ikeno		meu nariz	
+BOR-CORBO-ENC2-08-095	95	14	166	"reno."""	"reno."""		"eis qui."""	
+BOR-CORBO-ENC2-08-096	96	1	166	Ji...	Ji...		Até...	
+BOR-CORBO-ENC2-08-096	96	2	166	toro	toro		lá	
+BOR-CORBO-ENC2-08-096	96	3	166	j'oki	joki		sôbre ela	
+BOR-CORBO-ENC2-08-096	96	4	166	comoroi,	comoroi,		embaixo,	55
+BOR-CORBO-ENC2-08-096	96	5	166	icare	icare		e	
+BOR-CORBO-ENC2-08-096	96	6	166	ako-re	akore		palavra fêz	
+BOR-CORBO-ENC2-08-096	96	7	166	Mea	Mea		Mea	
+BOR-CORBO-ENC2-08-096	96	8	166	aredu	aredu		fêmea (era)	
+BOR-CORBO-ENC2-08-096	96	9	166	pudumi-e.	pudumie.		ela que.	
+BOR-CORBO-ENC2-08-097	97	1	166	Dukeje-re	Dukejere		Depois	
+BOR-CORBO-ENC2-08-097	97	2	166	icare	icare		e	
+BOR-CORBO-ENC2-08-097	97	3	166	ime	ime		(os) homens	
+BOR-CORBO-ENC2-08-097	97	4	166	e'go-re:	egore:		palavra fizeram:	
+BOR-CORBO-ENC2-08-098	98	1	166	"""Imi-re"	"""Imire"		"""Eu"	56
+BOR-CORBO-ENC2-08-098	98	2	166	i-kodu	ikodu		minha ida	
+BOR-CORBO-ENC2-08-098	98	3	166	mode	mode		farei	
+BOR-CORBO-ENC2-08-098	98	4	166	ji	ji		(a) ela	
+BOR-CORBO-ENC2-08-098	98	5	166	jao;	jao;		primeiro;	
+BOR-CORBO-ENC2-08-098	98	6	166	imi-re	imire		eu	
+BOR-CORBO-ENC2-08-098	98	7	166	ikodu	ikodu		minha ida	
+BOR-CORBO-ENC2-08-098	98	8	166	mode	mode		farei	
+BOR-CORBO-ENC2-08-098	98	9	166	ji	ji		(a) ela	
+BOR-CORBO-ENC2-08-098	98	10	166	"jao."""	"jao."""		"primeiro."""	
+BOR-CORBO-ENC2-08-099	99	1	166	Ino.	Ino.		Assim.	
+BOR-CORBO-ENC2-08-099	99	2	166	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-099	99	3	166	tu-i	tui		êles fizeram	
+BOR-CORBO-ENC2-08-099	99	4	166	e-vie	evie		(a) suas orelhas	
+BOR-CORBO-ENC2-08-099	99	5	166	pudui	pudui		si (com) reciprocidade	
+BOR-CORBO-ENC2-08-099	99	6	166	dukeje,	dukeje,		quando,	
+BOR-CORBO-ENC2-08-099	99	7	166	icare	icare		então	
+BOR-CORBO-ENC2-08-099	99	8	166	rekodu-re	rekodure		fuga fêz	
+BOR-CORBO-ENC2-08-099	99	9	166	ime	ime		homens	
+BOR-CORBO-ENC2-08-099	99	10	166	e-piji;	epiji;		êles de;	
+BOR-CORBO-ENC2-08-099	99	11	166	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-100	100	1	166	"""Um mea,"	"""Um mea,"		"""Um mea,"	57
+BOR-CORBO-ENC2-08-100	100	2	166	um mea,	um mea,		um mea,	
+BOR-CORBO-ENC2-08-100	100	3	166	"um mea."""	"um mea."""		"um mea."""	
+BOR-CORBO-ENC2-08-101	101	1	166	Ino	Ino		Assim	
+BOR-CORBO-ENC2-08-101	101	2	166	tu-regodu	turegodu		sua fuga	
+BOR-CORBO-ENC2-08-101	101	3	166	t'abo.	tabo.		ela com.	
+BOR-CORBO-ENC2-08-102	102	1	166	Emage	Emage		Êles	
+BOR-CORBO-ENC2-08-102	102	2	166	e-roiwa	eroiwa		sua possibilidade	
+BOR-CORBO-ENC2-08-102	102	3	166	bokwa-re,	bokware,		não tinham,	
+BOR-CORBO-ENC2-08-102	102	4	166	dukodi-re	dukodire		por isso	
+BOR-CORBO-ENC2-08-102	102	5	166	e-roiwa	eroiwa		sua possibilidade	
+BOR-CORBO-ENC2-08-102	102	6	166	bokwa-re	bokware		não tinham	
+BOR-CORBO-ENC2-08-102	102	7	166	bogai.	bogai.		a (ela).	
+BOR-CORBO-ENC2-08-103	103	1	166	Icare	Icare		E	
+BOR-CORBO-ENC2-08-103	103	2	166	ime	ime		(os) homens	
+BOR-CORBO-ENC2-08-103	103	3	166	e-tu-re	eture		sua ida fizeram	
+BOR-CORBO-ENC2-08-103	103	4	166	pugeje.	pugeje.		novamente.	
+BOR-CORBO-ENC2-08-104	104	1	166	Ek-era	Ekera		(De) sua mão	
+BOR-CORBO-ENC2-08-104	104	2	166	padu	padu		estada	
+BOR-CORBO-ENC2-08-104	104	3	166	nure	nure	1	têm	
+BOR-CORBO-ENC2-08-104	104	4	166	pu-kujeagi	pukujeagi		(com) reciprocidade atrás	58
+BOR-CORBO-ENC2-08-104	104	5	166	tu	tu		bem	
+BOR-CORBO-ENC2-08-104	104	6	166	tuje,	tuje,		(do) início	
+BOR-CORBO-ENC2-08-104	104	7	166	ecewu	ecewu		aquêle	
+BOR-CORBO-ENC2-08-104	104	8	166	aiwo-re	aiwore		(que) visão tinha	
+BOR-CORBO-ENC2-08-104	104	9	166	tui-e	tuie		(de) seu rosto	
+BOR-CORBO-ENC2-08-104	104	10	166	paru	paru		(do) início	
+BOR-CORBO-ENC2-08-104	104	11	166	poro	poro		abertura	
+BOR-CORBO-ENC2-08-104	104	12	166	piji-wu-re,	pijiwure,		de, aquêle era,	
+BOR-CORBO-ENC2-08-104	104	13	166	kodu,	kodu,		ida,	
+BOR-CORBO-ENC2-08-104	104	14	166	kodu-re	kodure		ida tinha	
+BOR-CORBO-ENC2-08-104	104	15	166	et-ododai.	etododai.		na frente dêles.	
+BOR-CORBO-ENC2-08-105	105	1	166	E-kodo	Ekodo		Sua ida	
+BOR-CORBO-ENC2-08-105	105	2	166	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-105	105	3	166	pobo	pobo		água	
+BOR-CORBO-ENC2-08-105	105	4	168	bogai-re,	bogaire,		a, fizeram,	
+BOR-CORBO-ENC2-08-105	105	5	168	e-ro	ero		sua ação	
+BOR-CORBO-ENC2-08-105	105	6	168	ino	ino		assim	
+BOR-CORBO-ENC2-08-105	105	7	168	pu-d'abo.	pudabo.		(com) reciprocidade ela, com.	
+BOR-CORBO-ENC2-08-106	106	1	168	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-106	106	2	168	icare	icare		e	
+BOR-CORBO-ENC2-08-106	106	3	168	eno-e	enoe		suas coisas	59
+BOR-CORBO-ENC2-08-106	106	4	168	buto	buto		queda (fizeram)	
+BOR-CORBO-ENC2-08-106	106	5	168	pobo-to.	poboto.		água em.	
+BOR-CORBO-ENC2-08-107	107	1	168	E-re	Ere		Êles faziam	
+BOR-CORBO-ENC2-08-107	107	2	168	boe	boe		(de) coisas	
+BOR-CORBO-ENC2-08-107	107	3	168	barigu	barigu		arremêsso	
+BOR-CORBO-ENC2-08-107	107	4	168	t'ododai,	tododai,		diante de si,	
+BOR-CORBO-ENC2-08-107	107	5	168	e-viapaga-re	eviapagare		sua escuta fizeram	
+BOR-CORBO-ENC2-08-107	107	6	168	tu-toro	tutoro		bem lá	
+BOR-CORBO-ENC2-08-107	107	7	168	rekodaji.	rekodaji.		atrás,	60
+BOR-CORBO-ENC2-08-108	108	1	168	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-108	108	2	168	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-109	109	1	168	Butu	Butu		(Fizeram) queda	
+BOR-CORBO-ENC2-08-109	109	2	168	pobo-to,	poboto,		água em,	
+BOR-CORBO-ENC2-08-109	109	3	168	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-109	109	4	168	"""cou"""	"""cou"""		"""cou"""	61
+BOR-CORBO-ENC2-08-109	109	5	168	je.	je.		lá.	
+BOR-CORBO-ENC2-08-110	110	1	168	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-110	110	2	168	ka-re!	kare!		não era!	
+BOR-CORBO-ENC2-08-111	111	1	168	Ecewu	Ecewu		Aquêle(s)	62
+BOR-CORBO-ENC2-08-111	111	2	168	ime	ime		homens	63
+BOR-CORBO-ENC2-08-111	111	3	168	e-roiwa	eroiwa		sua possibilidade	
+BOR-CORBO-ENC2-08-111	111	4	168	bokwa-i	bokwai		não tinham	
+BOR-CORBO-ENC2-08-111	111	5	168	oino	oino		assim	
+BOR-CORBO-ENC2-08-111	111	6	168	pu-d'abo,	pudabo,		(com) reciprocidade ela com,	
+BOR-CORBO-ENC2-08-111	111	7	168	u-ka-re	ukare		ela não tinham	
+BOR-CORBO-ENC2-08-111	111	8	168	pugeje;	pugeje;		mais,	
+BOR-CORBO-ENC2-08-111	111	9	168	e-re	ere		êles	
+BOR-CORBO-ENC2-08-111	111	10	168	t'ao-do	taodo		(de) sua cabeça fizeram	64
+BOR-CORBO-ENC2-08-111	111	11	168	j'a,	ja,		sua bôca,	
+BOR-CORBO-ENC2-08-111	111	12	168	tu-regodu	turegodu		sua corrida	
+BOR-CORBO-ENC2-08-111	111	13	168	t'abo,	tabo,		ela com,	
+BOR-CORBO-ENC2-08-111	111	14	168	pobo	pobo		(da) água	
+BOR-CORBO-ENC2-08-111	111	15	168	ako	ako		(do) som	
+BOR-CORBO-ENC2-08-111	111	16	168	paru-to,	paruto,		pé em,	
+BOR-CORBO-ENC2-08-111	111	17	168	icare	icare		e	
+BOR-CORBO-ENC2-08-111	111	18	168	e-re	ere		êles	
+BOR-CORBO-ENC2-08-111	111	19	168	t'aredo	taredo		se pularam	
+BOR-CORBO-ENC2-08-111	111	20	168	"""buru"	"""buru"		"""buru,"	65
+BOR-CORBO-ENC2-08-111	111	21	168	buru,	buru,		buru,	
+BOR-CORBO-ENC2-08-111	111	22	168	"buru"""	"buru"""		"buru"""	
+BOR-CORBO-ENC2-08-111	111	23	168	pobo-to.	poboto.		água em.	
+BOR-CORBO-ENC2-08-112	112	1	168	Icare	Icare		E	
+BOR-CORBO-ENC2-08-112	112	2	168	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-112	112	3	168	t'ao	tao		(de) sua cabeça	
+BOR-CORBO-ENC2-08-112	112	4	168	bu	bu		colocação	
+BOR-CORBO-ENC2-08-112	112	5	168	pobo	pobo		água	
+BOR-CORBO-ENC2-08-112	112	6	168	kajeje;	kajeje;		sôbre;	
+BOR-CORBO-ENC2-08-112	112	7	168	dutabo-re	dutabore		depois	
+BOR-CORBO-ENC2-08-112	112	8	168	icare	icare		e	
+BOR-CORBO-ENC2-08-112	112	9	168	e-go-re:	egore:		seu grito fizeram:	
+BOR-CORBO-ENC2-08-112	112	10	168	"""Pur, pur"	"""Pur, pur"		"""Pur, pur"	66
+BOR-CORBO-ENC2-08-112	112	11	168	"pie, pie."""	"pie, pie."""		"pie, pie."""	
+BOR-CORBO-ENC2-08-113	113	1	168	Oino	Oino		Assim	
+BOR-CORBO-ENC2-08-113	113	2	168	tui-ebu	tuiebu		(de) sua saída	
+BOR-CORBO-ENC2-08-113	113	3	168	bu	bu		colocação	
+BOR-CORBO-ENC2-08-113	113	4	168	pobo	pobo		água	
+BOR-CORBO-ENC2-08-113	113	5	168	kajeje,	kajeje,		sôbre,	
+BOR-CORBO-ENC2-08-113	113	6	168	dukeje.	dukeje.		quando (faziam).	
+BOR-CORBO-ENC2-08-114	114	1	168	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-114	114	2	168	icare	icare		e	
+BOR-CORBO-ENC2-08-114	114	3	168	ime-re	imere		(os) homens	
+BOR-CORBO-ENC2-08-114	114	4	168	ipie-do	ipiedo		ariranha fizeram	
+BOR-CORBO-ENC2-08-114	114	5	168	pudumi,	pudumi,		si mesmos,	
+BOR-CORBO-ENC2-08-114	114	6	168	pugeje.	pugeje.		em verdade.	
+BOR-CORBO-ENC2-08-115	115	1	168	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-115	115	2	168	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-08-115	115	3	168	mato	mato		aqui (onde)	
+BOR-CORBO-ENC2-08-115	115	4	168	nowu	nowu		aquela	
+BOR-CORBO-ENC2-08-115	115	5	168	tu-ogwa-re	tuogware		sua ocultação fêz	
+BOR-CORBO-ENC2-08-115	115	6	170	to,	to,		em,	
+BOR-CORBO-ENC2-08-115	115	7	170	Boe	Boe		Bororo	
+BOR-CORBO-ENC2-08-115	115	8	170	e-piji.	epiji.		êles de.	
+BOR-CORBO-ENC2-08-116	116	1	170	Uku ika	Uku ika		Sua trombeta	67
+BOR-CORBO-ENC2-08-116	116	2	170	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-116	116	3	170	"""Ka, ka;"	"""Ka, ka;"		"""Ka, ka;"	
+BOR-CORBO-ENC2-08-116	116	4	170	"ka, ka, ka."""	"ka, ka, ka."""		"ka, ka, ka."""	
+BOR-CORBO-ENC2-08-117	117	1	170	Oino	Oino		Assim	
+BOR-CORBO-ENC2-08-117	117	2	170	woe	woe		(fêz) lá	
+BOR-CORBO-ENC2-08-117	117	3	170	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-08-118	118	1	170	Icare	Icare		E	
+BOR-CORBO-ENC2-08-118	118	2	170	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-08-118	118	3	170	pugeje	pugeje		ainda	
+BOR-CORBO-ENC2-08-118	118	4	170	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-118	118	5	170	baa-to;	baato;		aldeia a;	
+BOR-CORBO-ENC2-08-118	118	6	170	nono-re	nonore		assim	
+BOR-CORBO-ENC2-08-118	118	7	170	icare	icare		e	
+BOR-CORBO-ENC2-08-118	118	8	170	Boroge	Boroge		Boroge	68
+BOR-CORBO-ENC2-08-118	118	9	170	ako-re	akore		palavra fêz	
+BOR-CORBO-ENC2-08-118	118	10	170	tu-godu	tugodu		sua ida	
+BOR-CORBO-ENC2-08-118	118	11	170	iagu	iagu		que (faria)	
+BOR-CORBO-ENC2-08-118	118	12	170	apo.	apo.		com (êle).	
+BOR-CORBO-ENC2-08-119	119	1	170	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-119	119	2	170	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-119	119	3	170	ako-re	akore		palavra fêz	
+BOR-CORBO-ENC2-08-119	119	4	170	kodo	kodo		ida	
+BOR-CORBO-ENC2-08-119	119	5	170	ka-iagu,	kaiagu,		não que,	
+BOR-CORBO-ENC2-08-119	119	6	170	Boroge-ie	Borogeie		Boroge que	
+BOR-CORBO-ENC2-08-119	119	7	170	j'etu	jetu		seu cuidado	
+BOR-CORBO-ENC2-08-119	119	8	170	mode	mode		terá	
+BOR-CORBO-ENC2-08-119	119	9	170	tu-iaroe	tuiaroe		(de) seus súditos	
+BOR-CORBO-ENC2-08-119	119	10	170	ei,	ei,		êles,	
+BOR-CORBO-ENC2-08-119	119	11	170	nono	nono		assim	
+BOR-CORBO-ENC2-08-119	119	12	170	tu-iageje:	tuiageje:		(na) sua ausência:	
+BOR-CORBO-ENC2-08-119	119	13	170	boe	boe		coisa	
+BOR-CORBO-ENC2-08-119	119	14	170	pega,	pega,		(com) ruindade	
+BOR-CORBO-ENC2-08-119	119	15	170	boe	boe		coisa	
+BOR-CORBO-ENC2-08-119	119	16	170	mono	mono		(com) fealdade	
+BOR-CORBO-ENC2-08-119	119	17	170	tada-ie,	tadaie,		dentro que,	
+BOR-CORBO-ENC2-08-119	119	18	170	tu-rakoje-re.	turakojere.		êle morada tinha.	
+BOR-CORBO-ENC2-08-120	120	1	170	Dutabo-re	Dutabore		Depois	
+BOR-CORBO-ENC2-08-120	120	2	170	icare	icare		e	
+BOR-CORBO-ENC2-08-120	120	3	170	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-120	120	4	170	tu-ibagi	tuibagi		atrás de si	
+BOR-CORBO-ENC2-08-120	120	5	170	pugeje.	pugeje.		novamente.	
+BOR-CORBO-ENC2-08-121	121	1	170	Aregodu-re	Aregodure		Chegada fêz	
+BOR-CORBO-ENC2-08-121	121	2	170	pugeje;	pugeje;		novamente;	
+BOR-CORBO-ENC2-08-121	121	3	170	pana	pana		(uma) buzina	69
+BOR-CORBO-ENC2-08-121	121	4	170	ako-re	akore		som fêz	
+BOR-CORBO-ENC2-08-121	121	5	170	toro:	toro:		lá:	
+BOR-CORBO-ENC2-08-121	121	6	170	"""Um, um;"	"""Um, um;"		"""Um, um;"	
+BOR-CORBO-ENC2-08-121	121	7	170	um, um;	um, um;		um, um;	
+BOR-CORBO-ENC2-08-121	121	8	170	"um, um."""	"um, um."""		"um, um."""	
+BOR-CORBO-ENC2-08-122	122	1	170	Kuri	Kuri		Logo	
+BOR-CORBO-ENC2-08-122	122	2	170	tu	tu		aí	
+BOR-CORBO-ENC2-08-122	122	3	170	baa-to,	baato,		aldeia em,	
+BOR-CORBO-ENC2-08-122	122	4	170	pugeje.	pugeje.		ainda.	
+BOR-CORBO-ENC2-08-123	123	1	170	Boe	Boe		(Os) Bororo	
+BOR-CORBO-ENC2-08-123	123	2	170	e'go-re:	egore:		sua palavra fizeram:	
+BOR-CORBO-ENC2-08-123	123	3	170	"""Icare"	"""Icare"		"""E"	
+BOR-CORBO-ENC2-08-123	123	4	170	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-123	123	5	170	re	re		caminho	
+BOR-CORBO-ENC2-08-123	123	6	170	mae-re	maere		sempre fazia	
+BOR-CORBO-ENC2-08-123	123	7	170	tu-ibagi!	tuibagi!		atrás de si!	
+BOR-CORBO-ENC2-08-124	124	1	170	Kaba	Kaba		Por que	
+BOR-CORBO-ENC2-08-124	124	2	170	bogai ba	bogai ba		a	
+BOR-CORBO-ENC2-08-124	124	3	170	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-124	124	4	170	ro-i,	roi,		ação fazia,	
+BOR-CORBO-ENC2-08-124	124	5	170	ro	ro		ação (fazia)	
+BOR-CORBO-ENC2-08-124	124	6	170	"ino?"""	"ino?"""		"assim?"""	
+BOR-CORBO-ENC2-08-125	125	1	170	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-125	125	2	170	bogai	bogai		a	
+BOR-CORBO-ENC2-08-125	125	3	170	karega,	karega,		não,	
+BOR-CORBO-ENC2-08-125	125	4	170	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-125	125	5	170	ro-i	roi		ação fazia	
+BOR-CORBO-ENC2-08-125	125	6	170	ro	ro		ação	
+BOR-CORBO-ENC2-08-125	125	7	172	ino.	ino.		assim.	
+BOR-CORBO-ENC2-08-126	126	1	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-126	126	2	172	tu-baruia	tubaruia		seu canto de despedida	70
+BOR-CORBO-ENC2-08-126	126	3	172	bogai,	bogai,		a,	
+BOR-CORBO-ENC2-08-126	126	4	172	ro-i	roi		ação fazia	
+BOR-CORBO-ENC2-08-126	126	5	172	ro	ro		ação (fazia)	
+BOR-CORBO-ENC2-08-126	126	6	172	ino.	ino.		assim.	
+BOR-CORBO-ENC2-08-127	127	1	172	Icare	Icare		E	
+BOR-CORBO-ENC2-08-127	127	2	172	Boe-re	Boere		(os) Bororo	
+BOR-CORBO-ENC2-08-127	127	3	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-127	127	4	172	paruiado.	paruiado.		cantaram.	
+BOR-CORBO-ENC2-08-128	128	1	172	Icare	Icare		E	
+BOR-CORBO-ENC2-08-128	128	2	172	Boe	Boe		(os) Bororo	
+BOR-CORBO-ENC2-08-128	128	3	172	e'go-re:	egore:		sua palavra fizeram:	
+BOR-CORBO-ENC2-08-128	128	4	172	"""Ta-gogado"	"""Tagogado"		"""Vós determinar"	
+BOR-CORBO-ENC2-08-128	128	5	172	ta-i,	tai,		vós a,	
+BOR-CORBO-ENC2-08-128	128	6	172	ta-wo	tawo		vós para	
+BOR-CORBO-ENC2-08-128	128	7	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-128	128	8	172	"paruiado."""	"paruiado."""		"cantar."""	
+BOR-CORBO-ENC2-08-129	129	1	172	Kuogori Pijiwu	Kuogori Pijiwu		Kuogori Pijiwu	71
+BOR-CORBO-ENC2-08-129	129	2	172	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-129	129	3	172	"""U,"	"""U,"		"""Sim,"	
+BOR-CORBO-ENC2-08-129	129	4	172	i-goia-re	igoiare		eu causa	
+BOR-CORBO-ENC2-08-129	129	5	172	i-mode	imode		eu serei	
+BOR-CORBO-ENC2-08-129	129	6	172	Baitogogo	Baitogogo		(de) Baitogogo	
+BOR-CORBO-ENC2-08-129	129	7	172	"paruiado."""	"paruiado."""		"cantar."""	
+BOR-CORBO-ENC2-08-130	130	1	172	Icare	Icare		E (fêz)	
+BOR-CORBO-ENC2-08-130	130	2	172	kodo	kodo		ida	
+BOR-CORBO-ENC2-08-130	130	3	172	kuri	kuri		logo	
+BOR-CORBO-ENC2-08-130	130	4	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-130	130	5	172	ae.	ae.		a.	
+BOR-CORBO-ENC2-08-131	131	1	172	U-re	Ure		Êle fêz	
+BOR-CORBO-ENC2-08-131	131	2	172	tug-era	tugera		(de) sua mão	72
+BOR-CORBO-ENC2-08-131	131	3	172	bu	bu		colocação	
+BOR-CORBO-ENC2-08-131	131	4	172	ao	ao		(a) cabeça	
+BOR-CORBO-ENC2-08-131	131	5	172	keje;	keje;		sôbre;	
+BOR-CORBO-ENC2-08-131	131	6	172	tu-i	tui		êle fêz	
+BOR-CORBO-ENC2-08-131	131	7	172	paruia-dodu	paruiadodu		canto	
+BOR-CORBO-ENC2-08-131	131	8	172	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-08-132	132	1	172	Akedu	Akedu		Acabamento	
+BOR-CORBO-ENC2-08-132	132	2	172	keje-re,	kejere,		quando foi,	
+BOR-CORBO-ENC2-08-132	132	3	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-132	132	4	172	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-132	132	5	172	"""Icare"	"""Icare"		"""E"	
+BOR-CORBO-ENC2-08-132	132	6	172	i-tu	itu		minha ida	
+BOR-CORBO-ENC2-08-132	132	7	172	"mode."""	"mode."""		"farei."""	
+BOR-CORBO-ENC2-08-133	133	1	172	Icare	Icare		E	
+BOR-CORBO-ENC2-08-133	133	2	172	Boroge	Boroge		Boroge	
+BOR-CORBO-ENC2-08-133	133	3	172	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-133	133	4	172	"""Icare"	"""Icare"		"""E"	
+BOR-CORBO-ENC2-08-133	133	5	172	i-kodu	ikodu		minha ida	
+BOR-CORBO-ENC2-08-133	133	6	172	mode	mode		farei	
+BOR-CORBO-ENC2-08-133	133	7	172	"ak-abo."""	"akabo."""		"ti com."""	
+BOR-CORBO-ENC2-08-134	134	1	172	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-134	134	2	172	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-134	134	3	172	"""A-kodu"	"""Akodu"		"""Tua ida"	
+BOR-CORBO-ENC2-08-134	134	4	172	kaba,	kaba,		não,	
+BOR-CORBO-ENC2-08-134	134	5	172	aki	aki		tu	
+BOR-CORBO-ENC2-08-134	134	6	172	a-etu	aetu		teu cuidado	
+BOR-CORBO-ENC2-08-134	134	7	172	mode	mode		terás	
+BOR-CORBO-ENC2-08-134	134	8	172	pa-iaroe	paiaroe		(de) nossos súditos	
+BOR-CORBO-ENC2-08-134	134	9	172	ei.	ei.		êles.	
+BOR-CORBO-ENC2-08-135	135	1	172	Boe	Boe		Coisa	
+BOR-CORBO-ENC2-08-135	135	2	172	pega,	pega,		(com) ruindade,	
+BOR-CORBO-ENC2-08-135	135	3	172	boe	boe		coisa	
+BOR-CORBO-ENC2-08-135	135	4	172	mono	mono		(com) fealdade	
+BOR-CORBO-ENC2-08-135	135	5	172	tada-re	tadare		dentro, tinha	
+BOR-CORBO-ENC2-08-135	135	6	172	"i-ragoje-re."""	"iragojere."""		"minha estada."""	
+BOR-CORBO-ENC2-08-136	136	1	172	Boroge	Boroge		Boroge	
+BOR-CORBO-ENC2-08-136	136	2	172	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-136	136	3	172	"""Boro,"	"""Boro,"		"""Não,"	
+BOR-CORBO-ENC2-08-136	136	4	172	i-kodu-i	ikodui		minha ida fiz	
+BOR-CORBO-ENC2-08-136	136	5	172	ak-abo;	akabo;		ti com;	
+BOR-CORBO-ENC2-08-136	136	6	172	dukodi-re	dukodire		por isso	
+BOR-CORBO-ENC2-08-136	136	7	172	pana	pana		(da) buzina	73
+BOR-CORBO-ENC2-08-136	136	8	172	ako	ako		som	
+BOR-CORBO-ENC2-08-136	136	9	172	akuru	akuru		trajetória	
+BOR-CORBO-ENC2-08-136	136	10	172	mode	mode		terá	
+BOR-CORBO-ENC2-08-136	136	11	172	ika	ika		(da) trombeta	
+BOR-CORBO-ENC2-08-136	136	12	172	ako	ako		som	
+BOR-CORBO-ENC2-08-136	136	13	174	"j'ipagi."""	"jipagi."""		"ao encontro dêle."""	
+BOR-CORBO-ENC2-08-137	137	1	174	Nono-re	Nonore		Assim	
+BOR-CORBO-ENC2-08-137	137	2	174	icare	icare		e	
+BOR-CORBO-ENC2-08-137	137	3	174	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-137	137	4	174	u-tu-re	uture		sua ida fêz	
+BOR-CORBO-ENC2-08-137	137	5	174	Boroge	Boroge		Boroge	
+BOR-CORBO-ENC2-08-137	137	6	174	apo,	apo,		com,	
+BOR-CORBO-ENC2-08-137	137	7	174	ji...	ji...		até...	
+BOR-CORBO-ENC2-08-137	137	8	174	nowu	nowu		aquêle	
+BOR-CORBO-ENC2-08-137	137	9	174	tu-iao	tuiao		seu lugar	
+BOR-CORBO-ENC2-08-137	137	10	174	kae.	kae.		a.	
+BOR-CORBO-ENC2-08-138	138	1	174	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-138	138	2	174	et-aregodu-re	etaregodure		sua chegada fizeram	
+BOR-CORBO-ENC2-08-138	138	3	174	tui-pobe	tuipobe		êles dois	
+BOR-CORBO-ENC2-08-138	138	4	174	du-t'abo,	dutabo,		êles êle com,	
+BOR-CORBO-ENC2-08-138	138	5	174	pana	pana		(da) buzina	
+BOR-CORBO-ENC2-08-138	138	6	174	ako	ako		(o) som	
+BOR-CORBO-ENC2-08-138	138	7	174	akuru-re	akurure		trajetória tinha	
+BOR-CORBO-ENC2-08-138	138	8	174	ika	ika		(da) trombeta	
+BOR-CORBO-ENC2-08-138	138	9	174	ako	ako		som	
+BOR-CORBO-ENC2-08-138	138	10	174	j'ipagi,	jipagi,		ao encontro	
+BOR-CORBO-ENC2-08-138	138	11	174	rugadu.	rugadu.		em verdade.	
+BOR-CORBO-ENC2-08-139	139	1	174	Et-aregodu-re	Etaregodure		Sua chegada fizeram	
+BOR-CORBO-ENC2-08-139	139	2	174	baa-to,	baato,		aldeia em,	
+BOR-CORBO-ENC2-08-139	139	3	174	pugeje,	pugeje,		novamente,	
+BOR-CORBO-ENC2-08-139	139	4	174	nono-re	nonore		aí	
+BOR-CORBO-ENC2-08-139	139	5	174	icare	icare		e	
+BOR-CORBO-ENC2-08-139	139	6	174	Boe	Boe		(os) Bororo	
+BOR-CORBO-ENC2-08-139	139	7	174	e'go-re:	egore:		sua palavra fizeram:	
+BOR-CORBO-ENC2-08-139	139	8	174	"""Ta-gogado"	"""Tagogado"		"""Vós escolher"	
+BOR-CORBO-ENC2-08-139	139	9	174	tai,	tai,		vós,	
+BOR-CORBO-ENC2-08-139	139	10	174	ta-wo	tawo		vós para	
+BOR-CORBO-ENC2-08-139	139	11	174	u-vie	uvie		seu irmão menor	34
+BOR-CORBO-ENC2-08-139	139	12	174	Boroge	Boroge		Boroge	
+BOR-CORBO-ENC2-08-139	139	13	174	paruiado	paruiado		cantar	
+BOR-CORBO-ENC2-08-139	139	14	174	"pugeje."""	"pugeje."""		"também."""	
+BOR-CORBO-ENC2-08-140	140	1	174	Icare	Icare		E	
+BOR-CORBO-ENC2-08-140	140	2	174	Bakoro Ekureu	Bakoro Ekurewu		Bakoro Ekureu	74
+BOR-CORBO-ENC2-08-140	140	3	174	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-140	140	4	174	"""Imi,"	"""Imi,"		"""Eu,"	
+BOR-CORBO-ENC2-08-140	140	5	174	i-goia-re	igoiare		eu causa,	
+BOR-CORBO-ENC2-08-140	140	6	174	i-mode	imode		eu serei	
+BOR-CORBO-ENC2-08-140	140	7	174	Boroge	Boroge		(de) Boroge	
+BOR-CORBO-ENC2-08-140	140	8	174	"paruiado."""	"paruiado."""		"cantar."""	
+BOR-CORBO-ENC2-08-141	141	1	174	Icare	Icare		E	
+BOR-CORBO-ENC2-08-141	141	2	174	u-re	ure		êle fêz	
+BOR-CORBO-ENC2-08-141	141	3	174	tug-era	tugera		(de) sua mão	
+BOR-CORBO-ENC2-08-141	141	4	174	bu	bu		colocação	
+BOR-CORBO-ENC2-08-141	141	5	174	tu-ao	tuao		sua cabeça	
+BOR-CORBO-ENC2-08-141	141	6	174	keje,	keje,		sôbre,	
+BOR-CORBO-ENC2-08-141	141	7	174	Marenaruie	Marenaruie		(canto) Marenaruie	75
+BOR-CORBO-ENC2-08-141	141	8	174	t'abo.	tabo.		êle com.	
+BOR-CORBO-ENC2-08-142	142	1	174	Icare	Icare		E	
+BOR-CORBO-ENC2-08-142	142	2	174	en-ogitua-re	enogituare		êles conselho deram	
+BOR-CORBO-ENC2-08-142	142	3	174	nowu	nowu		(a) êste(s)	76
+BOR-CORBO-ENC2-08-142	142	4	174	tu-iaroe ei:	tuiaroe ei:		seus súditos êles:	
+BOR-CORBO-ENC2-08-142	142	5	174	"""Ta-eto"	"""Taeto"		"""(Tende) vosso cuidado"	
+BOR-CORBO-ENC2-08-142	142	6	174	pui	pui		(com) reciprocidade	
+BOR-CORBO-ENC2-08-142	142	7	174	tag-aiwodo	tagaiwodo		vós olhar	
+BOR-CORBO-ENC2-08-142	142	8	174	pui,	pui,		(com) reciprocidade	
+BOR-CORBO-ENC2-08-142	142	9	174	c'ogwa	cogwa		nossa ocultação	
+BOR-CORBO-ENC2-08-142	142	10	174	nure	nure	1	é	
+BOR-CORBO-ENC2-08-142	142	11	174	ta-biji,	tabiji,		vós de,	
+BOR-CORBO-ENC2-08-142	142	12	174	ce-du	cedu		nossa ida	
+BOR-CORBO-ENC2-08-142	142	13	174	nure	nure	1	é	
+BOR-CORBO-ENC2-08-142	142	14	174	ta-biji,	tabiji,		vós de,	
+BOR-CORBO-ENC2-08-142	142	15	174	ced-aregodu	cedaregodu		nossa chegada	
+BOR-CORBO-ENC2-08-142	142	16	174	modu	modu		será	
+BOR-CORBO-ENC2-08-142	142	17	174	ka-re	kare		não	
+BOR-CORBO-ENC2-08-142	142	18	174	"pugeje."""	"pugeje."""		"mais."""	
+BOR-CORBO-ENC2-08-143	143	1	174	Dukeje	Dukeje		Depois	
+BOR-CORBO-ENC2-08-143	143	2	174	icare	icare		e	
+BOR-CORBO-ENC2-08-143	143	3	174	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-143	143	4	174	t'ogwa	togwa		(de) seu lábio	
+BOR-CORBO-ENC2-08-143	143	5	174	tugu	tugu		colocação	
+BOR-CORBO-ENC2-08-143	143	6	174	ika-to,	ikato,		trombeta em,	
+BOR-CORBO-ENC2-08-143	143	7	176	pana-to,	panato,		buzina em,	
+BOR-CORBO-ENC2-08-143	143	8	176	icare	icare		e	
+BOR-CORBO-ENC2-08-143	143	9	176	e-re	ere		êles fizeram	
+BOR-CORBO-ENC2-08-143	143	10	176	tu-remo	turemo		seu ingresso	
+BOR-CORBO-ENC2-08-143	143	11	176	pobo-to,	poboto,		água em,	
+BOR-CORBO-ENC2-08-143	143	12	176	pugeje.	pugeje.		novamente.	
+BOR-CORBO-ENC2-08-144	144	1	176	Boe	Boe		(Os) Bororo	
+BOR-CORBO-ENC2-08-144	144	2	176	e-erudu	eerudu		seu conhecimento	
+BOR-CORBO-ENC2-08-144	144	3	176	birigodu	birigodu		(com) perfeição	
+BOR-CORBO-ENC2-08-144	144	4	176	ka-re	kare		não tinham	
+BOR-CORBO-ENC2-08-144	144	5	176	e-mugu-reo-ji.	emugureoji.		(de) sua morada ela.	
+BOR-CORBO-ENC2-08-145	145	1	176	Boe	Boe		Tempo	
+BOR-CORBO-ENC2-08-145	145	2	176	kajeje-re	kajejere		sôbre foi,	
+BOR-CORBO-ENC2-08-145	145	3	176	icare	icare		e	
+BOR-CORBO-ENC2-08-145	145	4	176	aroe et-awara arege	aroe etawara arege		(os) xamãs das almas	78
+BOR-CORBO-ENC2-08-145	145	5	176	Boe	Boe		(aos) Bororo	77
+BOR-CORBO-ENC2-08-145	145	6	176	e-vie	evie		(d)êles orelhas (disseram)	
+BOR-CORBO-ENC2-08-145	145	7	176	kaiba	kaiba		onde	
+BOR-CORBO-ENC2-08-145	145	8	176	e-mugu-re	emugure		sua morada tinham	
+BOR-CORBO-ENC2-08-145	145	9	176	duji.	duji.		que.	
+BOR-CORBO-ENC2-08-146	146	1	176	Baitogogo Bakororo	Baitogogo Bakororo		Baitogogo Bakororo	79
+BOR-CORBO-ENC2-08-146	146	2	176	mugu-re	mugure		morada tinha	
+BOR-CORBO-ENC2-08-146	146	3	176	meri	meri		(do) sol	
+BOR-CORBO-ENC2-08-146	146	4	176	butu	butu		queda	
+BOR-CORBO-ENC2-08-146	146	5	176	j'aogai;	jaogai;		(a) seu lado;	
+BOR-CORBO-ENC2-08-146	146	6	176	Akaruio Boroge Itubore	Akaruio Boroge Itubore		Akaruio Boroge Itubore	80
+BOR-CORBO-ENC2-08-146	146	7	176	meri	meri		(do) sol	
+BOR-CORBO-ENC2-08-146	146	8	176	rutu	rutu		ascensão	
+BOR-CORBO-ENC2-08-146	146	9	176	j'aogwai.	jaogwai.		(a) seu lado.	
+BOR-CORBO-ENC2-08-147	147	1	176	Baitogogo Bakororo	Baitogogo Bakororo		Baitogogo Bakororo	81
+BOR-CORBO-ENC2-08-147	147	2	176	irogodu	irogodu		carvão	
+BOR-CORBO-ENC2-08-147	147	3	176	padu-re	padure		estada tinha	
+BOR-CORBO-ENC2-08-147	147	4	176	biri	biri		(a) pele	
+BOR-CORBO-ENC2-08-147	147	5	176	eku	eku		amarela	
+BOR-CORBO-ENC2-08-147	147	6	176	kajeje;	kajeje;		sôbre;	
+BOR-CORBO-ENC2-08-147	147	7	176	i-edu-re	iedure		sua seguração tinha	
+BOR-CORBO-ENC2-08-147	147	8	176	ika-ji.	ikaji.		(da) trombeta.	
+BOR-CORBO-ENC2-08-148	148	1	176	Akaruio Boroge Itubore	Akaruio Boroge Itubore		Akaruio Boroge Itubore	
+BOR-CORBO-ENC2-08-148	148	2	176	kiogo	kiogo		(de) ave	
+BOR-CORBO-ENC2-08-148	148	3	176	agiri	agiri		penugem branca	
+BOR-CORBO-ENC2-08-148	148	4	176	padu-re	padure		estada tinha	
+BOR-CORBO-ENC2-08-148	148	5	176	atugo	atugo		(da) pintura	
+BOR-CORBO-ENC2-08-148	148	6	176	j'amedu	jamedu		ela tôda	
+BOR-CORBO-ENC2-08-148	148	7	176	boe	boe		coisa	
+BOR-CORBO-ENC2-08-148	148	8	176	okwa-ji;	okwaji;		(na) margem ela;	
+BOR-CORBO-ENC2-08-148	148	9	176	i-edu-re	iedure		sua seguração tinha	
+BOR-CORBO-ENC2-08-148	148	10	176	pana-ji.	panaji.		(da) buzina ela.	
+BOR-CORBO-ENC2-08-149	149	1	176	Icare	Icare		E	82
+BOR-CORBO-ENC2-08-149	149	2	176	u-re	ure		êle	
+BOR-CORBO-ENC2-08-149	149	3	176	tu-wuredo,	tuwuredo,		se parou,	
+BOR-CORBO-ENC2-08-149	149	4	176	itogodu-re	itogodure		flechada fêz	
+BOR-CORBO-ENC2-08-149	149	5	176	ji;	ji;		(a) êle;	
+BOR-CORBO-ENC2-08-149	149	6	176	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-149	149	7	176	"""Ac-eba-reu"	"""Acebarewu"		"""Tua ferida era aquela"	
+BOR-CORBO-ENC2-08-149	149	8	176	ak-orea	akorea		(de) tua axila	
+BOR-CORBO-ENC2-08-149	149	9	178	baru-to,	baruto,		princípio em,	
+BOR-CORBO-ENC2-08-149	149	10	178	-ca-,	-ca-,		-ca-,	
+BOR-CORBO-ENC2-08-149	149	11	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-149	149	12	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-149	149	13	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-149	149	14	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-150	150	1	178	Ac-eba-reu,	Acebarewu,		Tua ferida era aquela,	
+BOR-CORBO-ENC2-08-150	150	2	178	a-poru-to,	aporuto,		tuas costas em,	
+BOR-CORBO-ENC2-08-150	150	3	178	-ca-,	-ca-,		-ca-,	
+BOR-CORBO-ENC2-08-150	150	4	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-150	150	5	178	a-vi	avi		tua morte	
+BOR-CORBO-ENC2-08-150	150	6	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-150	150	7	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-151	151	1	178	Ac-eba-reu	Acebarewu		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-151	151	2	178	a-kana-to,	akanato,		teu braço em,	
+BOR-CORBO-ENC2-08-151	151	3	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-151	151	4	178	ma-re	mare		mas	
+BOR-CORBO-ENC2-08-151	151	5	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-151	151	6	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-151	151	7	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-152	152	1	178	Ac-eba-reu	Acebarewu		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-152	152	2	178	a-pogora-to,	apogorato,		tua perna em,	
+BOR-CORBO-ENC2-08-152	152	3	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-152	152	4	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-152	152	5	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-152	152	6	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-152	152	7	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-153	153	1	178	Ac-ebareu	Acebarewu		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-153	153	2	178	ako-bo-to,	akoboto,		tu nádega em,	
+BOR-CORBO-ENC2-08-153	153	3	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-153	153	4	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-153	153	5	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-153	153	6	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-153	153	7	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-154	154	1	178	Ac-eba-reu,	Acebarewu,		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-154	154	2	178	a-tori	atori		(de) tua perna	
+BOR-CORBO-ENC2-08-154	154	3	178	kodu-to,	koduto,		músculo em,	
+BOR-CORBO-ENC2-08-154	154	4	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-154	154	5	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-154	154	6	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-154	154	7	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-154	154	8	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-155	155	1	178	Ac-eba-reu,	Acebarewu,		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-155	155	2	178	a-e-to,	aeto,		teu rosto em,	
+BOR-CORBO-ENC2-08-155	155	3	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-155	155	4	178	mare	mare		mas	
+BOR-CORBO-ENC2-08-155	155	5	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-155	155	6	178	modu	modu		terás	
+BOR-CORBO-ENC2-08-155	155	7	178	ka-re.	kare.		não.	
+BOR-CORBO-ENC2-08-156	156	1	178	Ac-eba-reu	Acebarewu		Tua ferida era aquela	
+BOR-CORBO-ENC2-08-156	156	2	178	a-wajiku-to,	awajikuto,		teus ramos anteriores das coronárias	
+BOR-CORBO-ENC2-08-156	156	3	178	-ca-	-ca-		-ca-	
+BOR-CORBO-ENC2-08-156	156	4	178	mare	mare		e	
+BOR-CORBO-ENC2-08-156	156	5	178	a-vi	avi		tu morte	
+BOR-CORBO-ENC2-08-156	156	6	178	"mode."""	"mode."""		"terás."""	
+BOR-CORBO-ENC2-08-157	157	1	178	Icare	Icare		E	
+BOR-CORBO-ENC2-08-157	157	2	178	bi-re.	bire.		morte teve.	
+BOR-CORBO-ENC2-08-158	158	1	178	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-158	158	2	178	roiwa	roiwa		possibilidade	
+BOR-CORBO-ENC2-08-158	158	3	178	ka-re	kare		não tinha	
+BOR-CORBO-ENC2-08-158	158	4	178	t'abo,	tabo,		si com,	
+BOR-CORBO-ENC2-08-158	158	5	178	kodi-re	kodire		por isso	
+BOR-CORBO-ENC2-08-158	158	6	178	makogodo	makogodo		pediu	
+BOR-CORBO-ENC2-08-158	158	7	178	tu-metuia-ji	tumetuiaji		(a) seu companheiro êle	
+BOR-CORBO-ENC2-08-158	158	8	178	Akaruio Boroge;	Akaruio Boroge;		Akaruio Boroge;	
+BOR-CORBO-ENC2-08-158	158	9	180	ako-re:	akore:		palavra fêz:	
+BOR-CORBO-ENC2-08-158	158	10	180	"""A-eto"	"""Aeto"		"""(Tem) teu cuidado"	
+BOR-CORBO-ENC2-08-158	158	11	180	pa-dugareg'ei,	padugaregei,		(de) nossos súditos êles:	
+BOR-CORBO-ENC2-08-158	158	12	180	i-tu-do:	itudo:		minha saída faze;	
+BOR-CORBO-ENC2-08-158	158	13	180	i-roiwa	iroiwa		minha possibilidade	
+BOR-CORBO-ENC2-08-158	158	14	180	modu	modu		terei	
+BOR-CORBO-ENC2-08-158	158	15	180	ka-re	kare		não	
+BOR-CORBO-ENC2-08-158	158	16	180	bokwadi	bokwadi		jatobá	83
+BOR-CORBO-ENC2-08-158	158	17	180	"t'abo."""	"tabo."""		"êle com."""	
+BOR-CORBO-ENC2-08-159	159	1	180	Icare	Icare		E	
+BOR-CORBO-ENC2-08-159	159	2	180	e-re	ere		êles	
+BOR-CORBO-ENC2-08-159	159	3	180	u-tudo;	utudo;		o fizeram sair;	
+BOR-CORBO-ENC2-08-159	159	4	180	icare	icare		e	
+BOR-CORBO-ENC2-08-159	159	5	180	u-re	ure		êle fêz	84
+BOR-CORBO-ENC2-08-159	159	6	180	pobo	pobo		(do) rio	
+BOR-CORBO-ENC2-08-159	159	7	180	to.	to.		criação.	
+BOR-CORBO-ENC2-08-160	160	1	180	U-tu-re	Uture		Êle ida fêz	
+BOR-CORBO-ENC2-08-160	160	2	180	"""gu,"	"""gu,"		"""gu,"	
+BOR-CORBO-ENC2-08-160	160	3	180	gu,	gu,		gu,	
+BOR-CORBO-ENC2-08-160	160	4	180	"gu."""	"gu."""		"gu."""	
+BOR-CORBO-ENC2-08-161	161	1	180	Icare	Icare		E	
+BOR-CORBO-ENC2-08-161	161	2	180	u-re	ure		êle	
+BOR-CORBO-ENC2-08-161	161	3	180	tu-mugudo;	tumugudo;		se assentou;	
+BOR-CORBO-ENC2-08-161	161	4	180	u-re	ure		êle	
+BOR-CORBO-ENC2-08-161	161	5	180	tu-mugudo-wo	tumugudowo		se assentou lugar	
+BOR-CORBO-ENC2-08-161	161	6	180	geje-re:	gejere:		sôbre:	
+BOR-CORBO-ENC2-08-161	161	7	180	pobo	pobo		(de) água	
+BOR-CORBO-ENC2-08-161	161	8	180	j'a	ja		sua bôca	
+BOR-CORBO-ENC2-08-161	161	9	180	kuri	kuri		(de) grandeza	
+BOR-CORBO-ENC2-08-161	161	10	180	cigo-re.	cigore.		(com) abundância foi.	
+BOR-CORBO-ENC2-08-162	162	1	180	U-tu-re	Uture		Sua ida fêz	
+BOR-CORBO-ENC2-08-162	162	2	180	"""gu"""	"""gu"""		"""gu"""	
+BOR-CORBO-ENC2-08-162	162	3	180	ino	ino		assim	
+BOR-CORBO-ENC2-08-162	162	4	180	je:	je:		aí:	
+BOR-CORBO-ENC2-08-162	162	5	180	pobo	pobo		(um) rio	
+BOR-CORBO-ENC2-08-162	162	6	180	re-re	rere		corrida fêz	
+BOR-CORBO-ENC2-08-162	162	7	180	j'etorogodu.	jetorogodu.		(com) sua direitura.	
+BOR-CORBO-ENC2-08-163	163	1	180	U-re	Ure		Êle	
+BOR-CORBO-ENC2-08-163	163	2	180	tu-ganado	tuganado		se apontou	
+BOR-CORBO-ENC2-08-163	163	3	180	ino	ino		assim	
+BOR-CORBO-ENC2-08-163	163	4	180	tuje;	tuje;		aqui;	
+BOR-CORBO-ENC2-08-163	163	5	180	pobo	pobo		(de) água	
+BOR-CORBO-ENC2-08-163	163	6	180	j'a	ja		sua bôca	
+BOR-CORBO-ENC2-08-163	163	7	180	mugu-re.	mugure.		estada teve.	
+BOR-CORBO-ENC2-08-164	164	1	180	U-re	Ure		Êle	
+BOR-CORBO-ENC2-08-164	164	2	180	tu-ganado	tuganado		se apontou	
+BOR-CORBO-ENC2-08-164	164	3	180	oino	oino		assim	
+BOR-CORBO-ENC2-08-164	164	4	180	woje,	woje,		lá,	
+BOR-CORBO-ENC2-08-164	164	5	180	icare	icare		e	
+BOR-CORBO-ENC2-08-164	164	6	180	pobo	pobo		(da) água	
+BOR-CORBO-ENC2-08-164	164	7	180	bure	bure		(o) pé	
+BOR-CORBO-ENC2-08-164	164	8	180	j'o-re	jore		sua inclinação teve	
+BOR-CORBO-ENC2-08-164	164	9	180	pugeje;	pugeje;		também;	
+BOR-CORBO-ENC2-08-164	164	10	180	dukodi-re	dukodire		por isso	
+BOR-CORBO-ENC2-08-164	164	11	180	pobo	pobo		(a) água	
+BOR-CORBO-ENC2-08-164	164	12	180	kuri	kuri		(de) grandeza	
+BOR-CORBO-ENC2-08-164	164	13	180	cigo-re	cigore		(com) abundância foi	
+BOR-CORBO-ENC2-08-164	164	14	180	ino.	ino.		assim.	
+BOR-CORBO-ENC2-08-165	165	1	180	Pobo	Pobo		(O) rio	
+BOR-CORBO-ENC2-08-165	165	2	180	bokwa-re	bokware		não era	
+BOR-CORBO-ENC2-08-165	165	3	180	otodai,	otodai,		antes,	
+BOR-CORBO-ENC2-08-165	165	4	180	kodi	kodi		por isso (as coisas)	
+BOR-CORBO-ENC2-08-165	165	5	180	oino-re.	oinore.		assim foram.	85
+BOR-CORBO-ENC2-08-166	166	1	180	Boe	Boe		(Dos) Bororo	
+BOR-CORBO-ENC2-08-166	166	2	180	e-imejera	eimejera		seu chefe	
+BOR-CORBO-ENC2-08-166	166	3	180	ako-re	akore		palavra fêz	
+BOR-CORBO-ENC2-08-166	166	4	180	Baitogogo	Baitogogo		Baitogogo	
+BOR-CORBO-ENC2-08-166	166	5	180	koiar'u-re	koiarure		causa êle foi	
+BOR-CORBO-ENC2-08-166	166	6	180	pobo	pobo		(do) rio	
+BOR-CORBO-ENC2-08-166	166	7	180	to-ie.	toie.		(da) criação que.	
+BOR-CORBO-ENC2-08-167	167	1	180	Icare	Icare		E	
+BOR-CORBO-ENC2-08-167	167	2	180	aregodu-re	aregodure		chegada fêz	
+BOR-CORBO-ENC2-08-167	167	3	182	ia	ia		uma	
+BOR-CORBO-ENC2-08-167	167	4	182	tu-muga	tumuga		sua morada	86
+BOR-CORBO-ENC2-08-167	167	5	182	kae,	kae,		a,	
+BOR-CORBO-ENC2-08-167	167	6	182	icare	icare		e	
+BOR-CORBO-ENC2-08-167	167	7	182	u-re	ure		êle	
+BOR-CORBO-ENC2-08-167	167	8	182	tu-mugudo.	tumugudo.		se assentou.	87
+BOR-CORBO-ENC2-08-168	168	1	182	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-168	168	2	182	u-tu-re	uture		êle ida fêz	
+BOR-CORBO-ENC2-08-168	168	3	182	tu-ibagi	tuibagi		atrás de si	88
+BOR-CORBO-ENC2-08-168	168	4	182	tu-dugarege	tudugarege		seus súditos	
+BOR-CORBO-ENC2-08-168	168	5	182	e-wogai;	ewogai;		êles a;	
+BOR-CORBO-ENC2-08-168	168	6	182	puredugodu-re	puredugodure		aproximação fêz	
+BOR-CORBO-ENC2-08-168	168	7	182	ei	ei		(d)êles	
+BOR-CORBO-ENC2-08-168	168	8	182	dukeje	dukeje		quando,	
+BOR-CORBO-ENC2-08-168	168	9	182	akedu-re	akedure		seguração fêz	
+BOR-CORBO-ENC2-08-168	168	10	182	ika-ji;	ikaji;		(da) trombeta ela;	
+BOR-CORBO-ENC2-08-168	168	11	182	ako-e:	akoe:		som fêz:	
+BOR-CORBO-ENC2-08-168	168	12	182	"""Pu, pu, pu""."	"""Pu, pu, pu""."		"""Pu, pu, pu""."	
+BOR-CORBO-ENC2-08-169	169	1	182	Mare	Mare		Mas	
+BOR-CORBO-ENC2-08-169	169	2	182	bokwadi	bokwadi		jatobá	
+BOR-CORBO-ENC2-08-169	169	3	182	bokwa-re.	bokware.		não era.	
+BOR-CORBO-ENC2-08-170	170	1	182	U-re	Ure		Êle	
+BOR-CORBO-ENC2-08-170	170	2	182	tu-biagado,	tubiagado,		se fêz pequeno,	
+BOR-CORBO-ENC2-08-170	170	3	182	tu-biagado	tubiagado		se fêz pequeno	
+BOR-CORBO-ENC2-08-170	170	4	182	pobo-to,	poboto,		água em,	
+BOR-CORBO-ENC2-08-170	170	5	182	kodi.	kodi.		porque.	
